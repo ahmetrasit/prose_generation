@@ -46,13 +46,23 @@ def morphology(row: dict[str, str]) -> dict[str, str]:
 def language_policy(language: str) -> dict:
     if language == "tr":
         return {
-            "standard": "Contemporary Standard Turkey Turkish",
-            "loanwordRule": "Use no loanwords. Allah is the only exception.",
-            "allowedLoanwords": ["Allah"],
+            "standard": "Natural Contemporary Standard Turkey Turkish",
+            "ordinaryVocabularyRule": (
+                "Use fully established ordinary Turkish vocabulary regardless "
+                "of historical etymology. Do not replace a natural Turkish "
+                "word merely because it entered Turkish from another language."
+            ),
+            "religiousLabelRule": (
+                "Do not use a conventional religious technical label as a "
+                "substitute for translating the source occurrence. Express "
+                "the occurrence-specific act or concept in transparent Turkish "
+                "whenever the label would conceal its source-grounded meaning."
+            ),
+            "properNameRule": "Retain Allah as the source proper name.",
+            "allowedUntranslatedProperNames": ["Allah"],
             "fallbackRule": (
-                "When no single native word is adequate, write a short, "
-                "transparent Turkish phrase instead of using a conventional "
-                "Quran-translation loanword."
+                "When no single natural word is adequate, write a short, "
+                "transparent Turkish phrase."
             ),
         }
     return {

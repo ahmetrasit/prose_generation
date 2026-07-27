@@ -1,0 +1,3617 @@
+{
+  "bundle_type": "ayah",
+  "schema_version": "input-bundle-v1",
+  "generated_at": "2026-07-27T20:27:55.066187+00:00",
+  "surah": 100,
+  "ayah": 1,
+  "ayahRef": "100:1",
+  "text": {
+    "arabic_uthmani": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+    "source": "quran-data/data/text/quran-uthmani.tsv"
+  },
+  "qac_morphemes": [
+    {
+      "qac_ref": "100:1:1:1",
+      "qac_word_ref": "100:1:1",
+      "surah": 100,
+      "ayah": 1,
+      "word_index": 1,
+      "morpheme_index": 1,
+      "surface_bw": "wa",
+      "surface_ar": "وَ",
+      "stem_ar": "",
+      "lemma_bw": "",
+      "lemma_ar": "",
+      "root_raw": "",
+      "root_ar": "",
+      "root_join_key": "",
+      "source_pos": "P",
+      "pos": "P",
+      "morpheme_role": "PREFIX",
+      "morph_features": "PREFIX|w:P+",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 127716,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    },
+    {
+      "qac_ref": "100:1:1:2",
+      "qac_word_ref": "100:1:1",
+      "surah": 100,
+      "ayah": 1,
+      "word_index": 1,
+      "morpheme_index": 2,
+      "surface_bw": "{lo",
+      "surface_ar": "ٱلْ",
+      "stem_ar": "",
+      "lemma_bw": "",
+      "lemma_ar": "",
+      "root_raw": "",
+      "root_ar": "",
+      "root_join_key": "",
+      "source_pos": "DET",
+      "pos": "DET",
+      "morpheme_role": "PREFIX",
+      "morph_features": "PREFIX|Al+",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 127717,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    },
+    {
+      "qac_ref": "100:1:1:3",
+      "qac_word_ref": "100:1:1",
+      "surah": 100,
+      "ayah": 1,
+      "word_index": 1,
+      "morpheme_index": 3,
+      "surface_bw": "Ea`diya`ti",
+      "surface_ar": "عَٰدِيَٰتِ",
+      "stem_ar": "عَٰدِيَٰتِ",
+      "lemma_bw": "Ea`diya`t",
+      "lemma_ar": "عَٰدِيَٰت",
+      "root_raw": "Edw",
+      "root_ar": "ع د و",
+      "root_join_key": "عدو",
+      "source_pos": "N",
+      "pos": "N",
+      "morpheme_role": "STEM",
+      "morph_features": "STEM|POS:N|ACT|PCPL|LEM:Ea`diya`t|ROOT:Edw|FP|GEN",
+      "aspect": "",
+      "mood": "",
+      "voice": "ACT",
+      "measure": "",
+      "source_line_no": 127718,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    },
+    {
+      "qac_ref": "100:1:2:1",
+      "qac_word_ref": "100:1:2",
+      "surah": 100,
+      "ayah": 1,
+      "word_index": 2,
+      "morpheme_index": 1,
+      "surface_bw": "DaboHFA",
+      "surface_ar": "ضَبْحًا",
+      "stem_ar": "ضَبْحًا",
+      "lemma_bw": "DaboH",
+      "lemma_ar": "ضَبْح",
+      "root_raw": "DbH",
+      "root_ar": "ض ب ح",
+      "root_join_key": "ضبح",
+      "source_pos": "N",
+      "pos": "N",
+      "morpheme_role": "STEM",
+      "morph_features": "STEM|POS:N|LEM:DaboH|ROOT:DbH|M|INDEF|ACC",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 127719,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    }
+  ],
+  "word_analysis": {
+    "schema_version": "word-analysis-output-v2",
+    "prompt_version": "word-aha-prose-v1.6",
+    "ref": "100:1",
+    "bundle_id": "word-analysis-input-v1:agent:100:1",
+    "words": [
+      {
+        "critical_w": 1,
+        "aligned_qac_word_ref": "100:1:1",
+        "surface_display": "{{ar:وَ}} ({{tr:wa}})",
+        "root_display": "no lexical root",
+        "gloss_range": "oath-opening particle, not ordinary coordination here; it governs the following genitive oath object and compresses an oath formula into one initial letter",
+        "root_gloss_range": null,
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "100:1:2"
+            ],
+            "ar": "ٱلْعَٰدِيَٰتِ",
+            "tr": "al-'ādiyāti",
+            "display": "{{ar:ٱلْعَٰدِيَٰتِ}} ({{tr:al-'ādiyāti}})",
+            "gloss_range": "following definite active participle governed as the oath object",
+            "relation": "grammar"
+          }
+        ],
+        "prose": "{{ar:وَ}} ({{tr:wa}}) opens the surah as an oath particle rather than a simple connector. It makes the next word the sworn-by object, leaves the oath verb compressed, and starts a five-clause oath sequence (100:1-5) whose answer arrives later (100:6). Because the particle is joined in recitation to {{ar:ٱلْعَٰدِيَٰتِ}} ({{tr:al-'ādiyāti}}), the grammar and sound both launch the rushing image as one tight oath unit.",
+        "topics": [
+          {
+            "topic_id": "100:1:1:oath-governance",
+            "status": "used",
+            "headline": "oath particle governs the sworn object",
+            "representative_source_ids": [
+              "QG-df4c11b9",
+              "QS-27d02d8b",
+              "QT-d847139e"
+            ],
+            "reader_payoff": "The reader notices that the opening particle turns the first image into oath evidence, not ordinary continuation.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "attachment:attachments",
+              "attachment:translation_support"
+            ],
+            "reason": "QAC and attachment evidence identify the particle as oath-governing and the following participle as its genitive complement."
+          },
+          {
+            "topic_id": "100:1:1:compressed-delayed-qasam",
+            "status": "used",
+            "headline": "compressed oath verb and delayed answer",
+            "representative_source_ids": [
+              "MG-f182b034",
+              "QI-65124881",
+              "QT-923d29b2"
+            ],
+            "reader_payoff": "The reader notices that the one-letter opener carries an unstated oath act and makes the first ayah anticipatory until the response appears (100:6).",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:ellipsis",
+              "attachment:translation_support"
+            ],
+            "reason": "Attachment evidence marks formulaic ellipsis of the oath predication and a wider oath sequence continuing through 100:5 with its response at 100:6."
+          },
+          {
+            "topic_id": "100:1:1:fused-audible-launch",
+            "status": "used",
+            "headline": "particle fuses audibly with the oath image",
+            "representative_source_ids": [
+              "QF-df7e6be6",
+              "QP-8e720064",
+              "QY-af82e14c"
+            ],
+            "reader_payoff": "The reader hears the particle and the charging image as a single launch rather than two detached units.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "attachment:attachments"
+            ],
+            "reason": "The written proclitic and recited liaison fit the syntactically forced bond between the oath particle and its complement."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-df4c11b9",
+            "topic_id": "100:1:1:oath-governance",
+            "status": "used"
+          },
+          {
+            "row_id": "MG-f182b034",
+            "topic_id": "100:1:1:compressed-delayed-qasam",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-27d02d8b",
+            "topic_id": "100:1:1:oath-governance",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-df7e6be6",
+            "topic_id": "100:1:1:fused-audible-launch",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-65124881",
+            "topic_id": "100:1:1:compressed-delayed-qasam",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-923d29b2",
+            "topic_id": "100:1:1:compressed-delayed-qasam",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-d847139e",
+            "topic_id": "100:1:1:oath-governance",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-8e720064",
+            "topic_id": "100:1:1:fused-audible-launch",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-af82e14c",
+            "topic_id": "100:1:1:fused-audible-launch",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      },
+      {
+        "critical_w": 2,
+        "aligned_qac_word_ref": "100:1:2",
+        "surface_display": "{{ar:ٱلْعَٰدِيَٰتِ}} ({{tr:al-'ādiyāti}})",
+        "root_display": "{{ar:ع د و}} ({{tr:'-d-w}})",
+        "gloss_range": "the definite feminine plural active participle naming the charging or running ones as an oath object; the local sense selects kinetic motion while retaining an adversarial and boundary-crossing pressure",
+        "root_gloss_range": "broad root range including running and hastening, overstepping, hostility, enemy language, passing beyond, and other distant branches; the local participial oath frame selects the running or charging branch while allowing hostile pressure as a lexical edge",
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "100:1:2"
+            ],
+            "ar": "ٱلْغَادِيَٰتِ",
+            "tr": "al-ghādiyāti",
+            "display": "{{ar:ٱلْغَادِيَٰتِ}} ({{tr:al-ghādiyāti}})",
+            "gloss_range": "reported variant that shifts the oath object from charging motion to dawn-going",
+            "relation": "contrast"
+          }
+        ],
+        "prose": "{{ar:ٱلْعَٰدِيَٰتِ}} ({{tr:al-'ādiyāti}}) is the first content word of the oath, and it names a class by action rather than by species: the charging or running ones. Its genitive case makes that moving class the sworn-by object, while the feminine plural and definiteness make the group recognizable without forcing the reader to choose horses, camels, warriors, or another referent at this layer. The root {{ar:ع د و}} ({{tr:'-d-w}}) selects motion here, but its enemy, aggression, and exceeding-bounds field keeps the rush from sounding neutral. The variant {{ar:ٱلْغَادِيَٰتِ}} ({{tr:al-ghādiyāti}}) would move the line toward dawn-going, so the standard wording foregrounds charge before time; then the long ā and extended -iyāt ending let the rush stretch before the compact breath-word, while the feminine participial form sets the template for the next oath participles (100:2; 100:3).",
+        "topics": [
+          {
+            "topic_id": "100:1:2:participial-oath-object",
+            "status": "used",
+            "headline": "action-class stands as the sworn object",
+            "representative_source_ids": [
+              "QG-710929bb",
+              "QG-d893a8fb",
+              "QT-fdda5be9"
+            ],
+            "reader_payoff": "The reader notices that the oath begins with a class defined by motion, not with a named animal, army, or finite event.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "attachment:attachments",
+              "attachment:noun_instances"
+            ],
+            "reason": "The QAC row identifies a feminine plural active participle governed by the oath particle, and attachment evidence makes it the particle complement."
+          },
+          {
+            "topic_id": "100:1:2:referent-underdetermination",
+            "status": "used",
+            "headline": "definite feminine plural leaves the referent open",
+            "representative_source_ids": [
+              "QG-b5328a58",
+              "QS-437bf911",
+              "QF-6ec900e2"
+            ],
+            "reader_payoff": "The reader receives the force of charging before resolving exactly who or what is charging.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "contextual:referent_profiles_v2"
+            ],
+            "reason": "The form is definite and feminine plural, but the local grammar supplies no overt species noun; contextual referent data is too distributed to force one referent."
+          },
+          {
+            "topic_id": "100:1:2:kinetic-adversarial-root-pressure",
+            "status": "narrowed",
+            "headline": "motion is selected with hostile edge",
+            "representative_source_ids": [
+              "QS-0f57d3dc",
+              "QS-81fc23e4",
+              "QI-7946c04e"
+            ],
+            "reader_payoff": "The reader feels the charge as more than neutral running because the same root field leans toward enmity, aggression, and exceeding bounds.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "v4:branch_images",
+              "v4:lexical_sense_groups",
+              "contextual:contextual_summary_v2"
+            ],
+            "reason": "V4 separates running, overstepping, and enmity into accepted branches; the local active participle and oath scene select kinetic motion, while related branches remain valid pressure rather than replacement senses."
+          },
+          {
+            "topic_id": "100:1:2:dawn-variant-contrast",
+            "status": "used",
+            "headline": "variant redirects the oath toward dawn-going",
+            "representative_source_ids": [
+              "QF-599acfe7",
+              "QE-6bbcddaa"
+            ],
+            "reader_payoff": "The reader sees what the standard root preserves: charge and boundary-pressure rather than immediate morning departure.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "v4:branch_images"
+            ],
+            "reason": "The accepted variant is useful as contrast, but it does not replace the aligned standard surface in this output."
+          },
+          {
+            "topic_id": "100:1:2:cadence-and-breath-contrast",
+            "status": "used",
+            "headline": "extended participle rushes into clipped breath",
+            "representative_source_ids": [
+              "QF-81ef9b4f",
+              "QP-d4e9ce3a",
+              "QP-ea88af62"
+            ],
+            "reader_payoff": "The reader hears the line move as a stretched rush followed by the compact breath-word.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "attachment:attachments"
+            ],
+            "reason": "The long participial form is immediately followed by the shorter accusative breath qualifier, so the sound observation remains tied to local sequence."
+          },
+          {
+            "topic_id": "100:1:2:participial-oath-chain",
+            "status": "used",
+            "headline": "first participle teaches the next oath images",
+            "representative_source_ids": [
+              "QE-71fde5eb",
+              "QY-5f92804b"
+            ],
+            "reader_payoff": "The reader notices that this opening participle establishes a pattern continued by the following oath participles (100:2; 100:3).",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:translation_support",
+              "qac:word_table"
+            ],
+            "reason": "The attachment evidence frames 100:1 as the start of an oath series, and the CRITICAL rows name the matching participial continuation in 100:2 and 100:3."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-710929bb",
+            "topic_id": "100:1:2:participial-oath-object",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-b5328a58",
+            "topic_id": "100:1:2:referent-underdetermination",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-d893a8fb",
+            "topic_id": "100:1:2:participial-oath-object",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-0f57d3dc",
+            "topic_id": "100:1:2:kinetic-adversarial-root-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-437bf911",
+            "topic_id": "100:1:2:referent-underdetermination",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-81fc23e4",
+            "topic_id": "100:1:2:kinetic-adversarial-root-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-e71116ce",
+            "topic_id": "100:1:2:kinetic-adversarial-root-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "MS-1e2cc65d",
+            "topic_id": "100:1:2:referent-underdetermination",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-599acfe7",
+            "topic_id": "100:1:2:dawn-variant-contrast",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-6ec900e2",
+            "topic_id": "100:1:2:referent-underdetermination",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-81ef9b4f",
+            "topic_id": "100:1:2:cadence-and-breath-contrast",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-430c1c1f",
+            "topic_id": "100:1:2:participial-oath-object",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-7946c04e",
+            "topic_id": "100:1:2:kinetic-adversarial-root-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QI-f1c331f3",
+            "topic_id": "100:1:2:kinetic-adversarial-root-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QT-7d26e5c9",
+            "topic_id": "100:1:2:participial-oath-object",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-fdda5be9",
+            "topic_id": "100:1:2:participial-oath-object",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-6bbcddaa",
+            "topic_id": "100:1:2:dawn-variant-contrast",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-71fde5eb",
+            "topic_id": "100:1:2:participial-oath-chain",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-d4e9ce3a",
+            "topic_id": "100:1:2:cadence-and-breath-contrast",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-ea88af62",
+            "topic_id": "100:1:2:cadence-and-breath-contrast",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-5f92804b",
+            "topic_id": "100:1:2:participial-oath-chain",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      },
+      {
+        "critical_w": 3,
+        "aligned_qac_word_ref": "100:1:3",
+        "surface_display": "{{ar:ضَبْحًۭا}} ({{tr:ḍabḥan}})",
+        "root_display": "{{ar:ض ب ح}} ({{tr:ḍ-b-ḥ}})",
+        "gloss_range": "an indefinite accusative verbal noun marking the runners' panting or hard-breathing manner/state; harsh cry and heat-scorching pressure remain secondary, locally narrowed by the oath scene and following spark image",
+        "root_gloss_range": "root range includes running breath-sound or cry, running with stretched forelegs, scorching or slight blackening, and ash; the local gerund selects breath-manner while the heat branch supplies forward pressure toward the next oath image",
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "100:1:3"
+            ],
+            "ar": "صُبْحًا",
+            "tr": "ṣubḥan",
+            "display": "{{ar:صُبْحًا}} ({{tr:ṣubḥan}})",
+            "gloss_range": "reported variant that makes the accusative slot name dawn time instead of breath-manner",
+            "relation": "contrast"
+          }
+        ],
+        "prose": "{{ar:ضَبْحًۭا}} ({{tr:ḍabḥan}}) closes the ayah as an indefinite accusative verbal noun, making the runners' hard breathing their manner or state rather than a second event. Its tanwin keeps that breath unbounded, spread through the charge rather than counted as one named sound. Its rarity matters: with no other supplied Quranic occurrence, local grammar, sound, lexicon, and the oath sequence carry the interpretive load. The primary sense is panting breath, while the root {{ar:ض ب ح}} ({{tr:ḍ-b-ḥ}}) also preserves harsh cry and scorching pressure, so the breath feels hot and effortful before the sparks of the next oath image (100:2). The emphatic ḍād, stop bā, and final ḥā make the closing word feel like rough exhalation after the longer rush. The variant {{ar:صُبْحًا}} ({{tr:ṣubḥan}}) would make the same slot a dawn-time expression and anticipate the explicit dawn term later in the sequence (100:3); the standard wording instead leaves the first ayah on sound, effort, and heat.",
+        "topics": [
+          {
+            "topic_id": "100:1:3:accusative-manner-state",
+            "status": "used",
+            "headline": "indefinite accusative makes panting the manner",
+            "representative_source_ids": [
+              "QG-9c95286b",
+              "QG-c3502dbd",
+              "QF-7ed8dfc3"
+            ],
+            "reader_payoff": "The reader notices that the word does not add a second actor or event; it folds hard breathing into how the charge is moving.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "attachment:attachments",
+              "attachment:noun_instances"
+            ],
+            "reason": "QAC and attachment evidence support an indefinite accusative verbal noun functioning as manner or circumstance for the preceding participle."
+          },
+          {
+            "topic_id": "100:1:3:unbounded-breath",
+            "status": "used",
+            "headline": "tanwin leaves the breath unbounded",
+            "representative_source_ids": [
+              "QG-ef5d44ec"
+            ],
+            "reader_payoff": "The reader hears panting spread through the charge rather than counted as one named sound.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "attachment:noun_instances"
+            ],
+            "reason": "The tanwin and accusative form mark indefiniteness, supporting an unbounded manner or state reading."
+          },
+          {
+            "topic_id": "100:1:3:hapax-local-load",
+            "status": "used",
+            "headline": "rare breath-word makes local evidence decisive",
+            "representative_source_ids": [
+              "QS-74781736",
+              "QI-f0250a3f",
+              "QH-1a291f76"
+            ],
+            "reader_payoff": "The reader notices why every local feature of the word matters: the corpus gives no parallel occurrence to carry the register for it.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "contextual:contextual_summary_v2",
+              "contextual:role_profiles_v2",
+              "v4:local_form_observations"
+            ],
+            "reason": "Contextual profiles mark the exact root-form as a single occurrence, so grammar, lexical evidence, variant contrast, and sequence are unusually important."
+          },
+          {
+            "topic_id": "100:1:3:heat-and-spark-pressure",
+            "status": "narrowed",
+            "headline": "breath remains primary while heat points to sparks",
+            "representative_source_ids": [
+              "QS-8a6bcd61",
+              "QS-e5bd85e7",
+              "QE-4d34399b"
+            ],
+            "reader_payoff": "The reader feels the panting as hot and effortful, preparing the spark-striking image that follows (100:2).",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "v4:branch_images",
+              "v4:lexical_sense_groups",
+              "attachment:attachments"
+            ],
+            "reason": "V4 accepts breath-sound and scorching branches; local attachment selects panting manner, while the following oath image licenses heat as forward pressure rather than replacing the local breath sense."
+          },
+          {
+            "topic_id": "100:1:3:immediate-sequence-binding",
+            "status": "used",
+            "headline": "meaning binds to nearby oath sequence",
+            "representative_source_ids": [
+              "QI-33c7f4f2",
+              "QT-58f8251b",
+              "QT-e27b73c1"
+            ],
+            "reader_payoff": "The reader sees the ayah as a compact oath scene built from a participial head plus breath qualifier, not as a full narrative sentence.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:attachments",
+              "contextual:collocation_summary_v2"
+            ],
+            "reason": "Attachment evidence directly links the gerund to the preceding participle; the lack of a wider co-occurrence field keeps the force local and sequential."
+          },
+          {
+            "topic_id": "100:1:3:final-audible-landing",
+            "status": "used",
+            "headline": "ayah closes on audible breath",
+            "representative_source_ids": [
+              "QT-fcb03a32",
+              "QP-583159a8",
+              "QP-9cfc543a"
+            ],
+            "reader_payoff": "The reader is left with the sound and texture of strained exhalation as the ayah's final impression.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table"
+            ],
+            "reason": "The word is final in the ayah and its consonantal texture matches the CRITICAL sound observation without conflicting with local grammar."
+          },
+          {
+            "topic_id": "100:1:3:dawn-variant-contrast",
+            "status": "used",
+            "headline": "variant would turn manner into dawn time",
+            "representative_source_ids": [
+              "QF-efea91d0",
+              "QI-baf059b0",
+              "QE-383139f7"
+            ],
+            "reader_payoff": "The reader sees that the line could have named dawn immediately, but the standard wording delays dawn and chooses sensory breath first.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "contextual:contextual_summary_v2"
+            ],
+            "reason": "The variant is preserved as contrast: it would replace the standard breath root with a dawn root and align with the dawn term in 100:3, but it does not control the standard local parse."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-9c95286b",
+            "topic_id": "100:1:3:accusative-manner-state",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-c3502dbd",
+            "topic_id": "100:1:3:accusative-manner-state",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-ef5d44ec",
+            "topic_id": "100:1:3:unbounded-breath",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-74781736",
+            "topic_id": "100:1:3:hapax-local-load",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-8a6bcd61",
+            "topic_id": "100:1:3:heat-and-spark-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-e5bd85e7",
+            "topic_id": "100:1:3:heat-and-spark-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-7ed8dfc3",
+            "topic_id": "100:1:3:accusative-manner-state",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-efea91d0",
+            "topic_id": "100:1:3:dawn-variant-contrast",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-33c7f4f2",
+            "topic_id": "100:1:3:immediate-sequence-binding",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-baf059b0",
+            "topic_id": "100:1:3:dawn-variant-contrast",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-f0250a3f",
+            "topic_id": "100:1:3:hapax-local-load",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-58f8251b",
+            "topic_id": "100:1:3:immediate-sequence-binding",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-e27b73c1",
+            "topic_id": "100:1:3:immediate-sequence-binding",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-fcb03a32",
+            "topic_id": "100:1:3:final-audible-landing",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-383139f7",
+            "topic_id": "100:1:3:dawn-variant-contrast",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-4d34399b",
+            "topic_id": "100:1:3:heat-and-spark-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QP-583159a8",
+            "topic_id": "100:1:3:final-audible-landing",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-9cfc543a",
+            "topic_id": "100:1:3:final-audible-landing",
+            "status": "used"
+          },
+          {
+            "row_id": "QH-1a291f76",
+            "topic_id": "100:1:3:hapax-local-load",
+            "status": "used"
+          },
+          {
+            "row_id": "MH-dddbc50e",
+            "topic_id": "100:1:3:heat-and-spark-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QY-0b83343b",
+            "topic_id": "100:1:3:heat-and-spark-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QY-1bfd93ce",
+            "topic_id": "100:1:3:dawn-variant-contrast",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      }
+    ]
+  },
+  "branch_inventories": {
+    "default": {
+      "stage_00_file": "latent_activation/v12/runs/s100/focus_100_1/stage_00_focus_100_1.json",
+      "branch_inventories": [
+        {
+          "root": "ع د و",
+          "branches": [
+            {
+              "branch_id": "B001",
+              "image_ar": "مجاوزة الحد والظلم",
+              "image_en": "overstepping a bound into injustice",
+              "scope_ar": "يدخل فيه التعدي والاعتداء والعدوان وعدا على غيره والإغارة إذا كانت ظلما أو تجاوزا للحق",
+              "scope_en": "Includes transgression, aggression, injustice, attacking another, and raiding when framed as overstepping right."
+            },
+            {
+              "branch_id": "B002",
+              "image_ar": "العَدْو والحَضْر",
+              "image_en": "running and hastening",
+              "scope_ar": "يدخل فيه الجري والحضر وعدو الفرس والعدو على الأقدام",
+              "scope_en": "Includes running, hastening, a horse's running, and people running on foot."
+            },
+            {
+              "branch_id": "B003",
+              "image_ar": "العَدُوّ والعداوة",
+              "image_en": "enemy and enmity",
+              "scope_ar": "يدخل فيه العدو ضد الولي والعداوة والمعاداة وقوم أعداء أو عدا",
+              "scope_en": "Includes enemy as the opposite of ally, enmity, mutual hostility, and enemy plurals."
+            },
+            {
+              "branch_id": "B004",
+              "image_ar": "المجاوزة والاستثناء والصرف",
+              "image_en": "passing beyond and excepting",
+              "scope_ar": "يدخل فيه عدا الشيء إذا جاوزه وما عدا في الاستثناء وعد عن الأمر إذا تجاوزه إلى غيره وتعدية الفعل",
+              "scope_en": "Includes passing beyond something, exceptive use of ما عدا, turning away from a matter, and grammatical transitivity."
+            },
+            {
+              "branch_id": "B005",
+              "image_ar": "العَدْوى في طلب الإنصاف",
+              "image_en": "appeal for redress",
+              "scope_ar": "يدخل فيه طلب المرء إلى وال أو قاض أن يعينه على من ظلمه وينتقم له منه",
+              "scope_en": "Includes asking a ruler or judge to aid one against a wrongdoer and exact redress."
+            },
+            {
+              "branch_id": "B006",
+              "image_ar": "العَدْوى في انتقال الداء",
+              "image_en": "contagion and transmission",
+              "scope_ar": "يدخل فيه ما يقال إنه يعدي من جرب أو داء ومجاوزة العلة من صاحبها إلى غيره",
+              "scope_en": "Includes contagion, disease transfer, and a condition passing from its bearer to another."
+            },
+            {
+              "branch_id": "B007",
+              "image_ar": "العَوادي والعادية الشاغلة",
+              "image_en": "intervening hindrances",
+              "scope_ar": "يدخل فيه عوادي الدهر وعادية الشر وعدواء الشغل وما يشغل الإنسان أو يمنعه عن أمره",
+              "scope_en": "Includes adverse turns of time, another's harm, business that diverts, and hindrances that keep one from an affair."
+            },
+            {
+              "branch_id": "B008",
+              "image_ar": "العِداء في تعاقب الصيد",
+              "image_en": "successive pursuit of game",
+              "scope_ar": "يدخل فيه الموالاة بين صيدين أو إسقاط أحدهما إثر الآخر في طلق واحد",
+              "scope_en": "Includes pursuing or bringing down two pieces of game in succession, one after the other, in a single run."
+            },
+            {
+              "branch_id": "B009",
+              "image_ar": "العَداء والعُدوة في الجانب والطوار",
+              "image_en": "side, bank, and along-edge stretch",
+              "scope_ar": "يدخل فيه طوار الشيء وما انقاد مع عرضه أو طوله وجانب الوادي وحافته وعداء النهر والجبل",
+              "scope_en": "Includes an along-edge stretch, what runs alongside a thing's breadth or length, a valley side or bank, and the side of a river or mountain."
+            },
+            {
+              "branch_id": "B010",
+              "image_ar": "العَدْواء في صلابة المكان واضطرابه",
+              "image_en": "hard or uneven ground",
+              "scope_ar": "يدخل فيه الأرض اليابسة الصلبة والمكان غير المستوي أو غير المطمئن لمن قعد عليه",
+              "scope_en": "Includes hard dry ground, an uneven place, and a place that gives no stable seat."
+            },
+            {
+              "branch_id": "B011",
+              "image_ar": "العَدَوِيّة من نبات الصيف",
+              "image_en": "summer herbage",
+              "scope_ar": "يدخل فيه نبات الصيف بعد ذهاب الربيع حين يخضر صغار الشجر فترعاه الإبل",
+              "scope_en": "Includes summer growth after spring has gone, when small shrubs green and camels graze it."
+            },
+            {
+              "branch_id": "B012",
+              "image_ar": "العَنْدَأْوَة في الالتواء والعسر",
+              "image_en": "twisting and difficulty",
+              "scope_ar": "يدخل فيه العندأوة إذا أريد بها التواء وعسر ونسبت إلى العداء",
+              "scope_en": "Includes العندأوة when it means twisting and difficulty and is attributed to العداء."
+            }
+          ]
+        },
+        {
+          "root": "ض ب ح",
+          "branches": [
+            {
+              "branch_id": "B001",
+              "image_ar": "صوت الضباح",
+              "image_en": "crying or breath-sound",
+              "scope_ar": "صوت الثعلب والهام والبوم والذئب والصدى وصوت أنفاس الخيل وأفواهها في العدو",
+              "scope_en": "fox, owl, wolf, echo cry, and the audible breathing or mouth-sound of horses while running"
+            },
+            {
+              "branch_id": "B002",
+              "image_ar": "عدو ممدود الضبعين",
+              "image_en": "running with stretched forelegs",
+              "scope_ar": "سير الخيل أو الإبل وعدوها مع مد الضبعين أو العدو الخفيف",
+              "scope_en": "horse or camel movement/running with stretched forelegs, or light running"
+            },
+            {
+              "branch_id": "B003",
+              "image_ar": "إحراق أعالي العود",
+              "image_en": "scorching the top of wood",
+              "scope_ar": "إحراق أعلى العود وحجارة القداحة وما مسته النار حتى يبدو مضبوحا",
+              "scope_en": "scorching the upper part of wood, fire-striker stones, or anything touched by fire so that it is charred"
+            },
+            {
+              "branch_id": "B004",
+              "image_ar": "تغير اللون إلى السواد",
+              "image_en": "blackening discoloration",
+              "scope_ar": "انضباح اللون وتغيره إلى السواد قليلا بفعل النار أو الشمس",
+              "scope_en": "discoloration or slight blackening of color due to fire or sun"
+            },
+            {
+              "branch_id": "B005",
+              "image_ar": "الرماد",
+              "image_en": "ash",
+              "scope_ar": "الرماد المسمى الضبح",
+              "scope_en": "ash named الضبح"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "v12_reader_responses": {
+    "default": {
+      "reader_l": {
+        "stage_00": {
+          "reader_id": "reader_l",
+          "focus_ref": "100:1",
+          "stage": 0,
+          "revealed_refs": [
+            "100:1"
+          ],
+          "models": [
+            {
+              "model_id": "m1_kinetic_expenditure",
+              "status": "provisional",
+              "confidence": "medium",
+              "mechanism": "The oath can be heard as an image of bodies driven forward so hard that motion becomes audible breath. The focus is not only speed, but expenditure: running crosses from silent capacity into voiced strain.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B002",
+                  "literal_contribution": "running and hastening, especially the running of horses or people on foot",
+                  "assigned_role": "supplies the primary moving body and forward impulse"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "audible breath or mouth-sound of horses while running",
+                  "assigned_role": "turns the motion into an acoustic sign of exertion"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B002",
+                  "literal_contribution": "running with stretched forelegs or light running",
+                  "assigned_role": "adds a visible gait that matches the panting sound"
+                }
+              ],
+              "structural_cues": [
+                "The two lexical items are adjacent: the runner is immediately followed by the manner or sound of exertion.",
+                "The accusative-like adverbial noun ضبحا functions naturally as the mode in which العاديات run.",
+                "Both roots contain running branches, so the verse doubles motion through actor plus manner."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "Audible panting marks not incidental noise but the threshold where speed consumes the body's reserve.",
+                  "why_invoked": "The packet supplies running and breath-sound, but not the evaluive claim that breath reveals expenditure.",
+                  "causal_direction": "supplied elements: running body plus breath-sound; inferred arrow: intense running causes audible strain, and the strain reframes the runner as spent or committed.",
+                  "alternatives": [
+                    "ضبحا could be merely descriptive animal sound without emphasis on depletion.",
+                    "The line could foreground velocity alone, not exertion."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "By the racers, panting.",
+                "after": "By beings in rapid motion whose very breath exposes the cost and intensity of their drive."
+              },
+              "minimal_triggers": [
+                "ع د و/B002",
+                "ض ب ح/B001",
+                "ض ب ح/B002",
+                "adjacency of runner and panting manner"
+              ],
+              "ablation": "Removing ض ب ح/B001 leaves fast runners but collapses the reading of audible expenditure; removing ع د و/B002 leaves breath or gait without the forward drive."
+            },
+            {
+              "model_id": "m2_boundary_crossing_incursion",
+              "status": "provisional",
+              "confidence": "exploratory",
+              "mechanism": "The runners may be not neutral racers but agents of incursion: movement is a crossing of a limit, and the panting belongs to the pressure of entering another's space. The ayah then carries a dormant social or martial edge even before any later context is known.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B001",
+                  "literal_contribution": "overstepping a bound into injustice, aggression, attacking, or raiding",
+                  "assigned_role": "casts the running as transgressive entry rather than sport or neutral travel"
+                },
+                {
+                  "root": "ع د و",
+                  "branch_id": "B003",
+                  "literal_contribution": "enemy and enmity",
+                  "assigned_role": "supplies the social polarity in which the runner has an opposed target"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "breath-sound of horses in running",
+                  "assigned_role": "provides the bodily immediacy of an oncoming force"
+                }
+              ],
+              "structural_cues": [
+                "The root ع د و holds both running and aggression branches, so the same surface can pivot from locomotion to hostile crossing.",
+                "The plural participial form العاديات can name a class of agents, allowing a collective incursion model.",
+                "The breath noun follows as a manner, making the hostile crossing feel embodied and imminent rather than abstract."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "A branch of overstepping can color the runners when no explicit destination is given, because unbounded motion invites the question of what limit is being crossed.",
+                  "why_invoked": "The packet supplies aggression and running under the same root, but the verse itself does not state a victim or boundary.",
+                  "causal_direction": "supplied elements: root-internal link between running and transgression; inferred arrow: lack of stated endpoint permits the motion to be read as crossing into contested space.",
+                  "alternatives": [
+                    "The oath may intend only the racing branch B002.",
+                    "Aggression may remain dormant until a later ayah supplies target, collision, or spoil."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "By racers who pant.",
+                "after": "By a collective rush whose panting is the sound of pressure crossing a boundary, possibly toward an enemy or unlawful seizure."
+              },
+              "minimal_triggers": [
+                "ع د و/B001",
+                "ع د و/B003",
+                "ض ب ح/B001",
+                "plural agent form العاديات"
+              ],
+              "ablation": "Removing ع د و/B001 makes the model generic speed; removing ع د و/B003 weakens the social opposition and leaves only physical crossing."
+            },
+            {
+              "model_id": "m3_friction_heat_trace",
+              "status": "provisional",
+              "confidence": "exploratory",
+              "mechanism": "The motion may imply contact with resistant ground: hard, uneven terrain and stretched running generate friction, heat, and darkened residue. This turns the panting racers into a material process in which force leaves a scorch-like trace.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B010",
+                  "literal_contribution": "hard dry ground, uneven place, unstable seat",
+                  "assigned_role": "supplies the resistant surface over which the running occurs"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B003",
+                  "literal_contribution": "scorching the top of wood or things touched by fire",
+                  "assigned_role": "converts violent motion into a heat or burning trace"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B004",
+                  "literal_contribution": "slight blackening by fire or sun",
+                  "assigned_role": "marks the visible residue of that heat"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B005",
+                  "literal_contribution": "ash",
+                  "assigned_role": "offers an end-state image of what intense contact can leave behind"
+                }
+              ],
+              "structural_cues": [
+                "The focus ayah joins locomotion to ضبحا, whose inventory includes both breath-sound and fire-scorch branches.",
+                "The hard-ground branch of ع د و provides a plausible medium for converting running into frictional heat.",
+                "This reading depends on material sequence: surface resistance, forceful contact, heat, darkening or ash."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The panting sound can be analogically linked to heated friction because ض ب ح contains both breath and scorching branches.",
+                  "why_invoked": "No explicit fire is in the focus line; the move is activated only by dormant branch inventory and a plausible physical mechanism.",
+                  "causal_direction": "supplied elements: hard/uneven ground and scorch/darkening branches; inferred arrow: rapid contact against resistance produces heat-like trace.",
+                  "alternatives": [
+                    "The fire branches may be unrelated homonymous imagery not meant to affect this verse.",
+                    "The line may remain entirely auditory and kinetic."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "By panting racers.",
+                "after": "By rushing bodies whose contact with resistant ground is imagined as heat, blackening, or ash-producing force."
+              },
+              "minimal_triggers": [
+                "ع د و/B010",
+                "ض ب ح/B003",
+                "ض ب ح/B004",
+                "ض ب ح/B005",
+                "sequence from resistant surface to heated trace"
+              ],
+              "ablation": "Removing the scorch and blackening branches of ض ب ح collapses the material heat reading; removing ع د و/B010 leaves fire imagery without a surface that explains why running would produce it."
+            }
+          ],
+          "surprise_reading": "Focus-only, the ayah can hold several provisional baselines: racers whose panting reveals the bodily cost of speed; a collective rush that may already lean toward boundary-crossing incursion; and, more speculatively, motion over resistant ground imagined as friction, heat, darkening, or ash-like trace.",
+          "discarded_or_unchanged": []
+        },
+        "stage_01": {
+          "reader_id": "reader_l",
+          "focus_ref": "100:1",
+          "stage": 1,
+          "revealed_refs": [
+            "100:1",
+            "100:2"
+          ],
+          "models": [
+            {
+              "model_id": "m3_friction_heat_trace",
+              "status": "strengthened",
+              "confidence": "strong",
+              "mechanism": "The prior speculative material reading is now directly activated: panting runners are followed by agents that draw out sparks by striking. The focus ayah therefore reads less as isolated breath and more as the first phase of a contact process: rapid bodies over resistant ground, then impact, then hidden fire made visible.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B002",
+                  "literal_contribution": "running and hastening, including a horse's running",
+                  "assigned_role": "supplies the high-speed body whose motion can lead into impact"
+                },
+                {
+                  "root": "ع د و",
+                  "branch_id": "B010",
+                  "literal_contribution": "hard dry or uneven ground",
+                  "assigned_role": "supplies the resistant surface needed for strike and friction"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "audible breathing or mouth-sound of horses while running",
+                  "assigned_role": "marks the living force immediately before material contact"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B003",
+                  "literal_contribution": "scorching the top of wood, fire-striker stones, or anything touched by fire",
+                  "assigned_role": "links the focus word's dormant fire branch to the next ayah's explicit spark-making"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B004",
+                  "literal_contribution": "slight blackening by fire or sun",
+                  "assigned_role": "provides the visible trace left by ignition or heat"
+                },
+                {
+                  "root": "و ر ي",
+                  "branch_id": "B002",
+                  "literal_contribution": "hidden fire coming out of a fire-stick, kindling or rekindling fire",
+                  "assigned_role": "makes fire emergence explicit in the revealed sequence"
+                },
+                {
+                  "root": "ق د ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "striking or kindling fire from a stick, stone, or implement",
+                  "assigned_role": "supplies the mechanical impact that releases the spark"
+                }
+              ],
+              "structural_cues": [
+                "The two ayat form a sequence with فـ: panting runners, then spark-producers striking.",
+                "ض ب ح already contained scorch and blackening branches at stage 0; 100:2 now places explicit kindling and striking immediately after it.",
+                "The repeated plural participial pattern العاديات / الموريات keeps the same class of agents moving through successive functions.",
+                "Both ayat end with manner nouns, ضبحا and قدحا, making breath and strike parallel modes in one process."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The spark in 100:2 is caused by the same rushing agents introduced in 100:1 rather than by a separate unrelated image.",
+                  "why_invoked": "The packet gives sequential participles and the فـ relation, but does not explicitly say the panting runners' contact creates the sparks.",
+                  "causal_direction": "supplied elements: runners panting, then spark-producers striking; inferred arrow: running over resistant ground leads to striking contact, which releases hidden fire.",
+                  "alternatives": [
+                    "100:2 could be an independent oath image rather than a causal continuation.",
+                    "The sparks could come from weapons or implements, not from the runners' motion against ground."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 0, the heat reading was only an analogy: rushing bodies might leave a scorch-like trace.",
+                "after": "After 100:2, the focus panting becomes the pre-impact phase of an ignition sequence: breath-driven speed meets resistant matter and produces visible sparks."
+              },
+              "minimal_triggers": [
+                "100:1 ع د و/B002",
+                "100:1 ع د و/B010",
+                "100:1 ض ب ح/B003",
+                "100:2 و ر ي/B002",
+                "100:2 ق د ح/B001",
+                "فـ sequence from 100:1 to 100:2"
+              ],
+              "ablation": "Removing 100:2, especially و ر ي/B002 or ق د ح/B001, returns the heat reading to a speculative dormant branch of ض ب ح. Removing ض ب ح/B003 leaves ordinary panting followed by sparks, but loses the focus-root bridge that lets fire alter the reading of 100:1 itself."
+            },
+            {
+              "model_id": "m1_kinetic_expenditure",
+              "status": "revised",
+              "confidence": "medium",
+              "mechanism": "The stage-0 expenditure model is revised from biological strain alone into energy conversion. Panting is still the sign of exertion, but the next ayah shows that the exertion does not remain inside the body: it is transmitted outward as impact that brings sparks out of concealed fire.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B002",
+                  "literal_contribution": "running and hastening",
+                  "assigned_role": "provides kinetic force accumulated through motion"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "audible breathing of horses while running",
+                  "assigned_role": "signals bodily expenditure and pressure before outward release"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B002",
+                  "literal_contribution": "running with stretched forelegs",
+                  "assigned_role": "gives the body a striking gait capable of transferring force"
+                },
+                {
+                  "root": "و ر ي",
+                  "branch_id": "B002",
+                  "literal_contribution": "hidden fire emerging from the fire-stick",
+                  "assigned_role": "marks latent energy becoming manifest"
+                },
+                {
+                  "root": "ق د ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "striking out fire",
+                  "assigned_role": "names the outward transfer mechanism from motion to spark"
+                }
+              ],
+              "structural_cues": [
+                "The repeated structure of participle plus verbal noun makes ضبحا and قدحا paired outputs: breath first, spark second.",
+                "The sequence introduced by فـ implies progression rather than mere restatement.",
+                "و ر ي/B002 contributes concealment-to-emergence of fire, giving the runner's exertion an external result."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "Breath and spark are two manifestations of one stored-and-released force.",
+                  "why_invoked": "The text supplies adjacent outputs of motion, but the conservation-like energy model is inferred.",
+                  "causal_direction": "supplied elements: panting from running and sparks from striking; inferred arrow: bodily force accumulates as exertion and is released as material ignition.",
+                  "alternatives": [
+                    "Breath may simply describe animals while sparks describe hooves or tools without a shared mechanism.",
+                    "The line may intend serial vividness rather than energy transfer."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "The focus read as intense motion whose breath reveals bodily cost.",
+                "after": "The focus reads as charged motion: panting is the audible pressure of force that will be transmitted into the world as sparks."
+              },
+              "minimal_triggers": [
+                "100:1 ع د و/B002",
+                "100:1 ض ب ح/B001",
+                "100:1 ض ب ح/B002",
+                "100:2 و ر ي/B002",
+                "100:2 ق د ح/B001",
+                "parallel manner nouns ضبحا / قدحا"
+              ],
+              "ablation": "Without 100:2 ق د ح/B001, the model remains internal bodily exertion. Without 100:2 و ر ي/B002, the outward manifestation as latent fire emerging is much weaker. Without ض ب ح/B001, the focus loses the audible internal-pressure phase."
+            },
+            {
+              "model_id": "m2_boundary_crossing_incursion",
+              "status": "strengthened",
+              "confidence": "medium",
+              "mechanism": "The incursion reading gains a concrete contact phase. The runners who may overstep a boundary are now followed by striking spark-makers, so their rush is not only entry into contested space but forceful contact with it. The newly revealed ayah still does not supply an enemy, but it strengthens the model from abstract crossing to impact-bearing advance.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B001",
+                  "literal_contribution": "overstepping a bound into injustice, aggression, attacking, or raiding",
+                  "assigned_role": "casts the rush as possible incursion beyond a limit"
+                },
+                {
+                  "root": "ع د و",
+                  "branch_id": "B003",
+                  "literal_contribution": "enemy and enmity",
+                  "assigned_role": "keeps open a social polarity for the advance"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "breath-sound of horses while running",
+                  "assigned_role": "makes the approach embodied and imminent"
+                },
+                {
+                  "root": "ق د ح",
+                  "branch_id": "B002",
+                  "literal_contribution": "scoring, boring, splitting, or marking a physical thing with a flaw",
+                  "assigned_role": "turns entry into damaging contact or marking of the crossed space"
+                },
+                {
+                  "root": "ق د ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "striking out fire",
+                  "assigned_role": "adds impact and visible spark to the advance"
+                }
+              ],
+              "structural_cues": [
+                "100:2 continues 100:1 with فـ, making the second action an immediate consequence or next phase.",
+                "The movement term in 100:1 is followed by a striking term in 100:2, creating a spatial sequence of approach then contact.",
+                "ق د ح/B002 supplies a non-fire branch of physical marking or flawing, which helps the incursion model avoid depending only on spark imagery."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "Striking and scoring can be read as the material effect of crossing into another domain.",
+                  "why_invoked": "The packet supplies overstepping and striking/flawing branches, but not an explicit target boundary or victim.",
+                  "causal_direction": "supplied elements: possible overstepping runners and subsequent striking/scoring; inferred arrow: boundary-crossing advance culminates in damaging contact.",
+                  "alternatives": [
+                    "The sequence may be purely physical hoof-strike with no social incursion.",
+                    "The enemy branch may remain dormant until a later ayah supplies opposition."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "The focus could be a collective rush with a possible hostile crossing, but the target and contact were absent.",
+                "after": "The focus now leans more strongly toward an advance that reaches contact: panting approach is followed by striking, sparks, and possible marking of what is crossed."
+              },
+              "minimal_triggers": [
+                "100:1 ع د و/B001",
+                "100:1 ع د و/B003",
+                "100:2 ق د ح/B001",
+                "100:2 ق د ح/B002",
+                "approach-then-contact sequence across 100:1-100:2"
+              ],
+              "ablation": "Removing 100:2 ق د ح/B001 and B002 leaves only the stage-0 speculative incursion. Removing ع د و/B001 collapses the model into ordinary physical striking after running, with no boundary-crossing force."
+            }
+          ],
+          "surprise_reading": "With 100:2 revealed, the focus panting is no longer just a sound of speed. It becomes the first phase of a sequence in which rushing bodies transmit force into resistant matter, drawing out sparks; secondarily, that same approach-then-strike pattern strengthens the possibility of a boundary-crossing incursion that reaches damaging contact.",
+          "discarded_or_unchanged": []
+        },
+        "stage_02": {
+          "reader_id": "reader_l",
+          "focus_ref": "100:1",
+          "stage": 2,
+          "revealed_refs": [
+            "100:1",
+            "100:2",
+            "100:3"
+          ],
+          "models": [
+            {
+              "model_id": "m2_boundary_crossing_incursion",
+              "status": "strengthened",
+              "confidence": "strong",
+              "mechanism": "The incursion reading is now directly anchored by the dawn-raid branch. The focus runners no longer merely might cross a boundary; in the revealed sequence they become the first audible phase of an approach that strikes, then arrives as a morning raid or alarm. Panting is thus the breath of an oncoming force before its social effect becomes visible.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B001",
+                  "literal_contribution": "overstepping a bound into injustice, aggression, attacking, or raiding",
+                  "assigned_role": "casts the focus motion as boundary-crossing advance"
+                },
+                {
+                  "root": "ع د و",
+                  "branch_id": "B003",
+                  "literal_contribution": "enemy and enmity",
+                  "assigned_role": "supplies the opposed social field into which the rush moves"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "audible breathing or mouth-sound of horses while running",
+                  "assigned_role": "makes the advance bodily and audible before the raid is named"
+                },
+                {
+                  "root": "ق د ح",
+                  "branch_id": "B002",
+                  "literal_contribution": "scoring, boring, splitting, or marking a thing with a flaw",
+                  "assigned_role": "turns the crossing into contact that leaves a mark"
+                },
+                {
+                  "root": "غ ي ر",
+                  "branch_id": "B003",
+                  "literal_contribution": "altering form, changing state, replacing one thing by another",
+                  "assigned_role": "names the transformative effect of the incursion on the scene it enters"
+                },
+                {
+                  "root": "غ ي ر",
+                  "branch_id": "B005",
+                  "literal_contribution": "otherness, difference, exception, negation, being other than another",
+                  "assigned_role": "keeps the raid structured as encounter with an other or contrary side"
+                },
+                {
+                  "root": "ص ب ح",
+                  "branch_id": "B004",
+                  "literal_contribution": "morning raid, attacking at dawn, and the alarm cry associated with it",
+                  "assigned_role": "supplies the decisive temporal-social frame for the advance"
+                }
+              ],
+              "structural_cues": [
+                "The three ayat are linked by successive فـ clauses, producing an approach-strike-raid sequence.",
+                "The repeated plural participles العاديات / الموريات / المغيرات preserve a collective agent across the phases.",
+                "100:3 adds صُبْحًا as a time noun, but its branch inventory also contains the morning raid and alarm cry, converting neutral arrival into social shock.",
+                "The stage-1 approach-then-contact model gains a named dawn incursion rather than only inferred hostile crossing."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The dawn raid in 100:3 identifies the social purpose of the panting and striking in 100:1-2.",
+                  "why_invoked": "The packet supplies sequential forms and the morning-raid branch, but it does not explicitly state that the panting in 100:1 is caused by raiding intention.",
+                  "causal_direction": "supplied elements: panting runners, spark-producing strike, dawn raid/alarm; inferred arrow: the running and striking are preparatory phases that culminate in a dawn incursion.",
+                  "alternatives": [
+                    "100:3 could add a third oath image without retroactively specifying the first two.",
+                    "The dawn cue may be temporal only, with no hostile social frame."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 1, the focus leaned toward an advance that reaches contact, but the target and event type remained unstated.",
+                "after": "After 100:3, the focus reads as the audible first stage of a dawn incursion: panting approach, striking contact, then raid and alarm."
+              },
+              "minimal_triggers": [
+                "100:1 ع د و/B001",
+                "100:1 ع د و/B003",
+                "100:1 ض ب ح/B001",
+                "100:2 ق د ح/B002",
+                "100:3 ص ب ح/B004",
+                "successive فـ sequence across 100:1-100:3"
+              ],
+              "ablation": "Removing 100:3 ص ب ح/B004 collapses the model back to the stage-1 speculative incursion with contact but no named raid-time or alarm. Removing ع د و/B001 leaves a dawn movement scene without the focus-root bridge to boundary-crossing aggression."
+            },
+            {
+              "model_id": "m3_friction_heat_trace",
+              "status": "revised",
+              "confidence": "strong",
+              "mechanism": "The material ignition model is revised by dawn: sparks are no longer only a trace of friction but a transition from concealed nocturnal force into visible morning. The focus panting becomes the dark, pre-visual pressure of motion; 100:2 externalizes it as sparks; 100:3 opens the scene into dawn light and changed state.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B002",
+                  "literal_contribution": "running and hastening, including horse-running",
+                  "assigned_role": "supplies fast motion before light fully reveals the scene"
+                },
+                {
+                  "root": "ع د و",
+                  "branch_id": "B010",
+                  "literal_contribution": "hard dry or uneven ground",
+                  "assigned_role": "provides the resistant medium for impact and spark"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "breath-sound of horses while running",
+                  "assigned_role": "marks living force as sound before it becomes visible fire or daylight"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B003",
+                  "literal_contribution": "scorching, fire-striker stones, or things touched by fire",
+                  "assigned_role": "bridges the focus word to the ignition field continued in 100:2"
+                },
+                {
+                  "root": "و ر ي",
+                  "branch_id": "B002",
+                  "literal_contribution": "hidden fire coming out of the fire-stick and kindling fire",
+                  "assigned_role": "makes latent fire emerge after the panting motion"
+                },
+                {
+                  "root": "ق د ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "striking out fire from a stick, stone, or implement",
+                  "assigned_role": "supplies the mechanical release of sparks"
+                },
+                {
+                  "root": "ص ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "dawn, morning, early day, entering morning",
+                  "assigned_role": "sets the ignition sequence at the threshold where darkness becomes visible day"
+                },
+                {
+                  "root": "ص ب ح",
+                  "branch_id": "B005",
+                  "literal_contribution": "lamp, source of light, material used for lighting, star-lights",
+                  "assigned_role": "extends the spark field into a broader light-source field"
+                },
+                {
+                  "root": "غ ي ر",
+                  "branch_id": "B003",
+                  "literal_contribution": "change of state or substitution of one thing for another",
+                  "assigned_role": "frames the sequence as transformation from hidden pressure to visible illumination"
+                }
+              ],
+              "structural_cues": [
+                "100:1-3 progress from sound ضبحا to spark قدحا to dawn صبحا.",
+                "The newly revealed ص ب ح root contributes both dawn and lamp/light branches, matching the prior fire emergence in 100:2.",
+                "غ ي ر/B003 gives a formal change-of-state cue that fits the sequence from hidden fire to visible morning.",
+                "The focus-root fire branch ض ب ح/B003 remains the bridge that lets later light imagery alter the reading of 100:1."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The sequence from panting to sparks to dawn should be read as an unveiling of energy and visibility rather than only three separate sensory details.",
+                  "why_invoked": "The packet supplies sound, striking fire, and dawn/light branches, but not the abstract transformation model.",
+                  "causal_direction": "supplied elements: breath-sound, hidden fire struck out, dawn/light and change-of-state; inferred arrow: intense motion generates visible sparks and participates in the scene's transition into morning visibility.",
+                  "alternatives": [
+                    "Dawn may function only as the time of the charge, not as a light-source continuation of sparks.",
+                    "The spark may remain local hoof-fire without changing the reading of the focus breath."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 1, the focus panting was the pre-impact phase of ignition against resistant matter.",
+                "after": "After 100:3, the focus panting is also the dark or pre-visible phase of a transformation into sparks and dawn light."
+              },
+              "minimal_triggers": [
+                "100:1 ض ب ح/B001",
+                "100:1 ض ب ح/B003",
+                "100:2 و ر ي/B002",
+                "100:2 ق د ح/B001",
+                "100:3 ص ب ح/B001",
+                "100:3 ص ب ح/B005",
+                "100:3 غ ي ر/B003",
+                "sound-to-spark-to-dawn sequence"
+              ],
+              "ablation": "Removing 100:3 ص ب ح/B001 and B005 leaves the strong stage-1 ignition model but collapses the new dawn/visibility revision. Removing ض ب ح/B003 breaks the focus-root connection to fire, making 100:1 only auditory while the later light sequence stands apart."
+            },
+            {
+              "model_id": "m1_kinetic_expenditure",
+              "status": "revised",
+              "confidence": "medium",
+              "mechanism": "The exertion model is revised into a timed mobilization. Panting is not merely bodily cost or stored energy; with 100:3 it becomes the exertion required to arrive at a precise morning threshold. The force expended in 100:1 is organized toward a timed emergence: breath, spark, dawn arrival.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B002",
+                  "literal_contribution": "running and hastening",
+                  "assigned_role": "supplies urgent motion that must reach a moment"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "audible breath of horses while running",
+                  "assigned_role": "marks the cost of maintaining speed through the approach"
+                },
+                {
+                  "root": "و ر ي",
+                  "branch_id": "B002",
+                  "literal_contribution": "hidden fire emerging and being kindled",
+                  "assigned_role": "shows exertion externalized as a brief sign during the run"
+                },
+                {
+                  "root": "ق د ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "striking out fire",
+                  "assigned_role": "marks the repeated impacts of the timed advance"
+                },
+                {
+                  "root": "ص ب ح",
+                  "branch_id": "B002",
+                  "literal_contribution": "coming or arriving in the morning",
+                  "assigned_role": "turns speed and strain into punctual arrival"
+                },
+                {
+                  "root": "ص ب ح",
+                  "branch_id": "B009",
+                  "literal_contribution": "morning-time adverbials and dated morning expressions",
+                  "assigned_role": "makes the endpoint a determinate time rather than merely a place"
+                }
+              ],
+              "structural_cues": [
+                "The third manner/time noun صُبْحًا parallels ضبحا and قدحا, but shifts the sequence from bodily and material mode to temporal arrival.",
+                "The فـ chain makes the exertion cumulative: running, then striking sparks, then arriving at dawn.",
+                "ص ب ح/B002 supplies morning arrival, which revises generic speed into scheduled or threshold-directed speed."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "Panting indicates the cost of synchronizing motion with a dawn endpoint.",
+                  "why_invoked": "The packet gives running and morning arrival, but does not state that the runners strain because timing matters.",
+                  "causal_direction": "supplied elements: running with breath, striking sparks, coming at morning; inferred arrow: the need to reach the morning threshold organizes and intensifies the exertion.",
+                  "alternatives": [
+                    "The dawn phrase may simply locate the scene in time without implying timed effort.",
+                    "The panting may remain a generic animal detail unaffected by the morning cue."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 1, the focus read as charged motion whose force would be released outward as sparks.",
+                "after": "After 100:3, the focus also reads as timed strain: the runners pant because their motion is driving toward a morning arrival."
+              },
+              "minimal_triggers": [
+                "100:1 ع د و/B002",
+                "100:1 ض ب ح/B001",
+                "100:2 و ر ي/B002",
+                "100:2 ق د ح/B001",
+                "100:3 ص ب ح/B002",
+                "100:3 ص ب ح/B009",
+                "three-part فـ progression"
+              ],
+              "ablation": "Removing 100:3 ص ب ح/B002 and B009 leaves the stage-1 energy-conversion reading but removes the new timed-arrival revision. Removing ض ب ح/B001 leaves haste toward dawn without the focus-specific bodily cost."
+            }
+          ],
+          "surprise_reading": "With 100:3 added, the panting racers become the first audible stage of a dawn event. One activated reading now strongly sees them as the approach of a boundary-crossing raid that strikes and alarms at morning. A second keeps the fire mechanism but revises it into a transition from hidden pressure to sparks and dawn light. A third treats the panting as timed exertion: speed spent to reach the morning threshold.",
+          "discarded_or_unchanged": []
+        },
+        "stage_03": {
+          "reader_id": "reader_l",
+          "focus_ref": "100:1",
+          "stage": 3,
+          "revealed_refs": [
+            "100:1",
+            "100:2",
+            "100:3",
+            "100:4"
+          ],
+          "models": [
+            {
+              "model_id": "m2_boundary_crossing_incursion",
+              "status": "strengthened",
+              "confidence": "strong",
+              "mechanism": "The dawn-incursion reading is strengthened by an explicit environmental consequence. The panting rush in the focus ayah is now the first audible phase of a raid whose force strikes, arrives at dawn, and then throws up dust. The crossing is no longer only social or temporal; it disturbs the occupied ground and fills the scene with the raised matter of its passage.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B001",
+                  "literal_contribution": "overstepping a bound into injustice, aggression, attacking, or raiding",
+                  "assigned_role": "casts the focus runners as agents crossing into contested space"
+                },
+                {
+                  "root": "ع د و",
+                  "branch_id": "B003",
+                  "literal_contribution": "enemy and enmity",
+                  "assigned_role": "keeps the rush oriented toward an opposed social field"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "audible breathing or mouth-sound of horses while running",
+                  "assigned_role": "supplies the first sensory sign of the oncoming raid"
+                },
+                {
+                  "root": "ق د ح",
+                  "branch_id": "B002",
+                  "literal_contribution": "scoring, boring, splitting, or marking a thing with a flaw",
+                  "assigned_role": "marks the contact phase of incursion before the ground-cloud appears"
+                },
+                {
+                  "root": "ص ب ح",
+                  "branch_id": "B004",
+                  "literal_contribution": "morning raid, attacking at dawn, and the alarm cry associated with it",
+                  "assigned_role": "names the raid-time and alarm-frame of the advance"
+                },
+                {
+                  "root": "ث و ر",
+                  "branch_id": "B003",
+                  "literal_contribution": "surging into attack or anger, leaping against someone, provoked evil or agitation",
+                  "assigned_role": "turns the motion into aggressive upheaval rather than mere arrival"
+                },
+                {
+                  "root": "ث و ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "stirring something up from its settled state, especially dust or earth",
+                  "assigned_role": "supplies the action by which the raid dislodges the environment"
+                },
+                {
+                  "root": "ن ق ع",
+                  "branch_id": "B004",
+                  "literal_contribution": "dust, especially raised or stirred dust",
+                  "assigned_role": "provides the visible cloud produced by the incursion"
+                },
+                {
+                  "root": "ن ق ع",
+                  "branch_id": "B005",
+                  "literal_contribution": "raised or sustained cry",
+                  "assigned_role": "echoes the dawn alarm and focus panting as an acoustic atmosphere of disturbance"
+                }
+              ],
+              "structural_cues": [
+                "100:4 continues the فـ chain and uses a finite verb, فأثرن, making the newly revealed action an event caused by the prior agents.",
+                "The pronoun phrase به links the dust-raising back to the preceding motion or occasion, making a causal bridge more explicit than earlier stages.",
+                "The sequence now runs from panting approach to striking, dawn raid, and raised dust: sound, contact, time, environmental consequence.",
+                "ث و ر/B003 adds attack-surge language that reinforces the already activated raid branch ص ب ح/B004."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The raised dust is the effect of the same collective rush that began with العاديات ضبحا.",
+                  "why_invoked": "The packet supplies the linked فـ sequence and به, but does not spell out the full agent-continuity from the focus ayah to the dust cloud.",
+                  "causal_direction": "supplied elements: panting runners, dawn raiders, then they stir dust thereby; inferred arrow: the initial boundary-crossing rush generates a physical dust cloud as its environmental signature.",
+                  "alternatives": [
+                    "The dust could be only a scenic detail after the raid, not a mechanism that changes the focus reading.",
+                    "به could point narrowly to the dawn attack rather than the whole sequence beginning with the panting runners."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 2, the focus read as the audible first stage of a dawn incursion that strikes and alarms.",
+                "after": "After 100:4, the focus reads as the beginning of a force that not only raids but physically unsettles the ground, raising a dust-cloud proof of its boundary-crossing passage."
+              },
+              "minimal_triggers": [
+                "100:1 ع د و/B001",
+                "100:1 ع د و/B003",
+                "100:1 ض ب ح/B001",
+                "100:3 ص ب ح/B004",
+                "100:4 ث و ر/B002",
+                "100:4 ث و ر/B003",
+                "100:4 ن ق ع/B004",
+                "100:4 به causal linkage"
+              ],
+              "ablation": "Removing 100:4 ث و ر/B002 or ن ق ع/B004 leaves the strong stage-2 dawn-raid model but removes the new environmental proof of disturbance. Removing 100:1 ع د و/B001 leaves dust raised by motion, but not a focus-root reading of boundary-crossing incursion."
+            },
+            {
+              "model_id": "m3_friction_heat_trace",
+              "status": "revised",
+              "confidence": "strong",
+              "mechanism": "The material-trace reading is revised from fire-and-light toward particulate upheaval. At stage 2, panting led into sparks and dawn visibility; 100:4 adds that the same force raises dust. The focus breath now belongs to a chain of matter becoming airborne: hot spark, dawn light, then dust that can obscure or thicken the visible scene.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B002",
+                  "literal_contribution": "running and hastening",
+                  "assigned_role": "supplies the velocity needed to disturb surfaces"
+                },
+                {
+                  "root": "ع د و",
+                  "branch_id": "B010",
+                  "literal_contribution": "hard dry or uneven ground",
+                  "assigned_role": "provides the dry resistant ground from which dust can be struck up"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "breath-sound of horses while running",
+                  "assigned_role": "marks the force first as air and sound issuing from bodies"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B003",
+                  "literal_contribution": "scorching and fire-striker stones or things touched by fire",
+                  "assigned_role": "keeps the fire-contact bridge between focus and spark"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B005",
+                  "literal_contribution": "ash",
+                  "assigned_role": "forms a dormant bridge from burning residue to dust-like particulate matter"
+                },
+                {
+                  "root": "و ر ي",
+                  "branch_id": "B002",
+                  "literal_contribution": "hidden fire coming out of the fire-stick",
+                  "assigned_role": "makes latent heat or spark emerge from contact"
+                },
+                {
+                  "root": "ق د ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "striking out fire",
+                  "assigned_role": "supplies the impact mechanism shared by spark and dust"
+                },
+                {
+                  "root": "ص ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "dawn and the morning opening",
+                  "assigned_role": "provides the visibility threshold against which dust becomes perceptible"
+                },
+                {
+                  "root": "ث و ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "a thing bursts up and spreads outward after stillness or concealment, including dust or cloud",
+                  "assigned_role": "models the upward expansion of hidden or settled matter"
+                },
+                {
+                  "root": "ن ق ع",
+                  "branch_id": "B004",
+                  "literal_contribution": "raised or stirred dust",
+                  "assigned_role": "names the particulate residue that the motion releases"
+                }
+              ],
+              "structural_cues": [
+                "100:4 gives the material result that stage 2 only inferred: the movement stirs up a visible medium.",
+                "The sequence of manner/result nouns now includes ضبحا, قدحا, صبحا, نقعا, moving from breath to spark to dawn to dust.",
+                "ث و ر/B001 and ن ق ع/B004 both specify matter rising after stillness, matching ع د و/B010's hard dry ground.",
+                "The new dust revises the dawn-light reading by adding opacity: the scene becomes visible at dawn and then is thickened by a cloud."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "Spark and dust are two material releases caused by the same impact chain begun by the panting rush.",
+                  "why_invoked": "The packet supplies striking sparks and dust-raising, but the shared impact mechanism is inferred by linking the sequential clauses.",
+                  "causal_direction": "supplied elements: running breath, striking fire, dawn, stirred dust; inferred arrow: rapid contact with dry ground first releases sparks and then dislodges particulate matter into the air.",
+                  "alternatives": [
+                    "The dust may be a separate result of movement after the spark image, not a revision of the fire mechanism.",
+                    "The ash branch of ض ب ح may remain only a dormant analogy rather than a bridge to نقع dust."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 2, the focus panting was the dark pre-visible phase of a transformation into sparks and dawn light.",
+                "after": "After 100:4, the focus panting begins a broader material upheaval: breath and impact convert hidden or settled matter into sparks, light, and finally a raised dust cloud."
+              },
+              "minimal_triggers": [
+                "100:1 ع د و/B010",
+                "100:1 ض ب ح/B003",
+                "100:1 ض ب ح/B005",
+                "100:2 و ر ي/B002",
+                "100:2 ق د ح/B001",
+                "100:4 ث و ر/B001",
+                "100:4 ن ق ع/B004",
+                "breath-to-spark-to-dust material sequence"
+              ],
+              "ablation": "Removing 100:4 ث و ر/B001 or ن ق ع/B004 leaves the stage-2 fire-and-dawn model intact but removes the new particulate upheaval. Removing ع د و/B010 weakens the dry-ground mechanism that explains why running would release dust."
+            },
+            {
+              "model_id": "m1_kinetic_expenditure",
+              "status": "revised",
+              "confidence": "medium",
+              "mechanism": "The timed-exertion reading is revised into transmitted momentum. Panting is still bodily cost, but 100:4 shows that the expended force does work on the world: it displaces settled dust. The focus ayah therefore reads as the start of a transfer from internal pressure to external turbulence.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B002",
+                  "literal_contribution": "running and hastening",
+                  "assigned_role": "supplies the accumulating momentum"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "audible breathing of horses while running",
+                  "assigned_role": "marks exertion while the body stores and spends force"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B002",
+                  "literal_contribution": "running with stretched forelegs",
+                  "assigned_role": "gives the bodily gait by which force is transmitted through limbs"
+                },
+                {
+                  "root": "ق د ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "striking out fire",
+                  "assigned_role": "shows momentum as impact"
+                },
+                {
+                  "root": "ص ب ح",
+                  "branch_id": "B002",
+                  "literal_contribution": "coming or arriving in the morning",
+                  "assigned_role": "keeps the expenditure oriented toward arrival"
+                },
+                {
+                  "root": "ث و ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "stirring something from its settled state",
+                  "assigned_role": "shows the force moving outward into the environment"
+                },
+                {
+                  "root": "ن ق ع",
+                  "branch_id": "B004",
+                  "literal_contribution": "raised or stirred dust",
+                  "assigned_role": "makes the externalized result visible"
+                }
+              ],
+              "structural_cues": [
+                "The finite verb فأثرن introduces an explicit action by the plural agents, not merely another descriptive noun.",
+                "The phrase به supports a reading of instrumentality or consequence: by it, or thereby, dust is raised.",
+                "The sequence now gives a clear transfer path: breathing body, striking contact, timed arrival, displaced dust.",
+                "100:4 changes the expenditure model from internal strain plus timing into externally measurable turbulence."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "Panting indexes the amount of force that will later be visible as dust displacement.",
+                  "why_invoked": "The packet supplies bodily panting and dust stirring, but not a quantified or physical momentum theory connecting them.",
+                  "causal_direction": "supplied elements: running with audible breath and later stirring dust thereby; inferred arrow: bodily exertion produces momentum, and momentum displaces settled matter.",
+                  "alternatives": [
+                    "Panting may remain only an animal sound while dust is a separate scenic consequence.",
+                    "The dust could be caused by number or terrain rather than by the intensity signaled in ضبحا."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 2, the focus also read as timed strain toward morning arrival.",
+                "after": "After 100:4, the focus reads as bodily pressure that becomes environmental turbulence: the panting marks force sufficient to stir settled dust."
+              },
+              "minimal_triggers": [
+                "100:1 ع د و/B002",
+                "100:1 ض ب ح/B001",
+                "100:1 ض ب ح/B002",
+                "100:4 ث و ر/B002",
+                "100:4 ن ق ع/B004",
+                "100:4 finite verb plus به"
+              ],
+              "ablation": "Removing 100:4 leaves the stage-2 timed-exertion model but removes the new proof that exertion acts on the environment. Removing ض ب ح/B001 leaves external dust-raising but not the focus-specific reading of internal pressure becoming turbulence."
+            }
+          ],
+          "surprise_reading": "With 100:4 added, the panting racers become the start of a force that visibly unsettles the world. The raid model is strengthened: breath, strike, dawn alarm, then dust raised by incursion. The fire/light model is revised into a broader material upheaval, where sparks and dust are paired releases from impact. The exertion model is revised as transmitted momentum: panting pressure becomes external turbulence.",
+          "discarded_or_unchanged": []
+        },
+        "stage_04": {
+          "reader_id": "reader_l",
+          "focus_ref": "100:1",
+          "stage": 4,
+          "revealed_refs": [
+            "100:1",
+            "100:2",
+            "100:3",
+            "100:4",
+            "100:5"
+          ],
+          "models": [
+            {
+              "model_id": "m2_boundary_crossing_incursion",
+              "status": "strengthened",
+              "confidence": "strong",
+              "mechanism": "The incursion model gains its missing endpoint: the panting rush does not merely cross a boundary, strike, raid at dawn, and raise dust; it penetrates into the center of a gathered body. The focus ayah now reads as the opening pressure of a raid whose function is not peripheral harassment but central insertion into an assembled group.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B001",
+                  "literal_contribution": "overstepping a bound into injustice, aggression, attacking, or raiding",
+                  "assigned_role": "supplies the focus-root crossing or assault frame"
+                },
+                {
+                  "root": "ع د و",
+                  "branch_id": "B003",
+                  "literal_contribution": "enemy and enmity",
+                  "assigned_role": "casts the gathered endpoint as a socially opposed body"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "audible breathing or mouth-sound of horses while running",
+                  "assigned_role": "marks the bodily pressure before the penetration"
+                },
+                {
+                  "root": "ص ب ح",
+                  "branch_id": "B004",
+                  "literal_contribution": "morning raid, attacking at dawn, and the alarm cry associated with it",
+                  "assigned_role": "sets the attack as a dawn raid rather than neutral movement"
+                },
+                {
+                  "root": "ث و ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "stirring something up from its settled state, especially dust or earth",
+                  "assigned_role": "provides the disruptive cover and environmental upheaval before entry"
+                },
+                {
+                  "root": "ن ق ع",
+                  "branch_id": "B004",
+                  "literal_contribution": "raised or stirred dust",
+                  "assigned_role": "makes the disturbance visible around the advancing force"
+                },
+                {
+                  "root": "و س ط",
+                  "branch_id": "B003",
+                  "literal_contribution": "entering into the middle of a group or setting something in the middle",
+                  "assigned_role": "names the act of penetration into the center"
+                },
+                {
+                  "root": "و س ط",
+                  "branch_id": "B002",
+                  "literal_contribution": "central position between sides or parts",
+                  "assigned_role": "supplies the spatial target: not the edge, but the center"
+                },
+                {
+                  "root": "ج م ع",
+                  "branch_id": "B002",
+                  "literal_contribution": "assembled body, mixed people, or army",
+                  "assigned_role": "identifies the central target as a collective host"
+                }
+              ],
+              "structural_cues": [
+                "100:5 continues the same فـ chain and repeats به, linking central entry to the already raised dust or raid-motion.",
+                "The sequence now has a full spatial arc: approach, strike, dawn charge, dust-cloud, entry into the middle.",
+                "The new finite verb وسطن gives the agents a completed positional result, not just an effect on the environment.",
+                "ج م ع/B002 supplies the collective object that the earlier enemy branch ع د و/B003 lacked."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The gathered body in 100:5 is the opposed target of the raid rather than the raiders' own formation.",
+                  "why_invoked": "The packet supplies entry into a gathering but does not explicitly label that gathering as enemy or target.",
+                  "causal_direction": "supplied elements: panting runners, dawn raiders, dust raised, then entry into a gathered body; inferred arrow: the initial boundary-crossing rush culminates in penetration of an opposed collective center.",
+                  "alternatives": [
+                    "جمعا could be the raiders as a collective rather than the group they enter.",
+                    "The middle could be a neutral spatial position rather than tactical penetration."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 3, the focus began a dawn incursion that disturbed the ground and raised dust.",
+                "after": "After 100:5, the focus begins a raid with a precise endpoint: the panting force drives through dust into the center of an assembled body."
+              },
+              "minimal_triggers": [
+                "100:1 ع د و/B001",
+                "100:1 ع د و/B003",
+                "100:1 ض ب ح/B001",
+                "100:3 ص ب ح/B004",
+                "100:4 ن ق ع/B004",
+                "100:5 و س ط/B003",
+                "100:5 و س ط/B002",
+                "100:5 ج م ع/B002",
+                "repeated به linking 100:4 and 100:5"
+              ],
+              "ablation": "Removing 100:5 و س ط/B003 or ج م ع/B002 leaves the stage-3 raid as disturbance without a central target. Removing ع د و/B001 leaves a vivid central entry scene but loses the focus-root activation of boundary-crossing aggression."
+            },
+            {
+              "model_id": "m1_kinetic_expenditure",
+              "status": "revised",
+              "confidence": "strong",
+              "mechanism": "The exertion model is revised from transmitted turbulence into concentrated arrival. Panting marks force being gathered in bodies; sparks and dust show that force passing into the ground and air; 100:5 now shows the force gathered spatially into the middle of a collective. The focus is not only expenditure but directed concentration.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B002",
+                  "literal_contribution": "running and hastening",
+                  "assigned_role": "supplies the accumulating motion"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "audible breath of horses while running",
+                  "assigned_role": "marks internal pressure and bodily cost"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B002",
+                  "literal_contribution": "running with stretched forelegs",
+                  "assigned_role": "gives the gait by which force is repeatedly transmitted"
+                },
+                {
+                  "root": "ق د ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "striking out fire",
+                  "assigned_role": "shows motion converted into impact"
+                },
+                {
+                  "root": "ث و ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "stirring something from its settled state",
+                  "assigned_role": "shows outward displacement from the moving force"
+                },
+                {
+                  "root": "و س ط",
+                  "branch_id": "B003",
+                  "literal_contribution": "entering or placing in the middle",
+                  "assigned_role": "gives the motion its concentrated endpoint"
+                },
+                {
+                  "root": "ج م ع",
+                  "branch_id": "B010",
+                  "literal_contribution": "a horse gathering speed or force until motion is concentrated",
+                  "assigned_role": "mirrors the focus panting as speed gathered into usable force"
+                },
+                {
+                  "root": "ج م ع",
+                  "branch_id": "B001",
+                  "literal_contribution": "gathering scattered parts into one collected whole",
+                  "assigned_role": "frames the endpoint as convergence rather than mere arrival"
+                }
+              ],
+              "structural_cues": [
+                "The repeated فـ sequence now moves from exertion through impact and dust to centered arrival.",
+                "100:5 repeats به after 100:4, making the dust-raising and central entry feel like consecutive results of the same exerted force.",
+                "ج م ع/B010 directly activates a horse-motion branch: force or running gathers until concentrated.",
+                "و س ط/B003 changes the endpoint from time-at-dawn to position-in-the-middle."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The panting in 100:1 is the bodily sign of force later gathered into central penetration.",
+                  "why_invoked": "The packet supplies panting and central entry, but not a physical theory of concentration from breath to center.",
+                  "causal_direction": "supplied elements: running with breath, impact, dust, entry into the middle of a gathering; inferred arrow: exerted motion accumulates and focuses until it reaches a central position.",
+                  "alternatives": [
+                    "The central entry could be tactically significant without revising the bodily expenditure model.",
+                    "ج م ع/B010 may remain a general branch of gathering force rather than a direct bridge to the focus runners."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 3, the focus read as bodily pressure becoming environmental turbulence.",
+                "after": "After 100:5, the focus reads as bodily pressure gathered and aimed: panting motion concentrates into entry at the middle of a collected body."
+              },
+              "minimal_triggers": [
+                "100:1 ع د و/B002",
+                "100:1 ض ب ح/B001",
+                "100:1 ض ب ح/B002",
+                "100:4 ث و ر/B002",
+                "100:5 و س ط/B003",
+                "100:5 ج م ع/B010",
+                "100:5 ج م ع/B001",
+                "progression from force to displacement to center"
+              ],
+              "ablation": "Removing 100:5 ج م ع/B010 leaves exertion and central entry but weakens the idea of force being gathered. Removing و س ط/B003 removes the concentrated endpoint. Removing ض ب ح/B001 leaves the spatial result but not the focus-specific pressure that begins it."
+            },
+            {
+              "model_id": "m3_friction_heat_trace",
+              "status": "revised",
+              "confidence": "medium",
+              "mechanism": "The material upheaval model is revised into a medium of penetration. Dust is no longer only an external trace of impact; because 100:5 repeats به and then enters the middle of a gathering, the raised dust can function as the medium or cover through which the panting force reaches the center. The focus breath starts an atmospheric chain: breath, spark, dust, obscured central entry.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B010",
+                  "literal_contribution": "hard dry or uneven ground",
+                  "assigned_role": "supplies the dry surface that can release dust under force"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "breath-sound of horses while running",
+                  "assigned_role": "begins the sequence as air and sound issuing from moving bodies"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B003",
+                  "literal_contribution": "scorching and fire-striker stones or things touched by fire",
+                  "assigned_role": "keeps the focus connected to impact-generated heat and spark"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B005",
+                  "literal_contribution": "ash",
+                  "assigned_role": "bridges burned residue to particulate dust imagery"
+                },
+                {
+                  "root": "ق د ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "striking out fire",
+                  "assigned_role": "supplies the impact that begins material release"
+                },
+                {
+                  "root": "ث و ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "a thing bursts up and spreads outward after stillness, including dust or cloud",
+                  "assigned_role": "models the rising cloud around the motion"
+                },
+                {
+                  "root": "ن ق ع",
+                  "branch_id": "B004",
+                  "literal_contribution": "raised or stirred dust",
+                  "assigned_role": "names the airborne medium"
+                },
+                {
+                  "root": "و س ط",
+                  "branch_id": "B003",
+                  "literal_contribution": "entering into the middle of a group",
+                  "assigned_role": "turns the dust cloud from residue into a medium of central entry"
+                },
+                {
+                  "root": "ج م ع",
+                  "branch_id": "B002",
+                  "literal_contribution": "assembled body, mixed people, or army",
+                  "assigned_role": "provides the mass into whose middle the dust-wrapped force enters"
+                }
+              ],
+              "structural_cues": [
+                "100:4 and 100:5 use parallel finite verbs with به, making dust-raising and central entry a linked pair.",
+                "The sequence of effects now gives atmosphere plus location: dust rises, then the agents enter the middle by it or in that condition.",
+                "The gathered body gives the airborne dust a tactical or spatial function, not merely a visual one.",
+                "This revises the stage-3 material model without replacing its fire and dust traces."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The pronoun به in 100:5 lets the raised dust or the preceding disturbance function as the medium enabling entry.",
+                  "why_invoked": "The packet supplies the repeated pronoun and sequence, but the exact antecedent and enabling relation are not explicit.",
+                  "causal_direction": "supplied elements: dust raised thereby, then entry into the middle thereby; inferred arrow: the disturbed dusty atmosphere accompanies or enables penetration into the gathering.",
+                  "alternatives": [
+                    "به in 100:5 could refer to the raid-time, the running, or the place rather than the dust-cloud.",
+                    "Central entry may simply happen after dust rises, not because of it."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 3, the focus began a material upheaval in which breath and impact released sparks and dust.",
+                "after": "After 100:5, the focus begins an atmospheric penetration: panting and impact raise a dust-cloud through which the agents enter the center of an assembled body."
+              },
+              "minimal_triggers": [
+                "100:1 ع د و/B010",
+                "100:1 ض ب ح/B001",
+                "100:1 ض ب ح/B003",
+                "100:4 ث و ر/B001",
+                "100:4 ن ق ع/B004",
+                "100:5 و س ط/B003",
+                "100:5 ج م ع/B002",
+                "parallel به in 100:4 and 100:5"
+              ],
+              "ablation": "Removing 100:5 removes the tactical or mediating function of dust, leaving only the stage-3 material upheaval. Removing 100:4 ن ق ع/B004 leaves central entry but no dust medium. Removing ض ب ح/B003 weakens the focus-root bridge from panting to impact-generated particulate trace."
+            },
+            {
+              "model_id": "m4_moral_middle_ambiguity",
+              "status": "new",
+              "confidence": "exploratory",
+              "mechanism": "A new ambiguous reading appears because the same central-entry root can also mean justice, choice, and moderation. The panting incursion may therefore be framed ironically or tensely: a violent rush enters the 'middle,' but the middle is also the lexical place of balance or excellence. The focus ayah becomes the start of a movement whose moral status is not settled by its energy; entry into the center can be tactical penetration or a contested claim to central/right position.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B001",
+                  "literal_contribution": "overstepping a bound into injustice, aggression, attacking, or raiding",
+                  "assigned_role": "provides a morally charged possibility of transgression in the focus"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "audible breath of horses while running",
+                  "assigned_role": "keeps the scene grounded in driven bodily force"
+                },
+                {
+                  "root": "غ ي ر",
+                  "branch_id": "B003",
+                  "literal_contribution": "altering a state or displacing wrong with right",
+                  "assigned_role": "opens the possibility that the force changes an order rather than only violates it"
+                },
+                {
+                  "root": "و س ط",
+                  "branch_id": "B001",
+                  "literal_contribution": "justice, choice excellence, and guarded moderation in the middle",
+                  "assigned_role": "introduces a morally positive middle that complicates the overstepping frame"
+                },
+                {
+                  "root": "و س ط",
+                  "branch_id": "B003",
+                  "literal_contribution": "entering into the middle of a group",
+                  "assigned_role": "anchors that moral ambiguity in the actual central-entry action"
+                },
+                {
+                  "root": "ج م ع",
+                  "branch_id": "B003",
+                  "literal_contribution": "concerted resolve, firm preparation, or gathered opinions into one decision",
+                  "assigned_role": "casts the collective middle as organized purpose rather than mere crowd"
+                }
+              ],
+              "structural_cues": [
+                "100:5 introduces و س ط, whose inventory holds both spatial center and just/choice middle.",
+                "The focus root ع د و holds both running and morally negative overstepping, creating tension with the just-middle branch.",
+                "غ ي ر/B003 can mean changing a state or displacing wrong with right, allowing the incursion to be read as either violation or corrective transformation.",
+                "This model is new because no earlier ayah supplied a lexical middle capable of bearing moral ambiguity."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The moral branch of و س ط can color the central entry, not merely sit dormant beside the spatial sense.",
+                  "why_invoked": "The packet supplies the branch inventory, but the text's surface action is spatial entry into a gathering.",
+                  "causal_direction": "supplied elements: transgressive running and central entry with a just-middle branch; inferred arrow: reaching the middle raises the question of whether the rush is wrongful overstepping or forceful restoration of a center.",
+                  "alternatives": [
+                    "و س ط/B001 may be irrelevant here because the surface verb is spatial.",
+                    "The raid model may remain purely martial without moral counter-reading."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "Before 100:5, the focus could be morally edged as incursion, but no later branch challenged or complicated that moral direction.",
+                "after": "After 100:5, the focus can initiate a morally ambiguous drive toward the middle: either overstepping into a crowd or forceful arrival at a central, possibly rightful position."
+              },
+              "minimal_triggers": [
+                "100:1 ع د و/B001",
+                "100:1 ض ب ح/B001",
+                "100:3 غ ي ر/B003",
+                "100:5 و س ط/B001",
+                "100:5 و س ط/B003",
+                "100:5 ج م ع/B003"
+              ],
+              "ablation": "Removing 100:5 و س ط/B001 collapses this new reading into the ordinary raid-penetration model. Removing ع د و/B001 removes the moral tension between overstepping and just middle."
+            }
+          ],
+          "surprise_reading": "With 100:5 revealed, the panting racers are no longer just a force that raises dust; they are a force that reaches the middle of a gathered body. One reading strongly becomes tactical penetration of an assembled enemy. Another revises exertion into concentrated momentum. A third makes the dust-cloud a medium of entry. A new exploratory reading notices the moral ambiguity of the middle itself: the rush may be overstepping, or a violent movement toward a claimed center of order.",
+          "discarded_or_unchanged": []
+        },
+        "stage_05": {
+          "reader_id": "reader_l",
+          "focus_ref": "100:1",
+          "stage": 5,
+          "revealed_refs": [
+            "100:1",
+            "100:2",
+            "100:3",
+            "100:4",
+            "100:5",
+            "100:6"
+          ],
+          "models": [
+            {
+              "model_id": "m1_kinetic_expenditure",
+              "status": "revised",
+              "confidence": "strong",
+              "mechanism": "The exertion model is revised by the first explicit moral proposition. The panting racers no longer only show force concentrated into a center; they become an oath-image of total expenditure and directed completion set against the human who is cut off in gratitude toward the Lord who owns and nurtures him. The focus breath becomes a sign of responsiveness: bodies spend themselves to complete their arc, while the human fails in relational return.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B002",
+                  "literal_contribution": "running and hastening, including horse-running",
+                  "assigned_role": "supplies the fully committed motion used as oath evidence"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "audible breath or mouth-sound of horses while running",
+                  "assigned_role": "marks bodily expenditure made audible"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B002",
+                  "literal_contribution": "running with stretched forelegs",
+                  "assigned_role": "gives the exertion a visible gait of full extension"
+                },
+                {
+                  "root": "ج م ع",
+                  "branch_id": "B010",
+                  "literal_contribution": "gathering force or motion until it is concentrated, including a horse gathering speed",
+                  "assigned_role": "shows the prior motion as force collected toward completion"
+                },
+                {
+                  "root": "ء ن س",
+                  "branch_id": "B001",
+                  "literal_contribution": "visible human presence over against hidden or wild beings",
+                  "assigned_role": "introduces the human addressee as the moral comparator to the animalized oath scene"
+                },
+                {
+                  "root": "ر ب ب",
+                  "branch_id": "B001",
+                  "literal_contribution": "lordship, ownership, authority, and possession",
+                  "assigned_role": "defines the human's relational pole as one owed recognition"
+                },
+                {
+                  "root": "ر ب ب",
+                  "branch_id": "B002",
+                  "literal_contribution": "repair, nurture, completion, and stage-by-stage care",
+                  "assigned_role": "makes that owed recognition grounded in beneficent formation, not mere power"
+                },
+                {
+                  "root": "ك ن د",
+                  "branch_id": "B002",
+                  "literal_contribution": "ingratitude for favor and affection, forgetting blessings, self-serving behavior, and withholding support",
+                  "assigned_role": "names the failed return that contrasts with the runners' total expenditure"
+                }
+              ],
+              "structural_cues": [
+                "100:6 breaks the oath sequence with إن, turning the prior vivid actions into evidence for a moral claim.",
+                "The focus panting is now read backward from the predicate كنود: expenditure in the oath contrasts with withheld gratitude in the human.",
+                "لربه gives the relational direction that stage 4's concentrated arrival lacked: the issue is motion or response toward one's Lord.",
+                "ج م ع/B010 already supplied gathered force; ك ن د/B002 now supplies the opposite moral pattern, withholding and forgetting."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The oath-scene is meant to function contrastively: nonhuman or martial force completes its directed expenditure, while the human fails to reciprocate Lordly nurture.",
+                  "why_invoked": "The packet supplies the oath sequence and the moral assertion, but not the exact logical relation between the racers and human ingratitude.",
+                  "causal_direction": "supplied elements: panting runners completing a force-sequence and the human being ungrateful to his Lord; inferred arrow: the completed expenditure of the first scene exposes the incomplete or withheld return of the human.",
+                  "alternatives": [
+                    "The oath-scene could be illustrative intensity rather than contrast.",
+                    "The runners could model human aggressiveness directly rather than stand as a counterexample to human ingratitude."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 4, the focus read as bodily pressure gathered and aimed into the middle of a collected body.",
+                "after": "After 100:6, the focus also reads as an oath-image of spent, directed responsiveness used to expose the human's failure of return to the Lord who owns and nurtures him."
+              },
+              "minimal_triggers": [
+                "100:1 ع د و/B002",
+                "100:1 ض ب ح/B001",
+                "100:5 ج م ع/B010",
+                "100:6 ء ن س/B001",
+                "100:6 ر ب ب/B001",
+                "100:6 ر ب ب/B002",
+                "100:6 ك ن د/B002",
+                "إن shift from oath sequence to moral proposition"
+              ],
+              "ablation": "Removing 100:6 ك ن د/B002 or ر ب ب/B002 leaves the stage-4 force-concentration model but removes the contrast with withheld gratitude toward nurturing lordship. Removing ض ب ح/B001 leaves the moral claim intact but loses the focus-specific audible sign of total expenditure."
+            },
+            {
+              "model_id": "m2_boundary_crossing_incursion",
+              "status": "revised",
+              "confidence": "strong",
+              "mechanism": "The incursion model is moralized. The panting raid into the center of a gathered body now anticipates a deeper relation of breach: the human is severed and ungrateful toward his Lord. The focus root's dormant overstepping branch is therefore activated not only as battlefield penetration but as a pattern of crossing out of rightful dependence, cutting the bond of gratitude and covenant.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B001",
+                  "literal_contribution": "overstepping a bound into injustice, aggression, attacking, or raiding",
+                  "assigned_role": "supplies the focus-root image of wrongful crossing"
+                },
+                {
+                  "root": "ع د و",
+                  "branch_id": "B003",
+                  "literal_contribution": "enemy and enmity",
+                  "assigned_role": "keeps the rush capable of becoming relational opposition"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "breath-sound of horses while running",
+                  "assigned_role": "makes the overstepping urgent and embodied"
+                },
+                {
+                  "root": "و س ط",
+                  "branch_id": "B003",
+                  "literal_contribution": "entering into the middle of a group",
+                  "assigned_role": "gives the earlier incursion its spatial culmination"
+                },
+                {
+                  "root": "ج م ع",
+                  "branch_id": "B002",
+                  "literal_contribution": "assembled body, mixed people, or army",
+                  "assigned_role": "provides the collective field into which the incursion enters"
+                },
+                {
+                  "root": "ر ب ب",
+                  "branch_id": "B001",
+                  "literal_contribution": "lordship, ownership, and authority",
+                  "assigned_role": "sets the rightful authority against which transgression is measured"
+                },
+                {
+                  "root": "ر ب ب",
+                  "branch_id": "B011",
+                  "literal_contribution": "covenant, pact, or protection agreement",
+                  "assigned_role": "turns the Lord-relation into a bond that can be breached"
+                },
+                {
+                  "root": "ك ن د",
+                  "branch_id": "B001",
+                  "literal_contribution": "severing and separation, including cutting a rope and cutting off gratitude",
+                  "assigned_role": "names the moral cutting that corresponds to overstepping"
+                },
+                {
+                  "root": "ك ن د",
+                  "branch_id": "B002",
+                  "literal_contribution": "ingratitude toward favor and affection, forgetting blessings and withholding support",
+                  "assigned_role": "specifies the breach as refusal of grateful return"
+                }
+              ],
+              "structural_cues": [
+                "The move from 100:1-5 to 100:6 creates a structural turn from external incursion to internal moral judgment.",
+                "The preposition ل in لربه gives the violated relation a direction: the human's kanud-state is specifically toward his Lord.",
+                "ع د و/B001 and ك ن د/B001 converge on boundary failure: one crosses a limit, the other cuts a bond.",
+                "ر ب ب/B011 adds covenantal or protective-bond imagery that makes cutting gratitude more than a mood."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The raid image can be transposed into the human-Lord relation as an image of breach rather than merely physical warfare.",
+                  "why_invoked": "The packet supplies the oath scene and then moral predicate, but it does not state that the physical incursion symbolizes spiritual severance.",
+                  "causal_direction": "supplied elements: overstepping runners and a human described as severingly ungrateful to his Lord; inferred arrow: the earlier incursion becomes the outward analogue of an inward breach of lordship and covenant.",
+                  "alternatives": [
+                    "The raid may simply serve as an oath object without modeling the moral predicate.",
+                    "The human's ingratitude may contrast with the scene rather than continue its aggressive motion."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 4, the focus began a raid with a precise endpoint in the center of an assembled body.",
+                "after": "After 100:6, the focus begins a moralized breach: the panting overstep foreshadows the human's severed gratitude toward the Lord who owns and protects him."
+              },
+              "minimal_triggers": [
+                "100:1 ع د و/B001",
+                "100:1 ع د و/B003",
+                "100:1 ض ب ح/B001",
+                "100:5 و س ط/B003",
+                "100:6 ر ب ب/B001",
+                "100:6 ر ب ب/B011",
+                "100:6 ك ن د/B001",
+                "100:6 ك ن د/B002",
+                "turn from oath actions to إن moral judgment"
+              ],
+              "ablation": "Removing 100:6 ك ن د/B001 collapses the severance bridge and leaves only martial overstepping. Removing ر ب ب/B001 and B011 removes the rightful relation that makes the overstepping morally legible. Removing ع د و/B001 leaves ingratitude but not a focus-root mechanism of crossing a bound."
+            },
+            {
+              "model_id": "m3_friction_heat_trace",
+              "status": "revised",
+              "confidence": "medium",
+              "mechanism": "The material upheaval model is revised into a figure of barren nonproductivity. The focus had already activated hard ground, spark, ash, dust, and airborne residue; 100:6 adds that the human is kanud, whose inventory includes barren land that produces nothing. The panting rush over resistant ground now reads as a scene of extracting dust and sparks from dryness, set beside a human who receives lordly nurture yet yields no grateful fruit.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B010",
+                  "literal_contribution": "hard dry or uneven ground",
+                  "assigned_role": "supplies the resistant, dry material base"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B003",
+                  "literal_contribution": "scorching, fire-striker stones, or things touched by fire",
+                  "assigned_role": "keeps the focus tied to heat and charred contact"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B005",
+                  "literal_contribution": "ash",
+                  "assigned_role": "bridges burning residue to dust-like barrenness"
+                },
+                {
+                  "root": "ث و ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "a thing bursts up and spreads outward after stillness, including dust or cloud",
+                  "assigned_role": "models settled matter becoming visible cloud"
+                },
+                {
+                  "root": "ن ق ع",
+                  "branch_id": "B004",
+                  "literal_contribution": "raised or stirred dust",
+                  "assigned_role": "names the dry particulate result"
+                },
+                {
+                  "root": "ر ب ب",
+                  "branch_id": "B002",
+                  "literal_contribution": "repair, nurture, completion, and stage-by-stage care",
+                  "assigned_role": "supplies the expected productive care behind the human-Lord relation"
+                },
+                {
+                  "root": "ر ب ب",
+                  "branch_id": "B008",
+                  "literal_contribution": "low or layered cloud explained by nurturing plants or persistent rain",
+                  "assigned_role": "adds a counter-image of nurturing cloud over against sterile dust-cloud"
+                },
+                {
+                  "root": "ك ن د",
+                  "branch_id": "B003",
+                  "literal_contribution": "barren land that produces nothing",
+                  "assigned_role": "turns the dust-ground scene into a moral figure of nonproductivity"
+                },
+                {
+                  "root": "ك ن د",
+                  "branch_id": "B002",
+                  "literal_contribution": "ingratitude for favor, forgetting blessings, and withholding support",
+                  "assigned_role": "translates barren nonproduction into relational ingratitude"
+                }
+              ],
+              "structural_cues": [
+                "100:4 already made dust a central product of the force-sequence; 100:6 adds a root whose inventory includes barren land.",
+                "The contrast between ر ب ب/B002 nurture and ك ن د/B003 barrenness makes a coherent material-moral mechanism.",
+                "ض ب ح/B005 ash and ن ق ع/B004 dust preserve the focus-root path into sterile residue rather than merely importing the new predicate.",
+                "The oath-to-إن shift lets the physical dust scene be read as evidentiary preparation for a human condition."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The dust and ash field can prefigure the human's moral barrenness because ك ن د links ingratitude with nonproductive land.",
+                  "why_invoked": "The packet supplies dust, ash, nurture, and barren-land branches, but not the claim that the oath-scene is an agricultural or productivity analogy.",
+                  "causal_direction": "supplied elements: dry ground and raised dust, lordly nurture, human kanud as barren and ungrateful; inferred arrow: failure to return gratitude is like ground under force that yields dust rather than growth.",
+                  "alternatives": [
+                    "The barren-land branch of ك ن د may be metaphorically inactive here.",
+                    "The dust may remain tactical cover rather than a moral figure."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 4, the focus began an atmospheric penetration through spark and dust.",
+                "after": "After 100:6, the focus can begin a barren-residue analogy: intense motion over dry resistance yields dust and ash, just as the human under nurture yields ingratitude rather than grateful fruit."
+              },
+              "minimal_triggers": [
+                "100:1 ع د و/B010",
+                "100:1 ض ب ح/B003",
+                "100:1 ض ب ح/B005",
+                "100:4 ن ق ع/B004",
+                "100:6 ر ب ب/B002",
+                "100:6 ر ب ب/B008",
+                "100:6 ك ن د/B003",
+                "100:6 ك ن د/B002"
+              ],
+              "ablation": "Removing 100:6 ك ن د/B003 leaves the dust mechanism but removes the barren-land moral revision. Removing ر ب ب/B002 removes the expected nurture that makes nonproductivity culpable. Removing ض ب ح/B005 weakens the focus-root bridge from panting/scorch to sterile residue."
+            },
+            {
+              "model_id": "m4_moral_middle_ambiguity",
+              "status": "revised",
+              "confidence": "medium",
+              "mechanism": "The moral-middle ambiguity is revised rather than resolved into simple approval or condemnation of the raid. 100:6 relocates the moral center from spatial وسط to relation: the decisive question is not merely whether entry into the middle is just, but whether the visible human stands rightly toward his Lord. The panting drive to a center now exposes a contrast between spatial centrality and relational severance.",
+              "activation_trace": [
+                {
+                  "root": "ع د و",
+                  "branch_id": "B001",
+                  "literal_contribution": "overstepping a bound into injustice or aggression",
+                  "assigned_role": "keeps moral danger inside the focus motion"
+                },
+                {
+                  "root": "ض ب ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "audible breath-sound while running",
+                  "assigned_role": "shows the driven effort toward the center"
+                },
+                {
+                  "root": "و س ط",
+                  "branch_id": "B001",
+                  "literal_contribution": "justice, choice excellence, and guarded moderation in the middle",
+                  "assigned_role": "provides the earlier moralized spatial center"
+                },
+                {
+                  "root": "و س ط",
+                  "branch_id": "B003",
+                  "literal_contribution": "entering into the middle of a group",
+                  "assigned_role": "anchors the center as an achieved position"
+                },
+                {
+                  "root": "ء ن س",
+                  "branch_id": "B002",
+                  "literal_contribution": "perceiving something by seeing, sensing, or hearing",
+                  "assigned_role": "makes the human morally aware rather than merely present"
+                },
+                {
+                  "root": "ر ب ب",
+                  "branch_id": "B001",
+                  "literal_contribution": "lordship, ownership, and authority",
+                  "assigned_role": "defines the true relational center of obligation"
+                },
+                {
+                  "root": "ك ن د",
+                  "branch_id": "B001",
+                  "literal_contribution": "severing and separation, including cutting off gratitude",
+                  "assigned_role": "shows the human as cut off despite spatial or perceptual centrality"
+                },
+                {
+                  "root": "ك ن د",
+                  "branch_id": "B002",
+                  "literal_contribution": "ingratitude, counting misfortunes, forgetting blessings, and self-serving behavior",
+                  "assigned_role": "specifies the moral failure that displaces the earlier ambiguity"
+                }
+              ],
+              "structural_cues": [
+                "100:5 supplied the spatial middle; 100:6 immediately follows with the human's relation to his Lord, shifting the axis of evaluation.",
+                "ء ن س/B002 adds perception: the human can see, hear, or sense, so ingratitude is not mere ignorance.",
+                "ك ن د/B001 counters و س ط/B001: one branch suggests centered balance, the other severed relation.",
+                "The focus panting remains relevant as driven movement toward a center, but the new ayah asks whether the human's moral relation is centered or cut."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The spatial center of 100:5 and the Lord-directed moral relation of 100:6 should be read against each other.",
+                  "why_invoked": "The packet supplies adjacency and branch inventories, but not a stated contrast between spatial center and relational center.",
+                  "causal_direction": "supplied elements: entry into the middle, then human ingratitude to his Lord; inferred arrow: the achieved outer center reveals or contrasts with an inner severance from rightful authority.",
+                  "alternatives": [
+                    "100:6 may simply state the conclusion of the oath without revising the middle model.",
+                    "The moral branch of و س ط may remain irrelevant to a battlefield scene."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 4, the focus could initiate a morally ambiguous drive toward a spatial middle: overstepping or a forceful claim to the center.",
+                "after": "After 100:6, that ambiguity is relocated: the focus drive toward a center now contrasts with a human who, despite perception and central presence, is relationally severed from his Lord."
+              },
+              "minimal_triggers": [
+                "100:1 ع د و/B001",
+                "100:1 ض ب ح/B001",
+                "100:5 و س ط/B001",
+                "100:5 و س ط/B003",
+                "100:6 ء ن س/B002",
+                "100:6 ر ب ب/B001",
+                "100:6 ك ن د/B001",
+                "100:6 ك ن د/B002"
+              ],
+              "ablation": "Removing 100:6 removes the relational center and leaves only the stage-4 spatial ambiguity. Removing و س ط/B001 leaves the human-Lord moral claim but no contrast with the earlier just-middle branch. Removing ع د و/B001 removes the focus-root moral tension."
+            }
+          ],
+          "surprise_reading": "With 100:6 revealed, the panting racers become more than kinetic spectacle. One reading sees their total exertion as a contrast to the human who withholds grateful return to the nurturing Lord. Another moralizes the raid as a figure of severed covenant and overstepping. A third revises the dust and ash field into barren nonproductivity: force over dry ground yields residue, as the human yields ingratitude rather than fruit. A fourth shifts the prior middle-ambiguity from spatial center to relational severance from the Lord.",
+          "discarded_or_unchanged": []
+        }
+      }
+    }
+  },
+  "v12_reader_walks": {
+    "reader_b": {
+      "activated_readings_md": "1. **Kinetic charge as boundary-crossing aggression.** Evidence: ع د و B002 running/hastening, B001 overstepping into injustice, B003 enemy/enmity; ض ب ح B001 breath-sound of running horses and B002 stretched-foreleg running. Structural cue: initial oath begins with bodies in motion and breath, then 100:3 names a morning raid and 100:5 an entry into a جمع. Role: عدو supplies speed and hostile crossing; ضبح makes the action audible and animal-bodied. Abductive move: the panting is not neutral locomotion but the sound of a force crossing into contested space. Reading change: the ayah reads as an embodied threshold breach, not simply a description of fast runners.\n\n2. **Contagious condition of drive.** Evidence: ع د و B006 contagion/transmission and B007 hindrances; ض ب ح B001 repeated breath/cry; later ح ب ب B002 clinging love and ش د د B002 intensity. Structural cue: the opening motion becomes moral diagnosis in 100:6-8. Role: \"running\" becomes a transmissible pattern: driven desire passes from scene to human interior. Abductive move: the packet invites analogy between external gallop and internal compulsion. Reading change: the panting runners prefigure a human soul infected by severe attachment, making 100:1 a motor-image for later appetite.\n\n3. **Along-edge approach.** Evidence: ع د و B009 side/bank/along-edge stretch, B010 hard uneven ground; ض ب ح B002 light or stretched running; later و س ط B003 entering the middle. Structural cue: the sequence runs from edge movement to center penetration. Role: عدو marks movement along a flank or boundary; وسط later reverses it by entry into the middle. Abductive move: a successful incursion first traces the edge before cutting into the center. Reading change: the ayah becomes the beginning of a spatial maneuver, not merely a generic chase.",
+      "retrospective_surprises_md": "100:8 surprisingly returned the opening run inside the human: ش د د B003 and حب as clinging made the panting motion a figure for inward compulsion. 100:5 also clarified the spatial path: 100:1 begins at speed/edge, while 100:5 completes the maneuver in the center.",
+      "turkish_prose_synthesis_md": null,
+      "source_file": "latent_activation/v12/runs/s100/full_context_control/reader_s100_b_ayah_walk.md"
+    }
+  },
+  "butuncul_okuma_line": {
+    "raw_line": "**100:1.** وَٱلْعَٰدِيَٰتِ ضَبْحًۭا — Birincil okuma: Ayet, sadece hızlı koşan varlıkları değil, sınır aşan ve düşman alana giren bedenli bir hamleyi duyurur; ضبح nefes sesi bu geçişi işitilir, hayvanî ve zorlayıcı kılar. Sonraki ayetlerde merkeze giriş ve insanın şiddetli sevgisi belirince koşu, dış savaş kadar iç iştahın bulaşıcı motoru olarak da okunur. {ع د و B001; ع د و B002; ع د و B003; ع د و B006; ع د و B009; ض ب ح B001; ض ب ح B002; و س ط B003; ح ب ب B002; ش د د B002}",
+    "arabic_text": "وَٱلْعَٰدِيَٰتِ ضَبْحًۭا",
+    "reading_text_tr": "Ayet, sadece hızlı koşan varlıkları değil, sınır aşan ve düşman alana giren bedenli bir hamleyi duyurur; ضبح nefes sesi bu geçişi işitilir, hayvanî ve zorlayıcı kılar. Sonraki ayetlerde merkeze giriş ve insanın şiddetli sevgisi belirince koşu, dış savaş kadar iç iştahın bulaşıcı motoru olarak da okunur.",
+    "root_citations": [
+      "ع د و B001",
+      "ع د و B002",
+      "ع د و B003",
+      "ع د و B006",
+      "ع د و B009",
+      "ض ب ح B001",
+      "ض ب ح B002",
+      "و س ط B003",
+      "ح ب ب B002",
+      "ش د د B002"
+    ]
+  },
+  "inter_ayah_rows": [
+    {
+      "label": "strong",
+      "ref": "26:77",
+      "note": "Exact V12 bridge for the f02 adversarial reading; establishes a distinct root sense."
+    },
+    {
+      "label": "medium",
+      "ref": "43:67",
+      "note": "Extends f02 through a relation that turns into hostility; secondary after 26:77."
+    },
+    {
+      "label": "strong",
+      "ref": "6:108",
+      "note": "Direct V12 support for f02 and f04: transgression can propagate through reciprocal action."
+    },
+    {
+      "label": "medium",
+      "ref": "23:7",
+      "note": "Supports f02 as boundary-crossing, while its speed link remains secondary."
+    },
+    {
+      "label": "strong",
+      "ref": "100:4",
+      "note": "Immediate f01 sequel: supplies the dust stage of the local movement chain."
+    },
+    {
+      "label": "medium",
+      "ref": "8:42",
+      "note": "Exact f05 bridge: unequal near, far, and lower positions frame a spatial maneuver."
+    },
+    {
+      "label": "weak",
+      "ref": "70:31",
+      "note": "Duplicates 23:7 and offers only a weak speed-boundary association."
+    },
+    {
+      "label": "strong",
+      "ref": "100:2",
+      "note": "Immediate f01 sequel: supplies the ignition stage following the opening force."
+    },
+    {
+      "label": "weak",
+      "ref": "61:14",
+      "note": "Generic adversarial setting; adds little beyond the earlier f02 evidence."
+    },
+    {
+      "label": "medium",
+      "ref": "83:12",
+      "note": "Supports f02 by presenting transgression as a bounded moral trajectory."
+    },
+    {
+      "label": "no value",
+      "ref": "33:2",
+      "note": "No clear movement, incursion, or linked focus-reading contribution."
+    },
+    {
+      "label": "medium",
+      "ref": "35:6",
+      "note": "Supports f04 by showing adversarial invitation and group formation."
+    },
+    {
+      "label": "medium",
+      "ref": "43:62",
+      "note": "Supports f02 through diversion from a route, not through the opening action itself."
+    },
+    {
+      "label": "strong",
+      "ref": "100:3",
+      "note": "Immediate f01 sequel: fixes dawn incursion as the next stage of the chain."
+    },
+    {
+      "label": "medium",
+      "ref": "17:53",
+      "note": "Adds a verbal route by which f02 hostility can arise between persons."
+    },
+    {
+      "label": "weak",
+      "ref": "79:3",
+      "note": "Oath-like motion offers a distant formal parallel only."
+    },
+    {
+      "label": "no value",
+      "ref": "100:10",
+      "note": "Later disclosure theme does not clarify the opening action."
+    },
+    {
+      "label": "medium",
+      "ref": "36:60",
+      "note": "Preserves f02 as an adversarial pull across a protected boundary."
+    },
+    {
+      "label": "weak",
+      "ref": "103:1",
+      "note": "Generic oath form, already represented by closer oath parallels."
+    },
+    {
+      "label": "no value",
+      "ref": "11:72",
+      "note": "No usable connection to the focus readings."
+    },
+    {
+      "label": "weak",
+      "ref": "4:30",
+      "note": "General transgression consequence; weaker than the prior f02 boundary cards."
+    },
+    {
+      "label": "medium",
+      "ref": "51:1",
+      "note": "Parallel opening movement image; useful for f01 without an exact route."
+    },
+    {
+      "label": "strong",
+      "ref": "100:5",
+      "note": "Immediate f01 sequel: completes the movement chain with entry into a group center."
+    },
+    {
+      "label": "weak",
+      "ref": "4:45",
+      "note": "Generic adversary identification; little added mechanism for 100:1."
+    },
+    {
+      "label": "medium",
+      "ref": "77:2",
+      "note": "Oath-like driving force gives a secondary f01 formal-motion parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "100:9",
+      "note": "Later accountability theme does not explain the opening image."
+    },
+    {
+      "label": "medium",
+      "ref": "46:6",
+      "note": "Supports f02 by exposing apparent affiliation as enmity; distinct relational angle."
+    },
+    {
+      "label": "medium",
+      "ref": "79:1",
+      "note": "Oath-like force supplies a limited parallel for the opening participial construction."
+    },
+    {
+      "label": "medium",
+      "ref": "20:123",
+      "note": "Strong Arabic enmity context preserves f02, but does not establish the movement sense."
+    },
+    {
+      "label": "weak",
+      "ref": "2:98",
+      "note": "Generic hostile alignment; no added account of the focus action."
+    },
+    {
+      "label": "medium",
+      "ref": "37:1",
+      "note": "Parallel oath formation gives a secondary structural comparison."
+    },
+    {
+      "label": "weak",
+      "ref": "100:8",
+      "note": "Later wealth theme may touch f04, but does not clarify 100:1 directly."
+    },
+    {
+      "label": "medium",
+      "ref": "28:15",
+      "note": "Shows factional urgency turning into bodily conflict, relevant to f02."
+    },
+    {
+      "label": "no value",
+      "ref": "42:2",
+      "note": "No usable connection to the focus readings."
+    },
+    {
+      "label": "no value",
+      "ref": "100:6",
+      "note": "Later human disposition does not explain the opening image."
+    },
+    {
+      "label": "weak",
+      "ref": "2:97",
+      "note": "Generic adversarial alignment; only a remote f02 parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "40:1",
+      "note": "No usable connection to the focus readings."
+    },
+    {
+      "label": "no value",
+      "ref": "68:38",
+      "note": "No usable connection to the focus readings."
+    },
+    {
+      "label": "medium",
+      "ref": "2:190",
+      "note": "Clarifies f02 by marking a limit between combat and transgression."
+    },
+    {
+      "label": "medium",
+      "ref": "5:62",
+      "note": "Joins haste with transgression, giving limited support to f02's accelerated boundary crossing."
+    },
+    {
+      "label": "weak",
+      "ref": "100:7",
+      "note": "Later witness theme does not clarify the opening image."
+    },
+    {
+      "label": "medium",
+      "ref": "41:19",
+      "note": "A controlled hostile gathering contrasts with the opening's self-propelled movement."
+    },
+    {
+      "label": "medium",
+      "ref": "58:9",
+      "note": "Shows speech functioning as an instrument of transgression, extending f02."
+    },
+    {
+      "label": "no value",
+      "ref": "100:11",
+      "note": "Later divine knowledge theme does not explain the opening action."
+    },
+    {
+      "label": "weak",
+      "ref": "2:208",
+      "note": "Enemy-following route is a remote, already-covered f02 parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "5:2",
+      "note": "Connects aggression, hunting, and restraint; a secondary boundary context for f02."
+    },
+    {
+      "label": "no value",
+      "ref": "68:8",
+      "note": "No usable connection to the focus readings."
+    },
+    {
+      "label": "medium",
+      "ref": "20:117",
+      "note": "Enemy-driven expulsion supplies a concrete f02 adverse trajectory."
+    },
+    {
+      "label": "medium",
+      "ref": "2:85",
+      "note": "Collective aggression gives a distinct social setting for f02."
+    },
+    {
+      "label": "weak",
+      "ref": "54:45",
+      "note": "Retreating a defeated group is only a loose movement contrast."
+    },
+    {
+      "label": "medium",
+      "ref": "2:193",
+      "note": "Clarifies that force has a stopping boundary, supporting f02."
+    },
+    {
+      "label": "medium",
+      "ref": "5:14",
+      "note": "Exact V12 route: covenant rupture develops into enduring hostility for f02."
+    },
+    {
+      "label": "medium",
+      "ref": "68:12",
+      "note": "Exact V12 routes connect withholding and transgression to f02's hostile aspect."
+    },
+    {
+      "label": "medium",
+      "ref": "9:10",
+      "note": "Covenant and kinship protections define a distinct boundary for f02."
+    },
+    {
+      "label": "weak",
+      "ref": "2:178",
+      "note": "Legal excess is a broad boundary example, weaker than prior f02 cards."
+    },
+    {
+      "label": "medium",
+      "ref": "72:8",
+      "note": "Bright projectiles provide a secondary ignition parallel for f03."
+    },
+    {
+      "label": "weak",
+      "ref": "5:78",
+      "note": "General persistent transgression; little new after earlier boundary evidence."
+    },
+    {
+      "label": "weak",
+      "ref": "2:231",
+      "note": "A domestic legal misuse gives only a distant f02 boundary parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "104:2",
+      "note": "Adds the gathered-wealth side of f04, though the route is indirect."
+    },
+    {
+      "label": "medium",
+      "ref": "5:82",
+      "note": "Contrasts hostile distance and social closeness, extending f02 relationally."
+    },
+    {
+      "label": "weak",
+      "ref": "3:112",
+      "note": "General transgression consequence; redundant boundary evidence."
+    },
+    {
+      "label": "no value",
+      "ref": "78:12",
+      "note": "No usable connection to the focus readings."
+    },
+    {
+      "label": "weak",
+      "ref": "2:65",
+      "note": "A specific legal-boundary case, weaker than broader f02 evidence."
+    },
+    {
+      "label": "weak",
+      "ref": "2:61",
+      "note": "General transgression context; no opening-action contribution."
+    },
+    {
+      "label": "medium",
+      "ref": "26:166",
+      "note": "Exact V12 support for f02 as departure from a defined relation."
+    },
+    {
+      "label": "weak",
+      "ref": "2:173",
+      "note": "Necessity exception offers a broad, redundant boundary analogy."
+    },
+    {
+      "label": "medium",
+      "ref": "2:194",
+      "note": "Proportional response supplies a concrete limit on f02-type transgression."
+    },
+    {
+      "label": "medium",
+      "ref": "4:14",
+      "note": "Exact V12 route: chosen boundary crossing becomes constrained placement, sharpening f02."
+    },
+    {
+      "label": "medium",
+      "ref": "2:36",
+      "note": "Preserves the enmity reading in a descent setting; parallel to 20:123."
+    },
+    {
+      "label": "weak",
+      "ref": "4:92",
+      "note": "Enemy-group classification adds no account of the opening movement."
+    },
+    {
+      "label": "medium",
+      "ref": "7:55",
+      "note": "Exact V12 route frames approach as bounded rather than transgressive, a useful f02 limit."
+    },
+    {
+      "label": "medium",
+      "ref": "3:103",
+      "note": "Hostility-to-solidarity reversal gives a distinct relational counterpart to f02."
+    },
+    {
+      "label": "weak",
+      "ref": "2:168",
+      "note": "Enemy-following through steps is a remote f02 analogy."
+    },
+    {
+      "label": "weak",
+      "ref": "2:229",
+      "note": "Detailed legal limits repeat the boundary theme without clarifying 100:1."
+    },
+    {
+      "label": "medium",
+      "ref": "25:31",
+      "note": "Prophetic opposition supplies a distinct adversarial context for f02."
+    },
+    {
+      "label": "medium",
+      "ref": "4:154",
+      "note": "Exact V12 route makes covenant boundaries spatially enacted, supporting f02."
+    },
+    {
+      "label": "weak",
+      "ref": "7:24",
+      "note": "Repeats the descent-and-enmity evidence already supplied by 2:36 and 20:123."
+    },
+    {
+      "label": "medium",
+      "ref": "4:101",
+      "note": "Travel under an explicit enemy threat gives a secondary physical setting for f02."
+    },
+    {
+      "label": "medium",
+      "ref": "60:1",
+      "note": "Exact V12 route distinguishes hostile allegiance from ordinary relation, extending f02."
+    },
+    {
+      "label": "no value",
+      "ref": "2:282",
+      "note": "No clear movement, incursion, or linked focus-reading contribution."
+    },
+    {
+      "label": "medium",
+      "ref": "5:91",
+      "note": "Exact V12 route shows practices installing enmity among people, extending f02."
+    },
+    {
+      "label": "weak",
+      "ref": "52:6",
+      "note": "Oath syntax alone is too general after closer formal parallels."
+    },
+    {
+      "label": "medium",
+      "ref": "41:34",
+      "note": "Exact V12 route supplies reversal of enmity, a meaningful f02 counterpart."
+    },
+    {
+      "label": "weak",
+      "ref": "93:1",
+      "note": "Generic oath form, redundant with earlier oath cards."
+    },
+    {
+      "label": "medium",
+      "ref": "6:112",
+      "note": "Exact V12 route presents distributed adversarial communication, extending f02."
+    },
+    {
+      "label": "medium",
+      "ref": "51:2",
+      "note": "Parallel oath participle and carrying motion give a secondary f01 comparison."
+    },
+    {
+      "label": "weak",
+      "ref": "16:115",
+      "note": "Duplicates the necessity-boundary point of 2:173."
+    },
+    {
+      "label": "no value",
+      "ref": "96:18",
+      "note": "No usable connection to the focus readings."
+    },
+    {
+      "label": "medium",
+      "ref": "63:4",
+      "note": "Exact V12 route treats enmity as an active obstructive function, extending f02."
+    },
+    {
+      "label": "medium",
+      "ref": "37:2",
+      "note": "Parallel oath of forceful driving gives a secondary f01 comparison."
+    },
+    {
+      "label": "weak",
+      "ref": "16:12",
+      "note": "Celestial subjection is too remote from the focus action."
+    },
+    {
+      "label": "no value",
+      "ref": "87:10",
+      "note": "No usable connection to the focus readings."
+    },
+    {
+      "label": "medium",
+      "ref": "37:10",
+      "note": "Pursuit by a piercing flame is a secondary f03 ignition-and-pursuit parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "16:9",
+      "note": "Route deviation supplies a distinct f02 boundary-direction counterpart."
+    },
+    {
+      "label": "medium",
+      "ref": "10:22",
+      "note": "Forceful wind-driven travel provides a secondary physical-motion parallel for f01."
+    },
+    {
+      "label": "no value",
+      "ref": "28:14",
+      "note": "No usable connection to the focus readings."
+    },
+    {
+      "label": "no value",
+      "ref": "7:185",
+      "note": "No usable connection to the focus readings."
+    },
+    {
+      "label": "weak",
+      "ref": "18:95",
+      "note": "A barrier-between relation is only a loose f05 spatial analogy."
+    },
+    {
+      "label": "no value",
+      "ref": "3:171",
+      "note": "No usable connection to the focus readings."
+    },
+    {
+      "label": "medium",
+      "ref": "10:90",
+      "note": "Aggressive pursuit directly preserves the f02 alternative, though late and non-exclusive."
+    },
+    {
+      "label": "strong",
+      "ref": "38:31",
+      "note": "Direct equine parallel: swift coursers make the physical-mount reading of f01 materially testable."
+    },
+    {
+      "label": "strong",
+      "ref": "59:6",
+      "note": "Direct martial-horse movement context; supplies a close Qur'anic frame for f01 and f02 together."
+    },
+    {
+      "label": "strong",
+      "ref": "8:60",
+      "note": "Prepared tethered horses connect force, hostile opposition, and the martial setting of f01/f02."
+    },
+    {
+      "label": "medium",
+      "ref": "17:64",
+      "note": "Cavalry and foot-force imagery supplies a secondary incursion frame for f02."
+    },
+    {
+      "label": "strong",
+      "ref": "9:120",
+      "note": "Physical strain and ground-crossing in a hostile expedition closely extend f01's bodily-cost aspect."
+    },
+    {
+      "label": "medium",
+      "ref": "16:8",
+      "note": "Names horses as mounts, giving a basic physical referent for the f01 reading."
+    },
+    {
+      "label": "medium",
+      "ref": "7:176",
+      "note": "Persistent panting is a close bodily-breathing parallel, though its animal and scene differ."
+    },
+    {
+      "label": "medium",
+      "ref": "27:17",
+      "note": "A mustered, ordered force provides a secondary collective-motion frame for f01 and f05."
+    },
+    {
+      "label": "medium",
+      "ref": "27:18",
+      "note": "Anticipated trampling by an approaching force sharpens the incursion side of f01/f05."
+    },
+    {
+      "label": "medium",
+      "ref": "3:200",
+      "note": "Readiness at a station supplies a secondary martial preparation context for f01/f02."
+    },
+    {
+      "label": "medium",
+      "ref": "79:4",
+      "note": "The oath-sequence's racing action is a close formal-motion parallel for f01."
+    },
+    {
+      "label": "medium",
+      "ref": "51:3",
+      "note": "Another oath sequence of fluent movement gives a secondary formal parallel for f01."
+    },
+    {
+      "label": "medium",
+      "ref": "81:16",
+      "note": "Running and withdrawing motion provides a controlled celestial parallel, not an exact route."
+    },
+    {
+      "label": "medium",
+      "ref": "22:27",
+      "note": "Long-distance arrival on worn mounts adds an animal-travel and exertion counterpart to f01."
+    },
+    {
+      "label": "medium",
+      "ref": "36:20",
+      "note": "Running from a city's far side gives a distinct f05 route-from-edge-to-center parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "28:20",
+      "note": "A runner arriving from the city's far side corroborates the f05 spatial-maneuver parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "3:14",
+      "note": "Horses as valued possessions give only an indirect physical-horse backdrop."
+    },
+    {
+      "label": "strong",
+      "ref": "3:121",
+      "note": "Early departure to arrange a battle line supplies a close dawn-and-martial frame for f01."
+    },
+    {
+      "label": "medium",
+      "ref": "3:156",
+      "note": "The raid/expedition setting gives a direct martial counterpart to the f01-f02 chain."
+    },
+    {
+      "label": "medium",
+      "ref": "8:15",
+      "note": "An advancing hostile encounter and the prohibition on turning away sharpen f01's charge context."
+    },
+    {
+      "label": "medium",
+      "ref": "8:45",
+      "note": "Meeting an opposing force supplies a concise collective-engagement setting for f01/f02."
+    },
+    {
+      "label": "medium",
+      "ref": "9:41",
+      "note": "Commanded departure under varying burdens gives a secondary exertion-and-expedition parallel."
+    }
+  ],
+  "channel_subchannels_anchored_here": [
+    {
+      "parent_channel": "Propulsive Force and Incursion",
+      "parent_semantic_invariant": "Stored bodily force becomes directed motion, audible strain, a raised trace, and penetration into a gathered body.",
+      "parent_surprising_reach": "The charge is legible not only as displacement but through breath, alarm, dust, and the gathering of separate strides into momentum.",
+      "key": "A",
+      "name": "Accelerating Charge",
+      "reading_type": "mixed",
+      "scene_or_process": "A running mount extends its gait, pants under exertion, gathers speed, and turns that accumulated force into a charge.",
+      "active_motifs": "running/coursing (`ع د و:B002/m01`); extended-limb gait (`ض ب ح:B002/m01`); panting breath (`ض ب ح:B001/m01`); forceful charge (`ش د د:B003/m01`); gathered momentum (`ج م ع:B010/m01`)",
+      "ayah_anchors": "100:1 `عَادِيَاتِ`, `ضَبْحًا`; 100:5 `جَمْعًا`; 100:8 `شَدِيدٌ`",
+      "synthesis": "Running supplies the forward action, extended gait and panting give it an animal mechanism, and gathered motion explains how successive strides become a forceful charge.",
+      "ayah_refs": [
+        "100:1",
+        "100:5",
+        "100:8"
+      ]
+    },
+    {
+      "parent_channel": "Propulsive Force and Incursion",
+      "parent_semantic_invariant": "Stored bodily force becomes directed motion, audible strain, a raised trace, and penetration into a gathered body.",
+      "parent_surprising_reach": "The charge is legible not only as displacement but through breath, alarm, dust, and the gathering of separate strides into momentum.",
+      "key": "B",
+      "name": "Dawn Assault and Alarm",
+      "reading_type": "mixed",
+      "scene_or_process": "A hostile movement arrives in the morning while repeated cries announce the assault and orient it toward an opposing group.",
+      "active_motifs": "wrongful incursion (`ع د و:B001/m01`); enemy relation (`ع د و:B003/m01`); morning assault (`ص ب ح:B004/m01`); alarm cry (`ص ب ح:B004/m02`); raised repeated cry (`ن ق ع:B005/m01`); gathered host (`ج م ع:B002/m01`)",
+      "ayah_anchors": "100:1 `عَادِيَاتِ`; 100:3 `صُبْحًا`; 100:4 `نَقْعًا`; 100:5 `جَمْعًا`",
+      "synthesis": "The morning is both the time of attack and the setting for an alarm. Hostility gives the movement its social target, while the repeated cry turns the incursion into a publicly perceived event.",
+      "ayah_refs": [
+        "100:1",
+        "100:3",
+        "100:4",
+        "100:5"
+      ]
+    },
+    {
+      "parent_channel": "Ignition, Light, and Combustion Trace",
+      "parent_semantic_invariant": "Contact releases latent fire, fire becomes visible light, and burning leaves altered surfaces and residue.",
+      "parent_surprising_reach": "The successful firestick also extends to successful aid, so ignition becomes a model for an undertaking made effective through assistance.",
+      "key": "A",
+      "name": "Flint-to-Fire Mechanism",
+      "reading_type": "mixed",
+      "scene_or_process": "A striking tool meets a fire-bearing material, exposes its hidden flame, and marks the end of the implement with heat.",
+      "active_motifs": "striking fire (`ق د ح:B001/m01`); latent fire emerging (`و ر ي:B002/m01`); charred firestick tip (`ض ب ح:B003/m01`); successful firestick or aid (`و ر ي:B003/m01`)",
+      "ayah_anchors": "100:1 `ضَبْحًا`; 100:2 `مُورِيَاتِ`, `قَدْحًا`",
+      "synthesis": "The striker supplies impact, the fire-bearing material supplies concealed energy, and the charred tip records successful contact. The success-and-aid sense carries the same mechanism into social action: help makes an effort catch.",
+      "ayah_refs": [
+        "100:1",
+        "100:2"
+      ]
+    },
+    {
+      "parent_channel": "Ignition, Light, and Combustion Trace",
+      "parent_semantic_invariant": "Contact releases latent fire, fire becomes visible light, and burning leaves altered surfaces and residue.",
+      "parent_surprising_reach": "The successful firestick also extends to successful aid, so ignition becomes a model for an undertaking made effective through assistance.",
+      "key": "C",
+      "name": "Blackening and Ash",
+      "reading_type": "latent/lexical",
+      "scene_or_process": "Heat darkens an exposed surface and reduces burned material to an ashen remainder.",
+      "active_motifs": "heat-blackened surface (`ض ب ح:B004/m01`); ash (`ض ب ح:B005/m01`); combustion remainder (`ح ص ل:B003/m02`)",
+      "ayah_anchors": "100:1 `ضَبْحًا`; 100:10 `حُصِّلَ`",
+      "synthesis": "Blackening is the intermediate visible state and ash the terminal residue. The remainder sense places combustion inside the wider pattern of what persists after other material has been removed.",
+      "ayah_refs": [
+        "100:1",
+        "100:10"
+      ]
+    },
+    {
+      "parent_channel": "Cultivation, Harvest, and Prepared Nourishment",
+      "parent_semantic_invariant": "Living material moves from seed and cultivated growth through separation and residue into food prepared for storage or hospitality.",
+      "parent_surprising_reach": "The roots of love, testimony, lordship, and running extend into grain, honeycomb, plant care, and late-season herbage.",
+      "key": "A",
+      "name": "Seed, Palm, and Green Shoot",
+      "reading_type": "latent/lexical",
+      "scene_or_process": "Seed gives rise to mixed palm growth, unripe fruit, tender tips, evergreen vegetation, and later summer browse.",
+      "active_motifs": "grain or seed (`ح ب ب:B001/m01`); mixed palm cultivar (`ج م ع:B011/m01`); unripe date fruit (`ح ص ل:B005/m01`); evergreen plant (`ر ب ب:B012/m01`); tender shoot tips (`ق د ح:B009/m01`); summer herbage (`ع د و:B011/m01`)",
+      "ayah_anchors": "100:1 `عَادِيَاتِ`; 100:2 `قَدْحًا`; 100:5 `جَمْعًا`; 100:6, 100:11 `رَبّ`; 100:8 `حُبِّ`; 100:10 `حُصِّلَ`",
+      "synthesis": "Seed is the material origin, cultivar and shoot describe growth, the unripe date marks an intermediate fruit stage, and evergreen or summer vegetation extends the cycle across seasons.",
+      "ayah_refs": [
+        "100:1",
+        "100:2",
+        "100:5",
+        "100:6",
+        "100:11",
+        "100:8",
+        "100:10"
+      ]
+    },
+    {
+      "parent_channel": "Covenant, Opposition, and Settlement",
+      "parent_semantic_invariant": "Relations between parties are bound as pacts, opposed as enmity, argued through claims, and restored through judgment or mediation.",
+      "parent_surprising_reach": "Roots used on the surface for running, gathering, and entering the middle become the roles of foe, ally, claimant, and mediator.",
+      "key": "B",
+      "name": "Hostility and Covenant Rupture",
+      "reading_type": "latent/lexical",
+      "scene_or_process": "A former or possible relation becomes enmity, crosses into aggression, and is severed by departure or broken obligation.",
+      "active_motifs": "enemy relation (`ع د و:B003/m01`); transgressive aggression (`ع د و:B001/m01`); severing a relation (`ك ن د:B001/m02`); forceful attack (`ش د د:B003/m01`)",
+      "ayah_anchors": "100:1 `عَادِيَاتِ`; 100:6 `كَنُودٌ`; 100:8 `شَدِيدٌ`",
+      "synthesis": "Enmity supplies the social opposition, aggression realizes it as action, and severing names the broken continuity between parties.",
+      "ayah_refs": [
+        "100:1",
+        "100:6",
+        "100:8"
+      ]
+    },
+    {
+      "parent_channel": "Covenant, Opposition, and Settlement",
+      "parent_semantic_invariant": "Relations between parties are bound as pacts, opposed as enmity, argued through claims, and restored through judgment or mediation.",
+      "parent_surprising_reach": "Roots used on the surface for running, gathering, and entering the middle become the roles of foe, ally, claimant, and mediator.",
+      "key": "C",
+      "name": "Claim, Testimony, and Restitution",
+      "reading_type": "latent/lexical",
+      "scene_or_process": "An injured party seeks a ruling, testimony and inward knowledge establish the matter, property is assessed or confiscated, and compensation settles the claim.",
+      "active_motifs": "appeal for redress (`ع د و:B005/m01`); testimony (`ش ه د:B002/m01`); inward knowledge of the case (`خ ب ر:B001/m01`); confiscation or assessed payment (`ص د ر:B005/m01`); indemnity or blood-money (`غ ي ر:B002/m01`)",
+      "ayah_anchors": "100:1 `عَادِيَاتِ`; 100:3 `مُغِيرَاتِ`; 100:7 `شَهِيدٌ`; 100:10 `صُدُورِ`; 100:11 `خَبِيرٌ`",
+      "synthesis": "The claimant initiates adjudication, testimony and knowledge determine the case, and confiscation or indemnity converts judgment into material settlement.",
+      "ayah_refs": [
+        "100:1",
+        "100:3",
+        "100:7",
+        "100:10",
+        "100:11"
+      ]
+    },
+    {
+      "parent_channel": "Covenant, Opposition, and Settlement",
+      "parent_semantic_invariant": "Relations between parties are bound as pacts, opposed as enmity, argued through claims, and restored through judgment or mediation.",
+      "parent_surprising_reach": "Roots used on the surface for running, gathering, and entering the middle become the roles of foe, ally, claimant, and mediator.",
+      "key": "D",
+      "name": "Mediation between Parties",
+      "reading_type": "latent/lexical",
+      "scene_or_process": "An intermediary enters between opposed sides and works toward renewed agreement.",
+      "active_motifs": "mediation (`و س ط:B005/m01`); alliance around a matter (`ج م ع:B013/m01`); covenant (`ر ب ب:B011/m01`); opposing party (`ع د و:B003/m01`)",
+      "ayah_anchors": "100:1 `عَادِيَاتِ`; 100:5 `وَسَطْنَ`, `جَمْعًا`; 100:6, 100:11 `رَبّ`",
+      "synthesis": "Opposition supplies the two sides, the mediator occupies the relational middle, and alliance or covenant supplies the sought outcome.",
+      "ayah_refs": [
+        "100:1",
+        "100:5",
+        "100:6",
+        "100:11"
+      ]
+    },
+    {
+      "parent_channel": "Terrain, Orientation, and Staying",
+      "parent_semantic_invariant": "Places are differentiated by hardness, level, edge, middle, facing, and the capacity to hold a body in position.",
+      "parent_surprising_reach": "Valley banks and hard ground scale into a human-facing side, an opposite side beyond a barrier, and a body or cloud that remains fixed in place.",
+      "key": "A",
+      "name": "Soft Basin, Flat Plain, and Hard Ground",
+      "reading_type": "latent/lexical",
+      "scene_or_process": "A traveler or animal moves across a terrain gradient from soft depression through level clay to hard uneven and barren ground.",
+      "active_motifs": "soft low ground (`خ ب ر:B002/m01`); terrain depression (`ق ب ر:B002/m02`); level clay plain (`ن ق ع:B007/m01`); hard uneven ground (`ع د و:B010/m01`); barren soil (`ك ن د:B003/m01`)",
+      "ayah_anchors": "100:1 `عَادِيَاتِ`; 100:4 `نَقْعًا`; 100:6 `كَنُودٌ`; 100:9 `قُبُورِ`; 100:11 `خَبِيرٌ`",
+      "synthesis": "Softness and depression describe receptive ground, the plain removes vertical obstruction, hardness introduces resistance, and barrenness names the land's failed productive outcome.",
+      "ayah_refs": [
+        "100:1",
+        "100:4",
+        "100:6",
+        "100:9",
+        "100:11"
+      ]
+    },
+    {
+      "parent_channel": "Terrain, Orientation, and Staying",
+      "parent_semantic_invariant": "Places are differentiated by hardness, level, edge, middle, facing, and the capacity to hold a body in position.",
+      "parent_surprising_reach": "Valley banks and hard ground scale into a human-facing side, an opposite side beyond a barrier, and a body or cloud that remains fixed in place.",
+      "key": "B",
+      "name": "Edge, Middle, Facing Side, and Beyond",
+      "reading_type": "latent/lexical",
+      "scene_or_process": "An observer locates a thing by its bank or edge, its middle, the side facing a person, and the side behind or beyond a barrier.",
+      "active_motifs": "bank or edge (`ع د و:B009/m01`); middle position (`و س ط:B002/m01`); human-facing side (`ء ن س:B004/m01`); behind, before, or beyond (`و ر ي:B006/m01`)",
+      "ayah_anchors": "100:1 `عَادِيَاتِ`; 100:2 `مُورِيَاتِ`; 100:5 `وَسَطْنَ`; 100:6 `إِنسَانَ`",
+      "synthesis": "Edge and middle locate a thing within a field, the human-facing side makes orientation observer-relative, and beyond locates what lies across the intervening boundary.",
+      "ayah_refs": [
+        "100:1",
+        "100:2",
+        "100:5",
+        "100:6"
+      ]
+    },
+    {
+      "parent_channel": "Terrain, Orientation, and Staying",
+      "parent_semantic_invariant": "Places are differentiated by hardness, level, edge, middle, facing, and the capacity to hold a body in position.",
+      "parent_surprising_reach": "Valley banks and hard ground scale into a human-facing side, an opposite side beyond a barrier, and a body or cloud that remains fixed in place.",
+      "key": "C",
+      "name": "Residence and Immobilized Animal",
+      "reading_type": "latent/lexical",
+      "scene_or_process": "A body remains at a place through duration, routine, exhaustion, illness, or difficult ground.",
+      "active_motifs": "staying or enduring (`ر ب ب:B007/m01`); disabled camel remaining in place (`ح ب ب:B005/m01`); camel lingering at its morning rest (`ص ب ح:B008/m01`); hard unsettled ground (`ع د و:B010/m01`)",
+      "ayah_anchors": "100:1 `عَادِيَاتِ`; 100:3 `صُبْحًا`; 100:6, 100:11 `رَبّ`; 100:8 `حُبِّ`",
+      "synthesis": "Staying supplies the durable state, the two camel motifs distinguish incapacity from routine delay, and difficult ground supplies a setting that reinforces immobility.",
+      "ayah_refs": [
+        "100:1",
+        "100:3",
+        "100:6",
+        "100:11",
+        "100:8"
+      ]
+    },
+    {
+      "parent_channel": "Bodily Interiors, Surfaces, and Health",
+      "parent_semantic_invariant": "The body contains hidden cores, presents identifying surfaces, and registers damage or illness through visible and transmissible changes.",
+      "parent_surprising_reach": "Eye and tongue represent the person, while moral interiority is given a physical counterpart in the heart's dark core and the contents of the chest.",
+      "key": "B",
+      "name": "Mouth, Teeth, Color, and Defect",
+      "reading_type": "latent/lexical",
+      "scene_or_process": "The mouth presents ordered white teeth and facial color, while canker, cleft, or darkening interrupts that visible integrity.",
+      "active_motifs": "ordered teeth (`ح ب ب:B009/m01`); tooth or tree canker (`ق د ح:B004/m01`); upper-lip cleft (`ع ل م:B004/m01`); altered dark color (`ض ب ح:B004/m02`); bright or reddish complexion (`ص ب ح:B006/m01`)",
+      "ayah_anchors": "100:1 `ضَبْحًا`; 100:2 `قَدْحًا`; 100:3 `صُبْحًا`; 100:8 `حُبِّ`; 100:9 `يَعْلَمُ`",
+      "synthesis": "Ordered teeth and bright complexion establish visible integrity; canker, cleft, and darkening describe distinct ways that integrity is marked or damaged.",
+      "ayah_refs": [
+        "100:1",
+        "100:2",
+        "100:3",
+        "100:8",
+        "100:9"
+      ]
+    },
+    {
+      "parent_channel": "Bodily Interiors, Surfaces, and Health",
+      "parent_semantic_invariant": "The body contains hidden cores, presents identifying surfaces, and registers damage or illness through visible and transmissible changes.",
+      "parent_surprising_reach": "Eye and tongue represent the person, while moral interiority is given a physical counterpart in the heart's dark core and the contents of the chest.",
+      "key": "D",
+      "name": "Internal Disease, Contagion, and Poison",
+      "reading_type": "latent/lexical",
+      "scene_or_process": "Disease occupies lung or gut, passes between bodies, weakens an animal, and culminates in a fixed or killing poison.",
+      "active_motifs": "internal lung or gut disease (`و ر ي:B001/m01`); transmitted disease (`ع د و:B006/m01`); settled or killing poison (`ن ق ع:B006/m01`); sick camel immobilized (`ح ب ب:B005/m01`); emaciated horse or sunken eye (`ق د ح:B008/m01`)",
+      "ayah_anchors": "100:1 `عَادِيَاتِ`; 100:2 `مُورِيَاتِ`, `قَدْحًا`; 100:4 `نَقْعًا`; 100:8 `حُبِّ`",
+      "synthesis": "Internal disease supplies the originating condition, contagion supplies transmission, wasting and immobility supply bodily outcomes, and poison gives the process a concentrated lethal form.",
+      "ayah_refs": [
+        "100:1",
+        "100:2",
+        "100:4",
+        "100:8"
+      ]
+    },
+    {
+      "parent_channel": "Grammatical Reference and Derivation",
+      "parent_semantic_invariant": "Language locates referents, excludes alternatives, quantifies occurrence, and derives states or outcomes from a source.",
+      "parent_surprising_reach": "Physical otherness, possession, front, source, and gathered remainder become operations of reference, exception, derivation, and result.",
+      "key": "A",
+      "name": "Otherness, Exception, and Quantification",
+      "reading_type": "latent/lexical",
+      "scene_or_process": "A statement sets an item apart from a class, marks it as other, and qualifies the frequency or quantity of what remains.",
+      "active_motifs": "bypass or exception (`ع د و:B004/m01`); otherness or exclusion (`غ ي ر:B005/m01`); quantifying particle (`ر ب ب:B015/m01`); totalized collectivity (`ج م ع:B009/m02`)",
+      "ayah_anchors": "100:1 `عَادِيَاتِ`; 100:3 `مُغِيرَاتِ`; 100:5 `جَمْعًا`; 100:6, 100:11 `رَبّ`",
+      "synthesis": "Exception removes an item from the asserted field, otherness names the contrast, totality defines the larger set, and the particle modulates how often or how many instances are asserted.",
+      "ayah_refs": [
+        "100:1",
+        "100:3",
+        "100:5",
+        "100:6",
+        "100:11"
+      ]
+    }
+  ],
+  "coverage": {
+    "quran_text": {
+      "present": true
+    },
+    "word_analysis": {
+      "present": true,
+      "word_count": 3
+    },
+    "qac_morphemes": {
+      "present": true,
+      "row_count": 4
+    },
+    "branch_inventories": {
+      "present": true,
+      "variants": {
+        "default": {
+          "present": true,
+          "roots": [
+            "ع د و",
+            "ض ب ح"
+          ],
+          "branch_counts": {
+            "ع د و": 12,
+            "ض ب ح": 5
+          }
+        }
+      }
+    },
+    "v12_reader_responses": {
+      "present": true,
+      "variants": {
+        "default": {
+          "present": true,
+          "readers": [
+            {
+              "reader_id": "reader_l",
+              "stages": [
+                "stage_00",
+                "stage_01",
+                "stage_02",
+                "stage_03",
+                "stage_04",
+                "stage_05"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "v12_reader_walks": {
+      "present": true,
+      "readers": {
+        "reader_b": {
+          "present": true,
+          "source_file": "latent_activation/v12/runs/s100/full_context_control/reader_s100_b_ayah_walk.md"
+        }
+      }
+    },
+    "butuncul_okuma": {
+      "present": true,
+      "source_file": "latent_activation/v12/runs/s100/full_context_control/100-0-11-butuncul-okuma.md",
+      "note": null
+    },
+    "inter_ayah": {
+      "present": true,
+      "row_count": 122,
+      "label_counts": {
+        "strong": 11,
+        "medium": 65,
+        "weak": 30,
+        "no value": 16
+      }
+    },
+    "channel_review": {
+      "present": true,
+      "review_status": "first-pass-single-reader",
+      "parent_channel_count": 18,
+      "subchannel_count": 48,
+      "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
+      "source_file": "latent_activation/network/v3/reviews/s100/reader_a_pilot.md",
+      "subchannels_anchored_here": 14
+    }
+  }
+}

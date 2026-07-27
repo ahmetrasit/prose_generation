@@ -1,0 +1,3143 @@
+{
+  "bundle_type": "ayah",
+  "schema_version": "input-bundle-v1",
+  "generated_at": "2026-07-27T15:00:54.805869+00:00",
+  "surah": 103,
+  "ayah": 1,
+  "ayahRef": "103:1",
+  "text": {
+    "arabic_uthmani": "وَٱلْعَصْرِ",
+    "source": "quran-data/data/text/quran-uthmani.tsv"
+  },
+  "qac_morphemes": [
+    {
+      "qac_ref": "103:1:1:1",
+      "qac_word_ref": "103:1:1",
+      "surah": 103,
+      "ayah": 1,
+      "word_index": 1,
+      "morpheme_index": 1,
+      "surface_bw": "wa",
+      "surface_ar": "وَ",
+      "stem_ar": "",
+      "lemma_bw": "",
+      "lemma_ar": "",
+      "root_raw": "",
+      "root_ar": "",
+      "root_join_key": "",
+      "source_pos": "P",
+      "pos": "P",
+      "morpheme_role": "PREFIX",
+      "morph_features": "PREFIX|w:P+",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 127893,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    },
+    {
+      "qac_ref": "103:1:1:2",
+      "qac_word_ref": "103:1:1",
+      "surah": 103,
+      "ayah": 1,
+      "word_index": 1,
+      "morpheme_index": 2,
+      "surface_bw": "{lo",
+      "surface_ar": "ٱلْ",
+      "stem_ar": "",
+      "lemma_bw": "",
+      "lemma_ar": "",
+      "root_raw": "",
+      "root_ar": "",
+      "root_join_key": "",
+      "source_pos": "DET",
+      "pos": "DET",
+      "morpheme_role": "PREFIX",
+      "morph_features": "PREFIX|Al+",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 127894,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    },
+    {
+      "qac_ref": "103:1:1:3",
+      "qac_word_ref": "103:1:1",
+      "surah": 103,
+      "ayah": 1,
+      "word_index": 1,
+      "morpheme_index": 3,
+      "surface_bw": "EaSori",
+      "surface_ar": "عَصْرِ",
+      "stem_ar": "عَصْرِ",
+      "lemma_bw": "EaSor",
+      "lemma_ar": "عَصْر",
+      "root_raw": "ESr",
+      "root_ar": "ع ص ر",
+      "root_join_key": "عصر",
+      "source_pos": "N",
+      "pos": "N",
+      "morpheme_role": "STEM",
+      "morph_features": "STEM|POS:N|LEM:EaSor|ROOT:ESr|M|GEN",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 127895,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    }
+  ],
+  "word_analysis": {
+    "schema_version": "word-analysis-output-v2",
+    "prompt_version": "word-aha-prose-v1.6",
+    "ref": "103:1",
+    "bundle_id": "word-analysis-input-v1:agent:103:1",
+    "words": [
+      {
+        "critical_w": 1,
+        "aligned_qac_word_ref": "103:1:1",
+        "surface_display": "{{ar:وَ}} ({{tr:wa-}})",
+        "root_display": "no root (particle)",
+        "gloss_range": "oath particle at surah onset, not ordinary coordination; it governs the following genitive noun and opens a deferred oath frame",
+        "root_gloss_range": null,
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "103:1:2"
+            ],
+            "ar": "ٱلْعَصْرِ",
+            "tr": "al-ʿaṣr",
+            "display": "{{ar:ٱلْعَصْرِ}} ({{tr:al-ʿaṣr}})",
+            "gloss_range": "the following genitive noun governed as the oath complement",
+            "relation": "grammar"
+          }
+        ],
+        "prose": "{{ar:وَ}} ({{tr:wa-}}) is not functioning here as a simple connective. At the opening of the surah, before any prior clause exists to join, it acts as the initiated oath particle and makes the following noun its genitive sworn-by object; this is the surah-opening oath use of {{ar:وَ}} ({{tr:wa-}}), not a continuing oath link or an oath introduced by another particle. That first particle therefore sets the discourse mode before any lexical predicate appears: the listener enters an oath-frame and waits for the answer in 103:2. The oath act itself remains compressed; Arabic leaves the swearing verb unspoken and gives only particle plus governed noun. Because the particle is a bound proclitic and runs into the hamzat wasl of {{ar:ٱلْعَصْرِ}} ({{tr:al-ʿaṣr}}), the dependency is also seen and heard as one compact opening unit.",
+        "topics": [
+          {
+            "topic_id": "103:1:1:oath-particle-scope",
+            "status": "used",
+            "headline": "oath particle governs the next noun",
+            "representative_source_ids": [
+              "QG-f47f9c67",
+              "MG-742efa9d",
+              "QS-c4d23ee8"
+            ],
+            "reader_payoff": "The reader notices that {{ar:وَ}} ({{tr:wa-}}) is the initiated surah-opening oath particle here, not ordinary joining or a continuing oath link, so {{ar:ٱلْعَصْرِ}} ({{tr:al-ʿaṣr}}) is invoked as the sworn-by object.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "attachment:attachments",
+              "attachment:translation_support"
+            ],
+            "reason": "QAC identifies the particle as the oath particle at surah onset, and attachment evidence marks a syntactically forced particle-complement relation with the following genitive noun. This supports the CRITICAL claim that the local reading is oath, not coordination."
+          },
+          {
+            "topic_id": "103:1:1:deferred-oath-frame",
+            "status": "used",
+            "headline": "opening particle delays the sworn answer",
+            "representative_source_ids": [
+              "QI-977c8604",
+              "QT-068580b6",
+              "QT-6f4a0da4"
+            ],
+            "reader_payoff": "The reader sees that the first word launches a sworn frame whose assertion arrives only with the verdict in 103:2.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:translation_support",
+              "attachment:ellipsis",
+              "qac:word_table"
+            ],
+            "reason": "Attachment translation support warns that a one-ayah rendering can leave the oath without its response, and identifies the assertion as completed by the following clause. The CRITICAL rows' discourse claim is therefore locally supported."
+          },
+          {
+            "topic_id": "103:1:1:compressed-oath-verb",
+            "status": "used",
+            "headline": "suppressed oath verb compresses the formula",
+            "representative_source_ids": [
+              "QT-a73ff21f"
+            ],
+            "reader_payoff": "The reader notices that the oath is compressed into particle plus genitive noun, with the act of swearing left unlexicalized.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:ellipsis",
+              "attachment:translation_support"
+            ],
+            "reason": "The attachment ellipsis profile explicitly marks a strongly licensed formulaic omitted oath verb, matching the CRITICAL row's compression claim."
+          },
+          {
+            "topic_id": "103:1:1:proclitic-audible-fusion",
+            "status": "used",
+            "headline": "bound particle fuses with the oath noun",
+            "representative_source_ids": [
+              "QF-d0951acd",
+              "QP-381e2eff"
+            ],
+            "reader_payoff": "The reader hears and sees the oath relation immediately because the bound {{ar:وَ}} ({{tr:wa-}}) clings to the noun it governs.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "attachment:attachments"
+            ],
+            "reason": "The local surface is a proclitic particle attached to the following noun, and the syntactic relation is forced by the oath construction. The phonetic liaison claim is a surface payoff rather than a separate syntactic parse."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-f47f9c67",
+            "topic_id": "103:1:1:oath-particle-scope",
+            "status": "used"
+          },
+          {
+            "row_id": "MG-742efa9d",
+            "topic_id": "103:1:1:oath-particle-scope",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-c4d23ee8",
+            "topic_id": "103:1:1:oath-particle-scope",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-d0951acd",
+            "topic_id": "103:1:1:proclitic-audible-fusion",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-977c8604",
+            "topic_id": "103:1:1:deferred-oath-frame",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-068580b6",
+            "topic_id": "103:1:1:deferred-oath-frame",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-6f4a0da4",
+            "topic_id": "103:1:1:deferred-oath-frame",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-a73ff21f",
+            "topic_id": "103:1:1:compressed-oath-verb",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-381e2eff",
+            "topic_id": "103:1:1:proclitic-audible-fusion",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      },
+      {
+        "critical_w": 2,
+        "aligned_qac_word_ref": "103:1:2",
+        "surface_display": "{{ar:ٱلْعَصْرِ}} ({{tr:al-ʿaṣr}})",
+        "root_display": "{{ar:ع ص ر}} ({{tr:ʿ-ṣ-r}})",
+        "gloss_range": "definite singular abstract oath-object, locally selecting time, era, or afternoon as a totalized witness while allowing narrowed pressure imagery from the root",
+        "root_gloss_range": "broad root range includes age or recurring time, pressing and extraction, rain-pressure, whirlwind, refuge, withholding, yield, and other branch-specific senses; the local form selects the temporal oath branch, with pressure-family effects retained only as narrowed resonance",
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "103:1:2"
+            ],
+            "ar": "وَالْعِصْرِ",
+            "tr": "wa-l-ʿiṣri",
+            "display": "{{ar:وَالْعِصْرِ}} ({{tr:wa-l-ʿiṣri}})",
+            "gloss_range": "irregular variant exposing a bond or covenant path as apparatus",
+            "relation": "contrast"
+          }
+        ],
+        "prose": "{{ar:ٱلْعَصْرِ}} ({{tr:al-ʿaṣr}}) is the genitive sworn-by noun governed by the opening oath particle, not a temporal adverb telling when something happens. Its article, singular shape, and abstract noun form gather the referent as the time, era, or afternoon invoked as witness, and the oath waits for its answer in 103:2. The root field keeps more than a neutral clock-word in view: accepted dictionary branches include time and pressing, so the local temporal sense is primary while the pressure and extraction image makes the sworn field feel compressive and testing. That pressure is not allowed to replace the local meaning with a concrete press, juice, storm, or action in progress; the selected form is a stable oath-object. The root's rare Quranic distribution strengthens the markedness of the choice, since this abstract noun is set beside other supplied uses involving pressing, rain-production, whirlwind, and related concrete or process forms (12:36, 12:49, 2:266, 78:14). Variant evidence remains apparatus: the irregular {{ar:وَالْعِصْرِ}} ({{tr:wa-l-ʿiṣri}}) opens a bond or covenant path, and expanded shawadhdh wording makes calamities of time explicit, but the received form keeps the oath compressed in the definite temporal noun. The final position also matters: the ayah lands on this one noun with no adjective or explanation, while the tight root cluster makes the compression audible and irregular helping-vowel readings show how that compact -ṣr- pacing can be loosened without changing the canonical sense.",
+        "topics": [
+          {
+            "topic_id": "103:1:2:definite-genitive-witness",
+            "status": "used",
+            "headline": "definite genitive noun becomes the oath witness",
+            "representative_source_ids": [
+              "QG-46a698cb",
+              "QG-9fa6aa4c",
+              "QG-e4cd5380"
+            ],
+            "reader_payoff": "The reader notices that {{ar:ٱلْعَصْرِ}} ({{tr:al-ʿaṣr}}) is the definite sworn-by witness, not an indefinite time or a temporal adverb.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "attachment:attachments",
+              "attachment:noun_instances",
+              "contextual:polarity_profiles"
+            ],
+            "reason": "QAC and attachment evidence identify a definite masculine singular genitive noun governed by the oath particle. Contextual evidence marks the exact root-form as scoped by oath, supporting witness-role rather than adverbial timing."
+          },
+          {
+            "topic_id": "103:1:2:abstract-totalized-form",
+            "status": "used",
+            "headline": "singular abstract form gathers time into one field",
+            "representative_source_ids": [
+              "QF-39d994d0",
+              "QI-71798483"
+            ],
+            "reader_payoff": "The reader sees the noun's article, singularity, and abstract form gather the temporal field as one sworn domain before the answer in 103:2.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "attachment:noun_instances",
+              "v4:local_form_observations"
+            ],
+            "reason": "The local word is tagged as a definite singular NOUN_ABSTRACT, and V4 local form observations place it in the noun class. This supports the CRITICAL claim that the selected shape totalizes rather than individuates episodes."
+          },
+          {
+            "topic_id": "103:1:2:temporal-sense-with-pressure",
+            "status": "narrowed",
+            "headline": "time remains primary while pressing colors it",
+            "representative_source_ids": [
+              "QS-0ab39284",
+              "QS-61caf1f8",
+              "QS-77e663ef",
+              "QS-fc91b54a"
+            ],
+            "reader_payoff": "The reader senses time as an invoked field that compresses, extracts, and tests, while still reading the local noun as temporal.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "v4:branch_images",
+              "v4:lexical_sense_groups",
+              "attachment:noun_instances"
+            ],
+            "reason": "V4 accepts both time and pressing branches for the root, and QAC selects a definite abstract noun of time governed as the oath object. The pressure image survives as narrowed semantic coloring, not as replacement of the temporal sense."
+          },
+          {
+            "topic_id": "103:1:2:derivational-family-pressure",
+            "status": "narrowed",
+            "headline": "root relatives add pressure without controlling the parse",
+            "representative_source_ids": [
+              "QS-f19a05cb",
+              "QF-755caa1e",
+              "QE-4a0e9ef5"
+            ],
+            "reader_payoff": "The reader can connect the oath noun to root-family pressure in pressing, rain-production, and whirlwind scenes (12:36, 12:49, 2:266, 78:14), while the local form stays an abstract noun.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "v4:branch_images",
+              "v4:lexical_sense_groups",
+              "v4:local_form_observations",
+              "qac:word_table"
+            ],
+            "reason": "The CRITICAL rows supply concrete Quranic references for related root-family pressure. V4 confirms accepted pressure, rain, and whirlwind branches, but the local QAC form is not Form IV, not a concrete press, and not a process verb, so the relation must be narrowed."
+          },
+          {
+            "topic_id": "103:1:2:rare-abstract-distribution",
+            "status": "used",
+            "headline": "rare abstract root use marks the oath choice",
+            "representative_source_ids": [
+              "QI-22090cb2",
+              "QI-f482a733",
+              "QH-3e818e8d"
+            ],
+            "reader_payoff": "The reader notices that the oath uses the root in a rare abstract noun slot rather than in the concrete or process-like forms supplied elsewhere.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "contextual:contextual_summary",
+              "contextual:role_profiles",
+              "contextual:discourse_profiles",
+              "v4:local_form_observations"
+            ],
+            "reason": "Contextual profiles mark the exact root-form as low occurrence, and QAC identifies the local form as NOUN_ABSTRACT. The CRITICAL distributional claim is therefore preserved as markedness, not as proof that every branch is locally active."
+          },
+          {
+            "topic_id": "103:1:2:final-one-noun-landing",
+            "status": "used",
+            "headline": "single noun carries the ayah landing",
+            "representative_source_ids": [
+              "QT-3960ac7b",
+              "QT-cd033487"
+            ],
+            "reader_payoff": "The reader feels the first ayah close on one unexplained oath noun and carry its force across the boundary into 103:2.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "attachment:translation_support",
+              "attachment:noun_instances"
+            ],
+            "reason": "The word is the only lexical noun of the ayah and attachment support identifies the oath response as following in 103:2. This preserves the CRITICAL structural payoff of delayed explanation and concentrated closure."
+          },
+          {
+            "topic_id": "103:1:2:bond-variant-apparatus",
+            "status": "narrowed",
+            "headline": "vowel variant exposes a bond path",
+            "representative_source_ids": [
+              "QF-474bd888",
+              "QE-0b48c572"
+            ],
+            "reader_payoff": "The reader sees that the irregular {{ar:وَالْعِصْرِ}} ({{tr:wa-l-ʿiṣri}}) can expose a rope or covenant sense, while the received local form remains the temporal oath noun.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "v4:branch_images",
+              "v4:lexical_sense_groups"
+            ],
+            "reason": "Variant evidence can survive as apparatus, but QAC alignment is to {{ar:ٱلْعَصْرِ}} ({{tr:al-ʿaṣr}}) with the canonical vowel pattern. The bond reading therefore contrasts with, rather than governs, the local parse."
+          },
+          {
+            "topic_id": "103:1:2:shawadhdh-calamity-expansion",
+            "status": "narrowed",
+            "headline": "expanded reading makes time's shocks explicit",
+            "representative_source_ids": [
+              "QF-b21bb9ca"
+            ],
+            "reader_payoff": "The reader sees that expanded shawadhdh wording spells out calamities of time, while the received oath keeps that temporal pressure folded into one noun.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "attachment:noun_instances"
+            ],
+            "reason": "The expansion is useful contrast for the pressure point, but it is anomalous and cannot govern the canonical local text. The topic is preserved only as apparatus for what the received form leaves compressed."
+          },
+          {
+            "topic_id": "103:1:2:compressed-sound-texture",
+            "status": "narrowed",
+            "headline": "tight root cluster makes compression audible",
+            "representative_source_ids": [
+              "QP-418ac561",
+              "QP-9211aa6d",
+              "QP-9c79e498"
+            ],
+            "reader_payoff": "The reader hears the tight root cluster as acoustic compression, with irregular phonetic readings showing how a small vowel can loosen that compactness.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "attachment:translation_support"
+            ],
+            "reason": "The local canonical form contains the compact consonant cluster, while the cited phonetic variants alter pacing without changing the canonical lexical identity. The sound payoff is retained but narrowed to acoustic reinforcement."
+          },
+          {
+            "topic_id": "103:1:2:convergent-oath-force",
+            "status": "used",
+            "headline": "grammar, form, root, and sound converge",
+            "representative_source_ids": [
+              "QY-0f8e408d"
+            ],
+            "reader_payoff": "The reader notices the opening's combined force: witness grammar, totalizing form, pressure-root memory, and compressed sound all meet in the single noun.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "attachment:attachments",
+              "attachment:translation_support",
+              "v4:branch_images",
+              "v4:lexical_sense_groups"
+            ],
+            "reason": "The synthesis row is not a new independent sense; it accurately gathers already retained grammatical, formal, lexical, and phonetic payoffs into the ayah's concentrated oath opening."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-46a698cb",
+            "topic_id": "103:1:2:definite-genitive-witness",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-9fa6aa4c",
+            "topic_id": "103:1:2:definite-genitive-witness",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-e4cd5380",
+            "topic_id": "103:1:2:definite-genitive-witness",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-0ab39284",
+            "topic_id": "103:1:2:temporal-sense-with-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-61caf1f8",
+            "topic_id": "103:1:2:temporal-sense-with-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-77e663ef",
+            "topic_id": "103:1:2:temporal-sense-with-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-f19a05cb",
+            "topic_id": "103:1:2:derivational-family-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-fc91b54a",
+            "topic_id": "103:1:2:temporal-sense-with-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-39d994d0",
+            "topic_id": "103:1:2:abstract-totalized-form",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-474bd888",
+            "topic_id": "103:1:2:bond-variant-apparatus",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-755caa1e",
+            "topic_id": "103:1:2:derivational-family-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-b21bb9ca",
+            "topic_id": "103:1:2:shawadhdh-calamity-expansion",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QI-22090cb2",
+            "topic_id": "103:1:2:rare-abstract-distribution",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-71798483",
+            "topic_id": "103:1:2:abstract-totalized-form",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-f482a733",
+            "topic_id": "103:1:2:rare-abstract-distribution",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-3960ac7b",
+            "topic_id": "103:1:2:final-one-noun-landing",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-cd033487",
+            "topic_id": "103:1:2:final-one-noun-landing",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-0b48c572",
+            "topic_id": "103:1:2:bond-variant-apparatus",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QE-4a0e9ef5",
+            "topic_id": "103:1:2:derivational-family-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QP-418ac561",
+            "topic_id": "103:1:2:compressed-sound-texture",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QP-9211aa6d",
+            "topic_id": "103:1:2:compressed-sound-texture",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QP-9c79e498",
+            "topic_id": "103:1:2:compressed-sound-texture",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QH-3e818e8d",
+            "topic_id": "103:1:2:rare-abstract-distribution",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-0f8e408d",
+            "topic_id": "103:1:2:convergent-oath-force",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      }
+    ]
+  },
+  "branch_inventories": {
+    "default": {
+      "stage_00_file": "latent_activation/v12/runs/s103/focus_103_1/stage_00_focus_103_1.json",
+      "branch_inventories": [
+        {
+          "root": "ع ص ر",
+          "branches": [
+            {
+              "branch_id": "B001",
+              "image_ar": "دهر ووقت متعاقب",
+              "image_en": "age or recurring time",
+              "scope_ar": "يدخل فيه العصر بمعنى الدهر والحين واليوم والليلة، والعصران لليل والنهار أو للغداة والعشي، والعشي وصلاة العصر، وما جاء في البطء أو المجيء في غير حينه.",
+              "scope_en": "This covers age, time, day and night, morning and evening, late afternoon and the afternoon prayer, plus time-related slowness or untimely arrival."
+            },
+            {
+              "branch_id": "B002",
+              "image_ar": "ضغط حتى يتحلب",
+              "image_en": "pressing until liquid runs",
+              "scope_ar": "يدخل فيه عصر العنب والزيت ونحوهما، والعصير، والعصارة، والمعصرة والمعصار، وما يستخرج بالضغط أو يتخذ من المعصور، وصورة قوله يعصرون على معنى يعصرون الأعناب والزيت.",
+              "scope_en": "This covers pressing grapes, oil and similar things, juice, extracted liquid or residue, presses and press-bags, and the reading of يعصرون as pressing grapes and oil."
+            },
+            {
+              "branch_id": "B003",
+              "image_ar": "سحاب يمطر ومطر يعصر",
+              "image_en": "rain-clouds squeezed into rain",
+              "scope_ar": "يدخل فيه المعصرات من السحاب أو الرياح إذا حملت المطر، وأعصر القوم أو عصروا إذا أتاهم المطر، وقراءة يعصرون على معنى يمطرون.",
+              "scope_en": "This covers rain-bearing clouds or winds, people receiving rain, and the reading of يعصرون as being rained on."
+            },
+            {
+              "branch_id": "B004",
+              "image_ar": "إعصار وغبار مستدير",
+              "image_en": "whirlwind and rising dust",
+              "scope_ar": "يدخل فيه الإعصار والأعاصير، والريح التي تثير الغبار فيرتفع كعمود، والغبار أو فوح الطيب الذي يثور وراء الذيل.",
+              "scope_en": "This covers whirlwind, column-like rising dust, and the dust or perfume-wake stirred by a trailing garment."
+            },
+            {
+              "branch_id": "B005",
+              "image_ar": "ملجأ ومنجاة واعتصام",
+              "image_en": "refuge, rescue, and clinging",
+              "scope_ar": "يدخل فيه العصر والعصرة بمعنى الملجأ والمنجاة، والاعتصار أو التعصر بمعنى الالتجاء، وما بين الشيئين من مودة أو قرابة على جهة التعلق والامتساك.",
+              "scope_en": "This covers refuge, rescue, resorting to a place or person, and attachment by affection or kinship."
+            },
+            {
+              "branch_id": "B006",
+              "image_ar": "حبس ومنع واسترجاع",
+              "image_en": "withholding, holding back, and reclaiming",
+              "scope_ar": "يدخل فيه العصر بمعنى الحبس أو المنع، واعتصر مال غيره إذا استخرجه أو حبسه، واعتصر الوالد مال ولده أو رجع في عطية، والعاصر الممسك قليل الخير.",
+              "scope_en": "This covers holding back, preventing, extracting or reclaiming property, a parent taking or withholding a child's property, and a miserly holder-back."
+            },
+            {
+              "branch_id": "B007",
+              "image_ar": "عطاء وغلة مستخرجة",
+              "image_en": "giving, yield, and extracted gain",
+              "scope_ar": "يدخل فيه العصر بمعنى العطية، ويعصر فينا بمعنى يعطي، والعصارة أو المعتصر مثلا للخير والعطاء، والغلة والاستغلال.",
+              "scope_en": "This covers giving, bestowed favors, productive yield, and gain expressed as something extracted."
+            },
+            {
+              "branch_id": "B008",
+              "image_ar": "شرب قليل لإساغة الغصة",
+              "image_en": "sipping to get a choking morsel down",
+              "scope_ar": "يدخل فيه الاعتصار إذا غص الإنسان بالطعام فشرب الماء قليلا قليلا ليسيغه.",
+              "scope_en": "This covers sipping water little by little to make swallowed food pass after choking."
+            },
+            {
+              "branch_id": "B009",
+              "image_ar": "بلوغ الجارية عصر شبابها",
+              "image_en": "a girl reaching youth or menstruation",
+              "scope_ar": "يدخل فيه المعصر من الجواري إذا أدركت أو قاربت الحيض أو بلغت زيادة الشباب وعصر الشباب.",
+              "scope_en": "This covers a girl reaching puberty, nearing menstruation, or entering the age of youth."
+            },
+            {
+              "branch_id": "B010",
+              "image_ar": "زرع يتحرز في أكمامه",
+              "image_en": "grain enclosed in its husks",
+              "scope_ar": "يدخل فيه عصر الزرع إذا صار في أكمامه وتحرز في غلفه وأوعيته.",
+              "scope_en": "This covers grain entering its husks or sheaths and becoming enclosed."
+            },
+            {
+              "branch_id": "B011",
+              "image_ar": "أصل وحسب ونسب",
+              "image_en": "origin, lineage, and noble stock",
+              "scope_ar": "يدخل فيه العنصر بمعنى أصل الحسب مع زيادة النون، وكريم المعصر أو العصير في النسب، وما يرجع فيه المنتسب إلى أصله.",
+              "scope_en": "This covers أصل الحسب, lineage, noble stock, and the form عنصر when explained as a nūn-added form from العصر."
+            },
+            {
+              "branch_id": "B012",
+              "image_ar": "دنية في الموالاة",
+              "image_en": "low clientage or inferior rank",
+              "scope_ar": "يدخل فيه العصرة بالضم أو موالينا عصرة بمعنى الدنية دون غيرهم.",
+              "scope_en": "This covers the expression for clients or dependents of lower rank."
+            },
+            {
+              "branch_id": "B013",
+              "image_ar": "العصرة شجرة",
+              "image_en": "a tree named العصرة",
+              "scope_ar": "يدخل فيه العصرة اسما لشجرة.",
+              "scope_en": "This covers العصرة as the name of a tree."
+            },
+            {
+              "branch_id": "B014",
+              "image_ar": "لسان معصور من العطش",
+              "image_en": "a tongue dried by thirst",
+              "scope_ar": "يدخل فيه المعصور بمعنى اللسان اليابس عطشا.",
+              "scope_en": "This covers a tongue made dry by thirst."
+            },
+            {
+              "branch_id": "B015",
+              "image_ar": "العصار ريح البطن",
+              "image_en": "flatulence named العصار",
+              "scope_ar": "يدخل فيه العصار بمعنى الفساء.",
+              "scope_en": "This covers العصار as flatulence."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "v12_reader_responses": {
+    "default": {
+      "reader_d": {
+        "stage_00": {
+          "reader_id": "reader_d",
+          "focus_ref": "103:1",
+          "stage": 0,
+          "revealed_refs": [
+            "103:1"
+          ],
+          "models": [
+            {
+              "model_id": "pressure_yield",
+              "status": "provisional",
+              "confidence": "exploratory",
+              "mechanism": "Recurring time functions as a press: succession subjects what occurs within it to constraint, making latent contents emerge as a discernible yield.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "age or recurring time",
+                  "assigned_role": "the repeated temporal medium in which the process operates"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "pressing until liquid runs",
+                  "assigned_role": "the transformative pressure that makes hidden content manifest"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B007",
+                  "literal_contribution": "giving, yield, and extracted gain",
+                  "assigned_role": "the output disclosed by temporal pressure"
+                }
+              ],
+              "structural_cues": [
+                "The revealed text is only the oath phrase والعصر: wāw plus one definite noun.",
+                "No verb or result clause states how time acts, so any pressure-to-yield sequence remains latent rather than grammatical assertion.",
+                "B002 and B007 share an extraction relation within the sole revealed root."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The oath invokes an internal operation of time, not merely neutral duration.",
+                  "why_invoked": "It coheres the recurring-time, pressing, and extracted-yield branches into one functional process.",
+                  "causal_direction": "The packet supplies B001, B002, and B007; the reader supplies recurring time -> pressure -> manifested yield.",
+                  "alternatives": [
+                    "time as neutral duration",
+                    "late afternoon or its prayer",
+                    "yield without pressure"
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "A bare oath: By time.",
+                "after": "Provisionally: By time as the pressure through which what is latent becomes an extracted yield."
+              },
+              "minimal_triggers": [
+                "103:1 والعصر",
+                "ع ص ر/B001",
+                "ع ص ر/B002",
+                "ع ص ر/B007"
+              ],
+              "ablation": "Removing B002 collapses the pressing mechanism; removing B007 leaves pressure without an extracted outcome; removing B001 severs both from the ordinary temporal anchor."
+            },
+            {
+              "model_id": "protective_withholding",
+              "status": "provisional",
+              "confidence": "exploratory",
+              "mechanism": "Time acts as an interval of protective restraint: it holds developing contents within bounds until they reach their proper stage, so delay can preserve rather than merely deprive.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "age or recurring time",
+                  "assigned_role": "the interval across which development occurs"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B006",
+                  "literal_contribution": "withholding, holding back, and reclaiming",
+                  "assigned_role": "the restraining action that prevents premature release"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B010",
+                  "literal_contribution": "grain enclosed in its husks",
+                  "assigned_role": "the material image of bounded preservation"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B009",
+                  "literal_contribution": "reaching youth or maturity",
+                  "assigned_role": "the developmental threshold toward which restraint tends"
+                }
+              ],
+              "structural_cues": [
+                "The oath names a definite temporal term but supplies no overt agent, patient, or event.",
+                "The single noun can denote an age or stage (B001), while B006, B010, and B009 supply dormant restraint, enclosure, and maturation roles under the same root.",
+                "No revealed syntax orders those roles into a sequence."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "Withholding and enclosure are temporarily protective and terminate in maturation.",
+                  "why_invoked": "The packet gives the three states but does not state their purpose or temporal order.",
+                  "causal_direction": "The packet supplies B006 restraint, B010 enclosure, and B009 maturity; the reader supplies restraint -> preservation -> maturity within B001 time.",
+                  "alternatives": [
+                    "withholding as harmful deprivation",
+                    "enclosure without development",
+                    "maturity independent of restraint"
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "A bare oath: By time.",
+                "after": "Provisionally: By time as a bounded interval whose restraint shelters development until its proper stage."
+              },
+              "minimal_triggers": [
+                "103:1 والعصر",
+                "ع ص ر/B001",
+                "ع ص ر/B006",
+                "ع ص ر/B010",
+                "ع ص ر/B009"
+              ],
+              "ablation": "Removing B006 or B010 reduces the reading to generic maturation over time; removing B009 removes the endpoint that makes restraint protective rather than merely restrictive."
+            }
+          ],
+          "surprise_reading": "At baseline, العصر may name not only passing time but either a press that extracts what events contain or a protective interval that holds development back until maturity; both readings are provisional."
+        },
+        "stage_01": {
+          "reader_id": "reader_d",
+          "focus_ref": "103:1",
+          "stage": 1,
+          "revealed_refs": [
+            "103:1",
+            "103:2"
+          ],
+          "models": [
+            {
+              "model_id": "pressure_yield",
+              "status": "revised",
+              "confidence": "strong",
+              "mechanism": "Time now reads as both press and audit: recurring succession works on human life as material or capital, and what it exposes as the resulting yield is not gain but deficiency.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "age or recurring time",
+                  "assigned_role": "the repeated medium in which the audit operates"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "pressing until liquid runs",
+                  "assigned_role": "the process that forces a latent result into manifestation"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B007",
+                  "literal_contribution": "yield and extracted gain",
+                  "assigned_role": "the expected positive output that خسر reverses"
+                },
+                {
+                  "root": "ء ن س",
+                  "branch_id": "B002",
+                  "literal_contribution": "perceiving something into awareness",
+                  "assigned_role": "the disclosure of a deficit that may otherwise remain unnoticed"
+                },
+                {
+                  "root": "خ س ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "trade loss or loss of capital",
+                  "assigned_role": "the negative balance assigned to human life"
+                },
+                {
+                  "root": "خ س ر",
+                  "branch_id": "B003",
+                  "literal_contribution": "shorting measure and weight",
+                  "assigned_role": "progressive diminution within the temporal audit"
+                }
+              ],
+              "structural_cues": [
+                "The oath by العصر is followed by the emphatic assertion إن ... لَـ, making the loss statement its answer rather than an unrelated catalog item.",
+                "لفي places الإنسان spatially inside loss, presenting deficiency as an encompassing condition rather than a single external mishap.",
+                "ع ص ر/B007 extracted gain and خ س ر/B002 trade loss form a reversal from anticipated yield to negative return."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The oath's temporal object helps produce or reveal the asserted loss.",
+                  "why_invoked": "The oath-answer structure links time and loss but does not grammatically state a causal verb.",
+                  "causal_direction": "The packet supplies العصر followed by emphatic human loss; the reader supplies time -> pressure/audit -> exposed deficit.",
+                  "alternatives": [
+                    "time merely witnesses loss",
+                    "the oath and loss share importance without causation"
+                  ]
+                },
+                {
+                  "assumption": "Human life can function as capital or measured stock within the mechanism.",
+                  "why_invoked": "It connects the extraction branch of ع ص ر to the trade and measure branches of خ س ر.",
+                  "causal_direction": "The packet supplies extraction, trade loss, and short measure; the reader supplies the commercial mapping and treats loss as the press's output.",
+                  "alternatives": [
+                    "general noncommercial deficiency",
+                    "a completed catastrophe rather than progressive diminution"
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "Time was provisionally a press that made an unspecified latent yield manifest.",
+                "after": "Time is provisionally the press-audit in which humanity's apparent yield is exposed as a shrinking balance."
+              },
+              "minimal_triggers": [
+                "103:1 العصر",
+                "103:2 إن الإنسان لفي خسر",
+                "ع ص ر/B002 and B007",
+                "خ س ر/B002 and B003"
+              ],
+              "ablation": "Removing 103:2 or خ س ر removes the negative output and returns the model to generic pressure-and-yield; removing ع ص ر/B002 removes the press mechanism, while removing B007 weakens the gain-to-loss reversal."
+            },
+            {
+              "model_id": "protective_withholding",
+              "status": "weakened",
+              "confidence": "exploratory",
+              "mechanism": "The stage-0 claim that temporal restraint protects development is no longer supported. The new verse preserves only an enclosure skeleton: humanity is held inside a diminishing condition, with no revealed maturation or release.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B006",
+                  "literal_contribution": "withholding, holding back, and reclaiming",
+                  "assigned_role": "an adverse retention or reclamation rather than protective delay"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B010",
+                  "literal_contribution": "grain enclosed in its husks",
+                  "assigned_role": "a weakened material analogy for the containment expressed by في"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B009",
+                  "literal_contribution": "reaching youth or maturity",
+                  "assigned_role": "the predicted beneficial endpoint that the new verse fails to supply"
+                },
+                {
+                  "root": "خ س ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "general deficiency or diminution",
+                  "assigned_role": "the actual state inside the enclosure, contradicting its proposed protective function"
+                }
+              ],
+              "structural_cues": [
+                "The preposition في supplies real containment, but its container is خسر rather than safety or maturation.",
+                "The emphatic إن ... لفي strengthens the adverse state.",
+                "Nothing newly revealed supplies the stage-0 sequence from restraint to maturity."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The spatial containment of في may resonate with the enclosure and withholding branches of ع ص ر.",
+                  "why_invoked": "It explains why part of the earlier model survives even though its protective purpose does not.",
+                  "causal_direction": "The packet supplies humanity in loss plus B006/B010; the reader supplies enclosure -> continued deficiency, replacing the earlier unsupported restraint -> preservation -> maturity arrow.",
+                  "alternatives": [
+                    "في is purely idiomatic",
+                    "a later unrevealed release could restore the protective reading"
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "Time was provisionally a bounded interval whose restraint sheltered development until maturity.",
+                "after": "The protective function is weakened: the revealed enclosure contains humanity in loss, and maturity remains dormant rather than an indicated outcome."
+              },
+              "minimal_triggers": [
+                "103:2 لفي خسر",
+                "ع ص ر/B006",
+                "ع ص ر/B010",
+                "خ س ر/B001"
+              ],
+              "ablation": "Removing 103:2, especially في or خسر, removes the contradiction and restores the stage-0 model's plausibility; removing ع ص ر/B009 also removes its unsupported maturation endpoint rather than repairing it."
+            }
+          ],
+          "surprise_reading": "The oath now makes time sound like a press-audit: humanity is already inside the process, and the yield forced into view is a diminishing balance rather than gain. The earlier idea of protective delay is correspondingly weakened."
+        },
+        "stage_02": {
+          "reader_id": "reader_d",
+          "focus_ref": "103:1",
+          "stage": 2,
+          "revealed_refs": [
+            "103:1",
+            "103:2",
+            "103:3"
+          ],
+          "models": [
+            {
+              "model_id": "pressure_yield",
+              "status": "revised",
+              "confidence": "strong",
+              "mechanism": "Time is a press whose default human yield is deficit, but the exception shows that its output is transformable: intentional sound work and established truth alter the process, while patience unexpectedly appears as the bitter medicinal extract produced under pressure rather than mere passive waiting.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "pressing until liquid runs",
+                  "assigned_role": "the temporal processing mechanism"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B007",
+                  "literal_contribution": "yield and extracted gain",
+                  "assigned_role": "the possible productive output of the press"
+                },
+                {
+                  "root": "خ س ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "trade loss and lost capital",
+                  "assigned_role": "the press's default negative return"
+                },
+                {
+                  "root": "ع م ل",
+                  "branch_id": "B001",
+                  "literal_contribution": "intentional doing and work",
+                  "assigned_role": "deliberate operation within, rather than passive exposure to, the process"
+                },
+                {
+                  "root": "ص ل ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "soundness against corruption",
+                  "assigned_role": "repair of the material or output"
+                },
+                {
+                  "root": "ح ق ق",
+                  "branch_id": "B005",
+                  "literal_contribution": "establishing and making truth stand",
+                  "assigned_role": "calibration that keeps the output from becoming a short measure"
+                },
+                {
+                  "root": "ص ب ر",
+                  "branch_id": "B008",
+                  "literal_contribution": "a bitter plant extract or medicine",
+                  "assigned_role": "the surprising usable extract yielded by sustained pressure"
+                }
+              ],
+              "structural_cues": [
+                "إلا reverses the emphatic universal loss of 103:2, so the result of being in time is not fixed.",
+                "The exception moves through trusting, intentional work, sound deeds, and two parallel reciprocal exhortations, supplying an operating sequence rather than a single trait.",
+                "ع ص ر/B002 extracted liquid and ص ب ر/B008 bitter medicinal extract form a precise material bridge; ع ص ر/B007 gain reverses خ س ر/B002 loss."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The exceptional practices change what temporal pressure yields rather than merely identify people untouched by it.",
+                  "why_invoked": "The exception changes the stated outcome, but no causal verb says that the practices rework the press.",
+                  "causal_direction": "The packet supplies time/press, default loss, and an action-filled exception; the reader supplies practices -> altered processing -> sound yield.",
+                  "alternatives": [
+                    "the exception only classifies persons",
+                    "time merely witnesses both outcomes"
+                  ]
+                },
+                {
+                  "assumption": "The bitter medicine branch of صبر is an output of the pressing branch of عصر.",
+                  "why_invoked": "Both inventories independently name an extracted liquid, and the final ayah places صبر at the end of the corrective sequence.",
+                  "causal_direction": "The packet supplies ع ص ر/B002 and ص ب ر/B008; the reader supplies press -> bitter extract -> medicine against loss.",
+                  "alternatives": [
+                    "صبر means only self-restraint",
+                    "the two extraction images are unrelated homonyms"
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 1, time was a press-audit that exposed humanity's shrinking balance.",
+                "after": "At the final stage, time remains the press, but its output can be reworked: the exception converts default deficit into sound yield, with patience as a bitter medicinal extract."
+              },
+              "minimal_triggers": [
+                "103:1 العصر with ع ص ر/B002",
+                "103:2 خسر with خ س ر/B002",
+                "103:3 إلا plus عملوا الصالحات",
+                "103:3 بالصبر with ص ب ر/B008"
+              ],
+              "ablation": "Remove ayah 103:3 or root ص ب ر and the medicinal counter-yield collapses, leaving the stage-1 loss audit. Remove root ع ص ر and the reading becomes a generic exception from loss rather than a press mechanism; remove root خ س ر and there is no negative yield to reverse."
+            },
+            {
+              "model_id": "protective_withholding",
+              "status": "revised",
+              "confidence": "strong",
+              "mechanism": "The final ayah rehabilitates refuge but relocates it from passive temporal enclosure to a mutually built social shelter. Trust supplies security; repeated reciprocal exhortation joins people; truth supplies a guarded due; and patience supplies self-restraint and surety. Their attachment forms the refuge inside time that interrupts encompassing loss.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B005",
+                  "literal_contribution": "refuge, rescue, clinging, and attachment",
+                  "assigned_role": "the focus's newly activated communal shelter"
+                },
+                {
+                  "root": "ء م ن",
+                  "branch_id": "B001",
+                  "literal_contribution": "security, trust, and a place of safety",
+                  "assigned_role": "the shelter's condition of mutual reliability"
+                },
+                {
+                  "root": "ء ن س",
+                  "branch_id": "B003",
+                  "literal_contribution": "companionship that removes estrangement",
+                  "assigned_role": "the social proximity replacing isolated humanity"
+                },
+                {
+                  "root": "و ص ي",
+                  "branch_id": "B001",
+                  "literal_contribution": "joining one thing to another",
+                  "assigned_role": "the links from which the refuge is assembled"
+                },
+                {
+                  "root": "و ص ي",
+                  "branch_id": "B003",
+                  "literal_contribution": "mutual exhortation among people",
+                  "assigned_role": "the repeated reciprocal maintenance of those links"
+                },
+                {
+                  "root": "ح ق ق",
+                  "branch_id": "B007",
+                  "literal_contribution": "a guarded due obligation",
+                  "assigned_role": "the protected content members keep present for one another"
+                },
+                {
+                  "root": "ص ب ر",
+                  "branch_id": "B003",
+                  "literal_contribution": "suretyship or standing with a group",
+                  "assigned_role": "members bearing one another through the surrounding loss"
+                }
+              ],
+              "structural_cues": [
+                "إلا cuts a bounded exception out of the enclosing لفي خسر.",
+                "The generic singular الإنسان shifts to plural الذين and plural verbs, making the exception collective.",
+                "تواصوا is repeated twice in reciprocal form, so truth and patience are transmitted through mutual relations rather than possessed privately.",
+                "The convergence of ع ص ر/B005 refuge, ء م ن/B001 security, و ص ي/B001 joining, and ص ب ر/B003 surety supplies independent social-spatial supports."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The exceptional group constitutes a protective network, not merely a set of separately qualified individuals.",
+                  "why_invoked": "Plurality and doubled reciprocity strongly support relations, but the text does not name a network or shelter.",
+                  "causal_direction": "The packet supplies plural exception + repeated mutual exhortation; the reader supplies reciprocal links -> collective preservation from loss.",
+                  "alternatives": [
+                    "each person is saved independently",
+                    "mutual exhortation is only one item in a virtue list"
+                  ]
+                },
+                {
+                  "assumption": "That network realizes the refuge/clinging branch dormant in العصر.",
+                  "why_invoked": "Security, joining, guarded obligation, and surety converge on B005 more specifically than on neutral duration.",
+                  "causal_direction": "The packet supplies the convergent branches; the reader supplies attachment -> refuge -> interruption of loss.",
+                  "alternatives": [
+                    "العصر remains only chronological time",
+                    "refuge is individual inward security"
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 1, protective enclosure was weakened because humanity was enclosed in loss and no release appeared.",
+                "after": "The enclosure is now actively social: people build a refuge within time by joining themselves through trust, sound action, truth, and mutual surety."
+              },
+              "minimal_triggers": [
+                "103:2 لفي خسر",
+                "103:3 إلا الذين and the plural verbs",
+                "the doubled تواصوا with و ص ي/B001 and B003",
+                "ع ص ر/B005",
+                "ء م ن/B001 and ص ب ر/B003"
+              ],
+              "ablation": "Remove ayah 103:3 or root و ص ي and the communal refuge collapses because reciprocity supplies its links. Remove root ع ص ر and it becomes a generic communal-ethics reading rather than a changed reading of العصر; removing roots ء م ن and ص ب ر strips the independent security-and-surety support and leaves only a weak attachment metaphor."
+            }
+          ],
+          "surprise_reading": "First, العصر is the press of human life: loss is its default deficit, yet the exception can turn pressure into sound yield, with الصبر unexpectedly contributing the image of a bitter medicinal extract. Second, العصر is a refuge made of reciprocal bonds: security, joined exhortation, guarded truth, and mutual surety create collective shelter inside loss rather than escape from time."
+        }
+      },
+      "reader_e": {
+        "stage_00": {
+          "reader_id": "reader_e",
+          "focus_ref": "103:1",
+          "stage": 0,
+          "revealed_refs": [
+            "103:1"
+          ],
+          "models": [
+            {
+              "model_id": "M0-extractive-time",
+              "status": "provisional",
+              "confidence": "exploratory",
+              "mechanism": "Recurring time acts as a press: succession compresses what occurs within it until latent consequences emerge as an extracted yield. The packet supplies the time, pressing, and yield images; their causal sequence is assigned, not stated.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "age or recurring time",
+                  "assigned_role": "the repeated duration in which the mechanism operates"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "pressing until liquid runs",
+                  "assigned_role": "the pressure exerted by temporal succession"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B007",
+                  "literal_contribution": "giving, yield, and extracted gain",
+                  "assigned_role": "the consequences made visible by that pressure"
+                }
+              ],
+              "structural_cues": [
+                "The single definite noun العصر concentrates the utterance on one polysemous root.",
+                "The terse oath-like By-time construction supplies no second lexeme to resolve the root toward neutral duration or an activated material image."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "Temporal recurrence pressures events and thereby exposes their yield.",
+                  "why_invoked": "It turns the co-present B001, B002, and B007 branches into one functional process rather than a list of senses.",
+                  "causal_direction": "recurring time -> pressure -> extracted consequence; every arrow is reader-supplied",
+                  "alternatives": [
+                    "العصر denotes time without any pressing echo",
+                    "pressing is only a lexical cousin with no role in the focus"
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "A compact invocation of time as duration.",
+                "after": "An invocation of time as an active press that forces hidden outcomes into view."
+              },
+              "minimal_triggers": [
+                "103:1 العصر",
+                "ع ص ر/B001",
+                "ع ص ر/B002",
+                "ع ص ر/B007"
+              ],
+              "ablation": "Removing B002 collapses the active pressure mechanism; removing B007 leaves pressure without an extracted outcome, returning the reading toward generic duration."
+            },
+            {
+              "model_id": "M0-withheld-maturation",
+              "status": "provisional",
+              "confidence": "exploratory",
+              "mechanism": "Time is provisionally a holding chamber: it encloses and withholds latent life until a threshold of maturity, after which yield becomes available. The packet supplies enclosure, withholding, maturation, and yield; the ordered release cycle is abductively imposed.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "age or recurring time",
+                  "assigned_role": "the interval that contains development"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B010",
+                  "literal_contribution": "grain enclosed in its husks",
+                  "assigned_role": "protected latent potential inside the interval"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B006",
+                  "literal_contribution": "withholding, holding back, and reclaiming",
+                  "assigned_role": "the delay that prevents premature release"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B009",
+                  "literal_contribution": "reaching youth or maturity",
+                  "assigned_role": "the threshold at which containment has completed its work"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B007",
+                  "literal_contribution": "giving, yield, and extracted gain",
+                  "assigned_role": "the eventual product released from latency"
+                }
+              ],
+              "structural_cues": [
+                "One root holds opposed branch-images of withholding (B006) and giving (B007).",
+                "B010 and B009 supply state images of enclosure and attained maturity, while B001 supplies recurrence; no explicit textual sequence orders them."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "Withholding preserves potential until maturity rather than merely depriving it.",
+                  "why_invoked": "This assigns a productive function to the contrast between holding back and yielding.",
+                  "causal_direction": "temporal enclosure -> protective withholding -> maturity -> yield; the packet supplies the nodes and the reader supplies the arrows",
+                  "alternatives": [
+                    "withholding is harmful or miserly rather than protective",
+                    "maturity and grain enclosure are unrelated dormant senses"
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "Time is an undifferentiated span.",
+                "after": "Time is the interval that holds potential back until it can ripen into yield."
+              },
+              "minimal_triggers": [
+                "103:1 العصر",
+                "ع ص ر/B001",
+                "ع ص ر/B006",
+                "ع ص ر/B009",
+                "ع ص ر/B010"
+              ],
+              "ablation": "Removing B006 destroys the withholding function; removing both B009 and B010 removes the maturation logic, leaving only a generic time-to-yield association."
+            }
+          ],
+          "surprise_reading": "At baseline, By time may invoke more than duration: time can be imagined either as a press that extracts consequences or as a chamber that withholds potential until it ripens. Both readings remain provisional because the focus contains no second root to select between them.",
+          "discarded_or_unchanged": []
+        },
+        "stage_01": {
+          "reader_id": "reader_e",
+          "focus_ref": "103:1",
+          "stage": 1,
+          "revealed_refs": [
+            "103:1",
+            "103:2"
+          ],
+          "models": [
+            {
+              "model_id": "M0-extractive-time",
+              "status": "strengthened",
+              "confidence": "strong",
+              "mechanism": "Time now functions as a diagnostic press on human life: what the press discloses is not a neutral yield but a diminished balance, like capital lost or measure shorted. The packet supplies time, pressing, humanity, emphatic enclosure in loss, and commercial or metrological deficiency; the arrow from temporal pressure to disclosed deficit remains reader-assigned.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "age or recurring time",
+                  "assigned_role": "the repeated process under which a human life is assessed"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "pressing until liquid runs",
+                  "assigned_role": "the diagnostic pressure that forces a result into view"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B007",
+                  "literal_contribution": "giving, yield, and extracted gain",
+                  "assigned_role": "the expected positive output against which the revealed deficit is legible"
+                },
+                {
+                  "root": "ء ن س",
+                  "branch_id": "B001",
+                  "literal_contribution": "visible human presence over against hidden or wild beings",
+                  "assigned_role": "the human subject placed under the temporal assessment"
+                },
+                {
+                  "root": "خ س ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "trade loss: lost capital or failed profit",
+                  "assigned_role": "the negative balance yielded by the assessment"
+                },
+                {
+                  "root": "خ س ر",
+                  "branch_id": "B003",
+                  "literal_contribution": "shorting measure and weight",
+                  "assigned_role": "the image of output repeatedly coming up deficient"
+                }
+              ],
+              "structural_cues": [
+                "The oath-like 103:1 is immediately followed by an emphatic claim in 103:2, inviting the focus to frame or test that claim.",
+                "إن and the emphatic ل present loss as a forceful diagnosis rather than a tentative possibility.",
+                "في places the human in loss rather than merely saying that the human possesses a detachable loss.",
+                "The focus root's extracted-yield branch contrasts directly with خ س ر branches of lost capital and short measure."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The oath's time is the process that causes or reveals the following human deficit.",
+                  "why_invoked": "It converts the verse sequence and the ع ص ر pressing branch into a causal diagnostic mechanism.",
+                  "causal_direction": "recurring time -> pressure or audit -> disclosed human loss; the verses supply the ordered terms, while causation is reader-supplied",
+                  "alternatives": [
+                    "time merely witnesses an independently existing loss",
+                    "العصر carries only its duration sense"
+                  ]
+                },
+                {
+                  "assumption": "A human life can be treated as capital or measured output.",
+                  "why_invoked": "It links extracted yield from ع ص ر/B007 to trade loss and short measure in خ س ر/B002-B003.",
+                  "causal_direction": "human life as invested material -> temporal testing -> deficient return; the accounting analogy and arrows are reader-supplied",
+                  "alternatives": [
+                    "خسر means only undifferentiated deficiency",
+                    "the commercial and measuring branches remain dormant"
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "Time is an active press that forces hidden outcomes into view.",
+                "after": "Time presses or audits human life, and the extracted result is specifically a short measure or negative balance."
+              },
+              "minimal_triggers": [
+                "103:1 العصر",
+                "103:2 إن...لفي خسر",
+                "ع ص ر/B002 and B007",
+                "خ س ر/B002 and B003"
+              ],
+              "ablation": "Removing 103:2 or the خ س ر loss branches collapses the negative balance and restores the stage-0 neutral extraction model; removing ع ص ر/B002 leaves only time as a witness to loss."
+            },
+            {
+              "model_id": "M0-withheld-maturation",
+              "status": "revised",
+              "confidence": "medium",
+              "mechanism": "The enclosure model reverses polarity: في خسر makes loss, not time, the chamber containing the human. Recurring time can make that deficient condition familiar, while withholding keeps value or escape from the inhabitant; the stage-0 ripening-to-yield sequence is therefore replaced by habituated entrapment. The packet supplies recurrence, spatial enclosure, familiarity, withholding, and loss, but supplies neither habituation nor the arrows among them.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "age or recurring time",
+                  "assigned_role": "repetition that lets an enclosing condition become habitual"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B006",
+                  "literal_contribution": "withholding, holding back, and reclaiming",
+                  "assigned_role": "retention of value or prevention of exit from the deficient condition"
+                },
+                {
+                  "root": "ء ن س",
+                  "branch_id": "B003",
+                  "literal_contribution": "familiar comfort that removes estrangement",
+                  "assigned_role": "the mechanism by which persistent loss ceases to feel alien"
+                },
+                {
+                  "root": "ء ن س",
+                  "branch_id": "B002",
+                  "literal_contribution": "perceiving something into awareness",
+                  "assigned_role": "the detection capacity that habituation is inferred to blunt"
+                },
+                {
+                  "root": "خ س ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "general deficiency or diminution",
+                  "assigned_role": "the enclosing condition explicitly predicated of humanity"
+                }
+              ],
+              "structural_cues": [
+                "The preposition في explicitly casts loss as a containing state around الإنسان.",
+                "Within ء ن س, awareness (B002) and familiarity that removes estrangement (B003) offer opposed roles for a subject living inside that state.",
+                "The new verse provides no maturation or positive-yield term, weakening the stage-0 B009-B010-to-B007 sequence."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "Repeated residence in loss makes loss familiar, and familiarity reduces detection or resistance.",
+                  "why_invoked": "It joins recurring time, the spatial force of في, and the perception/familiarity branches of the word for human into a persistence mechanism.",
+                  "causal_direction": "recurrence -> familiarity with the loss-container -> blunted awareness -> continued enclosure; all arrows are reader-supplied",
+                  "alternatives": [
+                    "إنسان activates only the ordinary human-denoting branch",
+                    "في marks an abstract state without spatial force",
+                    "familiarity could help recognition rather than blunt it"
+                  ]
+                },
+                {
+                  "assumption": "ع ص ر/B006 withholds value from the human or holds the human inside loss.",
+                  "why_invoked": "It preserves the withholding component of the baseline while reversing its formerly protective function.",
+                  "causal_direction": "withholding -> persistence of deficiency; the branch is packet-supplied but its object and harmful direction are reader-supplied",
+                  "alternatives": [
+                    "withholding is irrelevant to العصر here",
+                    "the loss is episodic rather than maintained"
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "Time holds potential back until it ripens into yield.",
+                "after": "Recurring time can habituate the human to an enclosing loss, while withholding preserves the deficit rather than the potential."
+              },
+              "minimal_triggers": [
+                "103:1 العصر",
+                "103:2 الإنسان لفي خسر",
+                "the preposition في",
+                "ء ن س/B003",
+                "ع ص ر/B006"
+              ],
+              "ablation": "Removing في collapses the loss-as-habitat mechanism into generic diminution; removing ء ن س/B003 collapses habituation, leaving only a simpler time-and-loss reading."
+            }
+          ],
+          "surprise_reading": "By time now reads like the opening of a bad audit: time presses human life and its return comes up short. More unexpectedly, the human is inside loss long enough for it to become familiar, so deficiency can function as a habitat rather than a one-time subtraction.",
+          "discarded_or_unchanged": [
+            "The stage-0 protective maturation path through ع ص ر/B009-B010 to B007 is substantially weakened because 103:2 supplies emphatic loss, not ripening or positive release."
+          ]
+        },
+        "stage_02": {
+          "reader_id": "reader_e",
+          "focus_ref": "103:1",
+          "stage": 2,
+          "revealed_refs": [
+            "103:1",
+            "103:2",
+            "103:3"
+          ],
+          "models": [
+            {
+              "model_id": "M0-extractive-time",
+              "status": "revised",
+              "confidence": "strong",
+              "mechanism": "Time is a press whose default human output is deficiency, but the exception retools the press into a pharmacy: pressure extracts ṣabr, lexically a bitter plant medicine as well as self-restraint, and reciprocal exhortation circulates it together with truth so that intentional, sound action can continue. The packet supplies pressing, extracted yield, loss, bitter extract, restraint, mutual transmission, truth, and repair; conversion of suffering into medicine and its therapeutic circulation are reader-assigned arrows.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "pressing until liquid runs",
+                  "assigned_role": "the temporal pressure that forces an extract from experience"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B007",
+                  "literal_contribution": "yield and extracted gain",
+                  "assigned_role": "the possibility that pressure can produce a usable output rather than only deficit"
+                },
+                {
+                  "root": "خ س ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "general deficiency or diminution",
+                  "assigned_role": "the default outcome explicitly stated for humanity"
+                },
+                {
+                  "root": "ص ب ر",
+                  "branch_id": "B008",
+                  "literal_contribution": "a bitter plant extract or medicinal substance",
+                  "assigned_role": "the bitter medicine materially extracted by the press"
+                },
+                {
+                  "root": "ص ب ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "self-restraint and withholding the self from panic",
+                  "assigned_role": "the human capacity into which the bitter experience is converted"
+                },
+                {
+                  "root": "و ص ي",
+                  "branch_id": "B003",
+                  "literal_contribution": "mutual exhortation among people",
+                  "assigned_role": "the reciprocal distribution channel for truth and patience"
+                },
+                {
+                  "root": "ح ق ق",
+                  "branch_id": "B001",
+                  "literal_contribution": "firm truth matching reality",
+                  "assigned_role": "the diagnostic standard that keeps bitter endurance from becoming mere passive comfort"
+                },
+                {
+                  "root": "ص ل ح",
+                  "branch_id": "B001",
+                  "literal_contribution": "soundness and making right against corruption",
+                  "assigned_role": "the repair toward which the circulated medicine is directed"
+                }
+              ],
+              "structural_cues": [
+                "إلا reverses the universal-looking loss diagnosis by introducing a process-dependent exception.",
+                "The four coordinated predicates move from trusting assent through intentional action to two social acts, so the exception is a sequence of maintained capacities rather than a label.",
+                "تواصوا is reciprocal and repeated in parallel for truth and patience, making transmission mutual and persistent.",
+                "The material match between ع ص ر/B002 pressing and ص ب ر/B008 bitter extract supplies a precise cross-root bridge."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "Temporal pressure can convert painful experience into the capacity of patient restraint, as a press converts bitter plant matter into medicine.",
+                  "why_invoked": "It unifies the exact press/extract branches of ع ص ر and ص ب ر with the exception from loss.",
+                  "causal_direction": "temporal pressure -> bitter extract -> self-restraint; the lexical nodes are packet-supplied, while conversion and therapeutic value are reader-supplied",
+                  "alternatives": [
+                    "صبر activates only abstract endurance",
+                    "the bitter-extract branch is an unrelated homonymic image",
+                    "time exposes patience but does not produce it"
+                  ]
+                },
+                {
+                  "assumption": "Mutual exhortation administers this capacity socially, and truth calibrates its use toward repair.",
+                  "why_invoked": "It explains why تواصوا is reciprocal, repeated, and paired separately with truth and patience after sound action.",
+                  "causal_direction": "reciprocal truth-check -> circulation of patience -> sustained sound action -> avoidance of loss; all arrows are reader-supplied",
+                  "alternatives": [
+                    "the predicates are an unordered list",
+                    "truth and patience operate only within isolated individuals"
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "Time presses or audits human life, and the extracted result is a short measure or negative balance.",
+                "after": "Time remains a press, but the exception can turn its bitter extraction into patience-as-medicine and circulate that medicine so pressure yields repair instead of only loss."
+              },
+              "minimal_triggers": [
+                "103:1 العصر with ع ص ر/B002 and B007",
+                "103:2 خسر",
+                "103:3 إلا",
+                "ص ب ر/B001 and B008",
+                "the doubled reciprocal تواصوا"
+              ],
+              "ablation": "Remove ص ب ر/B008 and the medicinal surprise collapses into generic moral endurance; remove ع ص ر/B002 and there is no press-to-extract mechanism; remove the repeated reciprocal تواصوا and the reading loses its social circulation component."
+            },
+            {
+              "model_id": "M0-withheld-maturation",
+              "status": "revised",
+              "confidence": "strong",
+              "mechanism": "The loss-habitat is escaped by constructing a reciprocal refuge. The generic singular human is enclosed in loss and may become familiar with it; the plural exception joins people into a trusted network in which another person's truth restores perception and mutual patience keeps the bond from breaking. This activates العصر not only as recurring time but as refuge, rescue, and attachment. The packet supplies enclosure, familiarity and perception, the singular-to-plural exception, trust, joining, reciprocity, truth, surety, and the focus-root refuge; the architecture and escape arrows are abductive.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B005",
+                  "literal_contribution": "refuge, rescue, clinging, and attachment",
+                  "assigned_role": "the social shelter built by the reciprocal exception"
+                },
+                {
+                  "root": "ء ن س",
+                  "branch_id": "B003",
+                  "literal_contribution": "familiar comfort that removes estrangement",
+                  "assigned_role": "the mechanism by which solitary residence in loss becomes normalized"
+                },
+                {
+                  "root": "ء ن س",
+                  "branch_id": "B002",
+                  "literal_contribution": "perceiving something into awareness",
+                  "assigned_role": "the awareness restored when another person speaks truth"
+                },
+                {
+                  "root": "ء م ن",
+                  "branch_id": "B001",
+                  "literal_contribution": "settled security, trust, and a place of safety",
+                  "assigned_role": "the safety that permits corrective truth without dissolving the group"
+                },
+                {
+                  "root": "و ص ي",
+                  "branch_id": "B001",
+                  "literal_contribution": "joining one thing to another",
+                  "assigned_role": "the joints connecting separate people into a refuge"
+                },
+                {
+                  "root": "و ص ي",
+                  "branch_id": "B003",
+                  "literal_contribution": "mutual exhortation among people",
+                  "assigned_role": "the two-way correction and maintenance performed across those joints"
+                },
+                {
+                  "root": "ح ق ق",
+                  "branch_id": "B005",
+                  "literal_contribution": "establishing and making truth stand",
+                  "assigned_role": "the external cross-check that breaks familiar misperception"
+                },
+                {
+                  "root": "ص ب ر",
+                  "branch_id": "B003",
+                  "literal_contribution": "bearing surety or standing with someone",
+                  "assigned_role": "the load-bearing solidarity that keeps the corrective network intact"
+                }
+              ],
+              "structural_cues": [
+                "في خسر encloses the generic singular الإنسان, whereas إلا الذين opens an exception occupied by a plural group.",
+                "The reciprocal form تواصوا appears twice, ruling out a merely one-way instructor and marking every member as giver and receiver.",
+                "The sequence pairs truth, which can disrupt familiarity, with patience, which can preserve attachment through that disruption.",
+                "The social branches of ء م ن, و ص ي, and ص ب ر converge independently on safety, joining, and standing with others, activating ع ص ر/B005 refuge and clinging."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "A person habituated to loss needs another person's truthful perception to detect the enclosure.",
+                  "why_invoked": "It converts the stage-1 opposition between ء ن س familiarity and awareness into the function of reciprocal truth-telling.",
+                  "causal_direction": "familiarity with loss -> perceptual blind spot; another's truth -> restored awareness -> possible exit; both arrows are reader-supplied",
+                  "alternatives": [
+                    "إنسان activates no familiarity or perception branches",
+                    "truth confirms private knowledge without correcting habituation"
+                  ]
+                },
+                {
+                  "assumption": "Trust, reciprocal joining, and patient surety collectively instantiate the refuge branch of العصر.",
+                  "why_invoked": "It explains how the plural exception can remain outside the loss-container and why mutual exhortation is repeated.",
+                  "causal_direction": "trust + reciprocal joining + standing together -> durable refuge -> escape from loss; the components are packet-supplied, while assembly and rescue are reader-supplied",
+                  "alternatives": [
+                    "the exception lists individual virtues without forming a social mechanism",
+                    "ع ص ر/B005 remains dormant and العصر means time alone"
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "Recurring time can habituate the human to an enclosing loss, while withholding preserves the deficit.",
+                "after": "By العصر can also invoke the refuge made by clinging: reciprocal truth breaks habituation to loss, and reciprocal patience holds a trusted plural shelter together."
+              },
+              "minimal_triggers": [
+                "103:2 الإنسان لفي خسر and the preposition في",
+                "103:3 إلا الذين",
+                "the twice-repeated reciprocal تواصوا",
+                "ع ص ر/B005",
+                "ء ن س/B002-B003",
+                "و ص ي/B001-B003 and ص ب ر/B003"
+              ],
+              "ablation": "Remove 103:3 or و ص ي/B003 and the reciprocal refuge collapses into a generic individual escape; remove ع ص ر/B005 and the focus no longer carries refuge or clinging; remove 103:2's في plus ء ن س/B003 and the specific escape from a familiar loss-habitat becomes generic social support."
+            }
+          ],
+          "surprise_reading": "First, By time can picture a press whose default output is human deficit, yet the exception extracts patience itself as a bitter medicine and circulates it through reciprocal counsel, turning pressure toward repair. Second, العصر can also carry its refuge-and-clinging branch: the plural exception builds a trusted shelter where another's truth breaks familiar loss and patient surety keeps everyone attached.",
+          "discarded_or_unchanged": [
+            "The stage-1 one-directional bad-audit reading is not retained unchanged: 103:3 makes the output of temporal pressure transformable.",
+            "The stage-1 habituation mechanism remains only as the problem-state; 103:3 adds the reciprocal escape architecture."
+          ]
+        }
+      },
+      "reader_f": {
+        "stage_00": {
+          "reader_id": "reader_f",
+          "focus_ref": "103:1",
+          "stage": 0,
+          "revealed_refs": [
+            "103:1"
+          ],
+          "models": [
+            {
+              "model_id": "temporal_press",
+              "status": "provisional",
+              "confidence": "exploratory",
+              "mechanism": "The recurring span is imagined as an active press: its passage applies pressure and thereby draws out a latent yield. The packet supplies time, pressing, and extracted gain; the causal operation joining them is inferred.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "age or recurring time",
+                  "assigned_role": "supplies the temporal medium that repeatedly acts"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "pressing until liquid runs",
+                  "assigned_role": "supplies the mechanism of pressure and extraction"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B007",
+                  "literal_contribution": "giving, yield, and extracted gain",
+                  "assigned_role": "supplies the result drawn out by the temporal press"
+                }
+              ],
+              "structural_cues": [
+                "The oath wāw and genitive noun present al-ʿaṣr as the thing invoked as evidence.",
+                "The focus is a single compact oath expression; no affected object or product is stated."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The oath selects time for what it does, not merely for calendrical identification.",
+                  "why_invoked": "Nothing in the focus explicitly turns duration into pressure or names a product; the assumption lets the three root branches form an operative chain.",
+                  "causal_direction": "The packet supplies time, pressing, and yield; I infer time-as-pressure → extraction of latent yield.",
+                  "alternatives": [
+                    "The noun may mean age, afternoon, or recurring time without a pressing metaphor.",
+                    "Pressing and yield may remain unrelated lexical senses here."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "A bare oath by time or an age.",
+                "after": "An oath by time as a pressure that exposes and extracts what things contain."
+              },
+              "minimal_triggers": [
+                "103:1 oath form وَٱلْعَصْرِ",
+                "ع ص ر/B001",
+                "ع ص ر/B002",
+                "ع ص ر/B007"
+              ],
+              "ablation": "Without B002 the operative pressure disappears; without B007 the model becomes a generic metaphor of strain rather than extraction."
+            },
+            {
+              "model_id": "temporal_shelter",
+              "status": "provisional",
+              "confidence": "exploratory",
+              "mechanism": "A span of time is imagined as a protective enclosure: like a husk or refuge, it holds vulnerable becoming until a threshold of maturity is reached. The packet supplies enclosure, refuge, and maturity, but not their developmental sequence.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "age or recurring time",
+                  "assigned_role": "supplies the interval within which development occurs"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B005",
+                  "literal_contribution": "refuge, rescue, and clinging",
+                  "assigned_role": "makes the interval protective rather than merely restrictive"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B010",
+                  "literal_contribution": "grain enclosed in its husks",
+                  "assigned_role": "provides the containing form that preserves an interior"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B009",
+                  "literal_contribution": "reaching youth or menstruation",
+                  "assigned_role": "provides the maturation threshold toward which the enclosure holds"
+                }
+              ],
+              "structural_cues": [
+                "The oath construction foregrounds the time-noun itself rather than stating a predicate about it.",
+                "No explicit sequence or second root appears in the one-word focus, so enclosure → preservation → maturity is not textually asserted."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "Enclosure during a time-span preserves developing contents and enables maturation.",
+                  "why_invoked": "B005, B010, and B009 name compatible roles but the packet does not say that refuge or husk causes development.",
+                  "causal_direction": "The packet supplies temporal interval, refuge, enclosure, and maturity; I infer protective enclosure over time → preserved development → maturity.",
+                  "alternatives": [
+                    "The oath may invoke time with no container image.",
+                    "The refuge, husk, and maturation branches may be independent senses without a shared process."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "A bare oath by elapsed or recurring time.",
+                "after": "An oath by time as a sheltering interval that contains growth until it ripens."
+              },
+              "minimal_triggers": [
+                "103:1 oath form وَٱلْعَصْرِ",
+                "ع ص ر/B001",
+                "ع ص ر/B005",
+                "ع ص ر/B010",
+                "ع ص ر/B009"
+              ],
+              "ablation": "Remove B010 and the enclosure becomes generic refuge; remove B009 and the model loses its developmental destination."
+            }
+          ],
+          "surprise_reading": "At this focus-only baseline, “By al-ʿaṣr” can provisionally evoke duration as an active medium: either a press that extracts latent yield or a sheltering enclosure that holds growth until maturity. Both remain tentative because the focus supplies only one root and states neither causal chain."
+        },
+        "stage_01": {
+          "reader_id": "reader_f",
+          "focus_ref": "103:1",
+          "stage": 1,
+          "revealed_refs": [
+            "103:1",
+            "103:2"
+          ],
+          "models": [
+            {
+              "model_id": "temporal_press",
+              "status": "revised",
+              "confidence": "strong",
+              "mechanism": "The stage-0 press now has an affected subject and an adverse balance: successive time presses human existence into an observable return, but the return is deficiency rather than gain. The packet supplies the oath, the human located in loss, and press/yield/trade images; I infer that temporal pressure audits or consumes human capital.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "age or recurring time",
+                  "assigned_role": "supplies successive accounting or testing intervals"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "pressing until liquid runs",
+                  "assigned_role": "supplies the extracting test applied across those intervals"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B007",
+                  "literal_contribution": "giving, yield, and extracted gain",
+                  "assigned_role": "supplies the expected return against which loss is diagnosed"
+                },
+                {
+                  "root": "ء ن س",
+                  "branch_id": "B001",
+                  "literal_contribution": "visible human presence",
+                  "assigned_role": "supplies the generic subject exposed to the temporal test"
+                },
+                {
+                  "root": "ء ن س",
+                  "branch_id": "B002",
+                  "literal_contribution": "perceiving something into awareness",
+                  "assigned_role": "makes the extracted balance perceptible rather than latent"
+                },
+                {
+                  "root": "خ س ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "general deficiency",
+                  "assigned_role": "names the actual deficient condition"
+                },
+                {
+                  "root": "خ س ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "trade loss",
+                  "assigned_role": "frames the condition as capital spent without adequate return"
+                }
+              ],
+              "structural_cues": [
+                "The oath وَٱلْعَصْرِ is followed by the emphatic إِنَّ ... لَـ assertion, tightly linking time as witness to the diagnosis.",
+                "The generic definite ٱلْإِنسَٰنَ supplies the pressed or audited subject.",
+                "The preposition فِى locates that subject inside loss rather than merely attributing an occasional loss."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The oath by time points to a process that reveals the following diagnosis.",
+                  "why_invoked": "The grammatical sequence links time and human loss as evidence and conclusion, but it does not explicitly say that time causes or exposes the loss.",
+                  "causal_direction": "The packet supplies time-oath → emphatic human-in-loss assertion; I infer repeated time → disclosure of the human balance.",
+                  "alternatives": [
+                    "Time may merely witness an independently caused loss.",
+                    "The oath may honor a time-period without making it an audit mechanism."
+                  ]
+                },
+                {
+                  "assumption": "Human existence can be treated as capital whose temporal yield is being measured.",
+                  "why_invoked": "ع ص ر/B007 and خ س ر/B002 provide gain and trade-loss poles, but the packet does not state an account or investment.",
+                  "causal_direction": "The packet supplies extracted yield and trade loss; I infer expenditure through time → inadequate return → net depletion.",
+                  "alternatives": [
+                    "خسر may indicate only general deficiency.",
+                    "The extracted-yield branch may be inactive here."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "Time was an unspecified press that extracted whatever things contained.",
+                "after": "Time is an audit-like press that exposes human existence as spending capital without extracting an adequate return."
+              },
+              "minimal_triggers": [
+                "103:1–103:2 oath-to-emphatic-assertion sequence",
+                "ع ص ر/B001 and B002",
+                "ع ص ر/B007 paired with خ س ر/B002",
+                "ء ن س/B001",
+                "103:2 فِى خُسْرٍ"
+              ],
+              "ablation": "Remove 103:2 or خ س ر/B002 and this falls back to the generic stage-0 press; remove ع ص ر/B002 and the context still links time to loss but no longer as extraction."
+            },
+            {
+              "model_id": "temporal_shelter",
+              "status": "revised",
+              "confidence": "medium",
+              "mechanism": "The stage-0 shelter is inverted into confinement. فِى supplies an explicit container, but its interior is loss: recurring time becomes the duration or retaining shell within which the human remains under a deficient measure, not a husk carrying growth toward maturity.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "age or recurring time",
+                  "assigned_role": "supplies the recurring duration of confinement"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B006",
+                  "literal_contribution": "withholding and holding back",
+                  "assigned_role": "supplies the retaining action that keeps the occupant from escaping the condition"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B010",
+                  "literal_contribution": "grain enclosed in its husks",
+                  "assigned_role": "supplies the enclosure topology, now stripped of its protective stage-0 valence"
+                },
+                {
+                  "root": "ء ن س",
+                  "branch_id": "B001",
+                  "literal_contribution": "visible human presence",
+                  "assigned_role": "supplies the occupant of the enclosure"
+                },
+                {
+                  "root": "خ س ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "general deficiency",
+                  "assigned_role": "supplies the condition filling the enclosure"
+                },
+                {
+                  "root": "خ س ر",
+                  "branch_id": "B003",
+                  "literal_contribution": "shorting measure and weight",
+                  "assigned_role": "turns confinement into repeated exposure to an underfilled allotment"
+                }
+              ],
+              "structural_cues": [
+                "The literal spatial construction لَفِى خُسْرٍ places the human within loss and decisively activates container geometry.",
+                "The oath precedes this emphatic containment statement, making recurring time relevant to the state.",
+                "The new verse supplies loss rather than any maturation term, reversing the stage-0 enclosure's outcome."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "Oath-linked time maintains or deepens the containment expressed by فِى.",
+                  "why_invoked": "The packet explicitly places the human inside loss, but the grammatical link makes time evidence for that state, not necessarily its enclosing cause.",
+                  "causal_direction": "The packet supplies recurring time and human-in-loss; I infer each temporal recurrence → continued retention in the deficient state.",
+                  "alternatives": [
+                    "Loss itself, not time, may be the only container.",
+                    "Time may witness rather than sustain the condition."
+                  ]
+                },
+                {
+                  "assumption": "The short-measure branch recurs across units of time.",
+                  "why_invoked": "خ س ر/B003 supplies under-measurement and ع ص ر/B001 supplies recurrence, but their iteration is unstated.",
+                  "causal_direction": "The packet supplies recurring intervals plus deficient measure; I infer repeated short measure → cumulative confinement in deficiency.",
+                  "alternatives": [
+                    "خسر may be undifferentiated loss with no measuring process.",
+                    "The enclosure image may be purely spatial rather than cumulative."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "Time was a sheltering enclosure that preserved growth until maturity.",
+                "after": "Time is the recurring retaining enclosure within which the human remains in a short-measured, diminishing condition."
+              },
+              "minimal_triggers": [
+                "103:2 لَفِى خُسْرٍ",
+                "ع ص ر/B001, B006, and B010",
+                "ء ن س/B001",
+                "خ س ر/B001 and B003"
+              ],
+              "ablation": "Remove فِى and the enclosure reversal collapses; remove ع ص ر/B006 and B010 and the result becomes only a generic oath linking time to loss."
+            }
+          ],
+          "surprise_reading": "With 103:2, “By al-ʿaṣr” is no longer neutral duration: it can name the press or audit through which human capital shows a deficient return, or the recurring enclosure that keeps the human inside an underfilled condition. The latter reverses my stage-0 image of time as shelter."
+        },
+        "stage_02": {
+          "reader_id": "reader_f",
+          "focus_ref": "103:1",
+          "stage": 2,
+          "revealed_refs": [
+            "103:1",
+            "103:2",
+            "103:3"
+          ],
+          "models": [
+            {
+              "model_id": "temporal_press",
+              "status": "revised",
+              "confidence": "strong",
+              "mechanism": "Recurring time becomes a production-and-settlement cycle. Under its press the generic human account defaults to trade loss and short measure; the exception assembles a cooperative institution in which trust secures custody, labor and transactions produce return, settlement repairs disputes, reciprocal charges link participants, truth fixes due claims, and patience supplies surety. The packet supplies those roles; I infer that their coordination converts the same temporal pressure from depletion into extracted yield.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "age or recurring time",
+                  "assigned_role": "supplies recurring production and accounting periods"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "pressing until liquid runs",
+                  "assigned_role": "supplies the temporal test that forces a return to appear"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B007",
+                  "literal_contribution": "giving, yield, and extracted gain",
+                  "assigned_role": "supplies the positive return made possible by the exception's arrangement"
+                },
+                {
+                  "root": "ء ن س",
+                  "branch_id": "B001",
+                  "literal_contribution": "visible human presence",
+                  "assigned_role": "supplies the participants whose balance is tested"
+                },
+                {
+                  "root": "خ س ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "trade loss",
+                  "assigned_role": "supplies the default negative balance"
+                },
+                {
+                  "root": "خ س ر",
+                  "branch_id": "B003",
+                  "literal_contribution": "shorting measure and weight",
+                  "assigned_role": "supplies the leakage or deficient exchange the institution must prevent"
+                },
+                {
+                  "root": "ء م ن",
+                  "branch_id": "B001",
+                  "literal_contribution": "security, trust, and entrusted things",
+                  "assigned_role": "secures custody and makes cooperation possible"
+                },
+                {
+                  "root": "ع م ل",
+                  "branch_id": "B004",
+                  "literal_contribution": "wage or pay for work",
+                  "assigned_role": "connects intentional work to accountable return"
+                },
+                {
+                  "root": "ع م ل",
+                  "branch_id": "B005",
+                  "literal_contribution": "dealing or transaction between people",
+                  "assigned_role": "supplies the exchange arena"
+                },
+                {
+                  "root": "ص ل ح",
+                  "branch_id": "B002",
+                  "literal_contribution": "reconciliation and settlement between people",
+                  "assigned_role": "repairs conflict within exchange"
+                },
+                {
+                  "root": "و ص ي",
+                  "branch_id": "B002",
+                  "literal_contribution": "a charge joined to another person",
+                  "assigned_role": "turns commitment into a transferred interpersonal obligation"
+                },
+                {
+                  "root": "و ص ي",
+                  "branch_id": "B003",
+                  "literal_contribution": "mutual exhortation among people",
+                  "assigned_role": "supplies reciprocal monitoring, reinforced by its two occurrences"
+                },
+                {
+                  "root": "ح ق ق",
+                  "branch_id": "B002",
+                  "literal_contribution": "due obligation and deserved claim",
+                  "assigned_role": "fixes what each participant owes and may claim"
+                },
+                {
+                  "root": "ص ب ر",
+                  "branch_id": "B003",
+                  "literal_contribution": "bearing surety or standing with someone",
+                  "assigned_role": "backs the reciprocal obligation with shared liability"
+                }
+              ],
+              "structural_cues": [
+                "The oath and general loss statement are followed by إِلَّا, so the exception changes the outcome under the same invoked time rather than removing time.",
+                "The exception is plural and contains four coordinated predicates, shifting the unit from generic humanity to an organized group.",
+                "تَوَاصَوْا is reciprocal and repeated with two بِـ complements, making mutual linkage rather than solitary possession structurally decisive."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The exception's terms form an institutional workflow rather than an unconnected list.",
+                  "why_invoked": "Trust, pay, transactions, settlement, linked charges, due claims, and surety converge lexically, but the verse does not name a cooperative or contract system.",
+                  "causal_direction": "The packet supplies trust + work/transaction + settlement + reciprocal charge + right + surety; I infer coordinated safeguards → reduced short-measure and dispute → preserved capital and yield.",
+                  "alternatives": [
+                    "The predicates may describe individual moral qualities without an economic institution.",
+                    "Their conjunction may indicate co-presence without functional sequence."
+                  ]
+                },
+                {
+                  "assumption": "The oath's recurring time is the production or settlement cycle that tests this institution.",
+                  "why_invoked": "The oath grammatically witnesses the loss/exception contrast but does not explicitly cause, audit, or settle it.",
+                  "causal_direction": "The packet supplies recurring time, press, loss, exception, and yield; I infer temporal pressure → balance revealed, with institutional structure determining loss versus yield.",
+                  "alternatives": [
+                    "Time may be only a witness.",
+                    "Yield and trade branches of ع ص ر and خ س ر may remain inactive."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "At stage 1, time was an audit-like press exposing an isolated human account as deficient.",
+                "after": "Time is the recurring pressure of production and settlement; a reciprocal trust-work-rights-surety institution changes what that pressure extracts from loss into yield."
+              },
+              "minimal_triggers": [
+                "103:2 trade-loss/short-measure branches خ س ر/B002–B003 plus the 103:3 exception",
+                "ع ص ر/B001, B002, and B007",
+                "ء م ن/B001 with ع م ل/B004–B005 and ص ل ح/B002",
+                "the doubled reciprocal وَتَوَاصَوْا: و ص ي/B002–B003",
+                "ح ق ق/B002 paired with ص ب ر/B003"
+              ],
+              "ablation": "Remove the doubled reciprocal وَتَوَاصَوْا or و ص ي/B002–B003 and the model collapses from a cooperative institution into individual good conduct; remove خ س ر/B002–B003 and the ledger problem disappears; remove ع ص ر/B002 and B007 and the focus becomes generic time rather than a pressure-to-yield cycle."
+            },
+            {
+              "model_id": "seasonal_yield_cycle",
+              "status": "new",
+              "confidence": "strong",
+              "mechanism": "The newly revealed roots also assemble a material pastoral cycle: a recurring season stacks cloud, squeezes it into rain, makes pasture fit grazing stock, brings animals to full condition, and yields reliable work animals and gain instead of trade loss. This causal order is my reconstruction; the packet supplies each material stage but does not state a weather or livestock narrative.",
+              "activation_trace": [
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B001",
+                  "literal_contribution": "age or recurring time",
+                  "assigned_role": "supplies the productive season"
+                },
+                {
+                  "root": "ص ب ر",
+                  "branch_id": "B010",
+                  "literal_contribution": "white layered cloud",
+                  "assigned_role": "supplies the stored atmospheric input"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B003",
+                  "literal_contribution": "rain-clouds squeezed into rain",
+                  "assigned_role": "converts layered cloud into rainfall"
+                },
+                {
+                  "root": "و ص ي",
+                  "branch_id": "B004",
+                  "literal_contribution": "pasture suiting grazing animals",
+                  "assigned_role": "connects rainfall to plentiful forage"
+                },
+                {
+                  "root": "ح ق ق",
+                  "branch_id": "B013",
+                  "literal_contribution": "livestock reaching full condition or seasonal fattening",
+                  "assigned_role": "supplies the matured stock produced by forage"
+                },
+                {
+                  "root": "ص ل ح",
+                  "branch_id": "B003",
+                  "literal_contribution": "suitability or fitness",
+                  "assigned_role": "supplies fit between resources, animals, and use"
+                },
+                {
+                  "root": "ع م ل",
+                  "branch_id": "B008",
+                  "literal_contribution": "a person or she-camel naturally fit for work",
+                  "assigned_role": "supplies productive work-stock"
+                },
+                {
+                  "root": "ء م ن",
+                  "branch_id": "B001",
+                  "literal_contribution": "settled security and trust, including the reliable amūn she-camel",
+                  "assigned_role": "supplies reliability of the mature work animal"
+                },
+                {
+                  "root": "ع ص ر",
+                  "branch_id": "B007",
+                  "literal_contribution": "giving, productive yield, and extracted gain",
+                  "assigned_role": "supplies the cycle's economic output"
+                },
+                {
+                  "root": "خ س ر",
+                  "branch_id": "B002",
+                  "literal_contribution": "trade loss",
+                  "assigned_role": "supplies the adverse outcome the completed cycle reverses"
+                }
+              ],
+              "structural_cues": [
+                "إِلَّا marks the entire newly revealed root-set as outcome-changing relative to loss.",
+                "The long conjunction chain packages the factors as co-present, while its surface order does not itself assert the ecological order reconstructed here.",
+                "The two reciprocal تَوَاصَوْا forms support interdependence, though assigning that reciprocity to an ecological feedback loop is abductive."
+              ],
+              "abductive_moves": [
+                {
+                  "assumption": "The unusually convergent cloud, rain, pasture, livestock, fitness, work-animal, and yield branches are jointly active.",
+                  "why_invoked": "These material images occur in independent roots of the newly revealed ayah and complete a continuous production chain, but their surface words ordinarily retain their stated sentence roles.",
+                  "causal_direction": "The packet supplies layered cloud + rain + favorable pasture + full animal condition + work fitness + yield; I infer cloud → rain → forage → mature reliable stock → productive gain.",
+                  "alternatives": [
+                    "The material branches may be coincidental dormant senses.",
+                    "The ayah may activate only the social and ethical branches."
+                  ]
+                },
+                {
+                  "assumption": "The exception contrasts a functioning seasonal economy with the trade-loss state.",
+                  "why_invoked": "The packet states an exception to loss but does not say that rainfall or livestock productivity causes it.",
+                  "causal_direction": "The packet supplies exception, trade loss, and the material chain; I infer completed seasonal chain → adequate return → escape from trade loss.",
+                  "alternatives": [
+                    "Loss may be noncommercial.",
+                    "The exception may have no material-economic realization."
+                  ]
+                }
+              ],
+              "changed_reading": {
+                "before": "Stage 1 offered no seasonal material model; time was an audit or a confining interval.",
+                "after": "The oath can invoke the productive season itself: layered cloud is pressed into rain and carried through pasture and mature work-stock into yield."
+              },
+              "minimal_triggers": [
+                "ص ب ر/B010 with ع ص ر/B003",
+                "و ص ي/B004 linking rain to pasture",
+                "ح ق ق/B013 linking pasture to mature stock",
+                "ع م ل/B008 and ء م ن/B001 supplying fit, reliable work-stock",
+                "ع ص ر/B007 opposed to خ س ر/B002 under إِلَّا"
+              ],
+              "ablation": "Remove ص ب ر/B010 or ع ص ر/B003 and the cloud-to-rain engine vanishes; remove و ص ي/B004 or ح ق ق/B013 and rain no longer bridges to livestock yield, leaving only a generic weather metaphor; remove خ س ر/B002 and إِلَّا and the cycle no longer changes the focus from loss toward gain."
+            }
+          ],
+          "surprise_reading": "On the full packet, “By al-ʿaṣr” can name a recurring production-and-settlement pressure: humanity defaults to a losing account, while a trust-based cooperative of work, settlement, reciprocal obligation, rights, and surety converts pressure into yield. More radically, the new roots assemble a pastoral season—layered cloud, squeezed rain, favorable pasture, mature reliable work-stock, and gain—so the oath invokes a whole productive weather-cycle rather than duration alone.",
+          "discarded_or_unchanged": [
+            "The stage-1 static temporal_shelter model is discarded: the 103:3 exception makes confinement non-universal, while its refuge/attachment potential is better absorbed into the reciprocal cooperative mechanism."
+          ]
+        }
+      }
+    }
+  },
+  "v12_reader_walks": {
+    "reader_a": {
+      "activated_readings_md": "1. **Time as the container that exposes loss.**  \n   Lexical evidence: `ع ص ر` B001, \"age or recurring time\"; activated by `خ س ر` B001/B002 in 103:2 and by the fourfold exception in 103:3. Structural cue: the oath precedes a spatial verdict, \"in loss,\" then an exception. Assigned role: `العصر` supplies the enveloping duration in which the human condition becomes measurable. The packet supplies: time → human → loss → exception. I supply the directional arrow: recurring time is the medium that lets deficiency show itself. Reading change: the ayah is not only \"by time\" as a neutral swear-word; it becomes an oath by the very temporal field in which human value is depleted unless a counter-pattern appears.\n\n2. **The press that extracts the hidden yield.**  \n   Lexical evidence: `ع ص ر` B002, \"pressing until liquid runs,\" and B007, \"giving, yield, and extracted gain\"; activated by `خ س ر` B002, \"trade loss,\" and by `ع م ل` B001/B004/B005 in 103:3, work, wage, and transaction. Structural cue: 103:1 is a compact noun, then 103:2 names loss, then 103:3 names practices. Assigned role: `العصر` becomes the press; human life is the material put under pressure; faith, work, truth, and patience are the extractable yield. The packet supplies the press-branch, the loss-branch, and the work/transaction branches. I infer that pressure reveals whether a yield or a deficit results. Reading change: the oath points to a compressive test, not merely duration; what comes after it is what runs out when existence is squeezed.\n\n3. **Withholding and rescue under scarcity.**  \n   Lexical evidence: `ع ص ر` B005, \"refuge, rescue, and clinging,\" and B006, \"withholding, holding back, and reclaiming\"; activated by `ء م ن` B001, secure trust, `و ص ي` B003, mutual exhortation, and `ص ب ر` B001/B003, self-restraint and suretyship. Structural cue: 103:3 is introduced by `إلا`, making a marked exit from the condition in 103:2. Assigned role: `العصر` names the constricted situation in which rescue requires attachment and disciplined holding. The packet supplies the exception and the branches of clinging, security, reciprocal charge, and restraint. I infer that the exception functions as a refuge-route out of the constriction. Reading change: the ayah can be heard as swearing by the pressure-zone in which humans are held back or rescued by what they cling to together.\n\n4. **A weather-and-growth cycle.**  \n   Lexical evidence: `ع ص ر` B003, \"rain-clouds squeezed into rain,\" and B010, \"grain enclosed in its husks\"; activated by `ص ب ر` B010, \"white layered cloud,\" `و ص ي` B004, pasture suiting grazing animals, and `ص ل ح` B003, suitability or fitness. Structural cue: the last ayah supplies ecological branches clustered around cloud, pasture, fitness, and endurance after the oath-root already offers rain-bearing clouds. Assigned role: `العصر` is the season-like compression that brings rain and encloses grain until maturity. The packet supplies all the ecological images; I supply the arrow that rain/season enables fit growth. Reading change: the oath can open a latent agricultural reading: human loss is set against a natural process in which pressure, enclosure, and patient suitability are conditions of fruitfulness.\n\n5. **The choking morsel and the small saving sip.**  \n   Lexical evidence: `ع ص ر` B008, \"sipping to get a choking morsel down\"; activated by `ص ب ر` B001, restraint, and `و ص ي` B003, repeated mutual advising. Structural cue: the exception is not one grand act but a sequence of held practices, with `تواصوا` repeated. Assigned role: `العصر` becomes the acute constriction, the stuck point; the later virtues act like repeated small sips that allow passage. The packet supplies the choking/sipping branch and repeated mutual counsel. I infer that repetition turns the rescue into gradual relief rather than instant escape. Reading change: the ayah’s compactness can be read as the throat-tight moment before the surah releases a measured remedy.",
+      "retrospective_surprises_md": "Later 103:3 made the refuge branch of `ع ص ر` B005 more visible than it first appeared: `تواصوا` twice does not only advise, it creates a clinging network. `ص ب ر` B008, bitter extract, also echoed back onto `ع ص ر` B002: the pressure may produce not sweetness but medicine. Finally, `ح ق ق` B011, fitted socket, and `ص ب ر` B018, stopper or plug, retrospectively made `العصر` feel less like open flowing time and more like a constrained apparatus in which things are held, pressed, and made to fit.",
+      "turkish_prose_synthesis_md": "`العصر` burada yalnız \"zaman\" diye düzleşmiyor. Sonraki ayetler onu, insanın eksildiği alanı açığa çıkaran süre olarak etkinleştiriyor: zaman, kaybın içinde bulunduğu kabı ve ölçüm sahasını veriyor. Aynı kök, sıkıp öz çıkarma dalıyla da çalışıyor; insan hayatı baskı altına konmuş malzeme gibi, iman, amel, hak ve sabır ise bu baskıdan çıkabilecek verim gibi okunuyor. Bunun yanında `العصر`, daralma içinde sığınılacak bağ anlamına da kayıyor: 103:3'teki karşılıklı tavsiye, kurtuluşun tekil değil tutunmalı ve ortak olduğunu geriye doğru gösteriyor. Daha keşifsel bir katmanda, yağmur bulutu, başak kılıfı, mera ve uygunluk imgeleri `العصر`i bir yetişme mevsimi gibi de okutturuyor. En şaşırtıcı yankı ise acı ilaç ve boğazdaki lokma imgesi: sure, daralmaya küçük ama tekrarlı bir tedaviyle cevap veriyor.",
+      "source_file": "latent_activation/v12/runs/s103/full_context_control/reader_s103_a_ayah_walk.md"
+    },
+    "reader_b": {
+      "activated_readings_md": "1. Time as the recurring witness of human attrition.\n   Lexical evidence: fixed `ع ص ر B001` (age, recurring time, day/night, afternoon), activated by `ء ن س B001` (visible human presence) and `خ س ر B001` (general deficiency). Structural cue: the isolated oath-noun is followed by an emphatic universal clause about the human. Assigned role: `العصر` supplies the temporal field in which the human condition is observed. Abductive move: I supply the evidentiary arrow, that recurring time is not only the object sworn by but the witness that exposes deficiency. Reading change: the ayah reads less as “time is important” and more as “the repeated passage of time visibly proves the human’s diminishing condition.”\n\n2. Time as a press that extracts either loss or yield.\n   Lexical evidence: fixed `ع ص ر B002` (pressing until liquid runs) and `ع ص ر B007` (giving, yield, extracted gain), activated by `خ س ر B002` (trade loss), `ع م ل B004` (wage/pay for work), and `ع م ل B005` (transactions between people). Structural cue: the sequence moves from `العصر` to `خسر` and then to acts, works, and mutual obligations. Assigned role: `العصر` becomes the press; human life and work are the material pressed; loss or gain is the extracted result. Abductive move: I supply the economic-material conversion, that the later vocabulary of loss/work lets the pressure image become an accounting of yield. Reading change: the oath becomes a pressure-test: time squeezes human existence until its real profit, deficiency, or waste appears.\n\n3. Time as constriction that also names the needed refuge.\n   Lexical evidence: fixed `ع ص ر B005` (refuge, rescue, clinging) and `ع ص ر B006` (withholding/holding back), activated by `و ص ي B001` (joining one thing to another), `و ص ي B003` (mutual exhortation), and `ص ب ر B001` (self-restraint from panic). Structural cue: a terse oath is followed by being “in” loss, then by an exception formed through collective attachment. Assigned role: `العصر` supplies both the compressive danger and the lexical possibility of resort. Abductive move: I infer that the same pressure that exposes loss also forces the search for a clinging-place, and that the exception describes that place socially. Reading change: `العصر` no longer names neutral duration; it names a crisis-space in which rescue requires attachment, not escape from time.\n\n4. A rain-cloud/irrigation reading of the oath.\n   Lexical evidence: fixed `ع ص ر B003` (rain-clouds squeezed into rain), activated by basmalah `س م و B004` (overhead sky/cover, cloud, rain), `ر ح م B001` (beneficence), `ص ل ح B003` (suitability/fitness), and `ص ب ر B010` (white layered cloud). Structural cue: the opening has an overhead divine-merciful frame, and the closing lists practices that can make human ground receptive and sound. Assigned role: `العصر` is the rain-bearing compression, while faith/work/right counsel/patience are the cultivated receptivity that can receive yield rather than loss. Abductive move: I supply the ecological arrow, that mercy from above and pressure in the cloud can become beneficial only where the human field is made fit. Reading change: the oath can be heard as more than late time: it also evokes compressed cloud and rain, making the surah’s rescue-pattern agricultural and formative.",
+      "retrospective_surprises_md": "The later ayat pushed `العصر` away from a single time-gloss. 103:2’s `خسر` activated the press/accounting readings (`ع ص ر B002`, `ع ص ر B007`) because loss looked like extracted deficit. 103:3’s repeated mutual `و ص ي` and final `صبر` then made `ع ص ر B005` unexpectedly central: time is not only what consumes, but the condition in which refuge and clinging become legible. The cloud/rain reading remained exploratory, but the basmalah’s `س م و B004` plus `ص ب ر B010` made it more than a loose image.",
+      "turkish_prose_synthesis_md": null,
+      "source_file": "latent_activation/v12/runs/s103/full_context_control/reader_s103_b_ayah_walk.md"
+    }
+  },
+  "butuncul_okuma_line": {
+    "raw_line": "**103:1.** وَٱلْعَصْرِ — Birincil okuma: Asr, insanın eksilişini görünür kılan tekrar eden zaman üzerine yoğun bir yemindir. Bağlam bunu şaşırtıcı biçimde genişletir: asr yalnız nötr zaman değil, hayatı sıkan bir pres, zarar veya verim çıkaran bir imtihan, aynı zamanda sığınılacak bağ ihtiyacını doğuran basınç ve hatta rahmet yağmurunu taşıyan sıkışmış bulut imgesi olarak da okunur. {ع ص ر B001; ع ص ر B002; ع ص ر B003; ع ص ر B005; ع ص ر B007; خ س ر B001; خ س ر B002; ع م ل B004; و ص ي B003; س م و B004}",
+    "arabic_text": "وَٱلْعَصْرِ",
+    "reading_text_tr": "Asr, insanın eksilişini görünür kılan tekrar eden zaman üzerine yoğun bir yemindir. Bağlam bunu şaşırtıcı biçimde genişletir: asr yalnız nötr zaman değil, hayatı sıkan bir pres, zarar veya verim çıkaran bir imtihan, aynı zamanda sığınılacak bağ ihtiyacını doğuran basınç ve hatta rahmet yağmurunu taşıyan sıkışmış bulut imgesi olarak da okunur.",
+    "root_citations": [
+      "ع ص ر B001",
+      "ع ص ر B002",
+      "ع ص ر B003",
+      "ع ص ر B005",
+      "ع ص ر B007",
+      "خ س ر B001",
+      "خ س ر B002",
+      "ع م ل B004",
+      "و ص ي B003",
+      "س م و B004"
+    ]
+  },
+  "inter_ayah_rows": [
+    {
+      "label": "strong",
+      "ref": "78:14",
+      "note": "Root resonance supports f02's pressure-and-yield reading; V12 f04 is contrast boundary."
+    },
+    {
+      "label": "medium",
+      "ref": "19:96",
+      "note": "Faithful action and affection add a downstream human outcome, not a reading of the oath."
+    },
+    {
+      "label": "weak",
+      "ref": "12:36",
+      "note": "Root-only pressing in a dream scene; weak mixed V12 f02 route."
+    },
+    {
+      "label": "strong",
+      "ref": "12:49",
+      "note": "Pressing after a named year supports f02's productive temporal cycle; f04 remains contrast."
+    },
+    {
+      "label": "strong",
+      "ref": "103:3",
+      "note": "Immediate exception specifies the human response against loss announced after the oath."
+    },
+    {
+      "label": "medium",
+      "ref": "2:266",
+      "note": "Root-related destructive whirlwind supplies a contrary pressure image, not temporal sequence."
+    },
+    {
+      "label": "strong",
+      "ref": "103:2",
+      "note": "Immediate sequel makes the oath's human-loss frame explicit."
+    },
+    {
+      "label": "medium",
+      "ref": "93:1",
+      "note": "Parallel oath by a daily temporal marker; secondary after the direct sequel."
+    },
+    {
+      "label": "weak",
+      "ref": "26:152",
+      "note": "Corruption without repair is a downstream loss pattern, indirectly related."
+    },
+    {
+      "label": "medium",
+      "ref": "89:1",
+      "note": "Parallel oath by dawn supplies a second temporal-marker frame."
+    },
+    {
+      "label": "medium",
+      "ref": "10:103",
+      "note": "Established rescue after warning parallels the loss-versus-deliverance horizon."
+    },
+    {
+      "label": "weak",
+      "ref": "52:1",
+      "note": "Parallel oath form only; its object does not clarify al-'asr."
+    },
+    {
+      "label": "medium",
+      "ref": "12:47",
+      "note": "Named years and sustained cultivation give a temporal-cycle analogue."
+    },
+    {
+      "label": "weak",
+      "ref": "77:2",
+      "note": "Oath form and wind imagery are formally parallel but non-temporal."
+    },
+    {
+      "label": "medium",
+      "ref": "7:8",
+      "note": "Weighing with success/loss sharpens the consequence frame following the oath."
+    },
+    {
+      "label": "weak",
+      "ref": "100:1",
+      "note": "Oath form only; movement imagery adds little after other oath parallels."
+    },
+    {
+      "label": "medium",
+      "ref": "51:56",
+      "note": "Human purpose supplies a broad frame for the loss claim, not the oath term."
+    },
+    {
+      "label": "weak",
+      "ref": "37:1",
+      "note": "Parallel oath syntax only."
+    },
+    {
+      "label": "medium",
+      "ref": "33:72",
+      "note": "Human burden and failure-proneness deepen the human-risk setting."
+    },
+    {
+      "label": "weak",
+      "ref": "55:12",
+      "note": "Root-adjacent plant material is lexical only and does not clarify the oath."
+    },
+    {
+      "label": "medium",
+      "ref": "14:52",
+      "note": "Warning and remembrance give a broad evaluative horizon for the oath."
+    },
+    {
+      "label": "weak",
+      "ref": "75:9",
+      "note": "Cosmic conjunction is a temporal sign, but only indirectly related."
+    },
+    {
+      "label": "weak",
+      "ref": "54:18",
+      "note": "Punishment-warning refrain offers consequence context without clarifying al-'asr."
+    },
+    {
+      "label": "weak",
+      "ref": "52:4",
+      "note": "Parallel oath syntax only."
+    },
+    {
+      "label": "weak",
+      "ref": "54:21",
+      "note": "Repeated punishment-warning refrain is redundant consequence context."
+    },
+    {
+      "label": "weak",
+      "ref": "101:1",
+      "note": "Eschatological shock supports consequence context, not the oath's temporal reading."
+    },
+    {
+      "label": "weak",
+      "ref": "54:30",
+      "note": "Repeated punishment-warning refrain is redundant consequence context."
+    },
+    {
+      "label": "no value",
+      "ref": "53:19",
+      "note": "No clear contribution to the oath or its human-loss frame."
+    },
+    {
+      "label": "medium",
+      "ref": "8:37",
+      "note": "Separation and loss supply a judgmental outcome analogue."
+    },
+    {
+      "label": "medium",
+      "ref": "49:7",
+      "note": "Guidance versus transgression provides a moral-outcome frame, indirectly."
+    },
+    {
+      "label": "weak",
+      "ref": "78:12",
+      "note": "Layered construction has only distant channel resonance; no temporal clarification."
+    },
+    {
+      "label": "weak",
+      "ref": "2:196",
+      "note": "Named days are procedural timing, not an interpretive parallel to al-'asr."
+    },
+    {
+      "label": "weak",
+      "ref": "78:3",
+      "note": "Disputed report is not a temporal reading; channel overlap is secondary."
+    },
+    {
+      "label": "no value",
+      "ref": "55:1",
+      "note": "No clear contribution beyond a general theological setting."
+    },
+    {
+      "label": "medium",
+      "ref": "78:15",
+      "note": "Emergent yield echoes the f02 pressure-to-product line through auxiliary channels."
+    },
+    {
+      "label": "weak",
+      "ref": "85:2",
+      "note": "Oath by the promised day gives broad temporal-eschatological context."
+    },
+    {
+      "label": "weak",
+      "ref": "90:13",
+      "note": "Release from bondage parallels rescue only indirectly."
+    },
+    {
+      "label": "weak",
+      "ref": "89:3",
+      "note": "Parallel oath syntax only."
+    },
+    {
+      "label": "medium",
+      "ref": "78:11",
+      "note": "Day as livelihood strengthens a measured time-and-human-work frame."
+    },
+    {
+      "label": "medium",
+      "ref": "91:1",
+      "note": "Oath by sun and its brightness is a close formal-temporal parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "90:17",
+      "note": "Shared mutual exhortation extends the immediate exception, not al-'asr itself."
+    },
+    {
+      "label": "medium",
+      "ref": "77:13",
+      "note": "A decisive day supplies an eschatological temporal horizon."
+    },
+    {
+      "label": "weak",
+      "ref": "99:3",
+      "note": "Human questioning at cosmic upheaval is secondary consequence context."
+    },
+    {
+      "label": "weak",
+      "ref": "74:32",
+      "note": "Parallel oath by the moon offers a temporal-marker analogy."
+    },
+    {
+      "label": "weak",
+      "ref": "79:4",
+      "note": "Oath form only; racing imagery adds little."
+    },
+    {
+      "label": "weak",
+      "ref": "96:18",
+      "note": "Punitive summons gives remote consequence context."
+    },
+    {
+      "label": "weak",
+      "ref": "95:1",
+      "note": "Parallel oath by signs of maturation; formal rather than lexical support."
+    },
+    {
+      "label": "weak",
+      "ref": "74:5",
+      "note": "Ethical separation is broadly compatible but does not clarify the oath."
+    },
+    {
+      "label": "weak",
+      "ref": "75:8",
+      "note": "Lunar eclipse is a temporal sign with remote relevance."
+    },
+    {
+      "label": "no value",
+      "ref": "114:6",
+      "note": "No clear contribution to the oath or loss frame."
+    },
+    {
+      "label": "weak",
+      "ref": "75:29",
+      "note": "Terminal constriction supplies a faint pressure boundary, not a temporal reading."
+    },
+    {
+      "label": "weak",
+      "ref": "92:17",
+      "note": "Avoidance of punishment supplies outcome context only."
+    },
+    {
+      "label": "weak",
+      "ref": "74:41",
+      "note": "Reference to wrongdoers is too general to clarify the oath."
+    },
+    {
+      "label": "weak",
+      "ref": "43:2",
+      "note": "Parallel oath by scripture is formal only."
+    },
+    {
+      "label": "weak",
+      "ref": "107:7",
+      "note": "Withholding aid illustrates moral shortfall, indirectly."
+    },
+    {
+      "label": "weak",
+      "ref": "44:2",
+      "note": "Redundant parallel oath by scripture."
+    },
+    {
+      "label": "no value",
+      "ref": "114:2",
+      "note": "No clear contribution to the oath or loss frame."
+    },
+    {
+      "label": "weak",
+      "ref": "81:16",
+      "note": "Celestial motion is a distant temporal-sign parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "30:2",
+      "note": "Historical reversal alone does not clarify al-'asr."
+    },
+    {
+      "label": "weak",
+      "ref": "56:38",
+      "note": "Human grouping offers little beyond broad consequence context."
+    },
+    {
+      "label": "weak",
+      "ref": "70:9",
+      "note": "Eschatological transformation supplies remote consequence context."
+    },
+    {
+      "label": "medium",
+      "ref": "70:22",
+      "note": "Explicit exception to a human negative type parallels the 103:2-3 structure."
+    },
+    {
+      "label": "weak",
+      "ref": "79:1",
+      "note": "Oath form only; extraction imagery is not al-'asr."
+    },
+    {
+      "label": "weak",
+      "ref": "56:10",
+      "note": "Precedence supplies a broad success contrast, indirectly."
+    },
+    {
+      "label": "no value",
+      "ref": "114:3",
+      "note": "No clear contribution to the oath or loss frame."
+    },
+    {
+      "label": "weak",
+      "ref": "52:5",
+      "note": "Parallel oath syntax only."
+    },
+    {
+      "label": "weak",
+      "ref": "52:6",
+      "note": "Parallel oath syntax only."
+    },
+    {
+      "label": "medium",
+      "ref": "92:6",
+      "note": "Affirmation of the good supplies a gain-side analogue to f02."
+    },
+    {
+      "label": "no value",
+      "ref": "37:48",
+      "note": "No clear contribution to the oath or loss frame."
+    },
+    {
+      "label": "weak",
+      "ref": "86:1",
+      "note": "Parallel oath by a nocturnal temporal sign."
+    },
+    {
+      "label": "weak",
+      "ref": "35:21",
+      "note": "Contrasting conditions supplies a remote binary-outcome analogy."
+    },
+    {
+      "label": "no value",
+      "ref": "112:2",
+      "note": "No clear contribution to the oath or loss frame."
+    },
+    {
+      "label": "weak",
+      "ref": "79:3",
+      "note": "Oath form only."
+    },
+    {
+      "label": "weak",
+      "ref": "80:36",
+      "note": "Kinship flight supplies remote human consequence context."
+    },
+    {
+      "label": "weak",
+      "ref": "68:16",
+      "note": "Marking punishment is too remote from the oath."
+    },
+    {
+      "label": "medium",
+      "ref": "92:8",
+      "note": "Withholding and self-sufficiency supply a loss-side moral trajectory."
+    },
+    {
+      "label": "weak",
+      "ref": "74:23",
+      "note": "Turning away and pride supply a general contrary trajectory."
+    },
+    {
+      "label": "weak",
+      "ref": "74:18",
+      "note": "Deliberation and calculation add no clear temporal or loss reading."
+    },
+    {
+      "label": "weak",
+      "ref": "69:1",
+      "note": "Eschatological certainty supplies broad consequence context."
+    },
+    {
+      "label": "medium",
+      "ref": "82:11",
+      "note": "Recording agents support f01's witness-like temporal reading, as a parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "80:35",
+      "note": "Kinship flight is redundant remote consequence context."
+    },
+    {
+      "label": "weak",
+      "ref": "51:1",
+      "note": "Parallel oath syntax only."
+    },
+    {
+      "label": "weak",
+      "ref": "101:2",
+      "note": "Repetition of the calamity question is redundant consequence context."
+    },
+    {
+      "label": "weak",
+      "ref": "78:7",
+      "note": "Cosmic construction gives no clear temporal reading."
+    },
+    {
+      "label": "weak",
+      "ref": "87:3",
+      "note": "Measure and guidance offer a remote f02-compatible order frame."
+    },
+    {
+      "label": "weak",
+      "ref": "79:2",
+      "note": "Oath form only."
+    },
+    {
+      "label": "no value",
+      "ref": "12:82",
+      "note": "Testimony in a narrative does not clarify al-'asr."
+    },
+    {
+      "label": "weak",
+      "ref": "20:31",
+      "note": "Strengthening support has no clear connection to the oath."
+    },
+    {
+      "label": "weak",
+      "ref": "92:21",
+      "note": "Future satisfaction is a distant gain-side outcome."
+    },
+    {
+      "label": "no value",
+      "ref": "55:64",
+      "note": "No clear contribution to the oath or loss frame."
+    },
+    {
+      "label": "medium",
+      "ref": "50:43",
+      "note": "Life, death, and return provide a broad temporal-limit horizon."
+    },
+    {
+      "label": "no value",
+      "ref": "37:155",
+      "note": "No clear contribution to the oath or loss frame."
+    },
+    {
+      "label": "weak",
+      "ref": "63:1",
+      "note": "Witness language is unrelated to the temporal oath's witness-like reading."
+    },
+    {
+      "label": "medium",
+      "ref": "35:18",
+      "note": "Individual burden and return sharpen accountability within the loss horizon."
+    },
+    {
+      "label": "weak",
+      "ref": "11:90",
+      "note": "Return and mercy give a broad corrective outcome, indirectly."
+    },
+    {
+      "label": "weak",
+      "ref": "4:12",
+      "note": "Inheritance after death gives a legal temporal boundary only."
+    },
+    {
+      "label": "no value",
+      "ref": "4:34",
+      "note": "No clear contribution to the oath or loss frame."
+    },
+    {
+      "label": "weak",
+      "ref": "2:246",
+      "note": "Commitment and withdrawal give a distant perseverance analogue."
+    },
+    {
+      "label": "weak",
+      "ref": "2:187",
+      "note": "Dawn-to-night boundary gives procedural timekeeping, not al-'asr."
+    },
+    {
+      "label": "no value",
+      "ref": "3:37",
+      "note": "Provision narrative does not clarify the oath or its loss claim."
+    },
+    {
+      "label": "strong",
+      "ref": "45:24",
+      "note": "Explicit al-dahr claim is indispensable contrary evidence for a temporal reading."
+    },
+    {
+      "label": "strong",
+      "ref": "57:20",
+      "note": "Worldly growth, decline, and perishing sharply support the f02 loss-under-time horizon."
+    },
+    {
+      "label": "strong",
+      "ref": "18:103",
+      "note": "Explicit loss of deeds is a central outcome parallel to 103:2."
+    },
+    {
+      "label": "strong",
+      "ref": "22:11",
+      "note": "Explicit loss in both worldly and final horizons deepens the human-loss claim."
+    },
+    {
+      "label": "strong",
+      "ref": "39:15",
+      "note": "Explicit self-and-household loss supplies a decisive consequence parallel."
+    },
+    {
+      "label": "strong",
+      "ref": "102:1",
+      "note": "Competitive accumulation gives a direct human mechanism of loss through distraction."
+    },
+    {
+      "label": "strong",
+      "ref": "102:2",
+      "note": "The grave boundary completes the temporal-pressure trajectory of 102:1."
+    },
+    {
+      "label": "strong",
+      "ref": "63:9",
+      "note": "Distraction before death directly frames wasting the available human interval."
+    },
+    {
+      "label": "strong",
+      "ref": "101:6",
+      "note": "Heavy scales provide the favorable counterpart to the loss verdict."
+    },
+    {
+      "label": "strong",
+      "ref": "101:8",
+      "note": "Light scales provide an explicit loss-side counterpart to the loss verdict."
+    },
+    {
+      "label": "strong",
+      "ref": "7:9",
+      "note": "Light scales and self-loss directly complement 7:8."
+    },
+    {
+      "label": "strong",
+      "ref": "23:102",
+      "note": "Heavy scales give a success-side consequence analogue."
+    },
+    {
+      "label": "strong",
+      "ref": "23:103",
+      "note": "Light scales and self-loss give a close consequence analogue."
+    },
+    {
+      "label": "strong",
+      "ref": "21:47",
+      "note": "Exact weighing and denied injustice sharpen the evaluative horizon."
+    },
+    {
+      "label": "strong",
+      "ref": "99:7",
+      "note": "Minute deed-result relation supports time as a witness-like moral horizon."
+    },
+    {
+      "label": "strong",
+      "ref": "99:8",
+      "note": "Minute deed-result relation supports time as a witness-like moral horizon."
+    },
+    {
+      "label": "strong",
+      "ref": "82:10",
+      "note": "Guarding recorders directly parallel f01's witness-like reading."
+    },
+    {
+      "label": "strong",
+      "ref": "82:12",
+      "note": "Knowledge of human action completes the recorder parallel."
+    },
+    {
+      "label": "strong",
+      "ref": "17:13",
+      "note": "Personal attached record strongly supports f01's accounting horizon."
+    },
+    {
+      "label": "strong",
+      "ref": "17:14",
+      "note": "Self-reading of the record sharpens f01's witness/accountability line."
+    },
+    {
+      "label": "strong",
+      "ref": "18:49",
+      "note": "Comprehensive written record is a close accountability parallel."
+    },
+    {
+      "label": "strong",
+      "ref": "50:17",
+      "note": "Two receivers recording action support f01's witness-like line."
+    },
+    {
+      "label": "strong",
+      "ref": "50:18",
+      "note": "Utterance-recording strengthens the witness/accountability parallel."
+    },
+    {
+      "label": "strong",
+      "ref": "36:12",
+      "note": "Writing what precedes and what remains strongly supports enduring record."
+    },
+    {
+      "label": "medium",
+      "ref": "75:13",
+      "note": "Foreknowledge of what was sent ahead and left behind supports accountability over time."
+    },
+    {
+      "label": "medium",
+      "ref": "75:14",
+      "note": "Human self-witnessing gives a secondary f01 parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "59:18",
+      "note": "Preparation for tomorrow frames deliberate use of the present interval."
+    },
+    {
+      "label": "medium",
+      "ref": "87:16",
+      "note": "Preference for the near horizon supplies a loss-side value contrast."
+    },
+    {
+      "label": "medium",
+      "ref": "87:17",
+      "note": "The remaining horizon supplies the counterweight to near-term preference."
+    },
+    {
+      "label": "medium",
+      "ref": "92:4",
+      "note": "Divergent striving supplies a compact process frame for different outcomes."
+    },
+    {
+      "label": "medium",
+      "ref": "92:5",
+      "note": "Giving and taqwa supply the gain-side trajectory alongside 92:8."
+    },
+    {
+      "label": "medium",
+      "ref": "94:5",
+      "note": "Constricted ease relation is a bounded pressure-reading parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "94:6",
+      "note": "Repetition reinforces the bounded pressure-reading parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "90:4",
+      "note": "Human life in hardship provides a pressure frame without selecting a sense."
+    },
+    {
+      "label": "medium",
+      "ref": "74:38",
+      "note": "Each self held by what it earned supports accountability within the loss horizon."
+    },
+    {
+      "label": "medium",
+      "ref": "11:15",
+      "note": "Near-horizon seeking gives a contrary value trajectory."
+    },
+    {
+      "label": "medium",
+      "ref": "11:16",
+      "note": "Final null return supplies a strong loss-side outcome analogue."
+    },
+    {
+      "label": "medium",
+      "ref": "64:9",
+      "note": "The day of gathering and mutual loss/gain supports the consequence horizon."
+    },
+    {
+      "label": "medium",
+      "ref": "3:185",
+      "note": "Death and final recompense set the terminal boundary for human loss or gain."
+    },
+    {
+      "label": "medium",
+      "ref": "21:35",
+      "note": "Life/death testing supplies a broad temporal trial frame."
+    },
+    {
+      "label": "medium",
+      "ref": "62:8",
+      "note": "Inevitable death and return sharpen the finite-interval reading."
+    },
+    {
+      "label": "medium",
+      "ref": "76:1",
+      "note": "An initial span of time upon the human is a direct temporal-anthropological parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "79:46",
+      "note": "The perceived brevity of worldly duration strengthens temporal compression."
+    },
+    {
+      "label": "medium",
+      "ref": "25:62",
+      "note": "Night-day succession is a close cycle reading of time."
+    },
+    {
+      "label": "medium",
+      "ref": "39:5",
+      "note": "Night-day wrapping and measured celestial motion strengthen cyclic time."
+    },
+    {
+      "label": "medium",
+      "ref": "3:190",
+      "note": "Night-day alternation provides a broad temporal-sign frame."
+    },
+    {
+      "label": "medium",
+      "ref": "10:24",
+      "note": "Growth and sudden reduction offer a temporal pressure-and-yield boundary."
+    },
+    {
+      "label": "medium",
+      "ref": "14:18",
+      "note": "Deeds dispersed in a storm provide a contrary image of unrecoverable loss."
+    },
+    {
+      "label": "medium",
+      "ref": "2:164",
+      "note": "Night-day alternation gives a secondary temporal-sign parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "7:34",
+      "note": "Fixed communal term supports a finite-time horizon."
+    },
+    {
+      "label": "medium",
+      "ref": "10:49",
+      "note": "Fixed term and its non-advance/non-delay sharpen temporal limit."
+    },
+    {
+      "label": "medium",
+      "ref": "16:61",
+      "note": "Appointed delay and arrival sharpen temporal limit."
+    }
+  ],
+  "coverage": {
+    "quran_text": {
+      "present": true
+    },
+    "word_analysis": {
+      "present": true,
+      "word_count": 2
+    },
+    "qac_morphemes": {
+      "present": true,
+      "row_count": 3
+    },
+    "branch_inventories": {
+      "present": true,
+      "variants": {
+        "default": {
+          "present": true,
+          "roots": [
+            "ع ص ر"
+          ],
+          "branch_counts": {
+            "ع ص ر": 15
+          }
+        }
+      }
+    },
+    "v12_reader_responses": {
+      "present": true,
+      "variants": {
+        "default": {
+          "present": true,
+          "readers": [
+            {
+              "reader_id": "reader_d",
+              "stages": [
+                "stage_00",
+                "stage_01",
+                "stage_02"
+              ]
+            },
+            {
+              "reader_id": "reader_e",
+              "stages": [
+                "stage_00",
+                "stage_01",
+                "stage_02"
+              ]
+            },
+            {
+              "reader_id": "reader_f",
+              "stages": [
+                "stage_00",
+                "stage_01",
+                "stage_02"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "v12_reader_walks": {
+      "present": true,
+      "readers": {
+        "reader_a": {
+          "present": true,
+          "source_file": "latent_activation/v12/runs/s103/full_context_control/reader_s103_a_ayah_walk.md"
+        },
+        "reader_b": {
+          "present": true,
+          "source_file": "latent_activation/v12/runs/s103/full_context_control/reader_s103_b_ayah_walk.md"
+        }
+      }
+    },
+    "butuncul_okuma": {
+      "present": true,
+      "source_file": "latent_activation/v12/runs/s103/full_context_control/103-0-3-butuncul-okuma.md",
+      "note": null
+    },
+    "inter_ayah": {
+      "present": true,
+      "row_count": 152,
+      "label_counts": {
+        "strong": 28,
+        "medium": 51,
+        "weak": 60,
+        "no value": 13
+      }
+    }
+  }
+}

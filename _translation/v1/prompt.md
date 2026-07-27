@@ -37,11 +37,13 @@ For particles, articles, pronouns, and affixes, write the shortest natural
 card gloss for their actual local contribution. Do not invent root or branch
 identities.
 
-Obey `languagePolicy` throughout. If a single permitted word is inadequate,
-use a short transparent phrase. Never use a prohibited loanword merely because
-it is familiar in published translations. If the supplied semantic evidence
-cannot support a responsible policy-compliant gloss, record that QAC morpheme
-in `missingGlosses`; do not conceal the gap with a conventional rendering.
+Obey `languagePolicy` throughout. Use natural, established target-language
+vocabulary without etymological purism. If a conventional religious label
+would merely rename the source word while hiding its occurrence-specific
+meaning, render that meaning with a short transparent phrase instead. If the
+supplied semantic evidence cannot support a responsible policy-compliant
+gloss, record that QAC morpheme in `missingGlosses`; do not conceal the gap
+with a conventional rendering.
 
 Treat the ordered `primaryReading.alignmentGroups` as the selected V12 reading
 scaffold: preserve their grouping and sequence by default, reordering only

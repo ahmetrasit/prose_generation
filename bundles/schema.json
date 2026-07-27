@@ -1,0 +1,318 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://prose_generation.local/bundles/schema.json",
+  "title": "Ayah input bundle",
+  "description": "One bundle per ayah, produced by scripts/build_bundle.py. See COMMENTARY_SPEC.md §9 for the source inventory and §6 for the evidence rules this bundle exists to satisfy (never filter inter-ayah rows by label; report gaps rather than filling them). A surah bundle (bundle_type=surah, see the $defs.surahBundle definition at the bottom of this file) is the ordered set of its ayah bundles plus surah-scope material; it references ayah bundle files by name rather than embedding them.",
+  "type": "object",
+  "oneOf": [
+    { "$ref": "#/$defs/ayahBundle" },
+    { "$ref": "#/$defs/surahBundle" }
+  ],
+  "$defs": {
+    "ayahBundle": {
+      "type": "object",
+      "required": [
+        "bundle_type", "schema_version", "generated_at", "surah", "ayah",
+        "ayahRef", "text", "qac_morphemes", "word_analysis",
+        "branch_inventories", "v12_reader_responses", "v12_reader_walks",
+        "butuncul_okuma_line", "inter_ayah_rows", "coverage"
+      ],
+      "properties": {
+        "bundle_type": { "const": "ayah" },
+        "schema_version": { "type": "string" },
+        "generated_at": { "type": "string", "format": "date-time" },
+        "surah": { "type": "integer", "minimum": 1, "maximum": 114 },
+        "ayah": { "type": "integer", "minimum": 0 },
+        "ayahRef": { "type": "string", "pattern": "^\\d+:\\d+$" },
+
+        "text": {
+          "type": "object",
+          "description": "Arabic text from quran-data/data/text/quran-uthmani.tsv (pipe-delimited S:A|text rows).",
+          "required": ["arabic_uthmani", "source"],
+          "properties": {
+            "arabic_uthmani": { "type": "string" },
+            "source": { "type": "string" }
+          }
+        },
+
+        "qac_morphemes": {
+          "type": "array",
+          "description": "Full rows from qac_morphemes for this ayah, ordered by word_index then morpheme_index. Column set matches the qac.sqlite.gz schema verbatim; empty root_join_key means no root.",
+          "items": {
+            "type": "object",
+            "required": [
+              "qac_ref", "qac_word_ref", "surah", "ayah", "word_index",
+              "morpheme_index", "surface_bw", "surface_ar", "stem_ar",
+              "lemma_bw", "lemma_ar", "root_raw", "root_ar", "root_join_key",
+              "source_pos", "pos", "morpheme_role", "morph_features",
+              "aspect", "mood", "voice", "measure", "source_line_no",
+              "source_file_sha256", "parser_version"
+            ],
+            "properties": {
+              "qac_ref": { "type": "string" },
+              "qac_word_ref": { "type": "string" },
+              "surah": { "type": "integer" },
+              "ayah": { "type": "integer" },
+              "word_index": { "type": "integer" },
+              "morpheme_index": { "type": "integer" },
+              "surface_bw": { "type": "string" },
+              "surface_ar": { "type": "string" },
+              "stem_ar": { "type": "string" },
+              "lemma_bw": { "type": "string" },
+              "lemma_ar": { "type": "string" },
+              "root_raw": { "type": "string" },
+              "root_ar": { "type": "string" },
+              "root_join_key": { "type": "string" },
+              "source_pos": { "type": "string" },
+              "pos": { "type": "string" },
+              "morpheme_role": { "type": "string" },
+              "morph_features": { "type": "string" },
+              "aspect": { "type": "string" },
+              "mood": { "type": "string" },
+              "voice": { "type": "string" },
+              "measure": { "type": "string" },
+              "source_line_no": { "type": "integer" },
+              "source_file_sha256": { "type": "string" },
+              "parser_version": { "type": "string" }
+            }
+          }
+        },
+
+        "word_analysis": {
+          "type": "object",
+          "description": "The FULL word-analysis-output-v2 record for this ayah, verbatim: every words[] entry with its prose and all topics[] (do not summarise, do not keep only gloss_range).",
+          "required": ["schema_version", "prompt_version", "ref", "bundle_id", "words"],
+          "properties": {
+            "schema_version": { "type": "string", "const": "word-analysis-output-v2" },
+            "prompt_version": { "type": "string" },
+            "ref": { "type": "string" },
+            "bundle_id": { "type": "string" },
+            "words": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "description": "Passed through verbatim from the source record; not re-validated field-by-field here because it is foreign-schema content owned by the word-analysis pipeline.",
+                "required": ["prose", "topics"],
+                "properties": {
+                  "prose": { "type": "string" },
+                  "topics": { "type": "array" }
+                }
+              }
+            }
+          }
+        },
+
+        "branch_inventories": {
+          "type": "object",
+          "description": "Keyed by variant name ('default', or 'left_first'/'right_first' when the v12 focus dir has reveal-order variants). Each value carries the full branch_inventories block copied verbatim from that variant's stage_00 v12 input packet: every root, every branch, image_ar/en and scope_ar/en.",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["stage_00_file", "branch_inventories"],
+            "properties": {
+              "stage_00_file": { "type": "string" },
+              "branch_inventories": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["root", "branches"],
+                  "properties": {
+                    "root": { "type": "string" },
+                    "branches": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": ["branch_id", "image_ar", "image_en", "scope_ar", "scope_en"],
+                        "properties": {
+                          "branch_id": { "type": "string" },
+                          "image_ar": { "type": "string" },
+                          "image_en": { "type": "string" },
+                          "scope_ar": { "type": "string" },
+                          "scope_en": { "type": "string" }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+
+        "v12_reader_responses": {
+          "type": "object",
+          "description": "Keyed by variant name, then reader id (e.g. reader_d), then stage key (stage_00/01/02). Complete reader response objects verbatim, including changed_reading{before,after}, ablation, etc. Empty object {} means no responses were recorded for this focus ayah in any variant — see coverage.v12_reader_responses for the machine-readable reason (this happens for focus_103_2 and focus_103_3 in the validated S103 run).",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "additionalProperties": { "type": "object" }
+            }
+          }
+        },
+
+        "v12_reader_walks": {
+          "type": "object",
+          "description": "Keyed by reader label (reader_a, reader_b, ...). Per-ayah excerpt parsed out of reader_s{NNN}_{a,b}_ayah_walk.md by ayah heading.",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["activated_readings_md", "retrospective_surprises_md", "turkish_prose_synthesis_md", "source_file"],
+            "properties": {
+              "activated_readings_md": { "type": ["string", "null"] },
+              "retrospective_surprises_md": { "type": ["string", "null"] },
+              "turkish_prose_synthesis_md": {
+                "type": ["string", "null"],
+                "description": "From the file's separate '# Turkish Prose Synthesis' section, when present. Null if that reader's walk file has no such section (verified true for reader_b on S103)."
+              },
+              "source_file": { "type": "string" }
+            }
+          }
+        },
+
+        "butuncul_okuma_line": {
+          "description": "The per-ayah line from the whole-surah reading ({NNN}-0-{N}-butuncul-okuma.md), parsed into arabic_text / reading_text_tr / root_citations, plus the raw_line verbatim. Null if no whole-surah reading file exists or it has no line for this ayah.",
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "required": ["raw_line", "arabic_text", "reading_text_tr", "root_citations"],
+              "properties": {
+                "raw_line": { "type": "string" },
+                "arabic_text": { "type": "string" },
+                "reading_text_tr": { "type": "string" },
+                "root_citations": { "type": "array", "items": { "type": "string" } }
+              }
+            }
+          ]
+        },
+
+        "inter_ayah_rows": {
+          "type": "array",
+          "description": "ALL rows for this focus ayah from quran-slm/inter-ayah/outputs/focus_{S}_{A}_cutoff_100.tsv, every label including weak and 'no value'. Never filtered. Consumers order by the label axis; they must not use it to include/exclude (COMMENTARY_SPEC.md §6.2).",
+          "items": {
+            "type": "object",
+            "required": ["label", "ref", "note"],
+            "properties": {
+              "label": { "type": "string", "enum": ["strong", "medium", "weak", "no value"] },
+              "ref": { "type": "string" },
+              "note": { "type": "string" }
+            }
+          }
+        },
+
+        "coverage": {
+          "type": "object",
+          "description": "Mandatory coverage block: for each source, whether it was found and what was missing. A missing v12 response set is a machine-readable fact here, not a silent empty list.",
+          "required": [
+            "quran_text", "word_analysis", "qac_morphemes", "branch_inventories",
+            "v12_reader_responses", "v12_reader_walks", "butuncul_okuma", "inter_ayah"
+          ],
+          "properties": {
+            "quran_text": { "type": "object", "required": ["present"], "properties": { "present": { "type": "boolean" } } },
+            "word_analysis": { "type": "object", "required": ["present"], "properties": { "present": { "type": "boolean" }, "word_count": { "type": "integer" } } },
+            "qac_morphemes": { "type": "object", "required": ["present"], "properties": { "present": { "type": "boolean" }, "row_count": { "type": "integer" } } },
+            "branch_inventories": {
+              "type": "object",
+              "required": ["present", "variants"],
+              "properties": {
+                "present": { "type": "boolean" },
+                "variants": { "type": "object" }
+              }
+            },
+            "v12_reader_responses": {
+              "type": "object",
+              "required": ["present", "variants"],
+              "description": "present=false at the top level plus per-variant present=false with a note is the expected, correct shape for a focus ayah with zero recorded readers (e.g. focus_103_2, focus_103_3).",
+              "properties": {
+                "present": { "type": "boolean" },
+                "variants": { "type": "object" }
+              }
+            },
+            "v12_reader_walks": {
+              "type": "object",
+              "required": ["present"],
+              "properties": {
+                "present": { "type": "boolean" },
+                "readers": { "type": "object" },
+                "note": { "type": "string" }
+              }
+            },
+            "butuncul_okuma": {
+              "type": "object",
+              "required": ["present"],
+              "properties": {
+                "present": { "type": "boolean" },
+                "source_file": { "type": ["string", "null"] },
+                "note": { "type": ["string", "null"] }
+              }
+            },
+            "inter_ayah": {
+              "type": "object",
+              "required": ["present"],
+              "properties": {
+                "present": { "type": "boolean" },
+                "row_count": { "type": "integer" },
+                "label_counts": { "type": "object" },
+                "note": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "surahBundle": {
+      "type": "object",
+      "description": "Emitted alongside the ayah bundles when build_bundle.py is run without --ayah. References the ayah bundle files by name rather than duplicating them, and carries surah-scope material that has no single-ayah home (the full Quran-text row set including the S:0 basmalah, and the full whole-surah reading).",
+      "required": [
+        "bundle_type", "schema_version", "generated_at", "surah", "ayah_refs",
+        "ayah_bundle_files", "surah_scope", "coverage"
+      ],
+      "properties": {
+        "bundle_type": { "const": "surah" },
+        "schema_version": { "type": "string" },
+        "generated_at": { "type": "string", "format": "date-time" },
+        "surah": { "type": "integer" },
+        "ayah_refs": { "type": "array", "items": { "type": "string" } },
+        "ayah_bundle_files": {
+          "type": "array",
+          "description": "Filenames of the sibling *.ayah.json files in the same output directory, in ayah order.",
+          "items": { "type": "string" }
+        },
+        "surah_scope": {
+          "type": "object",
+          "required": ["quran_text_all_rows", "butuncul_okuma_all_lines"],
+          "properties": {
+            "quran_text_all_rows": {
+              "type": "array",
+              "description": "Every Quran-text row for the surah, including the S:0 prefatory basmalah row if present.",
+              "items": {
+                "type": "object",
+                "required": ["ayahRef", "arabic_uthmani"],
+                "properties": {
+                  "ayahRef": { "type": "string" },
+                  "arabic_uthmani": { "type": "string" }
+                }
+              }
+            },
+            "butuncul_okuma_all_lines": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["ayahRef", "raw_line", "arabic_text", "reading_text_tr", "root_citations"]
+              }
+            }
+          }
+        },
+        "coverage": {
+          "type": "object",
+          "required": ["ayah_count", "per_ayah", "butuncul_okuma"],
+          "properties": {
+            "ayah_count": { "type": "integer" },
+            "per_ayah": { "type": "object", "description": "ayahRef -> that ayah bundle's own coverage block, verbatim." },
+            "butuncul_okuma": { "type": "object" }
+          }
+        }
+      }
+    }
+  }
+}
