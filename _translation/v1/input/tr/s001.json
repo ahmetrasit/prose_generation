@@ -1,0 +1,2520 @@
+{
+  "schemaVersion": "translation-input-v1",
+  "targetLanguage": "tr",
+  "languagePolicy": {
+    "standard": "Contemporary Standard Turkey Turkish",
+    "loanwordRule": "Use no loanwords. Allah is the only exception.",
+    "allowedLoanwords": [
+      "Allah"
+    ],
+    "fallbackRule": "When no single native word is adequate, write a short, transparent Turkish phrase instead of using a conventional Quran-translation loanword."
+  },
+  "quranDataReleaseId": "2026.07.21",
+  "surah": 1,
+  "ayat": [
+    {
+      "ayahRef": "1:1",
+      "arabicText": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+      "primaryReading": {
+        "alignmentGroups": [
+          {
+            "qacWordRefs": [
+              "1:1:3"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:1:4"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:1:2"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:1:1"
+            ]
+          }
+        ]
+      },
+      "grammarSupport": [
+        {
+          "type": "ellipsis_projection",
+          "instruction": "preserve_compression_if_target_language_allows",
+          "guidance": "Target language may be tempted to supply an opening verb or predicate, but the Arabic keeps the governing element unspoken.",
+          "grammarUnitRefs": [
+            "q:1:1:1"
+          ]
+        },
+        {
+          "type": "construction_unit",
+          "instruction": "avoid_lexicalizing_particle_twice",
+          "guidance": "Word-by-word rendering may duplicate the prepositional force or turn the formula into a full clause not overtly present.",
+          "grammarUnitRefs": [
+            "q:1:1:1"
+          ],
+          "construction": "bismillah_formula"
+        }
+      ],
+      "cards": [
+        {
+          "qacMorphemeRef": "1:1:1:1",
+          "qacWordRef": "1:1:1",
+          "arabic": "بِ",
+          "morphology": {
+            "role": "PREFIX",
+            "pos": "P"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:1:1:2",
+          "qacWordRef": "1:1:1",
+          "arabic": "سْمِ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "N",
+            "case": "GEN"
+          },
+          "lemma": "ٱسْم",
+          "rootId": "root_000745",
+          "branchIds": [
+            "B005"
+          ],
+          "glossId": "tr:v1:1:1:1:2",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B005",
+                "text": "tanıtıcı ad, adlandırma ve adaşlık-denklik ilişkisi",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "fit": "none"
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B005",
+                "text": "bir varlığı tanıtan ad",
+                "facetIds": [
+                  "F001"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B005",
+                "text": "birine ad vermek veya bir ad edinmek",
+                "facetIds": [
+                  "F002"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B005",
+                "text": "aynı adı taşıyan adaş",
+                "facetIds": [
+                  "F003"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B005",
+                "text": "aynı adı veya niteliği hak eden denk",
+                "facetIds": [
+                  "F004"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B005",
+                "lexicalUnitId": "lu_016",
+                "text": "bir şeyi tanıtan ad",
+                "facetIds": [
+                  "F001"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "lossReason": "Bu gloss adın tanıtıcı işlevini verir; ad verme, adaşlık, denklik ve kaynak köken açıklamasını dışarıda bırakır."
+              }
+            ]
+          }
+        },
+        {
+          "qacMorphemeRef": "1:1:2:1",
+          "qacWordRef": "1:1:2",
+          "arabic": "ٱللَّهِ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "PN",
+            "case": "GEN"
+          },
+          "lemma": "ٱللَّه",
+          "rootId": "root_000047",
+          "branchIds": [
+            "B002"
+          ],
+          "glossId": "tr:v1:1:1:2:1",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B002",
+                "text": "Allah adı ve ona bağlı yakarma-ant kalıpları",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "fit": "none"
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B002",
+                "text": "Yaratıcıya özgü Allah adı",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "lossReason": "Yalnız özel adı ve köken açıklamasını verir; ant, yakarma ve kısaltma kullanımları dışarıda kalır."
+              },
+              {
+                "branchId": "B002",
+                "text": "Allah'a ant olsun, yapmadım",
+                "facetIds": [
+                  "F003"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F001",
+                  "F002",
+                  "F004",
+                  "F005"
+                ],
+                "lossReason": "Yalnız ant kalıbını verir; özel ad, köken açıklaması, yakarma ve kısaltma yönleri dışarıda kalır."
+              },
+              {
+                "branchId": "B002",
+                "text": "Allahım diye yakarmak",
+                "facetIds": [
+                  "F004",
+                  "F005"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lossReason": "Yalnız yakarma seslenişini ve biçim kısalmasını verir; özel ad, köken açıklaması ve ant kullanımı dışarıda kalır."
+              },
+              {
+                "branchId": "B002",
+                "text": "ey Allah diye seslenmek",
+                "facetIds": [
+                  "F004"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F005"
+                ],
+                "lossReason": "Yalnız doğrudan seslenmeyi verir; özel ad, köken açıklaması, ant ve kısaltma yönleri dışarıda kalır."
+              },
+              {
+                "branchId": "B002",
+                "text": "kısaltılmış şaşma veya ant sözü",
+                "facetIds": [
+                  "F003",
+                  "F005"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F001",
+                  "F002",
+                  "F004"
+                ],
+                "lossReason": "Yalnız kısaltılmış şaşma veya ant kalıbını verir; özel ad, köken açıklaması ve yakarma seslenişi dışarıda kalır."
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B002",
+                "lexicalUnitId": "lu_010",
+                "text": "Allah adı",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "lossReason": "Yalnız özel adı ve köken açıklamasını verir; ant, yakarma ve kısaltma kullanımları dışarıda kalır."
+              }
+            ]
+          }
+        },
+        {
+          "qacMorphemeRef": "1:1:3:1",
+          "qacWordRef": "1:1:3",
+          "arabic": "ٱل",
+          "morphology": {
+            "role": "PREFIX",
+            "pos": "DET"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:1:3:2",
+          "qacWordRef": "1:1:3",
+          "arabic": "رَّحْمَٰنِ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "ADJ",
+            "gender": "M",
+            "number": "singular",
+            "case": "GEN"
+          },
+          "lemma": "رَّحْمَٰن",
+          "rootId": "root_000552",
+          "branchIds": [
+            "B001"
+          ],
+          "glossId": "tr:v1:1:1:3:2",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B001",
+                "text": "acıyarak esirgeme",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "lossReason": "Dal genelindeki etiket karşılıklı davranışı, dua kalıbını ve Tanrısal kuşatıcılık özel kullanımını ayrıca belirtmez."
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B001",
+                "text": "karşılıklı acıyıp esirgemek",
+                "facetIds": [
+                  "F003"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "Tanrı'nın esirgemesine erişmesini dilemek",
+                "facetIds": [
+                  "F004"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "kuşatıcı Tanrısal esirgeme",
+                "facetIds": [
+                  "F005"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B001",
+                "lexicalUnitId": "lu_007",
+                "text": "esirgemesi her şeyi kuşatan Tanrı adı",
+                "facetIds": [
+                  "F005"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "lossReason": "Gloss Tanrısal kuşatıcılığı verir; insana ait acıma, etkin iyilik, karşılıklılık ve dua kalıbı ayrı belirtilmez."
+              }
+            ]
+          }
+        },
+        {
+          "qacMorphemeRef": "1:1:4:1",
+          "qacWordRef": "1:1:4",
+          "arabic": "ٱل",
+          "morphology": {
+            "role": "PREFIX",
+            "pos": "DET"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:1:4:2",
+          "qacWordRef": "1:1:4",
+          "arabic": "رَّحِيمِ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "ADJ",
+            "gender": "M",
+            "number": "singular",
+            "case": "GEN"
+          },
+          "lemma": "رَّحِيم",
+          "rootId": "root_000552",
+          "branchIds": [
+            "B001"
+          ],
+          "glossId": "tr:v1:1:1:4:2",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B001",
+                "text": "acıyarak esirgeme",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "lossReason": "Dal genelindeki etiket karşılıklı davranışı, dua kalıbını ve Tanrısal kuşatıcılık özel kullanımını ayrıca belirtmez."
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B001",
+                "text": "karşılıklı acıyıp esirgemek",
+                "facetIds": [
+                  "F003"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "Tanrı'nın esirgemesine erişmesini dilemek",
+                "facetIds": [
+                  "F004"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "kuşatıcı Tanrısal esirgeme",
+                "facetIds": [
+                  "F005"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B001",
+                "lexicalUnitId": "lu_008",
+                "text": "çok acıyıp bol iyilik eden",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F005"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003",
+                  "F004"
+                ],
+                "lossReason": "Gloss bol acıma ve iyiliği verir; karşılıklı yapı ve dua kalıbı anlamlarını göstermez."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ayahRef": "1:2",
+      "arabicText": "ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "primaryReading": {
+        "alignmentGroups": [
+          {
+            "qacWordRefs": [
+              "1:2:1"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:2:2"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:2:4"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:2:3"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:2:2"
+            ]
+          }
+        ]
+      },
+      "grammarSupport": [
+        {
+          "type": "construction_unit",
+          "instruction": "preserve_argument_role",
+          "guidance": "Target language may recast the lām predicate as agency, but Arabic frames praise as a nominal predicate directed to God.",
+          "construction": "nominal_praise_with_lam_predicate"
+        }
+      ],
+      "cards": [
+        {
+          "qacMorphemeRef": "1:2:1:1",
+          "qacWordRef": "1:2:1",
+          "arabic": "ٱلْ",
+          "morphology": {
+            "role": "PREFIX",
+            "pos": "DET"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:2:1:2",
+          "qacWordRef": "1:2:1",
+          "arabic": "حَمْدُ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "N",
+            "case": "NOM"
+          },
+          "lemma": "حَمْد",
+          "rootId": "root_000355",
+          "branchIds": [
+            "B001"
+          ],
+          "glossId": "tr:v1:1:2:1:2",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B001",
+                "text": "yergi karşıtı övgü",
+                "facetIds": [
+                  "F001"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F002",
+                  "F003"
+                ],
+                "lossReason": "Bu kısa etiket iyilik karşısında teşekkür içerebilmesini ve Tanrı'yı çokça övme özel kullanımını göstermez."
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B001",
+                "text": "teşekkür de içerebilen övgü",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003"
+                ],
+                "lossReason": "Bu gloss Tanrı'yı çokça övme özel kullanımını göstermez."
+              },
+              {
+                "branchId": "B001",
+                "text": "övülesi işi için birini övmek",
+                "facetIds": [
+                  "F001"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F002",
+                  "F003"
+                ],
+                "lossReason": "Bu gloss teşekkür kapsamını ve Tanrı'yı çokça övme özel kullanımını göstermez."
+              },
+              {
+                "branchId": "B001",
+                "text": "Tanrı'yı güzel sözlerle çokça övmek",
+                "facetIds": [
+                  "F001",
+                  "F003"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F002"
+                ],
+                "lossReason": "Bu gloss iyilik karşısındaki teşekkür kapsamını göstermez."
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B001",
+                "lexicalUnitId": "lu_001",
+                "text": "yergi karşıtı övgü; iyilik için teşekkür de içerebilir",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003"
+                ],
+                "lossReason": "Bu gloss Tanrı'yı çokça övme özel kullanımını göstermez."
+              }
+            ]
+          }
+        },
+        {
+          "qacMorphemeRef": "1:2:2:1",
+          "qacWordRef": "1:2:2",
+          "arabic": "لِ",
+          "morphology": {
+            "role": "PREFIX",
+            "pos": "P"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:2:2:2",
+          "qacWordRef": "1:2:2",
+          "arabic": "لَّهِ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "PN",
+            "case": "GEN"
+          },
+          "lemma": "ٱللَّه",
+          "rootId": "root_000047",
+          "branchIds": [
+            "B002"
+          ],
+          "glossId": "tr:v1:1:2:2:2",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B002",
+                "text": "Allah adı ve ona bağlı yakarma-ant kalıpları",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "fit": "none"
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B002",
+                "text": "Yaratıcıya özgü Allah adı",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "lossReason": "Yalnız özel adı ve köken açıklamasını verir; ant, yakarma ve kısaltma kullanımları dışarıda kalır."
+              },
+              {
+                "branchId": "B002",
+                "text": "Allah'a ant olsun, yapmadım",
+                "facetIds": [
+                  "F003"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F001",
+                  "F002",
+                  "F004",
+                  "F005"
+                ],
+                "lossReason": "Yalnız ant kalıbını verir; özel ad, köken açıklaması, yakarma ve kısaltma yönleri dışarıda kalır."
+              },
+              {
+                "branchId": "B002",
+                "text": "Allahım diye yakarmak",
+                "facetIds": [
+                  "F004",
+                  "F005"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lossReason": "Yalnız yakarma seslenişini ve biçim kısalmasını verir; özel ad, köken açıklaması ve ant kullanımı dışarıda kalır."
+              },
+              {
+                "branchId": "B002",
+                "text": "ey Allah diye seslenmek",
+                "facetIds": [
+                  "F004"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F005"
+                ],
+                "lossReason": "Yalnız doğrudan seslenmeyi verir; özel ad, köken açıklaması, ant ve kısaltma yönleri dışarıda kalır."
+              },
+              {
+                "branchId": "B002",
+                "text": "kısaltılmış şaşma veya ant sözü",
+                "facetIds": [
+                  "F003",
+                  "F005"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F001",
+                  "F002",
+                  "F004"
+                ],
+                "lossReason": "Yalnız kısaltılmış şaşma veya ant kalıbını verir; özel ad, köken açıklaması ve yakarma seslenişi dışarıda kalır."
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B002",
+                "lexicalUnitId": "lu_010",
+                "text": "Allah adı",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "lossReason": "Yalnız özel adı ve köken açıklamasını verir; ant, yakarma ve kısaltma kullanımları dışarıda kalır."
+              }
+            ]
+          }
+        },
+        {
+          "qacMorphemeRef": "1:2:3:1",
+          "qacWordRef": "1:2:3",
+          "arabic": "رَبِّ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "N",
+            "case": "GEN"
+          },
+          "lemma": "رَبّ",
+          "rootId": "root_000532",
+          "branchIds": [
+            "B001"
+          ],
+          "glossId": "tr:v1:1:2:3:1",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B001",
+                "text": "mutlak Tanrısal ya da bağlı sahip-yönetici konumu",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "none"
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B001",
+                "text": "Tanrı olarak Rab",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "bir şeyin sahibi ve yöneticisi",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B001",
+                "lexicalUnitId": "lu_001",
+                "text": "Rab; sahip ve buyruğu geçen yönetici",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "none"
+              }
+            ]
+          }
+        },
+        {
+          "qacMorphemeRef": "1:2:4:1",
+          "qacWordRef": "1:2:4",
+          "arabic": "ٱلْ",
+          "morphology": {
+            "role": "PREFIX",
+            "pos": "DET"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:2:4:2",
+          "qacWordRef": "1:2:4",
+          "arabic": "عَٰلَمِينَ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "N",
+            "gender": "M",
+            "number": "plural",
+            "case": "GEN"
+          },
+          "lemma": "عَٰلَمِين",
+          "rootId": "root_001040",
+          "branchIds": [
+            "B003"
+          ],
+          "glossId": "tr:v1:1:2:4:2",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B003",
+                "text": "yaratılmışlar bütünü ve varlık sınıfları",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B003",
+                "text": "evren ve içindeki yaratılmışlar",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B003",
+                "text": "yaratık sınıflarının bütünü",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B003",
+                "text": "yaratıcıyı gösteren yaratılmış bütün",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B003",
+                "lexicalUnitId": "lu_025",
+                "text": "bütün yaratıklar veya varlık sınıfları",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ayahRef": "1:3",
+      "arabicText": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+      "primaryReading": {
+        "alignmentGroups": [
+          {
+            "qacWordRefs": [
+              "1:3:1"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:3:2"
+            ]
+          }
+        ]
+      },
+      "grammarSupport": [
+        {
+          "type": "context_window",
+          "instruction": "recommend_reading_window",
+          "guidance": "Single-ayah rendering may treat the paired epithets as an independent fragment instead of continuing the surrounding divine description.",
+          "grammarUnitRefs": [
+            "q:1:3:1",
+            "q:1:3:2"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "qacMorphemeRef": "1:3:1:1",
+          "qacWordRef": "1:3:1",
+          "arabic": "ٱل",
+          "morphology": {
+            "role": "PREFIX",
+            "pos": "DET"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:3:1:2",
+          "qacWordRef": "1:3:1",
+          "arabic": "رَّحْمَٰنِ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "ADJ",
+            "gender": "M",
+            "number": "singular",
+            "case": "GEN"
+          },
+          "lemma": "رَّحْمَٰن",
+          "rootId": "root_000552",
+          "branchIds": [
+            "B001"
+          ],
+          "glossId": "tr:v1:1:3:1:2",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B001",
+                "text": "acıyarak esirgeme",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "lossReason": "Dal genelindeki etiket karşılıklı davranışı, dua kalıbını ve Tanrısal kuşatıcılık özel kullanımını ayrıca belirtmez."
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B001",
+                "text": "karşılıklı acıyıp esirgemek",
+                "facetIds": [
+                  "F003"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "Tanrı'nın esirgemesine erişmesini dilemek",
+                "facetIds": [
+                  "F004"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "kuşatıcı Tanrısal esirgeme",
+                "facetIds": [
+                  "F005"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B001",
+                "lexicalUnitId": "lu_007",
+                "text": "esirgemesi her şeyi kuşatan Tanrı adı",
+                "facetIds": [
+                  "F005"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "lossReason": "Gloss Tanrısal kuşatıcılığı verir; insana ait acıma, etkin iyilik, karşılıklılık ve dua kalıbı ayrı belirtilmez."
+              }
+            ]
+          }
+        },
+        {
+          "qacMorphemeRef": "1:3:2:1",
+          "qacWordRef": "1:3:2",
+          "arabic": "ٱل",
+          "morphology": {
+            "role": "PREFIX",
+            "pos": "DET"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:3:2:2",
+          "qacWordRef": "1:3:2",
+          "arabic": "رَّحِيمِ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "ADJ",
+            "gender": "M",
+            "number": "singular",
+            "case": "GEN"
+          },
+          "lemma": "رَّحِيم",
+          "rootId": "root_000552",
+          "branchIds": [
+            "B001"
+          ],
+          "glossId": "tr:v1:1:3:2:2",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B001",
+                "text": "acıyarak esirgeme",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "lossReason": "Dal genelindeki etiket karşılıklı davranışı, dua kalıbını ve Tanrısal kuşatıcılık özel kullanımını ayrıca belirtmez."
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B001",
+                "text": "karşılıklı acıyıp esirgemek",
+                "facetIds": [
+                  "F003"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "Tanrı'nın esirgemesine erişmesini dilemek",
+                "facetIds": [
+                  "F004"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "kuşatıcı Tanrısal esirgeme",
+                "facetIds": [
+                  "F005"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B001",
+                "lexicalUnitId": "lu_008",
+                "text": "çok acıyıp bol iyilik eden",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F005"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003",
+                  "F004"
+                ],
+                "lossReason": "Gloss bol acıma ve iyiliği verir; karşılıklı yapı ve dua kalıbı anlamlarını göstermez."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ayahRef": "1:4",
+      "arabicText": "مَٰلِكِ يَوْمِ ٱلدِّينِ",
+      "primaryReading": {
+        "alignmentGroups": [
+          {
+            "qacWordRefs": [
+              "1:4:3"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:4:2"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:4:1"
+            ]
+          }
+        ]
+      },
+      "grammarSupport": [
+        {
+          "type": "construction_unit",
+          "instruction": "preserve_argument_role",
+          "guidance": "Target language may need to preserve that يَوْمِ ٱلدِّينِ is governed through an iḍāfa chain rather than a separate temporal clause.",
+          "grammarUnitRefs": [
+            "q:1:4:1"
+          ],
+          "construction": "stacked_idafa"
+        },
+        {
+          "type": "context_window",
+          "instruction": "recommend_reading_window",
+          "guidance": "Single-ayah rendering may detach مَٰلِكِ from the descriptive chain begun with ٱللَّهِ رَبِّ ٱلْعَٰلَمِينَ.",
+          "grammarUnitRefs": [
+            "q:1:4:1",
+            "q:1:4:2",
+            "q:1:4:3"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "qacMorphemeRef": "1:4:1:1",
+          "qacWordRef": "1:4:1",
+          "arabic": "مَٰلِكِ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "N",
+            "voice": "ACT",
+            "case": "GEN"
+          },
+          "lemma": "مَٰلِك",
+          "rootId": "root_001444",
+          "branchIds": [
+            "B002"
+          ],
+          "glossId": "tr:v1:1:4:1:1",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B002",
+                "text": "sahiplik ve tasarruf yetkisi",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003",
+                  "F004"
+                ],
+                "lossReason": "Köleleştirilmiş kişi ve ona iyi davranma kullanımlarını açıkça taşımaz."
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B002",
+                "text": "bir şeye sahip olup tasarruf etmek",
+                "facetIds": [
+                  "F001"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B002",
+                "text": "mülkiyet; sahip olunan mal veya hak",
+                "facetIds": [
+                  "F001"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B002",
+                "text": "el altında sahip olunan şey",
+                "facetIds": [
+                  "F001"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B002",
+                "text": "köleleştirilmiş kişi",
+                "facetIds": [
+                  "F003"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B002",
+                "text": "köleleştirilmiş kişilere iyi davranmak",
+                "facetIds": [
+                  "F004"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B002",
+                "text": "boşanma kararını eşe bırakmak",
+                "facetIds": [
+                  "F002"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": []
+          }
+        },
+        {
+          "qacMorphemeRef": "1:4:2:1",
+          "qacWordRef": "1:4:2",
+          "arabic": "يَوْمِ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "N",
+            "case": "GEN"
+          },
+          "lemma": "يَوْم",
+          "rootId": "root_001700",
+          "branchIds": [
+            "B003"
+          ],
+          "glossId": "tr:v1:1:4:2:1",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B003",
+                "text": "büyük olay; çetin gün; önemli olaylar",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ],
+            "contextualSenses": [],
+            "lexicalSenses": [
+              {
+                "branchId": "B003",
+                "lexicalUnitId": "lu_003",
+                "text": "büyük olay; kritik veya ağır gün; önemli olaylar",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ]
+          }
+        },
+        {
+          "qacMorphemeRef": "1:4:3:1",
+          "qacWordRef": "1:4:3",
+          "arabic": "ٱل",
+          "morphology": {
+            "role": "PREFIX",
+            "pos": "DET"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:4:3:2",
+          "qacWordRef": "1:4:3",
+          "arabic": "دِّينِ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "N",
+            "case": "GEN"
+          },
+          "lemma": "دِين",
+          "rootId": "root_000504",
+          "branchIds": [
+            "B002"
+          ],
+          "glossId": "tr:v1:1:4:3:2",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B002",
+                "text": "hesap, hüküm ve karşılık",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B002",
+                "text": "hesap ve hüküm görmek",
+                "facetIds": [
+                  "F001"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B002",
+                "text": "yapılanın karşılığını vermek",
+                "facetIds": [
+                  "F002"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B002",
+                "text": "hesap ve karşılık günü",
+                "facetIds": [
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B002",
+                "lexicalUnitId": "lu_005",
+                "text": "hesap ve karşılık günü",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ayahRef": "1:5",
+      "arabicText": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "primaryReading": {
+        "alignmentGroups": [
+          {
+            "qacWordRefs": [
+              "1:5:1"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:5:2"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:5:3"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:5:4"
+            ]
+          }
+        ]
+      },
+      "grammarSupport": [
+        {
+          "type": "scope",
+          "instruction": "preserve_scope",
+          "guidance": "Target language may lose the exclusive focus if the fronted object is rendered as ordinary object order.",
+          "grammarUnitRefs": [
+            "q:1:5:1"
+          ],
+          "scope": "restriction"
+        },
+        {
+          "type": "scope",
+          "instruction": "preserve_scope",
+          "guidance": "Target language may lose the repeated exclusive focus if the second fronted object is flattened into ordinary object order.",
+          "grammarUnitRefs": [
+            "q:1:5:4"
+          ],
+          "scope": "restriction"
+        },
+        {
+          "type": "construction_unit",
+          "instruction": "preserve_scope",
+          "guidance": "Target language should preserve the coordinated parallelism so worship and seeking help are not collapsed into one predicate.",
+          "grammarUnitRefs": [
+            "q:1:5:3"
+          ],
+          "construction": "coordinated_parallel_predicates"
+        },
+        {
+          "type": "context_window",
+          "instruction": "recommend_reading_window",
+          "guidance": "The shift from third-person divine description to second-person address can be obscured if 1:5 is rendered without the preceding praise sequence.",
+          "grammarUnitRefs": [
+            "q:1:5:1",
+            "q:1:5:4"
+          ]
+        },
+        {
+          "type": "referent_resolution_risk",
+          "instruction": "do_not_resolve_in_default",
+          "guidance": "Target language may need an overt subject pronoun, but Arabic identifies only the first-person plural speaker group by agreement.",
+          "grammarUnitRefs": [
+            "q:1:5:2",
+            "q:1:5:5"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "qacMorphemeRef": "1:5:1:1",
+          "qacWordRef": "1:5:1",
+          "arabic": "إِيَّاكَ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "PRON",
+            "person": "2",
+            "gender": "M",
+            "number": "singular"
+          },
+          "lemma": "إِيَّا"
+        },
+        {
+          "qacMorphemeRef": "1:5:2:1",
+          "qacWordRef": "1:5:2",
+          "arabic": "نَعْبُدُ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "V",
+            "aspect": "IMPF",
+            "person": "1",
+            "number": "plural"
+          },
+          "lemma": "عَبَدَ",
+          "rootId": "root_000973",
+          "branchIds": [
+            "B003"
+          ],
+          "glossId": "tr:v1:1:5:2:1",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B003",
+                "text": "boyun eğerek tapınmak ve itaat etmek",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B003",
+                "text": "sahte tanrısal güce boyun eğmek",
+                "facetIds": [
+                  "F001",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B003",
+                "lexicalUnitId": "lu_007",
+                "text": "Tanrı'ya boyun eğerek tapınmak",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003"
+                ],
+                "lossReason": "Tanrı'ya yönelen kullanım, sahte güçlere veya insana yönelen genişletilmiş kullanımı dışarıda bırakır."
+              }
+            ]
+          }
+        },
+        {
+          "qacMorphemeRef": "1:5:3:1",
+          "qacWordRef": "1:5:3",
+          "arabic": "وَ",
+          "morphology": {
+            "role": "PREFIX",
+            "pos": "CONJ"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:5:3:2",
+          "qacWordRef": "1:5:3",
+          "arabic": "إِيَّاكَ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "PRON",
+            "person": "2",
+            "gender": "M",
+            "number": "singular"
+          },
+          "lemma": "إِيَّا"
+        },
+        {
+          "qacMorphemeRef": "1:5:4:1",
+          "qacWordRef": "1:5:4",
+          "arabic": "نَسْتَعِينُ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "V",
+            "aspect": "IMPF",
+            "measure": "X",
+            "person": "1",
+            "number": "plural"
+          },
+          "lemma": "ٱسْتَعِينُ",
+          "rootId": "root_001064",
+          "branchIds": [
+            "B001"
+          ],
+          "glossId": "tr:v1:1:5:4:1",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B001",
+                "text": "yardım ve destek",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B001",
+                "text": "bir işte destek sağlamak",
+                "facetIds": [
+                  "F001"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "birinden yardım istemek",
+                "facetIds": [
+                  "F002"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "karşılıklı yardımlaşmak",
+                "facetIds": [
+                  "F002"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "çok yardım eden kişi",
+                "facetIds": [
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B001",
+                "lexicalUnitId": "lu_005",
+                "text": "birinden yardım istemek",
+                "facetIds": [
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F001",
+                  "F003"
+                ],
+                "lossReason": "Bu gloss özellikle yardım talebini verir; genel destek sağlama ve yardımsever kişi yönleri yoktur."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ayahRef": "1:6",
+      "arabicText": "ٱهْدِنَا ٱلصِّرَٰطَ ٱلْمُسْتَقِيمَ",
+      "primaryReading": {
+        "alignmentGroups": [
+          {
+            "qacWordRefs": [
+              "1:6:1"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:6:3"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:6:2"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:6:1"
+            ]
+          }
+        ]
+      },
+      "grammarSupport": [
+        {
+          "type": "surface_force",
+          "instruction": "preserve_surface_force",
+          "guidance": "Target language should preserve the petitionary imperative force rather than recasting it as a statement.",
+          "grammarUnitRefs": [
+            "q:1:6:1"
+          ],
+          "force": "imperative"
+        },
+        {
+          "type": "referent_resolution_risk",
+          "instruction": "target_language_may_require_resolution",
+          "guidance": "Target language may require an explicit addressee or subject for the imperative, while Arabic leaves it as 2ms agreement tied to the prior direct address.",
+          "grammarUnitRefs": [
+            "q:1:6:1"
+          ]
+        },
+        {
+          "type": "context_window",
+          "instruction": "recommend_reading_window",
+          "guidance": "Single-ayah rendering may miss that the 1pl object suffix continues the speaker group and the 2ms imperative continues the addressee from 1:5.",
+          "grammarUnitRefs": [
+            "q:1:6:1"
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "qacMorphemeRef": "1:6:1:1",
+          "qacWordRef": "1:6:1",
+          "arabic": "ٱهْدِ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "V",
+            "aspect": "IMPV",
+            "person": "2",
+            "gender": "M",
+            "number": "singular"
+          },
+          "lemma": "هَدَى",
+          "rootId": "root_001583",
+          "branchIds": [
+            "B001"
+          ],
+          "glossId": "tr:v1:1:6:1:1",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B001",
+                "text": "doğru yolu gösterme, benimseme ve ilahi destekle ona erme",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B001",
+                "text": "doğruya kılavuzluk etme",
+                "facetIds": [
+                  "F001"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "doğru yolu kabul edip bulma",
+                "facetIds": [
+                  "F002"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "ilahi destekle doğruya erdirme",
+                "facetIds": [
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B001",
+                "lexicalUnitId": "lu_002",
+                "text": "ona yolu gösterip tanıtmak",
+                "facetIds": [
+                  "F001"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F002",
+                  "F003"
+                ],
+                "lossReason": "Gösterilen yönün kabul edilmesini ve ilahi başarı desteğini açıkça taşımaz."
+              }
+            ]
+          }
+        },
+        {
+          "qacMorphemeRef": "1:6:1:2",
+          "qacWordRef": "1:6:1",
+          "arabic": "نَا",
+          "morphology": {
+            "role": "SUFFIX",
+            "pos": "PRON",
+            "person": "1",
+            "number": "plural"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:6:2:1",
+          "qacWordRef": "1:6:2",
+          "arabic": "ٱل",
+          "morphology": {
+            "role": "PREFIX",
+            "pos": "DET"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:6:2:2",
+          "qacWordRef": "1:6:2",
+          "arabic": "صِّرَٰطَ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "N",
+            "case": "ACC"
+          },
+          "lemma": "صِرَٰط",
+          "rootId": "root_000858",
+          "branchIds": [
+            "B001"
+          ],
+          "glossId": "tr:v1:1:6:2:2",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B001",
+                "text": "geçilen yol, düz yol",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B001",
+                "text": "üzerinde ilerlenen yol",
+                "facetIds": [
+                  "F001",
+                  "F003"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F002"
+                ],
+                "lossReason": "Bu gloss, yolun düz ve sapmasız olma özelleşmesini açıkça taşımaz."
+              },
+              {
+                "branchId": "B001",
+                "text": "sapmasız düz yol",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B001",
+                "lexicalUnitId": "lu_001",
+                "text": "yol, özellikle düz yol",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ]
+          }
+        },
+        {
+          "qacMorphemeRef": "1:6:3:1",
+          "qacWordRef": "1:6:3",
+          "arabic": "ٱلْ",
+          "morphology": {
+            "role": "PREFIX",
+            "pos": "DET"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:6:3:2",
+          "qacWordRef": "1:6:3",
+          "arabic": "مُسْتَقِيمَ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "ADJ",
+            "voice": "ACT",
+            "measure": "X",
+            "case": "ACC"
+          },
+          "lemma": "مُّسْتَقِيم",
+          "rootId": "root_001273",
+          "branchIds": [
+            "B008"
+          ],
+          "glossId": "tr:v1:1:6:3:2",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B008",
+                "text": "düzgünlük, denge ve doğruluk",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "none"
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B008",
+                "text": "düzgün ve dengeli olmak",
+                "facetIds": [
+                  "F001"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B008",
+                "text": "doğru yoldan ayrılmamak",
+                "facetIds": [
+                  "F002"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B008",
+                "lexicalUnitId": "lu_016",
+                "text": "düzgün olmak; doğru yolda kalmak",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "none"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ayahRef": "1:7",
+      "arabicText": "صِرَٰطَ ٱلَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ ٱلْمَغْضُوبِ عَلَيْهِمْ وَلَا ٱلضَّآلِّينَ",
+      "primaryReading": {
+        "alignmentGroups": [
+          {
+            "qacWordRefs": [
+              "1:7:4"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:7:3"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:7:2"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:7:1"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:7:6"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:7:6",
+              "1:7:7"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:7:8"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:7:9"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:7:1"
+            ]
+          },
+          {
+            "qacWordRefs": [
+              "1:7:5",
+              "1:7:8"
+            ]
+          }
+        ]
+      },
+      "grammarSupport": [
+        {
+          "type": "context_window",
+          "instruction": "recommend_reading_window",
+          "guidance": "Single-ayah rendering may detach صِرَٰطَ ٱلَّذِينَ from the petition object in 1:6.",
+          "grammarUnitRefs": [
+            "q:1:7:1",
+            "q:1:7:2",
+            "q:1:7:3",
+            "q:1:7:4",
+            "q:1:7:5",
+            "q:1:7:6",
+            "q:1:7:7",
+            "q:1:7:10"
+          ]
+        },
+        {
+          "type": "semantic_role",
+          "instruction": "preserve_argument_role",
+          "guidance": "Target language may render عَلَيْهِمْ as spatial upon them instead of the beneficiary complement licensed by أَنْعَمْتَ.",
+          "grammarUnitRefs": [
+            "q:1:7:4"
+          ]
+        },
+        {
+          "type": "referent_resolution_risk",
+          "instruction": "preserve_compression_if_target_language_allows",
+          "guidance": "Target languages that require an explicit relative-clause object must keep the suffix tied to ٱلَّذِينَ, not to the later excluded groups.",
+          "grammarUnitRefs": [
+            "q:1:7:4"
+          ]
+        },
+        {
+          "type": "scope",
+          "instruction": "preserve_scope",
+          "guidance": "Target language may miss that غَيْرِ excludes a contrasting class from the requested path rather than starting a new independent description.",
+          "grammarUnitRefs": [
+            "q:1:7:5"
+          ],
+          "scope": "exception"
+        },
+        {
+          "type": "construction_unit",
+          "instruction": "preserve_scope",
+          "guidance": "Target language may over-read لَا as clausal negation or omit its reinforcement of the second excluded class.",
+          "grammarUnitRefs": [
+            "q:1:7:8"
+          ],
+          "construction": "coordinated_exclusion_with_wa_la",
+          "scope": "negation"
+        },
+        {
+          "type": "referent_resolution_risk",
+          "instruction": "preserve_compression_if_target_language_allows",
+          "guidance": "Target languages should keep the second suffix attached to the passive-participle group, not to ٱلَّذِينَ in the preceding relative clause.",
+          "grammarUnitRefs": [
+            "q:1:7:7"
+          ]
+        },
+        {
+          "type": "referent_resolution_risk",
+          "instruction": "target_language_may_require_resolution",
+          "guidance": "Target language may need an explicit subject for أَنْعَمْتَ, while Arabic marks only the same 2ms addressee active from 1:5-6.",
+          "grammarUnitRefs": [
+            "q:1:7:3"
+          ]
+        },
+        {
+          "type": "construction_unit",
+          "instruction": "preserve_compression_if_target_language_allows",
+          "guidance": "Target language may be tempted to supply an explicit agent of غضب, but the Arabic passive participle leaves the agent unspoken.",
+          "grammarUnitRefs": [
+            "q:1:7:6"
+          ],
+          "construction": "passive_participle_with_prepositional_complement"
+        }
+      ],
+      "cards": [
+        {
+          "qacMorphemeRef": "1:7:1:1",
+          "qacWordRef": "1:7:1",
+          "arabic": "صِرَٰطَ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "N",
+            "case": "ACC"
+          },
+          "lemma": "صِرَٰط",
+          "rootId": "root_000858",
+          "branchIds": [
+            "B001"
+          ],
+          "glossId": "tr:v1:1:7:1:1",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B001",
+                "text": "geçilen yol, düz yol",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B001",
+                "text": "üzerinde ilerlenen yol",
+                "facetIds": [
+                  "F001",
+                  "F003"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F002"
+                ],
+                "lossReason": "Bu gloss, yolun düz ve sapmasız olma özelleşmesini açıkça taşımaz."
+              },
+              {
+                "branchId": "B001",
+                "text": "sapmasız düz yol",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B001",
+                "lexicalUnitId": "lu_001",
+                "text": "yol, özellikle düz yol",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ]
+          }
+        },
+        {
+          "qacMorphemeRef": "1:7:2:1",
+          "qacWordRef": "1:7:2",
+          "arabic": "ٱلَّذِينَ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "REL",
+            "gender": "M",
+            "number": "plural"
+          },
+          "lemma": "ٱلَّذِى"
+        },
+        {
+          "qacMorphemeRef": "1:7:3:1",
+          "qacWordRef": "1:7:3",
+          "arabic": "أَنْعَمْ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "V",
+            "aspect": "PERF",
+            "measure": "IV",
+            "person": "2",
+            "gender": "M",
+            "number": "singular"
+          },
+          "lemma": "أَنْعَمَ",
+          "rootId": "root_001525",
+          "branchIds": [
+            "B001"
+          ],
+          "glossId": "tr:v1:1:7:3:1",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B001",
+                "text": "rahat yaşam ve yapılan iyilik",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "none"
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B001",
+                "text": "kişinin içinde bulunduğu iyi ve rahat durum",
+                "facetIds": [
+                  "F001"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "birine ulaştırılan bağış ve iyilik",
+                "facetIds": [
+                  "F002"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B001",
+                "lexicalUnitId": "lu_005",
+                "text": "iyiliği başkasına ulaştırma",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "none"
+              }
+            ]
+          }
+        },
+        {
+          "qacMorphemeRef": "1:7:3:2",
+          "qacWordRef": "1:7:3",
+          "arabic": "تَ",
+          "morphology": {
+            "role": "SUFFIX",
+            "pos": "PRON",
+            "person": "2",
+            "gender": "M",
+            "number": "singular"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:7:4:1",
+          "qacWordRef": "1:7:4",
+          "arabic": "عَلَيْ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "P"
+          },
+          "lemma": "عَلَىٰ"
+        },
+        {
+          "qacMorphemeRef": "1:7:4:2",
+          "qacWordRef": "1:7:4",
+          "arabic": "هِمْ",
+          "morphology": {
+            "role": "SUFFIX",
+            "pos": "PRON",
+            "person": "3",
+            "gender": "M",
+            "number": "plural"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:7:5:1",
+          "qacWordRef": "1:7:5",
+          "arabic": "غَيْرِ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "N",
+            "case": "GEN"
+          },
+          "lemma": "غَيْر",
+          "rootId": "root_001119",
+          "branchIds": [
+            "B005"
+          ],
+          "glossId": "tr:v1:1:7:5:1",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B005",
+                "text": "başkalık, dışta bırakma ve olumsuzluk",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F004",
+                  "F005"
+                ],
+                "fit": "none"
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B005",
+                "text": "başka veya aynı olmayan",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F005"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B005",
+                "text": "dışında, hariç",
+                "facetIds": [
+                  "F003"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B005",
+                "text": "değil, olmayan",
+                "facetIds": [
+                  "F004"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B005",
+                "lexicalUnitId": "lu_030",
+                "text": "değil, olmayan",
+                "facetIds": [
+                  "F004"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F001",
+                  "F002",
+                  "F003",
+                  "F005"
+                ],
+                "lossReason": "Bu gloss olumsuzlama görevini verir; genel başkalık, dışta bırakma ve karşılıklı farklılaşma alanlarını kapsamaz."
+              }
+            ]
+          }
+        },
+        {
+          "qacMorphemeRef": "1:7:6:1",
+          "qacWordRef": "1:7:6",
+          "arabic": "ٱلْ",
+          "morphology": {
+            "role": "PREFIX",
+            "pos": "DET"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:7:6:2",
+          "qacWordRef": "1:7:6",
+          "arabic": "مَغْضُوبِ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "N",
+            "voice": "PASS",
+            "case": "GEN"
+          },
+          "lemma": "مَغْضُوب",
+          "rootId": "root_001092",
+          "branchIds": [
+            "B001"
+          ],
+          "glossId": "tr:v1:1:7:6:2",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B001",
+                "text": "öç alma isteğiyle kabaran yoğun öfke",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003",
+                  "F004"
+                ],
+                "lossReason": "Kişide sık veya çabuk öfkelenme eğilimini ve ilahi bağlamdaki cezalandırma sonucunu dışarıda bırakır."
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B001",
+                "text": "çok veya çabuk öfkelenme eğilimi",
+                "facetIds": [
+                  "F003"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F001",
+                  "F002",
+                  "F004"
+                ],
+                "lossReason": "Yoğun öfke çekirdeğini, öç alma yönelimini ve ilahi cezalandırma kullanımını belirtmez."
+              },
+              {
+                "branchId": "B001",
+                "text": "ilahi öfkenin cezalandırıcı sonucu",
+                "facetIds": [
+                  "F004"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lossReason": "İnsani öfke çekirdeğini, öç alma kabarmasını ve kişide öfke eğilimini ayrı ayrı vermez."
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B001",
+                "lexicalUnitId": "lu_001",
+                "text": "öç alma isteğiyle kabaran şiddetli öfke",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003",
+                  "F004"
+                ],
+                "lossReason": "Kişi eğilimi ve ilahi cezalandırma kullanımı bu adlandırmanın dışında kalır."
+              }
+            ]
+          }
+        },
+        {
+          "qacMorphemeRef": "1:7:7:1",
+          "qacWordRef": "1:7:7",
+          "arabic": "عَلَيْ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "P"
+          },
+          "lemma": "عَلَىٰ"
+        },
+        {
+          "qacMorphemeRef": "1:7:7:2",
+          "qacWordRef": "1:7:7",
+          "arabic": "هِمْ",
+          "morphology": {
+            "role": "SUFFIX",
+            "pos": "PRON",
+            "person": "3",
+            "gender": "M",
+            "number": "plural"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:7:8:1",
+          "qacWordRef": "1:7:8",
+          "arabic": "وَ",
+          "morphology": {
+            "role": "PREFIX",
+            "pos": "CONJ"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:7:8:2",
+          "qacWordRef": "1:7:8",
+          "arabic": "لَا",
+          "morphology": {
+            "role": "STEM",
+            "pos": "NEG"
+          },
+          "lemma": "لَا"
+        },
+        {
+          "qacMorphemeRef": "1:7:9:1",
+          "qacWordRef": "1:7:9",
+          "arabic": "ٱل",
+          "morphology": {
+            "role": "PREFIX",
+            "pos": "DET"
+          }
+        },
+        {
+          "qacMorphemeRef": "1:7:9:2",
+          "qacWordRef": "1:7:9",
+          "arabic": "ضَّآلِّينَ",
+          "morphology": {
+            "role": "STEM",
+            "pos": "N",
+            "voice": "ACT",
+            "gender": "M",
+            "number": "plural",
+            "case": "GEN"
+          },
+          "lemma": "ضَآلّ",
+          "rootId": "root_000913",
+          "branchIds": [
+            "B001"
+          ],
+          "glossId": "tr:v1:1:7:9:2",
+          "glossSource": {
+            "branchCores": [
+              {
+                "branchId": "B001",
+                "text": "doğru yoldan sapma",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003"
+                ],
+                "lossReason": "Ettirgen başkasını doğru yoldan saptırma kullanımını dışarıda bırakır."
+              }
+            ],
+            "contextualSenses": [
+              {
+                "branchId": "B001",
+                "text": "yolunu veya amacını şaşırmak",
+                "facetIds": [
+                  "F001"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003"
+                ],
+                "lossReason": "Başkasını doğru yoldan saptırma kullanımını kapsamaz."
+              },
+              {
+                "branchId": "B001",
+                "text": "yanlış ve boş olana yönelmek",
+                "facetIds": [
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003"
+                ],
+                "lossReason": "Başkasını doğru yoldan saptırma kullanımını kapsamaz."
+              },
+              {
+                "branchId": "B001",
+                "text": "birini doğru yoldan uzaklaştırmak",
+                "facetIds": [
+                  "F003"
+                ],
+                "fit": "none"
+              }
+            ],
+            "lexicalSenses": [
+              {
+                "branchId": "B001",
+                "lexicalUnitId": "lu_003",
+                "text": "doğru yoldan veya amaçtan sapmış kimse",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "narrowing",
+                "losesFacetIds": [
+                  "F003"
+                ],
+                "lossReason": "Başkasını doğru yoldan saptırma kullanımını kapsamaz."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

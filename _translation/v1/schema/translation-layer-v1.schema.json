@@ -1,0 +1,227 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quran.local/schemas/translation-layer-v1.schema.json",
+  "title": "Translation layer v1",
+  "description": "A target-language card gloss and fluent translation layer anchored to ordered QAC morphemes and selected root branches.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "language",
+    "quranDataReleaseId",
+    "surah",
+    "missingGlosses",
+    "ayat"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "translation-layer-v1"
+    },
+    "language": {
+      "$ref": "#/$defs/language"
+    },
+    "quranDataReleaseId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "surah": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 114
+    },
+    "missingGlosses": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/missingGloss"
+      }
+    },
+    "ayat": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/ayah"
+      }
+    }
+  },
+  "$defs": {
+    "language": {
+      "type": "string",
+      "pattern": "^[A-Za-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$"
+    },
+    "ayahRef": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*:[1-9][0-9]*$"
+    },
+    "qacWordRef": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*:[1-9][0-9]*:[1-9][0-9]*$"
+    },
+    "qacMorphemeRef": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*:[1-9][0-9]*:[1-9][0-9]*:[1-9][0-9]*$"
+    },
+    "rootId": {
+      "type": "string",
+      "pattern": "^root_[0-9]{6}$"
+    },
+    "branchId": {
+      "type": "string",
+      "pattern": "^B[0-9]{3}$"
+    },
+    "ayah": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ayahRef",
+        "cards",
+        "translation"
+      ],
+      "properties": {
+        "ayahRef": {
+          "$ref": "#/$defs/ayahRef"
+        },
+        "cards": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/card"
+          }
+        },
+        "translation": {
+          "$ref": "#/$defs/translation"
+        }
+      }
+    },
+    "card": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "qacMorphemeRef",
+        "qacWordRef",
+        "cardGloss"
+      ],
+      "dependentRequired": {
+        "rootId": [
+          "branchIds",
+          "occurrenceGloss",
+          "selectedGlossId"
+        ],
+        "branchIds": [
+          "rootId"
+        ]
+      },
+      "properties": {
+        "qacMorphemeRef": {
+          "$ref": "#/$defs/qacMorphemeRef"
+        },
+        "qacWordRef": {
+          "$ref": "#/$defs/qacWordRef"
+        },
+        "rootId": {
+          "$ref": "#/$defs/rootId"
+        },
+        "branchIds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/branchId"
+          }
+        },
+        "cardGloss": {
+          "type": "string",
+          "minLength": 1
+        },
+        "occurrenceGloss": {
+          "$ref": "#/$defs/occurrenceGloss"
+        },
+        "selectedGlossId": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "occurrenceGloss": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "glossId",
+        "text"
+      ],
+      "properties": {
+        "glossId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "missingGloss": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "qacMorphemeRef",
+        "reason"
+      ],
+      "properties": {
+        "qacMorphemeRef": {
+          "$ref": "#/$defs/qacMorphemeRef"
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "translation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "targetTokens"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "targetTokens": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/targetToken"
+          }
+        }
+      }
+    },
+    "targetToken": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "separatorAfter",
+        "qacMorphemeRefs"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "separatorAfter": {
+          "type": "string"
+        },
+        "qacMorphemeRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/qacMorphemeRef"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "workflow": "translation-layer-v1",
+  "unit": "one-surah-one-language",
+  "controllerPrompt": "_translation/v1/orchestrator.md",
+  "prepare": {
+    "command": "python3 _translation/v1/tools/build_bundle.py --surah {surah} --language {language}",
+    "bundle": "_translation/v1/input/{language}/s{surah3}.json"
+  },
+  "agent": {
+    "scope": "whole-surah",
+    "model": "gpt-5.5",
+    "reasoningEffort": "high",
+    "visibleInputs": "bundle-and-schema-only",
+    "prompt": "_translation/v1/prompt.md",
+    "input": "_translation/v1/input/{language}/s{surah3}.json",
+    "outputSchema": "_translation/v1/schema/translation-layer-v1.schema.json",
+    "output": "_translation/v1/output/{language}/s{surah3}.json"
+  },
+  "check": {
+    "command": "python3 _translation/v1/tools/check_output.py --surah {surah} --language {language} --output {output}",
+    "correctionsAllowed": 0
+  },
+  "agentEdits": [
+    "missingGlosses",
+    "cards[].occurrenceGloss",
+    "cards[].selectedGlossId",
+    "cards[].cardGloss",
+    "translation.text",
+    "translation.targetTokens"
+  ],
+  "lockedFromBundle": [
+    "schemaVersion",
+    "language",
+    "quranDataReleaseId",
+    "surah",
+    "ayat[].ayahRef",
+    "cards[].qacMorphemeRef",
+    "cards[].qacWordRef",
+    "cards[].rootId",
+    "cards[].branchIds",
+    "input.cards[].glossId"
+  ]
+}
