@@ -51,9 +51,9 @@ This must produce:
 _translation/v1/input/<language>/s<surah3>.json
 ```
 
-If preparation fails because the primary-anchor seed or target-language
-glosses do not exist, stop and report that exact missing prerequisite. Do not
-invent branches or glosses.
+If preparation fails because the primary-anchor seed or dictionary branch
+evidence does not exist, stop and report that exact missing prerequisite. Do
+not invent branches or lexical evidence.
 
 If the intended output already exists, run the check in step 3. A passing
 existing output is complete. Do not replace it unless the assignment

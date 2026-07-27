@@ -25,10 +25,13 @@ occurrence gloss: use `losesFacetIds` and `lossReason` to restore any facets
 activated by the supplied morphology and construction. Do not import another
 branch or a remembered conventional Quran translation.
 
-Adapt all supplied wording to `languagePolicy`; source gloss wording is
-semantic evidence, not approved target prose. One source word may require
-several coordinated target-language clauses. Compactness must not erase a
-source-grounded dimension.
+`glossSource.evidenceLanguage` identifies whether the dictionary evidence is
+already in the target language or supplied through a bridge language. In both
+cases, produce the occurrence gloss in the target language and adapt all
+wording to `languagePolicy`; source gloss wording is semantic evidence, not
+approved target prose. One source word may require several coordinated
+target-language clauses. Compactness must not erase a source-grounded
+dimension.
 
 For particles, articles, pronouns, and affixes, write the shortest natural
 card gloss for their actual local contribution. Do not invent root or branch

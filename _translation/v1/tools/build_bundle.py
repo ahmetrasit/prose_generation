@@ -62,6 +62,149 @@ def language_policy(language: str) -> dict:
     }
 
 
+def gloss_evidence(source: dict, error_key: str = "error") -> dict:
+    evidence = {
+        "text": source["text"],
+        "facetIds": source.get("facet_ids", []),
+    }
+    error = source.get(error_key, {})
+    if error.get("fit"):
+        evidence["fit"] = error["fit"]
+    if error.get("loses_facet_ids"):
+        evidence["losesFacetIds"] = error["loses_facet_ids"]
+    if error.get("reason"):
+        evidence["lossReason"] = error["reason"]
+    return evidence
+
+
+def reviewed_entry_gloss_source(
+    language: str,
+    root_id: str,
+    branch_ids: list[str],
+    lexical_unit_ids: list[str],
+) -> dict | None:
+    path = (
+        WORKSPACE
+        / "dictionary"
+        / "v2"
+        / "work"
+        / "entry_creation"
+        / root_id
+        / language
+        / "fragments"
+        / f"{root_id}_entry.json"
+    )
+    if not path.exists():
+        return None
+
+    entry = read_json(path)
+    branch_cores: list[dict] = []
+    contextual_senses: list[dict] = []
+    lexical_senses: list[dict] = []
+    for branch_id in branch_ids:
+        branch_ref = f"{root_id}/{branch_id}"
+        branch = next(
+            item for item in entry["branches"] if item["branch_ref"] == branch_ref
+        )
+        branch_cores.append(
+            {
+                "branchId": branch_id,
+                **gloss_evidence(
+                    branch["concept_gloss"],
+                    error_key="error_profile",
+                ),
+            }
+        )
+        for contextual in branch.get("contextual_glosses", []):
+            contextual_senses.append(
+                {
+                    "branchId": branch_id,
+                    **gloss_evidence(
+                        contextual,
+                        error_key="error_profile",
+                    ),
+                }
+            )
+        lexical_by_id = {
+            item["lexical_unit_id"]: item
+            for item in branch.get("lexical_glosses", [])
+        }
+        for lexical_unit_id in lexical_unit_ids:
+            lexical = lexical_by_id.get(lexical_unit_id)
+            if lexical:
+                lexical_senses.append(
+                    {
+                        "branchId": branch_id,
+                        "lexicalUnitId": lexical_unit_id,
+                        "text": lexical["target_gloss"],
+                        "facetIds": [],
+                    }
+                )
+
+    return {
+        "evidenceLanguage": language,
+        "branchCores": branch_cores,
+        "contextualSenses": contextual_senses,
+        "lexicalSenses": lexical_senses,
+    }
+
+
+def bridge_gloss_source(
+    root_id: str,
+    branch_ids: list[str],
+    lexical_unit_ids: list[str],
+) -> dict:
+    path = WORKSPACE / "dictionary" / "data" / "output" / "root_packets" / f"{root_id}.json"
+    if not path.exists():
+        raise FileNotFoundError(f"Missing dictionary evidence for {root_id}: {path}")
+
+    packet = read_json(path)
+    branch_cores: list[dict] = []
+    contextual_senses: list[dict] = []
+    lexical_senses: list[dict] = []
+    lexical_by_id = {
+        item["lexical_unit_id"]: item for item in packet["lexical_senses"]
+    }
+    for branch_id in branch_ids:
+        branch = next(
+            item for item in packet["branches"] if item["branch_id"] == branch_id
+        )
+        branch_cores.append(
+            {
+                "branchId": branch_id,
+                "text": branch.get("what_is_en") or branch["branch_image_en"],
+                "facetIds": [],
+            }
+        )
+        if branch.get("branch_image_en"):
+            contextual_senses.append(
+                {
+                    "branchId": branch_id,
+                    "text": branch["branch_image_en"],
+                    "facetIds": [],
+                }
+            )
+        for lexical_unit_id in lexical_unit_ids:
+            lexical = lexical_by_id.get(lexical_unit_id)
+            if lexical and branch_id in lexical["branch_ids"].split():
+                lexical_senses.append(
+                    {
+                        "branchId": branch_id,
+                        "lexicalUnitId": lexical_unit_id,
+                        "text": lexical["sense_en"],
+                        "facetIds": [],
+                        "fit": lexical.get("sense_en_fit", "close"),
+                    }
+                )
+
+    return {
+        "evidenceLanguage": "en",
+        "branchCores": branch_cores,
+        "contextualSenses": contextual_senses,
+        "lexicalSenses": lexical_senses,
+    }
+
+
 def gloss_source(
     language: str,
     root_id: str,
@@ -78,29 +221,20 @@ def gloss_source(
         / f"{root_id}.json"
     )
     if not result_path.exists():
-        raise FileNotFoundError(
-            f"Missing reviewed gloss result for {language}/{root_id}: "
-            f"{result_path}"
+        reviewed_entry = reviewed_entry_gloss_source(
+            language,
+            root_id,
+            branch_ids,
+            lexical_unit_ids,
         )
+        if reviewed_entry:
+            return reviewed_entry
+        return bridge_gloss_source(root_id, branch_ids, lexical_unit_ids)
 
     result = read_json(result_path)
     branch_cores: list[dict] = []
     contextual_senses: list[dict] = []
     lexical_senses: list[dict] = []
-
-    def gloss_evidence(source: dict) -> dict:
-        evidence = {
-            "text": source["text"],
-            "facetIds": source.get("facet_ids", []),
-        }
-        error = source.get("error", {})
-        if error.get("fit"):
-            evidence["fit"] = error["fit"]
-        if error.get("loses_facet_ids"):
-            evidence["losesFacetIds"] = error["loses_facet_ids"]
-        if error.get("reason"):
-            evidence["lossReason"] = error["reason"]
-        return evidence
 
     for branch_id in branch_ids:
         branch_ref = f"{root_id}/{branch_id}"
@@ -146,10 +280,48 @@ def gloss_source(
                 )
 
     return {
+        "evidenceLanguage": language,
         "branchCores": branch_cores,
         "contextualSenses": contextual_senses,
         "lexicalSenses": lexical_senses,
     }
+
+
+def root_bindings(surah: int, v12_dir: Path) -> tuple[dict[str, str], str]:
+    surah_key = f"s{surah:03d}"
+    crosswalk_path = (
+        WORKSPACE
+        / "quran-apps"
+        / "packages"
+        / "content-compiler"
+        / "crosswalks"
+        / f"{surah_key}-qac-root-to-furuq.json"
+    )
+    if crosswalk_path.exists():
+        crosswalk = read_json(crosswalk_path)
+        return (
+            {
+                item["qacRootJoinKey"]: item["furuqRootId"]
+                for item in crosswalk["mappings"]
+            },
+            crosswalk["quranDataReleaseId"],
+        )
+
+    anchor_map = read_json(v12_dir / "anchor_map.v3.json")
+    columns = {name: index for index, name in enumerate(anchor_map["columns"])}
+    candidates: dict[str, set[str]] = {}
+    for row in anchor_map["rows"]:
+        join_key = "".join(row[columns["source_root"]].split())
+        candidates.setdefault(join_key, set()).add(row[columns["root_id"]])
+    ambiguous = {key: ids for key, ids in candidates.items() if len(ids) != 1}
+    if ambiguous:
+        raise ValueError(f"Ambiguous V12 root bindings: {ambiguous}")
+
+    release = read_json(WORKSPACE / "quran-data" / "RELEASE.json")
+    return (
+        {key: next(iter(ids)) for key, ids in candidates.items()},
+        release["release_id"],
+    )
 
 
 def grammar_unit_ref(unit_id: str) -> str | None:
@@ -234,18 +406,7 @@ def build_bundle(surah: int, language: str) -> dict:
         item["qacMorphemeRef"]: item for item in anchor_seed["anchors"]
     }
 
-    crosswalk = read_json(
-        WORKSPACE
-        / "quran-apps"
-        / "packages"
-        / "content-compiler"
-        / "crosswalks"
-        / f"{surah_key}-qac-root-to-furuq.json"
-    )
-    root_ids = {
-        item["qacRootJoinKey"]: item["furuqRootId"]
-        for item in crosswalk["mappings"]
-    }
+    root_ids, quran_data_release_id = root_bindings(surah, v12_dir)
     grammar_support = grammar_support_by_ayah(surah)
 
     morphemes_by_ayah: dict[str, list[dict[str, str]]] = {}
@@ -312,7 +473,7 @@ def build_bundle(surah: int, language: str) -> dict:
         "schemaVersion": "translation-input-v1",
         "targetLanguage": language,
         "languagePolicy": language_policy(language),
-        "quranDataReleaseId": crosswalk["quranDataReleaseId"],
+        "quranDataReleaseId": quran_data_release_id,
         "surah": surah,
         "ayat": ayat,
     }
