@@ -167,6 +167,31 @@ word"). Awaiting the user's call.
 - rebuild S1 and **diff against the existing `bundles/s001/`** to prove the
   repoint changed nothing
 
+### Measured 2026-07-27 — layer 3 cannot run without pericopes
+
+`scripts/instantiate.py` exists and is verified deterministic. Assembled
+self-contained prompt sizes for S100:
+
+| unit | tokens |
+| --- | ---: |
+| `100_1.ayah` | 58k |
+| `100_2` … `100_11.ayah` | 85k–100k each |
+| `100.surah` | **907k** |
+
+The surah number is real, not a bug. `{surah}.surah.json` *references* its ayah
+bundles rather than duplicating them, so a self-contained layer-3 prompt must
+inline all of them. **11 ayahs already exceed any context window.** D-c's pericope
+rationale is now empirically confirmed rather than projected: layer 3 is
+unrunnable on anything but the shortest surahs until the pericope layer exists.
+
+Layer 2 per-ayah prompts are large but workable.
+
+**Accepted scope note:** `COMMENTARY_SPEC.md` references `docs/SOURCES.md`, which
+is deliberately *not* inlined — it documents how the bundle was built, not how to
+write from it, and its content is already resolved into the bundle. The dangling
+filename reference is left for the friction report to surface if it disorients a
+writer.
+
 ## 2. Write `_commentary/ORCHESTRATION.md`
 
 Per D-d and D-e. Must record State B and that the layer-1/layer-3 exclusion

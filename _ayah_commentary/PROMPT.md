@@ -37,6 +37,27 @@ have written the wrong document. Concretely, ayah level covers:
 - what genre or pattern the reader recognises before understanding it;
 - what it holds that a whole-surah reading has no room for.
 
+## What counts as an activated reading
+
+The bundle answers this; do not decide it yourself. Each `word_analysis` topic
+carries `commentary_obligation`:
+
+- **`must_integrate`** — obligatory. Every one appears in your commentary. This is
+  the set "you must not select" refers to, and it is checkable.
+- **`candidate`** — discretionary, and this is where the surprise lives. Topics
+  with `status: narrowed` are the non-primary pressures on a word, and in the
+  cases measured so far **every one of them is `candidate`, none are
+  `must_integrate`**. A commentary that honours only its obligations will be
+  competent, complete, and hold no surprise at all. Read the `candidate` topics
+  before deciding.
+
+Each topic also carries `reader_payoff`, stating what the reader gains. Use it as
+a test: if you cannot make that payoff land, the topic is not yet written.
+
+Branch inventories, reader walks, and the channel review nominate material that
+has no topic. That material is admissible — this field defines your floor, not
+your ceiling.
+
 ## You must not select
 
 This is the defining constraint of this level.
@@ -143,6 +164,36 @@ You are the terminus for every exclusion in the system (`PRINCIPLES.md` §6).
 They are not errors and not leftovers. They are readings that a selection had no
 room for.
 
+## Voice — say what the word does
+
+Write in positive predication. State what a word does and let what it does not do
+be inferred.
+
+Two forces in this project push the other way, and both must be resisted at the
+sentence level. Containment (`PRINCIPLES.md` §4) is phrased as a prohibition, so
+it is tempting to discharge it by narrating what is *not* happening. And the
+`reader_payoff` fields in the bundle are themselves written that way — "deepens
+the route *without replacing it*", "*do not* become the local sense". That is
+analyst's register. Do not inherit it.
+
+In Turkish this matters more than in English. Stacked `-maz / -mez / değildir /
+yoktur` constructions read as hedging and break the flow. Turkish carries
+contrast through `zaten`, `hem… hem`, `-ken`, `ayrıca`, and through simple
+juxtaposition.
+
+| instead of | write |
+| --- | --- |
+| Bu âyet bir şey bildirmez, bir şey ister. | Bu âyet bir istektir. |
+| Türkçede bunun karşılığı yoktur. | Türkçe burada tek bir "ilet" ile yetinir. |
+| Âyet yolun düz olduğunu ileri sürmüyor; hangi yol olduğunu söylüyor. | Âyet hangi yol olduğunu söyler: o yol, o bilinen dosdoğru olan. |
+| Yolun doğru olması, üzerinde kimsenin beklemediği demek değildir. | Doğru yolun üzerinde de bekleyenler vardır. |
+| Ayakta durmak, işlemeye devam etmek demek değildir. | Biçim yerinde kalırken işlev çekilebilir. |
+
+**Keep about a quarter of them.** Negation is the right tool when the reader
+genuinely expects the opposite — when a loanword has narrowed and the expectation
+must be met head-on. The instruction is to stop it dominating, not to eliminate
+it. Prose with no negation at all becomes evasive in a different way.
+
 ## Structure
 
 There is no fixed section list, and section headers named after evidence layers
@@ -154,6 +205,14 @@ kind of act), then what the grammar forces, then what the form and lexicon open,
 then the before/after, then what the other layers could not carry.
 
 Do not use that as a template if the ayah resists it.
+
+**There is no length limit.** Write what the ayah's own work takes. A three-word
+ayah with a dense lexical field can run long and that is correct. Length is a
+consequence, never a target, and it is never a reason to leave something out —
+carrying the full field outranks brevity at this level.
+
+Absence goes in the coverage note, never in the prose. If a source is missing,
+the reader does not learn that; the reviewer does.
 
 ## Failure modes for this level specifically
 
