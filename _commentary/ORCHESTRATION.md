@@ -18,9 +18,12 @@ _commentary/
   ORCHESTRATION.md          this file
   inputs/s{NNN}/            instantiated prompts — generated, never edited
     {S}_{A}.ayah.prompt.md
+    {S}_{A}.ayah.{profile}.prompt.md
     {S}_{A}.ayah.manifest.json
+    {S}_{A}.ayah.{profile}.manifest.json
     {NNN}.surah.prompt.md
     {NNN}.surah.manifest.json
+  inputs/archive/s{NNN}/    archived non-default profile prompts
   outputs/s{NNN}/           agent-written
     {S}_{A}.prose.md
     {S}_{A}.evidence.md
@@ -95,6 +98,24 @@ Required sources raise loudly. Optional sources record their absence in
 source you expect to be present is marked absent, resolve that before
 instantiating. Absence propagates silently into prose otherwise.
 
+Current ayah bundles distinguish three V12 reader-derived families:
+
+| bundle field | source | use |
+| --- | --- | --- |
+| `v12_reader_responses` | retired per-ayah focus runs | explicit absent/retired coverage field in the default lane |
+| `v12_reader_walks` | regular full-context ayah walks | retrospective/full-context reader evidence |
+| `v12_reader_walks_wide` | plus/minus-5 / 11-ayah-context walks | wider-window retrospective reader evidence |
+| `v12_cross_run_publication` | compact final cross-run findings | coverage/priority check derived from regular plus wide readers |
+
+The cross-run field is not prose to copy. It is a compact audit surface for what
+the upstream publication run retained, graded, and anchored.
+
+Per-ayah focus runs are no longer part of the default workflow. Normal bundles
+use the surah `full_context_packet.json` branch inventory scoped to this ayah's
+roots and anchored citations, plus regular/wide reader walks and cross-run
+publication findings when present. A later audit can re-enable focus packets
+explicitly, but that is no longer the production lane.
+
 ## Stage 2 — Instantiate the prompt
 
 ```
@@ -102,9 +123,12 @@ python3 scripts/instantiate.py --surah 100 --layer ayah              # all ayahs
 python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah
 python3 scripts/instantiate.py --surah 100 --layer surah
 python3 scripts/instantiate.py --surah 100 --layer ayah --language tr --date 2026-07-27
+python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --profile v2.5.6-sol-high
 ```
 
 Writes `_commentary/inputs/s{NNN}/`. One prompt file plus one manifest per unit.
+With `--profile`, the profile label is appended before `.prompt.md`, for example
+`100_1.ayah.v2.5.6-sol-high.prompt.md`.
 
 The prompt is **hermetic**: the task document, every governing document, every
 cross-reference between them, and the bundle are inlined in full. The agent is
@@ -228,13 +252,25 @@ edit them.
 
 | file | content |
 | --- | --- |
-| `{unit}.prose.md` | continuous prose, target language, single voice, no provenance markers |
+| `{unit}.prose.md` | continuous prose, target language, single voice, no provenance markers, no wrapper label such as `=== THE PROSE ===` |
 | `{unit}.evidence.md` | phrase → bundle ref, with inference marked distinctly from bundle-traceable claims, plus a coverage note listing what was missing |
 | `{unit}.friction.md` | every point where the instructions were ambiguous, contradictory, unsatisfiable, or silent |
 
 For comparative runs, append a stable agent label before `.md`, for example
 `100_1.prose.5.6-sol-high.md`. The label records the model/run class; it does
 not change the content contract.
+
+Arabic lexical items in prose may be authored as structured spans:
+
+```
+{ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar}
+```
+
+Renderers can then produce a reader edition with transliteration first, a
+listener/TTS edition with the Arabic surface form, or a Turkish-only edition with
+the gloss. Raw root skeletons, branch IDs, and letter-by-letter root
+transliterations stay in evidence. Prose should attach root discussion to the
+surface word, for example `el-âdiyât'ın bağlı olduğu kök alanı...`.
 
 Prose and apparatus never mix (`PRINCIPLES.md` §12). Absence goes in the
 coverage note, never in the prose — the reader does not learn a source was
@@ -269,6 +305,23 @@ The hermetic prompt is what makes this possible. To compare Claude against
 another model, hand both the same `.prompt.md` file, unmodified, with no system
 prompt. Any difference in output is attributable to the model.
 
+Current S100 ayah pilot default:
+
+```
+model: gpt-5.6-sol
+reasoning_effort: high
+prompt_profile: v2.5.6-sol-high
+output_label: v2.5.6-sol-high
+per_ayah_focus_runs: retired
+```
+
+`gpt-5.6-sol` at `max` remains useful as a lexical/evidence comparator, but the
+default reader-facing prose lane is the high-effort v2 profile until a later
+pilot changes this record. Keep only the current default profile prompt in the
+active `_commentary/inputs/s{NNN}/` path. Move comparator profile prompts to
+`_commentary/inputs/archive/s{NNN}/` after use; they are reproducible with
+`scripts/instantiate.py --profile`.
+
 **Never evaluate on S1.** The governing documents inlined into every prompt
 contain worked answers for 1:6 — `docs/CHANNELS.md:48` and `:216` state the
 `sırât` finding and its branch id, `:132` gives the same finding in ready-made
@@ -279,6 +332,29 @@ useless as an eval surah.
 S100 leaks five lines, and they say the horses are unattached and a channel
 attaches them — where to look, not what to find. Near-inert for layer 2, since
 State B bars naming channels. A real thumb on the scale for layer 3.
+
+## Ablation runs
+
+Ablations must change both the bundle and the prompt profile when a source is
+removed from under a live instruction. Do not compare an ablated prompt against
+an older control prompt built from a different bundle.
+
+Two S100:1 ablation arms remain useful for experiments:
+
+| arm | bundle mutation | prompt profile | purpose |
+| --- | --- | --- | --- |
+| `no-focus` | legacy label for the current default: scoped surah branch inventory and no `v12_reader_responses` | `v2.5.6-sol-high-no-focus` | reproduce the pilot that promoted the current default |
+| `no-reader` | remove `v12_reader_walks`, `v12_reader_walks_wide`, `v12_cross_run_publication`, `butuncul_okuma_line`, and `channel_subchannels_anchored_here` | `v2.5.6-sol-high-no-reader` | test lexical/grammar commentary without reader-derived material |
+
+Build and instantiate with:
+
+```sh
+python3 scripts/build_ablation_bundles.py --surah 100 --ayah 1 --mode no-focus --out /tmp/prose_generation_ablation_no_focus
+python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir /tmp/prose_generation_ablation_no_focus --profile v2.5.6-sol-high-no-focus --out _commentary/inputs/s100-ablation-no-focus
+
+python3 scripts/build_ablation_bundles.py --surah 100 --ayah 1 --mode no-reader --out /tmp/prose_generation_ablation_no_reader
+python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir /tmp/prose_generation_ablation_no_reader --profile v2.5.6-sol-high-no-reader --out _commentary/inputs/s100-ablation-no-reader
+```
 
 ## Decisions and rationale
 

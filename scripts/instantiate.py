@@ -11,6 +11,8 @@ identical input. See `PLAN.md` decisions D-e and D-f, and action 3.
 Usage:
     python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah
     python3 scripts/instantiate.py --surah 100 --layer ayah     # every ayah
+    python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --profile v2.5.6-sol-high
+    python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir /tmp/ablation-bundles
     python3 scripts/instantiate.py --surah 100 --layer surah
     python3 scripts/instantiate.py --surah 100 --layer ayah --language tr --out DIR --date 2026-07-27
 
@@ -118,6 +120,254 @@ LAYER_REGISTRY: dict[str, LayerSpec] = {
 
 
 # ---------------------------------------------------------------------------
+# Prompt profiles
+# ---------------------------------------------------------------------------
+
+@dataclass(frozen=True)
+class PromptProfile:
+    name: str
+    layer: str
+    title: str
+    body: str
+
+
+PROMPT_PROFILES: dict[str, PromptProfile] = {
+    "v2.5.5-high": PromptProfile(
+        name="v2.5.5-high",
+        layer="ayah",
+        title="V2 Rendering Profile — 5.5 High",
+        body="""This run tests whether `5.5-high` can meet the `5.6-sol-high` reader-facing
+quality bar while preserving enough lexical depth for this workflow.
+
+Before drafting, silently build one matrix:
+
+`word -> grammar -> local sense -> root pressure -> unique payoff -> later change`
+
+Render every row exactly once in Turkish. Do not expose the matrix as a list.
+
+Required checks before writing:
+
+- include every `must_integrate` topic;
+- include every `candidate` that adds a unique reader payoff;
+- collapse all revisions of one v12 `model_id` into one before/after trajectory;
+- use branch inventories only when they clarify a word's local effect;
+- keep all artifacts in Turkish;
+- explain every technical term in the same sentence.
+
+At first mention of an ayah word, use a structured Arabic surface span:
+`{ar:surface_form, tr:Turkish-readable transliteration, gloss:target-language meaning}`.
+Afterward use the transliteration or a Turkish label. Use stable terminology for
+the same word across prose and evidence. Keep raw roots, root skeletons,
+letter-by-letter root transliterations, and branch IDs in the evidence surface.
+In prose, attach root discussion to the surface word:
+`el-âdiyât'ın bağlı olduğu kök alanı...`, not `ʿ-d-v kökü...`.
+
+The prose should stay reader-facing: one main movement per paragraph, concrete
+sentence first, technical precision second. Do not let later ayahs take over the
+commentary for 100:1.
+
+Use an explicit negative predicate only to correct a likely misconception,
+protect the primary sense from replacement, or preserve live counter-evidence.
+Default ceiling for this ayah: three. Never stack two negatives in one sentence.
+During final revision, rewrite all other negatives as positive predication.
+Do not drive negation to zero by default: if no explicit negative is needed,
+confirm in friction that there was no live misconception, replacement risk, or
+counter-evidence requiring one.
+
+Pass only if the evidence surface could be closed and the prose would still be
+understandable to a Turkish reader with almost no Arabic grammar.""",
+    ),
+    "v2.5.6-sol-high": PromptProfile(
+        name="v2.5.6-sol-high",
+        layer="ayah",
+        title="V2 Rendering Profile — 5.6 Sol High",
+        body="""This run tests whether `5.6-sol-high` can increase lexical depth while preserving
+reader-facing clarity.
+
+Increase depth through semantic precision, not additional bulk.
+
+Before drafting, silently build a coverage ledger:
+
+- include every `must_integrate` topic;
+- include every `candidate` with a reader payoff not already expressed;
+- if `v12_reader_responses` is absent because the default workflow retired
+  per-ayah focus runs, do not infer a `stage_00` isolated response, staged
+  reveal sequence, `changed_reading`, or confidence movement;
+- include a regular reader-walk, plus/minus-5 reader-walk, whole-surah reading,
+  or cross-run-publication item only when it adds a distinct retrospective
+  insight or coverage check;
+- use branch inventories to support explanations; they create no standalone
+  prose obligation. When fallback inventories are present, treat them as
+  restricted to this ayah's roots and anchored citations, not as a whole-surah
+  obligation.
+
+For each critical word, preserve these distinct layers when available:
+
+1. local grammatical work;
+2. locally selected sense;
+3. coherent pressure supplied by related root branches;
+4. one form, sound, rarity, or variant observation with a unique payoff;
+5. later contextual change, compressed to its final reader-visible result.
+
+Do not flatten these layers into a general metaphor. Deepen generic summaries by
+naming the exact lexical mechanism. Ordering grammar and local meaning first is
+grounding, not truth-ranking.
+
+At first mention of an ayah word, use a structured Arabic surface span:
+`{ar:surface_form, tr:Turkish-readable transliteration, gloss:target-language meaning}`.
+Afterward use the transliteration or a Turkish label. Explain every technical
+term in the same sentence. Keep raw roots, root skeletons, letter-by-letter root
+transliterations, and branch IDs in the evidence surface. In prose, attach root
+discussion to the surface word: `el-âdiyât'ın bağlı olduğu kök alanı...`, not
+`ʿ-d-v kökü...`.
+
+For this short ayah, keep at least two-thirds of the prose on its own wording.
+Compress all later developments into at most three paragraphs and end with one
+plain synthesis paragraph.
+
+Use `v12_cross_run_publication`, if present, only as a compact coverage/priority
+check derived from regular and plus/minus-5 reader runs. Do not copy it as prose,
+and do not let it override local bundle evidence.
+
+Use an explicit negative predicate only to correct a likely misconception,
+protect the primary sense from replacement, or preserve live counter-evidence.
+Default ceiling for this ayah: three. Never stack two negatives in one sentence.
+During final revision, rewrite all other negatives as positive predication.
+Do not drive negation to zero by default: if no explicit negative is needed,
+confirm in friction that there was no live misconception, replacement risk, or
+counter-evidence requiring one.
+
+Pass only if every paragraph has one distinct reader payoff and the prose remains
+clear with the evidence surface closed.""",
+    ),
+    "v2.5.6-sol-max": PromptProfile(
+        name="v2.5.6-sol-max",
+        layer="ayah",
+        title="V2 Rendering Profile — 5.6 Sol Max",
+        body="""This run tests whether `5.6-sol-max` can preserve full lexical depth while
+meeting or exceeding the reader-facing clarity of the high-effort runs.
+
+Preserve every non-equivalent lexical distinction; do not preserve source-level
+repetition. "Full field" means all distinct reader payoffs, not every branch,
+stage, caveat, or alternative formulation.
+
+The evidence surface remains exhaustive. It carries stage history, alternative
+causes, counter-evidence, identity problems, and inference qualifications.
+Moving those details out of prose is compression, not selection.
+
+Collapse:
+
+- one `model_id` across all stages into one before/after trajectory;
+- repeated reminders that the primary sense survives into one positive anchor;
+- multiple branches that explain one mechanism into one concrete image.
+
+The prose order is:
+
+1. plain translation and speech act;
+2. local grammar;
+3. word-level lexical depth;
+4. one integrated account of the distinct readings;
+5. compressed later illumination;
+6. plain concluding synthesis.
+
+Later ayahs may deepen the focus ayah but may not become a sequential retelling
+of the surah.
+
+At first mention of an ayah word, use a structured Arabic surface span:
+`{ar:surface_form, tr:Turkish-readable transliteration, gloss:target-language meaning}`.
+Afterward use the transliteration or a Turkish label. Keep raw roots, root
+skeletons, letter-by-letter root transliterations, and branch IDs in the evidence
+surface. In prose, attach root discussion to the surface word:
+`el-âdiyât'ın bağlı olduğu kök alanı...`, not `ʿ-d-v kökü...`.
+
+Lead each paragraph with a concrete statement; place technical precision after
+it. Prefer one interpretive move per sentence. For this ayah, target 900-1050
+words, paragraphs under 100 words, and sentences under 32 words.
+
+Use an explicit negative predicate only to correct a likely misconception,
+protect the primary sense from replacement, or preserve live counter-evidence.
+Default ceiling for this ayah: three explicit negative predicates. Run a final
+audit for `-maz/-mez`, `değil/değildir`, and `yok/yoktur`. Do not drive
+negation to zero by default: if no explicit negative is needed, confirm in
+friction that there was no live misconception, replacement risk, or
+counter-evidence requiring one.
+
+Before submitting, perform a semantic checksum: every distinct reading remains,
+but no sentence merely repeats coverage, containment, or uncertainty already
+expressed elsewhere.""",
+    ),
+    "v2.5.6-sol-high-no-focus": PromptProfile(
+        name="v2.5.6-sol-high-no-focus",
+        layer="ayah",
+        title="Ablation Profile — 5.6 Sol High, No Focus Responses",
+        body="""This ablation tests the current default `5.6-sol-high` prose lane without
+per-ayah focus-run staged reader responses.
+
+This profile supersedes the task document's normal before/after requirement
+when `v12_reader_responses` is deliberately absent. Do not infer a `stage_00`
+isolated response, a staged reveal sequence, `changed_reading`, or model
+confidence movement. If that source is absent because of ablation, report the
+absence in evidence coverage and friction, not in prose.
+
+Still write full ayah commentary. Use the remaining sources normally:
+
+- local Quran surface, QAC, `word_morpheme_spans`, and `word_analysis`;
+- branch inventories, including surah-fallback inventories when the bundle says
+  they were scoped from `full_context_packet.json`; when fallback inventories
+  are present, treat them as restricted to this ayah's roots and anchored
+  citations, not as a whole-surah obligation;
+- dictionary entries and gloss records;
+- inter-ayah rows;
+- reader walks, plus/minus-5 reader walks, and whole-surah reading, if present,
+  only as full-context or retrospective material, never as a substitute for
+  missing staged focus responses;
+- `v12_cross_run_publication`, if present, only as a compact coverage/priority
+  check derived from regular and plus/minus-5 reader runs; do not copy it as
+  prose, and do not let it override local bundle evidence;
+- channel review material under the normal State B limits.
+
+Keep the normal v2 reader-facing controls: structured Arabic spans at first
+mention, no raw roots in prose, positive predication, no wrapper label in prose,
+and every paragraph with one clear reader payoff.""",
+    ),
+    "v2.5.6-sol-high-no-reader": PromptProfile(
+        name="v2.5.6-sol-high-no-reader",
+        layer="ayah",
+        title="Ablation Profile — 5.6 Sol High, No Reader-Derived Evidence",
+        body="""This ablation tests whether the current default `5.6-sol-high` prose lane can
+produce useful commentary from lexical, grammatical, and relation data after
+reader-derived material has been deliberately removed.
+
+This profile supersedes every instruction that requires reader-derived sources.
+Do not infer or simulate:
+
+- per-ayah focus reader responses;
+- staged before/after reveal trajectories;
+- reader walks;
+- retrospective surprises;
+- whole-surah Turkish reader synthesis;
+- first-pass channel-review connections.
+
+If those fields are absent because of ablation, report the absence in evidence
+coverage and friction, not in prose.
+
+Write a different kind of output from the normal focus run: a lexical-grammar
+commentary anchored in the ayah's own words. Use only the remaining bundle
+evidence: Quran surface, QAC, `word_morpheme_spans`, `word_analysis`, branch
+inventories, dictionary entries, gloss records, and inter-ayah rows. Later ayahs
+may illuminate the focus ayah only when that link is carried by non-reader data
+inside `inter_ayah_rows` or by the ayah's own lexical field.
+
+Keep the normal v2 reader-facing controls: structured Arabic spans at first
+mention, no raw roots in prose, positive predication, no wrapper label in prose,
+and every paragraph with one clear reader payoff. Because the late-arriving
+reader trajectory is removed, prefer a tighter commentary over compensating
+with speculative breadth.""",
+    ),
+}
+
+
+# ---------------------------------------------------------------------------
 # Assembly
 # ---------------------------------------------------------------------------
 
@@ -149,6 +399,7 @@ def build_prompt(
     ayah: int | None,
     language: str,
     run_date: str,
+    profile: PromptProfile | None = None,
 ) -> tuple[str, dict]:
     """Return (assembled prompt text, manifest dict) for one unit."""
 
@@ -252,7 +503,10 @@ def build_prompt(
     lines.append("")
     lines.append(
         f"Write in {language}. Produce your response as three parts, in this "
-        "order, and label each clearly:"
+        "order. If you return one combined response, label the parts clearly. "
+        "If an orchestrator asks you to write the parts into separate files, "
+        "omit wrapper labels from the prose and evidence files; the file path "
+        "already supplies the label."
     )
     lines.append("")
     lines.append(
@@ -281,6 +535,14 @@ def build_prompt(
     )
     lines.append("")
 
+    if profile is not None:
+        lines.append("---")
+        lines.append("")
+        lines.append(f"## {profile.title}")
+        lines.append("")
+        lines.append(profile.body.rstrip("\n"))
+        lines.append("")
+
     prompt_text = "\n".join(lines).rstrip("\n") + "\n"
 
     manifest = {
@@ -289,6 +551,7 @@ def build_prompt(
         "layer": layer.name,
         "language": language,
         "generated": run_date,
+        "profile": profile.name if profile is not None else None,
         "task_document": {
             "path": layer.task_prompt_rel,
             "bytes": len(task_text.encode("utf-8")),
@@ -299,6 +562,7 @@ def build_prompt(
         "bundle_files": [
             {"path": label, "bytes": len(text.encode("utf-8"))} for label, _, text in bundles
         ],
+        "bundle_root": str(BUNDLES_DIR),
         "output_bytes": len(prompt_text.encode("utf-8")),
     }
 
@@ -324,6 +588,19 @@ def main() -> None:
     parser.add_argument("--language", default="tr")
     parser.add_argument("--out", type=Path, default=None)
     parser.add_argument(
+        "--bundles-dir",
+        type=Path,
+        default=None,
+        help="Bundle root containing s{NNN}/ directories. Defaults to ./bundles.",
+    )
+    parser.add_argument(
+        "--profile",
+        choices=sorted(PROMPT_PROFILES),
+        default=None,
+        help="Optional prompt rendering profile. The profile name is appended "
+        "to the output filename before `.prompt.md`.",
+    )
+    parser.add_argument(
         "--date",
         default=None,
         help="Generation date stamped in the header (YYYY-MM-DD). Defaults to "
@@ -331,11 +608,21 @@ def main() -> None:
     )
     args = parser.parse_args()
 
+    global BUNDLES_DIR
+    if args.bundles_dir is not None:
+        BUNDLES_DIR = args.bundles_dir
+
     layer = LAYER_REGISTRY[args.layer]
+    profile = PROMPT_PROFILES[args.profile] if args.profile else None
     run_date = args.date or date.today().isoformat()
 
     if not layer.per_ayah and args.ayah is not None:
         raise SystemExit(f"error: --layer {layer.name} does not take --ayah")
+    if profile is not None and profile.layer != layer.name:
+        raise SystemExit(
+            f"error: profile {profile.name!r} is for layer {profile.layer!r}, "
+            f"not {layer.name!r}"
+        )
 
     out_dir = args.out or (DEFAULT_OUT_ROOT / f"s{args.surah:03d}")
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -345,12 +632,19 @@ def main() -> None:
     else:
         ayahs = [None]
 
-    print(f"instantiate.py — surah {args.surah}, layer {layer.name}, language {args.language}, date {run_date}")
+    profile_note = f", profile {profile.name}" if profile else ""
+    print(
+        f"instantiate.py — surah {args.surah}, layer {layer.name}, "
+        f"language {args.language}, date {run_date}{profile_note}"
+    )
     for ayah in ayahs:
-        prompt_text, manifest = build_prompt(layer, args.surah, ayah, args.language, run_date)
+        prompt_text, manifest = build_prompt(
+            layer, args.surah, ayah, args.language, run_date, profile
+        )
         stem = layer.output_stem(args.surah, ayah)
-        prompt_path = out_dir / f"{stem}.prompt.md"
-        manifest_path = out_dir / f"{stem}.manifest.json"
+        output_stem = f"{stem}.{profile.name}" if profile else stem
+        prompt_path = out_dir / f"{output_stem}.prompt.md"
+        manifest_path = out_dir / f"{output_stem}.manifest.json"
 
         prompt_path.write_text(prompt_text, encoding="utf-8")
         manifest["output_file"] = prompt_path.name

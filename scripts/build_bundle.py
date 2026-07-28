@@ -13,6 +13,24 @@ Usage:
 Standard library only, with one exception: `.zst` files are decompressed by
 shelling out to the `zstd` binary (the `zstandard` pip package is not assumed
 to be installed). `.gz` files are decompressed with the stdlib `gzip` module.
+
+Every source this script reads now lives under a single root:
+`/Volumes/OZTURK/_projects/quran-data/data/` (see QURAN_DATA below). There is
+no longer a `latent_activation` or `quran-slm` sibling root.
+
+Before building anything, `preflight()` enumerates every expected source for
+the requested surah/ayah and prints a table of present/missing sources,
+aborting only if a REQUIRED source is missing. This is deliberate: two
+sources have previously failed *silently* in production —
+  (1) branch_inventories returning `{}` for surahs with no per-ayah focus run
+      and no readable surah-level fallback packet (exit 0, no error), and
+  (2) a zero-padding mismatch in a whole-surah-reading filename glob that
+      silently dropped roughly half of the existing whole-surah readings.
+Both classes of bug must be impossible to reproduce here: any source that is
+*found but yields nothing parseable* must never collapse into the same
+signal as "source absent" — see the whole-surah-reading and reader-walk
+loaders below for the three-state (absent / parsed / found-but-unparsed)
+distinction this requires.
 """
 
 from __future__ import annotations
@@ -26,36 +44,48 @@ import sqlite3
 import subprocess
 import sys
 import tempfile
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
-# Repo layout
+# Repo layout — single source root
 # ---------------------------------------------------------------------------
 
 SCRIPT_PATH = Path(__file__).resolve()
 PROSE_GEN_ROOT = SCRIPT_PATH.parent.parent          # .../prose_generation
-SIBLING_ROOT = PROSE_GEN_ROOT.parent                # .../_projects
+PROJECTS_ROOT = PROSE_GEN_ROOT.parent               # .../_projects
 
-QURAN_DATA = SIBLING_ROOT / "quran-data" / "data"
-LATENT_ACTIVATION = SIBLING_ROOT / "latent_activation"
-QURAN_SLM = SIBLING_ROOT / "quran-slm"
+QURAN_DATA = PROJECTS_ROOT / "quran-data" / "data"
 
 QURAN_TEXT_TSV = QURAN_DATA / "text" / "quran-uthmani.tsv"
 WORD_ANALYSIS_DIR = QURAN_DATA / "analysis" / "word-analysis"
 QAC_SQLITE_GZ = QURAN_DATA / "morphology" / "qac.sqlite.gz"
 
-V12_RUNS_DIR = LATENT_ACTIVATION / "v12" / "runs"
-NETWORK_V3_REVIEWS_DIR = LATENT_ACTIVATION / "network" / "v3" / "reviews"
-INTER_AYAH_DIR = QURAN_SLM / "inter-ayah" / "outputs"
+V12_TR_DIR = QURAN_DATA / "analysis" / "ayah-activation" / "v12-tr"
+V12_TR_11AYAH_DIR = QURAN_DATA / "analysis" / "ayah-activation" / "v12-tr-11ayah"
+V12_CROSS_RUN_TR_DIR = QURAN_DATA / "analysis" / "ayah-activation" / "v12-cross-run" / "tr"
+NETWORK_V3_DIR = QURAN_DATA / "analysis" / "channels" / "network-v3"
+PERICOPES_PATH = NETWORK_V3_DIR / "pericopes" / "surah_pericopes.jsonl"
+INTER_AYAH_DIR = QURAN_DATA / "analysis" / "inter-ayah"
+DICTIONARY_TR_DIR = QURAN_DATA / "dictionary" / "tr"
+GLOSSES_TR_DIR = QURAN_DATA / "translation" / "glosses" / "locales" / "tr"
 
 ZSTD_CANDIDATES = ["/opt/homebrew/bin/zstd", "zstd"]
 
 QUARANTINED_DIR_NAMES = {"pilot_invalid_prompt_leak"}
 KNOWN_VARIANT_DIR_NAMES = {"left_first", "right_first"}
+USE_PER_AYAH_FOCUS_RUNS = False
 
-BUNDLE_SCHEMA_VERSION = "input-bundle-v1"
-SURAH_BUNDLE_SCHEMA_VERSION = "input-bundle-surah-v1"
+BUNDLE_SCHEMA_VERSION = "input-bundle-v3"
+SURAH_BUNDLE_SCHEMA_VERSION = "input-bundle-surah-v3"
+
+
+def relpath(path: Path) -> str:
+    """Relative-ize a path against PROJECTS_ROOT for embedding in bundles
+    (e.g. 'quran-data/data/analysis/...'), so provenance strings are stable
+    regardless of where this checkout happens to live."""
+    return str(path.relative_to(PROJECTS_ROOT))
 
 
 # ---------------------------------------------------------------------------
@@ -205,15 +235,271 @@ def _variant_dirs(focus_dir: Path) -> dict:
     return {"default": focus_dir}
 
 
-def _load_branch_inventories_fallback(surah: int, ayah: int, focus_dir: Path) -> tuple:
+# --- branch-inventory scoping (surah-scope fallback only) -------------------
+#
+# Citation forms found in real network-v3 review material (verified by scanning
+# all 110 reader_a_pilot.md files corpus-wide -- do not narrow these without
+# re-running that scan):
+#
+#   `ت ب ب:B001/m01`              arabic root, backticked   12,018 hits / 31 surahs
+#   `quranic:root_000076:B007/m01` root_id, backticked      37,927 hits / 67 surahs
+#   (ق د ر:B005/m01)              arabic root, NOT backticked  723 hits / 3 surahs
+#
+# The root_id form is the MOST common corpus-wide even though S1/S100/S103 --
+# the surahs used for verification -- happen to contain only the arabic form.
+# Handling only the arabic form would pass every specified test while silently
+# dropping citations for 67 surahs; that is the exact failure class this
+# builder is meant to preclude.
+_CITE_AR_BACKTICK = re.compile(r"`([ء-ي](?:\s+[ء-ي])*)\s*:\s*(B\d+)(?:/(m\d+))?`")
+_CITE_ID_BACKTICK = re.compile(r"`quranic:(root_\d+):(B\d+)(?:/(m\d+))?`")
+_CITE_AR_BARE = re.compile(r"([ء-ي](?:\s+[ء-ي])*)\s*:\s*(B\d+)(?:/(m\d+))?")
+_BACKTICK_SPAN = re.compile(r"`[^`]*`")
+
+
+def normalize_root(root: str) -> str:
+    """Join key for root strings. Inventory roots and qac_morphemes.root_ar are
+    both space-separated (`'ق د ح'`) and in current data compare equal without
+    normalisation -- verified across all 114 surahs: naive equality and
+    space-stripped equality select the identical root set everywhere, and the
+    join is non-empty for every surah. Spaces are stripped anyway so a future
+    upstream spacing change degrades to a still-correct join rather than a
+    silent zero-match."""
+    if not root:
+        return ""
+    return unicodedata.normalize("NFC", root).replace(" ", "").strip()
+
+
+def extract_channel_citations(channel_blocks: list) -> tuple:
+    """Scans every string field of the channel subchannel records anchored at
+    this ayah for `root:branch` citations, in all three observed forms.
+
+    Returns (by_arabic_root, by_root_id, raw_tokens) where the first two are
+    {normalized_key: set(branch_id)}. Every string field is scanned rather
+    than only `active_motifs`: corpus-wide the tokens also appear in
+    `ayah anchors` (33) and `synthesis` (1), and s002 carries 302 of them in
+    an `active bridge motifs` field. Scanning all fields costs nothing and
+    removes the need to keep a field allowlist in sync with upstream."""
+    by_ar, by_id, raw = {}, {}, set()
+    for block in channel_blocks or []:
+        for value in block.values():
+            if not isinstance(value, str) or not value:
+                continue
+            for m in _CITE_ID_BACKTICK.finditer(value):
+                by_id.setdefault(m.group(1), set()).add(m.group(2))
+                raw.add(m.group(0).strip("`"))
+            for m in _CITE_AR_BACKTICK.finditer(value):
+                by_ar.setdefault(normalize_root(m.group(1)), set()).add(m.group(2))
+                raw.add(m.group(0).strip("`"))
+            # Bare tokens: only look outside backticked spans, so the two
+            # backticked forms above are not re-matched here.
+            outside = _BACKTICK_SPAN.sub("", value)
+            for m in _CITE_AR_BARE.finditer(outside):
+                by_ar.setdefault(normalize_root(m.group(1)), set()).add(m.group(2))
+                raw.add(m.group(0))
+    return by_ar, by_id, raw
+
+
+def _entry_root_ids(entry: dict) -> set:
+    out = set()
+    for branch in entry.get("branches", []) or []:
+        for variant in branch.get("variants", []) or []:
+            if variant.get("root_id"):
+                out.add(variant["root_id"])
+    return out
+
+
+def scope_branch_inventories_to_ayah(branch_inventories: list, qac_rows: list,
+                                      channel_blocks: list, ayah_ref: str) -> tuple:
+    """Narrows a SURAH-scope branch inventory to what this ayah can justify.
+
+    An inventory entry is retained if EITHER:
+      (a) its root occurs in this ayah (from qac_morphemes[].root_ar) -- in
+          which case EVERY branch is kept, unconditionally; or
+      (b) it is explicitly cited by channel material anchored at this ayah --
+          in which case only the specifically cited branches are kept.
+    An entry admitted by both keeps all branches, per (a).
+
+    Rule (a) keeps every branch on purpose. Layer 2 selects nothing
+    (PRINCIPLES.md §3, §6): the non-activated branches of a root that is
+    present in the ayah are the latent field the project exists to surface.
+    Filtering them by activation or V12 strength would perform disambiguation
+    invisibly and irreversibly, so no relevance signal is consulted here.
+
+    Returns (scoped_inventories, report)."""
+    ayah_roots = set()
+    for row in qac_rows or []:
+        key = normalize_root(row.get("root_ar") or "")
+        if key:
+            ayah_roots.add(key)
+
+    cited_ar, cited_id, raw_tokens = extract_channel_citations(channel_blocks)
+
+    retained, retained_meta = [], []
+    dropped_roots = []
+    matched_cite_ar, matched_cite_id = set(), set()
+
+    for entry in branch_inventories:
+        root = entry.get("root")
+        root_key = normalize_root(root or "")
+        entry_ids = _entry_root_ids(entry)
+        in_ayah = bool(root_key) and root_key in ayah_roots
+
+        cited_branches = set(cited_ar.get(root_key, set()))
+        if root_key in cited_ar:
+            matched_cite_ar.add(root_key)
+        for rid in entry_ids:
+            if rid in cited_id:
+                cited_branches |= cited_id[rid]
+                matched_cite_id.add(rid)
+
+        if in_ayah:
+            retained.append(entry)
+            retained_meta.append({
+                "root": root,
+                "rule": "in_ayah",
+                "branches_kept": len(entry.get("branches", []) or []),
+                "branches_total": len(entry.get("branches", []) or []),
+            })
+        elif cited_branches:
+            kept = [b for b in (entry.get("branches") or [])
+                    if b.get("branch_id") in cited_branches]
+            if not kept:
+                # Root is cited but none of the cited branch ids exist on it.
+                dropped_roots.append(root)
+                continue
+            retained.append({**entry, "branches": kept})
+            retained_meta.append({
+                "root": root,
+                "rule": "cited_by_channel",
+                "branches_kept": len(kept),
+                "branches_total": len(entry.get("branches", []) or []),
+                "cited_branch_ids": sorted(cited_branches),
+            })
+        else:
+            dropped_roots.append(root)
+
+    if not retained:
+        raise RequiredSourceMissing(
+            f"branch-inventory scoping retained ZERO roots for {ayah_ref}: the "
+            f"root join failed. ayah roots from qac_morphemes={sorted(ayah_roots)}; "
+            f"inventory roots={[e.get('root') for e in branch_inventories][:10]}"
+        )
+
+    # Citations naming a root that is absent from the surah inventory entirely
+    # were already unresolvable BEFORE scoping; recording them keeps that
+    # pre-existing gap visible instead of letting scoping appear to cause it.
+    unresolvable = sorted(
+        [f"{k}:{b}" for k in set(cited_ar) - matched_cite_ar for b in sorted(cited_ar[k])] +
+        [f"{k}:{b}" for k in set(cited_id) - matched_cite_id for b in sorted(cited_id[k])]
+    )
+
+    report = {
+        "applied": True,
+        "roots_total": len(branch_inventories),
+        "roots_retained": len(retained),
+        "roots_dropped": len(dropped_roots),
+        "retained": retained_meta,
+        "dropped_roots": dropped_roots,
+        "ayah_roots_from_qac": sorted(ayah_roots),
+        "channel_citations_found": len(raw_tokens),
+        "citations_unresolvable_in_surah_inventory": unresolvable,
+        "note": (
+            "SCOPED, NOT ABSENT. The surah-scope fallback inventory covers every "
+            "root in the surah; it is narrowed here to roots this ayah can "
+            "justify -- roots occurring in this ayah (all their branches kept, "
+            "unconditionally, because Layer 2 selects nothing) plus roots "
+            "explicitly cited by channel material anchored here (only the cited "
+            "branches kept, enough to resolve the citation). A root listed in "
+            "dropped_roots is a deliberate scoping decision, not a missing source."
+        ),
+    }
+    return retained, report
+
+
+def augment_focus_inventory_with_citations(surah: int, focus_inventories: list,
+                                            channel_blocks: list) -> tuple:
+    """ADDITIVE-ONLY rule (b) for the focus-scoped path.
+
+    A focus stage_00 packet covers only the focus ayah's own roots, but channel
+    material anchored at that ayah legitimately cites roots from elsewhere in
+    the surah (verified: 100:1's committed baseline bundle carried 18 such
+    citations with no referent). This pulls the cited referents in from the
+    surah packet and REMOVES NOTHING, so the focus path stays exactly as narrow
+    as it was while its citations resolve.
+
+    Returns (augmented_inventories, report)."""
+    if not channel_blocks:
+        return focus_inventories, {"applied": False, "note": "no channel blocks anchored here"}
+
+    packet_path = V12_TR_DIR / f"s{surah:03d}" / "full_context_packet.json"
+    if not packet_path.exists():
+        return focus_inventories, {
+            "applied": False,
+            "note": f"no surah packet at {packet_path} to resolve citations from",
+        }
+
+    cited_ar, cited_id, _ = extract_channel_citations(channel_blocks)
+    if not cited_ar and not cited_id:
+        return focus_inventories, {"applied": False, "note": "no root:branch citations found"}
+
+    present = {normalize_root(e.get("root") or "") for e in focus_inventories}
+    surah_inv = json.loads(packet_path.read_text(encoding="utf-8")).get("branch_inventories", [])
+
+    added, added_meta = [], []
+    for entry in surah_inv:
+        root_key = normalize_root(entry.get("root") or "")
+        if root_key in present:
+            continue  # already carried by the focus packet; never modified
+        branch_ids = set(cited_ar.get(root_key, set()))
+        for rid in _entry_root_ids(entry):
+            if rid in cited_id:
+                branch_ids |= cited_id[rid]
+        if not branch_ids:
+            continue
+        kept = [b for b in (entry.get("branches") or [])
+                if b.get("branch_id") in branch_ids]
+        if not kept:
+            continue
+        added.append({**entry, "branches": kept})
+        added_meta.append({
+            "root": entry.get("root"),
+            "rule": "cited_by_channel",
+            "branches_kept": len(kept),
+            "branches_total": len(entry.get("branches", []) or []),
+            "cited_branch_ids": sorted(branch_ids),
+        })
+
+    if not added:
+        return focus_inventories, {"applied": False, "note": "no unresolved citations to add"}
+
+    return focus_inventories + added, {
+        "applied": True,
+        "roots_added": len(added),
+        "added": added_meta,
+        "note": (
+            "ADDITIVE ONLY. The focus packet's own roots are untouched; these "
+            "extra roots were appended solely so that `root:branch` citations "
+            "made by channel material anchored at this ayah have their referent "
+            "present. Only the specifically cited branches are included."
+        ),
+    }
+
+
+def _load_branch_inventories_fallback(surah: int, ayah: int, focus_dir: Path,
+                                       qac_rows: list = None,
+                                       channel_blocks: list = None) -> tuple:
     """Surah-scope fallback for branch inventories.
 
     `full_context_packet.json` exists for all 114 surahs and carries the same
     `branch_inventories` list. Its scope differs from a stage_00 focus packet:
     it covers every root in the surah, not only this ayah's roots, and it is
     not staged (no before/neighbour-revealed distinction). Both facts are
-    recorded in coverage so the writer can state them."""
-    packet_path = V12_RUNS_DIR / f"s{surah:03d}" / "full_context_packet.json"
+    recorded in coverage so the writer can state them.
+
+    When `qac_rows` is supplied the inventory is scoped to this ayah (see
+    scope_branch_inventories_to_ayah). Preflight calls this without qac_rows
+    purely to check presence, and must not pay for or be affected by scoping."""
+    packet_path = V12_TR_DIR / f"s{surah:03d}" / "full_context_packet.json"
     if not packet_path.exists():
         raise RequiredSourceMissing(
             f"branch_inventories unavailable for {surah}:{ayah}: no focus dir at "
@@ -225,13 +511,19 @@ def _load_branch_inventories_fallback(surah: int, ayah: int, focus_dir: Path) ->
         raise RequiredSourceMissing(
             f"branch_inventories empty for {surah}:{ayah} in {packet_path}"
         )
+    scoping_report = {"applied": False, "note": "not scoped (presence check only)"}
+    if qac_rows is not None:
+        branch_inventories, scoping_report = scope_branch_inventories_to_ayah(
+            branch_inventories, qac_rows, channel_blocks, f"{surah}:{ayah}"
+        )
+
     variant = {
-        "source_file": str(packet_path.relative_to(SIBLING_ROOT)),
+        "source_file": relpath(packet_path),
         "branch_inventories": branch_inventories,
     }
     coverage = {
         "present": True,
-        "scope": "surah",
+        "scope": "surah-fallback-scoped-to-ayah" if scoping_report["applied"] else "surah",
         "variants": {
             "full_context_packet": {
                 "present": True,
@@ -241,24 +533,35 @@ def _load_branch_inventories_fallback(surah: int, ayah: int, focus_dir: Path) ->
                 },
                 "missing_branch_inventories": packet.get("missing_branch_inventories", []),
                 "note": (
-                    "surah-scope fallback: no per-ayah focus run exists, so this "
-                    "covers every root in the surah rather than only this ayah's "
-                    "roots, and carries no staged reveal order"
+                    "surah-scope fallback: the default commentary workflow does "
+                    "not consume per-ayah focus packets, so the source packet is "
+                    "scoped by this builder to roots this ayah can justify and "
+                    "carries no staged reveal order"
                 ),
             }
         },
+        "scoping": scoping_report,
     }
     return {"full_context_packet": variant}, coverage
 
 
-def load_v12_branch_inventories(surah: int, ayah: int) -> tuple:
+def load_v12_branch_inventories(surah: int, ayah: int, qac_rows: list = None,
+                                 channel_blocks: list = None) -> tuple:
     """Returns (variants_dict, coverage_dict).
 
     variants_dict: {variant_name: {"stage_00_file": relpath, "roots": [...]}}
     roots come verbatim from branch_inventories in the stage_00_*.json packet
     (the packet is scoped to the focus ayah's own roots at stage 0, before any
-    neighbour is revealed)."""
-    focus_dir = V12_RUNS_DIR / f"s{surah:03d}" / f"focus_{surah}_{ayah}"
+    neighbour is revealed).
+
+    The focus-scoped path is already narrow and is returned untouched. Only the
+    surah-scope fallback is narrowed, and only when `qac_rows` is supplied."""
+    focus_dir = V12_TR_DIR / f"s{surah:03d}" / f"focus_{surah}_{ayah}"
+    if not USE_PER_AYAH_FOCUS_RUNS:
+        return _load_branch_inventories_fallback(
+            surah, ayah, focus_dir, qac_rows, channel_blocks
+        )
+
     variants = _variant_dirs(focus_dir)
     out = {}
     coverage = {"present": False, "variants": {}}
@@ -267,7 +570,9 @@ def load_v12_branch_inventories(surah: int, ayah: int) -> tuple:
         # (a method-development pilot). The surah-scope full_context_packet.json
         # carries the same branch_inventories structure for all 114 surahs, so
         # fall back to it rather than emitting a bundle with no latent material.
-        return _load_branch_inventories_fallback(surah, ayah, focus_dir)
+        return _load_branch_inventories_fallback(
+            surah, ayah, focus_dir, qac_rows, channel_blocks
+        )
 
     for variant_name, vdir in variants.items():
         stage_00_matches = sorted(vdir.glob("stage_00_*.json"))
@@ -280,8 +585,12 @@ def load_v12_branch_inventories(surah: int, ayah: int) -> tuple:
         stage_00_path = stage_00_matches[0]
         packet = json.loads(stage_00_path.read_text(encoding="utf-8"))
         branch_inventories = packet.get("branch_inventories", [])
+        branch_inventories, aug_report = augment_focus_inventory_with_citations(
+            surah, branch_inventories, channel_blocks
+        )
+        coverage["citation_augmentation"] = aug_report
         out[variant_name] = {
-            "stage_00_file": str(stage_00_path.relative_to(SIBLING_ROOT)),
+            "stage_00_file": relpath(stage_00_path),
             "branch_inventories": branch_inventories,
         }
         coverage["variants"][variant_name] = {
@@ -295,7 +604,15 @@ def load_v12_branch_inventories(surah: int, ayah: int) -> tuple:
 
     if not out:
         # Focus dir exists but no variant carries a stage_00 packet.
-        return _load_branch_inventories_fallback(surah, ayah, focus_dir)
+        return _load_branch_inventories_fallback(
+            surah, ayah, focus_dir, qac_rows, channel_blocks
+        )
+    # Focus-scoped packets are already ayah-scoped upstream; left untouched.
+    coverage["scope"] = "focus"
+    coverage["scoping"] = {
+        "applied": False,
+        "note": "focus-scoped stage_00 packet is already narrow; scoping not applied",
+    }
     return out, coverage
 
 
@@ -305,7 +622,19 @@ def load_v12_reader_responses(surah: int, ayah: int) -> tuple:
 
     variants_dict: {variant_name: {reader_id: {"stage_00": {...}, ...}}}
     """
-    focus_dir = V12_RUNS_DIR / f"s{surah:03d}" / f"focus_{surah}_{ayah}"
+    focus_dir = V12_TR_DIR / f"s{surah:03d}" / f"focus_{surah}_{ayah}"
+    if not USE_PER_AYAH_FOCUS_RUNS:
+        return {}, {
+            "present": False,
+            "variants": {},
+            "note": (
+                "Per-ayah focus-run reader responses are retired from the "
+                "default commentary workflow. Use regular reader walks, "
+                "plus/minus-5 reader walks, and cross-run publication findings "
+                "for corpus-wide reader-derived evidence."
+            ),
+        }
+
     variants = _variant_dirs(focus_dir)
     out = {}
     coverage = {"present": False, "variants": {}}
@@ -350,9 +679,12 @@ def load_v12_reader_responses(surah: int, ayah: int) -> tuple:
 # Source: v12 reader ayah walks (markdown)
 # ---------------------------------------------------------------------------
 
-_H1_RE = re.compile(r"^#\s+(.*)$")
-_H2_RE = re.compile(r"^##\s+(\d+:\d+)\s+—\s*(.*)$")
-_H3_RE = re.compile(r"^###\s+(.*)$")
+_WALK_H1_RE = re.compile(r"^#\s+(.*)$")
+# Accepts em dash, en dash, plain hyphen, or colon as the ref/title separator.
+# S011, S049, S084's reader_a walk files use a plain hyphen; the original
+# em-dash-only pattern silently treated every ayah in those files as absent.
+_WALK_H2_RE = re.compile(r"^##\s+(\d+:\d+)\s*(?:[—–-]|:)\s*(.*)$")
+_WALK_H3_RE = re.compile(r"^###\s+(.*)$")
 
 
 def parse_ayah_walk_markdown(text: str) -> dict:
@@ -372,17 +704,17 @@ def parse_ayah_walk_markdown(text: str) -> dict:
     n = len(lines)
     while i < n:
         line = lines[i]
-        m1 = _H1_RE.match(line)
+        m1 = _WALK_H1_RE.match(line)
         if m1:
             current_h1 = m1.group(1).strip()
             i += 1
             continue
-        m2 = _H2_RE.match(line)
+        m2 = _WALK_H2_RE.match(line)
         if m2:
             ayah_ref = m2.group(1)
             block_start = i + 1
             j = block_start
-            while j < n and not _H1_RE.match(lines[j]) and not _H2_RE.match(lines[j]):
+            while j < n and not _WALK_H1_RE.match(lines[j]) and not _WALK_H2_RE.match(lines[j]):
                 j += 1
             block_lines = lines[block_start:j]
             entry = out.setdefault(
@@ -401,7 +733,7 @@ def parse_ayah_walk_markdown(text: str) -> dict:
                 sub_start = None
                 sub_title = None
                 for bi, bl in enumerate(block_lines):
-                    m3 = _H3_RE.match(bl)
+                    m3 = _WALK_H3_RE.match(bl)
                     if m3:
                         if sub_title is not None:
                             content = "\n".join(block_lines[sub_start:bi]).strip()
@@ -427,25 +759,51 @@ def _assign_walk_subsection(entry: dict, title: str, content: str) -> None:
         entry.setdefault("other_sections", {})[title] = content
 
 
-def load_v12_reader_walks(surah: int, ayah: int) -> tuple:
+def load_v12_reader_walks(
+    surah: int,
+    ayah: int,
+    source_dir: Path = V12_TR_DIR,
+    source_label: str = "v12 reader walks",
+) -> tuple:
     """Returns (dict, coverage_dict) for every reader_s{NNN}_{a,b}_ayah_walk.md
-    found for this surah, restricted to this ayah's block."""
-    control_dir = V12_RUNS_DIR / f"s{surah:03d}" / "full_context_control"
+    found for this surah, restricted to this ayah's block.
+
+    A walk file that exists but yields zero recognised `## ref — ...`
+    headings at all is a *format* failure, not a per-ayah absence, and is
+    reported as a distinct coverage state ("present": False with
+    "zero_headings_parsed": True) rather than being silently indistinguishable
+    from "this ayah's heading isn't in an otherwise-normal file"."""
+    control_dir = source_dir / f"s{surah:03d}" / "full_context_control"
     ayah_ref = f"{surah}:{ayah}"
     out = {}
     coverage = {"present": False, "readers": {}}
     if not control_dir.exists():
-        coverage["note"] = f"full_context_control dir not found: {control_dir}"
+        coverage["note"] = f"{source_label}: full_context_control dir not found: {control_dir}"
         return out, coverage
 
     walk_files = sorted(control_dir.glob(f"reader_s{surah:03d}_*_ayah_walk.md"))
     for wf in walk_files:
         m = re.search(r"reader_s\d+_([a-z])_ayah_walk\.md$", wf.name)
         reader_label = f"reader_{m.group(1)}" if m else wf.stem
-        parsed = parse_ayah_walk_markdown(wf.read_text(encoding="utf-8"))
+        raw_text = wf.read_text(encoding="utf-8")
+        parsed = parse_ayah_walk_markdown(raw_text)
+        if not parsed and raw_text.strip():
+            # File found, non-empty, but zero `## ref — ...` headings matched:
+            # a format failure, never to be reported the same as "absent".
+            print(
+                f"WARNING: {wf} found but 0 ayah headings were recognised in it "
+                f"(unrecognised format) -- treating as unparsed, not absent.",
+                file=sys.stderr,
+            )
+            coverage["readers"][reader_label] = {
+                "present": False,
+                "zero_headings_parsed": True,
+                "note": f"{wf.name} found but zero ayah headings recognised (unrecognised format)",
+            }
+            continue
         if ayah_ref in parsed:
             out[reader_label] = parsed[ayah_ref]
-            out[reader_label]["source_file"] = str(wf.relative_to(SIBLING_ROOT))
+            out[reader_label]["source_file"] = relpath(wf)
             coverage["readers"][reader_label] = {"present": True, "source_file": out[reader_label]["source_file"]}
             coverage["present"] = True
         else:
@@ -454,59 +812,255 @@ def load_v12_reader_walks(surah: int, ayah: int) -> tuple:
                 "note": f"{ayah_ref} heading not found in {wf.name}",
             }
     if not walk_files:
-        coverage["note"] = f"no reader_s{surah:03d}_*_ayah_walk.md files found"
+        coverage["note"] = f"{source_label}: no reader_s{surah:03d}_*_ayah_walk.md files found"
     return out, coverage
+
+
+def load_v12_cross_run_publication(surah: int, ayah: int) -> tuple:
+    """Returns (row_dict_or_none, coverage_dict) for the compact final
+    v12-cross-run publication findings for this ayah.
+
+    This source is reader-derived and reconciled across regular and +/-5
+    readers upstream, so it is kept separate from the raw reader-walk fields.
+    The bundle only carries the requested ayah's row, not the full surah file."""
+    path = V12_CROSS_RUN_TR_DIR / f"{surah}_ayah_findings_publication.json"
+    ayah_ref = f"{surah}:{ayah}"
+    coverage = {"present": False, "source_file": None}
+    if not path.exists():
+        coverage["note"] = f"no v12 cross-run publication file at {path}"
+        return None, coverage
+
+    data = json.loads(path.read_text(encoding="utf-8"))
+    row = None
+    for candidate in data.get("ayat", []) or []:
+        if candidate.get("ayah_ref") == ayah_ref:
+            row = candidate
+            break
+
+    coverage["source_file"] = relpath(path)
+    coverage["protocol"] = data.get("protocol")
+    coverage["language"] = data.get("language")
+    if row is None:
+        coverage["note"] = f"{ayah_ref} not found in {path.name}"
+        return None, coverage
+
+    findings = row.get("findings", []) or []
+    grade_counts = {}
+    for finding in findings:
+        grade = finding.get("grade") or "(missing)"
+        grade_counts[grade] = grade_counts.get(grade, 0) + 1
+
+    coverage.update({
+        "present": True,
+        "finding_count": len(findings),
+        "grade_counts": grade_counts,
+        "note": (
+            "Compact final cross-run findings for this ayah, reconciled "
+            "upstream from regular and plus/minus-5 reader runs; use as a "
+            "coverage/priority check, not as replacement prose."
+        ),
+    })
+    return {
+        "source_file": relpath(path),
+        "protocol": data.get("protocol"),
+        "language": data.get("language"),
+        "surah": data.get("surah"),
+        "ayah_ref": row.get("ayah_ref"),
+        "baseline": row.get("baseline"),
+        "findings": findings,
+    }, coverage
 
 
 # ---------------------------------------------------------------------------
 # Source: whole-surah reading (butuncul-okuma.md)
 # ---------------------------------------------------------------------------
 
-_BUTUNCUL_LINE_RE = re.compile(r"^\*\*(\d+:\d+)\.\*\*\s+(.*)$")
+# Three observed per-ayah marker formats across the corpus (verified against
+# all 30 *-butuncul-okuma.md files):
+#   BOLD: **103:1.** <arabic> — <turkish reading> {citations}   (27/30 files)
+#   H2:   ## 88:1 — <arabic>          (turkish reading + citations on
+#                                       following body line(s), S88)
+#   BARE: 87:1 — <turkish reading> {citations}   (no arabic; second S87
+#                                       reveal-order variant file)
+# S89 (89-0-30-butuncul-okuma.md) uses running prose with no per-ayah marker
+# at all in any of the three shapes; that file is a genuine "found but
+# unparseable" case (see load_butuncul_okuma).
+_BUTUNCUL_BOLD_RE = re.compile(r"^\*\*(\d+:\d+)\.\*\*\s+(.*)$")
+_BUTUNCUL_BARE_RE = re.compile(r"^(\d+:\d+)\s*[—–-]\s*(.*)$")
+_BUTUNCUL_H2_RE = re.compile(r"^##\s+(\d+:\d+)(?:\s*[—–-]\s*(.*))?$")
 _BUTUNCUL_BRACE_RE = re.compile(r"\{([^{}]*)\}\s*$")
+_BUTUNCUL_FILENAME_RE = re.compile(r"^(\d+)-(\d+)-(\d+)-butuncul-okuma\.md$")
+
+
+def _split_citations(raw: str) -> list:
+    """Root-citation lists are semicolon-separated when more than one root is
+    cited (every corpus file observed to use ';' does so consistently), but a
+    few surahs (e.g. S88) separate branches of a *single* root with commas
+    and never use ';' at all. Prefer ';' when present; otherwise fall back to
+    ',' so a single-root citation block doesn't collapse into one opaque
+    string. When neither separator is present the whole string is the one
+    citation (identical to the original strict-';' behaviour in that case)."""
+    raw = raw.strip()
+    if not raw:
+        return []
+    sep = ";" if ";" in raw else ","
+    return [c.strip() for c in raw.split(sep) if c.strip()]
+
+
+def parse_butuncul_document(text: str) -> tuple:
+    """Parses one *-butuncul-okuma.md file's full text, auto-detecting the
+    per-ayah marker format line by line (a single file is expected to use one
+    format consistently, but nothing here assumes that in a way that would
+    break mixed input). Returns (ayahRef -> parsed dict, meta dict) where meta
+    carries which format(s) fired and how many ayahs were recovered, so the
+    caller can tell "matched nothing" apart from "matched fine"."""
+    lines = text.splitlines()
+    out: dict = {}
+    formats_used: set = set()
+    n = len(lines)
+    i = 0
+    while i < n:
+        raw_line = lines[i]
+        stripped = raw_line.strip()
+
+        m_h2 = _BUTUNCUL_H2_RE.match(stripped)
+        if m_h2:
+            ref = m_h2.group(1)
+            arabic_text = (m_h2.group(2) or "").strip()
+            body_lines = []
+            j = i + 1
+            while j < n:
+                nxt = lines[j].strip()
+                if _BUTUNCUL_H2_RE.match(nxt) or _BUTUNCUL_BOLD_RE.match(nxt) or _BUTUNCUL_BARE_RE.match(nxt):
+                    break
+                body_lines.append(lines[j])
+                j += 1
+            body_text = "\n".join(body_lines).strip()
+            text_no_brace, citations = _extract_butuncul_braces(body_text)
+            reading_text = re.sub(r"^Birincil okuma[:,]?\s*", "", text_no_brace)
+            out[ref] = {
+                "raw_line": "\n".join([raw_line] + body_lines).strip(),
+                "arabic_text": arabic_text,
+                "reading_text_tr": reading_text.strip(),
+                "root_citations": citations,
+            }
+            formats_used.add("h2")
+            i = j
+            continue
+
+        m_bold = _BUTUNCUL_BOLD_RE.match(stripped)
+        m_bare = None if m_bold else _BUTUNCUL_BARE_RE.match(stripped)
+        m = m_bold or m_bare
+        if m:
+            ref = m.group(1)
+            rest = m.group(2)
+            if m_bold:
+                # "<arabic> — <turkish> {citations}"
+                arabic_text, sep, remainder = rest.partition(" — ")
+                if not sep:
+                    arabic_text, remainder = "", rest
+            else:
+                # bare format has no arabic segment at all: "<turkish> {citations}"
+                arabic_text, remainder = "", rest
+            text_no_brace, citations = _extract_butuncul_braces(remainder)
+            reading_text = re.sub(r"^Birincil okuma[:,]?\s*", "", text_no_brace)
+            out[ref] = {
+                "raw_line": stripped,
+                "arabic_text": arabic_text.strip(),
+                "reading_text_tr": reading_text.strip(),
+                "root_citations": citations,
+            }
+            formats_used.add("bold" if m_bold else "bare")
+            i += 1
+            continue
+
+        i += 1
+
+    fmt = "+".join(sorted(formats_used)) if formats_used else "none"
+    return out, {"format": fmt, "ayah_count_parsed": len(out)}
+
+
+def _extract_butuncul_braces(remainder: str) -> tuple:
+    root_citations = []
+    reading_text = remainder
+    brace_m = _BUTUNCUL_BRACE_RE.search(remainder)
+    if brace_m:
+        root_citations = _split_citations(brace_m.group(1))
+        reading_text = remainder[: brace_m.start()].strip()
+    return reading_text, root_citations
 
 
 def load_butuncul_okuma(surah: int) -> tuple:
-    """Returns (dict {ayahRef: parsed_line}, coverage_dict, file_path or None)."""
-    control_dir = V12_RUNS_DIR / f"s{surah:03d}" / "full_context_control"
-    # File names are inconsistently zero-padded upstream: S103 is
-    # `103-0-3-...` but S1 is `1-0-7-...` and S87-S99 are unpadded too.
-    # Globbing only the padded form silently dropped 15 of the 30 existing
-    # whole-surah readings, including S1 and S96.
-    patterns = {f"{surah:03d}-0-*-butuncul-okuma.md", f"{surah}-0-*-butuncul-okuma.md"}
-    matches = sorted(
-        {m for pattern in patterns for m in control_dir.glob(pattern)}
-    ) if control_dir.exists() else []
-    out = {}
-    coverage = {"present": False}
-    if not matches:
-        coverage["note"] = f"no *-0-*-butuncul-okuma.md for surah {surah} under {control_dir}"
-        return out, coverage, None
+    """Returns (dict {ayahRef: parsed_line}, coverage_dict, file_path or None).
 
-    path = matches[0]
-    text = path.read_text(encoding="utf-8")
-    for line in text.splitlines():
-        line = line.strip()
-        m = _BUTUNCUL_LINE_RE.match(line)
-        if not m:
-            continue
-        ayah_ref, rest = m.group(1), m.group(2)
-        arabic_text, _, remainder = rest.partition(" — ")
-        root_citations = []
-        brace_m = _BUTUNCUL_BRACE_RE.search(remainder)
-        reading_text = remainder
-        if brace_m:
-            root_citations = [c.strip() for c in brace_m.group(1).split(";") if c.strip()]
-            reading_text = remainder[: brace_m.start()].strip()
-        reading_text = re.sub(r"^Birincil okuma:\s*", "", reading_text)
-        out[ayah_ref] = {
-            "raw_line": line,
-            "arabic_text": arabic_text.strip(),
-            "reading_text_tr": reading_text.strip(),
-            "root_citations": root_citations,
-        }
+    Discovers ALL `*-butuncul-okuma.md` files for the surah regardless of
+    zero-padding or reveal-order index (S87 has two: reveal-order 0 and 1),
+    parses each independently, and — when more than one exists — picks the
+    reveal-order-0 file as canonical when it parsed successfully, falling
+    back to whichever file parsed the most ayahs. Every discovered file is
+    recorded in coverage['files_found']; none is silently dropped. A file
+    that is found but parses to zero ayahs (S89's running-prose format, which
+    matches none of the three known per-ayah marker shapes) is flagged
+    distinctly and never reported the same as "no file found"."""
+    control_dir = V12_TR_DIR / f"s{surah:03d}" / "full_context_control"
+    coverage = {"present": False}
+    if not control_dir.exists():
+        coverage["note"] = f"full_context_control dir not found: {control_dir}"
+        return {}, coverage, None
+
+    patterns = {f"{surah:03d}-*-*-butuncul-okuma.md", f"{surah}-*-*-butuncul-okuma.md"}
+    matches = sorted({m for pattern in patterns for m in control_dir.glob(pattern)})
+    if not matches:
+        coverage["note"] = f"no *-butuncul-okuma.md for surah {surah} under {control_dir}"
+        return {}, coverage, None
+
+    parsed_by_path = {}
+    files_found = []
+    for path in matches:
+        text = path.read_text(encoding="utf-8")
+        ayah_map, meta = parse_butuncul_document(text)
+        m = _BUTUNCUL_FILENAME_RE.match(path.name)
+        reveal_index = int(m.group(2)) if m else None
+        parsed_by_path[path] = (ayah_map, reveal_index, meta)
+        files_found.append({
+            "source_file": relpath(path),
+            "reveal_index": reveal_index,
+            "format_detected": meta["format"],
+            "ayah_count_parsed": meta["ayah_count_parsed"],
+        })
+        if not ayah_map:
+            print(
+                f"WARNING: {path} found but 0 ayah lines parsed from it "
+                f"(format_detected={meta['format']!r}) -- treating as unparsed, "
+                f"not absent.",
+                file=sys.stderr,
+            )
+
+    candidates = [p for p in matches if parsed_by_path[p][0]]
+    primary_path = None
+    if candidates:
+        zero_rev = [p for p in candidates if parsed_by_path[p][1] == 0]
+        pool = zero_rev if zero_rev else candidates
+        primary_path = sorted(pool, key=lambda p: -len(parsed_by_path[p][0]))[0]
+
+    out = parsed_by_path[primary_path][0] if primary_path else {}
     coverage["present"] = bool(out)
-    return out, coverage, path
+    coverage["files_found"] = files_found
+    if len(matches) > 1 or not out:
+        notes = []
+        if len(matches) > 1:
+            notes.append(
+                f"{len(matches)} whole-surah reading files found for surah {surah}; "
+                f"using {relpath(primary_path) if primary_path else 'none (all parsed to zero)'} as canonical"
+            )
+        if not out:
+            notes.append(
+                f"file(s) found for surah {surah} but zero ayah lines parsed from any "
+                f"of them (see files_found for per-file format detection) -- this is NOT "
+                f"the same as no file existing"
+            )
+        coverage["note"] = "; ".join(notes)
+    return out, coverage, primary_path
 
 
 # ---------------------------------------------------------------------------
@@ -524,6 +1078,11 @@ _FIELD_KEYS = {
     "reading type": "reading_type",
     "scene or process": "scene_or_process",
     "active motifs": "active_motifs",
+    # s002 carries 302 `root:branch/motif` citations in an "Active bridge
+    # motifs" field. Without this mapping the field never reaches the bundle,
+    # so those citations are silently dropped -- the same silent-drop class
+    # this builder exists to eliminate.
+    "active bridge motifs": "active_bridge_motifs",
     "ayah anchors": "ayah_anchors",
     "synthesis": "synthesis",
 }
@@ -544,19 +1103,21 @@ def _ayah_refs_in(text: str, surah: int) -> list:
 def load_channel_review(surah: int) -> tuple:
     """Returns (review_dict, coverage_dict, path or None).
 
-    Parses `network/v3/reviews/s{NNN}/reader_a_pilot.md` into parent channels
-    and their subchannels. This is FIRST-PASS, SINGLE-READER review output, not
-    an adjudicated channel ledger: there is no accept/reject, no per-ayah
-    maturity, and no second reader. Coverage says so explicitly, because the
-    disclosure rules in docs/CHANNELS.md depend on a maturity column this
-    source does not have."""
-    review_dir = NETWORK_V3_REVIEWS_DIR / f"s{surah:03d}"
+    Parses `analysis/channels/network-v3/s{NNN}/review/reader_a_pilot.md`
+    into parent channels and their subchannels. This is FIRST-PASS,
+    SINGLE-READER review output, not an adjudicated channel ledger: there is
+    no accept/reject, no per-ayah maturity, and no second reader. Coverage
+    says so explicitly, because the disclosure rules in docs/CHANNELS.md
+    depend on a maturity column this source does not have."""
+    review_dir = NETWORK_V3_DIR / f"s{surah:03d}" / "review"
     path = review_dir / "reader_a_pilot.md"
     coverage = {"present": False, "review_status": "first-pass-single-reader"}
     if not path.exists():
         coverage["note"] = (
-            f"no channel review at {path}. network/v3 excludes three-ayah surahs "
-            f"(S103, S108, S110) from candidate discovery."
+            f"no channel review at {path}. network-v3 does not have a first-pass "
+            f"review for every surah (some surah dirs don't exist at all — e.g. very "
+            f"short surahs may be excluded from candidate discovery — and a few "
+            f"existing surah dirs simply have no review/reader_a_pilot.md file yet)."
         )
         return {}, coverage, None
 
@@ -675,11 +1236,658 @@ def load_inter_ayah_rows(surah: int, ayah: int) -> tuple:
 
 
 # ---------------------------------------------------------------------------
+# Source: surah pericopes (new)
+# ---------------------------------------------------------------------------
+
+_pericope_rows_by_surah_cache = None
+
+
+def _load_all_pericope_rows() -> dict:
+    global _pericope_rows_by_surah_cache
+    if _pericope_rows_by_surah_cache is None:
+        rows_by_surah: dict = {}
+        if PERICOPES_PATH.exists():
+            with open(PERICOPES_PATH, encoding="utf-8") as fh:
+                for line in fh:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    row = json.loads(line)
+                    rows_by_surah.setdefault(row["surah"], []).append(row)
+            for k in rows_by_surah:
+                rows_by_surah[k] = sorted(rows_by_surah[k], key=lambda r: r["pericope"])
+        _pericope_rows_by_surah_cache = rows_by_surah
+    return _pericope_rows_by_surah_cache
+
+
+def load_surah_pericopes(surah: int, ayah_numbers: list) -> tuple:
+    """Returns (pericopes_list, coverage_dict). Every pericope row carries the
+    raw fields from surah_pericopes.jsonl (surah, pericope, ayah_from,
+    ayah_to, label) plus a `synthesized` flag. Surahs absent from the index
+    (351 rows / 79 surahs corpus-wide) are single-pericope by definition: a
+    single synthesized row spanning the whole surah is emitted instead, with
+    synthesized=True."""
+    rows_by_surah = _load_all_pericope_rows()
+    rows = rows_by_surah.get(surah)
+    coverage = {"present": False, "synthesized": False, "source_file": relpath(PERICOPES_PATH) if PERICOPES_PATH.exists() else None}
+    if rows:
+        pericopes = [dict(r, synthesized=False) for r in rows]
+        coverage.update({"present": True, "synthesized": False, "pericope_count": len(pericopes)})
+        return pericopes, coverage
+
+    if not ayah_numbers:
+        coverage["note"] = "surah absent from pericope index and no ayah numbers known (cannot synthesize)"
+        return [], coverage
+
+    synthesized = [{
+        "surah": surah,
+        "pericope": 1,
+        "ayah_from": min(ayah_numbers),
+        "ayah_to": max(ayah_numbers),
+        "label": "Whole surah",
+        "synthesized": True,
+    }]
+    coverage.update({
+        "present": True,
+        "synthesized": True,
+        "pericope_count": 1,
+        "note": f"surah {surah} absent from surah_pericopes.jsonl; synthesized a single whole-surah pericope",
+    })
+    return synthesized, coverage
+
+
+def pericope_for_ayah(pericopes: list, ayah: int) -> dict:
+    for p in pericopes:
+        if p["ayah_from"] <= ayah <= p["ayah_to"]:
+            return p
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Source: Turkish dictionary entry + gloss (new)
+# ---------------------------------------------------------------------------
+
+def load_root_id_map(surah: int) -> tuple:
+    """Returns ({arabic_root_string: root_id}, packet_path or None). Root IDs
+    (e.g. 'root_000745') come from full_context_packet.json's
+    branch_inventories[].branches[].variants[].root_id, which is the only
+    artifact that carries both the Arabic root string (as used in
+    qac_morphemes.root_ar) and its dictionary/gloss envelope id."""
+    packet_path = V12_TR_DIR / f"s{surah:03d}" / "full_context_packet.json"
+    if not packet_path.exists():
+        return {}, None
+    packet = json.loads(packet_path.read_text(encoding="utf-8"))
+    root_id_map = {}
+    for entry in packet.get("branch_inventories", []):
+        root = entry.get("root")
+        root_id = None
+        for br in entry.get("branches", []):
+            for v in br.get("variants", []):
+                if v.get("root_id"):
+                    root_id = v["root_id"]
+                    break
+            if root_id:
+                break
+        if root and root_id:
+            root_id_map[root] = root_id
+    return root_id_map, packet_path
+
+
+# Concordance keys dropped from dictionary_entry.occurrence_evidence. These are
+# a per-occurrence QAC concordance and character-span alignment table: raw
+# morphology rows (qac_ref, surface_ar, morph_features, qac_char_span,
+# attachment_unit_id) plus the flat ayah-ref list. They carry ZERO readings,
+# branches or senses -- the lexical concept material lives in
+# dictionary_entry.branches, which is kept in full. Dropping an index is not
+# dropping a meaning, so the Layer-2 no-select rule (PRINCIPLES.md §3/§6) is
+# not engaged; and inter_ayah_rows already carries cross-ayah relations for
+# this ayah in reviewed, ordered, ayah-scoped form -- the same job a
+# concordance would be used for, done better and already scoped.
+# For root_000532 (ر ب ب) this is ~1,526 KB of a ~1,635 KB entry.
+OCCURRENCE_EVIDENCE_DROPPED_KEYS = ("occurrences", "ayahs")
+
+
+def _trim_occurrence_evidence(entry: dict) -> tuple:
+    """Removes the bulk concordance lists from a dictionary entry (shallow
+    copy; the source file is untouched). Returns (trimmed_entry, drop_record).
+    `summary` and `forms` are KEPT: ~3 KB combined, carrying corpus frequency
+    and the inflectional inventory, which are orienting facts a writer can
+    use. drop_record makes the trim legible as a deliberate act."""
+    if not entry:
+        return entry, None
+    oe = entry.get("occurrence_evidence")
+    if not isinstance(oe, dict):
+        return entry, None
+    dropped = {}
+    for key in OCCURRENCE_EVIDENCE_DROPPED_KEYS:
+        value = oe.get(key)
+        if value is not None:
+            dropped[key] = len(value) if hasattr(value, "__len__") else 1
+    if not dropped:
+        return entry, None
+    trimmed_oe = {k: v for k, v in oe.items()
+                  if k not in OCCURRENCE_EVIDENCE_DROPPED_KEYS}
+    new_entry = dict(entry)
+    new_entry["occurrence_evidence"] = trimmed_oe
+    return new_entry, {
+        "dropped_keys": sorted(dropped),
+        "dropped_row_counts": dropped,
+        "kept_keys": sorted(trimmed_oe),
+    }
+
+
+def load_dictionary_entry(root_id: str) -> tuple:
+    path = DICTIONARY_TR_DIR / f"{root_id}_entry.json"
+    if not path.exists():
+        return None, path
+    return json.loads(path.read_text(encoding="utf-8")), path
+
+
+def _mark_gloss_error(err: dict) -> None:
+    """Adds a derived boolean to a gloss error object in place: True when the
+    gloss narrows the root's concept (fit == 'narrowing') AND that narrowing
+    actually drops facets (loses_facet_ids non-empty) -- i.e. this specific
+    gloss text is materially incomplete about the root's core concept."""
+    fit = err.get("fit")
+    loses = err.get("loses_facet_ids") or []
+    err["loses_core_concept"] = bool(fit == "narrowing" and loses)
+
+
+def load_gloss_record(root_id: str) -> tuple:
+    """Returns (gloss_json_or_None, path). The gloss json's error objects
+    (branches[].concept_gloss.error, branches[].contextual_glosses[].error,
+    branches[].lexical_glosses{}.error) are annotated in place with the
+    derived `loses_core_concept` boolean described in _mark_gloss_error."""
+    path = GLOSSES_TR_DIR / f"{root_id}.json"
+    if not path.exists():
+        return None, path
+    data = json.loads(path.read_text(encoding="utf-8"))
+    for br in data.get("branches", []) or []:
+        cg = br.get("concept_gloss")
+        if cg and cg.get("error"):
+            _mark_gloss_error(cg["error"])
+        for cx in br.get("contextual_glosses", []) or []:
+            if cx.get("error"):
+                _mark_gloss_error(cx["error"])
+        for lu_id, lg in (br.get("lexical_glosses") or {}).items():
+            if lg.get("error"):
+                _mark_gloss_error(lg["error"])
+    return data, path
+
+
+def build_root_lexicon(qac_rows: list, root_id_map: dict) -> tuple:
+    """For each distinct root appearing in this ayah's QAC morphemes, joins
+    the Turkish dictionary entry and gloss record. Returns (dict keyed by
+    root_id, coverage_dict). Turkish is the only language with glosses
+    currently sourced; that fact is recorded in coverage, not assumed."""
+    roots_in_ayah = []
+    seen = set()
+    for row in qac_rows:
+        root_ar = row.get("root_ar")
+        if root_ar and root_ar not in seen:
+            seen.add(root_ar)
+            roots_in_ayah.append(root_ar)
+
+    entries = {}
+    per_root = {}
+    for root_ar in roots_in_ayah:
+        root_id = root_id_map.get(root_ar)
+        if not root_id:
+            per_root[root_ar] = {
+                "root_id": None,
+                "dictionary_present": False,
+                "gloss_present": False,
+                "note": "no root_id mapping found for this root in this surah's full_context_packet.json branch_inventories",
+            }
+            continue
+        dict_entry, dict_path = load_dictionary_entry(root_id)
+        gloss_entry, gloss_path = load_gloss_record(root_id)
+        dict_entry, drop_record = _trim_occurrence_evidence(dict_entry)
+        entries[root_id] = {
+            "root_ar": root_ar,
+            "root_id": root_id,
+            "dictionary_entry": dict_entry,
+            "dictionary_source_file": relpath(dict_path) if dict_entry is not None else None,
+            "gloss": gloss_entry,
+            "gloss_source_file": relpath(gloss_path) if gloss_entry is not None else None,
+        }
+        note = None
+        if dict_entry is None:
+            note = "no Turkish dictionary entry found for this root_id"
+        elif gloss_entry is None:
+            note = "no reviewed Turkish gloss found for this root_id"
+        per_root[root_ar] = {
+            "root_id": root_id,
+            "dictionary_present": dict_entry is not None,
+            "gloss_present": gloss_entry is not None,
+            "occurrence_evidence_trimmed": drop_record,
+            "note": note,
+        }
+
+    coverage = {
+        "present": bool(entries),
+        "roots_in_ayah": roots_in_ayah,
+        "per_root": per_root,
+        "occurrence_evidence_trim": {
+            "applied": True,
+            "dropped_keys": list(OCCURRENCE_EVIDENCE_DROPPED_KEYS),
+            "note": (
+                "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence."
+                "occurrences and .ayahs are removed from every root by design: "
+                "they are a per-occurrence QAC concordance and character-span "
+                "alignment table carrying zero readings, branches or senses, and "
+                "they dominated bundle size (~1.5 MB for a single common root). "
+                "The lexical concept material -- dictionary_entry.branches, with "
+                "identity_judgment, lexicalization_scope and boundary notes -- is "
+                "kept in full, as are occurrence_evidence.summary (corpus "
+                "frequency) and .forms (inflectional inventory). Cross-ayah "
+                "relations for this ayah are carried by inter_ayah_rows in "
+                "reviewed, ordered form. See per_root[].occurrence_evidence_trimmed "
+                "for the exact row counts dropped per root."
+            ),
+        },
+        "note": "Turkish is the only language with dictionary entries/glosses currently sourced.",
+    }
+    return entries, coverage
+
+
+# ---------------------------------------------------------------------------
+# Preflight — enumerate every expected source, report all gaps, abort once
+# ---------------------------------------------------------------------------
+
+# --- word_analysis -> morpheme-span crosswalk -------------------------------
+#
+# `linguistic/morphemes.tsv` (present for all 114 surahs) is the deterministic
+# crosswalk. word_analysis's "critical words" are orthographic/analytic units,
+# NOT QAC words: for 100:1, وَ and ٱلْعَٰدِيَٰتِ are two critical words but ONE
+# QAC word (100:1:1 = وَ + ٱلْ + عَٰدِيَٰتِ). So aligned_qac_word_ref is not off
+# by one -- it is the wrong unit type, and no renumbering fixes it. A critical
+# word maps to a MORPHEME SPAN.
+#
+# Ayah attribution comes from morpheme_id / word_id (`m-w-s100-a001-w001-01`),
+# NEVER from the qac_ref column: the 7 basmalah rows in every surah's file are
+# `a000` but carry SURAH 1's qac_refs (`1:1:1:1` ...). Keying on qac_ref
+# silently merges the basmalah into ayah 1 for all 114 surahs -- verified.
+_MORPHEME_ID_RE = re.compile(r"^m-w-s(\d+)-a(\d+)-w(\d+)-(\d+)$")
+_WA_ARABIC_RE = re.compile(r"\{\{ar:([^}]*)\}\}")
+# Quranic annotation letters + tatweel + superscript alef: present in one
+# source's orthography and absent from the other's (e.g. word_analysis
+# ضَبْحًۭا vs morphemes.tsv ضَبْحًا; morphemes.tsv هِۦ vs word_analysis هِ).
+_ANNOTATION_CODEPOINTS = set(range(0x06D6, 0x06EE)) | {0x0670, 0x06E5, 0x06E6, 0x0640}
+_ALEF_FOLD = str.maketrans({"ٱ": "ا", "أ": "ا", "إ": "ا", "آ": "ا"})
+
+
+def normalize_arabic_surface(text: str) -> str:
+    """Fold an Arabic surface to comparable letters: drop combining marks and
+    Quranic annotation signs, fold alef variants. Used only for MATCHING; the
+    original surfaces are never rewritten in the bundle."""
+    if not text:
+        return ""
+    decomposed = unicodedata.normalize("NFD", text)
+    stripped = "".join(
+        c for c in decomposed
+        if unicodedata.category(c) != "Mn" and ord(c) not in _ANNOTATION_CODEPOINTS
+    )
+    return stripped.translate(_ALEF_FOLD)
+
+
+def load_morphemes_tsv(surah: int) -> tuple:
+    """Returns ({ayah_int: [morpheme_row, ...]}, coverage, path or None).
+    Rows keep file order. Basmalah rows (a000) are keyed under ayah 0 and so
+    never leak into a real ayah's span."""
+    path = V12_TR_DIR / f"s{surah:03d}" / "linguistic" / "morphemes.tsv"
+    coverage = {"present": False, "source_file": None}
+    if not path.exists():
+        coverage["note"] = f"morphemes.tsv not found at {path}"
+        return {}, coverage, None
+
+    by_ayah, malformed = {}, 0
+    with open(path, encoding="utf-8") as fh:
+        for line in fh:
+            parts = line.rstrip("\n").split("\t")
+            if len(parts) < 5 or not parts[0].strip() or parts[0] == "morpheme_id":
+                continue
+            m = _MORPHEME_ID_RE.match(parts[0])
+            if not m:
+                malformed += 1
+                continue
+            by_ayah.setdefault(int(m.group(2)), []).append({
+                "morpheme_id": parts[0],
+                "word_id": parts[1],
+                "qac_ref": parts[2],
+                "morpheme_index": parts[3],
+                "surface_ar": parts[4],
+                "root": parts[7] if len(parts) > 7 else "",
+            })
+    coverage.update({
+        "present": bool(by_ayah),
+        "source_file": relpath(path),
+        "ayah_count": len(by_ayah),
+        "row_count": sum(len(v) for v in by_ayah.values()),
+        "malformed_rows": malformed,
+        "note": (
+            "ayah attribution taken from morpheme_id/word_id, never from the "
+            "qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+        ),
+    })
+    if not by_ayah:
+        coverage["note"] = f"{path} present but no parseable morpheme rows"
+    return by_ayah, coverage, path
+
+
+def resolve_word_morpheme_spans(wa_record: dict, morpheme_rows: list) -> tuple:
+    """Resolves each word_analysis critical word to a morpheme span by walking
+    the ayah's ordered morphemes and consuming them until their concatenated
+    surface matches the critical word's surface.
+
+    Returns (spans, unresolved). `spans` is a list parallel to
+    wa_record['words']; each entry carries the resolved word_id(s) and the
+    qac_ref of every morpheme spanned, or is None when unresolved.
+
+    This ADDS a resolution; it never overwrites or deletes the upstream
+    `aligned_qac_word_ref`, so the discrepancy stays inspectable
+    (PRINCIPLES.md §11, and the basmalah no-hidden-renumbering rule)."""
+    spans, unresolved = [], []
+    position = 0
+    for index, word in enumerate(wa_record.get("words", []) or []):
+        display = word.get("surface_display") or ""
+        m = _WA_ARABIC_RE.search(display)
+        target = normalize_arabic_surface(m.group(1)) if m else ""
+        if not target:
+            spans.append(None)
+            unresolved.append({
+                "word_index": index,
+                "surface_display": display,
+                "reason": "no {{ar:...}} surface in surface_display",
+            })
+            continue
+
+        accumulated, j, matched = "", position, False
+        while j < len(morpheme_rows):
+            accumulated += normalize_arabic_surface(morpheme_rows[j]["surface_ar"])
+            j += 1
+            if accumulated == target:
+                matched = True
+                break
+            if not target.startswith(accumulated):
+                break
+
+        if not matched:
+            spans.append(None)
+            unresolved.append({
+                "word_index": index,
+                "surface_ar": m.group(1),
+                "reason": ("no morpheme rows for this ayah" if not morpheme_rows
+                           else "surface mismatch: critical word does not equal any "
+                                "run of morpheme surfaces from the current position"),
+            })
+            continue
+
+        spanned = morpheme_rows[position:j]
+        position = j
+        spans.append({
+            "word_index": index,
+            "surface_ar": m.group(1),
+            "word_ids": sorted({r["word_id"] for r in spanned}),
+            "qac_refs": [r["qac_ref"] for r in spanned],
+            "morpheme_ids": [r["morpheme_id"] for r in spanned],
+            "aligned_qac_word_ref_upstream": word.get("aligned_qac_word_ref"),
+        })
+    return spans, unresolved
+
+
+def check_word_alignment(surah: int, word_analysis: dict, qac_by_ayah: dict,
+                          target_ayahs: list) -> dict:
+    """Cross-validates word_analysis[].aligned_qac_word_ref against the QAC word
+    refs that actually exist for each ayah.
+
+    This is a SOURCE-DATA defect detector, not a repair. word-analysis appears
+    to treat orthographic words as QAC words: for 100:1 QAC has two words
+    (`100:1:1` = وَ+ٱلْ+عَٰدِيَٰتِ, `100:1:2` = ضَبْحًا) while word-analysis emits
+    three, so `100:1:3` dangles and any word-level join between word-analysis
+    topics and QAC morphology silently fails to join.
+
+    The alignment is deliberately NOT auto-repaired by renumbering: a hidden
+    renumbering is precisely what the basmalah boundary rule in STATUS.md
+    forbids, and guessing a mapping would fabricate the stable identities
+    PRINCIPLES.md §11 requires. The defect is reported loudly and recorded in
+    coverage so downstream consumers can refuse the join."""
+    per_ayah = {}
+    for a in target_ayahs:
+        record = word_analysis.get(f"{surah}:{a}")
+        if record is None:
+            continue
+        actual = {r.get("qac_word_ref") for r in qac_by_ayah.get(a, []) if r.get("qac_word_ref")}
+        claimed = {w.get("aligned_qac_word_ref") for w in record.get("words", [])
+                   if w.get("aligned_qac_word_ref")}
+        dangling = sorted(claimed - actual)
+        if dangling:
+            per_ayah[f"{surah}:{a}"] = {
+                "qac_word_count": len(actual),
+                "word_analysis_word_count": len(claimed),
+                "dangling_refs": dangling,
+            }
+    return {
+        "consistent": not per_ayah,
+        "ayahs_checked": len(target_ayahs),
+        "ayahs_with_dangling_refs": len(per_ayah),
+        "detail": per_ayah,
+        "note": (
+            "word_analysis[].aligned_qac_word_ref does not resolve against "
+            "qac_morphemes.qac_word_ref for the listed ayahs; word-analysis "
+            "appears to count orthographic words where QAC counts morphological "
+            "words. Word-level joins between word_analysis topics and QAC "
+            "morphology are UNRELIABLE for these ayahs. Upstream defect in "
+            "quran-data's word-analysis; deliberately not auto-repaired here "
+            "(renumbering would fabricate identities -- PRINCIPLES.md §11, "
+            "STATUS.md basmalah boundary rule)."
+        ) if per_ayah else "aligned_qac_word_ref resolves against QAC for all checked ayahs.",
+    }
+
+
+def _row(name, path, required, present, note=None):
+    return {"name": name, "path": str(path), "required": required, "present": present, "note": note}
+
+
+def print_preflight_table(surah: int, rows: list) -> None:
+    print(f"\n=== Preflight source inventory: surah {surah} ===")
+    name_w = max([len(r["name"]) for r in rows] + [6])
+    header = f"{'SOURCE':<{name_w}}  {'REQ':<4} {'STATUS':<8} PATH"
+    print(header)
+    print("-" * min(len(header) + 40, 160))
+    for r in rows:
+        req = "yes" if r["required"] else "no"
+        status = "OK" if r["present"] else "MISSING"
+        print(f"{r['name']:<{name_w}}  {req:<4} {status:<8} {r['path']}")
+        if r.get("note"):
+            print(f"{'':<{name_w}}  {'':<4} {'':<8} note: {r['note']}")
+    print()
+
+
+def preflight(surah: int, ayah_filter: int = None) -> dict:
+    """Enumerates every expected source for `surah` (or just `ayah_filter`'s
+    per-ayah sources if given), prints a full present/missing table, and
+    raises RequiredSourceMissing (after printing, listing every gap at once)
+    if any REQUIRED source is missing. Required = Quran text, word analysis,
+    QAC morphemes, branch inventories. Everything else is optional. Returns
+    the already-loaded data so main() doesn't have to reload it."""
+    rows = []
+    problems = []
+
+    quran_text = None
+    try:
+        quran_text = load_quran_text(surah)
+        rows.append(_row("Quran text", QURAN_TEXT_TSV, True, True, f"{len(quran_text)} rows"))
+    except RequiredSourceMissing as exc:
+        rows.append(_row("Quran text", QURAN_TEXT_TSV, True, False, str(exc)))
+        problems.append(str(exc))
+
+    word_analysis = None
+    wa_path = WORD_ANALYSIS_DIR / f"s{surah:03d}.jsonl.zst"
+    try:
+        word_analysis = load_word_analysis(surah)
+        rows.append(_row("Word analysis", wa_path, True, True, f"{len(word_analysis)} ayah records"))
+    except RequiredSourceMissing as exc:
+        rows.append(_row("Word analysis", wa_path, True, False, str(exc)))
+        problems.append(str(exc))
+
+    qac_by_ayah = None
+    try:
+        qac_by_ayah = load_qac_morphemes(surah)
+        total_rows = sum(len(v) for v in qac_by_ayah.values())
+        rows.append(_row("QAC morphemes", QAC_SQLITE_GZ, True, True, f"{total_rows} rows across {len(qac_by_ayah)} ayat"))
+    except RequiredSourceMissing as exc:
+        rows.append(_row("QAC morphemes", QAC_SQLITE_GZ, True, False, str(exc)))
+        problems.append(str(exc))
+
+    ayah_numbers = discover_ayah_numbers(surah, quran_text) if quran_text else []
+    target_ayahs = [ayah_filter] if ayah_filter is not None else ayah_numbers
+
+    for a in target_ayahs:
+        focus_dir = V12_TR_DIR / f"s{surah:03d}" / f"focus_{surah}_{a}"
+        try:
+            variants, cov = load_v12_branch_inventories(surah, a)
+            scope = cov.get("scope", "focus")
+            branch_path = (
+                V12_TR_DIR / f"s{surah:03d}" / "full_context_packet.json"
+                if scope.startswith("surah")
+                else focus_dir
+            )
+            rows.append(_row(f"Branch inventories {surah}:{a}", branch_path, True, True, f"scope={scope}, variants={sorted(variants.keys())}"))
+        except RequiredSourceMissing as exc:
+            rows.append(_row(f"Branch inventories {surah}:{a}", focus_dir, True, False, str(exc)))
+            problems.append(str(exc))
+
+    root_id_map, packet_path = load_root_id_map(surah)
+    packet_path_display = packet_path or (V12_TR_DIR / f"s{surah:03d}" / "full_context_packet.json")
+    rows.append(_row(
+        "Root ID map (full_context_packet.json)", packet_path_display, False,
+        bool(root_id_map),
+        f"{len(root_id_map)} roots mapped" if root_id_map else "no root_id map available; dictionary/gloss join will be empty for this surah",
+    ))
+
+    morph_by_ayah, morph_cov, morph_path = load_morphemes_tsv(surah)
+    morph_display = morph_path or (V12_TR_DIR / f"s{surah:03d}" / "linguistic" / "morphemes.tsv")
+    rows.append(_row(
+        "Morphemes crosswalk (morphemes.tsv)", morph_display, False,
+        morph_cov.get("present", False),
+        morph_cov.get("note") if not morph_cov.get("present")
+        else f"{morph_cov.get('row_count')} rows / {morph_cov.get('ayah_count')} ayahs",
+    ))
+    if morph_cov.get("present"):
+        unresolved_total = 0
+        words_total = 0
+        for a in target_ayahs:
+            rec = word_analysis.get(f"{surah}:{a}") if word_analysis else None
+            if not rec:
+                continue
+            _spans, unres = resolve_word_morpheme_spans(rec, morph_by_ayah.get(a, []))
+            unresolved_total += len(unres)
+            words_total += len(rec.get("words", []) or [])
+        if unresolved_total:
+            rows.append(_row(
+                "  -> critical-word span resolution", morph_display, False, False,
+                f"{unresolved_total} of {words_total} critical words UNRESOLVED "
+                f"(surface match against morphemes.tsv); see per-ayah "
+                f"coverage.word_morpheme_spans.unresolved",
+            ))
+
+    review_path = NETWORK_V3_DIR / f"s{surah:03d}" / "review" / "reader_a_pilot.md"
+    rows.append(_row("Channel review", review_path, False, review_path.exists(),
+                      None if review_path.exists() else "no first-pass channel review for this surah"))
+
+    control_dir = V12_TR_DIR / f"s{surah:03d}" / "full_context_control"
+    _, bu_cov, bu_path = load_butuncul_okuma(surah)
+    rows.append(_row("Whole-surah reading (butuncul-okuma)", bu_path or control_dir, False,
+                      bu_cov.get("present", False), bu_cov.get("note")))
+
+    wide_control_dir = V12_TR_11AYAH_DIR / f"s{surah:03d}" / "full_context_control"
+    wide_walks, wide_cov = load_v12_reader_walks(
+        surah, target_ayahs[0] if len(target_ayahs) == 1 else ayah_numbers[0],
+        V12_TR_11AYAH_DIR,
+        "v12 plus/minus-5 reader walks",
+    )
+    rows.append(_row("Reader walks (+/-5 context)", wide_control_dir, False,
+                      wide_cov.get("present", False), wide_cov.get("note")))
+
+    cross_path = V12_CROSS_RUN_TR_DIR / f"{surah}_ayah_findings_publication.json"
+    rows.append(_row("V12 cross-run publication", cross_path, False, cross_path.exists(),
+                      None if cross_path.exists() else "no final cross-run publication file for this surah"))
+
+    pericopes, pc_cov = load_surah_pericopes(surah, ayah_numbers)
+    rows.append(_row("Pericopes", PERICOPES_PATH, False, pc_cov.get("present", False),
+                      pc_cov.get("note") or f"{pc_cov.get('pericope_count', 0)} pericope(s), synthesized={pc_cov.get('synthesized')}"))
+
+    for a in target_ayahs:
+        p = INTER_AYAH_DIR / f"focus_{surah}_{a}_cutoff_100.tsv"
+        rows.append(_row(f"Inter-ayah rows {surah}:{a}", p, False, p.exists(),
+                          None if p.exists() else "no inter-ayah file for this ayah"))
+
+    if qac_by_ayah and root_id_map:
+        seen_roots = {}
+        for a in target_ayahs:
+            for qrow in qac_by_ayah.get(a, []):
+                root_ar = qrow.get("root_ar")
+                if not root_ar:
+                    continue
+                root_id = root_id_map.get(root_ar)
+                if not root_id:
+                    continue
+                seen_roots.setdefault(root_id, {"root_ar": root_ar, "ayahs": []})["ayahs"].append(a)
+        for root_id, info in sorted(seen_roots.items()):
+            dpath = DICTIONARY_TR_DIR / f"{root_id}_entry.json"
+            gpath = GLOSSES_TR_DIR / f"{root_id}.json"
+            ayahs_note = f"used in ayahs {info['ayahs']}"
+            rows.append(_row(f"Dictionary entry {root_id} ({info['root_ar']})", dpath, False, dpath.exists(), ayahs_note if not dpath.exists() else None))
+            rows.append(_row(f"Gloss {root_id} ({info['root_ar']})", gpath, False, gpath.exists(),
+                              "no reviewed gloss for this root" if not gpath.exists() else None))
+
+    print_preflight_table(surah, rows)
+
+    alignment = {"consistent": True, "ayahs_with_dangling_refs": 0, "detail": {}}
+    if word_analysis and qac_by_ayah:
+        alignment = check_word_alignment(surah, word_analysis, qac_by_ayah, target_ayahs)
+        if not alignment["consistent"]:
+            print(
+                f"WARNING: word_analysis/QAC word alignment mismatch in "
+                f"{alignment['ayahs_with_dangling_refs']} of {alignment['ayahs_checked']} "
+                f"ayah(s) for surah {surah}. Word-level joins between word_analysis "
+                f"topics and QAC morphology are UNRELIABLE for these ayahs "
+                f"(upstream defect; not auto-repaired -- see coverage."
+                f"word_analysis_qac_alignment).",
+                file=sys.stderr,
+            )
+            for ref, d in list(alignment["detail"].items())[:12]:
+                print(
+                    f"    {ref}: word_analysis claims {d['word_analysis_word_count']} "
+                    f"word(s), QAC has {d['qac_word_count']}; dangling: "
+                    f"{', '.join(d['dangling_refs'])}",
+                    file=sys.stderr,
+                )
+
+    if problems:
+        raise RequiredSourceMissing(
+            "Preflight found required-source gaps (see table above):\n" +
+            "\n".join(f"  - {p}" for p in problems)
+        )
+
+    return {
+        "quran_text": quran_text,
+        "word_analysis": word_analysis,
+        "qac_by_ayah": qac_by_ayah,
+        "root_id_map": root_id_map,
+        "pericopes": pericopes,
+        "alignment": alignment,
+    }
+
+
+# ---------------------------------------------------------------------------
 # Bundle assembly
 # ---------------------------------------------------------------------------
 
 def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: dict,
-                       qac_by_ayah: dict) -> dict:
+                       qac_by_ayah: dict, root_id_map: dict, pericopes: list,
+                       alignment: dict = None) -> dict:
     ayah_ref = f"{surah}:{ayah}"
     coverage = {}
 
@@ -693,12 +1901,77 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
         raise RequiredSourceMissing(f"word-analysis record missing for {ayah_ref}")
     coverage["word_analysis"] = {"present": True, "word_count": len(wa_record.get("words", []))}
 
+    # Deterministic crosswalk: resolve each critical word to a MORPHEME SPAN
+    # via linguistic/morphemes.tsv. Added alongside -- never replacing -- the
+    # upstream aligned_qac_word_ref.
+    morphemes_by_ayah, morph_cov, _morph_path = load_morphemes_tsv(surah)
+    word_spans, span_unresolved = resolve_word_morpheme_spans(
+        wa_record, morphemes_by_ayah.get(ayah, [])
+    )
+    if span_unresolved:
+        print(
+            f"WARNING: {ayah_ref}: {len(span_unresolved)} of "
+            f"{len(wa_record.get('words', []) or [])} critical word(s) could not be "
+            f"resolved to a morpheme span via morphemes.tsv "
+            f"(see coverage.word_morpheme_spans.unresolved).",
+            file=sys.stderr,
+        )
+    coverage["word_morpheme_spans"] = {
+        "present": bool(morph_cov.get("present")) and any(s for s in word_spans),
+        "source_file": morph_cov.get("source_file"),
+        "words_total": len(wa_record.get("words", []) or []),
+        "words_resolved": sum(1 for s in word_spans if s),
+        "words_unresolved": len(span_unresolved),
+        "unresolved": span_unresolved,
+        "morphemes_tsv": morph_cov,
+        "note": (
+            "word_analysis critical words are orthographic/analytic units, not "
+            "QAC words; each resolves to a MORPHEME SPAN. The upstream "
+            "aligned_qac_word_ref is preserved verbatim in word_analysis and is "
+            "NOT corrected here -- renumbering would fabricate identities "
+            "(PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use "
+            "word_morpheme_spans for any word-level join to QAC."
+        ),
+    }
+
+    # Cross-layer identity check: does this ayah's word-analysis actually align
+    # to QAC words? Recorded per ayah so a consumer can refuse the join rather
+    # than joining on refs that do not resolve.
+    this_ayah_alignment = (alignment or {}).get("detail", {}).get(ayah_ref)
+    coverage["word_analysis_qac_alignment"] = {
+        "consistent": this_ayah_alignment is None,
+        "detail": this_ayah_alignment,
+        "note": (
+            "aligned_qac_word_ref resolves against qac_morphemes for this ayah"
+            if this_ayah_alignment is None else
+            "aligned_qac_word_ref does NOT resolve against qac_morphemes for this "
+            "ayah: word-analysis counts orthographic words where QAC counts "
+            "morphological words. Word-level joins between word_analysis topics "
+            "and QAC morphology are UNRELIABLE here. Upstream defect in "
+            "quran-data's word-analysis; deliberately not auto-repaired "
+            "(renumbering would fabricate identities)."
+        ),
+    }
+
     qac_rows = qac_by_ayah.get(ayah)
     if not qac_rows:
         raise RequiredSourceMissing(f"QAC morphemes missing for {ayah_ref}")
     coverage["qac_morphemes"] = {"present": True, "row_count": len(qac_rows)}
 
-    branch_inventories, bi_coverage = load_v12_branch_inventories(surah, ayah)
+    # Channel material is resolved BEFORE branch inventories because the
+    # surah-fallback inventory is scoped against the subchannels anchored here
+    # (rule (b) in scope_branch_inventories_to_ayah).
+    channel_review, ch_coverage, ch_path = load_channel_review(surah)
+    channel_blocks = channel_blocks_for_ayah(channel_review, ayah_ref)
+    coverage["channel_review"] = {
+        **ch_coverage,
+        "source_file": relpath(ch_path) if ch_path else None,
+        "subchannels_anchored_here": len(channel_blocks),
+    }
+
+    branch_inventories, bi_coverage = load_v12_branch_inventories(
+        surah, ayah, qac_rows, channel_blocks
+    )
     coverage["branch_inventories"] = bi_coverage
 
     # --- optional sources (degrade gracefully) ---
@@ -708,24 +1981,49 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
     reader_walks, walk_coverage = load_v12_reader_walks(surah, ayah)
     coverage["v12_reader_walks"] = walk_coverage
 
+    reader_walks_wide, walk_wide_coverage = load_v12_reader_walks(
+        surah, ayah, V12_TR_11AYAH_DIR, "v12 plus/minus-5 reader walks"
+    )
+    coverage["v12_reader_walks_wide"] = walk_wide_coverage
+
+    cross_run_publication, cross_run_coverage = load_v12_cross_run_publication(surah, ayah)
+    coverage["v12_cross_run_publication"] = cross_run_coverage
+
     butuncul_all, butuncul_cov, butuncul_path = load_butuncul_okuma(surah)
     butuncul_line = butuncul_all.get(ayah_ref)
+    if butuncul_line is not None:
+        note = None
+    elif butuncul_path is None:
+        note = "no whole-surah reading file exists for this surah"
+    elif not butuncul_all:
+        # File(s) found for the surah but zero ayah lines parsed at all --
+        # distinct from "this particular ayah has no line in an otherwise
+        # normal file". See load_butuncul_okuma's coverage['note'] for detail.
+        note = (
+            "whole-surah reading file(s) found for this surah but zero ayah "
+            "lines were parsed from any of them (unrecognised format) -- this "
+            "is NOT the same as this ayah being absent from a working file"
+        )
+    else:
+        note = "no line for this ayah found in whole-surah reading"
     coverage["butuncul_okuma"] = {
         "present": butuncul_line is not None,
-        "source_file": str(butuncul_path.relative_to(SIBLING_ROOT)) if butuncul_path else None,
-        "note": None if butuncul_line is not None else "no line for this ayah found in whole-surah reading",
+        "source_file": relpath(butuncul_path) if butuncul_path else None,
+        "note": note,
     }
 
     inter_ayah_rows, ia_coverage = load_inter_ayah_rows(surah, ayah)
     coverage["inter_ayah"] = ia_coverage
 
-    channel_review, ch_coverage, ch_path = load_channel_review(surah)
-    channel_blocks = channel_blocks_for_ayah(channel_review, ayah_ref)
-    coverage["channel_review"] = {
-        **ch_coverage,
-        "source_file": str(ch_path.relative_to(SIBLING_ROOT)) if ch_path else None,
-        "subchannels_anchored_here": len(channel_blocks),
+    pericope = pericope_for_ayah(pericopes, ayah)
+    coverage["pericope"] = {
+        "present": pericope is not None,
+        "synthesized": pericope.get("synthesized") if pericope else None,
+        "note": None if pericope is not None else "no pericope span covers this ayah (data gap)",
     }
+
+    root_lexicon, rl_coverage = build_root_lexicon(qac_rows, root_id_map)
+    coverage["root_lexicon"] = rl_coverage
 
     bundle = {
         "bundle_type": "ayah",
@@ -736,22 +2034,28 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
         "ayahRef": ayah_ref,
         "text": {
             "arabic_uthmani": quran_text[ayah_ref],
-            "source": "quran-data/data/text/quran-uthmani.tsv",
+            "source": relpath(QURAN_TEXT_TSV),
         },
         "qac_morphemes": qac_rows,
         "word_analysis": wa_record,
+        "word_morpheme_spans": word_spans,
         "branch_inventories": branch_inventories,
         "v12_reader_responses": reader_responses,
         "v12_reader_walks": reader_walks,
+        "v12_reader_walks_wide": reader_walks_wide,
+        "v12_cross_run_publication": cross_run_publication,
         "butuncul_okuma_line": butuncul_line,
         "inter_ayah_rows": inter_ayah_rows,
         "channel_subchannels_anchored_here": channel_blocks,
+        "pericope": pericope,
+        "root_lexicon": root_lexicon,
         "coverage": coverage,
     }
     return bundle
 
 
-def build_surah_bundle(surah: int, ayah_bundles: list, ayah_bundle_filenames: list) -> dict:
+def build_surah_bundle(surah: int, ayah_bundles: list, ayah_bundle_filenames: list,
+                        pericopes: list) -> dict:
     quran_text = load_quran_text(surah)  # includes S:0 basmalah row if present
     butuncul_all, butuncul_cov, butuncul_path = load_butuncul_okuma(surah)
     channel_review, ch_coverage, ch_path = load_channel_review(surah)
@@ -761,12 +2065,17 @@ def build_surah_bundle(surah: int, ayah_bundles: list, ayah_bundle_filenames: li
         "per_ayah": {b["ayahRef"]: b["coverage"] for b in ayah_bundles},
         "butuncul_okuma": {
             "present": butuncul_cov.get("present", False),
-            "source_file": str(butuncul_path.relative_to(SIBLING_ROOT)) if butuncul_path else None,
+            "source_file": relpath(butuncul_path) if butuncul_path else None,
             "ayah_refs_found": sorted(butuncul_all.keys()),
         },
         "channel_review": {
             **ch_coverage,
-            "source_file": str(ch_path.relative_to(SIBLING_ROOT)) if ch_path else None,
+            "source_file": relpath(ch_path) if ch_path else None,
+        },
+        "pericopes": {
+            "present": bool(pericopes),
+            "pericope_count": len(pericopes),
+            "synthesized": any(p.get("synthesized") for p in pericopes),
         },
     }
 
@@ -790,6 +2099,7 @@ def build_surah_bundle(surah: int, ayah_bundles: list, ayah_bundle_filenames: li
                 )
             ],
             "channel_review": channel_review,
+            "pericopes": pericopes,
         },
         "coverage": coverage,
     }
@@ -820,12 +2130,17 @@ def main() -> int:
     out_dir = args.out or (PROSE_GEN_ROOT / "bundles" / f"s{surah:03d}")
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    quran_text = load_quran_text(surah)
-    word_analysis = load_word_analysis(surah)
-    qac_by_ayah = load_qac_morphemes(surah)
+    loaded = preflight(surah, args.ayah)
+    quran_text = loaded["quran_text"]
+    word_analysis = loaded["word_analysis"]
+    qac_by_ayah = loaded["qac_by_ayah"]
+    root_id_map = loaded["root_id_map"]
+    pericopes = loaded["pericopes"]
+    alignment = loaded.get("alignment")
 
     if args.ayah is not None:
-        bundle = build_ayah_bundle(surah, args.ayah, quran_text, word_analysis, qac_by_ayah)
+        bundle = build_ayah_bundle(surah, args.ayah, quran_text, word_analysis, qac_by_ayah,
+                                    root_id_map, pericopes, alignment)
         out_path = out_dir / f"{surah}_{args.ayah}.ayah.json"
         out_path.write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"wrote {out_path}")
@@ -835,14 +2150,15 @@ def main() -> int:
     ayah_bundles = []
     filenames = []
     for a in ayah_numbers:
-        bundle = build_ayah_bundle(surah, a, quran_text, word_analysis, qac_by_ayah)
+        bundle = build_ayah_bundle(surah, a, quran_text, word_analysis, qac_by_ayah,
+                                    root_id_map, pericopes, alignment)
         fname = f"{surah}_{a}.ayah.json"
         (out_dir / fname).write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8")
         ayah_bundles.append(bundle)
         filenames.append(fname)
         print(f"wrote {out_dir / fname}")
 
-    surah_bundle = build_surah_bundle(surah, ayah_bundles, filenames)
+    surah_bundle = build_surah_bundle(surah, ayah_bundles, filenames, pericopes)
     surah_out_path = out_dir / f"{surah}.surah.json"
     surah_out_path.write_text(json.dumps(surah_bundle, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"wrote {surah_out_path}")

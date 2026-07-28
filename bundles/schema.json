@@ -15,7 +15,10 @@
         "bundle_type", "schema_version", "generated_at", "surah", "ayah",
         "ayahRef", "text", "qac_morphemes", "word_analysis",
         "branch_inventories", "v12_reader_responses", "v12_reader_walks",
-        "butuncul_okuma_line", "inter_ayah_rows", "coverage"
+        "v12_reader_walks_wide", "v12_cross_run_publication",
+        "butuncul_okuma_line", "inter_ayah_rows",
+        "channel_subchannels_anchored_here", "pericope", "root_lexicon",
+        "coverage"
       ],
       "properties": {
         "bundle_type": { "const": "ayah" },
@@ -104,12 +107,13 @@
 
         "branch_inventories": {
           "type": "object",
-          "description": "Keyed by variant name ('default', or 'left_first'/'right_first' when the v12 focus dir has reveal-order variants). Each value carries the full branch_inventories block copied verbatim from that variant's stage_00 v12 input packet: every root, every branch, image_ar/en and scope_ar/en.",
+          "description": "Keyed by variant name, normally 'full_context_packet'. The default commentary workflow does not consume per-ayah focus packets; it uses the surah-scope full_context_packet.json and narrows that fallback to this ayah -- roots occurring in the ayah keep EVERY branch unconditionally (Layer 2 selects nothing; PRINCIPLES.md §3/§6), plus roots explicitly cited by channel material anchored here keep only their cited branches. Consult coverage.branch_inventories.scoping for what was retained, by which rule, and what was dropped: a root absent here may be a deliberate scoping decision, NOT a missing source.",
           "additionalProperties": {
             "type": "object",
-            "required": ["stage_00_file", "branch_inventories"],
+            "required": ["branch_inventories"],
             "properties": {
               "stage_00_file": { "type": "string" },
+              "source_file": { "type": "string" },
               "branch_inventories": {
                 "type": "array",
                 "items": {
@@ -140,7 +144,7 @@
 
         "v12_reader_responses": {
           "type": "object",
-          "description": "Keyed by variant name, then reader id (e.g. reader_d), then stage key (stage_00/01/02). Complete reader response objects verbatim, including changed_reading{before,after}, ablation, etc. Empty object {} means no responses were recorded for this focus ayah in any variant — see coverage.v12_reader_responses for the machine-readable reason (this happens for focus_103_2 and focus_103_3 in the validated S103 run).",
+          "description": "Retired default-lane source. Per-ayah focus-run reader responses are no longer consumed by normal commentary bundles. The field is kept as an explicit empty object with coverage.v12_reader_responses.present=false so agents report absence rather than infer staged focus movement.",
           "additionalProperties": {
             "type": "object",
             "additionalProperties": {
@@ -168,6 +172,41 @@
           }
         },
 
+        "v12_reader_walks_wide": {
+          "type": "object",
+          "description": "Keyed by reader label. Per-ayah excerpt parsed out of the plus/minus-5 / 11-ayah-context reader_s{NNN}_*_ayah_walk.md files. Kept separate from v12_reader_walks so consumers can distinguish ordinary full-context walks from wider-window reader evidence.",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["activated_readings_md", "retrospective_surprises_md", "turkish_prose_synthesis_md", "source_file"],
+            "properties": {
+              "activated_readings_md": { "type": ["string", "null"] },
+              "retrospective_surprises_md": { "type": ["string", "null"] },
+              "turkish_prose_synthesis_md": { "type": ["string", "null"] },
+              "source_file": { "type": "string" }
+            }
+          }
+        },
+
+        "v12_cross_run_publication": {
+          "description": "Compact final v12-cross-run publication row for this ayah, reconciled upstream from regular and plus/minus-5 reader families. Use as a coverage/priority check, not as replacement prose. Null when the publication row is absent.",
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "required": ["source_file", "protocol", "language", "surah", "ayah_ref", "baseline", "findings"],
+              "properties": {
+                "source_file": { "type": "string" },
+                "protocol": { "type": "string" },
+                "language": { "type": "string" },
+                "surah": { "type": "integer" },
+                "ayah_ref": { "type": "string" },
+                "baseline": { "type": "object" },
+                "findings": { "type": "array", "items": { "type": "object" } }
+              }
+            }
+          ]
+        },
+
         "butuncul_okuma_line": {
           "description": "The per-ayah line from the whole-surah reading ({NNN}-0-{N}-butuncul-okuma.md), parsed into arabic_text / reading_text_tr / root_citations, plus the raw_line verbatim. Null if no whole-surah reading file exists or it has no line for this ayah.",
           "oneOf": [
@@ -187,7 +226,7 @@
 
         "inter_ayah_rows": {
           "type": "array",
-          "description": "ALL rows for this focus ayah from quran-slm/inter-ayah/outputs/focus_{S}_{A}_cutoff_100.tsv, every label including weak and 'no value'. Never filtered. Consumers order by the label axis; they must not use it to include/exclude (COMMENTARY_SPEC.md §6.2).",
+          "description": "ALL rows for this focus ayah from analysis/inter-ayah/focus_{S}_{A}_cutoff_100.tsv, every label including weak and 'no value'. Never filtered. Consumers order by the label axis; they must not use it to include/exclude (COMMENTARY_SPEC.md §6.2).",
           "items": {
             "type": "object",
             "required": ["label", "ref", "note"],
@@ -199,14 +238,111 @@
           }
         },
 
+        "word_morpheme_spans": {
+          "type": "array",
+          "description": "Parallel to word_analysis.words[]. Each element resolves that critical word to a span of QAC morphemes via linguistic/morphemes.tsv, or is null when unresolved (see coverage.word_morpheme_spans.unresolved for the reason). USE THIS for any word-level join between word_analysis topics and QAC morphology: word_analysis[].aligned_qac_word_ref is preserved verbatim but is the wrong unit type (critical words are orthographic/analytic units; e.g. 100:1 وَ and ٱلْعَٰدِيَٰتِ are two critical words but one QAC word). aligned_qac_word_ref is deliberately NOT corrected -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule).",
+          "items": {
+            "oneOf": [
+              { "type": "null" },
+              {
+                "type": "object",
+                "required": ["word_index", "word_ids", "qac_refs", "morpheme_ids"],
+                "properties": {
+                  "word_index": { "type": "integer" },
+                  "surface_ar": { "type": "string" },
+                  "word_ids": { "type": "array", "items": { "type": "string" } },
+                  "qac_refs": { "type": "array", "items": { "type": "string" } },
+                  "morpheme_ids": { "type": "array", "items": { "type": "string" } },
+                  "aligned_qac_word_ref_upstream": {
+                    "type": ["string", "null"],
+                    "description": "The upstream value, kept so the discrepancy stays inspectable. Do not join on it."
+                  }
+                }
+              }
+            ]
+          }
+        },
+
+        "channel_subchannels_anchored_here": {
+          "type": "array",
+          "description": "Subchannels from the network-v3 first-pass channel review (analysis/channels/network-v3/s{NNN}/review/reader_a_pilot.md) whose ayah anchors include this ayah, each carrying its parent channel's semantic_invariant/surprising_reach so the block reads standalone. First-pass single-reader output, not an adjudicated ledger (see coverage.channel_review).",
+          "items": { "type": "object" }
+        },
+
+        "pericope": {
+          "description": "The single pericope (thematic ayah-span) this ayah belongs to, from analysis/channels/network-v3/pericopes/surah_pericopes.jsonl. Surahs absent from that index (single-pericope by definition) get one synthesized row spanning the whole surah, flagged via synthesized=true. Null only if no pericope span covers this ayah (data gap; see coverage.pericope).",
+          "oneOf": [
+            { "type": "null" },
+            {
+              "type": "object",
+              "required": ["surah", "pericope", "ayah_from", "ayah_to", "label", "synthesized"],
+              "properties": {
+                "surah": { "type": "integer" },
+                "pericope": { "type": "integer" },
+                "ayah_from": { "type": "integer" },
+                "ayah_to": { "type": "integer" },
+                "label": { "type": "string" },
+                "synthesized": { "type": "boolean" }
+              }
+            }
+          ]
+        },
+
+        "root_lexicon": {
+          "type": "object",
+          "description": "Keyed by root_id (e.g. 'root_000745'). One entry per distinct root appearing in this ayah's qac_morphemes (root_ar), joining the Turkish dictionary entry (dictionary/tr/{root_id}_entry.json) and the Turkish gloss record (translation/glosses/locales/tr/{root_id}.json) verbatim. Turkish is the only language with glosses/dictionary entries currently sourced (see coverage.root_lexicon). Every gloss error object (branches[].concept_gloss.error, branches[].contextual_glosses[].error, branches[].lexical_glosses{}.error) is annotated in place with a derived boolean `loses_core_concept`: true when error.fit == 'narrowing' AND error.loses_facet_ids is non-empty, i.e. this specific gloss text is materially incomplete about the root's core concept.",
+          "additionalProperties": {
+            "type": "object",
+            "required": ["root_ar", "root_id", "dictionary_entry", "gloss"],
+            "properties": {
+              "root_ar": { "type": "string" },
+              "root_id": { "type": "string" },
+              "dictionary_entry": { "type": ["object", "null"] },
+              "dictionary_source_file": { "type": ["string", "null"] },
+              "gloss": { "type": ["object", "null"] },
+              "gloss_source_file": { "type": ["string", "null"] }
+            }
+          }
+        },
+
         "coverage": {
           "type": "object",
           "description": "Mandatory coverage block: for each source, whether it was found and what was missing. A missing v12 response set is a machine-readable fact here, not a silent empty list.",
           "required": [
             "quran_text", "word_analysis", "qac_morphemes", "branch_inventories",
-            "v12_reader_responses", "v12_reader_walks", "butuncul_okuma", "inter_ayah"
+            "v12_reader_responses", "v12_reader_walks", "v12_reader_walks_wide",
+            "v12_cross_run_publication", "butuncul_okuma", "inter_ayah",
+            "channel_review", "pericope", "root_lexicon",
+            "word_analysis_qac_alignment", "word_morpheme_spans"
           ],
           "properties": {
+            "word_morpheme_spans": {
+              "type": "object",
+              "required": ["present", "words_total", "words_resolved", "words_unresolved"],
+              "description": "Resolution of each word_analysis critical word to a MORPHEME SPAN via linguistic/morphemes.tsv. Critical words are orthographic/analytic units, not QAC words, so a critical word maps to a span of morphemes rather than to one qac_word_ref. Any unresolved word is listed explicitly in `unresolved`, never silently nulled.",
+              "properties": {
+                "present": { "type": "boolean" },
+                "source_file": { "type": ["string", "null"] },
+                "words_total": { "type": "integer" },
+                "words_resolved": { "type": "integer" },
+                "words_unresolved": { "type": "integer" },
+                "unresolved": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": ["word_index", "reason"],
+                    "properties": {
+                      "word_index": { "type": "integer" },
+                      "surface_ar": { "type": "string" },
+                      "surface_display": { "type": "string" },
+                      "reason": { "type": "string" }
+                    }
+                  }
+                },
+                "morphemes_tsv": { "type": "object" },
+                "note": { "type": "string" }
+              }
+            },
             "quran_text": { "type": "object", "required": ["present"], "properties": { "present": { "type": "boolean" } } },
             "word_analysis": { "type": "object", "required": ["present"], "properties": { "present": { "type": "boolean" }, "word_count": { "type": "integer" } } },
             "qac_morphemes": { "type": "object", "required": ["present"], "properties": { "present": { "type": "boolean" }, "row_count": { "type": "integer" } } },
@@ -215,13 +351,75 @@
               "required": ["present", "variants"],
               "properties": {
                 "present": { "type": "boolean" },
-                "variants": { "type": "object" }
+                "variants": { "type": "object" },
+                "scope": {
+                  "type": "string",
+                  "description": "'focus' = per-ayah stage_00 packet, already narrow, never scoped here. 'surah-fallback-scoped-to-ayah' = surah-wide packet narrowed by this builder. 'surah' = surah-wide packet emitted unscoped (presence-check path only).",
+                  "enum": ["focus", "surah", "surah-fallback-scoped-to-ayah"]
+                },
+                "scoping": {
+                  "type": "object",
+                  "description": "What ayah-scoping did. Exists so that scoping can never be mistaken for absence: a root in dropped_roots was deliberately excluded, not missing upstream.",
+                  "required": ["applied"],
+                  "properties": {
+                    "applied": { "type": "boolean" },
+                    "roots_total": { "type": "integer" },
+                    "roots_retained": { "type": "integer" },
+                    "roots_dropped": { "type": "integer" },
+                    "retained": {
+                      "type": "array",
+                      "description": "Per retained root: which rule admitted it and how many branches were kept vs available. rule='in_ayah' always has branches_kept == branches_total.",
+                      "items": {
+                        "type": "object",
+                        "required": ["root", "rule", "branches_kept", "branches_total"],
+                        "properties": {
+                          "root": { "type": "string" },
+                          "rule": { "type": "string", "enum": ["in_ayah", "cited_by_channel"] },
+                          "branches_kept": { "type": "integer" },
+                          "branches_total": { "type": "integer" },
+                          "cited_branch_ids": { "type": "array", "items": { "type": "string" } }
+                        }
+                      }
+                    },
+                    "dropped_roots": { "type": "array", "items": { "type": "string" } },
+                    "ayah_roots_from_qac": { "type": "array", "items": { "type": "string" } },
+                    "channel_citations_found": { "type": "integer" },
+                    "citations_unresolvable_in_surah_inventory": {
+                      "type": "array",
+                      "description": "Citations naming a root absent from the surah inventory entirely. These were unresolvable BEFORE scoping; recorded so the pre-existing gap is not attributed to scoping.",
+                      "items": { "type": "string" }
+                    },
+                    "note": { "type": "string" }
+                  }
+                }
+              }
+            },
+            "word_analysis_qac_alignment": {
+              "type": "object",
+              "required": ["consistent"],
+              "description": "Cross-layer identity check: do this ayah's word_analysis[].aligned_qac_word_ref values resolve against qac_morphemes.qac_word_ref? When consistent=false, word-level joins between word_analysis topics and QAC morphology are UNRELIABLE for this ayah -- word-analysis counts orthographic words where QAC counts morphological words. This is an upstream defect in quran-data's word-analysis and is deliberately NOT auto-repaired (renumbering would fabricate the stable identities PRINCIPLES.md §11 requires).",
+              "properties": {
+                "consistent": { "type": "boolean" },
+                "detail": {
+                  "oneOf": [
+                    { "type": "null" },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "qac_word_count": { "type": "integer" },
+                        "word_analysis_word_count": { "type": "integer" },
+                        "dangling_refs": { "type": "array", "items": { "type": "string" } }
+                      }
+                    }
+                  ]
+                },
+                "note": { "type": "string" }
               }
             },
             "v12_reader_responses": {
               "type": "object",
               "required": ["present", "variants"],
-              "description": "present=false at the top level plus per-variant present=false with a note is the expected, correct shape for a focus ayah with zero recorded readers (e.g. focus_103_2, focus_103_3).",
+              "description": "present=false is expected in the default workflow because per-ayah focus-run responses are retired.",
               "properties": {
                 "present": { "type": "boolean" },
                 "variants": { "type": "object" }
@@ -230,15 +428,41 @@
             "v12_reader_walks": {
               "type": "object",
               "required": ["present"],
+              "description": "A walk file that exists but yields zero recognised ayah headings at all is reported as present=false with zero_headings_parsed=true for that reader -- a distinct, loud state from a normal single-ayah 'heading not found' gap.",
               "properties": {
                 "present": { "type": "boolean" },
                 "readers": { "type": "object" },
                 "note": { "type": "string" }
               }
             },
+            "v12_reader_walks_wide": {
+              "type": "object",
+              "required": ["present"],
+              "description": "Coverage for the plus/minus-5 / 11-ayah reader-walk family.",
+              "properties": {
+                "present": { "type": "boolean" },
+                "readers": { "type": "object" },
+                "note": { "type": "string" }
+              }
+            },
+            "v12_cross_run_publication": {
+              "type": "object",
+              "required": ["present"],
+              "description": "Coverage for compact final v12 cross-run findings.",
+              "properties": {
+                "present": { "type": "boolean" },
+                "source_file": { "type": ["string", "null"] },
+                "protocol": { "type": "string" },
+                "language": { "type": "string" },
+                "finding_count": { "type": "integer" },
+                "grade_counts": { "type": "object" },
+                "note": { "type": "string" }
+              }
+            },
             "butuncul_okuma": {
               "type": "object",
               "required": ["present"],
+              "description": "note distinguishes three states: no whole-surah reading file exists; file(s) exist but zero ayah lines parsed from any of them (unrecognised format -- never conflated with plain absence); or a working file with no line for this specific ayah.",
               "properties": {
                 "present": { "type": "boolean" },
                 "source_file": { "type": ["string", "null"] },
@@ -252,6 +476,53 @@
                 "present": { "type": "boolean" },
                 "row_count": { "type": "integer" },
                 "label_counts": { "type": "object" },
+                "note": { "type": "string" }
+              }
+            },
+            "channel_review": {
+              "type": "object",
+              "required": ["present"],
+              "description": "First-pass single-reader network-v3 channel review for the surah (see analysis/channels/network-v3/s{NNN}/review/reader_a_pilot.md). Not present for every surah.",
+              "properties": {
+                "present": { "type": "boolean" },
+                "review_status": { "type": "string" },
+                "parent_channel_count": { "type": "integer" },
+                "subchannel_count": { "type": "integer" },
+                "subchannels_anchored_here": { "type": "integer" },
+                "source_file": { "type": ["string", "null"] },
+                "note": { "type": "string" }
+              }
+            },
+            "pericope": {
+              "type": "object",
+              "required": ["present"],
+              "properties": {
+                "present": { "type": "boolean" },
+                "synthesized": { "type": ["boolean", "null"] },
+                "note": { "type": ["string", "null"] }
+              }
+            },
+            "root_lexicon": {
+              "type": "object",
+              "required": ["present"],
+              "description": "Turkish is the only language with dictionary entries/glosses currently sourced.",
+              "properties": {
+                "present": { "type": "boolean" },
+                "roots_in_ayah": { "type": "array", "items": { "type": "string" } },
+                "per_root": {
+                  "type": "object",
+                  "description": "Per root: presence of dictionary/gloss, plus occurrence_evidence_trimmed recording the exact concordance rows dropped for that root."
+                },
+                "occurrence_evidence_trim": {
+                  "type": "object",
+                  "description": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are dropped from every root by design: a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, which dominated bundle size (~1.5 MB for one common root). dictionary_entry.branches (the lexical concept material) is kept in full, as are occurrence_evidence.summary and .forms.",
+                  "required": ["applied", "dropped_keys"],
+                  "properties": {
+                    "applied": { "type": "boolean" },
+                    "dropped_keys": { "type": "array", "items": { "type": "string" } },
+                    "note": { "type": "string" }
+                  }
+                },
                 "note": { "type": "string" }
               }
             }
@@ -280,7 +551,7 @@
         },
         "surah_scope": {
           "type": "object",
-          "required": ["quran_text_all_rows", "butuncul_okuma_all_lines"],
+          "required": ["quran_text_all_rows", "butuncul_okuma_all_lines", "pericopes"],
           "properties": {
             "quran_text_all_rows": {
               "type": "array",
@@ -300,16 +571,42 @@
                 "type": "object",
                 "required": ["ayahRef", "raw_line", "arabic_text", "reading_text_tr", "root_citations"]
               }
+            },
+            "pericopes": {
+              "type": "array",
+              "description": "The full ordered set of thematic ayah-span pericopes for this surah, from analysis/channels/network-v3/pericopes/surah_pericopes.jsonl. Surahs absent from that index get a single synthesized whole-surah row (synthesized=true) instead of being empty.",
+              "items": {
+                "type": "object",
+                "required": ["surah", "pericope", "ayah_from", "ayah_to", "label", "synthesized"],
+                "properties": {
+                  "surah": { "type": "integer" },
+                  "pericope": { "type": "integer" },
+                  "ayah_from": { "type": "integer" },
+                  "ayah_to": { "type": "integer" },
+                  "label": { "type": "string" },
+                  "synthesized": { "type": "boolean" }
+                }
+              }
             }
           }
         },
         "coverage": {
           "type": "object",
-          "required": ["ayah_count", "per_ayah", "butuncul_okuma"],
+          "required": ["ayah_count", "per_ayah", "butuncul_okuma", "pericopes"],
           "properties": {
             "ayah_count": { "type": "integer" },
             "per_ayah": { "type": "object", "description": "ayahRef -> that ayah bundle's own coverage block, verbatim." },
-            "butuncul_okuma": { "type": "object" }
+            "butuncul_okuma": { "type": "object" },
+            "channel_review": { "type": "object" },
+            "pericopes": {
+              "type": "object",
+              "required": ["present", "pericope_count", "synthesized"],
+              "properties": {
+                "present": { "type": "boolean" },
+                "pericope_count": { "type": "integer" },
+                "synthesized": { "type": "boolean" }
+              }
+            }
           }
         }
       }
