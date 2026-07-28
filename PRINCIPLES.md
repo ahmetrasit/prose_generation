@@ -73,9 +73,11 @@ Three requirements:
 2. **New material arrives from ground already laid.** A resonance enters through
    a word the reader has already met, in a form they have already been given.
    Nothing is announced from above.
-3. **Disclosure is paced by maturity, not by availability.** That a reading is
-   present in the bundle is not a reason to say it yet. See
-   [`docs/CHANNELS.md`](docs/CHANNELS.md).
+3. **Channel disclosure is paced by maturity, not by availability.** That a
+   branch is present in the bundle is not a reason to announce the eventual
+   surah-wide image. This does not suppress a locally grounded surprise reading:
+   layer 2 still states what a secondary resonance does to the primary reading
+   here. See [`docs/CHANNELS.md`](docs/CHANNELS.md).
 
 The failure this prevents is real and was observed: prose that is entirely true,
 fully traceable, and leaves the reader less certain of what the ayah says than
@@ -88,17 +90,20 @@ Each layer makes rejections. A rejection recorded nowhere is evidence destroyed.
 | layer | selects | rejections go to |
 | --- | --- | --- |
 | 1 — spine | one branch per rooted stem | layers 2 and 3 |
-| 3 — surah | one thesis | layer 2 |
+| 3 — surah | one thesis | the exclusion artifact; Layer 2's full field already preserves them |
+| reviewed channel source | recurring systems and members | compiled plan provenance |
+| combined 3 + 2.5 | thesis and disclosure points, not local readings | exclusions and overlay omissions |
 | 2 — ayah | nothing | — |
 
 Layer 2 does not select, so it is the terminus: it is obliged to carry what the
-others could not.
+others could not. It is not rerun with knowledge of the later thesis; that would
+break the isolation Layer 3 depends on.
 
 The concrete case: layer 1 selects `B003` (created beings, worlds) for
-`عَٰلَمِينَ` and rejects `B002` (sign, landmark) as non-translational. `B002` is
-exactly the branch the Fātiḥa path channel runs on. A rejection that lives only
-in a prose sentence of a README is lost; it belongs in
-`primary-anchors.json` as `consideredNotPrimary`.
+`عَٰلَمِينَ`; if `B002` (sign, landmark) is genuinely activated as the branch
+the Fātiḥa path channel runs on, it belongs in `primary-anchors.json` as an
+explicit root-scoped resonance. Branches that are merely inapplicable remain
+implicit exclusions.
 
 ## 7. Preserve uncertainty and rejection
 
@@ -153,7 +158,11 @@ Arabic-side analysis is language-neutral wherever possible. What is shared:
 
 - QAC morpheme, word, and ayah identities;
 - root and branch identities;
-- branch selection (`primary-anchors.json`) and its recorded rejections.
+- shared branch selection (`primary-anchors.json`) and its recorded resonances.
+
+The shared selection may use an independently authored ordinary Turkish
+baseline as non-authoritative assistance. Arabic morphology, context, and
+branch boundaries remain controlling.
 
 What each target language authors for itself:
 

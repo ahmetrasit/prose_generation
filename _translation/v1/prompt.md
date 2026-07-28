@@ -1,8 +1,9 @@
 # Target-language Quran translation layer
 
-Translate the complete surah in the input bundle into its target language. Work
-in two ordered stages: author the occurrence glosses first, then render the card
-glosses and fluent translation from those locked glosses.
+Translate every ayah in the input bundle into its target language. The bundle may
+be a complete surah or an explicit pilot chunk. Work in two ordered stages:
+author the occurrence glosses first, then render the card glosses and fluent
+translation from those locked glosses.
 
 You author **only language**. Every identity — QAC refs, root ids, branch ids,
 gloss ids — is assembled from the spine after you return, so none of it appears
@@ -24,20 +25,26 @@ Per ayah: the fluent **translation text** and its **target tokens**.
 
 ## Using the supplied evidence
 
-`branchCores` define the complete locked semantic boundary. `contextualSenses`
-give compact wording for individual facets. `lexicalSenses`, when present,
-identify the exact lexical unit used here, but their `fit` must be respected: a
-`narrowing` lexical sense is not a complete occurrence gloss, and
-`losesFacetIds` with `lossReason` tell you which facets the supplied morphology
-and construction still activate. Restore those. Do not import another branch, and
-do not reach for a remembered conventional Quran translation.
+Each rooted card's `evidenceRef` points into the top-level
+`selectedBranchEvidence` registry. The registry hoists evidence shared by
+repeated occurrences and may cover more than one selected primary branch.
+`branchCores` define the complete locked semantic boundary.
+`contextualSenses` are candidate realizations drawn only from those selected
+branches. Use the Arabic form, morphology, and construction to choose or combine
+the candidates that fit this occurrence.
 
-`glossSource.evidenceLanguage` says whether the dictionary evidence is already in
-the target language or arrives through a bridge language. Either way the
-occurrence gloss is written in the target language and adapted to
-`languagePolicy`. Source gloss wording is semantic evidence, not approved target
-prose. One source word may require several coordinated target-language clauses;
-compactness must not erase a source-grounded dimension.
+Respect every supplied `errorProfile`. In particular, a `narrowing` candidate is
+not a complete occurrence gloss; `losesFacetIds`, `loses`, and `reason` identify
+material that may need restoration, while `adds` and `collision` mark wording
+that may mislead. Do not import another branch, and do not reach for a remembered
+conventional Quran translation.
+
+Within a registry entry, omitted `evidenceLanguage` means the evidence is already
+in `targetLanguage`. An explicit different value marks a bridge-language
+exception. Either way the occurrence gloss is written in the target language and
+adapted to `languagePolicy`. Source gloss wording is semantic evidence, not
+approved target prose. One source word may require several coordinated
+target-language clauses; compactness must not erase a source-grounded dimension.
 
 Obey `languagePolicy` throughout. Use natural, established target-language
 vocabulary without etymological purism. Where a conventional religious label
@@ -71,7 +78,7 @@ one place a small slip fails the run.
 
 ## Output
 
-One `translation-authored-v1` JSON artifact, matching the inlined schema:
+Return one `translation-authored-v1` JSON artifact, matching the inlined schema:
 
 ```json
 {

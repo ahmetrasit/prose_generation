@@ -15,19 +15,20 @@ move.
 
 ## Source policy
 
-The Turkish V12 baseline is the primary reading scaffold. Its wording and
-QAC-word mapping constrain the translation without forcing Turkish syntax on
-another language.
+The independently authored Turkish V12 baseline assists identification of the
+ordinary primary reading. It is non-authoritative: Arabic morphology and
+context win, and its wording cannot suppress a real resonance or force Turkish
+syntax on another language.
 
 Only the direct lexical branch that governs the primary reading becomes a card
-anchor. Strong V12 findings may contain non-translational resonance branches;
-those do not become primary translation branches — but they are **recorded as
-rejected** in `consideredNotPrimary`, not discarded, and handed to the commentary
-layers (`../PRINCIPLES.md` §6, decision D4 in [`v1/README.md`](v1/README.md)).
+anchor. Real non-primary branch activation is recorded separately as a
+root-scoped resonance and remains available to later layers. The resonance is
+preserved in the v4 seed but deliberately omitted from the Stage 1 translation
+bundle, which receives primary branches only.
 
-Branch selection is its own stage with its own cold agent and its own mechanical
-check, because it is language-neutral and runs once per surah for every language
-that will ever be produced.
+Branch selection is its own Turkish-assisted stage with its own cold agent and
+mechanical check. Its result is shared and runs once per surah for every
+language that will ever be produced.
 
 Reviewed glosses under `dictionary/v2/gloss_generation/results/{language}` supply
 controlled target-language wording for the selected branch. The card gloss is
@@ -67,7 +68,7 @@ target-word-to-QAC mapping, and language policy.
 Two stages, both cold-agent, both mechanically checked:
 
 ```
-stage 0  anchors      one surah, language-neutral, run once ever
+stage 0  anchors      one surah, Turkish-assisted, shared, run once ever
 stage 1  translation  one surah, one language
 ```
 

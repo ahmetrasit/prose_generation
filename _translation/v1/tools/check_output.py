@@ -49,7 +49,6 @@ OCCURRENCE_GLOSS_KEYS = {"glossId", "text"}
 MISSING_GLOSS_KEYS = {"qacMorphemeRef", "reason"}
 LOCKED_CARD_KEYS = (
     "qacMorphemeRef",
-    "qacWordRef",
     "rootId",
     "branchIds",
 )
@@ -62,6 +61,14 @@ def read_json(path: Path):
 
 def extra_keys(value: dict, allowed: set[str]) -> set[str]:
     return set(value) - allowed
+
+
+def word_ref(morpheme_ref: str) -> str:
+    return morpheme_ref.rsplit(":", 1)[0]
+
+
+def occurrence_gloss_id(language: str, morpheme_ref: str) -> str:
+    return f"{language}:v1:{morpheme_ref}"
 
 
 def check(bundle: dict, output: dict, surah: int, language: str) -> list[str]:
@@ -188,6 +195,12 @@ def check(bundle: dict, output: dict, surah: int, language: str) -> list[str]:
                         f"{label} card {card_index} {key}: expected "
                         f"{source_card.get(key)!r}, found {card.get(key)!r}"
                     )
+            expected_word_ref = word_ref(source_card["qacMorphemeRef"])
+            if card.get("qacWordRef") != expected_word_ref:
+                errors.append(
+                    f"{label} card {card_index} qacWordRef: expected "
+                    f"{expected_word_ref!r}, found {card.get('qacWordRef')!r}"
+                )
             if not isinstance(card.get("cardGloss"), str) or not card["cardGloss"]:
                 errors.append(f"{label} card {card_index}: cardGloss must be nonempty")
 
@@ -195,7 +208,10 @@ def check(bundle: dict, output: dict, surah: int, language: str) -> list[str]:
             occurrence = card.get("occurrenceGloss")
             selected_gloss_id = card.get("selectedGlossId")
             if rooted:
-                expected_gloss_id = source_card["glossId"]
+                expected_gloss_id = occurrence_gloss_id(
+                    language,
+                    source_card["qacMorphemeRef"],
+                )
                 if not isinstance(occurrence, dict):
                     errors.append(
                         f"{label} card {card_index}: rooted card requires "

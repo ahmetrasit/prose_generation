@@ -39,13 +39,12 @@ STAGES: dict[str, StageSpec] = {
     "anchors": StageSpec(
         name="anchors",
         task_rel="_translation/v1/anchor_prompt.md",
-        # PRINCIPLES §6 is why consideredNotPrimary exists and §10/§11 are why
-        # the selection is language-neutral and why branch ids are root-scoped.
+        # Stage 0 is Turkish-assisted but emits one shared, root-scoped seed.
         governing_rel=("PRINCIPLES.md", "_translation/README.md"),
         needs_language=False,
-        output_artifact="_translation/v1/source/s{surah3}.primary-anchors.json",
+        output_artifact="_translation/v1/source/{surah3}.primary-anchors.json",
         response_instruction=(
-            "Write the complete `primary-anchor-seed-v2` JSON artifact and "
+            "Write the complete `primary-anchor-seed-v4` JSON artifact and "
             "nothing else in the artifact itself."
         ),
     ),
@@ -58,7 +57,7 @@ STAGES: dict[str, StageSpec] = {
         # the primary reading still and does not reason about latent readings.
         governing_rel=("_translation/v1/SCHEMA.md",),
         needs_language=True,
-        output_artifact="_translation/v1/authored/{language}/s{surah3}.authored.json",
+        output_artifact="_translation/v1/authored/{language}/{surah3}.authored.json",
         response_instruction=(
             "Write the complete `translation-authored-v1` JSON artifact and "
             "nothing else in the artifact itself."
@@ -74,20 +73,31 @@ def read_text(path: Path) -> str:
 
 
 def stage_inputs(
-    stage: StageSpec, surah: int, language: str | None
+    stage: StageSpec,
+    surah: int,
+    language: str | None,
+    input_path: Path | None = None,
 ) -> list[tuple[str, Path]]:
     surah3 = f"s{surah:03d}"
     if stage.name == "anchors":
+        path = input_path or V1_DIR / "anchors" / "input" / f"{surah3}.anchor-input.json"
         return [
             (
-                f"_translation/v1/anchors/input/{surah3}.anchor-input.json",
-                V1_DIR / "anchors" / "input" / f"{surah3}.anchor-input.json",
-            )
+                str(path.relative_to(ROOT)) if path.is_relative_to(ROOT) else str(path),
+                path,
+            ),
+            (
+                "_translation/v1/schema/primary-anchor-seed-v4.schema.json",
+                V1_DIR / "schema" / "primary-anchor-seed-v4.schema.json",
+            ),
         ]
+    bundle_path = input_path or V1_DIR / "input" / str(language) / f"{surah3}.json"
     return [
         (
-            f"_translation/v1/input/{language}/{surah3}.json",
-            V1_DIR / "input" / str(language) / f"{surah3}.json",
+            str(bundle_path.relative_to(ROOT))
+            if bundle_path.is_relative_to(ROOT)
+            else str(bundle_path),
+            bundle_path,
         ),
         (
             "_translation/v1/schema/translation-authored-v1.schema.json",
@@ -97,13 +107,18 @@ def stage_inputs(
 
 
 def build_prompt(
-    stage: StageSpec, surah: int, language: str | None, run_date: str
+    stage: StageSpec,
+    surah: int,
+    language: str | None,
+    run_date: str,
+    input_path: Path | None = None,
+    output_artifact: str | None = None,
 ) -> tuple[str, dict]:
     task_text = read_text(ROOT / stage.task_rel)
     governing = [(rel, read_text(ROOT / rel)) for rel in stage.governing_rel]
 
     inputs: list[tuple[str, str]] = []
-    for label, path in stage_inputs(stage, surah, language):
+    for label, path in stage_inputs(stage, surah, language, input_path):
         if not path.exists():
             raise SystemExit(
                 f"error: input not found: {path}\n"
@@ -116,7 +131,10 @@ def build_prompt(
     sources += [(label, len(text.encode("utf-8"))) for label, text in inputs]
 
     surah3 = f"s{surah:03d}"
-    artifact = stage.output_artifact.format(surah3=surah3, language=language)
+    artifact = output_artifact or stage.output_artifact.format(
+        surah3=surah3,
+        language=language,
+    )
 
     lines: list[str] = []
     lines.append("# Instantiated Translation-Layer Prompt")
@@ -126,7 +144,10 @@ def build_prompt(
     if stage.needs_language:
         lines.append(f"- target language: {language}")
     else:
-        lines.append("- target language: none — this stage is language-neutral")
+        lines.append(
+            "- target language: none - shared branch selection assisted by "
+            "the ordinary Turkish baseline"
+        )
     lines.append(f"- generated: {run_date}")
     lines.append("- sources (path — bytes):")
     for rel, nbytes in sources:
@@ -179,8 +200,9 @@ def build_prompt(
 
     lines.append("## Your response")
     lines.append("")
-    lines.append(f"1. {stage.response_instruction}")
-    lines.append(f"   Its intended path is `{artifact}`.")
+    lines.append(f"1. Return the complete JSON artifact for the controller to save.")
+    lines.append(f"   {stage.response_instruction}")
+    lines.append(f"   The controller will save it exactly at `{artifact}`.")
     lines.append(
         "2. A section headed exactly `=== PROMPT FRICTION ===`, outside the "
         "JSON artifact, reporting where this specification was unclear, "
@@ -220,6 +242,19 @@ def main() -> None:
     parser.add_argument("--stage", choices=sorted(STAGES), required=True)
     parser.add_argument("--language")
     parser.add_argument("--date", default=date.today().isoformat())
+    parser.add_argument(
+        "--input",
+        type=Path,
+        help="override the stage input file, useful for chunk pilots",
+    )
+    parser.add_argument(
+        "--artifact",
+        help="override the intended output artifact path shown to the agent",
+    )
+    parser.add_argument(
+        "--suffix",
+        help="extra file-stem suffix for rendered prompt/manifest names, e.g. '1-5'",
+    )
     parser.add_argument("--out", type=Path)
     args = parser.parse_args()
 
@@ -228,21 +263,26 @@ def main() -> None:
         raise SystemExit(f"error: --language is required for stage {stage.name}")
     if not stage.needs_language and args.language:
         raise SystemExit(
-            f"error: stage {stage.name} is language-neutral; --language would "
-            "imply a per-language branch selection, which PRINCIPLES.md §10 "
-            "forbids"
+            f"error: stage {stage.name} has one shared Turkish-assisted input; "
+            "--language does not select a separate anchor run"
         )
 
     prompt_text, manifest = build_prompt(
-        stage, args.surah, args.language, args.date
+        stage,
+        args.surah,
+        args.language,
+        args.date,
+        args.input,
+        args.artifact,
     )
 
     surah3 = f"s{args.surah:03d}"
+    unit_suffix = f".{args.suffix}" if args.suffix else ""
     suffix = f".{args.language}" if stage.needs_language else ""
     out_dir = args.out or V1_DIR / "prompts"
     out_dir.mkdir(parents=True, exist_ok=True)
-    prompt_path = out_dir / f"{surah3}.{stage.name}{suffix}.prompt.md"
-    manifest_path = out_dir / f"{surah3}.{stage.name}{suffix}.manifest.json"
+    prompt_path = out_dir / f"{surah3}{unit_suffix}.{stage.name}{suffix}.prompt.md"
+    manifest_path = out_dir / f"{surah3}{unit_suffix}.{stage.name}{suffix}.manifest.json"
 
     prompt_path.write_text(prompt_text, encoding="utf-8")
     with manifest_path.open("w", encoding="utf-8") as handle:

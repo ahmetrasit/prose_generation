@@ -3,6 +3,46 @@
 The final artifact contains occurrence glosses, cards, and fluent prose while
 keeping source evidence in the input bundle.
 
+## Stage 0 contracts
+
+`anchor-input-v2` is exhaustive but compact. Each rooted occurrence carries
+Arabic, morphology, a compact root resolution, and an independently authored
+ordinary Turkish baseline with QAC-word alignment. Every candidate root appears
+under `roots`, and every branch contains only `branchId` and `what_is_ar`.
+Each `rootResolution.targets[]` entry contains both root-scoped `rootId` and
+`rootNormAr`, the resolved Arabic Furuq/frozen root norm. Split target order has
+no selection meaning.
+
+`primary-anchor-seed-v4` is branch-only:
+
+```json
+{
+  "qacMorphemeRef": "87:6:1:2",
+  "primary": { "rootId": "root_001210", "branchIds": ["B002"] },
+  "resonances": [
+    { "rootId": "root_001210", "branchIds": ["B001"] }
+  ]
+}
+```
+
+All branch IDs are root-scoped. Omitted branches are implicit exclusions.
+Lexical senses are not part of the Stage 1 writer contract.
+`resonances` remain in the v4 seed for downstream analysis, but Stage 1
+deliberately omits them and builds `translation-input-v2` from `primary` only.
+
+## Stage 1 input
+
+`translation-input-v2.selectedBranchEvidence` stores one evidence package per
+distinct selected `rootId` and primary branch set. A rooted card carries
+`rootId`, `branchIds`, and `evidenceRef`; it does not repeat the evidence.
+Registry entries contain `branchCores`, `contextualSenses`, and every available
+error-profile field. They contain no `lexicalSenses`.
+
+An omitted registry `evidenceLanguage` means `targetLanguage`. An explicit
+different value identifies bridge-language evidence and must be preserved.
+`qacWordRef` and the occurrence `glossId` are absent from agent-visible cards;
+the assembler derives them from `qacMorphemeRef` and `language`.
+
 ## Authored vs. assembled
 
 Per decision D1 in [`README.md`](README.md), the writer authors only four kinds
@@ -11,10 +51,11 @@ of content; everything else is derived by the builder from QAC morphology and
 
 | field | origin |
 | --- | --- |
-| `qacMorphemeRef`, `qacWordRef` | assembled — QAC morphology |
-| `rootId` | assembled — QAC `root_join_key` |
+| `qacMorphemeRef` | assembled — copied from the deterministic input card |
+| `qacWordRef` | assembled — `qacMorphemeRef` without its final component |
+| `rootId` | assembled — QAC/Furuq root resolution plus the anchor seed's selected root for split roots |
 | `branchIds` | assembled — anchor seed |
-| `occurrenceGloss.glossId`, `selectedGlossId` | assembled — formula `{lang}:v1:{morphemeRef}` |
+| `occurrenceGloss.glossId`, `selectedGlossId` | assembled — formula `{lang}:v1:{qacMorphemeRef}` |
 | `schemaVersion`, `language`, `quranDataReleaseId`, `surah`, `ayahRef` | assembled |
 | `cardGloss` | **authored** |
 | `occurrenceGloss.text` | **authored** |
@@ -80,12 +121,16 @@ unchanged. Downstream consumers see only `translation-layer-v1`.
 ## Occurrence glosses
 
 Each rooted QAC morpheme receives one language- and occurrence-specific gloss
-ID. The writer authors its `occurrenceGloss.text` before rendering and copies
-the same ID to `selectedGlossId`.
+ID. The writer authors only its `occurrenceGloss.text`; the assembler creates
+the ID and copies it to `selectedGlossId`.
 
-The root and branch remain the shared semantic anchor. The occurrence gloss may
-change across ayahs when form, voice, valency, construction, or context changes.
-Identical forms in identical constructions should normally reuse wording.
+The root and branch remain the shared semantic anchor. When a QAC root maps to
+multiple Furuq roots, the stage-0 anchor seed selects the `rootId`. The writer
+bundle contains only that root and its primary branches; alternate roots remain
+in the Stage 0 input/seed. Seed resonances likewise remain available to
+downstream analysis but never enter the translation writer bundle. The
+occurrence gloss may change across ayahs when form, voice, valency,
+construction, or context changes.
 
 `missingGlosses` records semantic evidence gaps. A nonempty list prevents the
 artifact from passing the completion check.

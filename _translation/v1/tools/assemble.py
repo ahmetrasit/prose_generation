@@ -19,7 +19,7 @@ from pathlib import Path
 
 V1_DIR = Path(__file__).resolve().parents[1]
 
-ASSEMBLER_VERSION = "translation-v1-assembler-1"
+ASSEMBLER_VERSION = "translation-v1-assembler-2"
 
 
 class AuthoredFileInvalid(RuntimeError):
@@ -33,6 +33,14 @@ def read_json(path: Path):
 
 def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def word_ref(morpheme_ref: str) -> str:
+    return morpheme_ref.rsplit(":", 1)[0]
+
+
+def occurrence_gloss_id(language: str, morpheme_ref: str) -> str:
+    return f"{language}:v1:{morpheme_ref}"
 
 
 def validate(bundle: dict, authored: dict, language: str, surah: int) -> list[str]:
@@ -171,11 +179,11 @@ def assemble(
             authored_gloss = glosses[ref]
             card = {
                 "qacMorphemeRef": ref,
-                "qacWordRef": source_card["qacWordRef"],
+                "qacWordRef": word_ref(ref),
                 "cardGloss": authored_gloss["card"],
             }
             if "rootId" in source_card:
-                gloss_id = source_card["glossId"]
+                gloss_id = occurrence_gloss_id(language, ref)
                 card.update(
                     {
                         "rootId": source_card["rootId"],

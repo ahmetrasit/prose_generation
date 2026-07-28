@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quran.local/schemas/translation-input-v2.schema.json",
+  "title": "Selected-branch translation writer input v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "targetLanguage",
+    "languagePolicy",
+    "quranDataReleaseId",
+    "surah",
+    "selectedBranchEvidence",
+    "ayat"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "translation-input-v2" },
+    "targetLanguage": { "type": "string", "minLength": 2 },
+    "languagePolicy": { "type": "object" },
+    "quranDataReleaseId": { "type": "string", "minLength": 1 },
+    "surah": { "type": "integer", "minimum": 1, "maximum": 114 },
+    "selectedBranchEvidence": {
+      "description": "Evidence hoisted once per distinct selected root and branch set. An omitted evidenceLanguage defaults to targetLanguage; a bridge language must be explicit.",
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^root_[0-9]{6}/B[0-9]{3}(?:\\+B[0-9]{3})*$"
+      },
+      "additionalProperties": { "$ref": "#/$defs/selectedEvidence" }
+    },
+    "ayat": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ayahRef",
+          "arabicText",
+          "primaryReading",
+          "grammarSupport",
+          "cards"
+        ],
+        "properties": {
+          "ayahRef": { "type": "string", "minLength": 3 },
+          "arabicText": { "type": "string", "minLength": 1 },
+          "primaryReading": { "type": "object" },
+          "grammarSupport": { "type": "array" },
+          "cards": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "#/$defs/card" }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "card": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["qacMorphemeRef", "arabic", "morphology"],
+      "properties": {
+        "qacMorphemeRef": { "type": "string", "minLength": 7 },
+        "arabic": { "type": "string", "minLength": 1 },
+        "morphology": { "type": "object" },
+        "lemma": { "type": "string", "minLength": 1 },
+        "rootId": { "type": "string", "pattern": "^root_[0-9]{6}$" },
+        "branchIds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^B[0-9]{3}$" }
+        },
+        "evidenceRef": {
+          "type": "string",
+          "pattern": "^root_[0-9]{6}/B[0-9]{3}(?:\\+B[0-9]{3})*$"
+        }
+      },
+      "dependentRequired": {
+        "rootId": ["branchIds", "evidenceRef"],
+        "branchIds": ["rootId"],
+        "evidenceRef": ["rootId", "branchIds"]
+      }
+    },
+    "selectedEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "branchCores",
+        "contextualSenses"
+      ],
+      "properties": {
+        "evidenceLanguage": {
+          "description": "Present only when evidence uses a bridge language different from targetLanguage.",
+          "type": "string",
+          "minLength": 2
+        },
+        "branchCores": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/evidence" }
+        },
+        "contextualSenses": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/evidence" }
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["branchId", "text", "facetIds"],
+      "properties": {
+        "branchId": { "type": "string", "pattern": "^B[0-9]{3}$" },
+        "text": { "type": "string", "minLength": 1 },
+        "facetIds": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "errorProfile": { "$ref": "#/$defs/errorProfile" }
+      }
+    },
+    "errorProfile": {
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "properties": {
+        "fit": { "type": "string", "minLength": 1 },
+        "preserves": { "type": "string", "minLength": 1 },
+        "losesFacetIds": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "loses": { "type": "string", "minLength": 1 },
+        "adds": { "type": "string", "minLength": 1 },
+        "collision": { "type": "string", "minLength": 1 },
+        "reason": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

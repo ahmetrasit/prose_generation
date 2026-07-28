@@ -4,8 +4,9 @@
   "stages": [
     {
       "stage": "anchors",
-      "unit": "one-surah",
+      "unit": "one-surah-or-explicit-ayah-chunk",
       "sharedAcrossLanguages": true,
+      "assistanceLanguage": "tr",
       "prepare": [
         "python3 _translation/v1/tools/build_anchor_input.py --surah {surah}",
         "python3 _translation/v1/tools/instantiate.py --surah {surah} --stage anchors --date {date}"
@@ -15,19 +16,19 @@
         "visibleInputs": "rendered-prompt-only",
         "prompt": "_translation/v1/prompts/s{surah3}.anchors.prompt.md",
         "output": "_translation/v1/source/s{surah3}.primary-anchors.json",
-        "outputSchemaVersion": "primary-anchor-seed-v2"
+        "outputSchemaVersion": "primary-anchor-seed-v4"
       },
       "check": {
         "command": "python3 _translation/v1/tools/check_anchors.py --surah {surah}",
         "correctionsAllowed": 0
       },
       "agentAuthors": [
-        "anchors[].branchIds",
-        "anchors[].lexicalUnitIds",
-        "anchors[].consideredNotPrimary",
+        "anchors[].primary.rootId",
+        "anchors[].primary.branchIds",
+        "anchors[].resonances",
         "unresolved"
       ],
-      "skipIf": "a primary-anchor-seed-v2 file exists and passes check_anchors.py"
+      "skipIf": "a primary-anchor-seed-v4 file exists and passes check_anchors.py"
     },
     {
       "stage": "translation",
@@ -72,6 +73,12 @@
         "cards[].branchIds",
         "cards[].occurrenceGloss.glossId",
         "cards[].selectedGlossId"
+      ],
+      "agentVisibleInput": [
+        "selectedBranchEvidence[rootId/branchSet].branchCores",
+        "selectedBranchEvidence[rootId/branchSet].contextualSenses",
+        "selectedBranchEvidence[rootId/branchSet].evidenceLanguage (bridge exceptions only)",
+        "ayat[].cards[].evidenceRef"
       ]
     }
   ]

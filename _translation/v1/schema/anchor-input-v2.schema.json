@@ -1,0 +1,211 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quran.local/schemas/anchor-input-v2.schema.json",
+  "title": "Compact exhaustive Stage 0 anchor input",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "builderVersion",
+    "quranDataReleaseId",
+    "surah",
+    "ayahRange",
+    "assistance",
+    "coverage",
+    "roots",
+    "ayat"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "anchor-input-v2" },
+    "builderVersion": { "const": "anchor-input-v2" },
+    "quranDataReleaseId": { "type": "string", "minLength": 1 },
+    "surah": { "type": "integer", "minimum": 1, "maximum": 114 },
+    "ayahRange": {
+      "oneOf": [
+        { "type": "null" },
+        {
+          "type": "array",
+          "prefixItems": [
+            { "type": "integer", "minimum": 1 },
+            { "type": "integer", "minimum": 1 }
+          ],
+          "items": false,
+          "minItems": 2,
+          "maxItems": 2
+        }
+      ]
+    },
+    "assistance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ordinaryTurkishBaseline"],
+      "properties": {
+        "ordinaryTurkishBaseline": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "protocol",
+            "language",
+            "hashScope",
+            "baselineBundleSha256"
+          ],
+          "properties": {
+            "protocol": { "const": "v12-cross-run-ayah-roster-v3" },
+            "language": { "const": "tr" },
+            "hashScope": { "const": "frozen-baseline-bundle" },
+            "baselineBundleSha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            }
+          }
+        }
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rootedStems", "roots", "branches", "baselineAyat"],
+      "properties": {
+        "rootedStems": { "type": "integer", "minimum": 1 },
+        "roots": { "type": "integer", "minimum": 1 },
+        "branches": { "type": "integer", "minimum": 1 },
+        "baselineAyat": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "roots": {
+      "type": "object",
+      "propertyNames": { "$ref": "#/$defs/rootId" },
+      "additionalProperties": { "$ref": "#/$defs/root" }
+    },
+    "ayat": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/ayah" }
+    }
+  },
+  "$defs": {
+    "rootId": { "type": "string", "pattern": "^root_[0-9]{6}$" },
+    "branchId": { "type": "string", "pattern": "^B[0-9]{3}$" },
+    "qacMorphemeRef": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*:[1-9][0-9]*:[1-9][0-9]*:[1-9][0-9]*$"
+    },
+    "qacWordRef": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*:[1-9][0-9]*:[1-9][0-9]*$"
+    },
+    "root": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rootId", "branches"],
+      "properties": {
+        "rootId": { "$ref": "#/$defs/rootId" },
+        "branches": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["branchId", "what_is_ar"],
+            "properties": {
+              "branchId": { "$ref": "#/$defs/branchId" },
+              "what_is_ar": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    },
+    "ayah": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ayahRef",
+        "arabicText",
+        "ordinaryTurkishBaseline",
+        "rootedStems"
+      ],
+      "properties": {
+        "ayahRef": {
+          "type": "string",
+          "pattern": "^[1-9][0-9]*:[1-9][0-9]*$"
+        },
+        "arabicText": { "type": "string", "minLength": 1 },
+        "ordinaryTurkishBaseline": { "$ref": "#/$defs/baseline" },
+        "rootedStems": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/stem" }
+        }
+      }
+    },
+    "baseline": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["text", "targetTokens"],
+      "properties": {
+        "text": { "type": "string", "minLength": 1 },
+        "targetTokens": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["text", "qacWordRefs"],
+            "properties": {
+              "text": { "type": "string", "minLength": 1 },
+              "qacWordRefs": {
+                "type": "array",
+                "minItems": 1,
+                "uniqueItems": true,
+                "items": { "$ref": "#/$defs/qacWordRef" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "stem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "qacMorphemeRef",
+        "qacWordRef",
+        "arabic",
+        "morphology",
+        "rootAr",
+        "rootResolution"
+      ],
+      "properties": {
+        "qacMorphemeRef": { "$ref": "#/$defs/qacMorphemeRef" },
+        "qacWordRef": { "$ref": "#/$defs/qacWordRef" },
+        "arabic": { "type": "string", "minLength": 1 },
+        "lemma": { "type": "string", "minLength": 1 },
+        "morphology": { "type": "object" },
+        "rootAr": { "type": "string", "minLength": 1 },
+        "rootResolution": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["mappingStatus", "targets"],
+          "properties": {
+            "mappingStatus": { "type": "string", "minLength": 1 },
+            "targets": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "required": ["rootId", "rootNormAr"],
+                            "properties": {
+                              "rootId": { "$ref": "#/$defs/rootId" },
+                              "rootNormAr": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            }
+                          }
+                        }
+          }
+        }
+      }
+    }
+  }
+}
