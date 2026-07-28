@@ -98,6 +98,7 @@ STATUS.md             per-surah coverage
 docs/                 sources, available data, channels, open questions
 scripts/              shared bundle builder for both commentary levels
 bundles/              generated commentary input bundles
+_commentary/          hermetic commentary prompts and agent-authored outputs
 _translation/         layer 1 — the spine
 _ayah_commentary/     layer 2 — function and resonance, per ayah
 _surah_commentary/    layer 3 — the whole image
@@ -114,9 +115,10 @@ they are planned, not because they exist.
 - Rules first: [`PRINCIPLES.md`](PRINCIPLES.md), then
   [`COMMENTARY_SPEC.md`](COMMENTARY_SPEC.md).
 - Running layer 1: [`_translation/v1/README.md`](_translation/v1/README.md).
-- Running layers 2–3: [`scripts/README.md`](scripts/README.md) builds the
-  bundle; `_ayah_commentary/PROMPT.md` and `_surah_commentary/PROMPT.md` are the
-  tasks.
+- Running layers 2–3: [`_commentary/ORCHESTRATION.md`](_commentary/ORCHESTRATION.md)
+  is the run contract for commentary prompts and agent-authored outputs;
+  [`scripts/README.md`](scripts/README.md) documents the bundle builder behind
+  those prompts.
 - What evidence exists: [`docs/SOURCES.md`](docs/SOURCES.md) for paths and
   formats, [`docs/DATA_AVAILABILITY.md`](docs/DATA_AVAILABILITY.md) for coverage.
 
