@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-28T03:22:47.654272+00:00",
+  "generated_at": "2026-07-28T10:12:53.948754+00:00",
   "surah": 1,
   "ayah": 2,
   "ayahRef": "1:2",
@@ -4390,6 +4390,90 @@
       ]
     }
   ],
+  "channel_generated_outputs": {
+    "source_dir": "quran-data/data/analysis/channels/network-v3/s001",
+    "files": [
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s001/channel_candidates.jsonl",
+        "role": "channel_candidates.jsonl",
+        "bytes": 1319121,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s001/channel_candidates.tsv",
+        "role": "channel_candidates.tsv",
+        "bytes": 34216,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s001/summary.json",
+        "role": "summary.json",
+        "bytes": 7514,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s001/families/candidate_graphs.jsonl",
+        "role": "families/candidate_graphs.jsonl",
+        "bytes": 782423,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s001/families/candidate_similarity_edges.tsv",
+        "role": "families/candidate_similarity_edges.tsv",
+        "bytes": 18629,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s001/families/channel_families.jsonl",
+        "role": "families/channel_families.jsonl",
+        "bytes": 72130,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s001/families/candidate_family_membership.tsv",
+        "role": "families/candidate_family_membership.tsv",
+        "bytes": 1707,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s001/families/family_branch_inventory.tsv",
+        "role": "families/family_branch_inventory.tsv",
+        "bytes": 36703,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s001/families/consolidation_summary.json",
+        "role": "families/consolidation_summary.json",
+        "bytes": 2171,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s001/paths/path_summary.json",
+        "role": "paths/path_summary.json",
+        "bytes": 14312,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s001/paths/path_families/semantic_path_families.jsonl",
+        "role": "paths/path_families/semantic_path_families.jsonl",
+        "bytes": 2019492,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s001/paths/path_families/path_similarity_edges.tsv",
+        "role": "paths/path_families/path_similarity_edges.tsv",
+        "bytes": 1297746,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s001/paths/path_families/path_family_summary.json",
+        "role": "paths/path_families/path_family_summary.json",
+        "bytes": 12331,
+        "compressed": false
+      }
+    ],
+    "usage": "External source manifest only. These generated outputs may inform channel-family/path context when the agent has file access, but first-pass review limits still apply: no established channel name, accept/reject claim, or maturity claim unless a future adjudicated ledger is present."
+  },
   "pericope": {
     "surah": 1,
     "pericope": 1,
@@ -14769,6 +14853,15 @@
       "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
       "source_file": "quran-data/data/analysis/channels/network-v3/s001/review/reader_a_pilot.md",
       "subchannels_anchored_here": 28
+    },
+    "channel_generated_outputs": {
+      "present": true,
+      "source_dir": "quran-data/data/analysis/channels/network-v3/s001",
+      "file_count": 13,
+      "missing_expected_files": [
+        "paths/path_families/semantic_path_families.jsonl.gz"
+      ],
+      "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
     },
     "branch_inventories": {
       "present": true,

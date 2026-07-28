@@ -110,6 +110,15 @@ Current ayah bundles distinguish three V12 reader-derived families:
 The cross-run field is not prose to copy. It is a compact audit surface for what
 the upstream publication run retained, graded, and anchored.
 
+Channel generated outputs are also surfaced as a lightweight manifest:
+`channel_generated_outputs.files[]` names the quran-data files available for the
+surah (`channel_candidates`, `channel_families`, `family_branch_inventory`,
+semantic path-family summaries, and related summaries). The bundle does not
+inline them because they can be large. If a run gives the agent filesystem
+access, the agent may read only the listed files when channel detail is
+necessary. These generated outputs are candidate/family/path evidence, not an
+adjudicated ledger; State B restrictions still apply.
+
 Per-ayah focus runs are no longer part of the default workflow. Normal bundles
 use the surah `full_context_packet.json` branch inventory scoped to this ayah's
 roots and anchored citations, plus regular/wide reader walks and cross-run
@@ -137,10 +146,16 @@ Writes `_commentary/inputs/s{NNN}/`. One prompt file plus one manifest per unit.
 With `--profile`, the profile label is appended before `.prompt.md`, for example
 `100_1.ayah.v2.5.6-sol-high.prompt.md`.
 
-The prompt is **hermetic**: the task document, every governing document, every
-cross-reference between them, and the bundle are inlined in full. The agent is
-told explicitly that it has no filesystem and that a filename in the text is an
-in-document pointer, not an instruction to go find a file.
+The prompt is **hermetic by default**: the task document, every governing
+document, every cross-reference between them, and the bundle are inlined in
+full. A filename in the text is normally an in-document pointer, not an
+instruction to go find a file.
+
+The exception is an explicit source manifest inside the bundle. Today this is
+`channel_generated_outputs.files[]`: if the run gives the agent read access, it
+may inspect only those listed quran-data files when channel detail is necessary.
+This keeps cold runs comparable while making large 111/114 channel output files
+available without inlining them into every ayah prompt.
 
 This is not tidiness. It is what makes a cold agent runnable, what makes two
 different models comparable on verifiably identical input, and what closed
@@ -167,7 +182,9 @@ surface if it disorients a writer.
 ## Stage 3 — Run layer 2, one agent per ayah
 
 Feed one prompt file to one cold agent as its **entire** prompt. No system
-prompt, no repo access, no other context, no conversation history.
+prompt, no other context, no conversation history. Repo/file reads are limited to
+explicit external-source manifests in the bundle, currently
+`channel_generated_outputs.files[]`.
 Do not set a service-tier override when spawning these agents; use the model and
 reasoning effort only.
 
@@ -198,6 +215,15 @@ What the agent may do with channel material depends on what exists:
 review is single-reader, no accept/reject, no maturity. Naming a channel from it
 is exactly the unearned authority `PRINCIPLES.md` §2 forbids, and the reader
 cannot tell the difference.
+
+In friction/evidence, say this in reader-workflow terms if needed: "channel
+review is first-pass only, so it was used as a suggestion source rather than as
+an established channel." Avoid unexplained infrastructure words such as
+`ledger`, `adjudication`, and `maturity` unless the reviewer specifically needs
+the exact missing artifact named.
+
+When `channel_generated_outputs` is present, it makes the generated discovery
+files available for inspection; it does not change State B into State A.
 
 Both states are described in the inlined prompt; the agent reads its bundle and
 determines which applies. The orchestrator does not need to tell it.
@@ -275,11 +301,18 @@ Arabic lexical items in prose may be authored as structured spans:
 {ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar}
 ```
 
-Renderers can then produce a reader edition with transliteration first, a
-listener/TTS edition with the Arabic surface form, or a Turkish-only edition with
-the gloss. Raw root skeletons, branch IDs, and letter-by-letter root
-transliterations stay in evidence. Prose should attach root discussion to the
-surface word, for example `el-âdiyât'ın bağlı olduğu kök alanı...`.
+Use the full span at first mention of an ayah word, and again when the prose
+returns to that word after another word or another paragraph. Renderers can then
+produce a reader edition with transliteration first, a listener/TTS edition with
+the Arabic surface form, or a Turkish-only edition with the gloss. Raw root
+skeletons, branch IDs, and letter-by-letter root transliterations stay in
+evidence. Prose should attach root discussion to the surface word, for example
+`{ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar} kelimesinin bağlı
+olduğu kök alanı...`.
+
+Prose paragraphs should start from reader meaning, then add grammar. "Âyet önce
+hamdi Allah'a verir; bunu fiille değil, sabit bir ad cümlesiyle yapar" is better
+than opening with "Bu âyet, tek bir isim cümlesiyle yerleşik bir hüküm kurar."
 
 Prose and apparatus never mix (`PRINCIPLES.md` §12). Absence goes in the
 coverage note, never in the prose — the reader does not learn a source was

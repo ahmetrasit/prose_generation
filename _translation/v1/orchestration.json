@@ -1,43 +1,78 @@
 {
   "workflow": "translation-layer-v1",
-  "unit": "one-surah-one-language",
   "controllerPrompt": "_translation/v1/orchestrator.md",
-  "prepare": {
-    "command": "python3 _translation/v1/tools/build_bundle.py --surah {surah} --language {language}",
-    "bundle": "_translation/v1/input/{language}/s{surah3}.json"
-  },
-  "agent": {
-    "scope": "whole-surah",
-    "model": "gpt-5.5",
-    "reasoningEffort": "high",
-    "visibleInputs": "bundle-and-schema-only",
-    "prompt": "_translation/v1/prompt.md",
-    "input": "_translation/v1/input/{language}/s{surah3}.json",
-    "outputSchema": "_translation/v1/schema/translation-layer-v1.schema.json",
-    "output": "_translation/v1/output/{language}/s{surah3}.json"
-  },
-  "check": {
-    "command": "python3 _translation/v1/tools/check_output.py --surah {surah} --language {language} --output {output}",
-    "correctionsAllowed": 0
-  },
-  "agentEdits": [
-    "missingGlosses",
-    "cards[].occurrenceGloss",
-    "cards[].selectedGlossId",
-    "cards[].cardGloss",
-    "translation.text",
-    "translation.targetTokens"
-  ],
-  "lockedFromBundle": [
-    "schemaVersion",
-    "language",
-    "quranDataReleaseId",
-    "surah",
-    "ayat[].ayahRef",
-    "cards[].qacMorphemeRef",
-    "cards[].qacWordRef",
-    "cards[].rootId",
-    "cards[].branchIds",
-    "input.cards[].glossId"
+  "stages": [
+    {
+      "stage": "anchors",
+      "unit": "one-surah",
+      "sharedAcrossLanguages": true,
+      "prepare": [
+        "python3 _translation/v1/tools/build_anchor_input.py --surah {surah}",
+        "python3 _translation/v1/tools/instantiate.py --surah {surah} --stage anchors --date {date}"
+      ],
+      "agent": {
+        "scope": "whole-surah",
+        "visibleInputs": "rendered-prompt-only",
+        "prompt": "_translation/v1/prompts/s{surah3}.anchors.prompt.md",
+        "output": "_translation/v1/source/s{surah3}.primary-anchors.json",
+        "outputSchemaVersion": "primary-anchor-seed-v2"
+      },
+      "check": {
+        "command": "python3 _translation/v1/tools/check_anchors.py --surah {surah}",
+        "correctionsAllowed": 0
+      },
+      "agentAuthors": [
+        "anchors[].branchIds",
+        "anchors[].lexicalUnitIds",
+        "anchors[].consideredNotPrimary",
+        "unresolved"
+      ],
+      "skipIf": "a primary-anchor-seed-v2 file exists and passes check_anchors.py"
+    },
+    {
+      "stage": "translation",
+      "unit": "one-surah-one-language",
+      "sharedAcrossLanguages": false,
+      "prepare": [
+        "python3 _translation/v1/tools/build_bundle.py --surah {surah} --language {language}",
+        "python3 _translation/v1/tools/instantiate.py --surah {surah} --stage translation --language {language} --date {date}"
+      ],
+      "agent": {
+        "scope": "whole-surah",
+        "visibleInputs": "rendered-prompt-only",
+        "prompt": "_translation/v1/prompts/s{surah3}.translation.{language}.prompt.md",
+        "output": "_translation/v1/authored/{language}/s{surah3}.authored.json",
+        "outputSchemaVersion": "translation-authored-v1"
+      },
+      "assemble": {
+        "command": "python3 _translation/v1/tools/assemble.py --surah {surah} --language {language} --model {model}",
+        "output": "_translation/v1/output/{language}/s{surah3}.json"
+      },
+      "check": {
+        "command": "python3 _translation/v1/tools/check_output.py --surah {surah} --language {language}",
+        "correctionsAllowed": 0
+      },
+      "agentAuthors": [
+        "glosses[].card",
+        "glosses[].occurrence",
+        "ayat[].text",
+        "ayat[].targetTokens",
+        "missingGlosses"
+      ],
+      "assembledFromSpine": [
+        "schemaVersion",
+        "language",
+        "quranDataReleaseId",
+        "surah",
+        "provenance",
+        "ayat[].ayahRef",
+        "cards[].qacMorphemeRef",
+        "cards[].qacWordRef",
+        "cards[].rootId",
+        "cards[].branchIds",
+        "cards[].occurrenceGloss.glossId",
+        "cards[].selectedGlossId"
+      ]
+    }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "bundle_type": "surah",
   "schema_version": "input-bundle-surah-v3",
-  "generated_at": "2026-07-28T03:20:57.633100+00:00",
+  "generated_at": "2026-07-28T10:12:54.051774+00:00",
   "surah": 100,
   "ayah_refs": [
     "100:1",
@@ -1294,6 +1294,90 @@
         }
       ]
     },
+    "channel_generated_outputs": {
+      "source_dir": "quran-data/data/analysis/channels/network-v3/s100",
+      "files": [
+        {
+          "path": "quran-data/data/analysis/channels/network-v3/s100/channel_candidates.jsonl",
+          "role": "channel_candidates.jsonl",
+          "bytes": 2189080,
+          "compressed": false
+        },
+        {
+          "path": "quran-data/data/analysis/channels/network-v3/s100/channel_candidates.tsv",
+          "role": "channel_candidates.tsv",
+          "bytes": 58425,
+          "compressed": false
+        },
+        {
+          "path": "quran-data/data/analysis/channels/network-v3/s100/summary.json",
+          "role": "summary.json",
+          "bytes": 8020,
+          "compressed": false
+        },
+        {
+          "path": "quran-data/data/analysis/channels/network-v3/s100/families/candidate_graphs.jsonl",
+          "role": "families/candidate_graphs.jsonl",
+          "bytes": 1294270,
+          "compressed": false
+        },
+        {
+          "path": "quran-data/data/analysis/channels/network-v3/s100/families/candidate_similarity_edges.tsv",
+          "role": "families/candidate_similarity_edges.tsv",
+          "bytes": 27742,
+          "compressed": false
+        },
+        {
+          "path": "quran-data/data/analysis/channels/network-v3/s100/families/channel_families.jsonl",
+          "role": "families/channel_families.jsonl",
+          "bytes": 190043,
+          "compressed": false
+        },
+        {
+          "path": "quran-data/data/analysis/channels/network-v3/s100/families/candidate_family_membership.tsv",
+          "role": "families/candidate_family_membership.tsv",
+          "bytes": 2768,
+          "compressed": false
+        },
+        {
+          "path": "quran-data/data/analysis/channels/network-v3/s100/families/family_branch_inventory.tsv",
+          "role": "families/family_branch_inventory.tsv",
+          "bytes": 71109,
+          "compressed": false
+        },
+        {
+          "path": "quran-data/data/analysis/channels/network-v3/s100/families/consolidation_summary.json",
+          "role": "families/consolidation_summary.json",
+          "bytes": 4148,
+          "compressed": false
+        },
+        {
+          "path": "quran-data/data/analysis/channels/network-v3/s100/paths/path_summary.json",
+          "role": "paths/path_summary.json",
+          "bytes": 14978,
+          "compressed": false
+        },
+        {
+          "path": "quran-data/data/analysis/channels/network-v3/s100/paths/path_families/semantic_path_families.jsonl",
+          "role": "paths/path_families/semantic_path_families.jsonl",
+          "bytes": 4395316,
+          "compressed": false
+        },
+        {
+          "path": "quran-data/data/analysis/channels/network-v3/s100/paths/path_families/path_similarity_edges.tsv",
+          "role": "paths/path_families/path_similarity_edges.tsv",
+          "bytes": 1474814,
+          "compressed": false
+        },
+        {
+          "path": "quran-data/data/analysis/channels/network-v3/s100/paths/path_families/path_family_summary.json",
+          "role": "paths/path_families/path_family_summary.json",
+          "bytes": 12244,
+          "compressed": false
+        }
+      ],
+      "usage": "External source manifest only. These generated outputs may inform channel-family/path context when the agent has file access, but first-pass review limits still apply: no established channel name, accept/reject claim, or maturity claim unless a future adjudicated ledger is present."
+    },
     "pericopes": [
       {
         "surah": 100,
@@ -1356,6 +1440,15 @@
           "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
           "source_file": "quran-data/data/analysis/channels/network-v3/s100/review/reader_a_pilot.md",
           "subchannels_anchored_here": 14
+        },
+        "channel_generated_outputs": {
+          "present": true,
+          "source_dir": "quran-data/data/analysis/channels/network-v3/s100",
+          "file_count": 13,
+          "missing_expected_files": [
+            "paths/path_families/semantic_path_families.jsonl.gz"
+          ],
+          "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
         },
         "branch_inventories": {
           "present": true,
@@ -1643,24 +1736,33 @@
           "readers": {
             "reader_b": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md",
+              "matched_ref": "100:1"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:1"
+          ]
         },
         "v12_reader_walks_wide": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md",
+              "matched_ref": "100:1"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:1"
+          ]
         },
         "v12_cross_run_publication": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/100_ayah_findings_publication.json",
           "protocol": "v12-cross-run-publication-v3",
           "language": "tr",
+          "lookup_ref": "100:1",
           "finding_count": 5,
           "grade_counts": {
             "strong": 1,
@@ -1795,6 +1897,15 @@
           "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
           "source_file": "quran-data/data/analysis/channels/network-v3/s100/review/reader_a_pilot.md",
           "subchannels_anchored_here": 12
+        },
+        "channel_generated_outputs": {
+          "present": true,
+          "source_dir": "quran-data/data/analysis/channels/network-v3/s100",
+          "file_count": 13,
+          "missing_expected_files": [
+            "paths/path_families/semantic_path_families.jsonl.gz"
+          ],
+          "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
         },
         "branch_inventories": {
           "present": true,
@@ -2070,24 +2181,33 @@
           "readers": {
             "reader_b": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md",
+              "matched_ref": "100:2"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:2"
+          ]
         },
         "v12_reader_walks_wide": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md",
+              "matched_ref": "100:2"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:2"
+          ]
         },
         "v12_cross_run_publication": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/100_ayah_findings_publication.json",
           "protocol": "v12-cross-run-publication-v3",
           "language": "tr",
+          "lookup_ref": "100:2",
           "finding_count": 5,
           "grade_counts": {
             "strong": 1,
@@ -2223,6 +2343,15 @@
           "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
           "source_file": "quran-data/data/analysis/channels/network-v3/s100/review/reader_a_pilot.md",
           "subchannels_anchored_here": 13
+        },
+        "channel_generated_outputs": {
+          "present": true,
+          "source_dir": "quran-data/data/analysis/channels/network-v3/s100",
+          "file_count": 13,
+          "missing_expected_files": [
+            "paths/path_families/semantic_path_families.jsonl.gz"
+          ],
+          "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
         },
         "branch_inventories": {
           "present": true,
@@ -2509,24 +2638,33 @@
           "readers": {
             "reader_b": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md",
+              "matched_ref": "100:3"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:3"
+          ]
         },
         "v12_reader_walks_wide": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md",
+              "matched_ref": "100:3"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:3"
+          ]
         },
         "v12_cross_run_publication": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/100_ayah_findings_publication.json",
           "protocol": "v12-cross-run-publication-v3",
           "language": "tr",
+          "lookup_ref": "100:3",
           "finding_count": 5,
           "grade_counts": {
             "strong": 1,
@@ -2649,6 +2787,15 @@
           "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
           "source_file": "quran-data/data/analysis/channels/network-v3/s100/review/reader_a_pilot.md",
           "subchannels_anchored_here": 13
+        },
+        "channel_generated_outputs": {
+          "present": true,
+          "source_dir": "quran-data/data/analysis/channels/network-v3/s100",
+          "file_count": 13,
+          "missing_expected_files": [
+            "paths/path_families/semantic_path_families.jsonl.gz"
+          ],
+          "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
         },
         "branch_inventories": {
           "present": true,
@@ -2924,24 +3071,33 @@
           "readers": {
             "reader_b": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md",
+              "matched_ref": "100:4"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:4"
+          ]
         },
         "v12_reader_walks_wide": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md",
+              "matched_ref": "100:4"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:4"
+          ]
         },
         "v12_cross_run_publication": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/100_ayah_findings_publication.json",
           "protocol": "v12-cross-run-publication-v3",
           "language": "tr",
+          "lookup_ref": "100:4",
           "finding_count": 4,
           "grade_counts": {
             "strong": 2,
@@ -3077,6 +3233,15 @@
           "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
           "source_file": "quran-data/data/analysis/channels/network-v3/s100/review/reader_a_pilot.md",
           "subchannels_anchored_here": 22
+        },
+        "channel_generated_outputs": {
+          "present": true,
+          "source_dir": "quran-data/data/analysis/channels/network-v3/s100",
+          "file_count": 13,
+          "missing_expected_files": [
+            "paths/path_families/semantic_path_families.jsonl.gz"
+          ],
+          "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
         },
         "branch_inventories": {
           "present": true,
@@ -3398,24 +3563,33 @@
           "readers": {
             "reader_b": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md",
+              "matched_ref": "100:5"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:5"
+          ]
         },
         "v12_reader_walks_wide": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md",
+              "matched_ref": "100:5"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:5"
+          ]
         },
         "v12_cross_run_publication": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/100_ayah_findings_publication.json",
           "protocol": "v12-cross-run-publication-v3",
           "language": "tr",
+          "lookup_ref": "100:5",
           "finding_count": 5,
           "grade_counts": {
             "strong": 2,
@@ -3551,6 +3725,15 @@
           "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
           "source_file": "quran-data/data/analysis/channels/network-v3/s100/review/reader_a_pilot.md",
           "subchannels_anchored_here": 25
+        },
+        "channel_generated_outputs": {
+          "present": true,
+          "source_dir": "quran-data/data/analysis/channels/network-v3/s100",
+          "file_count": 13,
+          "missing_expected_files": [
+            "paths/path_families/semantic_path_families.jsonl.gz"
+          ],
+          "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
         },
         "branch_inventories": {
           "present": true,
@@ -3874,24 +4057,33 @@
           "readers": {
             "reader_b": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md",
+              "matched_ref": "100:6"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:6"
+          ]
         },
         "v12_reader_walks_wide": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md",
+              "matched_ref": "100:6"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:6"
+          ]
         },
         "v12_cross_run_publication": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/100_ayah_findings_publication.json",
           "protocol": "v12-cross-run-publication-v3",
           "language": "tr",
+          "lookup_ref": "100:6",
           "finding_count": 6,
           "grade_counts": {
             "strong": 2,
@@ -4049,6 +4241,15 @@
           "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
           "source_file": "quran-data/data/analysis/channels/network-v3/s100/review/reader_a_pilot.md",
           "subchannels_anchored_here": 9
+        },
+        "channel_generated_outputs": {
+          "present": true,
+          "source_dir": "quran-data/data/analysis/channels/network-v3/s100",
+          "file_count": 13,
+          "missing_expected_files": [
+            "paths/path_families/semantic_path_families.jsonl.gz"
+          ],
+          "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
         },
         "branch_inventories": {
           "present": true,
@@ -4276,24 +4477,33 @@
           "readers": {
             "reader_b": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md",
+              "matched_ref": "100:7"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:7"
+          ]
         },
         "v12_reader_walks_wide": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md",
+              "matched_ref": "100:7"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:7"
+          ]
         },
         "v12_cross_run_publication": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/100_ayah_findings_publication.json",
           "protocol": "v12-cross-run-publication-v3",
           "language": "tr",
+          "lookup_ref": "100:7",
           "finding_count": 3,
           "grade_counts": {
             "strong": 2,
@@ -4394,6 +4604,15 @@
           "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
           "source_file": "quran-data/data/analysis/channels/network-v3/s100/review/reader_a_pilot.md",
           "subchannels_anchored_here": 20
+        },
+        "channel_generated_outputs": {
+          "present": true,
+          "source_dir": "quran-data/data/analysis/channels/network-v3/s100",
+          "file_count": 13,
+          "missing_expected_files": [
+            "paths/path_families/semantic_path_families.jsonl.gz"
+          ],
+          "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
         },
         "branch_inventories": {
           "present": true,
@@ -4707,24 +4926,33 @@
           "readers": {
             "reader_b": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md",
+              "matched_ref": "100:8"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:8"
+          ]
         },
         "v12_reader_walks_wide": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md",
+              "matched_ref": "100:8"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:8"
+          ]
         },
         "v12_cross_run_publication": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/100_ayah_findings_publication.json",
           "protocol": "v12-cross-run-publication-v3",
           "language": "tr",
+          "lookup_ref": "100:8",
           "finding_count": 4,
           "grade_counts": {
             "strong": 2,
@@ -4880,6 +5108,15 @@
           "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
           "source_file": "quran-data/data/analysis/channels/network-v3/s100/review/reader_a_pilot.md",
           "subchannels_anchored_here": 12
+        },
+        "channel_generated_outputs": {
+          "present": true,
+          "source_dir": "quran-data/data/analysis/channels/network-v3/s100",
+          "file_count": 13,
+          "missing_expected_files": [
+            "paths/path_families/semantic_path_families.jsonl.gz"
+          ],
+          "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
         },
         "branch_inventories": {
           "present": true,
@@ -5154,24 +5391,33 @@
           "readers": {
             "reader_b": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md",
+              "matched_ref": "100:9"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:9"
+          ]
         },
         "v12_reader_walks_wide": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md",
+              "matched_ref": "100:9"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:9"
+          ]
         },
         "v12_cross_run_publication": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/100_ayah_findings_publication.json",
           "protocol": "v12-cross-run-publication-v3",
           "language": "tr",
+          "lookup_ref": "100:9",
           "finding_count": 4,
           "grade_counts": {
             "strong": 2,
@@ -5327,6 +5573,15 @@
           "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
           "source_file": "quran-data/data/analysis/channels/network-v3/s100/review/reader_a_pilot.md",
           "subchannels_anchored_here": 12
+        },
+        "channel_generated_outputs": {
+          "present": true,
+          "source_dir": "quran-data/data/analysis/channels/network-v3/s100",
+          "file_count": 13,
+          "missing_expected_files": [
+            "paths/path_families/semantic_path_families.jsonl.gz"
+          ],
+          "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
         },
         "branch_inventories": {
           "present": true,
@@ -5601,24 +5856,33 @@
           "readers": {
             "reader_b": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md",
+              "matched_ref": "100:10"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:10"
+          ]
         },
         "v12_reader_walks_wide": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md",
+              "matched_ref": "100:10"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:10"
+          ]
         },
         "v12_cross_run_publication": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/100_ayah_findings_publication.json",
           "protocol": "v12-cross-run-publication-v3",
           "language": "tr",
+          "lookup_ref": "100:10",
           "finding_count": 4,
           "grade_counts": {
             "strong": 3,
@@ -5754,6 +6018,15 @@
           "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
           "source_file": "quran-data/data/analysis/channels/network-v3/s100/review/reader_a_pilot.md",
           "subchannels_anchored_here": 24
+        },
+        "channel_generated_outputs": {
+          "present": true,
+          "source_dir": "quran-data/data/analysis/channels/network-v3/s100",
+          "file_count": 13,
+          "missing_expected_files": [
+            "paths/path_families/semantic_path_families.jsonl.gz"
+          ],
+          "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
         },
         "branch_inventories": {
           "present": true,
@@ -6069,24 +6342,33 @@
           "readers": {
             "reader_b": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s100/full_context_control/reader_s100_b_ayah_walk.md",
+              "matched_ref": "100:11"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:11"
+          ]
         },
         "v12_reader_walks_wide": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s100/full_context_control/reader_s100_a_ayah_walk.md",
+              "matched_ref": "100:11"
             }
-          }
+          },
+          "lookup_refs": [
+            "100:11"
+          ]
         },
         "v12_cross_run_publication": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/100_ayah_findings_publication.json",
           "protocol": "v12-cross-run-publication-v3",
           "language": "tr",
+          "lookup_ref": "100:11",
           "finding_count": 5,
           "grade_counts": {
             "strong": 2,
@@ -6200,6 +6482,15 @@
       "subchannel_count": 48,
       "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
       "source_file": "quran-data/data/analysis/channels/network-v3/s100/review/reader_a_pilot.md"
+    },
+    "channel_generated_outputs": {
+      "present": true,
+      "source_dir": "quran-data/data/analysis/channels/network-v3/s100",
+      "file_count": 13,
+      "missing_expected_files": [
+        "paths/path_families/semantic_path_families.jsonl.gz"
+      ],
+      "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
     },
     "pericopes": {
       "present": true,

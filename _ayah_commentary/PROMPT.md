@@ -54,9 +54,13 @@ carries `commentary_obligation`:
 Each topic also carries `reader_payoff`, stating what the reader gains. Use it as
 a test: if you cannot make that payoff land, the topic is not yet written.
 
-Branch inventories, reader walks, and the channel review nominate material that
-has no topic. That material is admissible — this field defines your floor, not
-your ceiling.
+Branch inventories, reader walks, channel review, and the channel generated
+output manifest nominate material that has no topic. That material is admissible
+when it is in the bundle. If `channel_generated_outputs` lists quran-data files
+and your run gives you file access, you may read only those listed files when a
+channel-family or path detail is necessary. Do not browse the repository
+generally. If your run is hermetic and the files are not inlined, treat the
+manifest as awareness and do not invent their contents.
 
 ## You must not select
 
@@ -115,6 +119,14 @@ Rules and a worked S1 example: `../docs/CHANNELS.md` §3.
 every surah. It is a first-pass, single-reader review: no accept/reject, no
 second reader, no maturity. There is no maturity to bound you, so the increment
 rule cannot be applied and you must not improvise a substitute.
+
+Some bundles also include `channel_generated_outputs`, a manifest of generated
+network-v3 files such as `channel_candidates.jsonl`, `channel_families.jsonl`,
+`family_branch_inventory.tsv`, and semantic path-family summaries. These files
+make channel candidates and families available for inspection, but they are not
+an adjudicated channel ledger. They may clarify which candidate family or branch
+connection a first-pass review is drawing on; they do not license naming an
+established channel, asserting maturity, or choosing between live readings.
 
 What you may do: let the material inform **how you connect this ayah's own
 words** — it often shows which branches belong to one image.
@@ -189,10 +201,41 @@ juxtaposition.
 | Yolun doğru olması, üzerinde kimsenin beklemediği demek değildir. | Doğru yolun üzerinde de bekleyenler vardır. |
 | Ayakta durmak, işlemeye devam etmek demek değildir. | Biçim yerinde kalırken işlev çekilebilir. |
 
-**Keep about a quarter of them.** Negation is the right tool when the reader
-genuinely expects the opposite — when a loanword has narrowed and the expectation
-must be met head-on. The instruction is to stop it dominating, not to eliminate
-it. Prose with no negation at all becomes evasive in a different way.
+Use an explicit negative predicate only to correct a likely misconception,
+protect the primary sense from replacement, or preserve live counter-evidence.
+The instruction is to stop negation dominating, not to eliminate it. Prose with
+almost no explicit correction can read evasive when the reader is likely to
+expect the wrong sense. If no explicit negative is needed, say in the friction
+report that there was no live misconception, replacement risk, or counter-evidence
+requiring one.
+
+## Arabic word surfaces
+
+Reader and listener editions need different surfaces. In authored prose, mark
+Arabic lexical items with a structured span when the Arabic word itself matters:
+
+```text
+{ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar}
+```
+
+Here `ar` is the Arabic surface form for TTS and exact display, `tr` is the
+Turkish-readable transliteration, and `gloss` is the target-language meaning.
+The reading edition may render this as `el-âdiyât (ٱلْعَادِيَاتِ),
+"koşup atılanlar"`; the listener edition may keep only the Arabic surface form
+where the TTS voice should pronounce Arabic.
+
+Use the span at first mention of an ayah word, and again whenever the prose
+returns to that word after moving to another word or another paragraph. A later
+renderer may hide repeated `ar` or `gloss` fields, but the authored file should
+keep enough structure for reading, display, and TTS editions to be produced from
+the same text. Inside one short local sequence, after a full span has just been
+given, a Turkish label or transliteration is enough.
+
+Do not display roots as spaced Arabic letters or letter-by-letter
+transliteration in prose. Anchor root discussion to the surface word instead:
+`{ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar} kelimesinin bağlı
+olduğu kök alanı...`, not `ʿ-d-w kökü...`. Raw roots, branch IDs, and root
+skeletons belong in the evidence surface.
 
 ## Structure
 
@@ -200,9 +243,14 @@ There is no fixed section list, and section headers named after evidence layers
 are forbidden. Let the ayah's own shape decide. A single-word ayah and a
 twelve-word ayah do not have the same shape.
 
-What tends to work: open with what the ayah *is* materially (how many words, what
-kind of act), then what the grammar forces, then what the form and lexicon open,
-then the before/after, then what the other layers could not carry.
+What tends to work: open with what the ayah *says or does* in plain Turkish, then
+show the material shape that makes it happen. Grammar labels are support, not
+the first experience. Do not open a paragraph with "isim cümlesi", "edat",
+"tamlama başı", "yalın hâl", or similar technical scaffolding unless the same
+sentence has already given the reader a concrete meaning to hold. Prefer:
+"Âyet önce hamdi Allah'a verir; bunu fiille değil, sabit bir ad cümlesiyle
+yapar." Then explain what the grammar forces, what the form and lexicon open,
+what later context clarifies, and what the other layers could not carry.
 
 Do not use that as a template if the ayah resists it.
 

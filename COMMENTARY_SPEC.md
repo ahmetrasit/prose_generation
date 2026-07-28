@@ -125,12 +125,35 @@ Observed during S103 development. Each produced output that was rejected.
 Per ayah and per surah:
 
 - **prose** — continuous, single voice, no provenance markers, no headers named
-  after evidence layers;
+  after evidence layers, and no wrapper labels such as `=== THE PROSE ===` when
+  the prose is written to its own file;
 - **evidence surface** — separate, addressable per phrase, holding refs, branch
   IDs, counter-evidence, coverage, and an explicit mark on every claim that is
   inference rather than bundle-traceable.
 
 The prose must be readable end to end with the evidence surface closed.
+
+Arabic lexical items in authored prose should use structured surface spans so one
+text can render for both reading and listening editions:
+
+```text
+{ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar}
+```
+
+Use the span at first mention of an ayah word, and again when the prose returns
+to that word after moving to another word or another paragraph. A renderer may
+collapse repeated fields later; the authored source should preserve `ar`, `tr`,
+and `gloss` whenever the word is doing fresh interpretive work.
+
+For reader display, render transliteration first, with Arabic in parentheses and
+the gloss nearby. For TTS, render the Arabic surface form. For Turkish-only
+display, render the gloss. Raw root skeletons, branch IDs, and letter-by-letter
+root transliterations belong in the evidence surface, not in reader prose.
+
+Prose should begin from reader meaning, then bring in grammar. A sentence may say
+"Âyet önce hamdi Allah'a verir; bunu fiille değil, sabit bir ad cümlesiyle
+yapar." It should not make the reader cross a technical threshold before knowing
+what is happening.
 
 Layer 3 additionally emits:
 

@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""Mechanically check one translation-layer output against its input bundle."""
+"""Mechanically check one assembled translation-layer artifact against its bundle.
+
+Since decision D1 the writer no longer supplies identities — `tools/assemble.py`
+joins them from the spine — so the identity checks here are a regression test on
+the assembler rather than a guard against model transcription error. What they
+still catch is a bundle/artifact mismatch: an artifact assembled against a
+different release, a different anchor seed, or a stale bundle.
+"""
 
 from __future__ import annotations
 
@@ -16,7 +23,15 @@ TOP_KEYS = {
     "quranDataReleaseId",
     "surah",
     "missingGlosses",
+    "provenance",
     "ayat",
+}
+REQUIRED_PROVENANCE_KEYS = {
+    "quranDataReleaseId",
+    "anchorsSha256",
+    "bundleSha256",
+    "authoredSha256",
+    "assemblerVersion",
 }
 AYAH_KEYS = {"ayahRef", "cards", "translation"}
 CARD_KEYS = {
@@ -66,6 +81,22 @@ def check(bundle: dict, output: dict, surah: int, language: str) -> list[str]:
         if output.get(key) != expected:
             errors.append(
                 f"{key}: expected {expected!r}, found {output.get(key)!r}"
+            )
+
+    # D2: an artifact that cannot say what produced it cannot support the claim
+    # that a re-run is the same workflow.
+    provenance = output.get("provenance")
+    if not isinstance(provenance, dict):
+        errors.append("provenance must be an object")
+    else:
+        absent = sorted(REQUIRED_PROVENANCE_KEYS - set(provenance))
+        if absent:
+            errors.append(f"provenance is missing {absent}")
+        if provenance.get("quranDataReleaseId") != bundle["quranDataReleaseId"]:
+            errors.append(
+                "provenance.quranDataReleaseId does not match the bundle: "
+                f"{provenance.get('quranDataReleaseId')!r} vs "
+                f"{bundle['quranDataReleaseId']!r}"
             )
 
     all_source_refs = {

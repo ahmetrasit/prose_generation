@@ -55,7 +55,8 @@ Within the v12 runs, three artifacts have very different coverage:
 | artifact | coverage | what it gives |
 | --- | --- | --- |
 | `full_context_packet.json` | **114 / 114** | branch inventories, surah scope |
-| reader ayah walks | **111 / 114** | activated readings, retrospective surprises |
+| reader ayah walks | **114 / 114** | activated readings, retrospective surprises |
+| — of those, a *second* reader | **4 / 114** | S1, S87, S100, S103 only |
 | whole-surah reading (`butuncul-okuma`) | **30 / 114** | per-ayah primary + expansion, Turkish |
 | per-ayah focus runs | **6 ayahs total** | staged before/after with neighbours revealed |
 
@@ -63,6 +64,17 @@ The focus runs are a method-development pilot — s100 ×1, s103 ×3, s112 ×1,
 s113 ×1, with a different reader on almost every run. So the "ayah before its
 neighbours" trajectory that layer 2 treats as a section exists for five ayahs.
 Either the protocol is rebuilt at scale or that section becomes occasional.
+
+**Walks are complete; measured 2026-07-27.** 118 files across all 114 surahs, so
+every ayah of every surah has one. An earlier count of 111/114 was an artifact of
+globbing `*_a_ayah_walk.md`: S92, S100 and S101 carry only a `_b` reader, and
+S100's is named `reader_m_ayah_walk.md`. Any consumer globbing on reader id will
+silently under-count — glob on `*ayah_walk.md` and read the reader id from the
+file. Producing spec: `latent_activation/v12/spec.md`, *Minimal Run*.
+
+`retrospective_surprises_md` — the retrospective-surprise field, the
+highest-value single item at layer 2 — is populated for every ayah measured. It
+is 0.3% of an ayah bundle by volume.
 
 **Caveat that matters for layer 1.** The live V12 v3 publication *flattens
 primary and resonance roles*, so a `strong` finding is not automatically a

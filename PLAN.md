@@ -192,10 +192,12 @@ write from it, and its content is already resolved into the bundle. The dangling
 filename reference is left for the friction report to surface if it disorients a
 writer.
 
-## 2. Write `_commentary/ORCHESTRATION.md`
+## 2. Write `_commentary/ORCHESTRATION.md` — **done 2026-07-27**
 
-Per D-d and D-e. Must record State B and that the layer-1/layer-3 exclusion
-instructions are currently unsatisfiable.
+Per D-d and D-e. Covers all layers in one file: directory contract, task
+variables, five stages, output contract, batch order, cross-model runs,
+decisions, completion-state limitation. Records State B, the two unsatisfiable
+exclusion instructions, and the three open friction items.
 
 ## 3. Write `scripts/instantiate.py`
 
@@ -231,7 +233,13 @@ order. Record `restsOn`. Emit JSON at branch granularity; `mNN` demotes to prose
 Ledger lives at `_surah_commentary/channels/s{NNN}.ledger.json` — network/v3
 nominates, this repo accepts.
 
-## 9. Layer 1 — D5 gloss join, then D1 assemble inversion
+## 9. Layer 1 — D5 gloss join, then D1 assemble inversion — **D1/D2/D3/D4 done 2026-07-27**
+
+D1 (assemble inversion), D2 (provenance), D3 (`languagePolicy`), and D4
+(`consideredNotPrimary`) are implemented, plus a new stage 0 that seeds anchors
+with a cold agent instead of by hand — `_translation/v1/README.md` and
+`orchestrator.md`. What remains here is D5 and the re-seeding of S1 and S103,
+which is what actually pulls `consideredNotPrimary` forward.
 
 `error.fit == "narrowing" && error.loses_facet_ids != []` → "least-disorienting
 gloss is materially incomplete; check the others". Derived, not authored. Pull

@@ -1114,6 +1114,23 @@ _FIELD_KEYS = {
     "synthesis": "synthesis",
 }
 
+CHANNEL_GENERATED_OUTPUT_FILES = [
+    "channel_candidates.jsonl",
+    "channel_candidates.tsv",
+    "summary.json",
+    "families/candidate_graphs.jsonl",
+    "families/candidate_similarity_edges.tsv",
+    "families/channel_families.jsonl",
+    "families/candidate_family_membership.tsv",
+    "families/family_branch_inventory.tsv",
+    "families/consolidation_summary.json",
+    "paths/path_summary.json",
+    "paths/path_families/semantic_path_families.jsonl",
+    "paths/path_families/semantic_path_families.jsonl.gz",
+    "paths/path_families/path_similarity_edges.tsv",
+    "paths/path_families/path_family_summary.json",
+]
+
 
 def _ayah_refs_in(text: str, surah: int) -> list:
     """Ayah refs of this surah mentioned in a block, in order, deduplicated."""
@@ -1205,6 +1222,54 @@ def load_channel_review(surah: int) -> tuple:
         ),
     })
     return {"parent_channels": parents}, coverage, path
+
+
+def load_channel_generated_outputs(surah: int) -> tuple:
+    """Return a lightweight manifest for network-v3 generated channel outputs.
+
+    These files can be large, so ayah bundles expose presence, paths, and sizes
+    rather than inlining their contents. A cold agent with repository access may
+    read only the listed quran-data files it needs."""
+    base = NETWORK_V3_DIR / f"s{surah:03d}"
+    files = []
+    missing = []
+    for rel in CHANNEL_GENERATED_OUTPUT_FILES:
+        path = base / rel
+        if path.exists():
+            files.append({
+                "path": relpath(path),
+                "role": rel,
+                "bytes": path.stat().st_size,
+                "compressed": path.suffix == ".gz",
+            })
+        else:
+            missing.append(rel)
+    present = bool(files)
+    coverage = {
+        "present": present,
+        "source_dir": relpath(base) if base.exists() else None,
+        "file_count": len(files),
+        "missing_expected_files": missing,
+        "note": (
+            "Generated network-v3 channel discovery/family/path outputs are "
+            "available as external quran-data files; read them only when channel "
+            "detail is necessary, and do not treat them as an adjudicated channel "
+            "ledger."
+            if present else
+            f"no generated network-v3 channel output directory at {base}"
+        ),
+    }
+    return {
+        "source_dir": relpath(base) if base.exists() else None,
+        "files": files,
+        "usage": (
+            "External source manifest only. These generated outputs may inform "
+            "channel-family/path context when the agent has file access, but "
+            "first-pass review limits still apply: no established channel name, "
+            "accept/reject claim, or maturity claim unless a future adjudicated "
+            "ledger is present."
+        ),
+    }, coverage
 
 
 def channel_blocks_for_ayah(review: dict, ayah_ref: str) -> list:
@@ -1823,6 +1888,19 @@ def preflight(surah: int, ayah_filter: int = None) -> dict:
     rows.append(_row("Channel review", review_path, False, review_path.exists(),
                       None if review_path.exists() else "no first-pass channel review for this surah"))
 
+    channel_outputs, cgo_cov = load_channel_generated_outputs(surah)
+    rows.append(_row(
+        "Channel generated outputs",
+        NETWORK_V3_DIR / f"s{surah:03d}",
+        False,
+        cgo_cov.get("present", False),
+        (
+            f"{cgo_cov.get('file_count', 0)} files available; external manifest only"
+            if cgo_cov.get("present")
+            else cgo_cov.get("note")
+        ),
+    ))
+
     control_dir = V12_TR_DIR / f"s{surah:03d}" / "full_context_control"
     _, bu_cov, bu_path = load_butuncul_okuma(surah)
     rows.append(_row("Whole-surah reading (butuncul-okuma)", bu_path or control_dir, False,
@@ -1990,11 +2068,13 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
     # (rule (b) in scope_branch_inventories_to_ayah).
     channel_review, ch_coverage, ch_path = load_channel_review(surah)
     channel_blocks = channel_blocks_for_ayah(channel_review, ayah_ref)
+    channel_generated_outputs, cgo_coverage = load_channel_generated_outputs(surah)
     coverage["channel_review"] = {
         **ch_coverage,
         "source_file": relpath(ch_path) if ch_path else None,
         "subchannels_anchored_here": len(channel_blocks),
     }
+    coverage["channel_generated_outputs"] = cgo_coverage
 
     branch_inventories, bi_coverage = load_v12_branch_inventories(
         surah, ayah, qac_rows, channel_blocks
@@ -2074,6 +2154,7 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
         "butuncul_okuma_line": butuncul_line,
         "inter_ayah_rows": inter_ayah_rows,
         "channel_subchannels_anchored_here": channel_blocks,
+        "channel_generated_outputs": channel_generated_outputs,
         "pericope": pericope,
         "root_lexicon": root_lexicon,
         "coverage": coverage,
@@ -2086,6 +2167,7 @@ def build_surah_bundle(surah: int, ayah_bundles: list, ayah_bundle_filenames: li
     quran_text = load_quran_text(surah)  # includes S:0 basmalah row if present
     butuncul_all, butuncul_cov, butuncul_path = load_butuncul_okuma(surah)
     channel_review, ch_coverage, ch_path = load_channel_review(surah)
+    channel_generated_outputs, cgo_coverage = load_channel_generated_outputs(surah)
 
     coverage = {
         "ayah_count": len(ayah_bundles),
@@ -2099,6 +2181,7 @@ def build_surah_bundle(surah: int, ayah_bundles: list, ayah_bundle_filenames: li
             **ch_coverage,
             "source_file": relpath(ch_path) if ch_path else None,
         },
+        "channel_generated_outputs": cgo_coverage,
         "pericopes": {
             "present": bool(pericopes),
             "pericope_count": len(pericopes),
@@ -2126,6 +2209,7 @@ def build_surah_bundle(surah: int, ayah_bundles: list, ayah_bundle_filenames: li
                 )
             ],
             "channel_review": channel_review,
+            "channel_generated_outputs": channel_generated_outputs,
             "pericopes": pericopes,
         },
         "coverage": coverage,

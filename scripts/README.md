@@ -56,6 +56,11 @@ matching the v12 run layout, which has no `focus_{S}_0`:
 - `channel_subchannels_anchored_here` — the subchannels from the surah's
   `network/v3` review whose ayah anchors include this ayah, each carrying its
   parent channel's invariant so the block reads on its own;
+- `channel_generated_outputs` — a lightweight manifest of generated network-v3
+  channel candidate, family, branch-inventory, and semantic-path files available
+  in `quran-data`; contents are not inlined because they can be large, but an
+  agent with file access may read only the listed files when channel detail is
+  necessary;
 - a mandatory `coverage` block: per source, present/missing, with counts or a
   note explaining absence.
 

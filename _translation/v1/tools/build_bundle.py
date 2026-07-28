@@ -409,9 +409,15 @@ def build_bundle(surah: int, language: str) -> dict:
         WORKSPACE / "latent_activation" / "_status" / "v12_cross_run" / surah_key
     )
     roster = read_json(v12_dir / "ayah_roster.v3.json")
-    anchor_seed = read_json(
-        V1_DIR / "source" / f"{surah_key}.primary-anchors.json"
-    )
+    anchor_path = V1_DIR / "source" / f"{surah_key}.primary-anchors.json"
+    if not anchor_path.exists():
+        raise SystemExit(
+            f"error: no primary-anchor seed for surah {surah}: {anchor_path}\n"
+            "stage 0 has not run for this surah. See _translation/v1/orchestrator.md:\n"
+            f"  python3 _translation/v1/tools/build_anchor_input.py --surah {surah}\n"
+            f"  python3 _translation/v1/tools/instantiate.py --surah {surah} --stage anchors"
+        )
+    anchor_seed = read_json(anchor_path)
     anchors = {
         item["qacMorphemeRef"]: item for item in anchor_seed["anchors"]
     }
@@ -498,14 +504,15 @@ def main() -> None:
 
     surah_key = f"s{args.surah:03d}"
     output = args.output or V1_DIR / "input" / args.language / f"{surah_key}.json"
+
+    # Build before opening the file. Opening first left an empty bundle behind
+    # whenever the build raised — a file that is present and says nothing, which
+    # is the failure mode this repo treats as worse than an absent one.
+    bundle = build_bundle(args.surah, args.language)
+
     output.parent.mkdir(parents=True, exist_ok=True)
     with output.open("w", encoding="utf-8") as handle:
-        json.dump(
-            build_bundle(args.surah, args.language),
-            handle,
-            ensure_ascii=False,
-            indent=2,
-        )
+        json.dump(bundle, handle, ensure_ascii=False, indent=2)
         handle.write("\n")
 
 

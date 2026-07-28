@@ -19,33 +19,48 @@ IDs. See [Decisions](#decisions) for why, and what that costs.
 Complete job through a cold controller — give it only this assignment:
 
 ```text
-Run _translation/v1/orchestrator.md for surah 1, language tr.
+Run _translation/v1/orchestrator.md for surah 103, language tr, date 2026-07-27.
 ```
 
-The controller prepares the bundle, renders the generic prompt with concrete
-paths, sends only that prompt to one fresh linguistic writer, and mechanically
-checks the returned file. It does not rewrite the translation.
+The controller runs two cold agents. Neither sees anything but its rendered
+prompt, and the controller never rewrites what either one authored.
 
-Preparation alone:
+```
+stage 0  anchors      once per surah, language-neutral
+         build_anchor_input.py -> instantiate.py -> agent -> check_anchors.py
+         => source/sNNN.primary-anchors.json
 
-```sh
-python3 _translation/v1/tools/build_bundle.py --surah 1 --language tr
+stage 1  translation  once per surah per language
+         build_bundle.py -> instantiate.py -> agent -> assemble.py -> check_output.py
+         => output/{language}/sNNN.json
 ```
 
-One agent authors occurrence glosses first, then the whole surah. Ayah-level
-splitting would save little and would make repeated wording less consistent.
+Stage 0 is skipped when a `primary-anchor-seed-v2` file already exists and
+passes. A `v1` seed does not pass — see D4.
 
 ## Files
 
 - `SCHEMA.md` — meaning of the fields, authored and assembled;
-- `source/sNNN.primary-anchors.json` — the language-neutral branch selection;
+- `anchor_prompt.md` — the stage-0 task: select one primary branch per rooted
+  stem and record what was rejected;
+- `prompt.md` — the stage-1 task: author glosses and the fluent translation;
+- `tools/build_anchor_input.py` — enumerates every rooted stem and its complete
+  candidate space, language-neutral;
+- `tools/check_anchors.py` — checks coverage, root-scoped ids, and that no
+  activated branch was dropped unrecorded;
 - `tools/build_bundle.py` — joins live source data into an agent bundle;
-- `tools/check_output.py` — checks identities, mapping references, and text
-  assembly;
-- `input/{language}/sNNN.json` — agent input;
+- `tools/instantiate.py` — renders a hermetic prompt for either stage;
+- `tools/assemble.py` — joins the authored file to the spine and stamps
+  provenance;
+- `tools/check_output.py` — checks the assembled artifact against its bundle;
+- `anchors/input/sNNN.anchor-input.json` — stage-0 agent input;
+- `source/sNNN.primary-anchors.json` — the language-neutral branch selection;
+- `prompts/` — rendered prompts and their manifests, both stages;
+- `input/{language}/sNNN.json` — stage-1 agent input;
+- `authored/{language}/sNNN.authored.json` — what the writer returns;
 - `output/{language}/sNNN.json` — production language layer;
-- `orchestration.json` / `orchestrator.md` — the generic handoff and the
-  controller's cold-start instructions.
+- `orchestration.json` / `orchestrator.md` — the machine-readable stage
+  contract and the controller's cold-start instructions.
 
 ---
 
@@ -53,13 +68,17 @@ splitting would save little and would make repeated wording less consistent.
 
 ### D1 — The writer authors only what is authored; the builder assembles the rest
 
-**Decided 2026-07-27. Not yet implemented.**
+**Decided 2026-07-27. Implemented 2026-07-27** — `tools/assemble.py`,
+`schema/translation-authored-v1.schema.json`, and a rewritten `prompt.md`.
+Verified by round-tripping the shipped `output/tr/s103.json` through the authored
+form: the reassembled artifact is identical to it apart from the new provenance
+block.
 
-Today the writer emits the full artifact, including `qacMorphemeRef`,
+Before that, the writer emitted the full artifact, including `qacMorphemeRef`,
 `qacWordRef`, `rootId`, and `branchIds` on every card, plus a formulaic
 `glossId` (`{lang}:v1:{morphemeRef}`). All of these are fully derivable from QAC
-morphology plus the anchor seed. `prompt.md` instructs the model to copy them
-exactly, so the model is hand-transcribing identity data.
+morphology plus the anchor seed. `prompt.md` instructed the model to copy them
+exactly, so the model was hand-transcribing identity data.
 
 For S1 (48 morphemes) that is survivable. Al-Baqarah is roughly 6,000 morphemes —
 tens of thousands of copied identity values through a model. `check_output.py`
@@ -109,9 +128,10 @@ metadata.
 
 ### D2 — Artifacts pin their own provenance
 
-**Decided 2026-07-27. Not yet implemented.**
+**Decided 2026-07-27. Implemented 2026-07-27** — `assemble.py` stamps the block,
+the schema requires it, and `check_output.py` fails an artifact without it.
 
-The artifact currently records only `quranDataReleaseId`. For a workflow to be
+The artifact previously recorded only `quranDataReleaseId`. For a workflow to be
 re-run across three languages over a year, "the same workflow" has to be a fact,
 not an assertion. Each artifact additionally records: the anchor-file hash, the
 prompt hash, the builder version, and the model id and parameters.
@@ -122,29 +142,35 @@ the spine plus a recorded, checkable authored file.
 
 ### D3 — `languagePolicy` is required for every language
 
-**Decided 2026-07-27. Not yet implemented.**
+**Decided 2026-07-27. Implemented 2026-07-27.**
 
-`input/tr/*.json` carries a `languagePolicy` block; `input/en/s001.json` does
-not. That drift means en and tr ran under different rules — precisely the failure
-the shared workflow exists to prevent. The bundle builder emits a policy block
-for every language or fails.
+`build_bundle.py` emits a policy block for every language. The drift the decision
+named was a stale artifact rather than missing code: `input/en/s001.json` had
+been built before the field existed. Rebuilt.
 
 ### D4 — Anchors record what was rejected
 
-**Decided 2026-07-27. Not yet implemented.**
+**Decided 2026-07-27. Implemented 2026-07-27** — `primary-anchor-seed-v2` adds
+`consideredNotPrimary`, `anchor_prompt.md` requires it, and `check_anchors.py`
+fails any seed that drops a V12-activated branch without recording it.
 
 `source/sNNN.primary-anchors.json` records the selected `branchIds` and
-`lexicalUnitIds` per rooted morpheme. It does not record what was considered and
-not chosen, so layer 1's rejections are lost.
+`lexicalUnitIds` per rooted morpheme. Before v2 it did not record what was
+considered and not chosen, so layer 1's rejections were lost.
 
-Add `consideredNotPrimary` alongside `branchIds`. It is language-neutral, so all
-languages inherit it, and it turns layer 1's discards into layer 2 and 3 input
-(`../../PRINCIPLES.md` §6).
+`consideredNotPrimary` is language-neutral, so all languages inherit it, and it
+turns layer 1's discards into layer 2 and 3 input (`../../PRINCIPLES.md` §6).
 
 The motivating case is `عَٰلَمِينَ`: layer 1 correctly takes `B003` (created
 beings, worlds) and rejects `B002` (sign, landmark) as non-translational. `B002`
-is exactly the branch the Fātiḥa path channel runs on. That rejection currently
-survives only as a sentence in this README.
+is exactly the branch the Fātiḥa path channel runs on.
+
+**Both existing seeds are still v1 and therefore fail the check.** Measured
+against the current candidate space, re-seeding recovers up to 83 recorded
+rejections for S1 and 62 for S103 — including the seven `ع ص ر` branches at
+`103:1:1:3` that `PRINCIPLES.md` §8 builds its flagship *retention under
+compression* finding on. Until they are re-seeded at v2, that material is being
+discarded at stage 0 every run.
 
 ### D5 — Glosses and error profiles stay out of the spine
 
@@ -178,7 +204,23 @@ lexical floor instead.
   That ordinary branch was absent from the older V12 packet, whose `B002` use was
   explicitly non-translational sign/landmark resonance. See D4.
 
+**Both cases are quoted in `anchor_prompt.md`** as the worked example of the
+flattening trap. That is deliberate few-shot teaching of the selection rule, and
+it has the same consequence it has at layer 2: **S1 cannot be used to evaluate
+the anchor agent.** Evaluate on a surah whose answers are not in the prompt.
+
 ## Current artifacts
 
 S1 has an English output and three Turkish test artifacts with no accepted
 `output/tr/s001.json`; S103 has a Turkish draft. See [`../../STATUS.md`](../../STATUS.md).
+
+Two things measured 2026-07-27 that the artifacts do not say for themselves:
+
+- `output/en/s001.json` predates the occurrence-gloss design entirely — it has no
+  `occurrenceGloss` on any rooted card — and does not pass `check_output.py`. It
+  is a legacy artifact, not a regression.
+- `input/tr/s103.json` was stale against
+  `dictionary/v2/gloss_generation/results/tr`; rebuilding changed branch and
+  contextual gloss wording. The shipped `output/tr/s103.json` was authored
+  against the older evidence. This is exactly the drift D2's provenance block
+  exists to make visible, and it was invisible before.

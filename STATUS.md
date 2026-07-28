@@ -145,11 +145,17 @@ evaluation purposes because the governing docs contain worked answers for 1:6.
   prompt still treats it as a normal section.
 - No source artifact evidences the surah **argument**; those claims stay
   inference.
-- The **assemble-step inversion** for layer 1 is decided and not yet implemented
-  — see `_translation/v1/README.md`. Until it lands, long surahs are not
-  practical.
-- `consideredNotPrimary` is not yet recorded in the anchor seeds, so layer 1's
-  rejections are still being lost.
+- The **assemble-step inversion** for layer 1 landed 2026-07-27
+  (`_translation/v1/tools/assemble.py`), so the writer no longer transcribes
+  identities and long surahs are viable. Layer 1's stage 0 — branch selection —
+  is now a tool plus a prompt plus a check rather than hand authoring.
+- `consideredNotPrimary` **exists but no seed carries it yet.** Both live seeds
+  are `primary-anchor-seed-v1` and fail `check_anchors.py`; re-seeding recovers
+  up to 83 rejections for S1 and 62 for S103. Until they are re-run, layer 1
+  still destroys the rejections layers 2 and 3 depend on.
+- **Layer 1's new stages have never been run by an agent.** Every tool, prompt,
+  schema, and check is in place and exercised mechanically; no cold agent has
+  authored either an anchor seed or an authored translation file under them.
 - German has no dictionary gloss results, so a German layer-1 run has no
   controlled lexical evidence.
 - Whole-surah readings exist for 30 of 114 surahs.

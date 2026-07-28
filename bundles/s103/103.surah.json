@@ -1,7 +1,7 @@
 {
   "bundle_type": "surah",
   "schema_version": "input-bundle-surah-v3",
-  "generated_at": "2026-07-28T03:20:57.505857+00:00",
+  "generated_at": "2026-07-28T10:12:53.914814+00:00",
   "surah": 103,
   "ayah_refs": [
     "103:1",
@@ -658,6 +658,11 @@
         }
       ]
     },
+    "channel_generated_outputs": {
+      "source_dir": "quran-data/data/analysis/channels/network-v3/s103",
+      "files": [],
+      "usage": "External source manifest only. These generated outputs may inform channel-family/path context when the agent has file access, but first-pass review limits still apply: no established channel name, accept/reject claim, or maturity claim unless a future adjudicated ledger is present."
+    },
     "pericopes": [
       {
         "surah": 103,
@@ -720,6 +725,28 @@
           "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
           "source_file": "quran-data/data/analysis/channels/network-v3/s103/review/reader_a_pilot.md",
           "subchannels_anchored_here": 15
+        },
+        "channel_generated_outputs": {
+          "present": false,
+          "source_dir": "quran-data/data/analysis/channels/network-v3/s103",
+          "file_count": 0,
+          "missing_expected_files": [
+            "channel_candidates.jsonl",
+            "channel_candidates.tsv",
+            "summary.json",
+            "families/candidate_graphs.jsonl",
+            "families/candidate_similarity_edges.tsv",
+            "families/channel_families.jsonl",
+            "families/candidate_family_membership.tsv",
+            "families/family_branch_inventory.tsv",
+            "families/consolidation_summary.json",
+            "paths/path_summary.json",
+            "paths/path_families/semantic_path_families.jsonl",
+            "paths/path_families/semantic_path_families.jsonl.gz",
+            "paths/path_families/path_similarity_edges.tsv",
+            "paths/path_families/path_family_summary.json"
+          ],
+          "note": "no generated network-v3 channel output directory at /Volumes/OZTURK/_projects/quran-data/data/analysis/channels/network-v3/s103"
         },
         "branch_inventories": {
           "present": true,
@@ -879,28 +906,38 @@
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s103/full_context_control/reader_s103_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s103/full_context_control/reader_s103_a_ayah_walk.md",
+              "matched_ref": "103:1"
             },
             "reader_b": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s103/full_context_control/reader_s103_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s103/full_context_control/reader_s103_b_ayah_walk.md",
+              "matched_ref": "103:1"
             }
-          }
+          },
+          "lookup_refs": [
+            "103:1"
+          ]
         },
         "v12_reader_walks_wide": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s103/full_context_control/reader_s103_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s103/full_context_control/reader_s103_a_ayah_walk.md",
+              "matched_ref": "103:1"
             }
-          }
+          },
+          "lookup_refs": [
+            "103:1"
+          ]
         },
         "v12_cross_run_publication": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/103_ayah_findings_publication.json",
           "protocol": "v12-cross-run-publication-v3",
           "language": "tr",
+          "lookup_ref": "103:1",
           "finding_count": 4,
           "grade_counts": {
             "strong": 2,
@@ -1009,6 +1046,28 @@
           "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
           "source_file": "quran-data/data/analysis/channels/network-v3/s103/review/reader_a_pilot.md",
           "subchannels_anchored_here": 16
+        },
+        "channel_generated_outputs": {
+          "present": false,
+          "source_dir": "quran-data/data/analysis/channels/network-v3/s103",
+          "file_count": 0,
+          "missing_expected_files": [
+            "channel_candidates.jsonl",
+            "channel_candidates.tsv",
+            "summary.json",
+            "families/candidate_graphs.jsonl",
+            "families/candidate_similarity_edges.tsv",
+            "families/channel_families.jsonl",
+            "families/candidate_family_membership.tsv",
+            "families/family_branch_inventory.tsv",
+            "families/consolidation_summary.json",
+            "paths/path_summary.json",
+            "paths/path_families/semantic_path_families.jsonl",
+            "paths/path_families/semantic_path_families.jsonl.gz",
+            "paths/path_families/path_similarity_edges.tsv",
+            "paths/path_families/path_family_summary.json"
+          ],
+          "note": "no generated network-v3 channel output directory at /Volumes/OZTURK/_projects/quran-data/data/analysis/channels/network-v3/s103"
         },
         "branch_inventories": {
           "present": true,
@@ -1176,28 +1235,38 @@
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s103/full_context_control/reader_s103_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s103/full_context_control/reader_s103_a_ayah_walk.md",
+              "matched_ref": "103:2"
             },
             "reader_b": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s103/full_context_control/reader_s103_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s103/full_context_control/reader_s103_b_ayah_walk.md",
+              "matched_ref": "103:2"
             }
-          }
+          },
+          "lookup_refs": [
+            "103:2"
+          ]
         },
         "v12_reader_walks_wide": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s103/full_context_control/reader_s103_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s103/full_context_control/reader_s103_a_ayah_walk.md",
+              "matched_ref": "103:2"
             }
-          }
+          },
+          "lookup_refs": [
+            "103:2"
+          ]
         },
         "v12_cross_run_publication": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/103_ayah_findings_publication.json",
           "protocol": "v12-cross-run-publication-v3",
           "language": "tr",
+          "lookup_ref": "103:2",
           "finding_count": 7,
           "grade_counts": {
             "weak": 4,
@@ -1335,6 +1404,28 @@
           "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
           "source_file": "quran-data/data/analysis/channels/network-v3/s103/review/reader_a_pilot.md",
           "subchannels_anchored_here": 29
+        },
+        "channel_generated_outputs": {
+          "present": false,
+          "source_dir": "quran-data/data/analysis/channels/network-v3/s103",
+          "file_count": 0,
+          "missing_expected_files": [
+            "channel_candidates.jsonl",
+            "channel_candidates.tsv",
+            "summary.json",
+            "families/candidate_graphs.jsonl",
+            "families/candidate_similarity_edges.tsv",
+            "families/channel_families.jsonl",
+            "families/candidate_family_membership.tsv",
+            "families/family_branch_inventory.tsv",
+            "families/consolidation_summary.json",
+            "paths/path_summary.json",
+            "paths/path_families/semantic_path_families.jsonl",
+            "paths/path_families/semantic_path_families.jsonl.gz",
+            "paths/path_families/path_similarity_edges.tsv",
+            "paths/path_families/path_family_summary.json"
+          ],
+          "note": "no generated network-v3 channel output directory at /Volumes/OZTURK/_projects/quran-data/data/analysis/channels/network-v3/s103"
         },
         "branch_inventories": {
           "present": true,
@@ -1486,28 +1577,38 @@
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s103/full_context_control/reader_s103_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s103/full_context_control/reader_s103_a_ayah_walk.md",
+              "matched_ref": "103:3"
             },
             "reader_b": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s103/full_context_control/reader_s103_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s103/full_context_control/reader_s103_b_ayah_walk.md",
+              "matched_ref": "103:3"
             }
-          }
+          },
+          "lookup_refs": [
+            "103:3"
+          ]
         },
         "v12_reader_walks_wide": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s103/full_context_control/reader_s103_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s103/full_context_control/reader_s103_a_ayah_walk.md",
+              "matched_ref": "103:3"
             }
-          }
+          },
+          "lookup_refs": [
+            "103:3"
+          ]
         },
         "v12_cross_run_publication": {
           "present": true,
           "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/103_ayah_findings_publication.json",
           "protocol": "v12-cross-run-publication-v3",
           "language": "tr",
+          "lookup_ref": "103:3",
           "finding_count": 8,
           "grade_counts": {
             "strong": 5,
@@ -1671,6 +1772,28 @@
       "subchannel_count": 31,
       "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
       "source_file": "quran-data/data/analysis/channels/network-v3/s103/review/reader_a_pilot.md"
+    },
+    "channel_generated_outputs": {
+      "present": false,
+      "source_dir": "quran-data/data/analysis/channels/network-v3/s103",
+      "file_count": 0,
+      "missing_expected_files": [
+        "channel_candidates.jsonl",
+        "channel_candidates.tsv",
+        "summary.json",
+        "families/candidate_graphs.jsonl",
+        "families/candidate_similarity_edges.tsv",
+        "families/channel_families.jsonl",
+        "families/candidate_family_membership.tsv",
+        "families/family_branch_inventory.tsv",
+        "families/consolidation_summary.json",
+        "paths/path_summary.json",
+        "paths/path_families/semantic_path_families.jsonl",
+        "paths/path_families/semantic_path_families.jsonl.gz",
+        "paths/path_families/path_similarity_edges.tsv",
+        "paths/path_families/path_family_summary.json"
+      ],
+      "note": "no generated network-v3 channel output directory at /Volumes/OZTURK/_projects/quran-data/data/analysis/channels/network-v3/s103"
     },
     "pericopes": {
       "present": true,

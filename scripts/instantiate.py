@@ -3,10 +3,12 @@
 instantiate.py — assemble ONE self-contained prompt file per commentary unit.
 
 Turns a bundle (`scripts/build_bundle.py` output) plus its governing documents
-into a single file a cold agent — Claude, GPT, anything — can execute with no
-filesystem access and no repo paths to follow. This is what makes runs
-reproducible and makes two different models comparable on verifiably
-identical input. See `PLAN.md` decisions D-e and D-f, and action 3.
+into a single file a cold agent — Claude, GPT, anything — can execute without
+general filesystem access or repo browsing. Explicit source manifests inside a
+bundle may name extra files the agent can read if the run grants file access;
+otherwise the prompt remains self-contained. This is what makes runs
+reproducible and makes two different models comparable on verifiably identical
+input. See `PLAN.md` decisions D-e and D-f, and action 3.
 
 Usage:
     python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah
@@ -151,20 +153,27 @@ Required checks before writing:
 - include every `candidate` that adds a unique reader payoff;
 - collapse all revisions of one v12 `model_id` into one before/after trajectory;
 - use branch inventories only when they clarify a word's local effect;
+- if `channel_generated_outputs` lists quran-data files and this run gives you
+  file access, read only those listed files when channel-family/path detail is
+  necessary; they are candidate evidence, not an adjudicated channel ledger;
 - keep all artifacts in Turkish;
 - explain every technical term in the same sentence.
 
 At first mention of an ayah word, use a structured Arabic surface span:
 `{ar:surface_form, tr:Turkish-readable transliteration, gloss:target-language meaning}`.
-Afterward use the transliteration or a Turkish label. Use stable terminology for
-the same word across prose and evidence. Keep raw roots, root skeletons,
-letter-by-letter root transliterations, and branch IDs in the evidence surface.
-In prose, attach root discussion to the surface word:
-`el-âdiyât'ın bağlı olduğu kök alanı...`, not `ʿ-d-v kökü...`.
+Use the same full span again when the prose returns to that word after moving to
+another word or another paragraph. Inside one short local sequence, after a full
+span has just been given, a Turkish label or transliteration is enough. Use
+stable terminology for the same word across prose and evidence. Keep raw roots,
+root skeletons, letter-by-letter root transliterations, and branch IDs in the
+evidence surface. In prose, attach root discussion to the surface word:
+`{ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar} kelimesinin bağlı
+olduğu kök alanı...`, not `ʿ-d-v kökü...`.
 
 The prose should stay reader-facing: one main movement per paragraph, concrete
-sentence first, technical precision second. Do not let later ayahs take over the
-commentary for 100:1.
+meaning first, technical precision second. Do not open a paragraph with a
+grammar label before the reader knows what is happening. Do not let later ayahs
+take over the commentary for 100:1.
 
 Use an explicit negative predicate only to correct a likely misconception,
 protect the primary sense from replacement, or preserve live counter-evidence.
@@ -200,6 +209,10 @@ Before drafting, silently build a coverage ledger:
   prose obligation. When fallback inventories are present, treat them as
   restricted to this ayah's roots and anchored citations, not as a whole-surah
   obligation.
+- if `channel_generated_outputs` lists quran-data files and this run gives you
+  file access, read only those listed files when channel-family/path detail is
+  necessary. Treat them as candidate/family/path evidence, not as an adjudicated
+  channel ledger. State B channel restrictions still apply.
 
 For each critical word, preserve these distinct layers when available:
 
@@ -215,11 +228,18 @@ grounding, not truth-ranking.
 
 At first mention of an ayah word, use a structured Arabic surface span:
 `{ar:surface_form, tr:Turkish-readable transliteration, gloss:target-language meaning}`.
-Afterward use the transliteration or a Turkish label. Explain every technical
-term in the same sentence. Keep raw roots, root skeletons, letter-by-letter root
-transliterations, and branch IDs in the evidence surface. In prose, attach root
-discussion to the surface word: `el-âdiyât'ın bağlı olduğu kök alanı...`, not
-`ʿ-d-v kökü...`.
+Use the same full span again when the prose returns to that word after moving to
+another word or another paragraph. Inside one short local sequence, after a full
+span has just been given, a Turkish label or transliteration is enough. Explain
+every technical term in the same sentence. Keep raw roots, root skeletons,
+letter-by-letter root transliterations, and branch IDs in the evidence surface.
+In prose, attach root discussion to the surface word:
+`{ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar} kelimesinin bağlı
+olduğu kök alanı...`, not `ʿ-d-v kökü...`.
+
+Start each paragraph with reader meaning before grammar. Prefer "Âyet önce hamdi
+Allah'a verir; bunu fiille değil, sabit bir ad cümlesiyle yapar" over "Bu âyet,
+tek bir isim cümlesiyle yerleşik bir hüküm kurar."
 
 For this short ayah, keep at least two-thirds of the prose on its own wording.
 Compress all later developments into at most three paragraphs and end with one
@@ -273,16 +293,24 @@ The prose order is:
 Later ayahs may deepen the focus ayah but may not become a sequential retelling
 of the surah.
 
+If `channel_generated_outputs` lists quran-data files and this run gives you file
+access, read only those listed files when channel-family/path detail is
+necessary. Treat them as candidate/family/path evidence, not as an adjudicated
+channel ledger. State B channel restrictions still apply.
+
 At first mention of an ayah word, use a structured Arabic surface span:
 `{ar:surface_form, tr:Turkish-readable transliteration, gloss:target-language meaning}`.
-Afterward use the transliteration or a Turkish label. Keep raw roots, root
-skeletons, letter-by-letter root transliterations, and branch IDs in the evidence
-surface. In prose, attach root discussion to the surface word:
-`el-âdiyât'ın bağlı olduğu kök alanı...`, not `ʿ-d-v kökü...`.
+Use the same full span again when the prose returns to that word after moving to
+another word or another paragraph. Inside one short local sequence, after a full
+span has just been given, a Turkish label or transliteration is enough. Keep raw
+roots, root skeletons, letter-by-letter root transliterations, and branch IDs in
+the evidence surface. In prose, attach root discussion to the surface word:
+`{ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar} kelimesinin bağlı
+olduğu kök alanı...`, not `ʿ-d-v kökü...`.
 
-Lead each paragraph with a concrete statement; place technical precision after
-it. Prefer one interpretive move per sentence. For this ayah, target 900-1050
-words, paragraphs under 100 words, and sentences under 32 words.
+Lead each paragraph with reader meaning before grammar; place technical
+precision after it. Prefer one interpretive move per sentence. For this ayah,
+target 900-1050 words, paragraphs under 100 words, and sentences under 32 words.
 
 Use an explicit negative predicate only to correct a likely misconception,
 protect the primary sense from replacement, or preserve live counter-evidence.
@@ -324,11 +352,15 @@ Still write full ayah commentary. Use the remaining sources normally:
 - `v12_cross_run_publication`, if present, only as a compact coverage/priority
   check derived from regular and plus/minus-5 reader runs; do not copy it as
   prose, and do not let it override local bundle evidence;
+- `channel_generated_outputs`, if present, only as a file-access manifest for
+  generated candidate/family/path evidence; read only listed files when needed,
+  and do not treat them as an adjudicated channel ledger;
 - channel review material under the normal State B limits.
 
 Keep the normal v2 reader-facing controls: structured Arabic spans at first
-mention, no raw roots in prose, positive predication, no wrapper label in prose,
-and every paragraph with one clear reader payoff.""",
+mention and again after paragraph/word shifts when the word does fresh work, no
+raw roots in prose, positive predication, meaning before grammar, no wrapper
+label in prose, and every paragraph with one clear reader payoff.""",
     ),
     "v2.5.6-sol-high-no-reader": PromptProfile(
         name="v2.5.6-sol-high-no-reader",
@@ -347,6 +379,7 @@ Do not infer or simulate:
 - retrospective surprises;
 - whole-surah Turkish reader synthesis;
 - first-pass channel-review connections.
+- channel generated-output files listed in `channel_generated_outputs`.
 
 If those fields are absent because of ablation, report the absence in evidence
 coverage and friction, not in prose.
@@ -359,10 +392,11 @@ may illuminate the focus ayah only when that link is carried by non-reader data
 inside `inter_ayah_rows` or by the ayah's own lexical field.
 
 Keep the normal v2 reader-facing controls: structured Arabic spans at first
-mention, no raw roots in prose, positive predication, no wrapper label in prose,
-and every paragraph with one clear reader payoff. Because the late-arriving
-reader trajectory is removed, prefer a tighter commentary over compensating
-with speculative breadth.""",
+mention and again after paragraph/word shifts when the word does fresh work, no
+raw roots in prose, positive predication, meaning before grammar, no wrapper
+label in prose, and every paragraph with one clear reader payoff. Because the
+late-arriving reader trajectory is removed, prefer a tighter commentary over
+compensating with speculative breadth.""",
     ),
 }
 
@@ -442,13 +476,16 @@ def build_prompt(
         lines.append(f"  - `{rel}` — {nbytes:,} bytes")
     lines.append("")
     lines.append(
-        "**This file is self-contained.** Every document named above, and every "
+        "**This file is self-contained by default.** Every document named above, and every "
         "cross-reference inside them (e.g. \"see `docs/CHANNELS.md` §3.1\"), is "
         "inlined in full below, in the order listed. Do not read, fetch, or "
-        "assume access to any file on disk or over a network. If a passage "
-        "below references another filename, that document is the one you will "
-        "find further down this same file — treat the reference as an "
-        "in-document pointer, not an instruction to go find the file."
+        "assume access to any file on disk or over a network unless the inlined "
+        "bundle contains an explicit source manifest naming that exact file, "
+        "such as `channel_generated_outputs.files[]`. If a passage below "
+        "references another filename without such a manifest entry, that "
+        "document is the one you will find further down this same file — treat "
+        "the reference as an in-document pointer, not an instruction to go find "
+        "the file."
     )
     lines.append("")
     lines.append("---")

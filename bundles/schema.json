@@ -17,8 +17,8 @@
         "branch_inventories", "v12_reader_responses", "v12_reader_walks",
         "v12_reader_walks_wide", "v12_cross_run_publication",
         "butuncul_okuma_line", "inter_ayah_rows",
-        "channel_subchannels_anchored_here", "pericope", "root_lexicon",
-        "coverage"
+        "channel_subchannels_anchored_here", "channel_generated_outputs",
+        "pericope", "root_lexicon", "coverage"
       ],
       "properties": {
         "bundle_type": { "const": "ayah" },
@@ -269,6 +269,29 @@
           "items": { "type": "object" }
         },
 
+        "channel_generated_outputs": {
+          "type": "object",
+          "description": "Lightweight manifest for generated network-v3 channel discovery/family/path files available in quran-data for this surah. Contents are not inlined because these files can be large; agents with file access may read only the listed files when channel detail is necessary. These files are candidate/family/path evidence, not an adjudicated channel ledger.",
+          "required": ["source_dir", "files", "usage"],
+          "properties": {
+            "source_dir": { "type": ["string", "null"] },
+            "files": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["path", "role", "bytes", "compressed"],
+                "properties": {
+                  "path": { "type": "string" },
+                  "role": { "type": "string" },
+                  "bytes": { "type": "integer" },
+                  "compressed": { "type": "boolean" }
+                }
+              }
+            },
+            "usage": { "type": "string" }
+          }
+        },
+
         "pericope": {
           "description": "The single pericope (thematic ayah-span) this ayah belongs to, from analysis/channels/network-v3/pericopes/surah_pericopes.jsonl. Surahs absent from that index (single-pericope by definition) get one synthesized row spanning the whole surah, flagged via synthesized=true. Null only if no pericope span covers this ayah (data gap; see coverage.pericope).",
           "oneOf": [
@@ -312,7 +335,7 @@
             "quran_text", "word_analysis", "qac_morphemes", "branch_inventories",
             "v12_reader_responses", "v12_reader_walks", "v12_reader_walks_wide",
             "v12_cross_run_publication", "butuncul_okuma", "inter_ayah",
-            "channel_review", "pericope", "root_lexicon",
+            "channel_review", "channel_generated_outputs", "pericope", "root_lexicon",
             "word_analysis_qac_alignment", "word_morpheme_spans"
           ],
           "properties": {
@@ -551,7 +574,7 @@
         },
         "surah_scope": {
           "type": "object",
-          "required": ["quran_text_all_rows", "butuncul_okuma_all_lines", "pericopes"],
+          "required": ["quran_text_all_rows", "butuncul_okuma_all_lines", "channel_review", "channel_generated_outputs", "pericopes"],
           "properties": {
             "quran_text_all_rows": {
               "type": "array",
@@ -588,16 +611,23 @@
                 }
               }
             }
+            ,
+            "channel_review": { "type": "object" },
+            "channel_generated_outputs": {
+              "type": "object",
+              "description": "Same external generated channel-output manifest carried by ayah bundles, but at surah scope."
+            }
           }
         },
         "coverage": {
           "type": "object",
-          "required": ["ayah_count", "per_ayah", "butuncul_okuma", "pericopes"],
+          "required": ["ayah_count", "per_ayah", "butuncul_okuma", "channel_review", "channel_generated_outputs", "pericopes"],
           "properties": {
             "ayah_count": { "type": "integer" },
             "per_ayah": { "type": "object", "description": "ayahRef -> that ayah bundle's own coverage block, verbatim." },
             "butuncul_okuma": { "type": "object" },
             "channel_review": { "type": "object" },
+            "channel_generated_outputs": { "type": "object" },
             "pericopes": {
               "type": "object",
               "required": ["present", "pericope_count", "synthesized"],

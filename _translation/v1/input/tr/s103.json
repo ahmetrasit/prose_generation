@@ -1389,7 +1389,7 @@
             "branchCores": [
               {
                 "branchId": "B001",
-                "text": "gerçekliğe uygun, kesin doğruluk",
+                "text": "gerçeğe uygun doğruluk, kesinlik ve gerçek anlam",
                 "facetIds": [
                   "F001",
                   "F002",
@@ -1401,27 +1401,41 @@
             "contextualSenses": [
               {
                 "branchId": "B001",
-                "text": "doğru",
+                "text": "yanlışın karşısındaki gerçek doğruluk",
                 "facetIds": [
                   "F001"
                 ],
-                "fit": "narrowing"
+                "fit": "none"
               },
               {
                 "branchId": "B001",
-                "text": "gerçek anlam",
+                "text": "bir işin kesinleşmiş gerçek yüzü",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "mecaz olmayan asıl anlam",
                 "facetIds": [
                   "F003"
                 ],
-                "fit": "narrowing"
+                "fit": "none"
               }
             ],
             "lexicalSenses": [
               {
                 "branchId": "B001",
                 "lexicalUnitId": "lu_001",
-                "text": "gerçekte var olana uygun, doğru ve sağlam olan",
-                "facetIds": []
+                "text": "gerçeğe uyan doğru ve sağlam olan",
+                "facetIds": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "fit": "none"
               }
             ]
           }
@@ -1531,7 +1545,7 @@
             "branchCores": [
               {
                 "branchId": "B001",
-                "text": "kendini tutarak dayanma",
+                "text": "sarsıntı, sıkıntı veya istenmeyen bir durum karşısında kişinin kendini taşkın tepkiden alıkoyması ve doğru bildiği tutumu kararlılıkla sürdürmesi",
                 "facetIds": [
                   "F001",
                   "F002"
@@ -1542,12 +1556,57 @@
             "contextualSenses": [
               {
                 "branchId": "B001",
-                "text": "metanet göstermek",
+                "text": "kendini tutarak dayanma",
                 "facetIds": [
                   "F001",
                   "F002"
                 ],
-                "fit": "narrowing"
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "kendimi o işte tuttum",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "kendini zorlayarak dayanma",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "çaba göstererek dayan",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "dayanma gücü yüksek kişi",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "none"
+              },
+              {
+                "branchId": "B001",
+                "text": "her defasında çabayla dayanan kişi",
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "none"
               }
             ],
             "lexicalSenses": [
@@ -1555,7 +1614,11 @@
                 "branchId": "B001",
                 "lexicalUnitId": "lu_001",
                 "text": "kendini tutarak dayanma",
-                "facetIds": []
+                "facetIds": [
+                  "F001",
+                  "F002"
+                ],
+                "fit": "none"
               }
             ]
           }
