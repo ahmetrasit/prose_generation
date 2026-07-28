@@ -1,7 +1,7 @@
 {
   "bundle_type": "surah",
   "schema_version": "input-bundle-surah-v3",
-  "generated_at": "2026-07-28T10:12:54.085200+00:00",
+  "generated_at": "2026-07-28T15:42:37.358818+00:00",
   "surah": 1,
   "ayah_refs": [
     "1:1",
@@ -1557,62 +1557,241 @@
           "per_root": {
             "س م و": {
               "root_id": "root_000745",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 381,
-                  "ayahs": 352
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_000745",
+                "root_001650",
+                "root_000743"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "س م و",
+                "mapping_status": "split",
+                "primary_root_id": "root_000745",
+                "targets": [
+                  {
+                    "qac_root_norm": "س م و",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_000745",
+                    "furuq_root_norm": "س م و",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 190,
+                    "is_dominant": 1
+                  },
+                  {
+                    "qac_root_norm": "س م و",
+                    "target_rank": 2,
+                    "furuq_root_id": "root_001650",
+                    "furuq_root_norm": "و س م",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 2,
+                    "is_dominant": 0
+                  },
+                  {
+                    "qac_root_norm": "س م و",
+                    "target_rank": 3,
+                    "furuq_root_id": "root_000743",
+                    "furuq_root_norm": "س م م",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 1,
+                    "is_dominant": 0
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_000745",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "س م و",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 190,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 8,
+                  "gloss_branch_count": 8,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 381,
+                      "ayahs": 352
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                },
+                {
+                  "root_id": "root_001650",
+                  "target_rank": 2,
+                  "is_dominant": false,
+                  "furuq_root_norm": "و س م",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 2,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 6,
+                  "gloss_branch_count": 6,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 2,
+                      "ayahs": 2
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                },
+                {
+                  "root_id": "root_000743",
+                  "target_rank": 3,
+                  "is_dominant": false,
+                  "furuq_root_norm": "س م م",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 1,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 13,
+                  "gloss_branch_count": 13,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 4,
+                      "ayahs": 4
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ء ل ه": {
               "root_id": "root_000047",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 2851,
-                  "ayahs": 1879
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_000047"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "ء ل ه",
+                "mapping_status": "unique",
+                "primary_root_id": "root_000047",
+                "targets": [
+                  {
+                    "qac_root_norm": "ء ل ه",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_000047",
+                    "furuq_root_norm": "ء ل ه",
+                    "furuq_resolution": "root_norm_unique",
+                    "occurrences": 2849,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_000047",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "ء ل ه",
+                  "furuq_resolution": "root_norm_unique",
+                  "occurrences": 2849,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 2,
+                  "gloss_branch_count": 2,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 2851,
+                      "ayahs": 1879
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ر ح م": {
               "root_id": "root_000552",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 339,
-                  "ayahs": 313
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_000552"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "ر ح م",
+                "mapping_status": "unique",
+                "primary_root_id": "root_000552",
+                "targets": [
+                  {
+                    "qac_root_norm": "ر ح م",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_000552",
+                    "furuq_root_norm": "ر ح م",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 292,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_000552",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "ر ح م",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 292,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 4,
+                  "gloss_branch_count": 4,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 339,
+                      "ayahs": 313
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             }
           },
@@ -1622,7 +1801,20 @@
               "occurrences",
               "ayahs"
             ],
-            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
+          },
+          "branch_policy": {
+            "mode": "full_branches_no_filtering",
+            "dictionary_branches_total": 33,
+            "dictionary_branches_kept": 33,
+            "dictionary_branches_dropped": 0,
+            "gloss_branches_total": 33,
+            "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+          },
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+            "split_roots_in_ayah": 1
           },
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
@@ -2058,82 +2250,259 @@
           "per_root": {
             "ح م د": {
               "root_id": "root_000355",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 63,
-                  "ayahs": 61
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_000355"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "ح م د",
+                "mapping_status": "unique",
+                "primary_root_id": "root_000355",
+                "targets": [
+                  {
+                    "qac_root_norm": "ح م د",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_000355",
+                    "furuq_root_norm": "ح م د",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 61,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_000355",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "ح م د",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 61,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 6,
+                  "gloss_branch_count": 6,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 63,
+                      "ayahs": 61
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ء ل ه": {
               "root_id": "root_000047",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 2851,
-                  "ayahs": 1879
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_000047"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "ء ل ه",
+                "mapping_status": "unique",
+                "primary_root_id": "root_000047",
+                "targets": [
+                  {
+                    "qac_root_norm": "ء ل ه",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_000047",
+                    "furuq_root_norm": "ء ل ه",
+                    "furuq_resolution": "root_norm_unique",
+                    "occurrences": 2849,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_000047",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "ء ل ه",
+                  "furuq_resolution": "root_norm_unique",
+                  "occurrences": 2849,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 2,
+                  "gloss_branch_count": 2,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 2851,
+                      "ayahs": 1879
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ر ب ب": {
               "root_id": "root_000532",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 980,
-                  "ayahs": 871
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_000532",
+                "root_000537"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "ر ب ب",
+                "mapping_status": "split",
+                "primary_root_id": "root_000532",
+                "targets": [
+                  {
+                    "qac_root_norm": "ر ب ب",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_000532",
+                    "furuq_root_norm": "ر ب ب",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 970,
+                    "is_dominant": 1
+                  },
+                  {
+                    "qac_root_norm": "ر ب ب",
+                    "target_rank": 2,
+                    "furuq_root_id": "root_000537",
+                    "furuq_root_norm": "ر ب و",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 1,
+                    "is_dominant": 0
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_000532",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "ر ب ب",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 970,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 17,
+                  "gloss_branch_count": 17,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 980,
+                      "ayahs": 871
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                },
+                {
+                  "root_id": "root_000537",
+                  "target_rank": 2,
+                  "is_dominant": false,
+                  "furuq_root_norm": "ر ب و",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 1,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 7,
+                  "gloss_branch_count": 7,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 20,
+                      "ayahs": 15
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ع ل م": {
               "root_id": "root_001040",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 854,
-                  "ayahs": 728
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_001040"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "ع ل م",
+                "mapping_status": "unique",
+                "primary_root_id": "root_001040",
+                "targets": [
+                  {
+                    "qac_root_norm": "ع ل م",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_001040",
+                    "furuq_root_norm": "ع ل م",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 771,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_001040",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "ع ل م",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 771,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 7,
+                  "gloss_branch_count": 7,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 854,
+                      "ayahs": 728
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             }
           },
@@ -2143,7 +2512,20 @@
               "occurrences",
               "ayahs"
             ],
-            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
+          },
+          "branch_policy": {
+            "mode": "full_branches_no_filtering",
+            "dictionary_branches_total": 39,
+            "dictionary_branches_kept": 39,
+            "dictionary_branches_dropped": 0,
+            "gloss_branches_total": 39,
+            "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+          },
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+            "split_roots_in_ayah": 1
           },
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
@@ -2471,22 +2853,57 @@
           "per_root": {
             "ر ح م": {
               "root_id": "root_000552",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 339,
-                  "ayahs": 313
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_000552"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "ر ح م",
+                "mapping_status": "unique",
+                "primary_root_id": "root_000552",
+                "targets": [
+                  {
+                    "qac_root_norm": "ر ح م",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_000552",
+                    "furuq_root_norm": "ر ح م",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 292,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_000552",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "ر ح م",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 292,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 4,
+                  "gloss_branch_count": 4,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 339,
+                      "ayahs": 313
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             }
           },
@@ -2496,7 +2913,20 @@
               "occurrences",
               "ayahs"
             ],
-            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
+          },
+          "branch_policy": {
+            "mode": "full_branches_no_filtering",
+            "dictionary_branches_total": 4,
+            "dictionary_branches_kept": 4,
+            "dictionary_branches_dropped": 0,
+            "gloss_branches_total": 4,
+            "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+          },
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+            "split_roots_in_ayah": 0
           },
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
@@ -2902,62 +3332,167 @@
           "per_root": {
             "م ل ك": {
               "root_id": "root_001444",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 206,
-                  "ayahs": 191
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_001444"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "م ل ك",
+                "mapping_status": "unique",
+                "primary_root_id": "root_001444",
+                "targets": [
+                  {
+                    "qac_root_norm": "م ل ك",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_001444",
+                    "furuq_root_norm": "م ل ك",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 123,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_001444",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "م ل ك",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 123,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 9,
+                  "gloss_branch_count": 9,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 206,
+                      "ayahs": 191
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ي و م": {
               "root_id": "root_001700",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 405,
-                  "ayahs": 377
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_001700"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "ي و م",
+                "mapping_status": "unique",
+                "primary_root_id": "root_001700",
+                "targets": [
+                  {
+                    "qac_root_norm": "ي و م",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_001700",
+                    "furuq_root_norm": "ي و م",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 414,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_001700",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "ي و م",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 414,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 5,
+                  "gloss_branch_count": 5,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 405,
+                      "ayahs": 377
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "د ي ن": {
               "root_id": "root_000504",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 101,
-                  "ayahs": 87
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_000504"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "د ي ن",
+                "mapping_status": "unique",
+                "primary_root_id": "root_000504",
+                "targets": [
+                  {
+                    "qac_root_norm": "د ي ن",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_000504",
+                    "furuq_root_norm": "د ي ن",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 101,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_000504",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "د ي ن",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 101,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 7,
+                  "gloss_branch_count": 7,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 101,
+                      "ayahs": 87
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             }
           },
@@ -2967,7 +3502,20 @@
               "occurrences",
               "ayahs"
             ],
-            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
+          },
+          "branch_policy": {
+            "mode": "full_branches_no_filtering",
+            "dictionary_branches_total": 21,
+            "dictionary_branches_kept": 21,
+            "dictionary_branches_dropped": 0,
+            "gloss_branches_total": 21,
+            "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+          },
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+            "split_roots_in_ayah": 0
           },
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
@@ -3396,42 +3944,149 @@
           "per_root": {
             "ع ب د": {
               "root_id": "root_000973",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 275,
-                  "ayahs": 251
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_000973"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "ع ب د",
+                "mapping_status": "unique",
+                "primary_root_id": "root_000973",
+                "targets": [
+                  {
+                    "qac_root_norm": "ع ب د",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_000973",
+                    "furuq_root_norm": "ع ب د",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 264,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_000973",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "ع ب د",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 264,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 12,
+                  "gloss_branch_count": 12,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 275,
+                      "ayahs": 251
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ع و ن": {
               "root_id": "root_001064",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 11,
-                  "ayahs": 10
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_001064",
+                "root_001069"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "ع و ن",
+                "mapping_status": "split",
+                "primary_root_id": "root_001064",
+                "targets": [
+                  {
+                    "qac_root_norm": "ع و ن",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_001064",
+                    "furuq_root_norm": "ع و ن",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 10,
+                    "is_dominant": 1
+                  },
+                  {
+                    "qac_root_norm": "ع و ن",
+                    "target_rank": 2,
+                    "furuq_root_id": "root_001069",
+                    "furuq_root_norm": "ع ي ن",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 1,
+                    "is_dominant": 0
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_001064",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "ع و ن",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 10,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 8,
+                  "gloss_branch_count": 8,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 11,
+                      "ayahs": 10
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                },
+                {
+                  "root_id": "root_001069",
+                  "target_rank": 2,
+                  "is_dominant": false,
+                  "furuq_root_norm": "ع ي ن",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 1,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 17,
+                  "gloss_branch_count": 17,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 65,
+                      "ayahs": 63
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             }
           },
@@ -3441,7 +4096,20 @@
               "occurrences",
               "ayahs"
             ],
-            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
+          },
+          "branch_policy": {
+            "mode": "full_branches_no_filtering",
+            "dictionary_branches_total": 37,
+            "dictionary_branches_kept": 37,
+            "dictionary_branches_dropped": 0,
+            "gloss_branches_total": 37,
+            "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+          },
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+            "split_roots_in_ayah": 1
           },
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
@@ -3862,62 +4530,191 @@
           "per_root": {
             "ه د ي": {
               "root_id": "root_001583",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 316,
-                  "ayahs": 268
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_001583",
+                "root_001580"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "ه د ي",
+                "mapping_status": "split",
+                "primary_root_id": "root_001583",
+                "targets": [
+                  {
+                    "qac_root_norm": "ه د ي",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_001583",
+                    "furuq_root_norm": "ه د ي",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 251,
+                    "is_dominant": 1
+                  },
+                  {
+                    "qac_root_norm": "ه د ي",
+                    "target_rank": 2,
+                    "furuq_root_id": "root_001580",
+                    "furuq_root_norm": "ه د د",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 1,
+                    "is_dominant": 0
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_001583",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "ه د ي",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 251,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 11,
+                  "gloss_branch_count": 11,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 316,
+                      "ayahs": 268
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                },
+                {
+                  "root_id": "root_001580",
+                  "target_rank": 2,
+                  "is_dominant": false,
+                  "furuq_root_norm": "ه د د",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 1,
+                  "dictionary_present": true,
+                  "gloss_present": false,
+                  "dictionary_branch_count": 12,
+                  "gloss_branch_count": 0,
+                  "occurrence_evidence_trimmed": null,
+                  "note": "no reviewed Turkish gloss found for this root_id"
+                }
+              ],
               "note": null
             },
             "ص ر ط": {
               "root_id": "root_000858",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 45,
-                  "ayahs": 45
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_000858"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "ص ر ط",
+                "mapping_status": "unique",
+                "primary_root_id": "root_000858",
+                "targets": [
+                  {
+                    "qac_root_norm": "ص ر ط",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_000858",
+                    "furuq_root_norm": "ص ر ط",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 29,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_000858",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "ص ر ط",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 29,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 3,
+                  "gloss_branch_count": 3,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 45,
+                      "ayahs": 45
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ق و م": {
               "root_id": "root_001273",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 660,
-                  "ayahs": 597
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_001273"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "ق و م",
+                "mapping_status": "unique",
+                "primary_root_id": "root_001273",
+                "targets": [
+                  {
+                    "qac_root_norm": "ق و م",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_001273",
+                    "furuq_root_norm": "ق و م",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 562,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_001273",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "ق و م",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 562,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 21,
+                  "gloss_branch_count": 21,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 660,
+                      "ayahs": 597
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             }
           },
@@ -3927,7 +4724,20 @@
               "occurrences",
               "ayahs"
             ],
-            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
+          },
+          "branch_policy": {
+            "mode": "full_branches_no_filtering",
+            "dictionary_branches_total": 47,
+            "dictionary_branches_kept": 47,
+            "dictionary_branches_dropped": 0,
+            "gloss_branches_total": 35,
+            "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+          },
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+            "split_roots_in_ayah": 1
           },
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
@@ -4360,102 +5170,277 @@
           "per_root": {
             "ص ر ط": {
               "root_id": "root_000858",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 45,
-                  "ayahs": 45
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_000858"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "ص ر ط",
+                "mapping_status": "unique",
+                "primary_root_id": "root_000858",
+                "targets": [
+                  {
+                    "qac_root_norm": "ص ر ط",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_000858",
+                    "furuq_root_norm": "ص ر ط",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 29,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_000858",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "ص ر ط",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 29,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 3,
+                  "gloss_branch_count": 3,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 45,
+                      "ayahs": 45
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ن ع م": {
               "root_id": "root_001525",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 140,
-                  "ayahs": 128
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_001525"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "ن ع م",
+                "mapping_status": "unique",
+                "primary_root_id": "root_001525",
+                "targets": [
+                  {
+                    "qac_root_norm": "ن ع م",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_001525",
+                    "furuq_root_norm": "ن ع م",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 98,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_001525",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "ن ع م",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 98,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 13,
+                  "gloss_branch_count": 13,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 140,
+                      "ayahs": 128
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "غ ي ر": {
               "root_id": "root_001119",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 154,
-                  "ayahs": 146
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_001119"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "غ ي ر",
+                "mapping_status": "unique",
+                "primary_root_id": "root_001119",
+                "targets": [
+                  {
+                    "qac_root_norm": "غ ي ر",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_001119",
+                    "furuq_root_norm": "غ ي ر",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 150,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_001119",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "غ ي ر",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 150,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 5,
+                  "gloss_branch_count": 5,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 154,
+                      "ayahs": 146
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "غ ض ب": {
               "root_id": "root_001092",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 24,
-                  "ayahs": 21
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_001092"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "غ ض ب",
+                "mapping_status": "unique",
+                "primary_root_id": "root_001092",
+                "targets": [
+                  {
+                    "qac_root_norm": "غ ض ب",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_001092",
+                    "furuq_root_norm": "غ ض ب",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 24,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_001092",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "غ ض ب",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 24,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 8,
+                  "gloss_branch_count": 8,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 24,
+                      "ayahs": 21
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ض ل ل": {
               "root_id": "root_000913",
-              "dictionary_present": true,
-              "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 191,
-                  "ayahs": 170
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
+              "root_ids": [
+                "root_000913"
+              ],
+              "root_mapping": {
+                "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+                "qac_root_norm": "ض ل ل",
+                "mapping_status": "unique",
+                "primary_root_id": "root_000913",
+                "targets": [
+                  {
+                    "qac_root_norm": "ض ل ل",
+                    "target_rank": 1,
+                    "furuq_root_id": "root_000913",
+                    "furuq_root_norm": "ض ل ل",
+                    "furuq_resolution": "source_root_norm",
+                    "occurrences": 153,
+                    "is_dominant": 1
+                  }
                 ]
               },
+              "dictionary_present": true,
+              "gloss_present": true,
+              "targets": [
+                {
+                  "root_id": "root_000913",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "furuq_root_norm": "ض ل ل",
+                  "furuq_resolution": "source_root_norm",
+                  "occurrences": 153,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "dictionary_branch_count": 5,
+                  "gloss_branch_count": 5,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 191,
+                      "ayahs": 170
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             }
           },
@@ -4465,7 +5450,20 @@
               "occurrences",
               "ayahs"
             ],
-            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
+          },
+          "branch_policy": {
+            "mode": "full_branches_no_filtering",
+            "dictionary_branches_total": 34,
+            "dictionary_branches_kept": 34,
+            "dictionary_branches_dropped": 0,
+            "gloss_branches_total": 34,
+            "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+          },
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+            "split_roots_in_ayah": 0
           },
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }

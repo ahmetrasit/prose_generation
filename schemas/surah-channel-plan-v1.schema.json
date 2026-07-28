@@ -1,0 +1,422 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "surah-channel-plan-v1.schema.json",
+  "title": "Surah channel plan v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "surah",
+    "reviewState",
+    "channels"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "surah-channel-plan-v1"
+    },
+    "surah": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 114
+    },
+    "reviewState": {
+      "enum": [
+        "draft",
+        "reviewed"
+      ]
+    },
+    "sourceSurahProse": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceLane": {
+      "enum": [
+        "layer3",
+        "channel-only",
+        "combined"
+      ]
+    },
+    "primaryFloorBasis": {
+      "$ref": "#/$defs/primaryFloorBasis"
+    },
+    "channels": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/channel"
+      }
+    },
+    "sourceCoverage": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sourceCoverage"
+      }
+    },
+    "review": {
+      "$ref": "#/$defs/review"
+    }
+  },
+  "$defs": {
+    "relation": {
+      "enum": [
+        "supports-primary",
+        "shifts-primary"
+      ]
+    },
+    "channel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "channelId",
+        "name_tr",
+        "statement_tr",
+        "reviewDecision",
+        "wholeSurahRelation",
+        "wholeSurahShift_tr",
+        "sourceCandidates",
+        "members",
+        "maturityByAyah",
+        "rejectedMotifs"
+      ],
+      "properties": {
+        "channelId": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "name_tr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "statement_tr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewDecision": {
+          "enum": [
+            "draft",
+            "accepted",
+            "rejected",
+            "revise"
+          ]
+        },
+        "reviewReason_tr": {
+          "type": "string"
+        },
+        "wholeSurahRelation": {
+          "$ref": "#/$defs/relation"
+        },
+        "wholeSurahShift_tr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceCandidates": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/sourceCandidate"
+          }
+        },
+        "members": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/member"
+          }
+        },
+        "maturityByAyah": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/maturity"
+          }
+        },
+        "maturityStatus": {
+          "enum": [
+            "deferred-to-review",
+            "proposed",
+            "reviewed"
+          ]
+        },
+        "rejectedMotifs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/rejectedMotif"
+          }
+        }
+      }
+    },
+    "sourceCandidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceType",
+        "sourceRef"
+      ],
+      "properties": {
+        "sourceType": {
+          "enum": [
+            "network-v3",
+            "v12",
+            "layer2-surprise",
+            "layer2-reading"
+          ]
+        },
+        "sourceRef": {
+          "type": "string",
+          "minLength": 1
+        },
+        "parentChannel": {
+          "type": "string"
+        },
+        "subchannelKey": {
+          "type": "string"
+        },
+        "subchannelName": {
+          "type": "string"
+        }
+      }
+    },
+    "sourceCoverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceRef",
+        "disposition",
+        "channelIds"
+      ],
+      "properties": {
+        "sourceRef": {
+          "type": "string",
+          "pattern": "^P[0-9]{2}(?:/[^/]+)?$"
+        },
+        "disposition": {
+          "enum": [
+            "integrated",
+            "apparatus-only"
+          ]
+        },
+        "channelIds": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          }
+        },
+        "reason_tr": {
+          "type": "string"
+        }
+      }
+    },
+    "member": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "memberId",
+        "ayahRef",
+        "qacMorphemeRef",
+        "rootId",
+        "branchId",
+        "primaryStatus",
+        "surface_tr",
+        "contribution_tr",
+        "evidenceRefs"
+      ],
+      "properties": {
+        "memberId": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "ayahRef": {
+          "type": "string",
+          "pattern": "^[1-9][0-9]{0,2}:[1-9][0-9]{0,2}$"
+        },
+        "qacMorphemeRef": {
+          "type": "string",
+          "pattern": "^[1-9][0-9]{0,2}:[1-9][0-9]{0,2}:[1-9][0-9]*:[1-9][0-9]*$"
+        },
+        "rootId": {
+          "type": "string",
+          "pattern": "^root_[0-9]{6}$"
+        },
+        "branchId": {
+          "type": "string",
+          "pattern": "^B[0-9]{3}$"
+        },
+        "motifId": {
+          "type": "string",
+          "pattern": "^m[0-9]{2,}$"
+        },
+        "primaryStatus": {
+          "enum": [
+            "primary",
+            "non-primary",
+            "unknown"
+          ]
+        },
+        "surface_tr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "contribution_tr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidenceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "groundingState": {
+          "enum": [
+            "introduced",
+            "unintroduced"
+          ]
+        },
+        "groundingReason": {
+          "enum": [
+            "reader-visible-contact",
+            "unintroduced-at-anchor"
+          ]
+        }
+      }
+    },
+    "maturity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ayahRef",
+        "state",
+        "newMemberIds",
+        "recalledMemberIds",
+        "cumulativeImage_tr"
+      ],
+      "properties": {
+        "ayahRef": {
+          "type": "string",
+          "pattern": "^[1-9][0-9]{0,2}:[1-9][0-9]{0,2}$"
+        },
+        "state": {
+          "enum": [
+            "latent",
+            "emerging",
+            "mature",
+            "complete"
+          ]
+        },
+        "newMemberIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "recalledMemberIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "focusAyahRelation": {
+          "$ref": "#/$defs/relation"
+        },
+        "focusAyahShift_tr": {
+          "type": "string"
+        },
+        "relationStatus": {
+          "enum": [
+            "statable",
+            "not-yet-statable"
+          ]
+        },
+        "cumulativeImage_tr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "disclosure_tr": {
+          "type": "string"
+        }
+      }
+    },
+    "primaryFloorBasis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "apparatusStatus"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "authored",
+            "arabic-only-inference"
+          ]
+        },
+        "sourcePath": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "apparatusStatus": {
+          "enum": [
+            "typed-primary-floor",
+            "writer-primary-inference"
+          ]
+        }
+      }
+    },
+    "rejectedMotif": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceRef",
+        "reason"
+      ],
+      "properties": {
+        "sourceRef": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reason": {
+          "enum": [
+            "fails-cross-ayah-recurrence",
+            "fails-coherence",
+            "fails-explanatory-yield",
+            "insufficient-grounding",
+            "duplicates-member",
+            "other"
+          ]
+        },
+        "note_tr": {
+          "type": "string"
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reviewerId",
+        "reviewedAt",
+        "summary_tr"
+      ],
+      "properties": {
+        "reviewerId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "summary_tr": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

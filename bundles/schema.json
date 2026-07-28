@@ -313,13 +313,29 @@
 
         "root_lexicon": {
           "type": "object",
-          "description": "Keyed by root_id (e.g. 'root_000745'). One entry per distinct root appearing in this ayah's qac_morphemes (root_ar), joining the Turkish dictionary entry (dictionary/tr/{root_id}_entry.json) and the Turkish gloss record (translation/glosses/locales/tr/{root_id}.json) verbatim. Turkish is the only language with glosses/dictionary entries currently sourced (see coverage.root_lexicon). Every gloss error object (branches[].concept_gloss.error, branches[].contextual_glosses[].error, branches[].lexical_glosses{}.error) is annotated in place with a derived boolean `loses_core_concept`: true when error.fit == 'narrowing' AND error.loses_facet_ids is non-empty, i.e. this specific gloss text is materially incomplete about the root's core concept.",
+          "description": "Keyed by Furuq root_id (e.g. 'root_000745'). For each distinct QAC root appearing in this ayah's qac_morphemes (root_ar), the builder joins the Turkish dictionary entry (dictionary/tr/{root_id}_entry.json) and Turkish gloss record (translation/glosses/locales/tr/{root_id}.json). Root identity comes from data/bridges/qac-furuq-v4-root-map.sqlite.gz when present. Split QAC roots include non-dominant Furuq targets as additional root_lexicon entries; if multiple QAC roots in the same ayah map to one Furuq root, the shared entry records all source roots in qac_roots_ar/qac_root_mappings. Dictionary/gloss branch arrays are kept in full; no branch filtering is applied. Turkish is the only language with glosses/dictionary entries currently sourced (see coverage.root_lexicon). Every gloss error object (branches[].concept_gloss.error, branches[].contextual_glosses[].error, branches[].lexical_glosses{}.error) is annotated in place with a derived boolean `loses_core_concept`: true when error.fit == 'narrowing' AND error.loses_facet_ids is non-empty, i.e. this specific gloss text is materially incomplete about the root's core concept.",
           "additionalProperties": {
             "type": "object",
             "required": ["root_ar", "root_id", "dictionary_entry", "gloss"],
             "properties": {
-              "root_ar": { "type": "string" },
+              "root_ar": { "type": "string", "description": "First QAC root surface that caused this Furuq root entry to be included. Use qac_roots_ar/qac_root_mappings when more than one QAC root maps to the same Furuq root in an ayah." },
+              "qac_roots_ar": {
+                "type": "array",
+                "description": "All QAC root surfaces in this ayah that map to this Furuq root_id.",
+                "items": { "type": "string" }
+              },
               "root_id": { "type": "string" },
+              "root_mapping_role": { "type": "string" },
+              "root_mapping_roles": {
+                "type": "array",
+                "description": "All mapping roles by which QAC roots in this ayah reach this Furuq root_id.",
+                "items": { "type": "string" }
+              },
+              "qac_root_mappings": {
+                "type": "array",
+                "description": "Per-QAC-root mapping facts for shared Furuq targets.",
+                "items": { "type": "object" }
+              },
               "dictionary_entry": { "type": ["object", "null"] },
               "dictionary_source_file": { "type": ["string", "null"] },
               "gloss": { "type": ["object", "null"] },
@@ -534,17 +550,33 @@
                 "roots_in_ayah": { "type": "array", "items": { "type": "string" } },
                 "per_root": {
                   "type": "object",
-                  "description": "Per root: presence of dictionary/gloss, plus occurrence_evidence_trimmed recording the exact concordance rows dropped for that root."
+                  "description": "Per QAC root: root mapping source/status, included Furuq root targets, dictionary/gloss presence, and occurrence_evidence_trimmed records for each target."
                 },
                 "occurrence_evidence_trim": {
                   "type": "object",
-                  "description": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are dropped from every root by design: a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, which dominated bundle size (~1.5 MB for one common root). dictionary_entry.branches (the lexical concept material) is kept in full, as are occurrence_evidence.summary and .forms.",
+                  "description": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are dropped from every root by design: a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, which dominated bundle size (~1.5 MB for one common root). occurrence_evidence.summary and .forms are retained.",
                   "required": ["applied", "dropped_keys"],
                   "properties": {
                     "applied": { "type": "boolean" },
                     "dropped_keys": { "type": "array", "items": { "type": "string" } },
                     "note": { "type": "string" }
                   }
+                },
+                "branch_policy": {
+                  "type": "object",
+                  "description": "No branch filtering is applied. dictionary_entry.branches and gloss.branches are kept in full for every included Furuq root target.",
+                  "properties": {
+                    "mode": { "type": "string" },
+                    "dictionary_branches_total": { "type": "integer" },
+                    "dictionary_branches_kept": { "type": "integer" },
+                    "dictionary_branches_dropped": { "type": "integer" },
+                    "gloss_branches_total": { "type": "integer" },
+                    "note": { "type": "string" }
+                  }
+                },
+                "root_mapping": {
+                  "type": "object",
+                  "description": "QAC root -> Furuq root policy and source. Split QAC roots include non-dominant Furuq targets as additional root_lexicon entries."
                 },
                 "note": { "type": "string" }
               }

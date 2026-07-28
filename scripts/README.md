@@ -61,6 +61,14 @@ matching the v12 run layout, which has no `focus_{S}_0`:
   in `quran-data`; contents are not inlined because they can be large, but an
   agent with file access may read only the listed files when channel detail is
   necessary;
+- `root_lexicon` — Turkish dictionary/gloss entries for roots in the ayah.
+  QAC roots are mapped to Furuq `root_XXXXXX` IDs through
+  `data/bridges/qac-furuq-v4-root-map.sqlite.gz` when present, with
+  `full_context_packet.json` as fallback. Dictionary/gloss branch arrays are
+  kept in full. If a QAC root has split Furuq targets, the non-dominant targets
+  are included as additional root entries and recorded in coverage. If multiple
+  QAC roots map to the same Furuq target, the shared root entry records all
+  source roots in `qac_roots_ar` / `qac_root_mappings`;
 - a mandatory `coverage` block: per source, present/missing, with counts or a
   note explaining absence.
 
@@ -78,21 +86,24 @@ the ayah keep all branches; roots cited by channel material anchored here keep
 only the cited branches. Coverage records `scope:
 "surah-fallback-scoped-to-ayah"` and the scoping report.
 
+This is separate from `root_lexicon`. Branch inventories remain the compact
+branch map and are ayah-scoped here. The heavier Turkish dictionary/gloss records
+are not branch-filtered: every branch is kept for every included Furuq root
+target, including non-dominant targets of split QAC roots.
+
 Before this fallback/scoping path existed the builder emitted a bundle with
 `branch_inventories: {}` for most surahs and exited 0 — a healthy-looking bundle
 with none of the latent material the commentary exists to render. If **no**
 branch source resolves, the run now aborts.
 
-### Channel review
+### Reviewed channels
 
-Each surah's `network/v3/reviews/s{NNN}/reader_a_pilot.md` is parsed into parent
-channels and subchannels. The surah bundle carries the whole parsed review; each
-ayah bundle carries the subchannels anchored to that ayah.
-
-Coverage records `review_status: "first-pass-single-reader"`. This is not an
-adjudicated ledger — no accept/reject, no second reader, no per-ayah maturity —
-so it is evidence for a writer, not authority to state a channel as established.
-See `docs/CHANNELS.md` §5.1. Absent for S108, S110, S113, S114.
+Each surah's reviewed `network/v3` report is parsed into parent channels and
+subchannels. The ordinary surah bundle carries that parsed source; the compact
+channel bundle preserves its synthesis and compiles root/branch citations to
+typed Quran anchors. Maturity is absent upstream because it belongs to reader
+order and is derived by the combined Layer 3 + 2.5 pass. Reviewed channel reports
+are absent for S108, S110, S113, and S114.
 
 ### Why unfiltered
 
@@ -171,3 +182,41 @@ Without `--profile`, outputs are named like `{S}_{A}.ayah.prompt.md` and
 The current reader-facing S100 pilot default is `v2.5.6-sol-high`. Keep only that
 profile prompt in the active `_commentary/inputs/s{NNN}/` path; archive
 comparator prompts under `_commentary/inputs/archive/s{NNN}/` after use.
+
+### Combined Layer 3 + Layer 2.5
+
+```sh
+python3 scripts/build_channel_bundle.py --surah 87
+python3 scripts/check_channel_bundle.py bundles/s087/87.channel.json --surah 87
+python3 scripts/instantiate_channel.py --surah 87 \
+  --layer2-label default.v2.5.6-sol-high --date 2026-07-28
+```
+
+The bundle begins with the reviewed network channel material, retains its
+synthesis, and deterministically joins every cited root/branch/motif to typed QAC
+anchors. The instantiator then adds only each ayah's unchanged Layer-2 prose.
+It does not reload Layer-2 evidence/index files, raw ayah bundles, per-ayah
+coverage, or the whole-surah `butuncul_okuma`.
+
+The single authored pass writes the primary-grounded surah argument, completed
+surprising channel reading, reviewed channel plan with maturity, and Layer-2.5
+overlays. There is no second channel-admission pass. The cold Layer-2 prose
+remains canonical; overlay JSON records additions and exact insertion points.
+
+`--layer2-dir` defaults to `_commentary/outputs/s{NNN}-default`, then `s{NNN}`.
+`--layer2-label` disambiguates comparative runs. Missing, empty, or ambiguous
+prose aborts before prompt creation.
+
+Validate the authored structures:
+
+```sh
+python3 scripts/check_channel_plan.py \
+  _commentary/outputs/s087-default/87.surah.channels.reviewed.json \
+  --state reviewed --bundle bundles/s087/87.channel.json
+python3 scripts/check_channel_overlays.py _commentary/outputs/s087-default/87.ayah-channel-overlays.json \
+  --plan _commentary/outputs/s087-default/87.surah.channels.reviewed.json
+```
+
+The older `instantiate.py --layer surah` and
+`instantiate_channel_workflow.py --stage review|integrate|finalize` commands
+remain only for reproducing legacy draft-plan runs.

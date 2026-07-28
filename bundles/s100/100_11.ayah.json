@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-28T10:12:54.037727+00:00",
+  "generated_at": "2026-07-28T15:42:47.468816+00:00",
   "surah": 100,
   "ayah": 11,
   "ayahRef": "100:11",
@@ -4932,7 +4932,23 @@
   "root_lexicon": {
     "root_000532": {
       "root_ar": "ر ب ب",
+      "qac_roots_ar": [
+        "ر ب ب"
+      ],
       "root_id": "root_000532",
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر ب ب",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 970
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "98a9c7f9cc04ee8da3ef4640f8a5f3c29a6558b7830f330813c892eda960d528",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8988,9 +9004,2386 @@
       },
       "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000532.json"
     },
+    "root_000537": {
+      "root_ar": "ر ب ب",
+      "qac_roots_ar": [
+        "ر ب ب"
+      ],
+      "root_id": "root_000537",
+      "root_mapping_role": "non_dominant_split_target",
+      "root_mapping_roles": [
+        "non_dominant_split_target"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ر ب ب",
+          "root_mapping_role": "non_dominant_split_target",
+          "target_rank": 2,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
+      "dictionary_entry": {
+        "inputs_sha256": "23282d4959ac7e3c6af7c468964d2ada65c5a1eba55f8a9494cb13c0be669123",
+        "artifact_format": "dictionary-v2-root-entry-draft-v1",
+        "generated_by": "v2/scripts/accept_root_writer.py",
+        "root_envelope_id": "root_000537",
+        "language": "tr",
+        "branches": [
+          {
+            "branch_ref": "root_000537/B001",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kanıt, bir şeyin önceki durumuna göre nicelikçe artmasını veya düzeyce yükselmesini ortak çekirdek olarak verir. Yaranın, toprağın ve malın artması ile birinin üzerinde bulunma örnekleri bu çekirdeğin farklı gerçekleşmeleridir.",
+              "boundary_note": "Bu dal genel artma ve yükselmeyi kapsar; belirli bir yer biçimini, alışveriş hükmünü veya solunum rahatsızlığını kendi başına tanımlamaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Genel artma ve yükselme çekirdeği ile belirli yapılardaki köpük, şiddet ve birinin üstünde bulunma kullanımları ayrı tutulur."
+            },
+            "concept_map": {
+              "definition": "Bir şeyin miktar, hacim, düzey veya konum bakımından önceki durumunun üstüne çıkmasıdır. Bu yükseliş büyüme, kabarma, şiddetlenme ya da başka bir şeyin üzerinde bulunma biçiminde gerçekleşebilir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir şey nicelikçe artar veya düzeyce yükselir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Toprak ve benzeri şeylerde artış, şişme veya kabarma olarak görünür.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "specialization",
+                  "statement": "Belirli yapılarda köpüğün yukarı çıkmasını veya bir etkinin olağandan güçlü olmasını anlatır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F004",
+                  "role": "extension",
+                  "statement": "Birinin ya da bir şeyin ötekinden daha yukarıda bulunmasına uzanır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kanıtların ortak noktası, artma ile yükselmeyi tek bir yukarı yönlü değişim çekirdeğinde birleştirmeleridir; değişen yalnızca artan şey ve artışın görünüşüdür.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "artmak veya yükselmek",
+              "applicability": "Miktar, hacim, düzey ya da konumun önceki durumun üstüne çıktığı genel kullanımlara uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Hem niceliksel artışı hem de düzey veya konum bakımından yükselmeyi korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "kabarıp çoğalmak",
+                "usage_role": "contextual",
+                "applicability": "Toprağın suyla şişmesi veya hacmi görülebilir biçimde artan bir şey için kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Hacimce artma ve yukarı doğru kabarma görünümünü korur.",
+                  "loses": "Başka artış türlerini ve yalnızca konumsal yükselmeyi kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              },
+              {
+                "text": "üzerine çıkmak",
+                "usage_role": "contextual",
+                "applicability": "Bir şeyin başka bir şeyden daha yüksek bir konuma eriştiği karşılaştırmalı kullanıma uygundur.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Karşılaştırmalı yükseklik ve üstte bulunma ilişkisini korur.",
+                  "loses": "Niceliksel artışı ve kabarma biçimindeki değişimi dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F004"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_001",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir şey arttı veya yükseldi"
+              },
+              {
+                "lexical_unit_id": "lu_002",
+                "rendering_kind": "ordinary",
+                "target_gloss": "toprak suyla kabarıp arttı"
+              },
+              {
+                "lexical_unit_id": "lu_003",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yükselen veya fazla köpük"
+              },
+              {
+                "lexical_unit_id": "lu_004",
+                "rendering_kind": "ordinary",
+                "target_gloss": "olağandan daha şiddetli yakalayış"
+              },
+              {
+                "lexical_unit_id": "lu_005",
+                "rendering_kind": "ordinary",
+                "target_gloss": "onun üzerine çıktı veya üstünde bulundu"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "büyümek",
+                "category": "alternative",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Zaman içinde nicelik veya hacim artışını korur.",
+                  "loses": "Konumsal yükselmeyi, üstün gelmeyi ve şiddetlenmeyi karşılamaz.",
+                  "adds": null,
+                  "collision": null
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000603/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Artış, başka bir miktarı veya sınırı aşma koşulu olmadan da gerçekleşebilir.",
+                "neighbor_only": "Komşu dal değişimi özellikle bir sayı, miktar veya şeyin ötesine geçme olarak kurar.",
+                "gloss": "artmak ile aşarak çoğalmak",
+                "shared_zone": "Her iki dal da niceliğin önceki düzeyin üstüne çıkmasını anlatır.",
+                "distinction": "Odak dalın çekirdeği yalın artış veya yükseliştir; komşu dalda ise bir ölçüyü ya da karşılaştırılan şeyi geçme ilişkisi belirleyicidir."
+              },
+              {
+                "neighbor_ref": "root_000618/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Fiziksel konumun yükselmesi, büyüme veya verimlilik bulunmadan da bu dala girer.",
+                "neighbor_only": "Komşu dal büyüme, ürün verme, bereket ve elde kalan fazlalık alanlarını öne çıkarır.",
+                "gloss": "artış ile büyüyüp ürün verme",
+                "shared_zone": "İki dal da önceki miktarın çoğalması ve bir fazlalık oluşması alanında buluşur.",
+                "distinction": "Odak dal hem artışı hem yüksekliği kapsayan daha genel bir değişimdir; komşu dal artışı büyüme, verim ve artık değer görünümünde özelleştirir."
+              },
+              {
+                "neighbor_ref": "root_000426/B001",
+                "relation_type": "antonym",
+                "boundary_match": "opposed",
+                "focus_only": "Odak dal düzeyin artmasını, yükselmesini veya üstte bulunmayı anlatır.",
+                "neighbor_only": "Komşu dal yüksek bir düzeyden aşağı inmeyi, düşürmeyi veya alçak konumu anlatır.",
+                "gloss": "yükselmek ile alçalmak",
+                "shared_zone": "İki dal aynı dikey veya dereceli değişim ekseninin karşıt yönlerini gösterir.",
+                "distinction": "Odakta hareket ya da değişim yukarı ve artış yönündedir; komşuda aynı eksen aşağı ve azalış yönünde kurulur."
+              },
+              {
+                "neighbor_ref": "root_000537/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal herhangi bir şeydeki artma veya yükselme sürecini ve durumunu anlatır.",
+                "neighbor_only": "Komşu dal yükselmiş bir arazi parçasını adlandıran yerleşik bir yer anlamıdır.",
+                "gloss": "yükselme ile yükselti",
+                "shared_zone": "Her ikisinde de çevresine veya önceki düzeye göre yukarıda olma düşüncesi vardır.",
+                "distinction": "Odak değişimi veya göreli yüksekliği bildirir; komşu ise bu özelliği taşıyan belirli türde bir araziyi adlandırır."
+              },
+              {
+                "neighbor_ref": "root_000537/B003",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Genel artış, herhangi bir alışveriş veya borç ilişkisi olmadan da gerçekleşebilir.",
+                "neighbor_only": "Komşu dal anaparaya eklenen fazlalığı belirli alışveriş ve borç sınırları içinde ele alır.",
+                "gloss": "genel artış ile işlem fazlası",
+                "shared_zone": "İki dalın ortak alanı, başlangıçtaki miktarın üstünde bir fazlalığın ortaya çıkmasıdır.",
+                "distinction": "Odak dal doğal ve genel artışı anlatır; komşu dal aynı artış görüntüsünü işlem, anapara ve hukuki sınırlarla özelleştirir."
+              }
+            ],
+            "neighbor_coverage_note": "On dört adayın tamamı değerlendirildi; en açıklayıcı beş karşıtlık seçildi. Kalan adaylar ya seçilen artış ve yükseklik karşılaştırmalarını yineliyor ya da yalnızca uzak bir ortak konu taşıyordu.",
+            "branch_image_ar": "زيادة وعلو",
+            "what_is_ar": "يدخل فيه ربا الشيء إذا زاد أو ارتفع، وربت الأرض إذا انتفخت وزادت، والرابي الزائد أو العالي، وأربى عليه إذا أشرف أو زاد عليه.",
+            "what_is_not_ar": "ليس هو ربوة الأرض المخصوصة، ولا الربا في البيع، ولا الربو في النفس إلا من جهة صورة التصعد.",
+            "source_phrase_ar": "ربا الجرح والأرض والمال وكل شيء يربو إذا زاد (ayn)؛ ربا الشيء يربو ربوا إذا ارتفع (jamhara)؛ ربا الشيء يربو ربوا أي زاد (sihah;tahdhib)؛ ربت أي زادت، وزبدا رابيا، وأخذة رابية (tahdhib;mufradat)؛ أربى عليه أي أشرف عليه (mufradat)",
+            "sources": [
+              "AY",
+              "JA",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000537/B002",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kanıt, farklı söz biçimlerini çevresindeki araziden yükselen yer anlamında birleştirir. Dalın kimliği genel yükselme eylemi değil, yükselmiş arazi parçasıdır.",
+              "boundary_note": "Bu dal arazi üzerindeki yükseltiyle sınırlıdır; her türlü artışa, mali fazlalığa veya soluk sıkışmasına genişletilmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım doğrudan yükselmiş arazi anlamını verir; başka dallardaki işlem veya yapı bağımlı anlamlar buraya taşınmaz."
+            },
+            "concept_map": {
+              "definition": "Çevresindeki yer yüzeyinden daha yukarıda bulunan arazi parçasıdır. Biçiminin yuvarlak, sarp ya da geniş olması anlamın zorunlu bir parçası değildir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Arazi parçası çevresindeki yerden daha yüksekte bulunur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "source_variant",
+                  "statement": "Aynı yükselmiş arazi anlamı birden çok söz biçimiyle adlandırılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kanıtlar, söz biçimlerindeki değişikliğe rağmen anlamı çevresinden yükselen arazi olarak ortaklaştırır; belirli bir tepe biçimi veya büyüklüğü zorunlu tutulmaz.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "yükselmiş arazi",
+              "applicability": "Çevresindeki yer yüzeyinden daha yüksek olan arazi parçasını genel olarak adlandırır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Arazinin çevresine göre yüksek olmasını biçim veya boyut eklemeden korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "yüksekçe yer",
+                "usage_role": "general",
+                "applicability": "Arazi biçiminin ayrıntısı önemli olmadığında doğal bir genel karşılıktır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Yerin çevresine göre daha yüksek oluşunu yalın biçimde korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_006",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yükselmiş arazi"
+              },
+              {
+                "lexical_unit_id": "lu_007",
+                "rendering_kind": "ordinary",
+                "target_gloss": "çevresinden yüksek yer"
+              },
+              {
+                "lexical_unit_id": "lu_008",
+                "rendering_kind": "ordinary",
+                "target_gloss": "arazideki yükselti"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "tepe",
+                "category": "alternative",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Arazinin çevresine göre yükselmiş olmasını korur.",
+                  "loses": "Ayrı ve belirgin bir tepe oluşturmayan yüksekçe araziyi dışarıda bırakabilir.",
+                  "adds": null,
+                  "collision": null
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000185/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal ayrı bir tepe biçimi veya küçük bir yükselti olma koşulu koymaz.",
+                "neighbor_only": "Komşu dal tepeyi, küçük tümsekleri ve bu tür belirgin arazi biçimlerini öne çıkarır.",
+                "gloss": "yükselmiş arazi ile tepe",
+                "shared_zone": "İki dal da çevresindeki yerden daha yüksek araziyi adlandırır.",
+                "distinction": "Odak dal yüksek araziyi biçimden bağımsız verir; komşu dal belirgin tepe ve küçük yükselti türlerini daha güçlü biçimde çağrıştırır."
+              },
+              {
+                "neighbor_ref": "root_000298/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal kabarıklığın biçimini, sertliğini veya kumdan oluşmasını şart koşmaz.",
+                "neighbor_only": "Komşu dal kamburlaşmış, tümseklenmiş ya da daha sert yükselti türlerini de kapsar.",
+                "gloss": "yüksek yer ile tümsekli yer",
+                "shared_zone": "Her iki dal yer yüzeyinden yukarı çıkan arazi kesimini anlatır.",
+                "distinction": "Odak yalnızca göreli yüksekliği kurar; komşu yükseltinin tümsek, sertlik veya belirgin kabarıklık görünümünü de öne çıkarır."
+              },
+              {
+                "neighbor_ref": "root_000254/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Yükselmiş yerin kaba, sert veya belirli bir bölge türü olması gerekmez.",
+                "neighbor_only": "Komşu dal yükseltiye kalın, sert arazi niteliği ve belirli bir yüksek bölge çağrışımı ekler.",
+                "gloss": "yüksek arazi ile sert yüksek arazi",
+                "shared_zone": "Her iki anlamda da çevresine göre yüksek bir yer parçası vardır.",
+                "distinction": "Odak dal yalın yüksekliği belirtir; komşu dal arazi dokusunu ve bölgesel yer türünü anlam sınırına katar."
+              },
+              {
+                "neighbor_ref": "root_001177/B004",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal yükseltinin yuvarlak olmasını veya küçük bir tümsek oluşturmasını gerektirmez.",
+                "neighbor_only": "Komşu dal çevresinden yükselen parçayı özellikle yuvarlak bir tümsek veya tepe olarak sınırlar.",
+                "gloss": "yükselti ile yuvarlak tümsek",
+                "shared_zone": "İki dal da çevresindeki araziden yukarı çıkan bir yer biçimini gösterir.",
+                "distinction": "Odak biçim ve büyüklük bakımından geneldir; komşu dal yuvarlaklık ve tümsek görünümüyle daha dardır."
+              },
+              {
+                "neighbor_ref": "root_000537/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal yükselmiş bir arazi parçasını kalıcı bir yer türü olarak adlandırır.",
+                "neighbor_only": "Komşu dal yer dışında kalan şeylerde de artma veya yükselme sürecini anlatır.",
+                "gloss": "yükselti ile yükselme",
+                "shared_zone": "İki dal çevresine veya önceki durumuna göre daha yukarıda olma düşüncesini paylaşır.",
+                "distinction": "Odak, yüksekliğin taşıyıcısı olan araziyi adlandırır; komşu, yüksekliğe doğru değişimi ve genel artışı bildirir."
+              }
+            ],
+            "neighbor_coverage_note": "On dört adayın tamamı değerlendirildi; biçim, doku ve süreç sınırlarını en iyi gösteren beş karşılaştırma seçildi. Diğer arazi adayları aynı ayrımları tekrarlıyor, kardeş dalların çoğu ise yalnızca söz biçimi bakımından yakın duruyordu.",
+            "branch_image_ar": "أرض مرتفعة",
+            "what_is_ar": "يدخل فيه الربوة والرابية والرباوة والرباة وما ارتفع من الأرض، مع اختلاف لغات الكلمة.",
+            "what_is_not_ar": "ليس هو مطلق الزيادة في المال أو البيع، ولا الربو الذي هو ضيق النفس.",
+            "source_phrase_ar": "الرابية ما ارتفع من الأرض، والربوة لغات أرض مرتفعة (ayn)؛ الربو والربوة والرباوة واحد وهو العلو من الأرض (jamhara)؛ الرابية الربو وهو ما ارتفع من الأرض، وكذلك الربوة (sihah)؛ الرباوة والرابية والرباة كل ذلك ما ارتفع من الأرض (tahdhib)؛ ربوة وربوة وربوة ورباوة، وسميت الربوة رابية (mufradat)",
+            "sources": [
+              "AY",
+              "JA",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000537/B003",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Kanıt, alışverişte veya borçta anaparayı aşan fazlalığı merkeze alır ve özellikle verilen borçtan daha çoğunun alınmasını belirtir. Bununla birlikte her nicelik artışı bu dala girmez; fazlalığın belirli işlem ve kural sınırları içinde olması gerekir.",
+              "boundary_note": "Dal, belirli işlem biçimlerinde anaparaya eklenen fazlalıkla sınırlıdır; doğal büyüme, sıradan kazanç veya her fiyat farkı bu anlamı taşımaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "İşlem fazlasını adlandıran biçimler ile malın bu yolla artması ve kişinin böyle bir işleme girmesi ayrı gerçekleşmeler olarak korunur."
+            },
+            "concept_map": {
+              "definition": "Bir alışverişte veya borç ilişkisinde anaparanın üstüne eklenen, kapsamı işlemin belirli kuruluş biçimi ve kurallarıyla sınırlı fazlalıktır. Verilen borçtan daha çoğunun alınması belirgin bir gerçekleşmedir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "İşlemde anaparanın üstüne bir fazlalık eklenir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Borç verenin verdiğinden daha çoğunu geri alması belirgin bir gerçekleşmedir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "specialization",
+                  "statement": "Fazlalığın anlamı ve hükmü, alışveriş veya borcun belirli kuruluş biçimine bağlıdır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F004",
+                  "role": "associated_use",
+                  "statement": "Kişinin bu tür fazlalık içeren bir işleme girmesi ayrıca anlatılabilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kanıtlar, anaparayı aşan artışı işlem alanına bağlar; borçta daha çoğunu geri alma örneğini belirginleştirirken kapsamın her artışı değil, özel biçimde kurulan fazlalığı içerdiğini gösterir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "belirli işlem biçimleriyle sınırlı anapara fazlalığı",
+              "applicability": "Alışveriş veya borç ilişkisinde anaparayı aşan ve kapsamı işlemin belirli biçimiyle sınırlı miktar için kullanılır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Fazlalığı, anaparayı ve belirli işlem biçimleriyle sınırlı olmayı birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "borçtan daha çoğunu geri almak",
+                "usage_role": "contextual",
+                "applicability": "Verilen borçtan daha yüksek bir miktarın alındığı bağlama uygundur.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Borçta verilen miktarı aşan geri almayı korur.",
+                  "loses": "Borç dışındaki alışveriş biçimlerinde görülen işlem fazlalığını kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "anapara üstüne eklenen işlem fazlası",
+                "usage_role": "explanatory",
+                "applicability": "İşlem türünün ayrıntısı verilmeden fazlalığın yapısını açıklamak gerektiğinde kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Anapara, eklenen fazlalık ve işlem bağlantısını açıkça korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_009",
+                "rendering_kind": "ordinary",
+                "target_gloss": "belirli alışveriş veya borç biçimlerinde anaparayı aşan fazlalık"
+              },
+              {
+                "lexical_unit_id": "lu_010",
+                "rendering_kind": "ordinary",
+                "target_gloss": "işlemdeki anapara fazlalığının özel adı veya bir söyleyiş biçimi"
+              },
+              {
+                "lexical_unit_id": "lu_011",
+                "rendering_kind": "ordinary",
+                "target_gloss": "mal bu işlemde fazlalıkla arttı"
+              },
+              {
+                "lexical_unit_id": "lu_012",
+                "rendering_kind": "ordinary",
+                "target_gloss": "anaparaya fazlalık eklenen işleme girdi"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "kâr",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Bir işlem sonunda başlangıç miktarını aşan kazanç görüntüsünü kısmen korur.",
+                  "loses": "Anaparaya işlem koşulu olarak eklenen belirli fazlalık yapısını kaybeder.",
+                  "adds": "Üretim veya alışverişten doğan olağan kazanç anlamını ekler.",
+                  "collision": "Sıradan ticari kazançla karışarak dalın işlem ve borç sınırını bozar."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000537/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal fazlalığı alışveriş, borç, anapara ve işlem kuralıyla sınırlar.",
+                "neighbor_only": "Komşu dal işlem bulunmadan gerçekleşen doğal artışı ve fiziksel yükselmeyi de kapsar.",
+                "gloss": "işlem fazlası ile genel artış",
+                "shared_zone": "Her iki dal başlangıçtaki miktarın üstüne çıkan bir artışı içerir.",
+                "distinction": "Odak dalda fazlalığın işlem içindeki kuruluşu anlamın parçasıdır; komşu dalda artış böyle bir ilişkiye bağlı değildir."
+              },
+              {
+                "neighbor_ref": "root_001069/B012",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal anaparayı aşan koşullu fazlalığın kendisini ve bu fazlalığı içeren işlemi anlatır.",
+                "neighbor_only": "Komşu dal vadeli alım ve nakit elde etmeye yönelik belirli satış düzeneklerini anlatır.",
+                "gloss": "koşullu fazlalık ile vadeli satış düzeneği",
+                "shared_zone": "İki dal borç, vadeli alışveriş ve para sağlama alanında karşılaşabilir.",
+                "distinction": "Odak, işlemdeki fazla miktara göre tanımlanır; komşu, nakit sağlamaya yarayan satış biçiminin kuruluşuna göre tanımlanır."
+              },
+              {
+                "neighbor_ref": "root_000737/B005",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal geri ödemede veya alışverişte anaparaya eklenen fazlalığı gerektirir.",
+                "neighbor_only": "Komşu dal bedelin önceden verilmesini veya malın sonradan teslim edildiği avanslı işlemi anlatır.",
+                "gloss": "fazlalıklı işlem ile ön ödemeli işlem",
+                "shared_zone": "Her iki dal alışveriş, borç verme ve ödeme zamanlaması alanında yer alır.",
+                "distinction": "Odakta belirleyici unsur fazla miktardır; komşuda belirleyici unsur ödemenin veya teslimin öne alınmasıdır."
+              },
+              {
+                "neighbor_ref": "root_000092/B004",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal alışverişte anaparanın üstüne eklenen özel fazlalığı belirtir.",
+                "neighbor_only": "Komşu dal mal veya bedellerin karşılıklı değiştirilmesi olarak satışın genel yapısını anlatır.",
+                "gloss": "işlem fazlası ile karşılıklı satış",
+                "shared_zone": "İki dal alışverişte taraflar arasında değer aktarımı bulunması bakımından aynı alandadır.",
+                "distinction": "Odak satışın içindeki fazla miktarla sınırlıdır; komşu herhangi bir böyle fazlalık gerektirmeden karşılıklı değişimi tanımlar."
+              }
+            ],
+            "neighbor_coverage_note": "On dört adayın tamamı değerlendirildi; genel artışla sınırı ve üç farklı işlem türüyle ayrımı gösteren dört aday yayımlandı. Diğerleri borç tahsili, zarar, güvence, adalet veya uzak kardeş anlamlar üzerinden aynı sınırı daha az doğrudan açıklıyordu.",
+            "branch_image_ar": "زيادة الربا في المعاملة",
+            "what_is_ar": "يدخل فيه الربا في البيع أو القرض، والزيادة على رأس المال، والربية لغة أو اسم خاص للربا.",
+            "what_is_not_ar": "ليس كل زيادة حسية أو علو مكاني ربا في المعاملة.",
+            "source_phrase_ar": "ربا المال يربو في الربا أي يزداد، والربا في كتاب الله حرام، والربية هي الربا خاصة (ayn)؛ الربا في البيع، والربية لغة في الربا (sihah)؛ الربا ربوان، فالحرام كل قرض يؤخذ به أكثر منه (tahdhib)؛ الربا الزيادة على رأس المال، لكن خص في الشرع بالزيادة على وجه دون وجه (mufradat)",
+            "sources": [
+              "AY",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000537/B004",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kanıt, insan veya hayvanda yüksek ve zor solumayı ortaklaştırır. Yürüyüş veya koşu sonrasında insanın soluğunun yükselmesi ile atın koşu ya da korku sonucu şişmesi bu çekirdeğin farklı gerçekleşmeleridir. Dal bir arazi yüksekliğini değil, solunumun zorlanmış durumunu anlatır.",
+              "boundary_note": "Bu dal yüksek, hızlı veya tıkanmış soluk durumuyla sınırlıdır; tek başına genel yorgunluğu ya da süreğen bir hastalık tanısını zorunlu kılmaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Soluk sıkışmasını adlandıran biçimler ile kişinin veya hayvanın koşu, yürüyüş ya da korku sonucu bu duruma girmesi ayrı tutulur."
+            },
+            "concept_map": {
+              "definition": "İnsan veya hayvanın yürüyüş ya da koşu gibi bir nedenle soluğunun yükselmesi ve zorlaşmasıdır. Atın koşu veya korku sonucu şişmesi bu solunum durumunun hayvandaki özel bir görünümüdür.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Soluk olağandan yüksek, hızlı ve sıkışık duruma gelir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Durum yürüyüş veya koşu sonrasında insanı ya da hayvanı etkileyebilir; korku sonrası görünüm at için tanıklanır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "example",
+                  "statement": "Atın koşu veya korku sonucu şişmesi zorlanan solumanın özel bir görünümüdür.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kanıtlar yüksek ve zor solumayı ortak çekirdek olarak verir; yürüyüş veya koşu bu durumu tetikleyebilir, şişme görünümü ise atın koşu veya korku sonrasındaki özel gerçekleşmesidir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "soluğu yükselip sıkışmak",
+              "applicability": "İnsan veya hayvanın hareket ya da korku nedeniyle yüksek, hızlı ve zor soluduğu duruma uygundur.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Soluğun hem yükselmesini hem de zorlaşıp sıkışmasını birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "soluk soluğa kalmak",
+                "usage_role": "contextual",
+                "applicability": "Yürüme veya koşma sonrasında soluğun hızlanıp zorlaştığı geçici durum için doğaldır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Hareket sonrasındaki hızlı ve zor soluma durumunu korur.",
+                  "loses": "Korku sonucu oluşan şişme görünümünü ve daha genel soluk tıkanmasını tam karşılamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "nefesi tıkanmak",
+                "usage_role": "contextual",
+                "applicability": "Zorlanmış solunumun yükseklikten çok sıkışma yönünün öne çıktığı bağlamda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Soluğun güçleşmesi ve göğüste sıkışma duygusunu korur.",
+                  "loses": "Soluğun yükselmesi ve bedenin şişer görünmesi ayrıntısını azaltır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_013",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yüksek ve sıkışık soluma"
+              },
+              {
+                "lexical_unit_id": "lu_014",
+                "rendering_kind": "ordinary",
+                "target_gloss": "soluğu sıkıştı"
+              },
+              {
+                "lexical_unit_id": "lu_015",
+                "rendering_kind": "ordinary",
+                "target_gloss": "at koşu ya da ürkme yüzünden şişip soluksuz kaldı"
+              },
+              {
+                "lexical_unit_id": "lu_016",
+                "rendering_kind": "ordinary",
+                "target_gloss": "soluğu yükselip tıkanmış"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "astım",
+                "category": "common_loanword",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Zor ve sıkışık soluma belirtisini kısmen korur.",
+                  "loses": "Koşu, yürüyüş veya korku sonrasında oluşan geçici yüksek soluk durumunu daraltır.",
+                  "adds": "Belirli ve süreğen bir hastalık tanısı çağrışımını ekler.",
+                  "collision": "Geçici soluk zorlanmasını çağdaş hastalık adıyla karıştırabilir."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001558/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal korku sonucu şişme görünümünü ve genel yüksek soluk durumunu da kapsar.",
+                "neighbor_only": "Komşu dal çaba yüzünden soluğun kesilmesini, art arda gelmesini ve başkasını bu duruma sokmayı da kapsar.",
+                "gloss": "soluğu yükselmek ile çabadan soluğu kesilmek",
+                "shared_zone": "İki dal hareket ve çaba sonrasında hızlı, zor ve kesintili solumayı anlatır.",
+                "distinction": "Odak solunum durumunun yükselip şişer görünmesine dayanır; komşu çabaya bağlı kesilme, sürekli soluma ve ettirgen kullanımlarla genişler."
+              },
+              {
+                "neighbor_ref": "root_001380/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal insanın yanında hayvanı ve korkuyla tetiklenen soluk yükselmesini de içerir.",
+                "neighbor_only": "Komşu dal soluma belirtisini özellikle yorgunluk ve bitkinlik durumunun parçası olarak kurar.",
+                "gloss": "soluğu sıkışmak ile yorgunluktan solumak",
+                "shared_zone": "Her ikisi de zorlanma sonrasında kişinin hızlı ve güçlükle solumasını içerir.",
+                "distinction": "Odakta yüksek ve sıkışık soluk başlı başına çekirdektir; komşuda bu soluma daha geniş yorgunluk durumunun belirtisidir."
+              },
+              {
+                "neighbor_ref": "root_000824/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal hareket veya korku sonucu oluşan zorlanmış ve sıkışmış soluğu gerektirir.",
+                "neighbor_only": "Komşu dal sıradan içe soluma, geri çekilen soluk, inleme ve yüksek ses gibi kullanımlara da uzanır.",
+                "gloss": "zor soluma ile içe çekilen yüksek soluk",
+                "shared_zone": "İki dal yüksek, belirgin veya güçlükle çıkan soluk alanında örtüşür.",
+                "distinction": "Odak fizyolojik zorlanma durumudur; komşu soluğun yönünü ve bazı yüksek sesleri de kapsayan daha geniş bir ses-soluk alanıdır."
+              },
+              {
+                "neighbor_ref": "root_001284/B006",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal soluğun yükselip sıkışması durumunu, belirli bir anatomik neden aramadan anlatır.",
+                "neighbor_only": "Komşu dal hayvanda burun deliğinin darlığını ve bunun soluğu tutmasını özel neden olarak verir.",
+                "gloss": "soluk sıkışması ile dar burun deliği",
+                "shared_zone": "Her iki dal özellikle hayvanda havanın rahat geçmemesi ve zor soluma alanında buluşur.",
+                "distinction": "Odak belirtinin kendisidir; komşu ise bu belirtiyi doğuran burun yapısındaki darlıkla tanımlanır."
+              }
+            ],
+            "neighbor_coverage_note": "On dört adayın tamamı değerlendirildi; belirti, yorgunluk, soluk türü ve anatomik neden sınırlarını gösteren dört aday seçildi. Diğer adaylar genel beden durumu, ürperme, yorma veya uzak kardeş anlamlar olarak daha zayıf karşılaştırmalar sundu.",
+            "branch_image_ar": "تصعد النفس وانتفاخه",
+            "what_is_ar": "يدخل فيه الربو بمعنى النفس العالي أو البهر أو الانبهار، وما يصيب الإنسان أو الدابة من علو النفس أو الانتفاخ من مشي أو عدو أو فزع.",
+            "what_is_not_ar": "ليس هو الربوة المرتفعة من الأرض، ولا الربا في المال.",
+            "source_phrase_ar": "ربا فلان أي أصابه نفس في جوفه ودابة بها ربو (ayn)؛ أصابه ربو من مشي أو عدو إذا علت أنفاسه (jamhara)؛ الربو النفس العالي، وربا الفرس إذا انتفخ من عدو أو فزع (sihah)؛ أخذها الربو وهو البهر (tahdhib)؛ الربو الانبهار سمي بذلك تصورا لتصعده (mufradat)",
+            "sources": [
+              "AY",
+              "JA",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000537/B005",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kanıt, çocuk veya ürün gibi büyüyen bir varlığı besleyerek gelişmesini sağlama ile bir topluluk içinde yetişip gelişme yönlerini aynı büyüme sürecinde birleştirir. Ettirgen bakım ile yetişenin kendi gelişimi katılımcı bakımından ayrıdır.",
+              "boundary_note": "Dal, besleme ve yetişme yoluyla gelişmeyi kapsar; yalnızca boyca artma, eğitme veya genel bakım verme anlamına indirgenmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Besleyip büyütme, bunun sonucu gelişme ve bir topluluk içinde yetişme kullanımları katılımcı değişimleri korunarak ayrı gösterilir."
+            },
+            "concept_map": {
+              "definition": "Çocuk ya da ürün gibi büyüyen bir varlığı besleyerek gelişmesini sağlamak veya bu bakımın etkisiyle büyümektir. Kişinin bir topluluğun içinde yetişip gelişmesi de bu sürecin toplumsal yönüdür.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Büyüyen varlık beslenir ve gelişmesi sağlanır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Beslenen çocuk veya ürün bakımın sonucu olarak büyür.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "associated_use",
+                  "statement": "Kişi belirli bir topluluğun içinde yetişip gelişebilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kanıtlar beslemeyi büyümenin nedeni, büyümeyi de bakımın sonucu olarak ilişkilendirir; çocuk ve ürün bu yapının örnekleridir, topluluk içinde yetişme ise katılımcı yönünü değiştirir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "besleyip büyütmek ve yetişmek",
+              "applicability": "Bir varlığın beslenerek geliştirilmesini ve yetişenin bu süreçte büyümesini birlikte anlatan genel karşılıktır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Besleyen kişinin etkisini, büyüyenin gelişimini ve yetişme sonucunu korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "besleyerek büyütmek",
+                "usage_role": "contextual",
+                "applicability": "Çocuk veya ürün gibi büyüyen bir varlığın bakım ve besin yoluyla geliştirildiği bağlama uygundur.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Besleyen öznenin büyümeyi sağlama etkisini ve gelişme sonucunu korur.",
+                  "loses": "Kişinin bir topluluk içinde kendiliğinden yetişmesi yönünü kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "aralarında yetişmek",
+                "usage_role": "contextual",
+                "applicability": "Bir kişinin belirli bir aile veya topluluğun içinde büyüyüp biçimlendiği bağlamda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Topluluk içinde büyüme ve yetişme ilişkisini korur.",
+                  "loses": "Başkasını besleyerek büyütme eylemini ve ürün örneğini dışarıda bırakır.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_017",
+                "rendering_kind": "ordinary",
+                "target_gloss": "onu besleyip büyüttü"
+              },
+              {
+                "lexical_unit_id": "lu_018",
+                "rendering_kind": "ordinary",
+                "target_gloss": "onların arasında yetişti"
+              },
+              {
+                "lexical_unit_id": "lu_019",
+                "rendering_kind": "ordinary",
+                "target_gloss": "çocuğu besleyip büyüttü, çocuk gelişti"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "eğitmek",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Bir başkasının gelişmesine etkin biçimde katkıda bulunmayı kısmen korur.",
+                  "loses": "Besleme, bedensel büyüme, ürünün gelişmesi ve topluluk içinde yetişme yönlerini kaybeder.",
+                  "adds": null,
+                  "collision": "Öğretim ve davranış kazandırma alanına kayarak doğal büyüme çekirdeğini örtebilir."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001465/B006",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal ürünün büyütülmesini ve kişinin bir topluluk içinde yetişmesini de kapsar.",
+                "neighbor_only": "Komşu dal insanın çocukluktan olgunlaşmasına ve bedensel olgunluk belirtilerine özellikle yer verir.",
+                "gloss": "besleyip büyütmek ile çocuğun olgunlaşması",
+                "shared_zone": "İki dal çocuğun bakım görerek büyümesi ve yetişkinliğe doğru gelişmesi alanında örtüşür.",
+                "distinction": "Odak besleme ile büyütme ilişkisini canlı ve ürün için geneller; komşu insan yavrusunun ortaya çıkan olgunluk belirtilerine daha dardır."
+              },
+              {
+                "neighbor_ref": "root_000532/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal beslenme, organik büyüme ve bir topluluk içinde yetişme sonucunu öne çıkarır.",
+                "neighbor_only": "Komşu dal düzeltme, tamamlama, gözetme ve işi aşama aşama iyi duruma getirmeyi de kapsar.",
+                "gloss": "besleyip büyütmek ile gözetip geliştirmek",
+                "shared_zone": "Her iki dal bir çocuk veya başka bir varlıkla ilgilenip gelişmesini sağlama alanında buluşur.",
+                "distinction": "Odakta beslenmeye bağlı büyüme çekirdektir; komşu bakımın yanında düzeltme, tamamlama ve yönetme yönlerini de içerir."
+              },
+              {
+                "neighbor_ref": "root_001502/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal başkasını besleyip büyütmeyi ve ürün gelişimini de içerir.",
+                "neighbor_only": "Komşu dal genç kişinin büyümesini ve belirli bir çevrede yetişmesini yaşam evresi olarak öne çıkarır.",
+                "gloss": "büyütmek ile genç olarak yetişmek",
+                "shared_zone": "İki dal kişinin bir topluluğun içinde büyüyüp gelişmesini anlatabilir.",
+                "distinction": "Odak ettirgen besleme ile yetişenin gelişimini birlikte taşır; komşu genç kişinin büyüme evresine ve çevresine odaklanır."
+              },
+              {
+                "neighbor_ref": "root_000630/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal çocuk ve ürünün beslenmesini aynı büyütme ilişkisi içinde kapsar.",
+                "neighbor_only": "Komşu dal tohum atma, ekili alan ve bitki yetiştirme işlemlerini tarımsal ayrıntılarıyla içerir.",
+                "gloss": "besleyerek büyütmek ile ekin yetiştirmek",
+                "shared_zone": "İki dal bitkinin veya ürünün insan etkisiyle büyüyüp gelişmesi alanında örtüşür.",
+                "distinction": "Odak besleme ve büyüme ilişkisini geneller; komşu bu ilişkiyi ekme, tarla ve ürün yetiştirme eylemleriyle özelleştirir."
+              },
+              {
+                "neighbor_ref": "root_000537/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal büyümenin besleyen bir katılımcı veya yetişilen bir toplulukla ilişkisini kurar.",
+                "neighbor_only": "Komşu dal herhangi bir şeyin kendiliğinden artmasını veya konumca yükselmesini de kapsar.",
+                "gloss": "besleyip büyütmek ile genel olarak artmak",
+                "shared_zone": "Her iki dal canlı veya ürünün önceki durumuna göre büyüyüp çoğalmasını içerebilir.",
+                "distinction": "Odakta besleme, yetiştirme ve toplumsal çevre ilişkisi vardır; komşuda yalın artış bu katılımcılar olmadan da gerçekleşir."
+              }
+            ],
+            "neighbor_coverage_note": "On dört adayın tamamı değerlendirildi; insan yetişmesi, gözetimli gelişme, gençlik, tarımsal büyüme ve genel artış sınırlarını gösteren beş aday seçildi. Kalanlar ebeveynlik, besinin etkisi veya kolay semirme gibi daha dolaylı ilişkilerdi.",
+            "branch_image_ar": "تغذية ونشوء",
+            "what_is_ar": "يدخل فيه ربيت الولد أو تربيته بمعنى غذوته، وربا الولد أو الزرع بالنماء، وربوت أو ربيت في القوم بمعنى نشأت فيهم.",
+            "what_is_not_ar": "ليس هو الربا في البيع، ولا مجرد ارتفاع أرض.",
+            "source_phrase_ar": "ربيته وتربيته أي غذوته (ayn)؛ ربوت في بني فلان وربيت أي نشأت فيهم، وربيته تربية وتربيته أي غذوته، هذا لكل ما ينمي كالولد والزرع (sihah)؛ ربيت الولد فربا من هذا (mufradat)",
+            "sources": [
+              "AY",
+              "SI",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000537/B006",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Kanıtın bir yönü uyluğun gövdeye bağlandığı kök bölgesini, diğer yönü ise iki tarafta içten çıkıntı yapan et parçalarını belirtir. Bu nedenle dal korunabilir, fakat yalnızca çıkıntı diye daraltılmadan bölge ile çift et parçası birlikte gösterilmelidir.",
+              "boundary_note": "Dal kasık ve uyluk kökü anatomisiyle sınırlıdır; bütün uyluğu, baldır kasını veya aynı sesli akrabalık ifadesini kapsamaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım, uyluk kökü bölgesi ile bu bölgenin iki yanındaki içten çıkıntılı et parçalarını doğrudan kapsar."
+            },
+            "concept_map": {
+              "definition": "Uyluğun gövdeye bağlandığı kök bölgesi veya uyluk köklerinin iç yanlarında çıkıntı yapan iki et parçasıdır. Tekil kullanım bölgeyi ya da etli kısmı, ikil kullanım iki iç yandaki parçaları gösterebilir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Anatomik yer uyluğun gövdeye bağlandığı kök ve kasık bölgesidir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "source_variant",
+                  "statement": "Uyluk köklerinin iç yanlarında çıkıntı yapan et parçaları çift olarak adlandırılabilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kanıtlar aynı anatomik alanı biri uyluk kökü, diğeri uyluk köklerinin iç yanlarındaki iki çıkıntılı et parçası üzerinden betimler; bunlar ayrı organlar değil, bölge ile belirgin kısımları arasındaki anlatım farkıdır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "uyluk kökü ve iç yanlardaki iki çıkıntılı et parçası",
+              "applicability": "Hem uyluk kökü bölgesini hem de uyluk köklerinin iç yanındaki iki belirgin et parçasını kapsayan açıklayıcı karşılıktır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Anatomik bölgeyi, uylukla ilişkisini ve iç yanlardaki iki çıkıntılı et parçasını birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "kasık",
+                "usage_role": "general",
+                "applicability": "Uyluğun gövdeye bağlandığı bölgenin genel adı gerektiğinde kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Uyluk kökü ile gövdenin birleştiği anatomik bölgeyi korur.",
+                  "loses": "İki yandaki çıkıntılı et parçalarının çift olarak belirtilmesini görünmez kılar.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "uyluk köklerinin iç yanlarındaki iki et çıkıntısı",
+                "usage_role": "explanatory",
+                "applicability": "İkili biçimin uyluk köklerinin iç yanlarındaki belirgin et parçalarını anlattığı bağlamda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "İki taraflılığı, uyluk köklerinin iç yanındaki konumu ve çıkıntılı et yapısını korur.",
+                  "loses": "Tekil kullanımın genel kasık bölgesini gösterebilmesini kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_020",
+                "rendering_kind": "ordinary",
+                "target_gloss": "uyluk kökü veya kasık eti"
+              },
+              {
+                "lexical_unit_id": "lu_021",
+                "rendering_kind": "ordinary",
+                "target_gloss": "uyluk köklerinin iç yanlarındaki iki çıkıntılı et parçası"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "uyluk",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Anatomik yerin üst bacakla bağlantısını kısmen korur.",
+                  "loses": "Kök bölgesini ve iki yandaki çıkıntılı et parçalarını ayırt etmez.",
+                  "adds": "Diz ile kalça arasındaki bütün üst bacak bölümünü anlama katar.",
+                  "collision": "Bölgesel kasık anlamını bütün uzuvla karıştırır."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000589/B006",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal uyluk kökünü ve iki iç yanındaki belirgin et parçalarını birlikte tanımlar.",
+                "neighbor_only": "Komşu dal kasık kemiği çevresini, cinsel bölge etini ve bazı kullanımlarda kadın cinsel organına örtülü göndermeyi kapsar.",
+                "gloss": "uyluk kökü ile cinsel bölge çevresi",
+                "shared_zone": "İki dal gövdenin alt kısmıyla uylukların birleştiği kasık çevresini adlandırır.",
+                "distinction": "Odak uyluk kökü ve iki et çıkıntısıyla sınırlıdır; komşu cinsel bölgeyi ve örtülü adlandırmaları da içeren daha geniş bir anatomik alana uzanır."
+              },
+              {
+                "neighbor_ref": "root_001193/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal her iki uyluk kökündeki kasık bölgesini ve çıkıntılı et parçalarını anlatır.",
+                "neighbor_only": "Komşu dal kalça oyuğu üzerindeki belirli bir et parçasını veya uyluktaki bir damarı anlatır.",
+                "gloss": "kasık eti ile kalça-uyluk dokusu",
+                "shared_zone": "Her iki dal kalça ile uyluk çevresindeki sınırlı bir anatomik dokuyu adlandırır.",
+                "distinction": "Odak gövde-uyluk birleşimindedir ve çift olabilir; komşu kalça üzerindeki et ya da uyluktaki damar olarak başka bir yapıya yönelir."
+              },
+              {
+                "neighbor_ref": "root_000358/B009",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal üst bacağın gövdeye bağlandığı kasık bölgesindeki eti gösterir.",
+                "neighbor_only": "Komşu dal alt bacağın içindeki veya yanındaki belirgin baldır kasını gösterir.",
+                "gloss": "kasık eti ile baldır kası",
+                "shared_zone": "İki dal bacak çevresindeki belirgin et veya kas yapılarını adlandırır.",
+                "distinction": "Odak uyluk kökü ve kasıktadır; komşu dizin altındaki baldır bölgesinde yer alan farklı bir kas parçasıdır."
+              }
+            ],
+            "neighbor_coverage_note": "On dört adayın tamamı değerlendirildi; kasık çevresi, yakın uyluk dokusu ve baldır kasıyla sınırı gösteren üç aday seçildi. Kalanlar genel temel düşüncesi, başka beden biçimleri veya yalnızca aynı söz biçimini taşıyan ilgisiz kardeş anlamlardı.",
+            "branch_image_ar": "نتوء أصل الفخذ",
+            "what_is_ar": "يدخل فيه الأربية أو الأربيتان بمعنى أصل الفخذ أو لحمتين ناتئتين في أصول الفخذين من باطن.",
+            "what_is_not_ar": "ليس هو أربية القوم بمعنى أهل البيت، ولا الربا في المعاملة.",
+            "source_phrase_ar": "الأربية أصل الفخذ، وهما أربيتان (sihah)؛ الأربيتان لحمتان ناتئتان في أصول الفخذين من باطن (mufradat)",
+            "sources": [
+              "SI",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000537/B007",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kanıt, yalnızca belirli bir gelme ifadesi içinde kişinin kendi topluluğundaki hane halkı arasına, özellikle baba tarafından kuzenler ve benzeri yakınlar arasına gelmesini belirtir. Başka bir topluluk veya genel akrabalık adı bu yapının yerini tutmaz.",
+              "boundary_note": "Anlam belirli gelme ifadesine ve baba tarafından yakın hane halkına bağlıdır; bağımsız bir aile, kabile veya bütün akrabalar adı değildir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "collocation",
+              "note": "Tanım yalnızca kişinin kendi topluluğundaki baba tarafından yakın hane halkı arasına gelmesini bildiren sabit yapıya bağlanır."
+            },
+            "concept_map": {
+              "definition": "Belirli bir gelme ifadesi içinde, kişinin kendi topluluğundaki hane halkı arasına, özellikle baba tarafından kuzenleri ve benzeri yakınları arasına gelmesidir. Anlam bu yakınlık çevresi ve söz yapısı dışında genelleştirilemez.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kişi kendi topluluğundaki yakın hane halkının arasına gelir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Yakınlık çevresi özellikle baba tarafından kuzenler ve onlara benzer yakınlardan oluşur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "specialization",
+                  "statement": "Anlam, başka kişilere uygulanmayan belirli bir gelme yapısıyla sınırlıdır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Ortaklaştırılacak ikinci bir tanıklık yoktur; anlam, tek tanıklığın verdiği hane halkı, baba tarafı yakınlığı ve belirli gelme yapısı sınırlarıyla korunur.",
+              "common_claim_ids": [],
+              "source_details": [
+                {
+                  "claim_ids": [
+                    "bc_001"
+                  ],
+                  "kind": "sole_attestation",
+                  "summary": "Tek tanıklık, ifadeyi kişinin kendi topluluğundaki baba tarafından yakın hane halkına bağlar ve yabancılara genişletilmesini açıkça engeller."
+                }
+              ],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "baba tarafından yakın hane halkının arasına gelmek",
+              "applicability": "Kişinin kendi topluluğunda özellikle baba tarafından kuzenleri ve benzeri yakınları arasına gelişi için kullanılır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Gelme eylemini, hane halkını ve baba tarafından yakınlık sınırını birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "baba soyu yakınlarının yanına gelmek",
+                "usage_role": "contextual",
+                "applicability": "Hane halkı içinde baba tarafından kuzenlerin ve benzeri yakınların öne çıktığı anlatımda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Baba tarafı yakınlık çevresini ve onların yanına gelme eylemini korur.",
+                  "loses": "Hane halkı niteliğini ve yapının başka kişilere uygulanmama kısıtını daha az açık verir.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_022",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kendi topluluğundaki baba tarafından yakın hane halkının arasına geldi"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "aile",
+                "category": "alternative",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Kişinin yakın hane halkıyla ilişkisini genel düzeyde korur.",
+                  "loses": "Gelme yapısını ve baba tarafından kuzenler sınırını belirtmez.",
+                  "adds": "Anne tarafı dahil bütün yakınları ve farklı aile ilişkilerini kapsama ekler.",
+                  "collision": "Sabit ifadenin dar yakınlık çevresini genel aile adıyla karıştırır."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000166/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal belirli gelme yapısını ve baba tarafından kuzenler gibi yakınları gerektirir.",
+                "neighbor_only": "Komşu dal ev halkını, bakmakla yükümlü olunan kişileri ve eve bağlanan daha geniş topluluğu adlandırır.",
+                "gloss": "baba tarafı hane halkı ile genel ev halkı",
+                "shared_zone": "İki dal kişinin aynı eve veya yakın aile çevresine bağlı insanlarını gösterebilir.",
+                "distinction": "Odak, gelme eylemi içinde baba tarafı yakınlarına daralır; komşu, böyle bir yapı ve soy yönü olmadan bütün ev halkını kapsar."
+              },
+              {
+                "neighbor_ref": "root_000030/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal hane içindeki baba tarafı kuzenleri ve belirli gelme eylemini öne çıkarır.",
+                "neighbor_only": "Komşu dal kişinin güç aldığı aile, yakın topluluk veya daha geniş akraba kümesini adlandırır.",
+                "gloss": "yakın hane halkı ile destek veren aile çevresi",
+                "shared_zone": "İki dal kişinin bağlı olduğu yakın akraba ve aile topluluğu alanında örtüşür.",
+                "distinction": "Odak yapı bağımlı ve baba tarafına dar bir kullanımdır; komşu, kişiye dayanak olan akraba topluluğunu daha geniş ve bağımsız biçimde adlandırır."
+              },
+              {
+                "neighbor_ref": "root_001159/B009",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal kişinin hane halkı arasına gelmesini ve baba tarafı kuzenleri özellikle belirtir.",
+                "neighbor_only": "Komşu dal kişinin topluluğu içindeki en yakın alt akraba kolunu bağımsız bir grup adı olarak verir.",
+                "gloss": "hane halkına gelmek ile yakın soy kolu",
+                "shared_zone": "Her iki dal kişinin kendi topluluğu içindeki yakın baba soyu akrabalarını gösterebilir.",
+                "distinction": "Odak bir gelme ifadesinin yakınlık çevresidir; komşu, eylemden bağımsız olarak akraba topluluğunun alt kolunu adlandırır."
+              },
+              {
+                "neighbor_ref": "root_001423/B005",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal hane halkı, baba tarafı ve belirli gelme yapısı sınırlarını birlikte taşır.",
+                "neighbor_only": "Komşu dal yakın kan bağını soy yönü, hane veya belirli bir eylem şartı koymadan anlatır.",
+                "gloss": "baba tarafı hane çevresi ile yakın akrabalık",
+                "shared_zone": "İki dal kişinin yakın kan bağı bulunan akrabalarıyla ilişkisini içerir.",
+                "distinction": "Odak somut bir yakınlar çevresine gelişi anlatır; komşu ise bu çevreyi oluşturan yakınlık derecesini soyut olarak belirtir."
+              },
+              {
+                "neighbor_ref": "root_001010/B008",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal baba tarafından yakın hane halkı arasına gelme yapısıyla sınırlıdır.",
+                "neighbor_only": "Komşu dal aileyi ve kabileyi daha geniş, bağımsız bir topluluk adı olarak kapsar.",
+                "gloss": "yakın hane çevresi ile aile-kabile",
+                "shared_zone": "İki dal kişinin soy ve aile bağıyla bağlı olduğu topluluğu gösterebilir.",
+                "distinction": "Odak dar ve yapı bağımlı bir yakınlık çevresidir; komşu küçük aileden kabileye uzanan daha geniş bir grup adıdır."
+              }
+            ],
+            "neighbor_coverage_note": "On dört adayın tamamı değerlendirildi; ev halkı, destek veren aile, yakın soy kolu, yakın akrabalık ve geniş aile-kabile sınırlarını gösteren beş aday seçildi. Kalanlar kabile adı, genel akrabalık veya ilgisiz kardeş anlamlarıydı.",
+            "branch_image_ar": "أهل البيت من بني الأعمام",
+            "what_is_ar": "يدخل فيه قولهم جاء في أربية قومه أي في أهل بيته من بني الأعمام ونحوهم.",
+            "what_is_not_ar": "ليس هو الأربية بمعنى أصل الفخذ، ولا مطلق القوم أو العشيرة من غير هذا التعبير.",
+            "source_phrase_ar": "جاء فلان في أربية قومه، أي في أهل بيته من بني الأعمام ونحوهم، ولا تكون الأربية من غيرهم (sihah)",
+            "sources": [
+              "SI"
+            ],
+            "source_note": {
+              "SI": "Tek tanıklık, ifadeyi kişinin kendi topluluğundaki baba tarafından yakın hane halkına bağlar ve yabancılara genişletilmesini açıkça engeller."
+            }
+          }
+        ],
+        "root_profile": {
+          "summary": "Kökün merkezinde artma ve yükselme bulunur; bu çekirdek yükselmiş araziye, işlemde anaparayı aşan koşullu fazlalığa, yükselip sıkışan soluğa ve beslenerek büyümeye uzanır. Ayrıca uyluk kökü anatomisi ile baba tarafından yakın hane halkını anlatan dar bir ifade, merkezden ayrı sözlüksel dallar oluşturur.",
+          "polysemy": "polysemic",
+          "organization": "mixed"
+        },
+        "occurrence_evidence": {
+          "summary": {
+            "morpheme_count": 20,
+            "word_count": 20,
+            "ayah_count": 15,
+            "surah_count": 12
+          },
+          "forms": [
+            {
+              "form_id": "F001",
+              "lemma_ar": "رَبْوَة",
+              "stem_ar": "رَبْوَةٍ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:rabowap|ROOT:rbw|F|INDEF|GEN",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F002",
+              "lemma_ar": "رِّبَوٰا",
+              "stem_ar": "رِّبَوٰا۟",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:r~ibaw`A|ROOT:rbw|M|ACC",
+              "occurrence_count": 3
+            },
+            {
+              "form_id": "F003",
+              "lemma_ar": "رِّبَوٰا",
+              "stem_ar": "رِّبَوٰا۟",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:r~ibaw`A|ROOT:rbw|M|GEN",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F004",
+              "lemma_ar": "أَرْبَىٰ",
+              "stem_ar": "يُرْبِى",
+              "pos": "V",
+              "measure": "IV",
+              "morph_features": "STEM|POS:V|IMPF|(IV)|LEM:>arobaY`|ROOT:rbw|3MS",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F005",
+              "lemma_ar": "رِّبَوٰا",
+              "stem_ar": "رِّبَوٰٓا۟",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:r~ibaw`A|ROOT:rbw|M|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F006",
+              "lemma_ar": "رِّبَوٰا",
+              "stem_ar": "رِّبَوٰٓا۟",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:r~ibaw`A|ROOT:rbw|M|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F007",
+              "lemma_ar": "رَّابِي",
+              "stem_ar": "رَّابِيًا",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|ACT|PCPL|LEM:r~aAbiy|ROOT:rbw|M|INDEF|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F008",
+              "lemma_ar": "أَرْبَىٰ",
+              "stem_ar": "أَرْبَىٰ",
+              "pos": "V",
+              "measure": "IV",
+              "morph_features": "STEM|POS:V|PERF|(IV)|LEM:>arobaY`|ROOT:rbw|3MS",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F009",
+              "lemma_ar": "رَبَّيَ",
+              "stem_ar": "رَبَّيَ",
+              "pos": "V",
+              "measure": "II",
+              "morph_features": "STEM|POS:V|PERF|(II)|LEM:rab~aya|ROOT:rbw|3MD",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F010",
+              "lemma_ar": "رَبَتْ",
+              "stem_ar": "رَبَتْ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|PERF|LEM:rabato|ROOT:rbw|3FS",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F011",
+              "lemma_ar": "رَبَّيَ",
+              "stem_ar": "نُرَبِّ",
+              "pos": "V",
+              "measure": "II",
+              "morph_features": "STEM|POS:V|IMPF|(II)|LEM:rab~aya|ROOT:rbw|1P|MOOD:JUS",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F012",
+              "lemma_ar": "رِّب",
+              "stem_ar": "رِّبًا",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:r~ib|ROOT:rbw|M|INDEF|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F013",
+              "lemma_ar": "رَبَتْ",
+              "stem_ar": "يَرْبُوَا۟",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:rabato|ROOT:rbw|3MS|MOOD:SUBJ",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F014",
+              "lemma_ar": "رَبَتْ",
+              "stem_ar": "يَرْبُوا۟",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:rabato|ROOT:rbw|3MS",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F015",
+              "lemma_ar": "رَّابِيَة",
+              "stem_ar": "رَّابِيَةً",
+              "pos": "ADJ",
+              "measure": "",
+              "morph_features": "STEM|POS:ADJ|ACT|PCPL|LEM:r~aAbiyap|ROOT:rbw|F|INDEF|ACC",
+              "occurrence_count": 1
+            }
+          ]
+        }
+      },
+      "dictionary_source_file": "quran-data/data/dictionary/tr/root_000537_entry.json",
+      "gloss": {
+        "format": "dictionary-v2-gloss-result-v2",
+        "generated_by": "v2/gloss_generation/workflow.py",
+        "status": "reviewed",
+        "root_envelope_id": "root_000537",
+        "source_language": "tr",
+        "target_language": "tr",
+        "source_entry_status": "reviewed",
+        "writer_mode": "initial",
+        "inputs_sha256": "f8e14e00d20c592b5bd71c5bb7327f75209ff87f4abefa8eed1be3e03bd227cb",
+        "review_inputs_sha256": "04ec4b7186b30cc0b029e67bfacb23e0408a66d70c3a4b769718d53aacfe3888",
+        "source_entry": {
+          "path": "v2/work/entry_creation/root_000537/tr/output/root_000537_entry.json",
+          "sha256": "842f2d6b28847e45bd1d2d26a689ac08cb6b805d8fb1d2bbef5a79ca0a0473b5",
+          "entry_id": "root_000537/tr",
+          "status": "reviewed",
+          "review_verdict": "pass",
+          "validation_status": "clean",
+          "validation_warnings": []
+        },
+        "source_packet": {
+          "path": "data/output/root_packets/root_000537.json",
+          "sha256": "b190f4fc9a8b22446d94b5b563a6839d3c9c800b8a6c9f060bdfc79c2f99cb74"
+        },
+        "writer_task": {
+          "path": "v2/gloss_generation/work/root_000537/tr/input/task.json",
+          "sha256": "60d74fb085f960632f00119de9970f6b7f1c172573530cd0b404485eb53f7d46"
+        },
+        "review_task": {
+          "path": "v2/gloss_generation/work/root_000537/tr/review/input/task.json",
+          "sha256": "fc5a29aa843dda2643c6fe72abdba1a405768bca0dc786cec3e7e01d0bd0a799"
+        },
+        "review_response": {
+          "path": "v2/gloss_generation/work/root_000537/tr/review/output/review.json",
+          "sha256": "3196eb3583f482f5798213b36f5f53dd8841d1c577182e0ddba5ab834b12def0"
+        },
+        "branches": [
+          {
+            "branch_ref": "root_000537/B001",
+            "concept_gloss": {
+              "text": "artma, kabarma veya yükselme",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003",
+                "F004"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "miktarca artmak veya düzeyce yükselmek",
+                "facet_ids": [
+                  "F001",
+                  "F004"
+                ],
+                "lexical_unit_ids": [
+                  "lu_001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Toprakta kabarma ve özel şiddetlenme kullanımları bu bağlamda görünmez.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "toprağın suyla kabarıp çoğalması",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Köpük, şiddet ve bir şeyin üstünde bulunma kullanımları dışarıda kalır.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "yukarı çıkan köpük veya olağanı aşan şiddet",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_003",
+                  "lu_004"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Toprak kabarması ve göreli üstte bulunma anlamları bu bağlamda aktarılmaz.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "birinin üzerine çıkmak veya üstünde bulunmak",
+                "facet_ids": [
+                  "F004"
+                ],
+                "lexical_unit_ids": [
+                  "lu_005"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": "yükselmiş arazi anlamıyla karışabilir",
+                  "reason": "Genel artış ve kabarma yerine yalnızca göreli üstün konum verilir.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_001": {
+                "text": "arttı veya yükseldi",
+                "facet_ids": [
+                  "F001",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Toprak kabarması, köpük ve şiddetlenme örnekleri bu kısa fiilde açık değildir.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_002": {
+                "text": "toprak suyla kabardı",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Köpük, şiddet ve üstte bulunma kullanımları bu arazi bağlamına girmez.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_003": {
+                "text": "yükselen köpük",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Toprak kabarması ve başka birinin üstünde bulunma anlamları aktarılmaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_004": {
+                "text": "çok şiddetli yakalayış",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Kabarma ve konumca üstte bulunma değil, derecenin artması öne çıkar.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_005": {
+                "text": "üzerine çıktı",
+                "facet_ids": [
+                  "F004"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": "salt yüksek arazi adlandırmasıyla karışabilir",
+                  "reason": "Genel artma ve kabarma alanı yerine yalnızca üst konuma geçme verilir.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000537/B002",
+            "concept_gloss": {
+              "text": "çevresinden yüksek arazi",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "yüksek yer veya arazi yükseltisi",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_006",
+                  "lu_007",
+                  "lu_008"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_006": {
+                "text": "yüksek arazi",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_007": {
+                "text": "çevresinden yüksek yer",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_008": {
+                "text": "arazi yükseltisi",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000537/B003",
+            "concept_gloss": {
+              "text": "borç veya alışverişte anapara fazlası",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "narrowing",
+                "loses_facet_ids": [
+                  "F004"
+                ],
+                "adds": null,
+                "collision": "genel artış anlamıyla karışabilir",
+                "reason": "Kişinin bu tür işleme girmesi değil, işlemdeki fazla miktar adlandırılır.",
+                "loses_core_concept": true
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "anaparayı aşan işlem fazlası",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_009",
+                  "lu_010"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": "faiz terimi modern kurumsal anlamlara çekebilir",
+                  "reason": "Borçtan fazlasını geri alma ve böyle işleme girme yönleri açık değildir.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "malın işlem fazlasıyla artması",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_011"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": "genel mal artışıyla karışabilir",
+                  "reason": "Borçtan fazlasını geri alma ve işleme girme yönleri bağlam dışı kalır.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "anapara fazlalığı içeren işleme girmek",
+                "facet_ids": [
+                  "F001",
+                  "F003",
+                  "F004"
+                ],
+                "lexical_unit_ids": [
+                  "lu_012"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Borç verenin verdiğinden fazlasını alması özellikle belirtilmez.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_009": {
+                "text": "anapara fazlası",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": "genel fazla miktar anlamıyla karışabilir",
+                  "reason": "Borçtan fazlasını geri alma ve işleme girme yönleri bu kısa adta görünmez.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_010": {
+                "text": "işlem fazlası adı",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Borç ilişkisindeki fazla geri alma ve işleme girme kullanımı açık değildir.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_011": {
+                "text": "mal işlem fazlasıyla arttı",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": "genel mal artışıyla karışabilir",
+                  "reason": "Borçtan fazlasını geri alma ve failin işleme girmesi belirtilmez.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_012": {
+                "text": "anapara fazlalıklı işleme girdi",
+                "facet_ids": [
+                  "F001",
+                  "F003",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Verdiğinden fazlasını geri alma özel durumu ayrı söylenmez.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000537/B004",
+            "concept_gloss": {
+              "text": "zorlanmış soluk sıkışması",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "yürüyüş veya koşudan sonra soluğun sıkışması",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_013",
+                  "lu_014"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Atın koşu veya korkuyla şişmesi örneği bu insan odaklı bağlamda görünmez.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "atın koşu veya ürkmeden şişip soluksuz kalması",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_015"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "soluğu yükselip tıkanmış durumda olmak",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_016"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "At örneği ve şişme görünümü doğrudan belirtilmez.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_013": {
+                "text": "sıkışık soluma",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": "modern astım hastalığı anlamına kayabilir",
+                  "reason": "Hareket veya korku nedeni ve at örneği bu kısa adta yer almaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_014": {
+                "text": "soluğu sıkıştı",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Atın koşu veya korkuyla şişmesi örneği aktarılmaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_015": {
+                "text": "at koşu ya da ürkmeden şişip soluksuz kaldı",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_016": {
+                "text": "soluğu yükselip tıkanmış",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Atın şişmesi özel örnek olarak belirtilmez.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000537/B005",
+            "concept_gloss": {
+              "text": "besleyip yetiştirme ve gelişme",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "çocuk veya ürünü besleyip büyütmek",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_017",
+                  "lu_019"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bir topluluk içinde yetişme kullanımı bu ettirgen bakım bağlamında yoktur.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "bir topluluk içinde yetişmek",
+                "facet_ids": [
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_018"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": "genel yetişme anlamıyla karışabilir",
+                  "reason": "Besleyenin varlığı ve ürün veya çocuğun bakım sonucu büyümesi belirtilmez.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_017": {
+                "text": "besleyip büyüttü",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bir topluluk içinde yetişme kullanımı bu fiilde bulunmaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_018": {
+                "text": "onların arasında yetişti",
+                "facet_ids": [
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": "genel sosyal yetişme anlamıyla karışabilir",
+                  "reason": "Besleyip büyütme ve bakım sonucu gelişme yönleri bu bağlamda aktarılmaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_019": {
+                "text": "çocuğu besleyip büyüttü, çocuk gelişti",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Topluluk içinde yetişme kullanımı ayrıca belirtilmez.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000537/B006",
+            "concept_gloss": {
+              "text": "uyluk kökü veya kasık eti",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "uyluğun gövdeye bağlandığı kasık bölgesi",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_020"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": "daha geniş cinsel bölge adlarıyla karışabilir",
+                  "reason": "İki iç yandaki çıkıntılı et parçası ayrıca belirtilmez.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "uyluk köklerinin içindeki iki çıkıntılı et parçası",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_021"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_020": {
+                "text": "uyluk kökü veya kasık eti",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_021": {
+                "text": "uyluk köklerindeki iki çıkıntılı iç et",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000537/B007",
+            "concept_gloss": {
+              "text": "baba tarafı yakınların arasına gelme",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "kendi hane yakınlarının, özellikle baba tarafı kuzenlerinin arasına gelmek",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_022"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_022": {
+                "text": "baba tarafı hane yakınlarının arasına geldi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000537.json"
+    },
     "root_000387": {
       "root_ar": "خ ب ر",
+      "qac_roots_ar": [
+        "خ ب ر"
+      ],
       "root_id": "root_000387",
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "خ ب ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 52
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "5cfec43ffc22468dcb2e0c45911a7b8a3525e223d9f118228310cd06d18a4459",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -11304,42 +13697,149 @@
       "per_root": {
         "ر ب ب": {
           "root_id": "root_000532",
-          "dictionary_present": true,
-          "gloss_present": true,
-          "occurrence_evidence_trimmed": {
-            "dropped_keys": [
-              "ayahs",
-              "occurrences"
-            ],
-            "dropped_row_counts": {
-              "occurrences": 980,
-              "ayahs": 871
-            },
-            "kept_keys": [
-              "forms",
-              "summary"
+          "root_ids": [
+            "root_000532",
+            "root_000537"
+          ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ر ب ب",
+            "mapping_status": "split",
+            "primary_root_id": "root_000532",
+            "targets": [
+              {
+                "qac_root_norm": "ر ب ب",
+                "target_rank": 1,
+                "furuq_root_id": "root_000532",
+                "furuq_root_norm": "ر ب ب",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 970,
+                "is_dominant": 1
+              },
+              {
+                "qac_root_norm": "ر ب ب",
+                "target_rank": 2,
+                "furuq_root_id": "root_000537",
+                "furuq_root_norm": "ر ب و",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 0
+              }
             ]
           },
+          "dictionary_present": true,
+          "gloss_present": true,
+          "targets": [
+            {
+              "root_id": "root_000532",
+              "target_rank": 1,
+              "is_dominant": true,
+              "furuq_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 970,
+              "dictionary_present": true,
+              "gloss_present": true,
+              "dictionary_branch_count": 17,
+              "gloss_branch_count": 17,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 980,
+                  "ayahs": 871
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            },
+            {
+              "root_id": "root_000537",
+              "target_rank": 2,
+              "is_dominant": false,
+              "furuq_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
+              "dictionary_present": true,
+              "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 20,
+                  "ayahs": 15
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          ],
           "note": null
         },
         "خ ب ر": {
           "root_id": "root_000387",
-          "dictionary_present": true,
-          "gloss_present": true,
-          "occurrence_evidence_trimmed": {
-            "dropped_keys": [
-              "ayahs",
-              "occurrences"
-            ],
-            "dropped_row_counts": {
-              "occurrences": 52,
-              "ayahs": 52
-            },
-            "kept_keys": [
-              "forms",
-              "summary"
+          "root_ids": [
+            "root_000387"
+          ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "خ ب ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000387",
+            "targets": [
+              {
+                "qac_root_norm": "خ ب ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000387",
+                "furuq_root_norm": "خ ب ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 52,
+                "is_dominant": 1
+              }
             ]
           },
+          "dictionary_present": true,
+          "gloss_present": true,
+          "targets": [
+            {
+              "root_id": "root_000387",
+              "target_rank": 1,
+              "is_dominant": true,
+              "furuq_root_norm": "خ ب ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 52,
+              "dictionary_present": true,
+              "gloss_present": true,
+              "dictionary_branch_count": 6,
+              "gloss_branch_count": 6,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 52,
+                  "ayahs": 52
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          ],
           "note": null
         }
       },
@@ -11349,7 +13849,20 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
+      },
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 30,
+        "dictionary_branches_kept": 30,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 30,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 1
       },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }

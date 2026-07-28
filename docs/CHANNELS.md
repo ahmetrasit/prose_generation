@@ -1,36 +1,55 @@
 # Channels
 
-A **channel** is a coherent image that runs across a surah, assembled from
-branches that the primary reading does not select.
+A **channel** is a coherent secondary image or system that runs across a surah,
+assembled substantially from branches the primary reading does not select.
 
 Channels are the main vehicle for the surprise this project exists to deliver,
 and they are also the main disorientation risk. This document defines what a
-channel is, when it may be spoken, and how layers 2 and 3 divide it between
-them.
+channel is, when it may be spoken, and how layers 2, 3, and 2.5 divide the work.
 
-Status: specification, 2026-07-27. The maturity model is new and has not yet been
+Status: specification, 2026-07-28. The maturity model is new and has not yet been
 validated against a completed surah.
 
 ---
 
 ## 1. What a channel is
 
-Membership requires all four:
+Ayah commentary also carries **local surprise readings**: secondary resonances
+that shift or deepen one ayah without necessarily recurring across the surah.
+They are valuable, and they are not channels merely because they are surprising.
+The distinction is recurrence and system:
+
+- a local surprise makes this ayah newly legible;
+- a channel makes both participating ayahs and the assembled surah newly
+  legible through one recurring image.
+
+Channel membership requires:
 
 1. **Lexical anchor.** Each member is a specific branch of a specific root at a
-   specific `qacMorphemeRef`. A channel is never an impression about a surah; it
-   is a set of citable branch activations.
-2. **Non-primary.** Members are branches layer 1 did *not* select. A channel
-   assembled from primary branches is a paraphrase of the translation.
-3. **Coherence.** The members form one system, not one topic. Rain, water
-   collection, grass, a well, and a pulley for drawing water are a system: they
-   describe a working irrigation. Five words that all mention water are a topic.
-4. **Explanatory yield.** The channel makes something legible that was not
-   legible before — an unattached ayah attaches, a flat word becomes loaded, a
-   closing turn becomes necessary rather than decorative.
+   specific `qacMorphemeRef`.
+2. **Non-primary contribution.** The system depends substantially on branches
+   layer 1 did not select. Primary members may support it, but a system made only
+   from primary branches is a paraphrase of the translation.
+3. **Cross-ayah recurrence.** The image has members in more than one ayah. One
+   dense local synthesis remains an ayah reading.
+4. **Coherence.** The members explain one another rather than merely sharing a
+   topic. Rain, water collection, grass, a well, and a pulley form a working
+   irrigation system. Five unrelated words that mention water form a topic.
+5. **Explanatory yield.** The channel changes the reading of its focus ayahs and
+   the whole surah: an unattached opening attaches, a flat sequence becomes one
+   scene, or a closing turn becomes structurally necessary.
 
-A set that satisfies 1–3 and fails 4 is a **motif**. Motifs are recorded and not
-rendered.
+A coherent cluster without distinct yield is a **motif**. Motifs are recorded
+and not rendered as channels.
+
+Every accepted channel records how it relates to the primary reading at two
+levels:
+
+- **focus-ayah effect** — what the image makes newly visible in each member ayah;
+- **whole-surah effect** — what changes in the assembled reading.
+
+Both may be `supports-primary` or `shifts-primary`. These are relations, not
+confidence grades. The primary remains recoverable in either case.
 
 ### The Fātiḥa water channel
 
@@ -84,10 +103,13 @@ over the reading order, not over the evidence.
 Two rules follow:
 
 - **Availability is not permission.** That a branch is in the bundle at 1:1 does
-  not license mentioning the channel at 1:1. The evidence exists all at once; the
-  reader does not.
+  not license announcing the channel at 1:1. The evidence exists all at once;
+  the reader does not.
 - **Maturity never runs backwards.** A channel that reached `mature` at 1:6 is
   not re-hinted at 1:7. It is extended.
+
+Maturity does not gate local surprise readings. Those arise from the ayah's own
+evidence and remain part of layer 2 whether or not a surah channel exists.
 
 ---
 
@@ -95,11 +117,15 @@ Two rules follow:
 
 ### Layer 2 (per ayah)
 
-The rules below govern the case where **an adjudicated ledger exists**. No surah
-has one yet. Where only the first-pass review exists, see §3.1 — maturity is
-undefined there, and an undefined maturity is not a permissive one.
+The isolated layer-2 writer produces local surprise readings and does not
+discover or name a surah channel. Channel disclosure is added later by the
+layer-2.5 integration pass, after layer 3 has seen the whole surah.
 
-May mention a channel only at `emerging` or above, and then under three
+The reviewed network channel artifact establishes the systems and their
+root/branch evidence. The combined Layer 3 + 2.5 pass turns that reviewed source
+into the stable member ledger and derives maturity in reading order.
+
+Layer 2.5 may mention a channel only at `emerging` or above, and then under three
 constraints:
 
 1. **Enter through this ayah's own word.** The channel is reached from a lexical
@@ -137,25 +163,20 @@ only now is the whole configuration sayable:
 Note what the 1:7 passage does *not* do: it does not state a thesis about the
 Fātiḥa, and every element it names is a word the reader has already met.
 
-### 3.1 Before a ledger exists
+### 3.1 Combined production
 
-Today every surah is in this state: `network/v3` review only, first-pass and
-single-reader (§5.1). Maturity is not computed anywhere, so the pacing mechanism
-above is unavailable.
+Layer 2 remains cold and states local surprise readings. The reviewed network
+artifact supplies the recurring channel systems and branch identities. One
+combined Layer 3 + 2.5 pass then writes the complete surah reading and designs
+the maturity-bounded additions against the unchanged Layer-2 prose.
 
-| | layer 2 | layer 3 |
-| --- | --- | --- |
-| may use the review to connect words within its own scope | yes | yes |
-| may name a channel as an established image of the surah | **no** | yes, marked as the writer's reading |
-| may compute or assert maturity | no | no |
-| emits channel candidates for adjudication | no | yes |
-
-The asymmetry is deliberate. Layer 3's whole job is the surah as an assembly and
-its output is already marked as inference; layer 2's reader meets one ayah alone,
-has no way to discount a channel claim, and is the reader grounding exists to
-protect (`PRINCIPLES.md` §5).
-
-This state ends when the adjudication pass runs — `PLAN.md` action 6.
+| | layer 2 | reviewed channels | combined 3 + 2.5 |
+| --- | --- | --- | --- |
+| states local surprise readings | yes | no | preserves them |
+| establishes cross-ayah systems | no | yes | consumes and integrates them |
+| derives reader-order maturity | no | no | yes |
+| writes the completed channel reading | no | no | yes |
+| writes story-building ayah increments | no | no | yes |
 
 ### Layer 3 (per surah)
 
@@ -163,17 +184,18 @@ Receives channels at `complete`. States the whole: the channel's members, the
 system they form, its relation to the surah's argument, and each ayah's
 contribution to it.
 
-By the time the reader arrives, every member has already been met once, in
-place, through its own ayah. Layer 3 is a recognition, not an introduction. That
-is the entire reason the layer-2 seeding exists.
+The combined pass writes the complete channel reading and the Layer-2.5
+increments together. The shared structured plan checks that every member and
+local effect is met once, in place, through its own ayah. The whole image should
+therefore feel like recognition rather than an ungrounded introduction.
 
 ---
 
 ## 4. Channels and the argument are different outputs
 
-A channel is an image running through a surah. The argument is what the surah
-does as an assembly. **Both are real and they are different axes.** Neither may
-stand in for the other.
+A channel is the secondary image running through a surah. The argument is what
+the surah does as an assembly. **Both are real and they are different axes.**
+Neither may stand in for the other.
 
 The argument must rest on the primary reading: state it such that it holds with
 every latent reading removed, then let channels deepen and recolour it. If
@@ -219,66 +241,59 @@ pipeline for S1, at finer resolution than the hand sketch:
 The only member of the water channel not found anywhere in the corpus is the
 pulley/crossbeam; `غ ي ر:B001/m02` "irrigation of land and people" is the nearest.
 
-### 5.1 Why it is not yet a ledger
+### 5.1 Reviewed source and compiled ledger
 
-What exists is `reader_a_pilot.md` — **first-pass, single-reader** output.
-`REVIEW_ORCHESTRATION.md` calls itself a prototype and lays out a staged order
-(pilot S001 → calibrate on the short surahs → medium batch); what ran is the
-first pass everywhere, so nothing has been adjudicated. Specifically missing:
+The channel reports are the reviewed source for parent/subchannel membership,
+root/branch motifs, synthesis, and surprising reach. The commentary workflow
+does not repeat that review.
 
-| needed | present? |
-| --- | --- |
-| second reader / adjudication | no — one reader, no accept/reject |
-| motif → member promotion decision | no — every motif is listed, none admitted |
-| per-ayah maturity | **no** — and this is the interface to layer 2 |
-| `yield` (what becomes legible) | partly — `Surprising reach` is close |
-| `restsOn: primary\|latent` | no |
-| machine-readable form | no — working ledgers are kept internal by instruction |
-| motif identity that joins downstream | no — `mNN` is finer than `branchId` |
+They are prose artifacts rather than downstream ledgers, so the bundle compiler
+adds the missing machine join:
 
-Until those exist, the review is **evidence, not authority**: it may inform a
-writer, and it may not be rendered as an established channel
-(`PRINCIPLES.md` §2). The bundle carries it with
-`coverage.channel_review.review_status = "first-pass-single-reader"` so that
-constraint travels with the data.
+- every `root:branch/mNN` citation is normalized;
+- `motifAnchorMap` resolves it to typed Quran anchors;
+- each anchor carries `qacMorphemeRef` and `rootId`;
+- downstream stable membership drops review-local `mNN` and uses
+  `qacMorphemeRef + rootId + branchId`.
+
+Maturity is intentionally absent upstream because it is a reader-order property,
+not a discovery or review property. The combined pass derives it while designing
+the additions to Layer 2.
 
 ## 6. Recording
 
-Per surah, a channel ledger holding for each channel:
+Per surah, a channel plan conforming to
+`schemas/surah-channel-plan-v1.schema.json`, holding for each channel:
 
 - `channelId`, name, and one-sentence statement of the system;
 - `members[]` — `qacMorphemeRef`, `rootId`, `branchId`, and what that member
   contributes;
 - `maturityByAyah` — the maturity at each ayah in reading order, which is what
-  layer 2 consults;
-- `yield` — what becomes legible that was not;
-- `restsOn` — `primary` or `latent`, for the argument's dependency;
+  layer 2.5 consults;
+- focus-ayah and whole-surah effects — what becomes legible that was not;
 - rejected candidate members, with the reason (fails coherence, fails yield);
 - review state.
 
-Until a channel is in the ledger it is a hypothesis and may not be rendered at
-either layer. Network scores, activation ranks, and similarity output nominate
-members; they do not admit them (`PRINCIPLES.md` §2).
+Combined output uses `sourceLane: combined`, `reviewState: reviewed`, and
+`maturityStatus: reviewed`. The review provenance points to the upstream channel
+source; it does not claim a new adjudication pass. Layer 2.5 grounds those
+members against the unchanged Layer-2 prose while it writes disclosure overlays.
 
 ---
 
 ## 7. Open
 
-- **Maturity is unvalidated, and nothing computes it.** The four-step scale and
-  the `emerging`-hint rule are a proposal from the Fātiḥa path example. No
-  upstream artifact carries a per-ayah maturity column, so today it would have to
-  be derived by the layer-3 writer from `Ayah anchors` in reading order. Whether
-  `emerging` hints help or merely clutter needs testing against a whole surah.
-- **Motif identity does not join.** The review cites `root:branch/mNN`. Only
-  `root` and `branch` join to anything downstream; `mNN` is a morpheme-sense
-  level that exists nowhere else in the system (`PRINCIPLES.md` §11). Either it
-  gets promoted to a real identity with a crosswalk, or channel members must be
-  recorded at branch granularity and the `mNN` detail treated as prose.
-- **Surah-scope evidence is now partial, not absent.** The channel review is a
-  genuine surah-scope artifact, so channel claims are no longer pure inference.
-  The surah *argument* still is — nothing upstream evidences it — so the
-  inference marking in `_surah_commentary/PROMPT.md` still applies to structural
-  claims, but no longer to channel membership.
+- **Maturity remains empirically unvalidated.** The combined pass derives it from
+  ordered exact anchors while designing the ayah additions. The four-step scale
+  and `emerging`-hint rule still need testing against a
+  completed whole-surah reading to learn whether the hints clarify or clutter.
+- **Motif identity now joins only through its stable portion.** The compiler
+  resolves `root:branch/mNN` citations to typed Quran anchors. `mNN` remains
+  review-local detail; downstream member identity is recorded at branch
+  granularity as `qacMorphemeRef + rootId + branchId`.
+- **The surah argument remains inference.** Reviewed channels establish the
+  recurring secondary systems, but nothing upstream evidences what the surah
+  does as a primary-grounded assembly.
 - **Four surahs have no review**: S108, S110, S113, S114.
 - **Cross-surah channels** are out of scope. Whether an image running across
   surahs is the same object as a channel is unresolved.

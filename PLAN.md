@@ -2,7 +2,7 @@
 
 Numbered actions in execution order. Refer to them by number.
 
-Last updated 2026-07-27. Rules in [`PRINCIPLES.md`](PRINCIPLES.md), per-surah
+Last updated 2026-07-28. Rules in [`PRINCIPLES.md`](PRINCIPLES.md), per-surah
 state in [`STATUS.md`](STATUS.md), channel rules in
 [`docs/CHANNELS.md`](docs/CHANNELS.md).
 
@@ -18,7 +18,7 @@ below.
 **D-b. No checksums or release pinning yet.** Git provides versioning. Revisit
 once a workflow runs end to end.
 
-**D-c. A pericope layer exists (layer 2.5).** Forced by arithmetic: a surah agent
+**D-c. Long surahs may need a pericope compression pass (`2P`).** Forced by arithmetic: a surah agent
 for S2 would need 286 × ~300 KB. Pericope spans come from
 `analysis/channels/network-v3/pericopes/surah_pericopes.jsonl` — 351 rows, 79
 surahs, mean 4.4 per surah, mean span 16.8 ayahs. The 35 uncovered surahs are all
@@ -29,8 +29,8 @@ the same prompt serves both.
 
 ```
 layer 2    per ayah      ayah bundle (~300 KB)          → prose + evidence (~1.5k words)
-layer 2.5  per pericope  layer-2 OUTPUTS + surah scope  → pericope reading
-layer 3    per surah     pericope outputs + surah bundle → argument + channel candidates
+layer 2P   per pericope  layer-2 OUTPUTS + surah scope  → pericope reading
+combined   per surah     reviewed channels + layer-2/pericope prose → argument + channels + overlays
 ```
 
 A pericope agent never sees raw ayah bundles. 17 ayah readings ≈ 34k tokens. This
@@ -114,9 +114,9 @@ and the ق و م loanword family (`kıyamet, makam, kıymet, mukavemet, Kayyûm`
 its failure states. Neither appears anywhere in the docs.
 
 S100 leaks only five lines, and they say the horses are unattached and a channel
-attaches them — where to look, not what to find. Nearly inert for layer 2 (State B
-bars naming channels); **a real thumb on the scale for layer 3**, which matters if
-models are compared there.
+attaches them — where to look, not what to find. They do not provide the local
+secondary turn layer 2 must derive, but they are **a real thumb on the scale for
+layer 3**, which matters if models are compared there.
 
 The worked examples are arguably legitimate few-shot teaching of register. Keep
 them; just never evaluate on S1.
@@ -186,6 +186,31 @@ unrunnable on anything but the shortest surahs until the pericope layer exists.
 
 Layer 2 per-ayah prompts are large but workable.
 
+### Superseded 2026-07-28 — the input contract was wrong, not the layer count
+
+The 907k figure measured the wrong input. D-c and this repo's own stage table
+both say layer 3 consumes layer 2's **outputs**; the instantiator was inlining
+raw ayah bundles, and `_surah_commentary/PROMPT.md` agreed with the code rather
+than with the plan. `instantiate.py --layer surah` now reads the surah-scope
+bundle plus every layer-2 `prose`, `evidence`, and `index`:
+
+| surah | ayahs | layer-3 prompt | raw-bundle prompt |
+| --- | ---: | ---: | ---: |
+| S103 | 3 | 189 KB | 1.8 MB |
+| S1 | 7 | 379 KB | — |
+| S100 | 11 | 503 KB | 5.6 MB (907k tokens) |
+
+**Layer 3 is no longer blocked, and it was never blocked on the pericope layer.**
+All three surahs with layer 2 complete are single-pericope — S100 has zero rows
+in `surah_pericopes.jsonl` — so a pericope agent for any of them would cover the
+whole surah and duplicate layer 3. Stage 4 is a long-surah requirement: at ~140 KB
+of layer-2 output per 11 ayahs, S2's 286 would be ~3.6 MB.
+
+Superseded again 2026-07-28: the compact reviewed-channel lane now combines
+Layer 3 and Layer 2.5. Exclusions are checked against Layer 2's already-preserved
+prose rather than triggering a thesis-aware rerun. Grounding and maturity are
+designed with the whole-surah prose, while the cold ayah pass stays isolated.
+
 **Accepted scope note:** `COMMENTARY_SPEC.md` references `docs/SOURCES.md`, which
 is deliberately *not* inlined — it documents how the bundle was built, not how to
 write from it, and its content is already resolved into the bundle. The dangling
@@ -204,10 +229,10 @@ exclusion instructions, and the three open friction items.
 Bundle + governing docs → one self-contained prompt file per unit, into
 `_commentary/inputs/s{NNN}/`. Model-agnostic.
 
-## 4. Add the pericope layer to the principles
+## 4. Add the optional pericope compression pass to the principles
 
-`PRINCIPLES.md` §6 handoff table gains a pericope row; `COMMENTARY_SPEC.md` §2
-gains the third level.
+Reserve `2P` for the pre-Layer-3 long-surah compression pass. Layer 2.5 is the
+post-Layer-3 channel-integration pass and must not be used for pericope naming.
 
 ## 5. Run layer 2 on S100 — one agent per ayah, 11 agents
 
@@ -224,14 +249,23 @@ what the ayah says? Do readings explain each other or sit next to each other?
 
 Decide #1–#3 with two real outputs in hand rather than by prediction.
 
-## 8. Channel adjudication → first ledger
+## 8. Combined Layer 3 + Layer 2.5 — **implemented 2026-07-28**
 
-Not discovery — adjudication over the 110 existing reviews. Admit or reject each
-subchannel on explanatory yield (S1 has 44 subchannels; expect 3–6 channels — the
-collapse is the work). Compute maturity deterministically from anchors in reading
-order. Record `restsOn`. Emit JSON at branch granularity; `mNN` demotes to prose.
-Ledger lives at `_surah_commentary/channels/s{NNN}.ledger.json` — network/v3
-nominates, this repo accepts.
+The reviewed network channel source already establishes systems and branch
+identities. A compact compiler joins them to exact QAC/root anchors. One
+combined pass reads that bundle plus Layer-2 prose, writes the primary-grounded
+surah argument and completed surprising channel reading, derives maturity in
+reading order, and emits ayah overlays. The cold Layer-2 prose is never
+overwritten.
+
+Contracts and checks:
+
+- `schemas/surah-channel-plan-v1.schema.json`
+- `schemas/ayah-channel-overlays-v1.schema.json`
+- `scripts/build_channel_bundle.py`
+- `scripts/instantiate_channel.py`
+- `scripts/check_channel_plan.py`
+- `scripts/check_channel_overlays.py`
 
 ## 9. Layer 1 — D5 gloss join, then D1 assemble inversion — **D1/D2/D3/D4 done 2026-07-27**
 

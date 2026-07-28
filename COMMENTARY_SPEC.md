@@ -59,21 +59,23 @@ This does not demote channels — see `docs/CHANNELS.md` §4. The argument and t
 channels are separate outputs on separate axes, and for some surahs (S100) the
 channel is the more valuable finding.
 
-### 2.2 Channel increments are not thesis slices
+### 2.2 Local surprise is not a channel increment
 
-Layer 2 may carry a **channel increment** — a resonance entered through this
-ayah's own word and bounded by the channel's maturity at this position. That is
-permitted, and it is the mechanism that keeps layer 3 from arriving cold.
+Layer 2 states the **local surprise reading** made visible by this ayah's own
+words: the secondary resonance, what it does to the recoverable primary reading,
+and what becomes newly legible. This requires no claim that the image recurs
+elsewhere.
 
-Layer 2 may **not** carry the surah's thesis. The difference is testable: an
-increment is anchored in lexis present in this ayah and says only what has
-matured by here; a thesis is anchored in the assembly and says what is only
-visible from outside.
+A **surah-channel increment** is different. It says how a reviewed recurring
+system has matured by this position in the surah. The isolated layer-2 writer
+cannot know that. The combined Layer 3 + 2.5 pass consumes the reviewed system
+and adds its maturity-bounded increment without rewriting the local reading into
+a thesis slice.
 
-**The increment requires a ledger, and no surah has one.** Maturity is computed
-nowhere, and an increment unbounded by maturity is just a channel claim. Until
-adjudication runs, layer 2 may use review material to connect words inside this
-ayah but may not name a channel as an established image of the surah.
+Layer 2 may **not** carry the surah's thesis or name a recurring surah channel.
+The distinction is testable: a local surprise is fully anchored in this ayah;
+a channel increment depends on members already encountered elsewhere; a thesis
+is visible only from the assembly.
 
 Disclosure rules and the interim state: `docs/CHANNELS.md` §3 and §3.1.
 
@@ -129,15 +131,38 @@ Per ayah and per surah:
   the prose is written to its own file;
 - **evidence surface** — separate, addressable per phrase, holding refs, branch
   IDs, counter-evidence, coverage, and an explicit mark on every claim that is
-  inference rather than bundle-traceable.
+  inference rather than bundle-traceable;
+- **findings index** — *ayah level only.* A flat list of every reading the prose
+  carries, one line per reading, each under its bundle ref, with `[inference]`
+  marking the writer's own readings. It compresses how each reading is said and
+  never how many there are: every `must_integrate` topic appears exactly once,
+  `ledger_only` topics are excluded, and no line may name a reading the prose does
+  not carry. It is a table of contents for the field, not a summary. Layer 3 does
+  not emit one — it selects, so its analogue is the exclusion list. Each
+  coherent local surprise carried by the prose gets an additional
+  `surprise:<id>` synthesis row marked `[supports-primary]` or
+  `[shifts-primary]`; these rows expose how secondary readings relate to the
+  primary instead of asking layer 3 to reconstruct that relation;
+- **friction** — every point where the instructions were ambiguous,
+  contradictory, unsatisfiable, or silent. Profile-specific style audits may be
+  included here when a prompt profile asks for them, but they must be labelled as
+  style audit rather than friction.
 
 The prose must be readable end to end with the evidence surface closed.
+
+Ayah prose makes its surprise turn explicit in reader language. It first gives a
+recoverable primary floor, then enters through a local word, states the
+secondary resonance, and makes clear what that resonance newly supports or
+shifts. This is part of the continuous prose, not a section headed "surprise" and
+not an apparatus label. When no secondary material survives grounding and
+containment, the writer records that in evidence/friction rather than inventing
+a turn.
 
 Arabic lexical items in authored prose should use structured surface spans so one
 text can render for both reading and listening editions:
 
 ```text
-{ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar}
+{ar:ٱلْقَلَمِ, tr:el-kalem, gloss:kalem}
 ```
 
 Use the span at first mention of an ayah word, and again when the prose returns
@@ -150,20 +175,27 @@ the gloss nearby. For TTS, render the Arabic surface form. For Turkish-only
 display, render the gloss. Raw root skeletons, branch IDs, and letter-by-letter
 root transliterations belong in the evidence surface, not in reader prose.
 
-Prose should begin from reader meaning, then bring in grammar. A sentence may say
-"Âyet önce hamdi Allah'a verir; bunu fiille değil, sabit bir ad cümlesiyle
-yapar." It should not make the reader cross a technical threshold before knowing
-what is happening.
+Prose should begin from reader meaning, then bring in grammar: say what the ayah
+or the word does in plain target language, then name the construction that does
+it, within the same sentence. It should not make the reader cross a technical
+threshold before knowing what is happening.
 
-Layer 3 additionally emits:
+The combined Layer 3 + 2.5 lane additionally emits:
 
 - **thesis** — one sentence;
-- **channel candidates** — members, the system they form, what becomes legible,
-  and rejected motifs with reasons. Input to adjudication, not a ledger: prose
-  writers do not establish channels (`PRINCIPLES.md` §2), and maturity is
-  computed by the adjudication pass (`docs/CHANNELS.md` §6);
-- **exclusions** — activated readings the thesis could not carry, handed to
-  layer 2.
+- **reviewed channel plan** — stable channel/member IDs, exact lexical anchors,
+  focus-ayah and whole-surah effects, and reviewed maturity in reading order,
+  compiled from the upstream reviewed channels;
+- **exclusions** — activated readings the thesis could not carry, recorded
+  against Layer 2's already-preserved full field. They do not trigger a
+  thesis-aware rewrite of the cold ayah prose.
+
+The same pass emits structured ayah overlays whose insertion points refer to the
+unchanged Layer-2 prose. The channel plan and overlays share member IDs and
+maturity, so the completed prose and gradual disclosure are designed together.
+Schemas:
+`schemas/surah-channel-plan-v1.schema.json` and
+`schemas/ayah-channel-overlays-v1.schema.json`.
 
 ---
 

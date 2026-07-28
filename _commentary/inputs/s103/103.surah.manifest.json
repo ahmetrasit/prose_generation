@@ -1,0 +1,92 @@
+{
+  "surah": 103,
+  "ayah": null,
+  "layer": "surah",
+  "language": "tr",
+  "generated": "2026-07-28",
+  "profile": null,
+  "task_document": {
+    "path": "_surah_commentary/PROMPT.md",
+    "bytes": 10407
+  },
+  "governing_documents": [
+    {
+      "path": "PRINCIPLES.md",
+      "bytes": 8480
+    },
+    {
+      "path": "COMMENTARY_SPEC.md",
+      "bytes": 8685
+    },
+    {
+      "path": "docs/CHANNELS.md",
+      "bytes": 13876
+    }
+  ],
+  "bundle_files": [
+    {
+      "path": "bundles/s103/103.surah.json",
+      "bytes": 103585
+    }
+  ],
+  "bundle_root": "/Volumes/OZTURK/_projects/prose_generation/bundles",
+  "output_bytes": 191513,
+  "upstream_layer": {
+    "layer": "ayah",
+    "inline_ayah_bundles": false,
+    "coverage": {
+      "directory": "_commentary/outputs/s103-default",
+      "label": null,
+      "kinds": [
+        "prose",
+        "evidence",
+        "index"
+      ],
+      "ayahs": 3,
+      "index_absent_for_ayahs": [
+        1,
+        2,
+        3
+      ]
+    },
+    "files": [
+      {
+        "path": "_commentary/outputs/s103-default/103_1.prose.default.v2.5.6-sol-high.md",
+        "ayah": 1,
+        "kind": "prose",
+        "bytes": 4467
+      },
+      {
+        "path": "_commentary/outputs/s103-default/103_1.evidence.default.v2.5.6-sol-high.md",
+        "ayah": 1,
+        "kind": "evidence",
+        "bytes": 6486
+      },
+      {
+        "path": "_commentary/outputs/s103-default/103_2.prose.default.v2.5.6-sol-high.md",
+        "ayah": 2,
+        "kind": "prose",
+        "bytes": 5498
+      },
+      {
+        "path": "_commentary/outputs/s103-default/103_2.evidence.default.v2.5.6-sol-high.md",
+        "ayah": 2,
+        "kind": "evidence",
+        "bytes": 7848
+      },
+      {
+        "path": "_commentary/outputs/s103-default/103_3.prose.default.v2.5.6-sol-high.md",
+        "ayah": 3,
+        "kind": "prose",
+        "bytes": 8714
+      },
+      {
+        "path": "_commentary/outputs/s103-default/103_3.evidence.default.v2.5.6-sol-high.md",
+        "ayah": 3,
+        "kind": "evidence",
+        "bytes": 8119
+      }
+    ]
+  },
+  "output_file": "103.surah.prompt.md"
+}

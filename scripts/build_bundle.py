@@ -61,6 +61,7 @@ QURAN_DATA = PROJECTS_ROOT / "quran-data" / "data"
 QURAN_TEXT_TSV = QURAN_DATA / "text" / "quran-uthmani.tsv"
 WORD_ANALYSIS_DIR = QURAN_DATA / "analysis" / "word-analysis"
 QAC_SQLITE_GZ = QURAN_DATA / "morphology" / "qac.sqlite.gz"
+QAC_FURUQ_ROOT_MAP_SQLITE_GZ = QURAN_DATA / "bridges" / "qac-furuq-v4-root-map.sqlite.gz"
 
 V12_TR_DIR = QURAN_DATA / "analysis" / "ayah-activation" / "v12-tr"
 V12_TR_11AYAH_DIR = QURAN_DATA / "analysis" / "ayah-activation" / "v12-tr-11ayah"
@@ -1399,12 +1400,81 @@ def pericope_for_ayah(pericopes: list, ayah: int) -> dict:
 # Source: Turkish dictionary entry + gloss (new)
 # ---------------------------------------------------------------------------
 
-def load_root_id_map(surah: int) -> tuple:
-    """Returns ({arabic_root_string: root_id}, packet_path or None). Root IDs
-    (e.g. 'root_000745') come from full_context_packet.json's
-    branch_inventories[].branches[].variants[].root_id, which is the only
-    artifact that carries both the Arabic root string (as used in
-    qac_morphemes.root_ar) and its dictionary/gloss envelope id."""
+_QAC_FURUQ_ROOT_MAP_CACHE: tuple[dict, dict] | None = None
+_QAC_FURUQ_ROOT_MAP_ERROR: str | None = None
+
+
+def load_qac_furuq_root_map() -> tuple[dict, dict]:
+    """Returns (dominant_map, records_by_qac_root) from the authoritative
+    QAC->Furuq root-map DB. dominant_map is {qac_root_norm: root_id}. Records
+    include all split targets, so callers can include non-dominant roots in
+    addition to the dominant dictionary/gloss entry."""
+    global _QAC_FURUQ_ROOT_MAP_CACHE, _QAC_FURUQ_ROOT_MAP_ERROR
+    if _QAC_FURUQ_ROOT_MAP_CACHE is not None:
+        return _QAC_FURUQ_ROOT_MAP_CACHE
+    if not QAC_FURUQ_ROOT_MAP_SQLITE_GZ.exists():
+        _QAC_FURUQ_ROOT_MAP_CACHE = ({}, {})
+        return _QAC_FURUQ_ROOT_MAP_CACHE
+
+    tmp_path = None
+    try:
+        raw = read_gz_bytes(QAC_FURUQ_ROOT_MAP_SQLITE_GZ)
+        with tempfile.NamedTemporaryFile(suffix=".sqlite", delete=False) as tmp:
+            tmp.write(raw)
+            tmp_path = tmp.name
+
+        conn = sqlite3.connect(tmp_path)
+        conn.row_factory = sqlite3.Row
+        records = {}
+        for row in conn.execute(
+            "SELECT qac_root_norm, qac_root_join_key, qac_total_occurrences, "
+            "matched_occurrences, mapping_status, dominant_furuq_root_id, "
+            "dominant_furuq_root_norm, dominant_resolution "
+            "FROM qac_root_map"
+        ):
+            d = dict(row)
+            d["targets"] = []
+            records[d["qac_root_norm"]] = d
+        for row in conn.execute(
+            "SELECT qac_root_norm, target_rank, furuq_root_id, furuq_root_norm, "
+            "furuq_resolution, occurrences, is_dominant "
+            "FROM qac_furuq_targets ORDER BY qac_root_norm, target_rank"
+        ):
+            d = dict(row)
+            if d.get("furuq_root_id"):
+                records.setdefault(d["qac_root_norm"], {
+                    "qac_root_norm": d["qac_root_norm"],
+                    "mapping_status": "target_without_root_map_record",
+                    "dominant_furuq_root_id": None,
+                    "targets": [],
+                })["targets"].append(d)
+        conn.close()
+    except Exception as exc:
+        _QAC_FURUQ_ROOT_MAP_ERROR = f"{type(exc).__name__}: {exc}"
+        print(
+            f"WARNING: could not read QAC-Furuq root map at "
+            f"{QAC_FURUQ_ROOT_MAP_SQLITE_GZ}; falling back to packet root IDs "
+            f"where available ({_QAC_FURUQ_ROOT_MAP_ERROR}).",
+            file=sys.stderr,
+        )
+        _QAC_FURUQ_ROOT_MAP_CACHE = ({}, {})
+        return _QAC_FURUQ_ROOT_MAP_CACHE
+    finally:
+        if tmp_path:
+            Path(tmp_path).unlink(missing_ok=True)
+
+    dominant_map = {
+        root: record["dominant_furuq_root_id"]
+        for root, record in records.items()
+        if record.get("dominant_furuq_root_id")
+    }
+    _QAC_FURUQ_ROOT_MAP_CACHE = (dominant_map, records)
+    return _QAC_FURUQ_ROOT_MAP_CACHE
+
+
+def load_packet_root_id_map(surah: int) -> tuple:
+    """Fallback ({arabic_root_string: root_id}, packet_path or None) derived
+    from full_context_packet.json branch inventories."""
     packet_path = V12_TR_DIR / f"s{surah:03d}" / "full_context_packet.json"
     if not packet_path.exists():
         return {}, None
@@ -1414,7 +1484,7 @@ def load_root_id_map(surah: int) -> tuple:
         root = entry.get("root")
         root_id = None
         for br in entry.get("branches", []):
-            for v in br.get("variants", []):
+            for v in br.get("variants", []) or []:
                 if v.get("root_id"):
                     root_id = v["root_id"]
                     break
@@ -1425,6 +1495,16 @@ def load_root_id_map(surah: int) -> tuple:
     return root_id_map, packet_path
 
 
+def load_root_id_map(surah: int) -> tuple:
+    """Returns ({qac_root_norm: dominant_root_id}, source_path). The preferred
+    source is qac-furuq-v4-root-map.sqlite.gz; full_context_packet.json remains
+    a compatibility fallback."""
+    root_id_map, _records = load_qac_furuq_root_map()
+    if root_id_map:
+        return root_id_map, QAC_FURUQ_ROOT_MAP_SQLITE_GZ
+    return load_packet_root_id_map(surah)
+
+
 # Concordance keys dropped from dictionary_entry.occurrence_evidence. These are
 # a per-occurrence QAC concordance and character-span alignment table: raw
 # morphology rows (qac_ref, surface_ar, morph_features, qac_char_span,
@@ -1433,8 +1513,8 @@ def load_root_id_map(surah: int) -> tuple:
 # dictionary_entry.branches, which is kept in full. Dropping an index is not
 # dropping a meaning, so the Layer-2 no-select rule (PRINCIPLES.md §3/§6) is
 # not engaged; and inter_ayah_rows already carries cross-ayah relations for
-# this ayah in reviewed, ordered, ayah-scoped form -- the same job a
-# concordance would be used for, done better and already scoped.
+# this ayah in reviewed, ordered form -- the same job a concordance would be
+# used for, done better and already scoped.
 # For root_000532 (ر ب ب) this is ~1,526 KB of a ~1,635 KB entry.
 OCCURRENCE_EVIDENCE_DROPPED_KEYS = ("occurrences", "ayahs")
 
@@ -1507,11 +1587,62 @@ def load_gloss_record(root_id: str) -> tuple:
     return data, path
 
 
+def _root_targets(root_ar: str, root_id_map: dict, root_records: dict) -> tuple[list[dict], dict]:
+    record = root_records.get(root_ar)
+    if record:
+        targets = [dict(t) for t in record.get("targets", []) if t.get("furuq_root_id")]
+        if not targets and record.get("dominant_furuq_root_id"):
+            targets = [{
+                "target_rank": 1,
+                "furuq_root_id": record["dominant_furuq_root_id"],
+                "furuq_root_norm": record.get("dominant_furuq_root_norm"),
+                "furuq_resolution": record.get("dominant_resolution"),
+                "occurrences": record.get("matched_occurrences"),
+                "is_dominant": 1,
+            }]
+        mapping = {
+            "source": relpath(QAC_FURUQ_ROOT_MAP_SQLITE_GZ),
+            "qac_root_norm": root_ar,
+            "mapping_status": record.get("mapping_status"),
+            "primary_root_id": record.get("dominant_furuq_root_id"),
+            "targets": targets,
+        }
+        return targets, mapping
+
+    root_id = root_id_map.get(root_ar)
+    if not root_id:
+        return [], {
+            "source": relpath(QAC_FURUQ_ROOT_MAP_SQLITE_GZ)
+            if QAC_FURUQ_ROOT_MAP_SQLITE_GZ.exists()
+            else "full_context_packet.json fallback",
+            "qac_root_norm": root_ar,
+            "mapping_status": "unmapped",
+            "primary_root_id": None,
+            "targets": [],
+        }
+    target = {
+        "target_rank": 1,
+        "furuq_root_id": root_id,
+        "furuq_root_norm": root_ar,
+        "furuq_resolution": "packet_fallback",
+        "occurrences": None,
+        "is_dominant": 1,
+    }
+    return [target], {
+        "source": "full_context_packet.json fallback",
+        "qac_root_norm": root_ar,
+        "mapping_status": "packet_fallback",
+        "primary_root_id": root_id,
+        "targets": [target],
+    }
+
+
 def build_root_lexicon(qac_rows: list, root_id_map: dict) -> tuple:
     """For each distinct root appearing in this ayah's QAC morphemes, joins
-    the Turkish dictionary entry and gloss record. Returns (dict keyed by
-    root_id, coverage_dict). Turkish is the only language with glosses
-    currently sourced; that fact is recorded in coverage, not assumed."""
+    the Turkish dictionary entry and gloss record. Split QAC->Furuq mappings
+    include all mapped Furuq target roots, dominant and non-dominant. Returns
+    (dict keyed by root_id, coverage_dict). Turkish is the only language with
+    glosses currently sourced; that fact is recorded in coverage, not assumed."""
     roots_in_ayah = []
     seen = set()
     for row in qac_rows:
@@ -1522,38 +1653,102 @@ def build_root_lexicon(qac_rows: list, root_id_map: dict) -> tuple:
 
     entries = {}
     per_root = {}
+    _dominant_map, root_records = load_qac_furuq_root_map()
+    split_roots = 0
+    dictionary_branches_total = 0
+    gloss_branches_total = 0
+    emitted_root_ids = set()
+
     for root_ar in roots_in_ayah:
-        root_id = root_id_map.get(root_ar)
-        if not root_id:
+        targets, mapping = _root_targets(root_ar, root_id_map, root_records)
+        if not targets:
             per_root[root_ar] = {
                 "root_id": None,
+                "root_ids": [],
+                "root_mapping": mapping,
                 "dictionary_present": False,
                 "gloss_present": False,
-                "note": "no root_id mapping found for this root in this surah's full_context_packet.json branch_inventories",
+                "note": "no root_id mapping found for this QAC root",
             }
             continue
-        dict_entry, dict_path = load_dictionary_entry(root_id)
-        gloss_entry, gloss_path = load_gloss_record(root_id)
-        dict_entry, drop_record = _trim_occurrence_evidence(dict_entry)
-        entries[root_id] = {
-            "root_ar": root_ar,
-            "root_id": root_id,
-            "dictionary_entry": dict_entry,
-            "dictionary_source_file": relpath(dict_path) if dict_entry is not None else None,
-            "gloss": gloss_entry,
-            "gloss_source_file": relpath(gloss_path) if gloss_entry is not None else None,
-        }
-        note = None
-        if dict_entry is None:
-            note = "no Turkish dictionary entry found for this root_id"
-        elif gloss_entry is None:
-            note = "no reviewed Turkish gloss found for this root_id"
+        if mapping.get("mapping_status") == "split":
+            split_roots += 1
+        target_coverage = []
+        for target in targets:
+            root_id = target.get("furuq_root_id")
+            if not root_id:
+                continue
+            mapping_role = "dominant" if target.get("is_dominant") else "non_dominant_split_target"
+            dict_entry, dict_path = load_dictionary_entry(root_id)
+            gloss_entry, gloss_path = load_gloss_record(root_id)
+            dict_entry, drop_record = _trim_occurrence_evidence(dict_entry)
+            dictionary_branch_count = len(dict_entry.get("branches", []) or []) if dict_entry else 0
+            gloss_branch_count = len(gloss_entry.get("branches", []) or []) if gloss_entry else 0
+            if root_id not in emitted_root_ids:
+                dictionary_branches_total += dictionary_branch_count
+                gloss_branches_total += gloss_branch_count
+                emitted_root_ids.add(root_id)
+                entries[root_id] = {
+                    "root_ar": root_ar,
+                    "qac_roots_ar": [root_ar],
+                    "root_id": root_id,
+                    "root_mapping_role": mapping_role,
+                    "root_mapping_roles": [mapping_role],
+                    "qac_root_mappings": [{
+                        "root_ar": root_ar,
+                        "root_mapping_role": mapping_role,
+                        "target_rank": target.get("target_rank"),
+                        "furuq_resolution": target.get("furuq_resolution"),
+                        "occurrences": target.get("occurrences"),
+                    }],
+                    "dictionary_entry": dict_entry,
+                    "dictionary_source_file": relpath(dict_path) if dict_entry is not None else None,
+                    "gloss": gloss_entry,
+                    "gloss_source_file": relpath(gloss_path) if gloss_entry is not None else None,
+                }
+            else:
+                qac_roots = entries[root_id].setdefault("qac_roots_ar", [])
+                if root_ar not in qac_roots:
+                    qac_roots.append(root_ar)
+                roles = entries[root_id].setdefault("root_mapping_roles", [])
+                if mapping_role not in roles:
+                    roles.append(mapping_role)
+                mappings = entries[root_id].setdefault("qac_root_mappings", [])
+                if not any(m.get("root_ar") == root_ar for m in mappings):
+                    mappings.append({
+                        "root_ar": root_ar,
+                        "root_mapping_role": mapping_role,
+                        "target_rank": target.get("target_rank"),
+                        "furuq_resolution": target.get("furuq_resolution"),
+                        "occurrences": target.get("occurrences"),
+                    })
+            note = None
+            if dict_entry is None:
+                note = "no Turkish dictionary entry found for this root_id"
+            elif gloss_entry is None:
+                note = "no reviewed Turkish gloss found for this root_id"
+            target_coverage.append({
+                "root_id": root_id,
+                "target_rank": target.get("target_rank"),
+                "is_dominant": bool(target.get("is_dominant")),
+                "furuq_root_norm": target.get("furuq_root_norm"),
+                "furuq_resolution": target.get("furuq_resolution"),
+                "occurrences": target.get("occurrences"),
+                "dictionary_present": dict_entry is not None,
+                "gloss_present": gloss_entry is not None,
+                "dictionary_branch_count": dictionary_branch_count,
+                "gloss_branch_count": gloss_branch_count,
+                "occurrence_evidence_trimmed": drop_record,
+                "note": note,
+            })
         per_root[root_ar] = {
-            "root_id": root_id,
-            "dictionary_present": dict_entry is not None,
-            "gloss_present": gloss_entry is not None,
-            "occurrence_evidence_trimmed": drop_record,
-            "note": note,
+            "root_id": mapping.get("primary_root_id"),
+            "root_ids": [target["root_id"] for target in target_coverage],
+            "root_mapping": mapping,
+            "dictionary_present": any(target["dictionary_present"] for target in target_coverage),
+            "gloss_present": any(target["gloss_present"] for target in target_coverage),
+            "targets": target_coverage,
+            "note": None,
         }
 
     coverage = {
@@ -1569,14 +1764,32 @@ def build_root_lexicon(qac_rows: list, root_id_map: dict) -> tuple:
                 "they are a per-occurrence QAC concordance and character-span "
                 "alignment table carrying zero readings, branches or senses, and "
                 "they dominated bundle size (~1.5 MB for a single common root). "
-                "The lexical concept material -- dictionary_entry.branches, with "
-                "identity_judgment, lexicalization_scope and boundary notes -- is "
-                "kept in full, as are occurrence_evidence.summary (corpus "
-                "frequency) and .forms (inflectional inventory). Cross-ayah "
-                "relations for this ayah are carried by inter_ayah_rows in "
-                "reviewed, ordered form. See per_root[].occurrence_evidence_trimmed "
-                "for the exact row counts dropped per root."
+                "occurrence_evidence.summary (corpus frequency) and .forms "
+                "(inflectional inventory) are retained. Dictionary/gloss branches "
+                "are kept in full for every included Furuq root target."
             ),
+        },
+        "branch_policy": {
+            "mode": "full_branches_no_filtering",
+            "dictionary_branches_total": dictionary_branches_total,
+            "dictionary_branches_kept": dictionary_branches_total,
+            "dictionary_branches_dropped": 0,
+            "gloss_branches_total": gloss_branches_total,
+            "note": (
+                "No branch filtering is applied. Every branch present in each "
+                "included dictionary/gloss root entry is kept."
+            ),
+        },
+        "root_mapping": {
+            "source": relpath(QAC_FURUQ_ROOT_MAP_SQLITE_GZ)
+            if QAC_FURUQ_ROOT_MAP_SQLITE_GZ.exists()
+            else "full_context_packet.json fallback",
+            "policy": (
+                "Use the dominant Furuq root for every QAC root, and include "
+                "non-dominant Furuq targets as additional root_lexicon entries "
+                "when qac-furuq-v4-root-map marks the QAC root as split."
+            ),
+            "split_roots_in_ayah": split_roots,
         },
         "note": "Turkish is the only language with dictionary entries/glosses currently sourced.",
     }
@@ -1851,9 +2064,9 @@ def preflight(surah: int, ayah_filter: int = None) -> dict:
             problems.append(str(exc))
 
     root_id_map, packet_path = load_root_id_map(surah)
-    packet_path_display = packet_path or (V12_TR_DIR / f"s{surah:03d}" / "full_context_packet.json")
+    packet_path_display = packet_path or QAC_FURUQ_ROOT_MAP_SQLITE_GZ
     rows.append(_row(
-        "Root ID map (full_context_packet.json)", packet_path_display, False,
+        "Root ID map (QAC-Furuq)", packet_path_display, False,
         bool(root_id_map),
         f"{len(root_id_map)} roots mapped" if root_id_map else "no root_id map available; dictionary/gloss join will be empty for this surah",
     ))
@@ -1929,20 +2142,28 @@ def preflight(surah: int, ayah_filter: int = None) -> dict:
                           None if p.exists() else "no inter-ayah file for this ayah"))
 
     if qac_by_ayah and root_id_map:
+        _dominant_map, root_records = load_qac_furuq_root_map()
         seen_roots = {}
         for a in target_ayahs:
             for qrow in qac_by_ayah.get(a, []):
                 root_ar = qrow.get("root_ar")
                 if not root_ar:
                     continue
-                root_id = root_id_map.get(root_ar)
-                if not root_id:
-                    continue
-                seen_roots.setdefault(root_id, {"root_ar": root_ar, "ayahs": []})["ayahs"].append(a)
+                targets, _mapping = _root_targets(root_ar, root_id_map, root_records)
+                for target in targets:
+                    root_id = target.get("furuq_root_id")
+                    if not root_id:
+                        continue
+                    seen_roots.setdefault(root_id, {
+                        "root_ar": root_ar,
+                        "ayahs": [],
+                        "is_dominant": bool(target.get("is_dominant")),
+                    })["ayahs"].append(a)
         for root_id, info in sorted(seen_roots.items()):
             dpath = DICTIONARY_TR_DIR / f"{root_id}_entry.json"
             gpath = GLOSSES_TR_DIR / f"{root_id}.json"
-            ayahs_note = f"used in ayahs {info['ayahs']}"
+            role = "dominant" if info.get("is_dominant") else "split target"
+            ayahs_note = f"{role}; used in ayahs {sorted(set(info['ayahs']))}"
             rows.append(_row(f"Dictionary entry {root_id} ({info['root_ar']})", dpath, False, dpath.exists(), ayahs_note if not dpath.exists() else None))
             rows.append(_row(f"Gloss {root_id} ({info['root_ar']})", gpath, False, gpath.exists(),
                               "no reviewed gloss for this root" if not gpath.exists() else None))

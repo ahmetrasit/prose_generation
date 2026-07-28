@@ -1,9 +1,9 @@
 # Commentary orchestration
 
 How to produce commentary for any ayah or any surah, in any target language,
-from a cold start. One file covers all layers because they are dependent: layer
-3 consumes layer 2's outputs, and layer 2 is obliged to carry layer 3's
-rejections.
+from a cold start. One file covers all passes because they are dependent: the
+combined Layer 3 + 2.5 pass consumes cold Layer-2 prose and the reviewed channel
+source, then writes both the whole-surah reading and its gradual ayah additions.
 
 Rules are in [`../PRINCIPLES.md`](../PRINCIPLES.md). What commentary is for is in
 [`../COMMENTARY_SPEC.md`](../COMMENTARY_SPEC.md). This file is the run contract:
@@ -21,26 +21,41 @@ _commentary/
     {S}_{A}.ayah.{profile}.prompt.md
     {S}_{A}.ayah.manifest.json
     {S}_{A}.ayah.{profile}.manifest.json
-    {NNN}.surah.prompt.md
-    {NNN}.surah.manifest.json
+    {NNN}.channel.prompt.md
+    {NNN}.channel.manifest.json
   inputs/archive/s{NNN}/    archived non-default profile prompts
   outputs/s{NNN}/           agent-written
     {S}_{A}.prose.md
     {S}_{A}.evidence.md
+    {S}_{A}.index.md
     {S}_{A}.friction.md
     {S}_{A}.prose.{agent-type}.md       comparative runs
     {S}_{A}.evidence.{agent-type}.md
+    {S}_{A}.index.{agent-type}.md
     {S}_{A}.friction.{agent-type}.md
-    {NNN}.surah.prose.md    (and .evidence.md, .friction.md)
+    {NNN}.surah.prose.md
+    {NNN}.surah.thesis.md
+    {NNN}.surah.channels.reviewed.json
+    {NNN}.ayah-channel-overlays.json
+    {NNN}.ayah-channel-overlays.preview.md
+    {NNN}.ayah-channel-overlays.friction.md
+    {NNN}.surah.exclusions.md
+    {NNN}.surah.evidence.md
+    {NNN}.channel.friction.md
 
 bundles/s{NNN}/             builder output — generated, never edited
   {S}_{A}.ayah.json
   {NNN}.surah.json
+  {NNN}.channel.json
 ```
 
-Everything under `inputs/` and `bundles/` is reproducible from
-`../quran-data/` by re-running stages 1 and 2. Only `outputs/` is authored, and
-only by an agent.
+Everything under `bundles/`, and every ayah prompt under `inputs/`, is
+reproducible from `../quran-data/` by re-running stages 1 and 2. Only `outputs/`
+is authored, and only by an agent.
+
+**The combined surah prompt is the exception**: it is built from `outputs/` as well, so
+reproducing it needs the same layer-2 outputs, not just `quran-data`. Its
+manifest names them with byte counts.
 
 The unit id `{S}_{A}` uses unpadded surah and ayah (`100_1`, not `100_001`).
 The surah id `{NNN}` is zero-padded to three (`s100/100.surah.json`). This
@@ -53,7 +68,7 @@ glob mismatch is a shipped bug in this repo's history.
 | --- | --- | --- |
 | `SURAH` | `100` | unpadded |
 | `AYAH` | `1` | omit to process every ayah of the surah |
-| `LAYER` | `ayah` | `ayah` \| `surah`; `pericope` is not yet implemented |
+| `LAYER` | `ayah` | `ayah`; combined surah work uses `instantiate_channel.py` |
 | `LANGUAGE` | `tr` | target prose language |
 | `DATE` | `2026-07-27` | stamped into the prompt header |
 
@@ -137,7 +152,6 @@ provenance, not hidden ayah renumbering.
 ```
 python3 scripts/instantiate.py --surah 100 --layer ayah              # all ayahs
 python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah
-python3 scripts/instantiate.py --surah 100 --layer surah
 python3 scripts/instantiate.py --surah 100 --layer ayah --language tr --date 2026-07-27
 python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --profile v2.5.6-sol-high
 ```
@@ -169,10 +183,42 @@ will not reproduce.
 
 Inlined per layer:
 
-| layer | task document | governing | bundle |
-| --- | --- | --- | --- |
-| ayah | `_ayah_commentary/PROMPT.md` | `PRINCIPLES.md`, `COMMENTARY_SPEC.md`, `docs/CHANNELS.md` | `{S}_{A}.ayah.json` |
-| surah | `_surah_commentary/PROMPT.md` | same three | `{NNN}.surah.json` + every ayah bundle |
+| layer | task document | governing | bundle | upstream |
+| --- | --- | --- | --- | --- |
+| ayah | `_ayah_commentary/PROMPT.md` | `PRINCIPLES.md`, `COMMENTARY_SPEC.md`, `docs/CHANNELS.md` | `{S}_{A}.ayah.json` | — |
+| combined 3 + 2.5 | `_channel/PROMPT.md` | selected excerpts + both schemas | `{NNN}.channel.json` | every Layer-2 `prose` file |
+
+**The combined pass consumes Layer-2 prose, not raw ayah bundles.** Exact channel
+identity comes from the compact reviewed-channel bundle, so Layer-2 evidence and
+index files are not repeated. The contract still depends on commentary written
+in isolation; re-deriving it from source would defeat stage 3.
+
+```
+python3 scripts/instantiate_channel.py --surah 100
+python3 scripts/instantiate_channel.py --surah 100 --layer2-dir _commentary/outputs/s100-default
+python3 scripts/instantiate_channel.py --surah 100 --layer2-label default.v2.5.6-sol-high
+python3 scripts/instantiate.py --surah 103 --layer surah --inline-ayah-bundles
+```
+
+`--layer2-dir` defaults to `_commentary/outputs/s{NNN}-default`, then
+`s{NNN}`. `--layer2-label` picks one comparative run when a directory holds
+several; without it, an ambiguous directory is an error listing the candidates
+rather than a silent choice. Missing `prose` or `evidence` for any ayah aborts
+with the complete gap list; a **present but empty** output file is a hard failure,
+never an absence. A missing `index` is recorded as coverage and passed to the
+agent, because no layer-2 run has produced one yet.
+
+For a present index, instantiation also records
+`surprise_rows_absent_for_ayahs`. This is a handoff gap, not proof that the prose
+contains no secondary resonance: it says layer 2 did not explicitly state
+whether a coherent secondary line supports or shifts the primary.
+
+Layer-2 **friction** reports are deliberately not inlined. They report on the
+instructions, not on the ayahs.
+
+`--inline-ayah-bundles` restores the raw-bundle prompt. It is viable only for the
+shortest surahs — S103, at three ayahs, is 1.8 MB — and exists for reproducing
+the measurement below.
 
 `docs/SOURCES.md` is deliberately not inlined. It documents how the bundle was
 built, not how to write from it, and its content is already resolved into the
@@ -202,93 +248,91 @@ select** (`PRINCIPLES.md` §6). It carries the full field, including readings
 that pull against each other. If it selects, the no-disambiguation guarantee is
 gone and nothing downstream restores it.
 
-### State A / State B
+### Local surprise boundary
 
-What the agent may do with channel material depends on what exists:
+The Layer-2 agent states locally grounded surprise readings, not channels. Its
+prose keeps the primary floor visible, enters through this ayah's own word,
+states the secondary line, and says whether that line supports or shifts the
+primary. The index repeats the synthesis under `surprise:<id>` with
+`[supports-primary]` or `[shifts-primary]`.
 
-| | condition | permitted |
-| --- | --- | --- |
-| **State A** | an adjudicated ledger exists at `_surah_commentary/channels/s{NNN}.ledger.json` | carry a channel increment bounded by maturity |
-| **State B** | only `channel_subchannels_anchored_here` from a first-pass review | let the material inform how this ayah's own words connect; **never name the channel** |
+`channel_subchannels_anchored_here` and `channel_generated_outputs` may help the
+agent notice local evidence. They do not license recurrence, maturity, or a
+surah-wide name. Even when a reviewed plan later exists, the canonical cold
+Layer-2 pass remains unchanged; channel disclosure is a Layer-2.5 overlay.
 
-**State B is today's state for every surah.** No ledger exists anywhere. The
-review is single-reader, no accept/reject, no maturity. Naming a channel from it
-is exactly the unearned authority `PRINCIPLES.md` §2 forbids, and the reader
-cannot tell the difference.
+## Stage 4P — Optional pericope compression (`2P`)
 
-In friction/evidence, say this in reader-workflow terms if needed: "channel
-review is first-pass only, so it was used as a suggestion source rather than as
-an established channel." Avoid unexplained infrastructure words such as
-`ledger`, `adjudication`, and `maturity` unless the reviewer specifically needs
-the exact missing artifact named.
-
-When `channel_generated_outputs` is present, it makes the generated discovery
-files available for inspection; it does not change State B into State A.
-
-Both states are described in the inlined prompt; the agent reads its bundle and
-determines which applies. The orchestrator does not need to tell it.
-
-## Stage 4 — Layer 2.5, pericope — **not implemented**
-
-No prompt, no registry entry in `instantiate.py`. Skip this stage; it is
-specified here so the dependency is visible.
-
-When it exists, a pericope agent consumes **layer 2 outputs plus surah scope**,
-never raw ayah bundles. That is the compression step that makes layer 3
-possible:
+This pass is not implemented and is not blocking for short surahs. It is
+reserved for long surahs whose Layer-2 prose does not fit one combined prompt:
+11 ayah readings are about 140 KB, while S2's 286 would be about 3.6 MB.
 
 ```
-layer 2    per ayah      ayah bundle (~300 KB)           → prose + evidence (~1.5k words)
-layer 2.5  per pericope  layer-2 OUTPUTS + surah scope   → pericope reading
-layer 3    per surah     pericope outputs + surah bundle → argument + channel candidates
+layer 2   per ayah      ayah bundle                     -> prose + evidence
+layer 2P  per pericope  layer-2 outputs + surah scope   -> pericope reading
+combined  per surah     reviewed channels + layer-2/2P  -> argument + channel prose + overlays
 ```
 
-Spans come from
-`../quran-data/data/analysis/channels/network-v3/pericopes/surah_pericopes.jsonl`
-— 351 rows across 79 surahs, mean 4.4 per surah, mean span 16.8 ayahs.
+Pericope spans come from
+`../quran-data/data/analysis/channels/network-v3/pericopes/surah_pericopes.jsonl`.
+A surah with no rows there is one pericope. `2P` is deliberately not called
+Layer 2.5: it runs before the combined pass and compresses; Layer 2.5 is the
+overlay portion of that combined pass.
 
-**A surah with no rows there is one pericope**, so the same prompt serves both
-and the stage is degenerate rather than blocking. The 35 uncovered surahs are all
-short; the minimum segmented span is 10 ayahs. S100 has zero rows and is
-therefore a single pericope.
+## Stage 5 — Build and instantiate combined Layer 3 + 2.5
 
-A pericope **may select**, like layer 3, and hands its exclusions down to layer
-2. `PRINCIPLES.md` §6's handoff table does not yet carry that row.
+**Prerequisite: Layer 2 is complete for the surah.**
 
-## Stage 5 — Run layer 3, one agent per surah
+```
+python3 scripts/build_channel_bundle.py --surah 87
+python3 scripts/check_channel_bundle.py bundles/s087/87.channel.json --surah 87
+python3 scripts/instantiate_channel.py --surah 87 \
+  --layer2-label default.v2.5.6-sol-high --date 2026-07-28
+```
 
-Blocked in the general case, and the block is measured, not projected.
-Self-contained layer-3 prompt sizes for S100:
+The bundle compiler begins with the reviewed channel systems and joins each
+root/branch citation to exact QAC/root anchors. The instantiator adds only the
+unchanged Layer-2 prose. It refuses a partial, empty, or ambiguous prose handoff.
 
-| unit | tokens |
-| --- | ---: |
-| `100_1.ayah` | 58k |
-| `100_2` … `100_11.ayah` | 85k–100k each |
-| **`100.surah`** | **907k** |
+## Stage 6 — Run one combined agent per surah
 
-`{NNN}.surah.json` *references* its ayah bundles rather than duplicating them, so
-hermetic instantiation must inline all of them. An 11-ayah surah already exceeds
-any context window. **Layer 3 is unrunnable from raw bundles on anything but the
-shortest surahs.**
+Feed `{S}.channel.prompt.md` to one cold agent. It writes:
 
-The route through stage 4 is what fixes this: 11 ayah readings at ~1.5k words is
-roughly 25k tokens. Until stage 4 exists, layer 3 can only be run by hand-feeding
-layer-2 outputs, which is not reproducible and should not be treated as a pilot
-result.
+- the primary-grounded surah argument and thesis;
+- the completed surprising channel reading;
+- `{S}.surah.channels.reviewed.json` with exact members and maturity;
+- `{S}.ayah-channel-overlays.json` and a merged preview;
+- exclusions, evidence, and friction.
 
-Layer 3 **selects** — it builds a thesis, and a thesis excludes. Its rejections
-are handed to layer 2 (`PRINCIPLES.md` §6). It emits **channel candidates** and
-does not compute maturity; adjudication is a separate step (`PLAN.md` action 8).
+There is no second channel-admission pass. Upstream review establishes the
+channel systems; this pass integrates them, derives reader-order maturity, and
+designs disclosure. The cold Layer-2 prose remains canonical.
+
+## Stage 7 — Validate plan and overlays
+
+```
+python3 scripts/check_channel_plan.py \
+  _commentary/outputs/s087-default/87.surah.channels.reviewed.json \
+  --state reviewed --bundle bundles/s087/87.channel.json
+python3 scripts/check_channel_overlays.py \
+  _commentary/outputs/s087-default/87.ayah-channel-overlays.json \
+  --plan _commentary/outputs/s087-default/87.surah.channels.reviewed.json
+```
+
+The completed preview is the human gate: the whole-surah channel prose should
+feel like recognition, while every original local surprise remains intact.
 
 ## Output contract — agent-owned
 
-Every unit produces three files. The agent writes them; the orchestrator does not
+An ayah unit produces four files. The combined surah unit produces the artifacts
+named in `_channel/PROMPT.md`. The agent writes them; the orchestrator does not
 edit them.
 
 | file | content |
 | --- | --- |
 | `{unit}.prose.md` | continuous prose, target language, single voice, no provenance markers, no wrapper label such as `=== THE PROSE ===` |
 | `{unit}.evidence.md` | phrase → bundle ref, with inference marked distinctly from bundle-traceable claims, plus a coverage note listing what was missing |
+| `{unit}.index.md` | one line per reading the prose carries — `` - `<ref>` — <clause> `` — with `[inference]` on the writer's own readings; plus one `surprise:<id>` synthesis row per earned local surprise, marked `[supports-primary]` or `[shifts-primary]`. Checked by `scripts/check_index.py` |
 | `{unit}.friction.md` | every point where the instructions were ambiguous, contradictory, unsatisfiable, or silent |
 
 For comparative runs, append a stable agent label before `.md`, for example
@@ -310,9 +354,11 @@ evidence. Prose should attach root discussion to the surface word, for example
 `{ar:ٱلْعَادِيَاتِ, tr:el-âdiyât, gloss:koşup atılanlar} kelimesinin bağlı
 olduğu kök alanı...`.
 
-Prose paragraphs should start from reader meaning, then add grammar. "Âyet önce
-hamdi Allah'a verir; bunu fiille değil, sabit bir ad cümlesiyle yapar" is better
-than opening with "Bu âyet, tek bir isim cümlesiyle yerleşik bir hüküm kurar."
+Prose paragraphs may begin with the ayah's surface, a concrete image, or a
+reader-facing claim. They should not begin with a bare grammar label or stacked
+abstractions. "Âyet önce hamdi Allah'a verir; sabit ad cümlesi bu hamdi yerleşik
+bir hüküm olarak taşır" is better than opening with "Bu âyet, tek bir isim
+cümlesiyle yerleşik bir hüküm kurar."
 
 Prose and apparatus never mix (`PRINCIPLES.md` §12). Absence goes in the
 coverage note, never in the prose — the reader does not learn a source was
@@ -332,11 +378,26 @@ For a surah, in order:
 2. `instantiate.py --surah N --layer ayah` — one process, writes every unit
 3. verify manifest byte counts against the working tree
 4. spawn one agent per ayah, in parallel, each with one prompt file
-5. collect three files per agent into `_commentary/outputs/s{NNN}/`
-6. read the friction reports **before** reading the prose
+5. collect each agent's files into `_commentary/outputs/s{NNN}/`
+6. `check_index.py --surah N` — mechanical, before any reading (ayah units);
+   add `--require-surprise` only when the run criterion requires an explicit
+   local surprise in every unit
+7. read the friction reports **before** reading the prose
+8. `build_channel_bundle.py --surah N`; validate the compact reviewed-channel bundle
+9. `instantiate_channel.py --surah N` — reads only Layer-2 prose from step 5
+10. spawn one combined Layer 3 + 2.5 agent with that prompt
+11. validate `{S}.surah.channels.reviewed.json`
+12. validate `{S}.ayah-channel-overlays.json` against the reviewed plan
+13. read the overlay preview and friction before accepting the surah prose
 
-Step 6 is deliberate. Prose reads as authoritative whether or not it is; the
-friction report is where the instructions' failures are visible.
+The ordering of steps 6 and 7 is deliberate. Prose reads as authoritative whether
+or not it is, so both the mechanical check and the friction report — where the
+instructions' failures are visible — come first.
+
+Step 9 is where the layers join, and the join is a file read: whatever Layer-2
+prose is in `_commentary/outputs/s{NNN}/` at that moment is what the combined
+pass sees. Re-running Layer 2 afterward requires re-instantiation. The channel
+manifest records every source with byte count and hash.
 
 Stages 1 and 2 are idempotent. Re-running with the same `--date` overwrites with
 identical bytes.
@@ -372,8 +433,9 @@ Those are legitimate few-shot teaching of register and should stay. They make S1
 useless as an eval surah.
 
 S100 leaks five lines, and they say the horses are unattached and a channel
-attaches them — where to look, not what to find. Near-inert for layer 2, since
-State B bars naming channels. A real thumb on the scale for layer 3.
+attaches them — where to look, not what to find. This is a real thumb on the
+scale for layer 3, but it does not supply the local secondary turns layer 2 must
+still derive from its own bundle.
 
 ## Ablation runs
 
@@ -418,20 +480,20 @@ to work, and what is not:
 | stage | state |
 | --- | --- |
 | 1 build | runs; rewritten 2026-07-27 for `quran-data`-only, preflight, pericopes, gloss join |
-| 2 instantiate | runs; verified deterministic by double-run diff |
-| 3 layer 2 | exercised **once**, on 1:6, contaminated. Prose quality high; size and shape unresolved |
-| 4 pericope | not implemented |
-| 5 layer 3 | never run; blocked on stage 4 |
+| 2 instantiate | runs for both layers; verified deterministic by double-run diff |
+| 3 layer 2 | complete for S1 (7), S87 (19), S100 (11), S103 (3) in the default lane; S87 predates explicit channel rows |
+| 4 pericope | not implemented; needed for long surahs, not for these four |
+| 5 layer 3 | instantiates; **never run** |
 
 Two instructions in the inlined prompts are currently **unsatisfiable**, and
 agents should be expected to report them:
 
 - Layer 2 is told to pick up layer 3's excluded readings. No layer 3 output
   exists, so there is nothing to pick up.
-- Layer 2 is told to pick up layer 1's `consideredNotPrimary` rejections. That
-  field is not yet recorded in the anchor seeds, so those rejections are being
-  destroyed rather than handed forward.
-
+- Layer 2 is told to pick up layer 1's `consideredNotPrimary` rejections. Only
+  `s100.1-5.primary-anchors.json` records that field; the S1 and S103 seeds have
+  none and S100:6–11 have none, so those rejections are being destroyed rather
+  than handed forward.
 Both are real gaps in the pipeline, not errors in the prompt. They are named here
 so a friction report that reports them is confirming a known state rather than
 discovering a new one.
@@ -439,5 +501,8 @@ discovering a new one.
 Three further items from the S1 baseline remain open: what counts as an
 activated reading is now answered by `commentary_obligation` in the bundle, but
 `PRINCIPLES.md` §9's never-filter rule is still not satisfiable against 143
-inter-ayah rows, and no model prose exists for a State B move — the only worked
-examples in `docs/CHANNELS.md` §3 are State A.
+inter-ayah rows. The S87 default run demonstrates that State B material can
+produce strong local resonances, but it predates the explicit channel-turn
+contract: its prose often contains the material without stating whether it
+supports or shifts the primary. A fresh run is still needed to validate the new
+handoff.

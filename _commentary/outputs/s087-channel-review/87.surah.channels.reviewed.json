@@ -1,0 +1,854 @@
+{
+  "schemaVersion": "surah-channel-plan-v1",
+  "surah": 87,
+  "reviewState": "reviewed",
+  "sourceLane": "channel-only",
+  "primaryFloorBasis": {
+    "status": "authored",
+    "sourcePath": "_translation/v1/output/tr/s087.json",
+    "sourceSha256": "ece1678669e3d171b8778783547e1a4d5d20203bc3a5079b9452ee6fe60d3b8e",
+    "apparatusStatus": "typed-primary-floor"
+  },
+  "channels": [
+    {
+      "channelId": "olculen-seyir",
+      "name_tr": "Ölçülen Seyir",
+      "statement_tr": "Biçim verme, önceden ölçme, gözetme ve eylemi sürdürme dalları, ortaya çıkan şeyin rastlantısal değil izlenen bir seyir içinde ilerlediği bir yönetim sistemi kurar.",
+      "reviewDecision": "accepted",
+      "reviewReason_tr": "Beş üyenin her biri tek ve exact bir morfem-kök çapasıyla aday dalına bağlanır; dört üye birincil değildir. Ön-ölçü, tamamlanmış biçim, plan, gözetim ve sürdürülen durum değişimi farklı ayetlerde aynı işlemin aşamalarını kurar. Sistem 87:2-5'i ve suredeki yaratma-ölçme dizisini birlikte değiştirdiği için bütün üyeleriyle kabul edildi.",
+      "wholeSurahRelation": "shifts-primary",
+      "wholeSurahShift_tr": "Sure boyunca biçim verme, ölçme, otlağı gözetme ve onu başka bir duruma geçirme, yan yana fiiller olmaktan çıkıp başlangıcı, denetimi ve sonucu bulunan tek bir yönetilen seyir olarak görünür.",
+      "sourceCandidates": [
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#ordered-formation-A",
+          "parentChannel": "Ordered Formation, Measure, and Governance",
+          "subchannelKey": "A",
+          "subchannelName": "Origination and State-Making"
+        },
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#ordered-formation-B",
+          "parentChannel": "Ordered Formation, Measure, and Governance",
+          "subchannelKey": "B",
+          "subchannelName": "Measurement, Proportion, and Fitness"
+        },
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#ordered-formation-C",
+          "parentChannel": "Ordered Formation, Measure, and Governance",
+          "subchannelKey": "C",
+          "subchannelName": "Planning, Oversight, and Reform"
+        }
+      ],
+      "members": [
+        {
+          "memberId": "bicim-oncesi-olcu",
+          "ayahRef": "87:2",
+          "qacMorphemeRef": "87:2:2:1",
+          "rootId": "root_000434",
+          "branchId": "B001",
+          "primaryStatus": "non-primary",
+          "surface_tr": "varlığa getirme",
+          "contribution_tr": "Biçim vermeyi, uygulamadan önce yapılan tahmin ve ölçü aşamasıyla açar.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:2:2:1",
+            "network-v3:s087:ordered-formation:B:خ ل ق:B001"
+          ]
+        },
+        {
+          "memberId": "tamamlanmis-bicim",
+          "ayahRef": "87:2",
+          "qacMorphemeRef": "87:2:3:2",
+          "rootId": "root_000766",
+          "branchId": "B002",
+          "primaryStatus": "primary",
+          "surface_tr": "düzgün ve eksiksiz hale getirme",
+          "contribution_tr": "Ölçünün ulaşacağı düzgün ve tamamlanmış biçimi gösterir.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:2:3:2",
+            "network-v3:s087:ordered-formation:B:س و ي:B002"
+          ]
+        },
+        {
+          "memberId": "planlanan-olcu",
+          "ayahRef": "87:3",
+          "qacMorphemeRef": "87:3:2:1",
+          "rootId": "root_001205",
+          "branchId": "B005",
+          "primaryStatus": "non-primary",
+          "surface_tr": "ölçüp hazırlama",
+          "contribution_tr": "Ölçüyü yalnız miktar değil, seyri önceden düzenleyen plan olarak işler.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:3:2:1",
+            "network-v3:s087:ordered-formation:C:ق د ر:B005"
+          ]
+        },
+        {
+          "memberId": "gozetilen-otlak",
+          "ayahRef": "87:4",
+          "qacMorphemeRef": "87:4:3:2",
+          "rootId": "root_000574",
+          "branchId": "B003",
+          "primaryStatus": "non-primary",
+          "surface_tr": "otlak",
+          "contribution_tr": "Ortaya çıkarılan alanı, seyri izlenen ve gözetilen bir süreç içine alır.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:4:3:2",
+            "network-v3:s087:ordered-formation:C:ر ع ي:B003"
+          ]
+        },
+        {
+          "memberId": "surdurulen-donusum",
+          "ayahRef": "87:5",
+          "qacMorphemeRef": "87:5:1:2",
+          "rootId": "root_000248",
+          "branchId": "B004",
+          "primaryStatus": "non-primary",
+          "surface_tr": "başka duruma çevirme",
+          "contribution_tr": "Planın yalnız başlangıç değil, yeni duruma geçişi başlatıp sürdüren icra olduğunu gösterir.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:5:1:2",
+            "network-v3:s087:ordered-formation:C:ج ع ل:B004"
+          ]
+        }
+      ],
+      "maturityByAyah": [
+        {
+          "ayahRef": "87:2",
+          "state": "emerging",
+          "newMemberIds": [
+            "bicim-oncesi-olcu",
+            "tamamlanmis-bicim"
+          ],
+          "recalledMemberIds": [],
+          "focusAyahRelation": "shifts-primary",
+          "focusAyahShift_tr": "Yaratma ile düzgünleştirme, uygulama öncesi ölçünün tamamlanmış biçime ulaşması olarak aynı işlemin iki ucu olur.",
+          "relationStatus": "statable",
+          "cumulativeImage_tr": "Önceden kestirilen ölçü, tamamlanmış bir biçime yönelmiştir."
+        },
+        {
+          "ayahRef": "87:3",
+          "state": "emerging",
+          "newMemberIds": [
+            "planlanan-olcu"
+          ],
+          "recalledMemberIds": [
+            "bicim-oncesi-olcu",
+            "tamamlanmis-bicim"
+          ],
+          "focusAyahRelation": "shifts-primary",
+          "focusAyahShift_tr": "Ölçme, önceki biçim verme aşamasını sevk eden bir plan niteliği kazanır.",
+          "relationStatus": "statable",
+          "cumulativeImage_tr": "Ön-ölçü, tamamlanmış biçim ve bunları bağlayan plan görünürdür."
+        },
+        {
+          "ayahRef": "87:4",
+          "state": "mature",
+          "newMemberIds": [
+            "gozetilen-otlak"
+          ],
+          "recalledMemberIds": [
+            "planlanan-olcu"
+          ],
+          "focusAyahRelation": "shifts-primary",
+          "focusAyahShift_tr": "Otlak, yalnız ortaya çıkarılmış bir nesne değil, planlanan seyrin gözetilen sahası olarak okunur.",
+          "relationStatus": "statable",
+          "cumulativeImage_tr": "Planlanan biçim verme, ortaya çıkan alanı izleyen bir yönetim süreci haline gelmiştir."
+        },
+        {
+          "ayahRef": "87:5",
+          "state": "complete",
+          "newMemberIds": [
+            "surdurulen-donusum"
+          ],
+          "recalledMemberIds": [
+            "gozetilen-otlak",
+            "planlanan-olcu"
+          ],
+          "focusAyahRelation": "shifts-primary",
+          "focusAyahShift_tr": "Kuru artığa çevirme, gözetilen sürecin yeni durumu başlatıp sürdüren icra aşaması olur.",
+          "relationStatus": "statable",
+          "cumulativeImage_tr": "Ön-ölçüden tamamlanmış biçime, plandan gözetim ve sonuç dönüşümüne uzanan seyir tamamlanmıştır."
+        }
+      ],
+      "maturityStatus": "reviewed",
+      "rejectedMotifs": [
+        {
+          "sourceRef": "network-v3:s087:ordered-formation:D:ه د ي:B001",
+          "reason": "other",
+          "note_tr": "87:3:3:2 için root_001580 ve root_001583 arasında kök kimliği belirsizdir; konumdan seçim yapılmadı."
+        },
+        {
+          "sourceRef": "network-v3:s087:ordered-formation:E:ر ب ب:B001",
+          "reason": "other",
+          "note_tr": "87:1:3:1 ve 87:15:3:1 için iki kök kimliği adayı vardır; lordluk üyesi tahmin edilmedi."
+        },
+        {
+          "sourceRef": "network-v3:s087:ordered-formation:D:ي س ر:B001",
+          "reason": "other",
+          "note_tr": "87:8'de aynı kökün iki morfem konumu adaydır; kolaylaştırma üyesi konumdan seçilemez."
+        },
+        {
+          "sourceRef": "network-v3:s087:ordered-formation:B:ز ك و:B004",
+          "reason": "fails-coherence",
+          "note_tr": "Uygunluk dalı tek başına planlama-gözetim işleminin zorunlu bir parçasını açıklamıyor; arınma adayına bırakıldı."
+        }
+      ]
+    },
+    {
+      "channelId": "izden-kayda",
+      "name_tr": "İzden Kayda Bilgi Dolaşımı",
+      "statement_tr": "Ayırt edici belirti, hatırlama, sözlü anma ve yazılı yaprak dalları, bilginin tanınarak bellekte dönmesi, sesle taşınması ve kalıcı kayda geçmesi biçiminde bir dolaşım sistemi kurar.",
+      "reviewDecision": "accepted",
+      "reviewReason_tr": "Ayırt edici işaret, bellekte dönüş, sözlü anma ve yazılı taşıyıcı üyeleri exact çapalarla farklı ayetlerde aynı bilginin birbirini açıklayan durumlarını kurar; üç üye birincil değildir. خ ف ي:B003 üyesi çıkarıldı: 87:7:9:1 saklı kalmayı söylerken 'örtünün kaldırılması' katkısını kurmuyor. Kalan beş üye, kimliği belirsiz okuma ve 87:9 hatırlatma adaylarına ihtiyaç duymadan çapraz-ayet dolaşımını ve sure düzeyi getiriyi sağlar.",
+      "wholeSurahRelation": "shifts-primary",
+      "wholeSurahShift_tr": "Bilmenin ayırt edici bir işaret yönünden hatırlamaya, anmaya ve önceki yapraklara uzanması, bilginin yalnız sahip olunan bir içerik değil tanınan, yeniden etkinleşen ve kayda yerleşen bir şey olduğunu görünür kılar.",
+      "sourceCandidates": [
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#knowledge-A",
+          "parentChannel": "Knowledge, Visibility, and Signs",
+          "subchannelKey": "A",
+          "subchannelName": "Knowing the Manifest and the Hidden"
+        },
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#knowledge-D",
+          "parentChannel": "Knowledge, Visibility, and Signs",
+          "subchannelKey": "D",
+          "subchannelName": "Trace, Mark, and Landmark"
+        },
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#speech-B",
+          "parentChannel": "Speech, Memory, and Written Transmission",
+          "subchannelKey": "B",
+          "subchannelName": "Remembering, Reminding, and Forgetting"
+        },
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#speech-A",
+          "parentChannel": "Speech, Memory, and Written Transmission",
+          "subchannelKey": "A",
+          "subchannelName": "Voice, Articulation, and Listening"
+        },
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#speech-C",
+          "parentChannel": "Speech, Memory, and Written Transmission",
+          "subchannelKey": "C",
+          "subchannelName": "Reading, Sheets, and Collected Text"
+        }
+      ],
+      "members": [
+        {
+          "memberId": "ayirt-edici-isaret",
+          "ayahRef": "87:7",
+          "qacMorphemeRef": "87:7:6:1",
+          "rootId": "root_001040",
+          "branchId": "B002",
+          "primaryStatus": "non-primary",
+          "surface_tr": "bilme",
+          "contribution_tr": "Bilgiyi, yokluğunda nesneyi veya yolu tanıtan ayırt edici belirti olarak başlatır.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:7:6:1",
+            "network-v3:s087:knowledge:D:ع ل م:B002"
+          ]
+        },
+        {
+          "memberId": "bellekte-donus",
+          "ayahRef": "87:10",
+          "qacMorphemeRef": "87:10:1:2",
+          "rootId": "root_000516",
+          "branchId": "B003",
+          "primaryStatus": "primary",
+          "surface_tr": "hatırlama",
+          "contribution_tr": "Erişilebilir işaretin kişide yeniden etkinleştiği bellek aşamasını sağlar.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:10:1:2",
+            "network-v3:s087:speech:B:ذ ك ر:B003"
+          ]
+        },
+        {
+          "memberId": "sozlu-anma",
+          "ayahRef": "87:15",
+          "qacMorphemeRef": "87:15:1:2",
+          "rootId": "root_000516",
+          "branchId": "B004",
+          "primaryStatus": "primary",
+          "surface_tr": "anma",
+          "contribution_tr": "Bellekte etkinleşen içeriği sesli ve paylaşılabilir bir anmaya dönüştürür.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:15:1:2",
+            "network-v3:s087:speech:A:ذ ك ر:B004"
+          ]
+        },
+        {
+          "memberId": "toplanmis-yapraklar",
+          "ayahRef": "87:18",
+          "qacMorphemeRef": "87:18:4:2",
+          "rootId": "root_000845",
+          "branchId": "B003",
+          "primaryStatus": "non-primary",
+          "surface_tr": "yazı yaprakları",
+          "contribution_tr": "Sözlü dolaşımı, sayfaları bir arada tutan kalıcı bir derleme biçimine geçirir.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:18:4:2",
+            "network-v3:s087:speech:C:ص ح ف:B003"
+          ]
+        },
+        {
+          "memberId": "yazili-tasiyici",
+          "ayahRef": "87:19",
+          "qacMorphemeRef": "87:19:1:1",
+          "rootId": "root_000845",
+          "branchId": "B002",
+          "primaryStatus": "primary",
+          "surface_tr": "yazı yaprakları",
+          "contribution_tr": "Aktarılan içeriğin somut yazılı taşıyıcısını son halkada yineler.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:19:1:1",
+            "network-v3:s087:speech:C:ص ح ف:B002"
+          ]
+        }
+      ],
+      "maturityByAyah": [
+        {
+          "ayahRef": "87:7",
+          "state": "latent",
+          "newMemberIds": [
+            "ayirt-edici-isaret"
+          ],
+          "recalledMemberIds": [],
+          "relationStatus": "not-yet-statable",
+          "cumulativeImage_tr": "Bilme fiilinde, tanımayı mümkün kılan ayırt edici işaret yönü yerleşmiştir."
+        },
+        {
+          "ayahRef": "87:10",
+          "state": "emerging",
+          "newMemberIds": [
+            "bellekte-donus"
+          ],
+          "recalledMemberIds": [
+            "ayirt-edici-isaret"
+          ],
+          "focusAyahRelation": "shifts-primary",
+          "focusAyahShift_tr": "Hatırlama, daha önceki ayırt edici işaretin kişide yeniden etkinleşmesi olarak dolaşımın ikinci aşamasını kurar.",
+          "relationStatus": "statable",
+          "cumulativeImage_tr": "İşaretle tanınan bilgi bellekte yeniden belirir."
+        },
+        {
+          "ayahRef": "87:15",
+          "state": "mature",
+          "newMemberIds": [
+            "sozlu-anma"
+          ],
+          "recalledMemberIds": [
+            "bellekte-donus"
+          ],
+          "focusAyahRelation": "shifts-primary",
+          "focusAyahShift_tr": "Anma, bellekte dönen içeriği sesli ve paylaşılabilir bir taşıma biçimine geçirir.",
+          "relationStatus": "statable",
+          "cumulativeImage_tr": "Tanıma, hatırlama ve sesle anma aynı bilgi dolaşımının görünür aşamalarıdır."
+        },
+        {
+          "ayahRef": "87:18",
+          "state": "mature",
+          "newMemberIds": [
+            "toplanmis-yapraklar"
+          ],
+          "recalledMemberIds": [
+            "sozlu-anma"
+          ],
+          "focusAyahRelation": "shifts-primary",
+          "focusAyahShift_tr": "Önceki yapraklar, sözle taşınan içeriği bir arada tutulan kalıcı derlemeye dönüştürür.",
+          "relationStatus": "statable",
+          "cumulativeImage_tr": "Tanınıp hatırlanan ve anılan bilgi, toplanmış yazılı kayda ulaşmıştır."
+        },
+        {
+          "ayahRef": "87:19",
+          "state": "complete",
+          "newMemberIds": [
+            "yazili-tasiyici"
+          ],
+          "recalledMemberIds": [
+            "toplanmis-yapraklar"
+          ],
+          "focusAyahRelation": "supports-primary",
+          "focusAyahShift_tr": "İbrahim ve Musa'nın yaprakları, önceki ayetteki derlemenin somut yazılı taşıyıcısını yineler.",
+          "relationStatus": "statable",
+          "cumulativeImage_tr": "Ayırt edici işaretten belleğe, sözlü anmadan derlenmiş ve somut yazılı taşıyıcıya uzanan dolaşım tamamlanmıştır."
+        }
+      ],
+      "maturityStatus": "reviewed",
+      "rejectedMotifs": [
+        {
+          "sourceRef": "network-v3:s087:knowledge:A:خ ف ي:B003",
+          "reason": "other",
+          "note_tr": "87:7:9:1 exact kök çapasıdır; ancak ayette saklı kalma söz konusuyken adayın 'örtüyü kaldırma' katkısı bu morfemde bağlamsal olarak etkinleşmez. Üyelikten çıkarıldı."
+        },
+        {
+          "sourceRef": "network-v3:s087:speech:C:ق ر ء:B001",
+          "reason": "other",
+          "note_tr": "87:6:1:2 için root_001210 ve root_001211 arasında kök kimliği belirsizdir; okuma üyesi alınmadı."
+        },
+        {
+          "sourceRef": "network-v3:s087:speech:B:ذ ك ر:B009",
+          "reason": "other",
+          "note_tr": "87:9'da 87:9:1:2 ile 87:9:4:2 aynı kökün iki olası morfem konumudur; hatırlatma dalı konumdan seçilmedi."
+        },
+        {
+          "sourceRef": "network-v3:s087:naming:A:س م و:B005",
+          "reason": "other",
+          "note_tr": "87:1 ve 87:15'te ad kökü üç ayrı rootId adayı taşır; adlandırma üyeleri tahmin edilmedi."
+        },
+        {
+          "sourceRef": "network-v3:s087:speech:E:ص ح ف:B005",
+          "reason": "fails-explanatory-yield",
+          "note_tr": "Metni yanlış okuma dalını destekleyecek ikinci bir işlem üyesi yoktur; tek kökün iki sayfa oluşu bozulma sistemi kurmaz."
+        },
+        {
+          "sourceRef": "network-v3:s087:knowledge:B:ج ه ر:B003",
+          "reason": "fails-coherence",
+          "note_tr": "Gözün büyüklük karşısında ezilmesi, bilgi aktarımının işlem zincirini açıklamak yerine ayrı bir görme konusu açıyor."
+        }
+      ]
+    },
+    {
+      "channelId": "bitkisel-dongu",
+      "name_tr": "Bitkisel Döngü ve Kalıcılık",
+      "statement_tr": "Ortaya çıkma, otlak, bitkisel madde, kurumuş artık, büyüme, çiftçilik ve kalıcılık dalları, yetiştirilen canlılığın ya ürüne ya da döküntüye dönüştüğü bir ekolojik sistem kurar.",
+      "reviewDecision": "accepted",
+      "reviewReason_tr": "Yedi üyenin exact morfem-kök çapaları vardır; üç birincil olmayan üye sistemi yüzey özetinden çıkarır. 87:4-5'te çıkış, otlak ve kuru bitkisel artık; 87:14'te büyüme ile yetiştiren emek; 87:17'de kalıcılık aynı ekolojik işlemin aşamalarını kurar. Böylece yerel otlak sahnesi başka ayetlerde yinelenir ve arınma-kurtuluş ile kalıcılık ayetlerini de değiştirir; bütün üyeler kabul edildi.",
+      "wholeSurahRelation": "shifts-primary",
+      "wholeSurahShift_tr": "Otlak ile kuru döküntü arasındaki dönüşüm, arınma ve kurtuluşu bitkisel büyüme ve emekle; kalıcılığı da döküntüye dönüşmeyen ürünle ilişkilendirerek ekolojik görüntüyü surenin ilerleyen ayetlerine taşır.",
+      "sourceCandidates": [
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#ecological-C",
+          "parentChannel": "Ecological Renewal and Decay",
+          "subchannelKey": "C",
+          "subchannelName": "Pasture, Herbage, and Grazing Plants"
+        },
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#ecological-D",
+          "parentChannel": "Ecological Renewal and Decay",
+          "subchannelKey": "D",
+          "subchannelName": "Dryness, Stubble, Flotsam, and Refuse"
+        },
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#ecological-E",
+          "parentChannel": "Ecological Renewal and Decay",
+          "subchannelKey": "E",
+          "subchannelName": "Young Palms and Vegetal Increase"
+        },
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#ecological-F",
+          "parentChannel": "Ecological Renewal and Decay",
+          "subchannelKey": "F",
+          "subchannelName": "Blossom, Flower, and Visible Renewal"
+        },
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#ecological-G",
+          "parentChannel": "Ecological Renewal and Decay",
+          "subchannelKey": "G",
+          "subchannelName": "Cultivation, Herding, and Inhabited Terrain"
+        },
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#goodness-B",
+          "parentChannel": "Goodness, Purification, and Moral Return",
+          "subchannelKey": "B",
+          "subchannelName": "Selection, Purity, and Success"
+        }
+      ],
+      "members": [
+        {
+          "memberId": "gorunur-cikis",
+          "ayahRef": "87:4",
+          "qacMorphemeRef": "87:4:2:1",
+          "rootId": "root_000400",
+          "branchId": "B001",
+          "primaryStatus": "primary",
+          "surface_tr": "ortaya çıkarma",
+          "contribution_tr": "Bitkisel döngünün görünür başlangıcını, örtüden çıkan ürün olarak açar.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:4:2:1",
+            "network-v3:s087:ecological:F:خ ر ج:B001"
+          ]
+        },
+        {
+          "memberId": "otlak-maddesi",
+          "ayahRef": "87:4",
+          "qacMorphemeRef": "87:4:3:2",
+          "rootId": "root_000574",
+          "branchId": "B001",
+          "primaryStatus": "primary",
+          "surface_tr": "otlak",
+          "contribution_tr": "Döngünün yetişen ve besleyen canlı maddesini sağlar.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:4:3:2",
+            "network-v3:s087:ecological:C:ر ع ي:B001"
+          ]
+        },
+        {
+          "memberId": "kurumus-artik",
+          "ayahRef": "87:5",
+          "qacMorphemeRef": "87:5:2:1",
+          "rootId": "root_001073",
+          "branchId": "B002",
+          "primaryStatus": "primary",
+          "surface_tr": "kuru değersiz döküntü",
+          "contribution_tr": "Canlı maddenin kuruyup işe yaramaz artığa dönüştüğü kayıp ucunu gösterir.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:5:2:1",
+            "network-v3:s087:ecological:D:غ ث و:B002"
+          ]
+        },
+        {
+          "memberId": "bitkisel-kutle",
+          "ayahRef": "87:5",
+          "qacMorphemeRef": "87:5:3:1",
+          "rootId": "root_000374",
+          "branchId": "B007",
+          "primaryStatus": "non-primary",
+          "surface_tr": "koyu renge çalan madde",
+          "contribution_tr": "Kararan artığın hâlâ bitkisel kütlenin dönüşmüş biçimi olduğunu korur.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:5:3:1",
+            "network-v3:s087:ecological:C:ح و ي:B007"
+          ]
+        },
+        {
+          "memberId": "vejetal-buyume",
+          "ayahRef": "87:14",
+          "qacMorphemeRef": "87:14:4:1",
+          "rootId": "root_000637",
+          "branchId": "B001",
+          "primaryStatus": "non-primary",
+          "surface_tr": "arınıp düzgünleşme",
+          "contribution_tr": "Arınmayı, içindeki hayatı artıran bitkisel büyüme yönüne çevirir.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:14:4:1",
+            "network-v3:s087:ecological:E:ز ك و:B001"
+          ]
+        },
+        {
+          "memberId": "yetistiren-emek",
+          "ayahRef": "87:14",
+          "qacMorphemeRef": "87:14:2:1",
+          "rootId": "root_001175",
+          "branchId": "B003",
+          "primaryStatus": "non-primary",
+          "surface_tr": "kurtuluşa erme",
+          "contribution_tr": "Büyümenin rastgele değil, toprağı işleyen ve ürün alan emekle ilişkisini kurar.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:14:2:1",
+            "network-v3:s087:ecological:G:ف ل ح:B003"
+          ]
+        },
+        {
+          "memberId": "kalici-urun",
+          "ayahRef": "87:17",
+          "qacMorphemeRef": "87:17:3:2",
+          "rootId": "root_000142",
+          "branchId": "B001",
+          "primaryStatus": "primary",
+          "surface_tr": "daha kalıcı",
+          "contribution_tr": "Döngünün kuru artığa karşı duran, sürekliliğini koruyan ürün ucunu tamamlar.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:17:3:2",
+            "network-v3:s087:ecological:E:ب ق ي:B001"
+          ]
+        }
+      ],
+      "maturityByAyah": [
+        {
+          "ayahRef": "87:4",
+          "state": "emerging",
+          "newMemberIds": [
+            "gorunur-cikis",
+            "otlak-maddesi"
+          ],
+          "recalledMemberIds": [],
+          "focusAyahRelation": "supports-primary",
+          "focusAyahShift_tr": "Ortaya çıkarma ile otlak, canlı ve besleyici maddenin görünür başlangıcını birlikte kurar.",
+          "relationStatus": "statable",
+          "cumulativeImage_tr": "Örtüden çıkan bitkisel madde, otlak olarak görünür hale gelmiştir."
+        },
+        {
+          "ayahRef": "87:5",
+          "state": "mature",
+          "newMemberIds": [
+            "kurumus-artik",
+            "bitkisel-kutle"
+          ],
+          "recalledMemberIds": [
+            "gorunur-cikis",
+            "otlak-maddesi"
+          ],
+          "focusAyahRelation": "supports-primary",
+          "focusAyahShift_tr": "Koyu kuru döküntü, önceki otlağın kuruyup değersiz artığa dönüşen bitkisel kütlesi olarak okunur.",
+          "relationStatus": "statable",
+          "cumulativeImage_tr": "Bitkisel çıkış, besleyici otlaktan kararmış kuru artığa uzanan bir dönüşüm göstermiştir."
+        },
+        {
+          "ayahRef": "87:14",
+          "state": "mature",
+          "newMemberIds": [
+            "vejetal-buyume",
+            "yetistiren-emek"
+          ],
+          "recalledMemberIds": [
+            "otlak-maddesi",
+            "kurumus-artik"
+          ],
+          "focusAyahRelation": "shifts-primary",
+          "focusAyahShift_tr": "Arınma ve kurtuluş, canlı artışı yetiştiren emek ile ürün alma yönünden ekolojik dönüşüme katılır.",
+          "relationStatus": "statable",
+          "cumulativeImage_tr": "Otlak ile artık arasındaki dönüşüme, bitkisel büyümeyi yetiştiren emek eklenmiştir."
+        },
+        {
+          "ayahRef": "87:17",
+          "state": "complete",
+          "newMemberIds": [
+            "kalici-urun"
+          ],
+          "recalledMemberIds": [
+            "kurumus-artik",
+            "vejetal-buyume",
+            "yetistiren-emek"
+          ],
+          "focusAyahRelation": "shifts-primary",
+          "focusAyahShift_tr": "Kalıcılık, kuru döküntüye karşı sürekliliğini koruyan yetişmiş ürün yönü kazanır.",
+          "relationStatus": "statable",
+          "cumulativeImage_tr": "Çıkış, otlak, kuruma, büyüme, yetiştirme ve kalıcı ürün uçlarıyla ekolojik döngü tamamlanmıştır."
+        }
+      ],
+      "maturityStatus": "reviewed",
+      "rejectedMotifs": [
+        {
+          "sourceRef": "network-v3:s087:ecological:A:س م و:B004",
+          "reason": "other",
+          "note_tr": "87:1'de ad kökü üç rootId adayı taşıdığı için gökyüzü üyesi kimlik bakımından kurulamadı."
+        },
+        {
+          "sourceRef": "network-v3:s087:ecological:B:ر ب ب:B013",
+          "reason": "other",
+          "note_tr": "87:1 ve 87:15'te ر ب ب kökü iki rootId adayı taşır; yağmur ve bol su sistemi tahmin edilmedi."
+        },
+        {
+          "sourceRef": "network-v3:s087:ecological:F:ب ر ه م:B002",
+          "reason": "fails-cross-ayah-recurrence",
+          "note_tr": "İbrahim adındaki çiçeklenme dalını aynı işlemde doğrulayacak ikinci tam eşleşmeli ب ر ه م üyesi yoktur."
+        },
+        {
+          "sourceRef": "network-v3:s087:animal:D:ج ع ل:B008",
+          "reason": "fails-explanatory-yield",
+          "note_tr": "Gübre böceği ve artık habitatı konu düzeyinde yakın olsa da bitkisel dönüşümün ayetlerini yeni biçimde açıklamaz."
+        }
+      ]
+    },
+    {
+      "channelId": "askida-canlilik",
+      "name_tr": "Askıda Canlılık ve Saklı Kalan",
+      "statement_tr": "Ölüm benzeri askı, yakın hayat ve elde tutulan rezerv dalları, hemen tüketilen canlılık ile sonraya saklanan süreklilik arasında bir muhafaza sistemi kurar.",
+      "reviewDecision": "accepted",
+      "reviewReason_tr": "İki üye çıkarıldı: ح ي ي:B006, olumsuzlanan 'yaşama' morfeminde hayatı esirgeme katkısını kurmuyor; ء خ ر:B003 ise arka konum imgesini muhafaza işlemine bağlamıyor. Kalan dört exact üyenin üçü birincil değildir. 87:13'te ölüm benzeri askı, 87:16'da el altındaki hayat ve 87:17'de rezerv, tüketim ile saklama arasındaki aynı sistemi farklı ayetlerde kurup son karşıtlığa ayrı getiri sağladığı için düzeltilmiş sistem kabul edildi.",
+      "wholeSurahRelation": "shifts-primary",
+      "wholeSurahShift_tr": "Ne ölen ne yaşayan askı hali ile yakın hayatın tercih edilmesi, kalıcı olanı hemen tüketilmeyen bir rezerv olarak görünür kılar; surenin son karşıtlığı süre yanında tutma ve tüketme görüntüsü kazanır.",
+      "sourceCandidates": [
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#life-B",
+          "parentChannel": "Life, Death, and Preservation",
+          "subchannelKey": "B",
+          "subchannelName": "Suspended and Diminished States"
+        },
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#life-C",
+          "parentChannel": "Life, Death, and Preservation",
+          "subchannelKey": "C",
+          "subchannelName": "Sparing Life and Preserving Bonds"
+        },
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#life-D",
+          "parentChannel": "Life, Death, and Preservation",
+          "subchannelKey": "D",
+          "subchannelName": "Remainder, Reserve, and Controlled Holding"
+        },
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#priority-B",
+          "parentChannel": "Priority, Delay, and Cyclical Time",
+          "subchannelKey": "B",
+          "subchannelName": "Later Outcome, Following, and the Rear"
+        },
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#goodness-D",
+          "parentChannel": "Goodness, Purification, and Moral Return",
+          "subchannelKey": "D",
+          "subchannelName": "The Lower Life and the Enduring Outcome"
+        },
+        {
+          "sourceType": "network-v3",
+          "sourceRef": "quran-data/data/analysis/channels/network-v3/s087/review/reader_a_pilot.md#elevation-B",
+          "parentChannel": "Elevation, Proximity, and Measured Space",
+          "subchannelKey": "B",
+          "subchannelName": "Nearness, Side, Separation, and Rear"
+        }
+      ],
+      "members": [
+        {
+          "memberId": "olumsi-aski",
+          "ayahRef": "87:13",
+          "qacMorphemeRef": "87:13:3:1",
+          "rootId": "root_001454",
+          "branchId": "B008",
+          "primaryStatus": "non-primary",
+          "surface_tr": "ölmeme",
+          "contribution_tr": "Ölümü kesin son olmaktan çıkarıp ölüm benzeri, askıda bir durum olarak sisteme sokar.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:13:3:1",
+            "network-v3:s087:life:B:م و ت:B008"
+          ]
+        },
+        {
+          "memberId": "yakin-hayat",
+          "ayahRef": "87:16",
+          "qacMorphemeRef": "87:16:3:2",
+          "rootId": "root_000383",
+          "branchId": "B013",
+          "primaryStatus": "primary",
+          "surface_tr": "bu dünya yaşamı",
+          "contribution_tr": "Koruma tercihinin tüketilmeye açık canlılık nesnesini verir.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:16:3:2",
+            "network-v3:s087:life:A:ح ي ي:B013"
+          ]
+        },
+        {
+          "memberId": "yakindaki-ufuk",
+          "ayahRef": "87:16",
+          "qacMorphemeRef": "87:16:4:2",
+          "rootId": "root_000493",
+          "branchId": "B001",
+          "primaryStatus": "non-primary",
+          "surface_tr": "bu dünya",
+          "contribution_tr": "Dünya hayatını zamansal olduğu kadar el altında ve yakın ufuk olarak konumlandırır.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:16:4:2",
+            "network-v3:s087:elevation:B:د ن و:B001"
+          ]
+        },
+        {
+          "memberId": "sakli-kalan",
+          "ayahRef": "87:17",
+          "qacMorphemeRef": "87:17:3:2",
+          "rootId": "root_000142",
+          "branchId": "B004",
+          "primaryStatus": "non-primary",
+          "surface_tr": "daha kalıcı",
+          "contribution_tr": "Gerideki ufku, hemen tüketilmeyip elde tutulan rezerv olarak tamamlar.",
+          "evidenceRefs": [
+            "bundle:anchorInventory:87:17:3:2",
+            "network-v3:s087:life:D:ب ق ي:B004"
+          ]
+        }
+      ],
+      "maturityByAyah": [
+        {
+          "ayahRef": "87:13",
+          "state": "latent",
+          "newMemberIds": [
+            "olumsi-aski"
+          ],
+          "recalledMemberIds": [],
+          "relationStatus": "not-yet-statable",
+          "cumulativeImage_tr": "Ne ölüm ne hayat olan durum, ölüm benzeri bir askı hali olarak yerleşmiştir."
+        },
+        {
+          "ayahRef": "87:16",
+          "state": "emerging",
+          "newMemberIds": [
+            "yakin-hayat",
+            "yakindaki-ufuk"
+          ],
+          "recalledMemberIds": [
+            "olumsi-aski"
+          ],
+          "focusAyahRelation": "shifts-primary",
+          "focusAyahShift_tr": "Dünya hayatı, askıda kalma ihtimaline karşı el altında bulunan ve tüketilmeye açık yakın canlılık olarak konumlanır.",
+          "relationStatus": "statable",
+          "cumulativeImage_tr": "Ölüm benzeri askı ile el altındaki yakın hayat, canlılığın kullanım ve tükenme yönünü görünür kılar."
+        },
+        {
+          "ayahRef": "87:17",
+          "state": "complete",
+          "newMemberIds": [
+            "sakli-kalan"
+          ],
+          "recalledMemberIds": [
+            "yakin-hayat",
+            "yakindaki-ufuk"
+          ],
+          "focusAyahRelation": "shifts-primary",
+          "focusAyahShift_tr": "Daha kalıcı olan, yakın hayatın karşısında hemen tüketilmeyip elde tutulan rezerv yönü kazanır.",
+          "relationStatus": "statable",
+          "cumulativeImage_tr": "Askıda canlılık, yakın ve tüketilebilir hayat ile saklanan kalıcı rezerv arasındaki muhafaza sistemi tamamlanmıştır."
+        }
+      ],
+      "maturityStatus": "reviewed",
+      "rejectedMotifs": [
+        {
+          "sourceRef": "network-v3:s087:life:C:ح ي ي:B006",
+          "reason": "other",
+          "note_tr": "87:13:6:1 exact kök çapasıdır; fakat 'yaşamaz' olumsuzlaması, adayın hayatı esirgeme dalını bu morfemde etkinleştirmez. Üyelikten çıkarıldı."
+        },
+        {
+          "sourceRef": "network-v3:s087:priority:B:ء خ ر:B003",
+          "reason": "fails-coherence",
+          "note_tr": "87:17:1:3 exact kök çapasıdır; arka konum dalı yakınlıkla mekânsal karşıtlık kurabilse de rezerv ve muhafaza işlemini açıklamaz. Üyelikten çıkarıldı."
+        },
+        {
+          "sourceRef": "network-v3:s087:goodness:D:ء ث ر:B001",
+          "reason": "other",
+          "note_tr": "87:16:2:1 için root_000011 ve root_000210 arasında kök kimliği belirsizdir; tercih üyesi tahmin edilmedi."
+        },
+        {
+          "sourceRef": "network-v3:s087:priority:A:ء و ل:B001",
+          "reason": "other",
+          "note_tr": "87:18:5:2 için root_000067 ve root_001684 arasında kök kimliği belirsizdir; ilk/önceki üyesi alınmadı."
+        },
+        {
+          "sourceRef": "network-v3:s087:life:E:ق ر ء:B008",
+          "reason": "other",
+          "note_tr": "87:6 okuma kökü iki rootId adayı taşır; salgın dalı bunun üzerinden kurulmadı."
+        },
+        {
+          "sourceRef": "network-v3:s087:life:G:م و ت:B014",
+          "reason": "fails-coherence",
+          "note_tr": "Av hayvanının ölümünü doğrulama, askı ve muhafaza sistemini açıklamak yerine avcılık sahnesi açar."
+        },
+        {
+          "sourceRef": "network-v3:s087:priority:D:ق ر ء:B002",
+          "reason": "fails-explanatory-yield",
+          "note_tr": "Bedensel veya ay döngüsü adayları çok sayıda konu adı üretir, fakat yakın hayat ile korunan kalan ilişkisini yeni biçimde açıklamaz."
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewerId": "codex-s087-channel-independent-review",
+    "reviewedAt": "2026-07-28",
+    "summary_tr": "Dört taslak kanal bağımsız olarak beş üyelik testiyle incelendi. Üç bağlamsal veya sistemik olarak desteklenmeyen üye çıkarılıp reddedilen motiflere taşındı; kalan 21 exact üye dört düzeltilmiş kanalı sürdürdü. Dört kanal kabul edildi ve yalnız karşılaşılan üyelere dayalı, geriye gitmeyen olgunluk yolları yazıldı. Kök ve morfem kimliği belirsiz adaylar geri alınmadı; temellendirme Layer-2.5 bütünleştirmesine ertelendi."
+  }
+}

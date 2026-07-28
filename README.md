@@ -59,7 +59,9 @@ the reader will ever see, and it is doing work.
 **Resonance.** Intra-ayah and near inter-ayah resonance, *explained rather than
 catalogued*. If the output is a list of activated readings, the work has not been
 done — the reader already has the catalogue and cannot use it. Readings must be
-shown connecting.
+shown connecting. When secondary resonances cohere, the prose states the
+resulting local surprise clearly: what it makes newly visible and whether it
+supports the primary reading or shifts its frame.
 
 Layer 2 does not select. It carries the full field, including readings no thesis
 could use.
@@ -73,20 +75,21 @@ S100 is the case that requires this layer to exist. Under the primary reading th
 running horses have nothing to do with the rest of the surah. Only the resonances
 attach them — and that attachment is a surprise, which is the point.
 
-Layer 3 selects. A thesis excludes, and what it excludes is handed down to layer
-2, which is obliged to carry it.
+Layer 3 selects. A thesis excludes, and its exclusion artifact is checked
+against the full field Layer 2 already preserved. Layer 2 is not rerun with
+knowledge of the thesis.
 
 ## The layer 2 / layer 3 problem
 
 Layer 3 is where disorientation risk peaks: a full channel argument delivered
 cold will unmoor a reader with no Arabic.
 
-The mechanism that solves it — **channel maturity gating disclosure** — is
-specified in [`docs/CHANNELS.md`](docs/CHANNELS.md). In short: a channel surfaces
-in layer 2 only once enough of its members are in place that naming it explains
-rather than mystifies, and it always enters through *this ayah's own word*, never
-as an announcement from above. By the time the reader reaches layer 3, they have
-been walked into it.
+The mechanism that solves it is specified in
+[`docs/CHANNELS.md`](docs/CHANNELS.md). Layer 2 makes each grounded local
+surprise explicit through *this ayah's own word*. The combined Layer 3 + 2.5
+lane then renders already-reviewed surah channels and returns only their
+maturity-bounded increments to the ayah sequence. Local surprise and
+surah-wide channel remain distinct, and the cold Layer-2 prose is unchanged.
 
 ## Layout
 
@@ -98,9 +101,15 @@ STATUS.md             per-surah coverage
 docs/                 sources, available data, channels, open questions
 scripts/              shared bundle builder for both commentary levels
 bundles/              generated commentary input bundles
-_commentary/          hermetic commentary prompts and agent-authored outputs
+_commentary/          hermetic prompts and outputs for Layers 2, 3, review, 2.5
 _translation/         layer 1 — the spine
 _ayah_commentary/     layer 2 — function and resonance, per ayah
+  _surah_commentary/    legacy separate layer-3 task
+  _channel/             combined layer 3 + 2.5 — prose, maturity, and overlays
+  _channel_review/      legacy review task for older draft plans
+  _channel_integration/ legacy separate layer-2.5 task
+  _surah_final/         legacy final reconciliation task
+schemas/              channel-plan and overlay contracts
 _surah_commentary/    layer 3 — the whole image
 _words/               not started
 _curriculum/          not started

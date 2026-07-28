@@ -3,10 +3,11 @@
   "ayah": null,
   "layer": "surah",
   "language": "tr",
-  "generated": "2026-07-27",
+  "generated": "2026-07-28",
+  "profile": null,
   "task_document": {
     "path": "_surah_commentary/PROMPT.md",
-    "bytes": 8091
+    "bytes": 10407
   },
   "governing_documents": [
     {
@@ -15,7 +16,7 @@
     },
     {
       "path": "COMMENTARY_SPEC.md",
-      "bytes": 6662
+      "bytes": 8685
     },
     {
       "path": "docs/CHANNELS.md",
@@ -25,53 +26,171 @@
   "bundle_files": [
     {
       "path": "bundles/s100/100.surah.json",
-      "bytes": 122060
-    },
-    {
-      "path": "bundles/s100/100_1.ayah.json",
-      "bytes": 189308
-    },
-    {
-      "path": "bundles/s100/100_2.ayah.json",
-      "bytes": 297623
-    },
-    {
-      "path": "bundles/s100/100_3.ayah.json",
-      "bytes": 307346
-    },
-    {
-      "path": "bundles/s100/100_4.ayah.json",
-      "bytes": 316675
-    },
-    {
-      "path": "bundles/s100/100_5.ayah.json",
-      "bytes": 324364
-    },
-    {
-      "path": "bundles/s100/100_6.ayah.json",
-      "bytes": 353819
-    },
-    {
-      "path": "bundles/s100/100_7.ayah.json",
-      "bytes": 312762
-    },
-    {
-      "path": "bundles/s100/100_8.ayah.json",
-      "bytes": 343678
-    },
-    {
-      "path": "bundles/s100/100_9.ayah.json",
-      "bytes": 341558
-    },
-    {
-      "path": "bundles/s100/100_10.ayah.json",
-      "bytes": 321108
-    },
-    {
-      "path": "bundles/s100/100_11.ayah.json",
-      "bytes": 357800
+      "bytes": 314999
     }
   ],
-  "output_bytes": 3628941,
+  "bundle_root": "/Volumes/OZTURK/_projects/prose_generation/bundles",
+  "output_bytes": 505070,
+  "upstream_layer": {
+    "layer": "ayah",
+    "inline_ayah_bundles": false,
+    "coverage": {
+      "directory": "_commentary/outputs/s100-default",
+      "label": null,
+      "kinds": [
+        "prose",
+        "evidence",
+        "index"
+      ],
+      "ayahs": 11,
+      "index_absent_for_ayahs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "files": [
+      {
+        "path": "_commentary/outputs/s100-default/100_1.prose.default.v2.5.6-sol-high.md",
+        "ayah": 1,
+        "kind": "prose",
+        "bytes": 4520
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_1.evidence.default.v2.5.6-sol-high.md",
+        "ayah": 1,
+        "kind": "evidence",
+        "bytes": 8043
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_2.prose.default.v2.5.6-sol-high.md",
+        "ayah": 2,
+        "kind": "prose",
+        "bytes": 4873
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_2.evidence.default.v2.5.6-sol-high.md",
+        "ayah": 2,
+        "kind": "evidence",
+        "bytes": 7149
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_3.prose.default.v2.5.6-sol-high.md",
+        "ayah": 3,
+        "kind": "prose",
+        "bytes": 5451
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_3.evidence.default.v2.5.6-sol-high.md",
+        "ayah": 3,
+        "kind": "evidence",
+        "bytes": 6804
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_4.prose.default.v2.5.6-sol-high.md",
+        "ayah": 4,
+        "kind": "prose",
+        "bytes": 4520
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_4.evidence.default.v2.5.6-sol-high.md",
+        "ayah": 4,
+        "kind": "evidence",
+        "bytes": 8426
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_5.prose.default.v2.5.6-sol-high.md",
+        "ayah": 5,
+        "kind": "prose",
+        "bytes": 5569
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_5.evidence.default.v2.5.6-sol-high.md",
+        "ayah": 5,
+        "kind": "evidence",
+        "bytes": 7675
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_6.prose.default.v2.5.6-sol-high.md",
+        "ayah": 6,
+        "kind": "prose",
+        "bytes": 6999
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_6.evidence.default.v2.5.6-sol-high.md",
+        "ayah": 6,
+        "kind": "evidence",
+        "bytes": 7331
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_7.prose.default.v2.5.6-sol-high.md",
+        "ayah": 7,
+        "kind": "prose",
+        "bytes": 4981
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_7.evidence.default.v2.5.6-sol-high.md",
+        "ayah": 7,
+        "kind": "evidence",
+        "bytes": 7381
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_8.prose.default.v2.5.6-sol-high.md",
+        "ayah": 8,
+        "kind": "prose",
+        "bytes": 5929
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_8.evidence.default.v2.5.6-sol-high.md",
+        "ayah": 8,
+        "kind": "evidence",
+        "bytes": 7257
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_9.prose.default.v2.5.6-sol-high.md",
+        "ayah": 9,
+        "kind": "prose",
+        "bytes": 5143
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_9.evidence.default.v2.5.6-sol-high.md",
+        "ayah": 9,
+        "kind": "evidence",
+        "bytes": 7132
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_10.prose.default.v2.5.6-sol-high.md",
+        "ayah": 10,
+        "kind": "prose",
+        "bytes": 4705
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_10.evidence.default.v2.5.6-sol-high.md",
+        "ayah": 10,
+        "kind": "evidence",
+        "bytes": 6622
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_11.prose.default.v2.5.6-sol-high.md",
+        "ayah": 11,
+        "kind": "prose",
+        "bytes": 5898
+      },
+      {
+        "path": "_commentary/outputs/s100-default/100_11.evidence.default.v2.5.6-sol-high.md",
+        "ayah": 11,
+        "kind": "evidence",
+        "bytes": 7621
+      }
+    ]
+  },
   "output_file": "100.surah.prompt.md"
 }

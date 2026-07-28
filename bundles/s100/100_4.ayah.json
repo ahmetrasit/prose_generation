@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-28T10:12:53.907731+00:00",
+  "generated_at": "2026-07-28T15:42:47.329847+00:00",
   "surah": 100,
   "ayah": 4,
   "ayahRef": "100:4",
@@ -3481,7 +3481,23 @@
   "root_lexicon": {
     "root_000210": {
       "root_ar": "ث و ر",
+      "qac_roots_ar": [
+        "ث و ر"
+      ],
       "root_id": "root_000210",
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ث و ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 4
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "1105ba13a36b09372484ddc85e65bf0c482c0672ab22495ccdd9b8e3a7b26d98",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5560,9 +5576,2509 @@
       },
       "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000210.json"
     },
+    "root_000011": {
+      "root_ar": "ث و ر",
+      "qac_roots_ar": [
+        "ث و ر"
+      ],
+      "root_id": "root_000011",
+      "root_mapping_role": "non_dominant_split_target",
+      "root_mapping_roles": [
+        "non_dominant_split_target"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ث و ر",
+          "root_mapping_role": "non_dominant_split_target",
+          "target_rank": 2,
+          "furuq_resolution": "root_norm_unique",
+          "occurrences": 1
+        }
+      ],
+      "dictionary_entry": {
+        "inputs_sha256": "c1b12fa6fd967fd3f7af2d223cf84538b920eac2d7ba08bd64568addd4b4a948",
+        "artifact_format": "dictionary-v2-root-entry-draft-v1",
+        "generated_by": "v2/scripts/accept_root_writer.py",
+        "root_envelope_id": "root_000011",
+        "language": "tr",
+        "branches": [
+          {
+            "branch_ref": "root_000011/B001",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, belirli kalıplarda bir şeyi en başa alma ile bir işe yönelip onu yapmaya kesin karar verme kullanımlarını birlikte doğrular.",
+              "boundary_note": "Anlam yalnızca verilen kalıplara bağlıdır; genel bir başlama, seçme ya da isteme anlamına genişletilmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "collocation",
+              "note": "Dal yalnızca tanıklanan kalıplarda sözlükselleşir; tanım kökün yalın kullanımına taşınmaz."
+            },
+            "concept_map": {
+              "definition": "Belirli kalıplarda bir şeyi diğerlerinden önce ele almak ya da bir işi yapmaya kendini verip kesin biçimde niyetlenmektir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir şeyi sıra bakımından ilk yere koyar.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "associated_use",
+                  "statement": "Başka bir kalıpta kişinin bir işe yönelip onu yapmaya karar verdiğini bildirir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar, kalıplaşmış kullanımlarda hem ilk sıraya koyma hem de bir işi yapmaya kesin yönelme anlamlarını destekler.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "en başa almak; yapmaya kesin karar vermek",
+              "applicability": "Tanıklanan kalıpların sıra önceliği ve kesin niyet bildiren iki kullanımını birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Hem ilk sıraya koymayı hem de eyleme kesin yönelişi korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "her şeyden önce",
+                "usage_role": "contextual",
+                "applicability": "Bir nesne ya da işin diğerlerinden önce ele alınmasını bildiren kalıplarda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Sıra bakımından ilk olma yönünü doğal biçimde korur.",
+                  "loses": "Bir işi yapmaya kesin karar verme yönünü kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "yapmaya kesin karar verdi",
+                "usage_role": "contextual",
+                "applicability": "Bir kişinin kendini belirli bir işe verip onu yapmaya niyetlendiği bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Kesin niyet ve eyleme yönelme yönünü korur.",
+                  "loses": "Bir şeyi sırada ilk yere koyma yönünü kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_001",
+                "rendering_kind": "ordinary",
+                "target_gloss": "her şeyden önce"
+              },
+              {
+                "lexical_unit_id": "lu_002",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ilk iş olarak"
+              },
+              {
+                "lexical_unit_id": "lu_003",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yapmaya kesin karar verdi"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000067/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Yalnız belirli kalıplarda ilk sıraya koymayı ve ayrıca kesin eylem niyetini anlatır.",
+                "neighbor_only": "Zamanda, sırada veya ilerleyişte genel ilkliği ve önceliği adlandırır.",
+                "gloss": "ilk olma ve ilk sıraya koyma",
+                "shared_zone": "İki dal da bir şeyin başta veya diğerlerinden önce bulunması alanında buluşur.",
+                "distinction": "Komşu dal genel ilkliği anlatırken bu dal kalıpla sınırlı bir önceleme işlemini ve ayrı bir kesin niyet kullanımını içerir."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yayımlanmayanlar yalnızca başlama, isteme, seçme veya aynı kökün uzak dallarıyla genel alan ortaklığı gösterir.",
+            "branch_image_ar": "تقديم الشيء في البدء أو الاختيار",
+            "what_is_ar": "يدخل فيه البدء بالشيء أولا، وصيغ آثرا ما وآثر ذي أثير، وما يقرب من اختيار الفعل والعزم عليه.",
+            "what_is_not_ar": "ليس هذا فرند السيف ولا أثر الجرح ولا رواية الحديث.",
+            "source_phrase_ar": "له أصل تقديم الشيء (maqayis)؛ آثرا ما وآثر ذي أثير أي أول كل شيء (maqayis;sihah;tahdhib)؛ إن آثرت أن تأتينا فأتنا وقد أثر أن يفعل ذلك الأمر أي فرغ له وعزم عليه (tahdhib)؛ خذه آثرا ما وإثرا ما وأثر ذي أثير (mufradat)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000011/B002",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, sözün ya da bilginin başkasından aktarılmasını, bu aktarımın yazıyla kalıcılaşmasını ve kişilerin anlatılagelen değerli işlerini kapsar.",
+              "boundary_note": "Dal fiziksel bir izin kalmasına değil, bilginin aktarılıp anlatı veya yazı halinde sürmesine dayanır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Çekimli biçimler ile belirli söz öbekleri birlikte tanıklıdır; her kullanım kendi aktarım veya kalıcılık sınırı içinde tutulur."
+            },
+            "concept_map": {
+              "definition": "Bir sözün, bilginin veya geçmişteki değerli bir işin başkasından aktarılıp anlatı ya da yazı yoluyla sonraki kişilere ulaşmasıdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Söz veya bilgi bir kişiden diğerine aktarılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Aktarılan bilgi yazıya geçirilerek kalıcı bir bilgi izi bırakabilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "specialization",
+                  "statement": "Bir kişinin anlatılagelen değerli işleri ve saygınlık vesileleri de bu aktarımın konusu olur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar, haber ve bilginin başkasından aktarılmasında birleşir; yazılı kalıcılığı ve insanların anlatılan değerli işlerini de bu çekirdeğe bağlar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "aktarılıp kalıcılaşan anlatı veya bilgi",
+              "applicability": "Sözlü aktarımı, yazıyla kalıcılığı ve bir kişi hakkında anlatılagelen değerli işleri kapsayan üst anlatımdır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Aktarım işlemini, kalıcılığı ve anlatılan geçmiş işlerini birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "rivayet edilen",
+                "usage_role": "contextual",
+                "applicability": "Bir sözün kuşaktan kuşağa ya da kişiden kişiye aktarıldığı bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Başkalarından aktarılarak sürdürülme yönünü korur.",
+                  "loses": "Yazılı bilgi kalıntısını ve kişinin anlatılan değerli işlerini tek başına göstermez.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "anlatılagelen değerli işler",
+                "usage_role": "explanatory",
+                "applicability": "Bir kişinin geçmişten beri aktarılan övgüye değer işleri söz konusu olduğunda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Kişinin anlatılarak yaşatılan değerli işlerini korur.",
+                  "loses": "Genel söz ve bilgi aktarımını kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_004",
+                "rendering_kind": "ordinary",
+                "target_gloss": "sözü başkasından aktardı"
+              },
+              {
+                "lexical_unit_id": "lu_005",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kuşaktan kuşağa aktarılan söz"
+              },
+              {
+                "lexical_unit_id": "lu_006",
+                "rendering_kind": "ordinary",
+                "target_gloss": "anlatılagelen değerli işler"
+              },
+              {
+                "lexical_unit_id": "lu_010",
+                "rendering_kind": "ordinary",
+                "target_gloss": "aktarılmış veya yazıya geçirilmiş bilgi"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000615/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bilginin yazıyla kalıcılaşmasını ve kişilerin anlatılagelen değerli işlerini de kapsar.",
+                "neighbor_only": "Şiir aktarımını ve başkasına ezberletmeye varan öğretimi açıkça kapsar.",
+                "gloss": "haber ve söz aktarma",
+                "shared_zone": "Her iki dalda söz, haber veya bilgi bir kişiden başkasına aktarılır.",
+                "distinction": "Komşu dal genel haber ve şiir aktarımına odaklanır; bu dal aktarılmış içeriğin kalıcılığını ve geçmiş işler hakkındaki anlatıları da içerir."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; diğerleri yazı, konuşma, öğrenme, miras veya aynı kökün farklı anlamlarıyla yalnızca kısmi alan ortaklığı taşır.",
+            "branch_image_ar": "نقل الخبر حتى يصير مأثورا",
+            "what_is_ar": "يدخل فيه أثر الحديث، وحديث مأثور، ورواية العلم أو كتابته، والمآثر التي تروى عن الناس.",
+            "what_is_not_ar": "ليس هذا مجرد علامة حسية باقية ولا إيثارا للغير.",
+            "source_phrase_ar": "من قولك أثرت الحديث وحديث مأثور (maqayis)؛ أثرت الحديث إذا ذكرته عن غيرك وحديث مأثور (sihah)؛ حديث مأثور أي يخبر الناس به بعضهم بعضا (tahdhib)؛ أثرت العلم رويته وآثره أثرا وأثارة وأثرة (mufradat)؛ المآثر ما يروى من مكارم الإنسان (mufradat;tahdhib)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000011/B003",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, görülebilen ya da dolaylı biçimde anlaşılabilen, önceki bir varlık veya olayın geride kalan belirtisini açıkça tanımlar.",
+              "boundary_note": "Dal, belirtinin kendisini kapsar; o belirtiyi izleme eylemini veya özel kılıç terimini kapsamaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Genel biçim ile yara ve bilgi öbeklerine bağlı özel kullanımlar ayrıştırılır; özel örnekler tüm dala egemen kılınmaz."
+            },
+            "concept_map": {
+              "definition": "Bir şeyin var olmuş veya bir olayın gerçekleşmiş olduğunu gösteren, geride kalmış görünür ya da çıkarımsal belirti ve kalıntıdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Geçmiş bir varlık ya da olaydan geriye bir belirti kalır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "example",
+                  "statement": "İyileşen bir yaranın bedende bıraktığı iz bu çekirdeğin somut örneğidir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "extension",
+                  "statement": "Bilgiden kalan küçük bir parça veya onu gösteren belirti de aynı kalıntı ilişkisiyle adlandırılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar, önceki bir şeyin varlığına işaret eden kalıntı ve belirti çekirdeğinde birleşir; yara izi ile bilgiden kalan parçayı örnekler.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "geride kalan belirti veya iz",
+              "applicability": "Fiziksel ve çıkarımsal belirtileri, geçmişteki varlık ya da olaya işaret etme ilişkisiyle birlikte kapsar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Kalıntıyı ve onun geçmişteki şeye işaret etme işlevini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "iz",
+                "usage_role": "general",
+                "applicability": "Geçmiş bir nesne veya olaydan kalan görünür belirti için doğal karşılıktır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Geride kalan görünür belirti çekirdeğini korur.",
+                  "loses": "Bilgiden kalan parça gibi soyut kalıntıları açıkça belirtmez.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "bilgiden kalma bir parça",
+                "usage_role": "explanatory",
+                "applicability": "Geçmiş bilgiden kalan küçük bölüm veya belirti söz konusu olduğunda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Bilgi alanındaki kalıntı ve belirti yönünü korur.",
+                  "loses": "Genel fiziksel iz ve yara izi kullanımlarını kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_007",
+                "rendering_kind": "ordinary",
+                "target_gloss": "geride kalan iz"
+              },
+              {
+                "lexical_unit_id": "lu_008",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yara izi"
+              },
+              {
+                "lexical_unit_id": "lu_009",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bilgiden kalma bir parça veya belirti"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000287/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Görünür olmayan çıkarımsal belirtileri ve bilgiden kalan parçayı da kapsar.",
+                "neighbor_only": "Deride bir yaradan kalan belirtiyi özellikle öne çıkarır.",
+                "gloss": "geride kalan iz",
+                "shared_zone": "Her iki dal, bir şey geçtikten sonra kalan görünür belirtiyi anlatır.",
+                "distinction": "Komşu dal özellikle maddi ve bedensel kalıntıya yakındır; bu dal daha genel olup soyut bilgi kalıntısını da içine alır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yayımlanmayanlar küçük iz, işaretleme, bilme veya aynı kökün başka dallarıyla daha uzak ve tekrarlı karşılaştırmalar sunar.",
+            "branch_image_ar": "علامة باقية تدل على ما كان",
+            "what_is_ar": "يدخل فيه الأثر والرسم والبقية والعلامة التي تدل على وجود شيء أو حدوثه، ومنها أثر الجرح والسجود وأثارة من علم.",
+            "what_is_not_ar": "لا يدخل فيه معنى الاقتفاء نفسه، ولا فرند السيف بوصفه مصطلحا خاصا، ولا الاستئثار بالشيء.",
+            "source_phrase_ar": "الأثر بقية ما يرى من كل شيء وما لا يرى بعد أن تبقى فيه علقة (maqayis)؛ الأثر بالتحريك ما بقي من رسم الشيء (sihah)؛ أثر الشيء حصول ما يدل على وجوده (mufradat)؛ أثارة من علم بقية من علم وعلامة (tahdhib)؛ الأثر من الجرح وغيره في الجسد يبرأ ويبقى أثره (sihah;tahdhib)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000011/B004",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, önden giden bir kişinin ardından gitmeyi ve onun bıraktığı yoldan varlığını belirleyerek ilerlemeyi birlikte destekler.",
+              "boundary_note": "Burada çekirdek, kalan işaret değil o işarete veya önceki kişiye göre gerçekleştirilen takip eylemidir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Takip bildiren söz öbeği ile öncekinin yolunu gösteren ad kullanımı ayrı tutulur ve yalın bir iz anlamında birleştirilmez."
+            },
+            "concept_map": {
+              "definition": "Önden giden birinin ardından, onun geçtiğini gösteren belirtileri kılavuz edinerek ilerlemek veya önce gidenin geçtiğini gösteren yoldur.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir kişi, kendisinden önce ilerleyenin ardından gider.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Öncekinin geçtiğini gösteren yol, takip eden için yön bulma aracı olur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar, önce gidenin ardından ilerleme ve onun geçtiği yolu belirti olarak kullanma anlamlarında birleşir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "izinden giderek takip etmek",
+              "applicability": "Hem önceki kişinin ardından gitme işlemini hem de bıraktığı yolu kılavuz edinmeyi karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Ardıllığı, takip eylemini ve öncekinin yolundan yararlanmayı korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "ardından",
+                "usage_role": "contextual",
+                "applicability": "Bir kişinin başka birinin hemen sonrasında geldiği veya gittiği cümlelerde kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Önce giden kişiye göre ardıllık ilişkisini korur.",
+                  "loses": "Yol ve belirtileri izleyerek takip etme işlemini açıkça söylemez.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "öncekinin geçtiğini gösteren yol",
+                "usage_role": "explanatory",
+                "applicability": "Takip sırasında önceki kişinin güzergahını belirlemeye yarayan yol için kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Yolun önceki kişiyi göstermesi işlevini korur.",
+                  "loses": "Bu yolu kullanan kişinin takip eylemini tek başına kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_011",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ardından, izinden giderek"
+              },
+              {
+                "lexical_unit_id": "lu_012",
+                "rendering_kind": "ordinary",
+                "target_gloss": "öncekinin geçtiğini gösteren yol"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001247/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Öncekinin geçtiğini gösteren yolun ad olarak kullanımını da içerir.",
+                "neighbor_only": "Bir şeyin diğerinden sonra gelmesini ve kişilerin peş peşe sıralanmasını daha genel biçimde kapsar.",
+                "gloss": "izin ardından gitmek",
+                "shared_zone": "Her iki dal, önce gidenin ardından onun izini izleyerek ilerlemeyi kapsar.",
+                "distinction": "Komşu dal genel takip ve ardışıklığa uzanır; bu dal önceki kişinin bıraktığı yolun kılavuzluğunu özellikle korur."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; diğerleri genel yön, yol, arama, ardışıklık veya aynı kökün ayrı anlamlarıyla daha zayıf ya da tekrarlı bağ kurar.",
+            "branch_image_ar": "السير على إثر سابق",
+            "what_is_ar": "يدخل فيه الاقتفاء والاتباع والخروج أو المجيء في أثر شخص، والطريق المستدل به على من تقدم.",
+            "what_is_not_ar": "ليس هو مجرد بقاء العلامة دون فعل الاتباع، ولا هو اختيار شخص على غيره.",
+            "source_phrase_ar": "الأثر الاستقفاء والاتباع وذهبت في إثره (maqayis)؛ خرجت في إثره أي في أثره (sihah)؛ جاء فلان على إثري وأثري وجاء في أثره وإثره (tahdhib)؛ الطريق المستدل به على من تقدم آثار وهم أولاء على أثري (mufradat)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000011/B005",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, bir kişi veya şeyi başkasına üstün tutmayı ve bu üstün tutma sonucunda özel yakınlık gören kişiyi açıkça kapsar.",
+              "boundary_note": "Başkası lehine tercih söz konusudur; bir şeyi yalnız kendine ayırma anlamı bu dalın dışındadır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Dalın yalın çekirdeği tercih ve üstün tutmadır; belirli bir söz öbeğine bağlı ek anlam aktarılmaz."
+            },
+            "concept_map": {
+              "definition": "Bir kişi veya şeyi diğerine üstün tutup ona daha çok pay, değer ya da yakınlık vermektir; böyle üstün tutulan kişi özel ve gözde sayılır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir kişi veya şey başka bir seçeneğe üstün tutulur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Üstün tutulan kişi özel yakınlık ve ikram gören gözde kişi sayılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar, başkasını veya bir şeyi üstün tutma çekirdeğinde birleşir ve üstün tutulan kişinin özel yakınlık gören biri olmasını bunun sonucu sayar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "üstün tutmak ve gözde saymak",
+              "applicability": "Tercih işlemini ve bu tercihle oluşan özel yakınlık durumunu birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Üstün tutmayı, özel değer vermeyi ve gözde kişi sonucunu korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "tercih etmek",
+                "usage_role": "general",
+                "applicability": "Bir kişi veya şeyin başka bir seçeneğe üstün tutulduğu bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Seçeneklerden birini üstün tutma işlemini korur.",
+                  "loses": "Üstün tutulan kişinin özel yakınlık gören gözde kişi oluşunu kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "gözde kişi",
+                "usage_role": "contextual",
+                "applicability": "Özel yakınlık ve ikramla başkalarından üstün tutulan kişi için kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Üstün tutulmanın kişide doğurduğu özel konumu korur.",
+                  "loses": "Tercih etme işlemini ve cansız şeylerin üstün tutulmasını kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_013",
+                "rendering_kind": "ordinary",
+                "target_gloss": "başkasını veya bir şeyi üstün tutma"
+              },
+              {
+                "lexical_unit_id": "lu_014",
+                "rendering_kind": "ordinary",
+                "target_gloss": "özel yakınlık gören gözde kişi"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000873/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Birini başkasına, hatta kişinin kendisine üstün tutmasını ve gözde kişi sonucunu vurgular.",
+                "neighbor_only": "Bir topluluktan en seçkin olanı ayırma ve seçilmiş seçkin olma kapsamı daha belirgindir.",
+                "gloss": "seçip üstün tutmak",
+                "shared_zone": "Her iki dalda bir kişi veya şey seçenekler arasından seçilip özel değer kazanır.",
+                "distinction": "Komşu dal seçkin olanı ayırmaya odaklanır; bu dal bir tarafı diğerine üstün tutan tercih ilişkisini ve özel yakınlığı öne çıkarır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; kalanlar seçme, kayırma, vermeme veya aynı kökün özçıkar dalıyla daha uzak ya da tekrarlı karşıtlıklar sunar.",
+            "branch_image_ar": "تفضيل الغير أو الشيء بالاختيار",
+            "what_is_ar": "يدخل فيه الإيثار، وتفضيل شخص أو شيء، وكون فلان أثيرا أو ذا أثرة بمعنى خاصا مفضلا.",
+            "what_is_not_ar": "لا يدخل فيه الاستئثار بمعنى الاستبداد لنفسه، ولا أثر العلامة الحسية.",
+            "source_phrase_ar": "الأثير الكريم عليك الذي تؤثره بفضلك وصلتك (maqayis)؛ آثرت فلانا على نفسي من الإيثار (sihah)؛ آثرتك إيثارا أي فضلتك وآثرك الله علينا (tahdhib)؛ الإيثار للتفضل ويؤثرون على أنفسهم وتالله لقد آثرك الله علينا (mufradat)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000011/B006",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, bir şeyi ortaklardan veya başkalarından ayrı biçimde yalnız kendine ayırma ve onda tek başına söz sahibi olma anlamını doğrular.",
+              "boundary_note": "Çekirdek özçıkar yönlü tekelleştirmedir; başkasını üstün tutan tercih anlamının karşısında durur."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Yalın dal, bir şeyi kendine özgüleyip başkasını dışarıda bırakma anlamıyla tanımlanır."
+            },
+            "concept_map": {
+              "definition": "Bir şeyi başkalarını veya ortaklarını dışarıda bırakarak yalnız kendine ayırmak ve onun üzerinde tek başına söz sahibi olmaktır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kişi bir şeyi başkalarından ayrı olarak yalnız kendine ayırır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Ortaklar arasında gerçekleştiğinde diğerlerinin paydan veya yarardan dışlanmasını içerir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "associated_use",
+                  "statement": "Aktarılmış bazı kullanımlarda birinin alınması veya kalıcılığın yalnız bir varlığa özgü olması biçiminde anlatılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar, bir şeyi başkalarından ayrı biçimde kendine özgüleme çekirdeğinde birleşir; ortakları dışlama ve kalıcılığın tek olana özgü sayılması kullanımlarını da verir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "başkalarını dışlayarak kendine ayırmak",
+              "applicability": "Tek başına sahiplenme işlemini, başkalarının dışlanması ve özçıkar yönüyle birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Kendine özgülemeyi, tek başına egemenliği ve başkalarını dışlamayı korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "tekeline almak",
+                "usage_role": "general",
+                "applicability": "Bir şeyi ortaklardan veya başkalarından esirgeyerek yalnız kendine ayırma bağlamlarında kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Tek başına sahiplenme ve başkalarını dışlama çekirdeğini korur.",
+                  "loses": "Kalıcılığın yalnız bir varlığa özgü sayıldığı aktarılmış kullanımı kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "ayrıcalıklı sahiplenme",
+                "usage_role": "explanatory",
+                "applicability": "Bir kişi veya grubun ortak yararı kendine özgülediği durumları açıklamak için kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Bir payı kendine özgüleyerek diğerlerini dışlama yönünü korur.",
+                  "loses": "Aktarılmış tek kalıcılık kullanımını kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_015",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir şeyi yalnız kendine ayırma"
+              },
+              {
+                "lexical_unit_id": "lu_016",
+                "rendering_kind": "ordinary",
+                "target_gloss": "başkaları dışlanarak sağlanan ayrıcalık"
+              },
+              {
+                "lexical_unit_id": "lu_017",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ortaklarına karşı her şeyi kendine ayıran kişi"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000092/B008",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Ortakların dışlanmasını ve bu durumun yerleşik bir ayrıcalığa dönüşmesini açıkça içerir.",
+                "neighbor_only": "Bir şeyle tek başına kalma veya ona tek başına sahip olma durumunu daha genel biçimde anlatır.",
+                "gloss": "bir şeyi yalnız kendine ayırmak",
+                "shared_zone": "Her iki dalda kişi bir şey üzerinde başkalarından ayrı ve tek başına hakimiyet kurar.",
+                "distinction": "Komşu dal tek başına sahip olma durumuna odaklanır; bu dal başkalarının payını dışlayan özçıkar yönlü ayırmayı vurgular."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; kalanlar cimrilik, ele geçirme, güç veya özel mülk alanlarında bu çekirdeğin yalnız sonucunu ya da daha geniş bir senaryoyu paylaşır.",
+            "branch_image_ar": "استبداد المرء بالشيء لنفسه",
+            "what_is_ar": "يدخل فيه الأثرة والاستئثار، وأن يختص المرء بالشيء دون أصحابه، واستأثر الله بفلان أو بالبقاء في الاستعمالات المنقولة.",
+            "what_is_not_ar": "ليس هو الإيثار للغير ولا مجرد كون الشخص أثيرا محبوبا.",
+            "source_phrase_ar": "استأثر الله بفلان واستأثرت عليك ورجل أثر يستأثر على أصحابه وستَرون بعدي أثرة (maqayis)؛ استأثر فلان بالشيء أي استبد به والاسم الأثرة (sihah)؛ رجل أثر وهو الذي يستأثر على أصحابه وإنكم ستلقون بعدي أثرة واستأثر الله بالبقاء أي انفرد بالبقاء (tahdhib)؛ الاستئثار التفرد بالشيء من دون غيره وسيكون بعدي أثرة (mufradat)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000011/B007",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Kaynak ifadesi kılıcın yüzey deseni, parlaklığı ve niteliğiyle birlikte kılıç darbesini de verir; bu nedenle dal korunabilir, ancak bu öğeler tek bir fiziksel iz gibi birleştirilemez.",
+              "boundary_note": "Kılıcın yüzey niteliği ve adlandırılması çekirdek alandır; darbe ayrı bir kaynak varyantı olarak tutulur."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Yalın dal yalnız kılıca özgü terim ve kullanımları kapsar; genel yara izi veya genel kesme anlamına genişletilmez."
+            },
+            "concept_map": {
+              "definition": "Kılıcın yüzeyindeki ayırt edici dalgalı desen, parlaklık veya bunların gösterdiği niteliktir; aynı tanıklık kümesinde kılıcın darbesi için de kullanılır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kılıç yüzeyindeki ayırt edici desen ve parlaklık onun niteliğini gösterir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Bu özellik veya kılıçta bulunan belirti, kılıcın özel bir adla nitelenmesine temel olur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "source_variant",
+                  "statement": "Aynı ifade bazı tanıklıklarda kılıcın indirdiği darbe anlamına gelir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar kılıç yüzeyindeki desen, parlaklık ve nitelik çevresinde birleşir; ayrıca kılıcın darbesini aynı söz varlığı altında ayrı bir kullanım olarak verir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "kılıcın yüzey deseni, parlaklığı veya darbesi",
+              "applicability": "Kılıca özgü yüzey niteliğini, buna dayalı adlandırmayı ve ayrı darbe kullanımını eksiltmeden toplar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Yüzey desenini, parlaklık ve nitelik ilişkisini, ayrıca darbe varyantını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "kılıcın dalgalı yüzey deseni",
+                "usage_role": "explanatory",
+                "applicability": "Kılıcın yüzeyinde görülen ve niteliğini belirten desen söz konusu olduğunda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Kılıcın yüzey deseni ve nitelik belirtisi yönünü korur.",
+                  "loses": "Parlaklık nüansını ve kılıç darbesi varyantını kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "kılıç darbesi",
+                "usage_role": "contextual",
+                "applicability": "İfadenin kılıcın indirdiği vuruşu anlattığı tanıklıklarda kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Kılıcın darbesi olarak verilen kaynak varyantını korur.",
+                  "loses": "Kılıcın yüzey deseni, parlaklığı ve niteliğini kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_018",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kılıcın yüzey deseni, parlaklığı veya darbesi"
+              },
+              {
+                "lexical_unit_id": "lu_019",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yüzeyinde özel bir iz bulunan ya da insanüstü varlıkların yaptığı söylenen kılıç"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000328/B010",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Kılıç parlaklığını, niteliğini, özel adlandırmayı ve ayrı olarak darbesini de kapsar.",
+                "neighbor_only": null,
+                "gloss": "kılıcın yüzey deseni",
+                "shared_zone": "Her iki dal kılıcın yüzeyindeki ayırt edici dalgalı deseni adlandırır.",
+                "distinction": "Komşu dal yalnız yüzey desenine karşılık gelir; bu dal aynı alanı parlaklık, nitelik, kılıç adı ve darbe kullanımıyla genişletir."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; diğerleri kılıç türü, keskin kenar, kesme eylemi veya silah alanını paylaşır fakat yüzey deseni çekirdeğine daha uzaktır.",
+            "branch_image_ar": "أثر السيف في لمعانه أو ضربته",
+            "what_is_ar": "يدخل فيه فرند السيف ورونقه وجودته، والسيف المأثور، وضربة السيف أو أثرها حيث نصت المصادر على ذلك.",
+            "what_is_not_ar": "لا يدخل فيه أثر الجراح العام إلا إذا ذكر بوصفه أثر السيف، ولا أثر الطريق.",
+            "source_phrase_ar": "أثر السيف ضربته والأثر في السيف الفرند ويسمى السيف مأثورا (maqayis)؛ الأثر فرند السيف والمأثور السيف (sihah)؛ أثر السيف فرنده وأثر السيف ضربته وأثره مفتوح رونقه (tahdhib)؛ أثر السيف جوهره وأثر جودته وهو الفرند وسيف مأثور (mufradat)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000011/B008",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, devenin ayağının altını bir demirle işaretlemeyi, kullanılan aracı ve işaretin yerde tanınabilir bir iz bırakma amacını birlikte doğrular.",
+              "boundary_note": "Dal sıradan hayvan izi değil, ayağa kasıtlı olarak verilen ve zeminde ayırt edici iz çıkaran işarettir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Alet adı ile hayvanın ayağını işaretleme kalıbı ayrı facetlerde tutulur; anlam genel işaretlemeye genişletilmez."
+            },
+            "concept_map": {
+              "definition": "Devenin ayağının altına, yerde tanınabilir bir iz bırakması için demir bir araçla kasıtlı işaret koyma işlemi ve bu işte kullanılan araçtır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Devenin ayağının altına yerde iz bırakacak kasıtlı bir işaret konur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "İşaret, hayvanın yerde bıraktığı izin tanınmasını sağlar.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "associated_use",
+                  "statement": "İşaretlemeyi yapan demir araç da bu dalda özel olarak adlandırılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar, devenin ayağını demirle işaretleyip zeminde tanınabilir iz bırakma işlemi ile bu amaçla kullanılan araçta birleşir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "deve ayağını iz bırakacak biçimde işaretleme ve işaretleme demiri",
+              "applicability": "İşaretleme işlemini, yerde tanınma amacını ve kullanılan demir aracı birlikte kapsar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Ayağa kasıtlı işaret koymayı, zemindeki izi ve özel aracı korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "iz damgası vurmak",
+                "usage_role": "contextual",
+                "applicability": "Devenin ayağına yerde ayırt edici iz bırakacak bir işaret koyma işlemi için kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Kasıtlı işaretleme ve zeminde ayırt edici iz bırakma yönünü korur.",
+                  "loses": "İşaretlemede kullanılan demir aracın adını kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "deve ayağı işaretleme demiri",
+                "usage_role": "explanatory",
+                "applicability": "Devenin ayağının altına işaret koymak için kullanılan özel araçtan söz edildiğinde kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "İşaretleme aracının biçim ve işlevini korur.",
+                  "loses": "İşaretleme eylemini ve yerde oluşan izin tanınmasını tek başına kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_020",
+                "rendering_kind": "ordinary",
+                "target_gloss": "deve ayağı işaretleme demiri"
+              },
+              {
+                "lexical_unit_id": "lu_021",
+                "rendering_kind": "ordinary",
+                "target_gloss": "devenin ayağına yerde iz bırakacak işaret koydu"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000389/B009",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "İşareti ayağın altına, zeminde ayırt edici bir iz üretmesi için koyar ve özel demir aracı kapsar.",
+                "neighbor_only": "Devenin uyluğuna enine uzanan görünür bir damga vurulmasını anlatır.",
+                "gloss": "deveyi işaretleme",
+                "shared_zone": "Her iki dalda bir devenin bedenine kasıtlı ve ayırt edici bir işaret konur.",
+                "distinction": "Komşu dal uyluktaki görünür damganın biçimine odaklanır; bu dal ayağın altındaki işaretin yerde bıraktığı izi tanıma aracı yapar."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; diğerleri farklı beden bölgelerindeki damgalar, bağlar, çizgiler veya aynı kökün ayrı iz anlamlarıyla yalnız alan ortaklığı taşır.",
+            "branch_image_ar": "وسم خف البعير ليتبع أثره",
+            "what_is_ar": "يدخل فيه أثر البعير والمئثرة والحديدة التي يؤثر بها الخف لتعرف العلامة في الأرض.",
+            "what_is_not_ar": "ليس هو مطلق أثر الدابة الكبير في الأرض، ولا أثر الطريق بلا وسم مقصود.",
+            "source_phrase_ar": "الآثر الذي يؤثر خف البعير والمئثرة حديدة يؤثر بها في باطن فرسن البعير (maqayis)؛ الأثرة أن يسحى باطن خف البعير بحديدة وتلك الحديدة مئثرة (sihah)؛ المئثرة حديدة يؤثر بها خف البعير ليعرف أثره في الأرض (tahdhib)؛ أثرت البعير جعلت على خفه أثرة أي علامة تؤثر في الأرض (mufradat)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000011/B009",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Kaynak ifadesi iki maddi kullanım kümesini birlikte verir: hayvanda önceki besililikten kalan yağ ile yağ özü veya tereyağından ayrılarak arınmış süt; bunlar kalıntı ilişkisiyle bağlantılı olsa da tek nesne değildir.",
+              "boundary_note": "Eski yağ kalıntısı ile ayrıştırılmış yağ özü ayrı facetlerdir; bilgi veya yara kalıntısı bu dala alınmaz."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Yalın dal, tanıklanan maddi yağ ve süt kullanımlarıyla sınırlıdır ve genel bir kalıntı anlamına genişletilmez."
+            },
+            "concept_map": {
+              "definition": "Hayvanın bedeninde önceki besililikten kalan yağ kalıntısı, yağ özü veya tereyağından ayrılarak arınmış süttür.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Hayvanda önceki dönemden kalmış bir yağ payı bulunur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "source_variant",
+                  "statement": "Yağ özü veya tereyağından ayrılarak arınmış süt de aynı söz varlığıyla adlandırılır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar hayvanda kalan eski yağ payını ortaklaşa verir; ayrıca yağ özünü veya tereyağından ayrılarak arınmış sütü ayrı bir maddi kullanım olarak tanımlar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "eski yağ kalıntısı, yağ özü veya arınmış süt",
+              "applicability": "Hayvanda kalan yağ payını, yağ özünü ve tereyağından ayrılarak arınmış sütü ayrı kullanımlar olarak birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Eski yağ kalıntısını, yağ özünü ve tereyağından ayrılarak arınmış sütü korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "önceden kalma yağ",
+                "usage_role": "contextual",
+                "applicability": "Deve veya benzeri hayvanda önceki besililik döneminden kalan yağ payı için kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Hayvanda eski dönemden kalan yağ kalıntısını korur.",
+                  "loses": "Ayrıştırılmış süt veya yağ ürününün öz kısmını kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "yağ özü veya arınmış süt",
+                "usage_role": "explanatory",
+                "applicability": "Yağ özü veya tereyağından ayrılarak arınmış süt için kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Yağ özünü ve tereyağından ayrılarak arınmış sütü korur.",
+                  "loses": "Hayvan bedenindeki eski yağ kalıntısını kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_022",
+                "rendering_kind": "ordinary",
+                "target_gloss": "devede önceden kalma yağ"
+              },
+              {
+                "lexical_unit_id": "lu_023",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yağ özü veya tereyağından ayrılarak arınmış süt"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000430/B008",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Hayvan bedeninde eski dönemden kalan yağ payını da kapsar.",
+                "neighbor_only": "Tereyağı, süt ve başka yiyeceklerden çıkan tortu, katkı ve pekmez benzeri çeşitli ürünlere kadar uzanır.",
+                "gloss": "yağlı üründen ayrılan öz",
+                "shared_zone": "Her iki dal, süt veya yağlı üründen ayrıştırılarak elde edilen öz kısmı adlandırır.",
+                "distinction": "Komşu dal yiyecek ayrıştırmasının çeşitli ürün ve tortularını kapsar; bu dal ayrıca hayvanda önceden kalmış yağ payını içerir."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; kalanlar yağın eritilmesi, süt ürünü oluşumu, hayvanın yağlanması veya başka maddi kalıntılarla yalnızca alan ortaklığı gösterir.",
+            "branch_image_ar": "بقية دسم قديم أو خلاصة سمن",
+            "what_is_ar": "يدخل فيه أثارة الشحم القديم في الإبل، والأثر أو الإثر بمعنى خلاصة السمن أو اللبن بعد تخليصه.",
+            "what_is_not_ar": "ليس هو أثارة العلم إلا لاشتراكهما في معنى البقية، ولا هو أثر الجرح.",
+            "source_phrase_ar": "الإبل على أثارة أي على شحم قديم وإذا تخلص اللبن من الزبد وخلص فهو الأثر (maqayis)؛ الأثر بالكسر خلاصة السمن وسمنت الإبل على أثارة أي بقية شحم (sihah)؛ الأثر خلاصة السمن والإثر بكسر الهمزة خلاصة السمن وسمنت الناقة على أثارة (tahdhib)؛ سمنت الإبل على أثارة أي على أثر من شحم (mufradat)",
+            "sources": [
+              "MQ",
+              "SI",
+              "TA",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000011/B010",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Tek kaynaklı ifade, ömrü izleyen süre sonunu ve insanın ardından kalan iş ve yerleşmiş uygulamaları aynı izleme ilişkisiyle verir; iki kullanım korunmalı fakat özdeşleştirilmemelidir.",
+              "boundary_note": "Yaşam süresi sonu ile ölümden sonra süren iş ve uygulamalar ayrı facetler olarak tutulur."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Yalın dal yalnız yaşamı zamanca izleyen son ve kişiden sonra süren işler bağlamında tanımlanır."
+            },
+            "concept_map": {
+              "definition": "Ömrü izleyen belirlenmiş son veya bir kişinin ardından yaşamaya devam eden işleri ve başlattığı yerleşmiş uygulamalardır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Ömrün ardından gelen belirlenmiş süre sonunu anlatır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Kişinin yaptığı işler ve başlattığı uygulamalar ondan sonra sürerek geride kalır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Bu dal tek kaynaklı iki artakalma kullanımını içerir; ayrıntı, kaynak notunda süre sonu ve kalıcı işler ayrımıyla verilir.",
+              "common_claim_ids": [],
+              "source_details": [
+                {
+                  "claim_ids": [
+                    "bc_001"
+                  ],
+                  "kind": "sole_attestation",
+                  "summary": "Ömrü izleyen belirlenmiş son ile kişinin ardından işlenmeye devam eden işler ve başlattığı uygulamalar birlikte tanıklanır."
+                }
+              ],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "ömrün sonu veya kişinin ardından kalan işler",
+              "applicability": "Zamanca ömrü izleyen sonu ve kişiden sonra süren iş ya da uygulamaları ayrı kullanımlar olarak kapsar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Süre sonunu ve kişinin ardından süren işler ile uygulamaları korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "ömrün belirlenmiş sonu",
+                "usage_role": "explanatory",
+                "applicability": "Bir yaşam süresini izleyen belirlenmiş son veya süre sınırı anlatıldığında kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Ömrü izleyen süre sonu yönünü korur.",
+                  "loses": "Kişinin ardından süren iş ve uygulamaları kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "ardında bıraktığı işler",
+                "usage_role": "contextual",
+                "applicability": "Bir kişinin ölümünden sonra da süren işleri ve başlattığı uygulamalar için kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Kişiden sonra süren iş ve uygulama sonucunu korur.",
+                  "loses": "Ömrün belirlenmiş sonu kullanımını kapsamaz.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_024",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ömrün belirlenmiş sonu"
+              },
+              {
+                "lexical_unit_id": "lu_025",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kişinin ardından kalan işler ve uygulamalar"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000011/B003",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Ömrü izleyen belirlenmiş sonu ve kişinin ardından sürdürülen uygulamaları kapsar.",
+                "neighbor_only": "Her tür nesne veya olaydan kalan görünür ya da çıkarımsal belirtiyi genel olarak kapsar.",
+                "gloss": "sonradan kalan şey",
+                "shared_zone": "Her iki dalda önceki bir varlık veya yaşamdan sonra geride kalan bir unsur bulunur.",
+                "distinction": "Komşu dal geçmişi gösteren kalıntı ve belirtidir; bu dal yaşam süresinin sonu ile bir kişinin ardından sürdürülen işleri adlandırır."
+              },
+              {
+                "neighbor_ref": "root_000769/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Uygulamanın onu başlatan kişiden sonra da sürmesi ilişkisini gerektirir.",
+                "neighbor_only": "Bir kişi veya şeyin içinde bulunduğu genel davranış yolu ve durumu kapsar.",
+                "gloss": "süren uygulama ve yol",
+                "shared_zone": "Her iki dal, insanların izlediği yerleşmiş bir uygulama veya davranış yoluna değinebilir.",
+                "distinction": "Komşu dal yol ve yaşayış biçiminin kendisini anlatır; bu dal onun başlatan kişiden sonra kalıp sürmesini öne çıkarır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; diğerleri yaşam, beden, yön, davranış biçimi veya aynı kökün farklı dallarıyla yalnız tematik ya da uzak bir bağ taşır.",
+            "branch_image_ar": "ما يتبع العمر من أجل أو عمل",
+            "what_is_ar": "يدخل فيه استعمال الأثر للأجل لأنه يتبع العمر، والآثار بمعنى ما سنه الإنسان من أعمال تبقى بعده.",
+            "what_is_not_ar": "ليس هو مجرد السير خلف شخص في طريق، ولا أثر جسم محسوس.",
+            "source_phrase_ar": "ينسأ في أثره أي في أجله وسمي الأجل أثرا لأنه يتبع العمر (tahdhib)؛ ونكتب ما قدموه من الأعمال وسنوه من سنن يعمل بها (tahdhib)",
+            "sources": [
+              "TA"
+            ],
+            "source_note": {
+              "TA": "Ömrü izleyen belirlenmiş son ile kişinin ardından işlenmeye devam eden işler ve başlattığı uygulamalar birlikte tanıklanır."
+            }
+          },
+          {
+            "branch_ref": "root_000011/B011",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Tek kaynaklı ifade, belirli bir söyleyiş kalıbında kişinin bir şeyi iyi kavrayıp onun bilgisine alışarak beceri kazanmasını açıkça bildirir.",
+              "boundary_note": "Anlam tanıklanan söyleyiş kalıbına bağlıdır; genel bilgi, hafıza veya doğal yetenek anlamına genişletilmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "collocation",
+              "note": "Dal yalnız verilen kişi ve söyleme kalıbında sözlükselleşir; yalın köke genel ustalık anlamı yüklenmez."
+            },
+            "concept_map": {
+              "definition": "Belirli bir kalıpta, bir şeyi iyi kavrayıp onun bilgisine alışma sonucunda o konuda becerikli ve usta duruma gelmektir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kişi bir şeyi dikkatle kavrar ve bilgisini edinir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Bilgiye alışıp onunla uğraştıkça o konuda beceri kazanır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Bu kalıpla sınırlı tek tanıklığın ayrıntısı aşağıdaki kaynak notunda kavrayış, alışma ve beceri aşamalarıyla verilir.",
+              "common_claim_ids": [],
+              "source_details": [
+                {
+                  "claim_ids": [
+                    "bc_001"
+                  ],
+                  "kind": "sole_attestation",
+                  "summary": "Kişinin bir şeyi kavrayıp bilgisine alışarak o konuda becerikli hale gelmesini bildiren kalıplaşmış bir söyleyiş tanıklanır."
+                }
+              ],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "alışarak kavrayıp ustalaşmak",
+              "applicability": "Tanıklanan kalıpta kavrama, bilgiye alışma ve beceri kazanma aşamalarını birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Kavrayışı, deneyimle alışmayı ve sonuçtaki beceriyi korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "işin kurdu oldu",
+                "usage_role": "contextual",
+                "applicability": "Kişinin bir işi uzun süre tanıyıp uygulayarak çok becerikli hale geldiği gündelik bağlamlarda kullanılır.",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Alışma sonucunda kazanılan yüksek beceriyi doğal biçimde korur.",
+                  "loses": null,
+                  "adds": "Kaynakta bulunmayan gündelik ve mecazlı bir anlatım tonu ekler.",
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "iyice öğrenip ustalaştı",
+                "usage_role": "explanatory",
+                "applicability": "Kişinin konuyu kavrayıp alışkanlık ve deneyimle beceri kazandığını açıklamak için kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Kavrama, alışma ve beceri kazanma sürecini birlikte korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_026",
+                "rendering_kind": "ordinary",
+                "target_gloss": "konuyu iyice kavrayıp ustalaştı"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000483/B007",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Belirli bir söyleyiş kalıbında bir şeyin bilgisini kavrayıp ona alışmayı bildirir.",
+                "neighbor_only": "Uzun uygulama ve zorlu deneyimin kazandırdığı genel olgunluk ile deneyimliliği insan ve hayvana yayar.",
+                "gloss": "deneyimle ustalaşmak",
+                "shared_zone": "Her iki dalda tekrarlı uğraş ve alışma kişiye bilgiyle birlikte beceri kazandırır.",
+                "distinction": "Komşu dal genel deneyim ve olgunluğu anlatır; bu dal belirli kalıpta bir konuyu kavrayıp onun bilgisinde beceri kazanmayı belirtir."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; kalanlar doğal yetenek, hızlı öğrenme, hafıza, ticari beceri veya aynı kökün uzak anlamlarıyla kısmi alan ortaklığı gösterir.",
+            "branch_image_ar": "حذق الشيء بالممارسة",
+            "what_is_ar": "يدخل فيه قولهم أثر فلان يقول كذا إذا أبصر الشيء وضري بمعرفته وحذقه.",
+            "what_is_not_ar": "ليس هو رواية الخبر ولا أثر العلامة الباقية.",
+            "source_phrase_ar": "أثر فلان يقول كذا وطبن وطبق ودبق ولفق وفطن وذلك إذا أبصر الشيء وضري بمعرفته وحذقه (tahdhib)",
+            "sources": [
+              "TA"
+            ],
+            "source_note": {
+              "TA": "Kişinin bir şeyi kavrayıp bilgisine alışarak o konuda becerikli hale gelmesini bildiren kalıplaşmış bir söyleyiş tanıklanır."
+            }
+          },
+          {
+            "branch_ref": "root_000011/B012",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Tek kaynaklı ifade, keçinin memesine zarar görmesini önlemek için bağlanan torba benzeri koruyucu nesneyi açık ve sınırlı biçimde tanımlar.",
+              "boundary_note": "Bu dal bir alet veya örtü adıdır; iz, tercih ya da genel bağlama eylemi anlamına gelmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Yalın ad, keçi memesine bağlanan özel koruyucu torbayla sınırlıdır ve genel kap veya bağ anlamına genişletilmez."
+            },
+            "concept_map": {
+              "definition": "Keçinin memesini zarar görmekten korumak için meme üzerine bağlanan, torbaya benzeyen özel bir örtüdür.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Torba benzeri örtü keçinin memesinin üzerine bağlanır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Bağlanma amacı memeyi dış etkiden ve zarar görmekten korumaktır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Bu özel nesne tek kaynakta tanıklıdır; biçimi, bağlandığı yer ve koruma amacı aşağıdaki notta birlikte verilir.",
+              "common_claim_ids": [],
+              "source_details": [
+                {
+                  "claim_ids": [
+                    "bc_001"
+                  ],
+                  "kind": "sole_attestation",
+                  "summary": "Keçinin memesine zarar görmesini önlemek amacıyla bağlanan torba benzeri bir koruyucu örtü tanımlanır."
+                }
+              ],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "keçi memesi koruyucu torbası",
+              "applicability": "Nesnenin torba biçimini, keçinin memesine bağlanmasını ve koruma işlevini birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Nesnenin biçimini, bağlandığı yeri ve koruma amacını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "meme koruyucu torbası",
+                "usage_role": "contextual",
+                "applicability": "Keçinin memesine bağlanan özel koruyucu örtünün adı olarak kullanılır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Torba biçimini ve memeyi koruma işlevini korur.",
+                  "loses": "Hayvanın keçi oluşunu açıkça belirtmez.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_027",
+                "rendering_kind": "ordinary",
+                "target_gloss": "keçinin memesine bağlanan koruyucu torba"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000819/B004",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Keçiye özgü torba biçimini ve memeyi zarar görmekten koruma amacını gerektirir.",
+                "neighbor_only": "Meme dışında hurma salkımına veya tekenin göğsüne bağlanan çeşitli örtü ve bağları da kapsar.",
+                "gloss": "meme üzerine bağlanan koruyucu örtü",
+                "shared_zone": "Her iki dal, küçükbaş hayvanın meme bölgesine bağlanan koruyucu bir nesneyi kapsar.",
+                "distinction": "Komşu dal farklı canlı ve bitki bölümlerine bağlanan daha geniş bir örtü sınıfıdır; bu dal keçi memesine bağlanan torba biçimli özel nesnedir."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; diğerleri katran, genel torba, emzirmeyi engelleyen araç, heybe veya sağım alanıyla yalnız tematik benzerlik taşır.",
+            "branch_image_ar": "كيس يشد على ضرع العنز",
+            "what_is_ar": "يدخل فيه الإثار، وهو شبه الشمال يشد على ضرع العنز لئلا تعان.",
+            "what_is_not_ar": "لا يدخل فيه أثر العلامة أو الإيثار؛ هذا اسم آلة أو لباس مخصوص.",
+            "source_phrase_ar": "الإثار شبه الشمال يشد على ضرع العنز شبه كيس لئلا تعان (tahdhib)",
+            "sources": [
+              "TA"
+            ],
+            "source_note": {
+              "TA": "Keçinin memesine zarar görmesini önlemek amacıyla bağlanan torba benzeri bir koruyucu örtü tanımlanır."
+            }
+          }
+        ],
+        "root_profile": {
+          "summary": "Kök, geride kalma ve izleme ilişkisi çevresinde iz, aktarım, takip ve sonradan süren işler gibi dallar kurarken; tercih, tekelleştirme, kılıç, hayvan işaretleme, yağ, ustalık ve koruyucu torba alanlarında bağımsız sözlükselleşmiş kullanımlar da taşır.",
+          "polysemy": "polysemic",
+          "organization": "mixed"
+        },
+        "occurrence_evidence": {
+          "summary": {
+            "morpheme_count": 21,
+            "word_count": 21,
+            "ayah_count": 21,
+            "surah_count": 16
+          },
+          "forms": [
+            {
+              "form_id": "F001",
+              "lemma_ar": "أَثَر",
+              "stem_ar": "ءَاثَٰرِ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:>avar|ROOT:Avr|MP|GEN",
+              "occurrence_count": 6
+            },
+            {
+              "form_id": "F002",
+              "lemma_ar": "آثَرَ",
+              "stem_ar": "ءَاثَرَ",
+              "pos": "V",
+              "measure": "IV",
+              "morph_features": "STEM|POS:V|PERF|(IV)|LEM:A^vara|ROOT:Avr|3MS",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F003",
+              "lemma_ar": "أَثَر",
+              "stem_ar": "ءَاثَارِ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:>avar|ROOT:Avr|MP|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F004",
+              "lemma_ar": "آثَرَ",
+              "stem_ar": "نُّؤْثِرَ",
+              "pos": "V",
+              "measure": "IV",
+              "morph_features": "STEM|POS:V|IMPF|(IV)|LEM:A^vara|ROOT:Avr|1P|MOOD:SUBJ",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F005",
+              "lemma_ar": "أَثَر",
+              "stem_ar": "أَثَرِ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:>avar|ROOT:Avr|M|GEN",
+              "occurrence_count": 3
+            },
+            {
+              "form_id": "F006",
+              "lemma_ar": "أَثَر",
+              "stem_ar": "ءَاثَٰرِ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:>avar|ROOT:Avr|M|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F007",
+              "lemma_ar": "أَثَر",
+              "stem_ar": "ءَاثَٰرَ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:>avar|ROOT:Avr|MP|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F008",
+              "lemma_ar": "أَثَر",
+              "stem_ar": "ءَاثَارًا",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:>avar|ROOT:Avr|MP|INDEF|ACC",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F009",
+              "lemma_ar": "أَثَٰرَة",
+              "stem_ar": "أَثَٰرَةٍ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|VN|LEM:>ava`rap|ROOT:Avr|F|INDEF|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F010",
+              "lemma_ar": "آثَرَ",
+              "stem_ar": "يُؤْثِرُ",
+              "pos": "V",
+              "measure": "IV",
+              "morph_features": "STEM|POS:V|IMPF|(IV)|LEM:A^vara|ROOT:Avr|3MP",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F011",
+              "lemma_ar": "يُؤْثَرُ",
+              "stem_ar": "يُؤْثَرُ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|PASS|LEM:yu&ovaru|ROOT:Avr|3MS",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F012",
+              "lemma_ar": "آثَرَ",
+              "stem_ar": "تُؤْثِرُ",
+              "pos": "V",
+              "measure": "IV",
+              "morph_features": "STEM|POS:V|IMPF|(IV)|LEM:A^vara|ROOT:Avr|2MP",
+              "occurrence_count": 1
+            }
+          ]
+        }
+      },
+      "dictionary_source_file": "quran-data/data/dictionary/tr/root_000011_entry.json",
+      "gloss": {
+        "format": "dictionary-v2-gloss-result-v2",
+        "generated_by": "v2/gloss_generation/workflow.py",
+        "status": "reviewed",
+        "root_envelope_id": "root_000011",
+        "source_language": "tr",
+        "target_language": "tr",
+        "source_entry_status": "reviewed",
+        "writer_mode": "repair",
+        "inputs_sha256": "23ad4662115568dba09d264f8dc51d432b5e78aa02de7c66ede312a075d63d73",
+        "review_inputs_sha256": "5ce4aa6cfa5a7c2d6a3646abc0b7dcbb60d2f046f1614490769e65fca6776952",
+        "source_entry": {
+          "path": "v2/work/entry_creation/root_000011/tr/output/root_000011_entry.json",
+          "sha256": "574ac38f8878e9af96ae623612ecede2295ee5e702001aab54f10b749594274f",
+          "entry_id": "root_000011/tr",
+          "status": "reviewed",
+          "review_verdict": "repair",
+          "validation_status": "clean",
+          "validation_warnings": []
+        },
+        "source_packet": {
+          "path": "data/output/root_packets/root_000011.json",
+          "sha256": "a047a44ff5dbe6764e7610f68c19b15df06a2f48a02f5e0a944d4b23f309e579"
+        },
+        "writer_task": {
+          "path": "v2/gloss_generation/work/root_000011/tr/repair/input/task.json",
+          "sha256": "db6edde58a466aa6716ae4ddb91fa88d219a368059033b1d79816553ddfcc6c7"
+        },
+        "review_task": {
+          "path": "v2/gloss_generation/work/root_000011/tr/repair/review/input/task.json",
+          "sha256": "f9cbb1f2cb735ecd11816207a812afb80b20057969b2927d0edff0fa56a62dde"
+        },
+        "review_response": {
+          "path": "v2/gloss_generation/work/root_000011/tr/repair/review/output/review.json",
+          "sha256": "7333330a4e19b2532ce251fb61e350cb111804de08ae9bcf23dcffe5dd750124"
+        },
+        "branches": [
+          {
+            "branch_ref": "root_000011/B001",
+            "concept_gloss": {
+              "text": "ilk sıraya alıp işe koyulma",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_001": {
+                "text": "her şeyden önce",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "İşe yönelip yapmaya karar verme kullanımını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_002": {
+                "text": "ilk iş olarak başlamak",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "İşe yönelip yapmaya karar verme kullanımını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_003": {
+                "text": "bir işi yapmaya kararlı biçimde yönelmek",
+                "facet_ids": [
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bir şeyi sıra bakımından ilk yere koyma kullanımını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000011/B002",
+            "concept_gloss": {
+              "text": "aktarıma dayalı kalıcı anlatı ve bilgi mirası",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_004": {
+                "text": "bir sözü başkasından naklederek anlatmak",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Yazıya geçirilme ve anlatılagelen değerli işler kullanımlarını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_005": {
+                "text": "elden ele aktarılan söz",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Yazıya geçirilme ve anlatılagelen değerli işler kullanımlarını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_006": {
+                "text": "anlatılagelen erdem ve övünçler",
+                "facet_ids": [
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Söz/bilgi aktarımı ve yazıya geçirilme kullanımlarını değil, anlatılagelen değerli işleri verir.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_010": {
+                "text": "aktarılarak ya da yazıyla izi kalmış bilgi",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Anlatılagelen değerli işler kullanımını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000011/B003",
+            "concept_gloss": {
+              "text": "geçmiş varlığı gösteren kalıcı belirti",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_007": {
+                "text": "varlığı ya da olayı gösteren kalıcı iz",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Yara izi örneğini ve bilgiden kalan belirti uzantısını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_008": {
+                "text": "iyileşmiş yara izi",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bilgiden kalan belirti uzantısını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_009": {
+                "text": "bilgiden geriye kalan küçük belirti",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Yara izi örneğini kapsamaz.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000011/B004",
+            "concept_gloss": {
+              "text": "önden gidenin peşinden gitme ve onun izli yolu",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_011": {
+                "text": "onun hemen ardından, peşinden",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Öncekinin geçtiğini gösteren yol kullanımını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_012": {
+                "text": "önce gideni bulduran izli yol",
+                "facet_ids": [
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Öncekinin ardından gitme eylemini değil, izli yolu verir.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000011/B005",
+            "concept_gloss": {
+              "text": "başkasını üstün tutup gözde kılma",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_013": {
+                "text": "birini ya da bir şeyi ötekine yeğleme",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Özel yakınlık gören gözde kişi kullanımını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_014": {
+                "text": "özel tutulan gözde kişi",
+                "facet_ids": [
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Birini veya bir şeyi üstün tutma eylemini değil, gözde kişiyi verir.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000011/B006",
+            "concept_gloss": {
+              "text": "başkalarını dışlayarak kendine ayırma",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_015": {
+                "text": "bir şeyi yalnız kendine tahsis etme",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Ortakları dışlama ve aktarılmış bağlı kullanımları kapsamaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_016": {
+                "text": "dışlayıcı ayrıcalık",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Aktarılmış bağlı kullanımları kapsamaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_017": {
+                "text": "payı arkadaşlarından esirgeyip kendine alan kişi",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Aktarılmış bağlı kullanımları kapsamaz.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000011/B007",
+            "concept_gloss": {
+              "text": "kılıcın haresi, parlaklığı, özel izli kılıç veya darbesi",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_018": {
+                "text": "kılıcın haresi, parlaklığı ya da darbesi",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Özel izli kılıç nitelemesini kapsamaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_019": {
+                "text": "gövdesi izli ya da olağanüstü yapım sayılan kılıç",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Kılıç darbesi kaynak varyantını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000011/B008",
+            "concept_gloss": {
+              "text": "deve tabanına tanıtıcı işaret koyma ve bu işin demir aracı",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_020": {
+                "text": "deve tabanı işaretleme demiri",
+                "facet_ids": [
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001",
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Devenin ayağına işaret koyma ve izin tanınması yönlerini değil, kullanılan demir aracı verir.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_021": {
+                "text": "devenin tabanını izi tanınacak biçimde işaretlemek",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "İşaretleme demiri adını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000011/B009",
+            "concept_gloss": {
+              "text": "devede kalan eski yağ ya da ayrıştırılmış öz",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_022": {
+                "text": "devede kalmış eski yağ artığı",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Yağ özü veya ayrıştırılmış süt kullanımını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_023": {
+                "text": "yağın ya da ayrıştırılmış sütün özü",
+                "facet_ids": [
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Devede kalan eski yağ kullanımını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000011/B010",
+            "concept_gloss": {
+              "text": "ömrün belirlenmiş son sınırı veya kişiden kalan işler",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_024": {
+                "text": "ömrün belirlenmiş son sınırı",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Kişiden sonra süren işler ve uygulamalar kullanımını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_025": {
+                "text": "kişiden sonra sürdürülen işler ve uygulamalar",
+                "facet_ids": [
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F001"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Ömrün belirlenmiş son sınırı kullanımını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000011/B011",
+            "concept_gloss": {
+              "text": "konuyu kavrayıp uğraşarak ustalaşma",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_026": {
+                "text": "pratikle öğrenip ustaca bilmek",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000011/B012",
+            "concept_gloss": {
+              "text": "keçi memesine koruma amacıyla bağlanan torba",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": {
+              "lu_027": {
+                "text": "keçinin memesini örten bağlama torbası",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000011.json"
+    },
     "root_001544": {
       "root_ar": "ن ق ع",
+      "qac_roots_ar": [
+        "ن ق ع"
+      ],
       "root_id": "root_001544",
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ق ع",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 1
+        }
+      ],
       "dictionary_entry": {
         "inputs_sha256": "2765d62b24d1f35c6b6de4d2f6d26cf35ca161fbd9e10146e85c4d834c7ef903",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8247,42 +10763,149 @@
       "per_root": {
         "ث و ر": {
           "root_id": "root_000210",
-          "dictionary_present": true,
-          "gloss_present": true,
-          "occurrence_evidence_trimmed": {
-            "dropped_keys": [
-              "ayahs",
-              "occurrences"
-            ],
-            "dropped_row_counts": {
-              "occurrences": 5,
-              "ayahs": 5
-            },
-            "kept_keys": [
-              "forms",
-              "summary"
+          "root_ids": [
+            "root_000210",
+            "root_000011"
+          ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ث و ر",
+            "mapping_status": "split",
+            "primary_root_id": "root_000210",
+            "targets": [
+              {
+                "qac_root_norm": "ث و ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000210",
+                "furuq_root_norm": "ث و ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 4,
+                "is_dominant": 1
+              },
+              {
+                "qac_root_norm": "ث و ر",
+                "target_rank": 2,
+                "furuq_root_id": "root_000011",
+                "furuq_root_norm": "ء ث ر",
+                "furuq_resolution": "root_norm_unique",
+                "occurrences": 1,
+                "is_dominant": 0
+              }
             ]
           },
+          "dictionary_present": true,
+          "gloss_present": true,
+          "targets": [
+            {
+              "root_id": "root_000210",
+              "target_rank": 1,
+              "is_dominant": true,
+              "furuq_root_norm": "ث و ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 4,
+              "dictionary_present": true,
+              "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 5,
+                  "ayahs": 5
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            },
+            {
+              "root_id": "root_000011",
+              "target_rank": 2,
+              "is_dominant": false,
+              "furuq_root_norm": "ء ث ر",
+              "furuq_resolution": "root_norm_unique",
+              "occurrences": 1,
+              "dictionary_present": true,
+              "gloss_present": true,
+              "dictionary_branch_count": 12,
+              "gloss_branch_count": 12,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 21,
+                  "ayahs": 21
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          ],
           "note": null
         },
         "ن ق ع": {
           "root_id": "root_001544",
-          "dictionary_present": true,
-          "gloss_present": true,
-          "occurrence_evidence_trimmed": {
-            "dropped_keys": [
-              "ayahs",
-              "occurrences"
-            ],
-            "dropped_row_counts": {
-              "occurrences": 1,
-              "ayahs": 1
-            },
-            "kept_keys": [
-              "forms",
-              "summary"
+          "root_ids": [
+            "root_001544"
+          ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ق ع",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001544",
+            "targets": [
+              {
+                "qac_root_norm": "ن ق ع",
+                "target_rank": 1,
+                "furuq_root_id": "root_001544",
+                "furuq_root_norm": "ن ق ع",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 1,
+                "is_dominant": 1
+              }
             ]
           },
+          "dictionary_present": true,
+          "gloss_present": true,
+          "targets": [
+            {
+              "root_id": "root_001544",
+              "target_rank": 1,
+              "is_dominant": true,
+              "furuq_root_norm": "ن ق ع",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 1,
+              "dictionary_present": true,
+              "gloss_present": true,
+              "dictionary_branch_count": 9,
+              "gloss_branch_count": 9,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 1,
+                  "ayahs": 1
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          ],
           "note": null
         }
       },
@@ -8292,7 +10915,20 @@
           "occurrences",
           "ayahs"
         ],
-        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
+      },
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 28,
+        "dictionary_branches_kept": 28,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 28,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 1
       },
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }

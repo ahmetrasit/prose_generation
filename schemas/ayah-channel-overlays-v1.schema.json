@@ -1,0 +1,205 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ayah-channel-overlays-v1.schema.json",
+  "title": "Ayah channel overlays v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "surah",
+    "sourceChannelPlan",
+    "sourceReviewState",
+    "baseLayer2Directory",
+    "ayahs",
+    "coverage"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "ayah-channel-overlays-v1"
+    },
+    "surah": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 114
+    },
+    "sourceChannelPlan": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceReviewState": {
+      "const": "reviewed"
+    },
+    "baseLayer2Directory": {
+      "type": "string",
+      "minLength": 1
+    },
+    "ayahs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ayahOverlay"
+      }
+    },
+    "coverage": {
+      "$ref": "#/$defs/coverage"
+    }
+  },
+  "$defs": {
+    "relation": {
+      "enum": [
+        "supports-primary",
+        "shifts-primary"
+      ]
+    },
+    "ayahOverlay": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ayahRef",
+        "baseProse",
+        "insertions"
+      ],
+      "properties": {
+        "ayahRef": {
+          "type": "string",
+          "pattern": "^[1-9][0-9]{0,2}:[1-9][0-9]{0,2}$"
+        },
+        "baseProse": {
+          "type": "string",
+          "minLength": 1
+        },
+        "insertions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/insertion"
+          }
+        }
+      }
+    },
+    "insertion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "insertionId",
+        "channelId",
+        "stage",
+        "placement",
+        "newMemberIds",
+        "recalledMemberIds",
+        "focusAyahRelation",
+        "focusAyahShift_tr",
+        "prose_tr"
+      ],
+      "properties": {
+        "insertionId": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "channelId": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "stage": {
+          "enum": [
+            "emerging",
+            "mature",
+            "complete"
+          ]
+        },
+        "placement": {
+          "$ref": "#/$defs/placement"
+        },
+        "newMemberIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "recalledMemberIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "focusAyahRelation": {
+          "$ref": "#/$defs/relation"
+        },
+        "focusAyahShift_tr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prose_tr": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "placement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "afterParagraph",
+        "afterPhrase"
+      ],
+      "properties": {
+        "afterParagraph": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "afterPhrase": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "acceptedChannelIds",
+        "insertedChannelIds",
+        "omitted"
+      ],
+      "properties": {
+        "acceptedChannelIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "insertedChannelIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "omitted": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "channelId",
+              "ayahRef",
+              "reason"
+            ],
+            "properties": {
+              "channelId": {
+                "type": "string"
+              },
+              "ayahRef": {
+                "type": "string"
+              },
+              "reason": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
