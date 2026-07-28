@@ -1,7 +1,7 @@
 {
   "bundle_type": "surah",
-  "schema_version": "input-bundle-surah-v1",
-  "generated_at": "2026-07-27T19:29:15.279063+00:00",
+  "schema_version": "input-bundle-surah-v3",
+  "generated_at": "2026-07-28T03:22:47.764715+00:00",
   "surah": 1,
   "ayah_refs": [
     "1:1",
@@ -1019,7 +1019,17 @@
           "ayah_refs": []
         }
       ]
-    }
+    },
+    "pericopes": [
+      {
+        "surah": 1,
+        "pericope": 1,
+        "ayah_from": 1,
+        "ayah_to": 7,
+        "label": "Whole surah",
+        "synthesized": true
+      }
+    ]
   },
   "coverage": {
     "ayah_count": 7,
@@ -1032,13 +1042,76 @@
           "present": true,
           "word_count": 5
         },
+        "word_morpheme_spans": {
+          "present": false,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/linguistic/morphemes.tsv",
+          "words_total": 5,
+          "words_resolved": 0,
+          "words_unresolved": 5,
+          "unresolved": [
+            {
+              "word_index": 0,
+              "surface_ar": "بِ",
+              "reason": "no morpheme rows for this ayah"
+            },
+            {
+              "word_index": 1,
+              "surface_ar": "سْمِ",
+              "reason": "no morpheme rows for this ayah"
+            },
+            {
+              "word_index": 2,
+              "surface_ar": "ٱللَّهِ",
+              "reason": "no morpheme rows for this ayah"
+            },
+            {
+              "word_index": 3,
+              "surface_ar": "ٱلرَّحْمَٰنِ",
+              "reason": "no morpheme rows for this ayah"
+            },
+            {
+              "word_index": 4,
+              "surface_ar": "ٱلرَّحِيمِ",
+              "reason": "no morpheme rows for this ayah"
+            }
+          ],
+          "morphemes_tsv": {
+            "present": true,
+            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/linguistic/morphemes.tsv",
+            "ayah_count": 7,
+            "row_count": 48,
+            "malformed_rows": 0,
+            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+          },
+          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+        },
+        "word_analysis_qac_alignment": {
+          "consistent": false,
+          "detail": {
+            "qac_word_count": 4,
+            "word_analysis_word_count": 5,
+            "dangling_refs": [
+              "1:1:5"
+            ]
+          },
+          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+        },
         "qac_morphemes": {
           "present": true,
           "row_count": 7
         },
+        "channel_review": {
+          "present": true,
+          "review_status": "first-pass-single-reader",
+          "parent_channel_count": 13,
+          "subchannel_count": 44,
+          "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
+          "source_file": "quran-data/data/analysis/channels/network-v3/s001/review/reader_a_pilot.md",
+          "subchannels_anchored_here": 23
+        },
         "branch_inventories": {
           "present": true,
-          "scope": "surah",
+          "scope": "surah-fallback-scoped-to-ayah",
           "variants": {
             "full_context_packet": {
               "present": true,
@@ -1066,47 +1139,304 @@
                 "س م و": 8,
                 "ء ل ه": 2,
                 "ر ح م": 4,
-                "ح م د": 5,
-                "ر ب ب": 17,
-                "ع ل م": 6,
-                "م ل ك": 8,
-                "ي و م": 3,
-                "د ي ن": 7,
-                "ع ب د": 11,
-                "ع و ن": 8,
-                "ه د ي": 11,
+                "ح م د": 2,
+                "ر ب ب": 9,
+                "ع ل م": 4,
+                "م ل ك": 3,
+                "ي و م": 1,
+                "د ي ن": 2,
+                "ع ب د": 4,
+                "ع و ن": 7,
+                "ه د ي": 8,
                 "ص ر ط": 3,
-                "ق و م": 20,
-                "ن ع م": 13,
-                "غ ي ر": 5,
-                "غ ض ب": 8,
-                "ض ل ل": 5
+                "ق و م": 7,
+                "ن ع م": 6,
+                "غ ي ر": 3,
+                "غ ض ب": 3,
+                "ض ل ل": 3
               },
               "missing_branch_inventories": [],
-              "note": "surah-scope fallback: no per-ayah focus run exists, so this covers every root in the surah rather than only this ayah's roots, and carries no staged reveal order"
+              "note": "surah-scope fallback: the default commentary workflow does not consume per-ayah focus packets, so the source packet is scoped by this builder to roots this ayah can justify and carries no staged reveal order"
             }
+          },
+          "scoping": {
+            "applied": true,
+            "roots_total": 18,
+            "roots_retained": 18,
+            "roots_dropped": 0,
+            "retained": [
+              {
+                "root": "س م و",
+                "rule": "in_ayah",
+                "branches_kept": 8,
+                "branches_total": 8
+              },
+              {
+                "root": "ء ل ه",
+                "rule": "in_ayah",
+                "branches_kept": 2,
+                "branches_total": 2
+              },
+              {
+                "root": "ر ح م",
+                "rule": "in_ayah",
+                "branches_kept": 4,
+                "branches_total": 4
+              },
+              {
+                "root": "ح م د",
+                "rule": "cited_by_channel",
+                "branches_kept": 2,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B003",
+                  "B005"
+                ]
+              },
+              {
+                "root": "ر ب ب",
+                "rule": "cited_by_channel",
+                "branches_kept": 9,
+                "branches_total": 17,
+                "cited_branch_ids": [
+                  "B002",
+                  "B005",
+                  "B007",
+                  "B008",
+                  "B009",
+                  "B011",
+                  "B012",
+                  "B014",
+                  "B017"
+                ]
+              },
+              {
+                "root": "ع ل م",
+                "rule": "cited_by_channel",
+                "branches_kept": 4,
+                "branches_total": 6,
+                "cited_branch_ids": [
+                  "B002",
+                  "B004",
+                  "B006",
+                  "B007"
+                ]
+              },
+              {
+                "root": "م ل ك",
+                "rule": "cited_by_channel",
+                "branches_kept": 3,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B002",
+                  "B004",
+                  "B008"
+                ]
+              },
+              {
+                "root": "ي و م",
+                "rule": "cited_by_channel",
+                "branches_kept": 1,
+                "branches_total": 3,
+                "cited_branch_ids": [
+                  "B001"
+                ]
+              },
+              {
+                "root": "د ي ن",
+                "rule": "cited_by_channel",
+                "branches_kept": 2,
+                "branches_total": 7,
+                "cited_branch_ids": [
+                  "B001",
+                  "B007"
+                ]
+              },
+              {
+                "root": "ع ب د",
+                "rule": "cited_by_channel",
+                "branches_kept": 4,
+                "branches_total": 11,
+                "cited_branch_ids": [
+                  "B003",
+                  "B007",
+                  "B010",
+                  "B012"
+                ]
+              },
+              {
+                "root": "ع و ن",
+                "rule": "cited_by_channel",
+                "branches_kept": 7,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B004",
+                  "B005",
+                  "B006",
+                  "B007"
+                ]
+              },
+              {
+                "root": "ه د ي",
+                "rule": "cited_by_channel",
+                "branches_kept": 8,
+                "branches_total": 11,
+                "cited_branch_ids": [
+                  "B001",
+                  "B003",
+                  "B004",
+                  "B005",
+                  "B006",
+                  "B007",
+                  "B010",
+                  "B011"
+                ]
+              },
+              {
+                "root": "ص ر ط",
+                "rule": "cited_by_channel",
+                "branches_kept": 3,
+                "branches_total": 3,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003"
+                ]
+              },
+              {
+                "root": "ق و م",
+                "rule": "cited_by_channel",
+                "branches_kept": 7,
+                "branches_total": 20,
+                "cited_branch_ids": [
+                  "B001",
+                  "B003",
+                  "B004",
+                  "B008",
+                  "B014",
+                  "B017",
+                  "B019"
+                ]
+              },
+              {
+                "root": "ن ع م",
+                "rule": "cited_by_channel",
+                "branches_kept": 6,
+                "branches_total": 13,
+                "cited_branch_ids": [
+                  "B001",
+                  "B005",
+                  "B006",
+                  "B007",
+                  "B008",
+                  "B009"
+                ]
+              },
+              {
+                "root": "غ ي ر",
+                "rule": "cited_by_channel",
+                "branches_kept": 3,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B004"
+                ]
+              },
+              {
+                "root": "غ ض ب",
+                "rule": "cited_by_channel",
+                "branches_kept": 3,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B003",
+                  "B006",
+                  "B007"
+                ]
+              },
+              {
+                "root": "ض ل ل",
+                "rule": "cited_by_channel",
+                "branches_kept": 3,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B002",
+                  "B003",
+                  "B005"
+                ]
+              }
+            ],
+            "dropped_roots": [],
+            "ayah_roots_from_qac": [
+              "ءله",
+              "رحم",
+              "سمو"
+            ],
+            "channel_citations_found": 92,
+            "citations_unresolvable_in_surah_inventory": [],
+            "note": "SCOPED, NOT ABSENT. The surah-scope fallback inventory covers every root in the surah; it is narrowed here to roots this ayah can justify -- roots occurring in this ayah (all their branches kept, unconditionally, because Layer 2 selects nothing) plus roots explicitly cited by channel material anchored here (only the cited branches kept, enough to resolve the citation). A root listed in dropped_roots is a deliberate scoping decision, not a missing source."
           }
         },
         "v12_reader_responses": {
           "present": false,
-          "variants": {}
+          "variants": {},
+          "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
         "v12_reader_walks": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "latent_activation/v12/runs/s001/full_context_control/reader_s001_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/reader_s001_a_ayah_walk.md",
+              "matched_ref": "1:1"
             },
             "reader_b": {
-              "present": false,
-              "note": "1:1 heading not found in reader_s001_b_ayah_walk.md"
+              "present": true,
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/reader_s001_b_ayah_walk.md",
+              "matched_ref": "1:0"
             }
-          }
+          },
+          "lookup_refs": [
+            "1:1",
+            "1:0"
+          ],
+          "note": "accepted V12 source lookup alias 1:0 for canonical ayah 1:1"
+        },
+        "v12_reader_walks_wide": {
+          "present": true,
+          "readers": {
+            "reader_a": {
+              "present": true,
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s001/full_context_control/reader_s001_a_ayah_walk.md",
+              "matched_ref": "1:0"
+            }
+          },
+          "lookup_refs": [
+            "1:1",
+            "1:0"
+          ],
+          "note": "accepted V12 source lookup alias 1:0 for canonical ayah 1:1"
+        },
+        "v12_cross_run_publication": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/1_ayah_findings_publication.json",
+          "protocol": "v12-cross-run-publication-v3",
+          "language": "tr",
+          "lookup_ref": "1:0",
+          "canonical_ayah_ref": "1:1",
+          "finding_count": 4,
+          "grade_counts": {
+            "strong": 3,
+            "weak": 1
+          },
+          "note": "Compact final cross-run findings for this ayah, reconciled upstream from regular and plus/minus-5 reader runs; use as a coverage/priority check, not as replacement prose."
         },
         "butuncul_okuma": {
           "present": false,
-          "source_file": "latent_activation/v12/runs/s001/full_context_control/1-0-7-butuncul-okuma.md",
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/1-0-7-butuncul-okuma.md",
           "note": "no line for this ayah found in whole-surah reading"
         },
         "inter_ayah": {
@@ -1119,14 +1449,89 @@
             "no value": 14
           }
         },
-        "channel_review": {
+        "pericope": {
           "present": true,
-          "review_status": "first-pass-single-reader",
-          "parent_channel_count": 13,
-          "subchannel_count": 44,
-          "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
-          "source_file": "latent_activation/network/v3/reviews/s001/reader_a_pilot.md",
-          "subchannels_anchored_here": 23
+          "synthesized": true,
+          "note": null
+        },
+        "root_lexicon": {
+          "present": true,
+          "roots_in_ayah": [
+            "س م و",
+            "ء ل ه",
+            "ر ح م"
+          ],
+          "per_root": {
+            "س م و": {
+              "root_id": "root_000745",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 381,
+                  "ayahs": 352
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            },
+            "ء ل ه": {
+              "root_id": "root_000047",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 2851,
+                  "ayahs": 1879
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            },
+            "ر ح م": {
+              "root_id": "root_000552",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 339,
+                  "ayahs": 313
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          },
+          "occurrence_evidence_trim": {
+            "applied": true,
+            "dropped_keys": [
+              "occurrences",
+              "ayahs"
+            ],
+            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+          },
+          "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       },
       "1:2": {
@@ -1137,13 +1542,66 @@
           "present": true,
           "word_count": 5
         },
+        "word_morpheme_spans": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/linguistic/morphemes.tsv",
+          "words_total": 5,
+          "words_resolved": 2,
+          "words_unresolved": 3,
+          "unresolved": [
+            {
+              "word_index": 2,
+              "surface_ar": "ٱللَّهِ",
+              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
+            },
+            {
+              "word_index": 3,
+              "surface_ar": "رَبِّ",
+              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
+            },
+            {
+              "word_index": 4,
+              "surface_ar": "ٱلْعَٰلَمِينَ",
+              "reason": "surface mismatch: critical word does not equal any run of morpheme surfaces from the current position"
+            }
+          ],
+          "morphemes_tsv": {
+            "present": true,
+            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/linguistic/morphemes.tsv",
+            "ayah_count": 7,
+            "row_count": 48,
+            "malformed_rows": 0,
+            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+          },
+          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+        },
+        "word_analysis_qac_alignment": {
+          "consistent": false,
+          "detail": {
+            "qac_word_count": 4,
+            "word_analysis_word_count": 5,
+            "dangling_refs": [
+              "1:2:5"
+            ]
+          },
+          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+        },
         "qac_morphemes": {
           "present": true,
           "row_count": 7
         },
+        "channel_review": {
+          "present": true,
+          "review_status": "first-pass-single-reader",
+          "parent_channel_count": 13,
+          "subchannel_count": 44,
+          "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
+          "source_file": "quran-data/data/analysis/channels/network-v3/s001/review/reader_a_pilot.md",
+          "subchannels_anchored_here": 28
+        },
         "branch_inventories": {
           "present": true,
-          "scope": "surah",
+          "scope": "surah-fallback-scoped-to-ayah",
           "variants": {
             "full_context_packet": {
               "present": true,
@@ -1168,50 +1626,308 @@
                 "ض ل ل"
               ],
               "branch_counts": {
-                "س م و": 8,
+                "س م و": 6,
                 "ء ل ه": 2,
                 "ر ح م": 4,
                 "ح م د": 5,
                 "ر ب ب": 17,
                 "ع ل م": 6,
-                "م ل ك": 8,
-                "ي و م": 3,
-                "د ي ن": 7,
-                "ع ب د": 11,
+                "م ل ك": 7,
+                "ي و م": 2,
+                "د ي ن": 5,
+                "ع ب د": 7,
                 "ع و ن": 8,
-                "ه د ي": 11,
-                "ص ر ط": 3,
-                "ق و م": 20,
-                "ن ع م": 13,
-                "غ ي ر": 5,
-                "غ ض ب": 8,
-                "ض ل ل": 5
+                "ه د ي": 7,
+                "ص ر ط": 1,
+                "ق و م": 9,
+                "ن ع م": 10,
+                "غ ي ر": 3,
+                "غ ض ب": 2,
+                "ض ل ل": 1
               },
               "missing_branch_inventories": [],
-              "note": "surah-scope fallback: no per-ayah focus run exists, so this covers every root in the surah rather than only this ayah's roots, and carries no staged reveal order"
+              "note": "surah-scope fallback: the default commentary workflow does not consume per-ayah focus packets, so the source packet is scoped by this builder to roots this ayah can justify and carries no staged reveal order"
             }
+          },
+          "scoping": {
+            "applied": true,
+            "roots_total": 18,
+            "roots_retained": 18,
+            "roots_dropped": 0,
+            "retained": [
+              {
+                "root": "س م و",
+                "rule": "cited_by_channel",
+                "branches_kept": 6,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B004",
+                  "B005",
+                  "B007",
+                  "B008"
+                ]
+              },
+              {
+                "root": "ء ل ه",
+                "rule": "in_ayah",
+                "branches_kept": 2,
+                "branches_total": 2
+              },
+              {
+                "root": "ر ح م",
+                "rule": "cited_by_channel",
+                "branches_kept": 4,
+                "branches_total": 4,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B004"
+                ]
+              },
+              {
+                "root": "ح م د",
+                "rule": "in_ayah",
+                "branches_kept": 5,
+                "branches_total": 5
+              },
+              {
+                "root": "ر ب ب",
+                "rule": "in_ayah",
+                "branches_kept": 17,
+                "branches_total": 17
+              },
+              {
+                "root": "ع ل م",
+                "rule": "in_ayah",
+                "branches_kept": 6,
+                "branches_total": 6
+              },
+              {
+                "root": "م ل ك",
+                "rule": "cited_by_channel",
+                "branches_kept": 7,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B005",
+                  "B006",
+                  "B007",
+                  "B008"
+                ]
+              },
+              {
+                "root": "ي و م",
+                "rule": "cited_by_channel",
+                "branches_kept": 2,
+                "branches_total": 3,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002"
+                ]
+              },
+              {
+                "root": "د ي ن",
+                "rule": "cited_by_channel",
+                "branches_kept": 5,
+                "branches_total": 7,
+                "cited_branch_ids": [
+                  "B001",
+                  "B004",
+                  "B005",
+                  "B006",
+                  "B007"
+                ]
+              },
+              {
+                "root": "ع ب د",
+                "rule": "cited_by_channel",
+                "branches_kept": 7,
+                "branches_total": 11,
+                "cited_branch_ids": [
+                  "B001",
+                  "B003",
+                  "B005",
+                  "B006",
+                  "B007",
+                  "B009",
+                  "B012"
+                ]
+              },
+              {
+                "root": "ع و ن",
+                "rule": "cited_by_channel",
+                "branches_kept": 8,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B004",
+                  "B005",
+                  "B006",
+                  "B007",
+                  "B008"
+                ]
+              },
+              {
+                "root": "ه د ي",
+                "rule": "cited_by_channel",
+                "branches_kept": 7,
+                "branches_total": 11,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B005",
+                  "B007",
+                  "B010",
+                  "B011"
+                ]
+              },
+              {
+                "root": "ص ر ط",
+                "rule": "cited_by_channel",
+                "branches_kept": 1,
+                "branches_total": 3,
+                "cited_branch_ids": [
+                  "B001"
+                ]
+              },
+              {
+                "root": "ق و م",
+                "rule": "cited_by_channel",
+                "branches_kept": 9,
+                "branches_total": 20,
+                "cited_branch_ids": [
+                  "B003",
+                  "B004",
+                  "B006",
+                  "B008",
+                  "B009",
+                  "B012",
+                  "B014",
+                  "B017",
+                  "B019"
+                ]
+              },
+              {
+                "root": "ن ع م",
+                "rule": "cited_by_channel",
+                "branches_kept": 10,
+                "branches_total": 13,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B004",
+                  "B005",
+                  "B006",
+                  "B007",
+                  "B009",
+                  "B010",
+                  "B011"
+                ]
+              },
+              {
+                "root": "غ ي ر",
+                "rule": "cited_by_channel",
+                "branches_kept": 3,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B005"
+                ]
+              },
+              {
+                "root": "غ ض ب",
+                "rule": "cited_by_channel",
+                "branches_kept": 2,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B003",
+                  "B006"
+                ]
+              },
+              {
+                "root": "ض ل ل",
+                "rule": "cited_by_channel",
+                "branches_kept": 1,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B005"
+                ]
+              }
+            ],
+            "dropped_roots": [],
+            "ayah_roots_from_qac": [
+              "ءله",
+              "حمد",
+              "ربب",
+              "علم"
+            ],
+            "channel_citations_found": 124,
+            "citations_unresolvable_in_surah_inventory": [],
+            "note": "SCOPED, NOT ABSENT. The surah-scope fallback inventory covers every root in the surah; it is narrowed here to roots this ayah can justify -- roots occurring in this ayah (all their branches kept, unconditionally, because Layer 2 selects nothing) plus roots explicitly cited by channel material anchored here (only the cited branches kept, enough to resolve the citation). A root listed in dropped_roots is a deliberate scoping decision, not a missing source."
           }
         },
         "v12_reader_responses": {
           "present": false,
-          "variants": {}
+          "variants": {},
+          "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
         "v12_reader_walks": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "latent_activation/v12/runs/s001/full_context_control/reader_s001_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/reader_s001_a_ayah_walk.md",
+              "matched_ref": "1:2"
             },
             "reader_b": {
               "present": true,
-              "source_file": "latent_activation/v12/runs/s001/full_context_control/reader_s001_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/reader_s001_b_ayah_walk.md",
+              "matched_ref": "1:2"
             }
-          }
+          },
+          "lookup_refs": [
+            "1:2"
+          ]
+        },
+        "v12_reader_walks_wide": {
+          "present": true,
+          "readers": {
+            "reader_a": {
+              "present": true,
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s001/full_context_control/reader_s001_a_ayah_walk.md",
+              "matched_ref": "1:2"
+            }
+          },
+          "lookup_refs": [
+            "1:2"
+          ]
+        },
+        "v12_cross_run_publication": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/1_ayah_findings_publication.json",
+          "protocol": "v12-cross-run-publication-v3",
+          "language": "tr",
+          "lookup_ref": "1:2",
+          "finding_count": 4,
+          "grade_counts": {
+            "strong": 3,
+            "weak": 1
+          },
+          "note": "Compact final cross-run findings for this ayah, reconciled upstream from regular and plus/minus-5 reader runs; use as a coverage/priority check, not as replacement prose."
         },
         "butuncul_okuma": {
           "present": true,
-          "source_file": "latent_activation/v12/runs/s001/full_context_control/1-0-7-butuncul-okuma.md",
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/1-0-7-butuncul-okuma.md",
           "note": null
         },
         "inter_ayah": {
@@ -1224,14 +1940,110 @@
             "weak": 24
           }
         },
-        "channel_review": {
+        "pericope": {
           "present": true,
-          "review_status": "first-pass-single-reader",
-          "parent_channel_count": 13,
-          "subchannel_count": 44,
-          "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
-          "source_file": "latent_activation/network/v3/reviews/s001/reader_a_pilot.md",
-          "subchannels_anchored_here": 28
+          "synthesized": true,
+          "note": null
+        },
+        "root_lexicon": {
+          "present": true,
+          "roots_in_ayah": [
+            "ح م د",
+            "ء ل ه",
+            "ر ب ب",
+            "ع ل م"
+          ],
+          "per_root": {
+            "ح م د": {
+              "root_id": "root_000355",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 63,
+                  "ayahs": 61
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            },
+            "ء ل ه": {
+              "root_id": "root_000047",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 2851,
+                  "ayahs": 1879
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            },
+            "ر ب ب": {
+              "root_id": "root_000532",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 980,
+                  "ayahs": 871
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            },
+            "ع ل م": {
+              "root_id": "root_001040",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 854,
+                  "ayahs": 728
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          },
+          "occurrence_evidence_trim": {
+            "applied": true,
+            "dropped_keys": [
+              "occurrences",
+              "ayahs"
+            ],
+            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+          },
+          "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       },
       "1:3": {
@@ -1242,26 +2054,52 @@
           "present": true,
           "word_count": 2
         },
+        "word_morpheme_spans": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/linguistic/morphemes.tsv",
+          "words_total": 2,
+          "words_resolved": 2,
+          "words_unresolved": 0,
+          "unresolved": [],
+          "morphemes_tsv": {
+            "present": true,
+            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/linguistic/morphemes.tsv",
+            "ayah_count": 7,
+            "row_count": 48,
+            "malformed_rows": 0,
+            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+          },
+          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+        },
+        "word_analysis_qac_alignment": {
+          "consistent": true,
+          "detail": null,
+          "note": "aligned_qac_word_ref resolves against qac_morphemes for this ayah"
+        },
         "qac_morphemes": {
           "present": true,
           "row_count": 4
         },
+        "channel_review": {
+          "present": true,
+          "review_status": "first-pass-single-reader",
+          "parent_channel_count": 13,
+          "subchannel_count": 44,
+          "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
+          "source_file": "quran-data/data/analysis/channels/network-v3/s001/review/reader_a_pilot.md",
+          "subchannels_anchored_here": 10
+        },
         "branch_inventories": {
           "present": true,
-          "scope": "surah",
+          "scope": "surah-fallback-scoped-to-ayah",
           "variants": {
             "full_context_packet": {
               "present": true,
               "roots": [
-                "س م و",
-                "ء ل ه",
                 "ر ح م",
-                "ح م د",
                 "ر ب ب",
                 "ع ل م",
                 "م ل ك",
-                "ي و م",
-                "د ي ن",
                 "ع ب د",
                 "ع و ن",
                 "ه د ي",
@@ -1273,50 +2111,230 @@
                 "ض ل ل"
               ],
               "branch_counts": {
-                "س م و": 8,
-                "ء ل ه": 2,
                 "ر ح م": 4,
-                "ح م د": 5,
-                "ر ب ب": 17,
-                "ع ل م": 6,
-                "م ل ك": 8,
-                "ي و م": 3,
-                "د ي ن": 7,
-                "ع ب د": 11,
-                "ع و ن": 8,
-                "ه د ي": 11,
-                "ص ر ط": 3,
-                "ق و م": 20,
-                "ن ع م": 13,
-                "غ ي ر": 5,
-                "غ ض ب": 8,
-                "ض ل ل": 5
+                "ر ب ب": 3,
+                "ع ل م": 4,
+                "م ل ك": 2,
+                "ع ب د": 1,
+                "ع و ن": 4,
+                "ه د ي": 3,
+                "ص ر ط": 1,
+                "ق و م": 4,
+                "ن ع م": 2,
+                "غ ي ر": 2,
+                "غ ض ب": 2,
+                "ض ل ل": 1
               },
               "missing_branch_inventories": [],
-              "note": "surah-scope fallback: no per-ayah focus run exists, so this covers every root in the surah rather than only this ayah's roots, and carries no staged reveal order"
+              "note": "surah-scope fallback: the default commentary workflow does not consume per-ayah focus packets, so the source packet is scoped by this builder to roots this ayah can justify and carries no staged reveal order"
             }
+          },
+          "scoping": {
+            "applied": true,
+            "roots_total": 18,
+            "roots_retained": 13,
+            "roots_dropped": 5,
+            "retained": [
+              {
+                "root": "ر ح م",
+                "rule": "in_ayah",
+                "branches_kept": 4,
+                "branches_total": 4
+              },
+              {
+                "root": "ر ب ب",
+                "rule": "cited_by_channel",
+                "branches_kept": 3,
+                "branches_total": 17,
+                "cited_branch_ids": [
+                  "B002",
+                  "B005",
+                  "B009"
+                ]
+              },
+              {
+                "root": "ع ل م",
+                "rule": "cited_by_channel",
+                "branches_kept": 4,
+                "branches_total": 6,
+                "cited_branch_ids": [
+                  "B002",
+                  "B004",
+                  "B006",
+                  "B007"
+                ]
+              },
+              {
+                "root": "م ل ك",
+                "rule": "cited_by_channel",
+                "branches_kept": 2,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B002",
+                  "B004"
+                ]
+              },
+              {
+                "root": "ع ب د",
+                "rule": "cited_by_channel",
+                "branches_kept": 1,
+                "branches_total": 11,
+                "cited_branch_ids": [
+                  "B007"
+                ]
+              },
+              {
+                "root": "ع و ن",
+                "rule": "cited_by_channel",
+                "branches_kept": 4,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B005",
+                  "B007"
+                ]
+              },
+              {
+                "root": "ه د ي",
+                "rule": "cited_by_channel",
+                "branches_kept": 3,
+                "branches_total": 11,
+                "cited_branch_ids": [
+                  "B001",
+                  "B004",
+                  "B006"
+                ]
+              },
+              {
+                "root": "ص ر ط",
+                "rule": "cited_by_channel",
+                "branches_kept": 1,
+                "branches_total": 3,
+                "cited_branch_ids": [
+                  "B001"
+                ]
+              },
+              {
+                "root": "ق و م",
+                "rule": "cited_by_channel",
+                "branches_kept": 4,
+                "branches_total": 20,
+                "cited_branch_ids": [
+                  "B001",
+                  "B004",
+                  "B008",
+                  "B019"
+                ]
+              },
+              {
+                "root": "ن ع م",
+                "rule": "cited_by_channel",
+                "branches_kept": 2,
+                "branches_total": 13,
+                "cited_branch_ids": [
+                  "B001",
+                  "B006"
+                ]
+              },
+              {
+                "root": "غ ي ر",
+                "rule": "cited_by_channel",
+                "branches_kept": 2,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B001",
+                  "B004"
+                ]
+              },
+              {
+                "root": "غ ض ب",
+                "rule": "cited_by_channel",
+                "branches_kept": 2,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B006",
+                  "B007"
+                ]
+              },
+              {
+                "root": "ض ل ل",
+                "rule": "cited_by_channel",
+                "branches_kept": 1,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B005"
+                ]
+              }
+            ],
+            "dropped_roots": [
+              "س م و",
+              "ء ل ه",
+              "ح م د",
+              "ي و م",
+              "د ي ن"
+            ],
+            "ayah_roots_from_qac": [
+              "رحم"
+            ],
+            "channel_citations_found": 40,
+            "citations_unresolvable_in_surah_inventory": [],
+            "note": "SCOPED, NOT ABSENT. The surah-scope fallback inventory covers every root in the surah; it is narrowed here to roots this ayah can justify -- roots occurring in this ayah (all their branches kept, unconditionally, because Layer 2 selects nothing) plus roots explicitly cited by channel material anchored here (only the cited branches kept, enough to resolve the citation). A root listed in dropped_roots is a deliberate scoping decision, not a missing source."
           }
         },
         "v12_reader_responses": {
           "present": false,
-          "variants": {}
+          "variants": {},
+          "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
         "v12_reader_walks": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "latent_activation/v12/runs/s001/full_context_control/reader_s001_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/reader_s001_a_ayah_walk.md",
+              "matched_ref": "1:3"
             },
             "reader_b": {
               "present": true,
-              "source_file": "latent_activation/v12/runs/s001/full_context_control/reader_s001_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/reader_s001_b_ayah_walk.md",
+              "matched_ref": "1:3"
             }
-          }
+          },
+          "lookup_refs": [
+            "1:3"
+          ]
+        },
+        "v12_reader_walks_wide": {
+          "present": true,
+          "readers": {
+            "reader_a": {
+              "present": true,
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s001/full_context_control/reader_s001_a_ayah_walk.md",
+              "matched_ref": "1:3"
+            }
+          },
+          "lookup_refs": [
+            "1:3"
+          ]
+        },
+        "v12_cross_run_publication": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/1_ayah_findings_publication.json",
+          "protocol": "v12-cross-run-publication-v3",
+          "language": "tr",
+          "lookup_ref": "1:3",
+          "finding_count": 4,
+          "grade_counts": {
+            "strong": 2,
+            "weak": 1,
+            "reject": 1
+          },
+          "note": "Compact final cross-run findings for this ayah, reconciled upstream from regular and plus/minus-5 reader runs; use as a coverage/priority check, not as replacement prose."
         },
         "butuncul_okuma": {
           "present": true,
-          "source_file": "latent_activation/v12/runs/s001/full_context_control/1-0-7-butuncul-okuma.md",
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/1-0-7-butuncul-okuma.md",
           "note": null
         },
         "inter_ayah": {
@@ -1329,14 +2347,47 @@
             "no value": 11
           }
         },
-        "channel_review": {
+        "pericope": {
           "present": true,
-          "review_status": "first-pass-single-reader",
-          "parent_channel_count": 13,
-          "subchannel_count": 44,
-          "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
-          "source_file": "latent_activation/network/v3/reviews/s001/reader_a_pilot.md",
-          "subchannels_anchored_here": 10
+          "synthesized": true,
+          "note": null
+        },
+        "root_lexicon": {
+          "present": true,
+          "roots_in_ayah": [
+            "ر ح م"
+          ],
+          "per_root": {
+            "ر ح م": {
+              "root_id": "root_000552",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 339,
+                  "ayahs": 313
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          },
+          "occurrence_evidence_trim": {
+            "applied": true,
+            "dropped_keys": [
+              "occurrences",
+              "ayahs"
+            ],
+            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+          },
+          "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       },
       "1:4": {
@@ -1347,13 +2398,44 @@
           "present": true,
           "word_count": 3
         },
+        "word_morpheme_spans": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/linguistic/morphemes.tsv",
+          "words_total": 3,
+          "words_resolved": 3,
+          "words_unresolved": 0,
+          "unresolved": [],
+          "morphemes_tsv": {
+            "present": true,
+            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/linguistic/morphemes.tsv",
+            "ayah_count": 7,
+            "row_count": 48,
+            "malformed_rows": 0,
+            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+          },
+          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+        },
+        "word_analysis_qac_alignment": {
+          "consistent": true,
+          "detail": null,
+          "note": "aligned_qac_word_ref resolves against qac_morphemes for this ayah"
+        },
         "qac_morphemes": {
           "present": true,
           "row_count": 4
         },
+        "channel_review": {
+          "present": true,
+          "review_status": "first-pass-single-reader",
+          "parent_channel_count": 13,
+          "subchannel_count": 44,
+          "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
+          "source_file": "quran-data/data/analysis/channels/network-v3/s001/review/reader_a_pilot.md",
+          "subchannels_anchored_here": 21
+        },
         "branch_inventories": {
           "present": true,
-          "scope": "surah",
+          "scope": "surah-fallback-scoped-to-ayah",
           "variants": {
             "full_context_packet": {
               "present": true,
@@ -1378,50 +2460,301 @@
                 "ض ل ل"
               ],
               "branch_counts": {
-                "س م و": 8,
-                "ء ل ه": 2,
-                "ر ح م": 4,
-                "ح م د": 5,
-                "ر ب ب": 17,
-                "ع ل م": 6,
+                "س م و": 3,
+                "ء ل ه": 1,
+                "ر ح م": 2,
+                "ح م د": 3,
+                "ر ب ب": 8,
+                "ع ل م": 2,
                 "م ل ك": 8,
                 "ي و م": 3,
                 "د ي ن": 7,
-                "ع ب د": 11,
-                "ع و ن": 8,
-                "ه د ي": 11,
-                "ص ر ط": 3,
-                "ق و م": 20,
-                "ن ع م": 13,
-                "غ ي ر": 5,
-                "غ ض ب": 8,
-                "ض ل ل": 5
+                "ع ب د": 6,
+                "ع و ن": 5,
+                "ه د ي": 7,
+                "ص ر ط": 1,
+                "ق و م": 12,
+                "ن ع م": 7,
+                "غ ي ر": 4,
+                "غ ض ب": 1,
+                "ض ل ل": 2
               },
               "missing_branch_inventories": [],
-              "note": "surah-scope fallback: no per-ayah focus run exists, so this covers every root in the surah rather than only this ayah's roots, and carries no staged reveal order"
+              "note": "surah-scope fallback: the default commentary workflow does not consume per-ayah focus packets, so the source packet is scoped by this builder to roots this ayah can justify and carries no staged reveal order"
             }
+          },
+          "scoping": {
+            "applied": true,
+            "roots_total": 18,
+            "roots_retained": 18,
+            "roots_dropped": 0,
+            "retained": [
+              {
+                "root": "س م و",
+                "rule": "cited_by_channel",
+                "branches_kept": 3,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B002",
+                  "B004",
+                  "B005"
+                ]
+              },
+              {
+                "root": "ء ل ه",
+                "rule": "cited_by_channel",
+                "branches_kept": 1,
+                "branches_total": 2,
+                "cited_branch_ids": [
+                  "B001"
+                ]
+              },
+              {
+                "root": "ر ح م",
+                "rule": "cited_by_channel",
+                "branches_kept": 2,
+                "branches_total": 4,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002"
+                ]
+              },
+              {
+                "root": "ح م د",
+                "rule": "cited_by_channel",
+                "branches_kept": 3,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B002",
+                  "B004",
+                  "B005"
+                ]
+              },
+              {
+                "root": "ر ب ب",
+                "rule": "cited_by_channel",
+                "branches_kept": 8,
+                "branches_total": 17,
+                "cited_branch_ids": [
+                  "B001",
+                  "B006",
+                  "B007",
+                  "B011",
+                  "B013",
+                  "B014",
+                  "B015",
+                  "B016"
+                ]
+              },
+              {
+                "root": "ع ل م",
+                "rule": "cited_by_channel",
+                "branches_kept": 2,
+                "branches_total": 6,
+                "cited_branch_ids": [
+                  "B002",
+                  "B005"
+                ]
+              },
+              {
+                "root": "م ل ك",
+                "rule": "in_ayah",
+                "branches_kept": 8,
+                "branches_total": 8
+              },
+              {
+                "root": "ي و م",
+                "rule": "in_ayah",
+                "branches_kept": 3,
+                "branches_total": 3
+              },
+              {
+                "root": "د ي ن",
+                "rule": "in_ayah",
+                "branches_kept": 7,
+                "branches_total": 7
+              },
+              {
+                "root": "ع ب د",
+                "rule": "cited_by_channel",
+                "branches_kept": 6,
+                "branches_total": 11,
+                "cited_branch_ids": [
+                  "B001",
+                  "B003",
+                  "B005",
+                  "B006",
+                  "B007",
+                  "B009"
+                ]
+              },
+              {
+                "root": "ع و ن",
+                "rule": "cited_by_channel",
+                "branches_kept": 5,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B005",
+                  "B006",
+                  "B008"
+                ]
+              },
+              {
+                "root": "ه د ي",
+                "rule": "cited_by_channel",
+                "branches_kept": 7,
+                "branches_total": 11,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B004",
+                  "B006",
+                  "B007",
+                  "B010"
+                ]
+              },
+              {
+                "root": "ص ر ط",
+                "rule": "cited_by_channel",
+                "branches_kept": 1,
+                "branches_total": 3,
+                "cited_branch_ids": [
+                  "B001"
+                ]
+              },
+              {
+                "root": "ق و م",
+                "rule": "cited_by_channel",
+                "branches_kept": 12,
+                "branches_total": 20,
+                "cited_branch_ids": [
+                  "B002",
+                  "B006",
+                  "B007",
+                  "B008",
+                  "B009",
+                  "B010",
+                  "B011",
+                  "B012",
+                  "B013",
+                  "B015",
+                  "B017",
+                  "B018"
+                ]
+              },
+              {
+                "root": "ن ع م",
+                "rule": "cited_by_channel",
+                "branches_kept": 7,
+                "branches_total": 13,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B004",
+                  "B005",
+                  "B007",
+                  "B010",
+                  "B011"
+                ]
+              },
+              {
+                "root": "غ ي ر",
+                "rule": "cited_by_channel",
+                "branches_kept": 4,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B005"
+                ]
+              },
+              {
+                "root": "غ ض ب",
+                "rule": "cited_by_channel",
+                "branches_kept": 1,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B005"
+                ]
+              },
+              {
+                "root": "ض ل ل",
+                "rule": "cited_by_channel",
+                "branches_kept": 2,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B003",
+                  "B005"
+                ]
+              }
+            ],
+            "dropped_roots": [],
+            "ayah_roots_from_qac": [
+              "دين",
+              "ملك",
+              "يوم"
+            ],
+            "channel_citations_found": 95,
+            "citations_unresolvable_in_surah_inventory": [],
+            "note": "SCOPED, NOT ABSENT. The surah-scope fallback inventory covers every root in the surah; it is narrowed here to roots this ayah can justify -- roots occurring in this ayah (all their branches kept, unconditionally, because Layer 2 selects nothing) plus roots explicitly cited by channel material anchored here (only the cited branches kept, enough to resolve the citation). A root listed in dropped_roots is a deliberate scoping decision, not a missing source."
           }
         },
         "v12_reader_responses": {
           "present": false,
-          "variants": {}
+          "variants": {},
+          "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
         "v12_reader_walks": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "latent_activation/v12/runs/s001/full_context_control/reader_s001_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/reader_s001_a_ayah_walk.md",
+              "matched_ref": "1:4"
             },
             "reader_b": {
               "present": true,
-              "source_file": "latent_activation/v12/runs/s001/full_context_control/reader_s001_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/reader_s001_b_ayah_walk.md",
+              "matched_ref": "1:4"
             }
-          }
+          },
+          "lookup_refs": [
+            "1:4"
+          ]
+        },
+        "v12_reader_walks_wide": {
+          "present": true,
+          "readers": {
+            "reader_a": {
+              "present": true,
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s001/full_context_control/reader_s001_a_ayah_walk.md",
+              "matched_ref": "1:4"
+            }
+          },
+          "lookup_refs": [
+            "1:4"
+          ]
+        },
+        "v12_cross_run_publication": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/1_ayah_findings_publication.json",
+          "protocol": "v12-cross-run-publication-v3",
+          "language": "tr",
+          "lookup_ref": "1:4",
+          "finding_count": 5,
+          "grade_counts": {
+            "strong": 2,
+            "weak": 3
+          },
+          "note": "Compact final cross-run findings for this ayah, reconciled upstream from regular and plus/minus-5 reader runs; use as a coverage/priority check, not as replacement prose."
         },
         "butuncul_okuma": {
           "present": true,
-          "source_file": "latent_activation/v12/runs/s001/full_context_control/1-0-7-butuncul-okuma.md",
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/1-0-7-butuncul-okuma.md",
           "note": null
         },
         "inter_ayah": {
@@ -1434,14 +2767,89 @@
             "no value": 13
           }
         },
-        "channel_review": {
+        "pericope": {
           "present": true,
-          "review_status": "first-pass-single-reader",
-          "parent_channel_count": 13,
-          "subchannel_count": 44,
-          "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
-          "source_file": "latent_activation/network/v3/reviews/s001/reader_a_pilot.md",
-          "subchannels_anchored_here": 21
+          "synthesized": true,
+          "note": null
+        },
+        "root_lexicon": {
+          "present": true,
+          "roots_in_ayah": [
+            "م ل ك",
+            "ي و م",
+            "د ي ن"
+          ],
+          "per_root": {
+            "م ل ك": {
+              "root_id": "root_001444",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 206,
+                  "ayahs": 191
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            },
+            "ي و م": {
+              "root_id": "root_001700",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 405,
+                  "ayahs": 377
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            },
+            "د ي ن": {
+              "root_id": "root_000504",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 101,
+                  "ayahs": 87
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          },
+          "occurrence_evidence_trim": {
+            "applied": true,
+            "dropped_keys": [
+              "occurrences",
+              "ayahs"
+            ],
+            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+          },
+          "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       },
       "1:5": {
@@ -1452,13 +2860,50 @@
           "present": true,
           "word_count": 5
         },
+        "word_morpheme_spans": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/linguistic/morphemes.tsv",
+          "words_total": 5,
+          "words_resolved": 5,
+          "words_unresolved": 0,
+          "unresolved": [],
+          "morphemes_tsv": {
+            "present": true,
+            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/linguistic/morphemes.tsv",
+            "ayah_count": 7,
+            "row_count": 48,
+            "malformed_rows": 0,
+            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+          },
+          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+        },
+        "word_analysis_qac_alignment": {
+          "consistent": false,
+          "detail": {
+            "qac_word_count": 4,
+            "word_analysis_word_count": 5,
+            "dangling_refs": [
+              "1:5:5"
+            ]
+          },
+          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+        },
         "qac_morphemes": {
           "present": true,
           "row_count": 5
         },
+        "channel_review": {
+          "present": true,
+          "review_status": "first-pass-single-reader",
+          "parent_channel_count": 13,
+          "subchannel_count": 44,
+          "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
+          "source_file": "quran-data/data/analysis/channels/network-v3/s001/review/reader_a_pilot.md",
+          "subchannels_anchored_here": 26
+        },
         "branch_inventories": {
           "present": true,
-          "scope": "surah",
+          "scope": "surah-fallback-scoped-to-ayah",
           "variants": {
             "full_context_packet": {
               "present": true,
@@ -1483,50 +2928,319 @@
                 "ض ل ل"
               ],
               "branch_counts": {
-                "س م و": 8,
-                "ء ل ه": 2,
-                "ر ح م": 4,
-                "ح م د": 5,
-                "ر ب ب": 17,
-                "ع ل م": 6,
-                "م ل ك": 8,
-                "ي و م": 3,
-                "د ي ن": 7,
+                "س م و": 5,
+                "ء ل ه": 1,
+                "ر ح م": 3,
+                "ح م د": 4,
+                "ر ب ب": 9,
+                "ع ل م": 1,
+                "م ل ك": 6,
+                "ي و م": 1,
+                "د ي ن": 5,
                 "ع ب د": 11,
                 "ع و ن": 8,
-                "ه د ي": 11,
-                "ص ر ط": 3,
-                "ق و م": 20,
-                "ن ع م": 13,
-                "غ ي ر": 5,
+                "ه د ي": 7,
+                "ص ر ط": 2,
+                "ق و م": 16,
+                "ن ع م": 8,
+                "غ ي ر": 3,
                 "غ ض ب": 8,
-                "ض ل ل": 5
+                "ض ل ل": 2
               },
               "missing_branch_inventories": [],
-              "note": "surah-scope fallback: no per-ayah focus run exists, so this covers every root in the surah rather than only this ayah's roots, and carries no staged reveal order"
+              "note": "surah-scope fallback: the default commentary workflow does not consume per-ayah focus packets, so the source packet is scoped by this builder to roots this ayah can justify and carries no staged reveal order"
             }
+          },
+          "scoping": {
+            "applied": true,
+            "roots_total": 18,
+            "roots_retained": 18,
+            "roots_dropped": 0,
+            "retained": [
+              {
+                "root": "س م و",
+                "rule": "cited_by_channel",
+                "branches_kept": 5,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B002",
+                  "B004",
+                  "B006",
+                  "B007",
+                  "B008"
+                ]
+              },
+              {
+                "root": "ء ل ه",
+                "rule": "cited_by_channel",
+                "branches_kept": 1,
+                "branches_total": 2,
+                "cited_branch_ids": [
+                  "B001"
+                ]
+              },
+              {
+                "root": "ر ح م",
+                "rule": "cited_by_channel",
+                "branches_kept": 3,
+                "branches_total": 4,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003"
+                ]
+              },
+              {
+                "root": "ح م د",
+                "rule": "cited_by_channel",
+                "branches_kept": 4,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B002",
+                  "B003",
+                  "B004",
+                  "B005"
+                ]
+              },
+              {
+                "root": "ر ب ب",
+                "rule": "cited_by_channel",
+                "branches_kept": 9,
+                "branches_total": 17,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B006",
+                  "B007",
+                  "B008",
+                  "B012",
+                  "B014",
+                  "B016",
+                  "B017"
+                ]
+              },
+              {
+                "root": "ع ل م",
+                "rule": "cited_by_channel",
+                "branches_kept": 1,
+                "branches_total": 6,
+                "cited_branch_ids": [
+                  "B002"
+                ]
+              },
+              {
+                "root": "م ل ك",
+                "rule": "cited_by_channel",
+                "branches_kept": 6,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B005",
+                  "B006",
+                  "B008"
+                ]
+              },
+              {
+                "root": "ي و م",
+                "rule": "cited_by_channel",
+                "branches_kept": 1,
+                "branches_total": 3,
+                "cited_branch_ids": [
+                  "B002"
+                ]
+              },
+              {
+                "root": "د ي ن",
+                "rule": "cited_by_channel",
+                "branches_kept": 5,
+                "branches_total": 7,
+                "cited_branch_ids": [
+                  "B001",
+                  "B003",
+                  "B004",
+                  "B005",
+                  "B006"
+                ]
+              },
+              {
+                "root": "ع ب د",
+                "rule": "in_ayah",
+                "branches_kept": 11,
+                "branches_total": 11
+              },
+              {
+                "root": "ع و ن",
+                "rule": "in_ayah",
+                "branches_kept": 8,
+                "branches_total": 8
+              },
+              {
+                "root": "ه د ي",
+                "rule": "cited_by_channel",
+                "branches_kept": 7,
+                "branches_total": 11,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B005",
+                  "B008",
+                  "B009",
+                  "B010"
+                ]
+              },
+              {
+                "root": "ص ر ط",
+                "rule": "cited_by_channel",
+                "branches_kept": 2,
+                "branches_total": 3,
+                "cited_branch_ids": [
+                  "B001",
+                  "B003"
+                ]
+              },
+              {
+                "root": "ق و م",
+                "rule": "cited_by_channel",
+                "branches_kept": 16,
+                "branches_total": 20,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B004",
+                  "B006",
+                  "B008",
+                  "B009",
+                  "B010",
+                  "B011",
+                  "B012",
+                  "B014",
+                  "B015",
+                  "B016",
+                  "B018",
+                  "B020",
+                  "B021"
+                ]
+              },
+              {
+                "root": "ن ع م",
+                "rule": "cited_by_channel",
+                "branches_kept": 8,
+                "branches_total": 13,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B005",
+                  "B008",
+                  "B009",
+                  "B010",
+                  "B011",
+                  "B013"
+                ]
+              },
+              {
+                "root": "غ ي ر",
+                "rule": "cited_by_channel",
+                "branches_kept": 3,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B004"
+                ]
+              },
+              {
+                "root": "غ ض ب",
+                "rule": "cited_by_channel",
+                "branches_kept": 8,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B004",
+                  "B005",
+                  "B006",
+                  "B007",
+                  "B008"
+                ]
+              },
+              {
+                "root": "ض ل ل",
+                "rule": "cited_by_channel",
+                "branches_kept": 2,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B003",
+                  "B005"
+                ]
+              }
+            ],
+            "dropped_roots": [],
+            "ayah_roots_from_qac": [
+              "عبد",
+              "عون"
+            ],
+            "channel_citations_found": 116,
+            "citations_unresolvable_in_surah_inventory": [],
+            "note": "SCOPED, NOT ABSENT. The surah-scope fallback inventory covers every root in the surah; it is narrowed here to roots this ayah can justify -- roots occurring in this ayah (all their branches kept, unconditionally, because Layer 2 selects nothing) plus roots explicitly cited by channel material anchored here (only the cited branches kept, enough to resolve the citation). A root listed in dropped_roots is a deliberate scoping decision, not a missing source."
           }
         },
         "v12_reader_responses": {
           "present": false,
-          "variants": {}
+          "variants": {},
+          "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
         "v12_reader_walks": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "latent_activation/v12/runs/s001/full_context_control/reader_s001_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/reader_s001_a_ayah_walk.md",
+              "matched_ref": "1:5"
             },
             "reader_b": {
               "present": true,
-              "source_file": "latent_activation/v12/runs/s001/full_context_control/reader_s001_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/reader_s001_b_ayah_walk.md",
+              "matched_ref": "1:5"
             }
-          }
+          },
+          "lookup_refs": [
+            "1:5"
+          ]
+        },
+        "v12_reader_walks_wide": {
+          "present": true,
+          "readers": {
+            "reader_a": {
+              "present": true,
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s001/full_context_control/reader_s001_a_ayah_walk.md",
+              "matched_ref": "1:5"
+            }
+          },
+          "lookup_refs": [
+            "1:5"
+          ]
+        },
+        "v12_cross_run_publication": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/1_ayah_findings_publication.json",
+          "protocol": "v12-cross-run-publication-v3",
+          "language": "tr",
+          "lookup_ref": "1:5",
+          "finding_count": 5,
+          "grade_counts": {
+            "strong": 4,
+            "weak": 1
+          },
+          "note": "Compact final cross-run findings for this ayah, reconciled upstream from regular and plus/minus-5 reader runs; use as a coverage/priority check, not as replacement prose."
         },
         "butuncul_okuma": {
           "present": true,
-          "source_file": "latent_activation/v12/runs/s001/full_context_control/1-0-7-butuncul-okuma.md",
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/1-0-7-butuncul-okuma.md",
           "note": null
         },
         "inter_ayah": {
@@ -1539,14 +3253,68 @@
             "no value": 8
           }
         },
-        "channel_review": {
+        "pericope": {
           "present": true,
-          "review_status": "first-pass-single-reader",
-          "parent_channel_count": 13,
-          "subchannel_count": 44,
-          "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
-          "source_file": "latent_activation/network/v3/reviews/s001/reader_a_pilot.md",
-          "subchannels_anchored_here": 26
+          "synthesized": true,
+          "note": null
+        },
+        "root_lexicon": {
+          "present": true,
+          "roots_in_ayah": [
+            "ع ب د",
+            "ع و ن"
+          ],
+          "per_root": {
+            "ع ب د": {
+              "root_id": "root_000973",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 275,
+                  "ayahs": 251
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            },
+            "ع و ن": {
+              "root_id": "root_001064",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 11,
+                  "ayahs": 10
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          },
+          "occurrence_evidence_trim": {
+            "applied": true,
+            "dropped_keys": [
+              "occurrences",
+              "ayahs"
+            ],
+            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+          },
+          "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       },
       "1:6": {
@@ -1557,13 +3325,44 @@
           "present": true,
           "word_count": 3
         },
+        "word_morpheme_spans": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/linguistic/morphemes.tsv",
+          "words_total": 3,
+          "words_resolved": 3,
+          "words_unresolved": 0,
+          "unresolved": [],
+          "morphemes_tsv": {
+            "present": true,
+            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/linguistic/morphemes.tsv",
+            "ayah_count": 7,
+            "row_count": 48,
+            "malformed_rows": 0,
+            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+          },
+          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+        },
+        "word_analysis_qac_alignment": {
+          "consistent": true,
+          "detail": null,
+          "note": "aligned_qac_word_ref resolves against qac_morphemes for this ayah"
+        },
         "qac_morphemes": {
           "present": true,
           "row_count": 6
         },
+        "channel_review": {
+          "present": true,
+          "review_status": "first-pass-single-reader",
+          "parent_channel_count": 13,
+          "subchannel_count": 44,
+          "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
+          "source_file": "quran-data/data/analysis/channels/network-v3/s001/review/reader_a_pilot.md",
+          "subchannels_anchored_here": 32
+        },
         "branch_inventories": {
           "present": true,
-          "scope": "surah",
+          "scope": "surah-fallback-scoped-to-ayah",
           "variants": {
             "full_context_packet": {
               "present": true,
@@ -1589,49 +3388,315 @@
               ],
               "branch_counts": {
                 "س م و": 8,
-                "ء ل ه": 2,
-                "ر ح م": 4,
-                "ح م د": 5,
-                "ر ب ب": 17,
-                "ع ل م": 6,
+                "ء ل ه": 1,
+                "ر ح م": 3,
+                "ح م د": 4,
+                "ر ب ب": 8,
+                "ع ل م": 3,
                 "م ل ك": 8,
                 "ي و م": 3,
-                "د ي ن": 7,
-                "ع ب د": 11,
-                "ع و ن": 8,
+                "د ي ن": 5,
+                "ع ب د": 7,
+                "ع و ن": 6,
                 "ه د ي": 11,
                 "ص ر ط": 3,
                 "ق و م": 20,
-                "ن ع م": 13,
-                "غ ي ر": 5,
-                "غ ض ب": 8,
+                "ن ع م": 7,
+                "غ ي ر": 4,
+                "غ ض ب": 6,
                 "ض ل ل": 5
               },
               "missing_branch_inventories": [],
-              "note": "surah-scope fallback: no per-ayah focus run exists, so this covers every root in the surah rather than only this ayah's roots, and carries no staged reveal order"
+              "note": "surah-scope fallback: the default commentary workflow does not consume per-ayah focus packets, so the source packet is scoped by this builder to roots this ayah can justify and carries no staged reveal order"
             }
+          },
+          "scoping": {
+            "applied": true,
+            "roots_total": 18,
+            "roots_retained": 18,
+            "roots_dropped": 0,
+            "retained": [
+              {
+                "root": "س م و",
+                "rule": "cited_by_channel",
+                "branches_kept": 8,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B004",
+                  "B005",
+                  "B006",
+                  "B007",
+                  "B008"
+                ]
+              },
+              {
+                "root": "ء ل ه",
+                "rule": "cited_by_channel",
+                "branches_kept": 1,
+                "branches_total": 2,
+                "cited_branch_ids": [
+                  "B001"
+                ]
+              },
+              {
+                "root": "ر ح م",
+                "rule": "cited_by_channel",
+                "branches_kept": 3,
+                "branches_total": 4,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B004"
+                ]
+              },
+              {
+                "root": "ح م د",
+                "rule": "cited_by_channel",
+                "branches_kept": 4,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B002",
+                  "B003",
+                  "B004",
+                  "B005"
+                ]
+              },
+              {
+                "root": "ر ب ب",
+                "rule": "cited_by_channel",
+                "branches_kept": 8,
+                "branches_total": 17,
+                "cited_branch_ids": [
+                  "B002",
+                  "B005",
+                  "B007",
+                  "B011",
+                  "B013",
+                  "B014",
+                  "B016",
+                  "B017"
+                ]
+              },
+              {
+                "root": "ع ل م",
+                "rule": "cited_by_channel",
+                "branches_kept": 3,
+                "branches_total": 6,
+                "cited_branch_ids": [
+                  "B002",
+                  "B004",
+                  "B005"
+                ]
+              },
+              {
+                "root": "م ل ك",
+                "rule": "cited_by_channel",
+                "branches_kept": 8,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B004",
+                  "B005",
+                  "B006",
+                  "B007",
+                  "B008"
+                ]
+              },
+              {
+                "root": "ي و م",
+                "rule": "cited_by_channel",
+                "branches_kept": 3,
+                "branches_total": 3,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003"
+                ]
+              },
+              {
+                "root": "د ي ن",
+                "rule": "cited_by_channel",
+                "branches_kept": 5,
+                "branches_total": 7,
+                "cited_branch_ids": [
+                  "B002",
+                  "B003",
+                  "B005",
+                  "B006",
+                  "B007"
+                ]
+              },
+              {
+                "root": "ع ب د",
+                "rule": "cited_by_channel",
+                "branches_kept": 7,
+                "branches_total": 11,
+                "cited_branch_ids": [
+                  "B003",
+                  "B005",
+                  "B007",
+                  "B009",
+                  "B010",
+                  "B011",
+                  "B012"
+                ]
+              },
+              {
+                "root": "ع و ن",
+                "rule": "cited_by_channel",
+                "branches_kept": 6,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B005",
+                  "B006",
+                  "B008"
+                ]
+              },
+              {
+                "root": "ه د ي",
+                "rule": "in_ayah",
+                "branches_kept": 11,
+                "branches_total": 11
+              },
+              {
+                "root": "ص ر ط",
+                "rule": "in_ayah",
+                "branches_kept": 3,
+                "branches_total": 3
+              },
+              {
+                "root": "ق و م",
+                "rule": "in_ayah",
+                "branches_kept": 20,
+                "branches_total": 20
+              },
+              {
+                "root": "ن ع م",
+                "rule": "cited_by_channel",
+                "branches_kept": 7,
+                "branches_total": 13,
+                "cited_branch_ids": [
+                  "B001",
+                  "B005",
+                  "B007",
+                  "B008",
+                  "B010",
+                  "B011",
+                  "B013"
+                ]
+              },
+              {
+                "root": "غ ي ر",
+                "rule": "cited_by_channel",
+                "branches_kept": 4,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B004"
+                ]
+              },
+              {
+                "root": "غ ض ب",
+                "rule": "cited_by_channel",
+                "branches_kept": 6,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B003",
+                  "B004",
+                  "B005",
+                  "B006",
+                  "B007",
+                  "B008"
+                ]
+              },
+              {
+                "root": "ض ل ل",
+                "rule": "cited_by_channel",
+                "branches_kept": 5,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B004",
+                  "B005"
+                ]
+              }
+            ],
+            "dropped_roots": [],
+            "ayah_roots_from_qac": [
+              "صرط",
+              "قوم",
+              "هدي"
+            ],
+            "channel_citations_found": 125,
+            "citations_unresolvable_in_surah_inventory": [],
+            "note": "SCOPED, NOT ABSENT. The surah-scope fallback inventory covers every root in the surah; it is narrowed here to roots this ayah can justify -- roots occurring in this ayah (all their branches kept, unconditionally, because Layer 2 selects nothing) plus roots explicitly cited by channel material anchored here (only the cited branches kept, enough to resolve the citation). A root listed in dropped_roots is a deliberate scoping decision, not a missing source."
           }
         },
         "v12_reader_responses": {
           "present": false,
-          "variants": {}
+          "variants": {},
+          "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
         "v12_reader_walks": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "latent_activation/v12/runs/s001/full_context_control/reader_s001_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/reader_s001_a_ayah_walk.md",
+              "matched_ref": "1:6"
             },
             "reader_b": {
               "present": true,
-              "source_file": "latent_activation/v12/runs/s001/full_context_control/reader_s001_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/reader_s001_b_ayah_walk.md",
+              "matched_ref": "1:6"
             }
-          }
+          },
+          "lookup_refs": [
+            "1:6"
+          ]
+        },
+        "v12_reader_walks_wide": {
+          "present": true,
+          "readers": {
+            "reader_a": {
+              "present": true,
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s001/full_context_control/reader_s001_a_ayah_walk.md",
+              "matched_ref": "1:6"
+            }
+          },
+          "lookup_refs": [
+            "1:6"
+          ]
+        },
+        "v12_cross_run_publication": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/1_ayah_findings_publication.json",
+          "protocol": "v12-cross-run-publication-v3",
+          "language": "tr",
+          "lookup_ref": "1:6",
+          "finding_count": 5,
+          "grade_counts": {
+            "strong": 3,
+            "weak": 1,
+            "reject": 1
+          },
+          "note": "Compact final cross-run findings for this ayah, reconciled upstream from regular and plus/minus-5 reader runs; use as a coverage/priority check, not as replacement prose."
         },
         "butuncul_okuma": {
           "present": true,
-          "source_file": "latent_activation/v12/runs/s001/full_context_control/1-0-7-butuncul-okuma.md",
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/1-0-7-butuncul-okuma.md",
           "note": null
         },
         "inter_ayah": {
@@ -1644,14 +3709,89 @@
             "weak": 9
           }
         },
-        "channel_review": {
+        "pericope": {
           "present": true,
-          "review_status": "first-pass-single-reader",
-          "parent_channel_count": 13,
-          "subchannel_count": 44,
-          "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
-          "source_file": "latent_activation/network/v3/reviews/s001/reader_a_pilot.md",
-          "subchannels_anchored_here": 32
+          "synthesized": true,
+          "note": null
+        },
+        "root_lexicon": {
+          "present": true,
+          "roots_in_ayah": [
+            "ه د ي",
+            "ص ر ط",
+            "ق و م"
+          ],
+          "per_root": {
+            "ه د ي": {
+              "root_id": "root_001583",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 316,
+                  "ayahs": 268
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            },
+            "ص ر ط": {
+              "root_id": "root_000858",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 45,
+                  "ayahs": 45
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            },
+            "ق و م": {
+              "root_id": "root_001273",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 660,
+                  "ayahs": 597
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          },
+          "occurrence_evidence_trim": {
+            "applied": true,
+            "dropped_keys": [
+              "occurrences",
+              "ayahs"
+            ],
+            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+          },
+          "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       },
       "1:7": {
@@ -1662,13 +3802,50 @@
           "present": true,
           "word_count": 10
         },
+        "word_morpheme_spans": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/linguistic/morphemes.tsv",
+          "words_total": 10,
+          "words_resolved": 10,
+          "words_unresolved": 0,
+          "unresolved": [],
+          "morphemes_tsv": {
+            "present": true,
+            "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/linguistic/morphemes.tsv",
+            "ayah_count": 7,
+            "row_count": 48,
+            "malformed_rows": 0,
+            "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+          },
+          "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+        },
+        "word_analysis_qac_alignment": {
+          "consistent": false,
+          "detail": {
+            "qac_word_count": 9,
+            "word_analysis_word_count": 10,
+            "dangling_refs": [
+              "1:7:10"
+            ]
+          },
+          "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+        },
         "qac_morphemes": {
           "present": true,
           "row_count": 15
         },
+        "channel_review": {
+          "present": true,
+          "review_status": "first-pass-single-reader",
+          "parent_channel_count": 13,
+          "subchannel_count": 44,
+          "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
+          "source_file": "quran-data/data/analysis/channels/network-v3/s001/review/reader_a_pilot.md",
+          "subchannels_anchored_here": 31
+        },
         "branch_inventories": {
           "present": true,
-          "scope": "surah",
+          "scope": "surah-fallback-scoped-to-ayah",
           "variants": {
             "full_context_packet": {
               "present": true,
@@ -1693,50 +3870,320 @@
                 "ض ل ل"
               ],
               "branch_counts": {
-                "س م و": 8,
-                "ء ل ه": 2,
+                "س م و": 5,
+                "ء ل ه": 1,
                 "ر ح م": 4,
                 "ح م د": 5,
-                "ر ب ب": 17,
+                "ر ب ب": 12,
                 "ع ل م": 6,
-                "م ل ك": 8,
-                "ي و م": 3,
-                "د ي ن": 7,
-                "ع ب د": 11,
-                "ع و ن": 8,
-                "ه د ي": 11,
+                "م ل ك": 6,
+                "ي و م": 2,
+                "د ي ن": 5,
+                "ع ب د": 7,
+                "ع و ن": 7,
+                "ه د ي": 7,
                 "ص ر ط": 3,
-                "ق و م": 20,
+                "ق و م": 18,
                 "ن ع م": 13,
                 "غ ي ر": 5,
                 "غ ض ب": 8,
                 "ض ل ل": 5
               },
               "missing_branch_inventories": [],
-              "note": "surah-scope fallback: no per-ayah focus run exists, so this covers every root in the surah rather than only this ayah's roots, and carries no staged reveal order"
+              "note": "surah-scope fallback: the default commentary workflow does not consume per-ayah focus packets, so the source packet is scoped by this builder to roots this ayah can justify and carries no staged reveal order"
             }
+          },
+          "scoping": {
+            "applied": true,
+            "roots_total": 18,
+            "roots_retained": 18,
+            "roots_dropped": 0,
+            "retained": [
+              {
+                "root": "س م و",
+                "rule": "cited_by_channel",
+                "branches_kept": 5,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B003",
+                  "B004",
+                  "B005",
+                  "B006",
+                  "B007"
+                ]
+              },
+              {
+                "root": "ء ل ه",
+                "rule": "cited_by_channel",
+                "branches_kept": 1,
+                "branches_total": 2,
+                "cited_branch_ids": [
+                  "B001"
+                ]
+              },
+              {
+                "root": "ر ح م",
+                "rule": "cited_by_channel",
+                "branches_kept": 4,
+                "branches_total": 4,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B004"
+                ]
+              },
+              {
+                "root": "ح م د",
+                "rule": "cited_by_channel",
+                "branches_kept": 5,
+                "branches_total": 5,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B004",
+                  "B005"
+                ]
+              },
+              {
+                "root": "ر ب ب",
+                "rule": "cited_by_channel",
+                "branches_kept": 12,
+                "branches_total": 17,
+                "cited_branch_ids": [
+                  "B002",
+                  "B003",
+                  "B006",
+                  "B007",
+                  "B008",
+                  "B009",
+                  "B011",
+                  "B012",
+                  "B013",
+                  "B014",
+                  "B015",
+                  "B016"
+                ]
+              },
+              {
+                "root": "ع ل م",
+                "rule": "cited_by_channel",
+                "branches_kept": 6,
+                "branches_total": 6,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B004",
+                  "B005",
+                  "B006",
+                  "B007"
+                ]
+              },
+              {
+                "root": "م ل ك",
+                "rule": "cited_by_channel",
+                "branches_kept": 6,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B005",
+                  "B006",
+                  "B007",
+                  "B008"
+                ]
+              },
+              {
+                "root": "ي و م",
+                "rule": "cited_by_channel",
+                "branches_kept": 2,
+                "branches_total": 3,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002"
+                ]
+              },
+              {
+                "root": "د ي ن",
+                "rule": "cited_by_channel",
+                "branches_kept": 5,
+                "branches_total": 7,
+                "cited_branch_ids": [
+                  "B002",
+                  "B003",
+                  "B005",
+                  "B006",
+                  "B007"
+                ]
+              },
+              {
+                "root": "ع ب د",
+                "rule": "cited_by_channel",
+                "branches_kept": 7,
+                "branches_total": 11,
+                "cited_branch_ids": [
+                  "B003",
+                  "B005",
+                  "B007",
+                  "B008",
+                  "B009",
+                  "B010",
+                  "B011"
+                ]
+              },
+              {
+                "root": "ع و ن",
+                "rule": "cited_by_channel",
+                "branches_kept": 7,
+                "branches_total": 8,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B004",
+                  "B005",
+                  "B006",
+                  "B008"
+                ]
+              },
+              {
+                "root": "ه د ي",
+                "rule": "cited_by_channel",
+                "branches_kept": 7,
+                "branches_total": 11,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B004",
+                  "B005",
+                  "B007",
+                  "B009",
+                  "B010"
+                ]
+              },
+              {
+                "root": "ص ر ط",
+                "rule": "in_ayah",
+                "branches_kept": 3,
+                "branches_total": 3
+              },
+              {
+                "root": "ق و م",
+                "rule": "cited_by_channel",
+                "branches_kept": 18,
+                "branches_total": 20,
+                "cited_branch_ids": [
+                  "B001",
+                  "B002",
+                  "B003",
+                  "B004",
+                  "B006",
+                  "B007",
+                  "B008",
+                  "B009",
+                  "B010",
+                  "B011",
+                  "B012",
+                  "B014",
+                  "B015",
+                  "B017",
+                  "B018",
+                  "B019",
+                  "B020",
+                  "B021"
+                ]
+              },
+              {
+                "root": "ن ع م",
+                "rule": "in_ayah",
+                "branches_kept": 13,
+                "branches_total": 13
+              },
+              {
+                "root": "غ ي ر",
+                "rule": "in_ayah",
+                "branches_kept": 5,
+                "branches_total": 5
+              },
+              {
+                "root": "غ ض ب",
+                "rule": "in_ayah",
+                "branches_kept": 8,
+                "branches_total": 8
+              },
+              {
+                "root": "ض ل ل",
+                "rule": "in_ayah",
+                "branches_kept": 5,
+                "branches_total": 5
+              }
+            ],
+            "dropped_roots": [],
+            "ayah_roots_from_qac": [
+              "صرط",
+              "ضلل",
+              "غضب",
+              "غير",
+              "نعم"
+            ],
+            "channel_citations_found": 136,
+            "citations_unresolvable_in_surah_inventory": [],
+            "note": "SCOPED, NOT ABSENT. The surah-scope fallback inventory covers every root in the surah; it is narrowed here to roots this ayah can justify -- roots occurring in this ayah (all their branches kept, unconditionally, because Layer 2 selects nothing) plus roots explicitly cited by channel material anchored here (only the cited branches kept, enough to resolve the citation). A root listed in dropped_roots is a deliberate scoping decision, not a missing source."
           }
         },
         "v12_reader_responses": {
           "present": false,
-          "variants": {}
+          "variants": {},
+          "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
         "v12_reader_walks": {
           "present": true,
           "readers": {
             "reader_a": {
               "present": true,
-              "source_file": "latent_activation/v12/runs/s001/full_context_control/reader_s001_a_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/reader_s001_a_ayah_walk.md",
+              "matched_ref": "1:7"
             },
             "reader_b": {
               "present": true,
-              "source_file": "latent_activation/v12/runs/s001/full_context_control/reader_s001_b_ayah_walk.md"
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/reader_s001_b_ayah_walk.md",
+              "matched_ref": "1:7"
             }
-          }
+          },
+          "lookup_refs": [
+            "1:7"
+          ]
+        },
+        "v12_reader_walks_wide": {
+          "present": true,
+          "readers": {
+            "reader_a": {
+              "present": true,
+              "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s001/full_context_control/reader_s001_a_ayah_walk.md",
+              "matched_ref": "1:7"
+            }
+          },
+          "lookup_refs": [
+            "1:7"
+          ]
+        },
+        "v12_cross_run_publication": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/1_ayah_findings_publication.json",
+          "protocol": "v12-cross-run-publication-v3",
+          "language": "tr",
+          "lookup_ref": "1:7",
+          "finding_count": 9,
+          "grade_counts": {
+            "strong": 4,
+            "weak": 5
+          },
+          "note": "Compact final cross-run findings for this ayah, reconciled upstream from regular and plus/minus-5 reader runs; use as a coverage/priority check, not as replacement prose."
         },
         "butuncul_okuma": {
           "present": true,
-          "source_file": "latent_activation/v12/runs/s001/full_context_control/1-0-7-butuncul-okuma.md",
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/1-0-7-butuncul-okuma.md",
           "note": null
         },
         "inter_ayah": {
@@ -1749,20 +4196,137 @@
             "no value": 7
           }
         },
-        "channel_review": {
+        "pericope": {
           "present": true,
-          "review_status": "first-pass-single-reader",
-          "parent_channel_count": 13,
-          "subchannel_count": 44,
-          "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
-          "source_file": "latent_activation/network/v3/reviews/s001/reader_a_pilot.md",
-          "subchannels_anchored_here": 31
+          "synthesized": true,
+          "note": null
+        },
+        "root_lexicon": {
+          "present": true,
+          "roots_in_ayah": [
+            "ص ر ط",
+            "ن ع م",
+            "غ ي ر",
+            "غ ض ب",
+            "ض ل ل"
+          ],
+          "per_root": {
+            "ص ر ط": {
+              "root_id": "root_000858",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 45,
+                  "ayahs": 45
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            },
+            "ن ع م": {
+              "root_id": "root_001525",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 140,
+                  "ayahs": 128
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            },
+            "غ ي ر": {
+              "root_id": "root_001119",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 154,
+                  "ayahs": 146
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            },
+            "غ ض ب": {
+              "root_id": "root_001092",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 24,
+                  "ayahs": 21
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            },
+            "ض ل ل": {
+              "root_id": "root_000913",
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 191,
+                  "ayahs": 170
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          },
+          "occurrence_evidence_trim": {
+            "applied": true,
+            "dropped_keys": [
+              "occurrences",
+              "ayahs"
+            ],
+            "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
+          },
+          "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       }
     },
     "butuncul_okuma": {
       "present": true,
-      "source_file": "latent_activation/v12/runs/s001/full_context_control/1-0-7-butuncul-okuma.md",
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s001/full_context_control/1-0-7-butuncul-okuma.md",
       "ayah_refs_found": [
         "1:0",
         "1:2",
@@ -1779,7 +4343,12 @@
       "parent_channel_count": 13,
       "subchannel_count": 44,
       "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
-      "source_file": "latent_activation/network/v3/reviews/s001/reader_a_pilot.md"
+      "source_file": "quran-data/data/analysis/channels/network-v3/s001/review/reader_a_pilot.md"
+    },
+    "pericopes": {
+      "present": true,
+      "pericope_count": 1,
+      "synthesized": true
     }
   }
 }

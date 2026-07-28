@@ -88,6 +88,17 @@ def relpath(path: Path) -> str:
     return str(path.relative_to(PROJECTS_ROOT))
 
 
+def v12_lookup_ref(surah: int, ayah: int) -> str:
+    """Reference used by V12 reader/publication files.
+
+    S1 is the one canonical-numbering exception: Quran text and QAC count the
+    basmalah as 1:1, while V12 reader/publication artifacts store it as 1:0.
+    This is a transparent source lookup alias, not a bundle ayahRef rewrite."""
+    if surah == 1 and ayah == 1:
+        return "1:0"
+    return f"{surah}:{ayah}"
+
+
 # ---------------------------------------------------------------------------
 # Decompression helpers
 # ---------------------------------------------------------------------------
@@ -774,9 +785,11 @@ def load_v12_reader_walks(
     "zero_headings_parsed": True) rather than being silently indistinguishable
     from "this ayah's heading isn't in an otherwise-normal file"."""
     control_dir = source_dir / f"s{surah:03d}" / "full_context_control"
-    ayah_ref = f"{surah}:{ayah}"
+    canonical_ref = f"{surah}:{ayah}"
+    alias_ref = v12_lookup_ref(surah, ayah)
+    lookup_refs = [canonical_ref] + ([] if alias_ref == canonical_ref else [alias_ref])
     out = {}
-    coverage = {"present": False, "readers": {}}
+    coverage = {"present": False, "readers": {}, "lookup_refs": lookup_refs}
     if not control_dir.exists():
         coverage["note"] = f"{source_label}: full_context_control dir not found: {control_dir}"
         return out, coverage
@@ -801,16 +814,26 @@ def load_v12_reader_walks(
                 "note": f"{wf.name} found but zero ayah headings recognised (unrecognised format)",
             }
             continue
-        if ayah_ref in parsed:
-            out[reader_label] = parsed[ayah_ref]
+        matched_ref = next((ref for ref in lookup_refs if ref in parsed), None)
+        if matched_ref is not None:
+            out[reader_label] = parsed[matched_ref]
             out[reader_label]["source_file"] = relpath(wf)
-            coverage["readers"][reader_label] = {"present": True, "source_file": out[reader_label]["source_file"]}
+            coverage["readers"][reader_label] = {
+                "present": True,
+                "source_file": out[reader_label]["source_file"],
+                "matched_ref": matched_ref,
+            }
             coverage["present"] = True
         else:
             coverage["readers"][reader_label] = {
                 "present": False,
-                "note": f"{ayah_ref} heading not found in {wf.name}",
+                "note": f"{'/'.join(lookup_refs)} heading not found in {wf.name}",
             }
+    if alias_ref != canonical_ref:
+        coverage["note"] = (
+            (coverage.get("note") + "; " if coverage.get("note") else "") +
+            f"accepted V12 source lookup alias {alias_ref} for canonical ayah {canonical_ref}"
+        )
     if not walk_files:
         coverage["note"] = f"{source_label}: no reader_s{surah:03d}_*_ayah_walk.md files found"
     return out, coverage
@@ -824,7 +847,7 @@ def load_v12_cross_run_publication(surah: int, ayah: int) -> tuple:
     readers upstream, so it is kept separate from the raw reader-walk fields.
     The bundle only carries the requested ayah's row, not the full surah file."""
     path = V12_CROSS_RUN_TR_DIR / f"{surah}_ayah_findings_publication.json"
-    ayah_ref = f"{surah}:{ayah}"
+    ayah_ref = v12_lookup_ref(surah, ayah)
     coverage = {"present": False, "source_file": None}
     if not path.exists():
         coverage["note"] = f"no v12 cross-run publication file at {path}"
@@ -840,6 +863,9 @@ def load_v12_cross_run_publication(surah: int, ayah: int) -> tuple:
     coverage["source_file"] = relpath(path)
     coverage["protocol"] = data.get("protocol")
     coverage["language"] = data.get("language")
+    coverage["lookup_ref"] = ayah_ref
+    if ayah_ref != f"{surah}:{ayah}":
+        coverage["canonical_ayah_ref"] = f"{surah}:{ayah}"
     if row is None:
         coverage["note"] = f"{ayah_ref} not found in {path.name}"
         return None, coverage
@@ -866,6 +892,7 @@ def load_v12_cross_run_publication(surah: int, ayah: int) -> tuple:
         "language": data.get("language"),
         "surah": data.get("surah"),
         "ayah_ref": row.get("ayah_ref"),
+        "canonical_ayah_ref": f"{surah}:{ayah}",
         "baseline": row.get("baseline"),
         "findings": findings,
     }, coverage

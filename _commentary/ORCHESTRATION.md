@@ -116,6 +116,13 @@ roots and anchored citations, plus regular/wide reader walks and cross-run
 publication findings when present. A later audit can re-enable focus packets
 explicitly, but that is no longer the production lane.
 
+S1 basmalah lookup is explicit. Canonical commentary units keep `ayahRef: 1:1`;
+some V12 reader/publication artifacts store that same basmalah as `1:0`.
+Reader-walk lookup accepts both `1:1` and `1:0` for the S1 basmalah and records
+the matched source ref per reader. Cross-run publication lookup records
+`lookup_ref: 1:0` and `canonical_ayah_ref: 1:1`. This is source lookup
+provenance, not hidden ayah renumbering.
+
 ## Stage 2 — Instantiate the prompt
 
 ```
@@ -161,6 +168,8 @@ surface if it disorients a writer.
 
 Feed one prompt file to one cold agent as its **entire** prompt. No system
 prompt, no repo access, no other context, no conversation history.
+Do not set a service-tier override when spawning these agents; use the model and
+reasoning effort only.
 
 **One agent per ayah is a correctness requirement, not a preference.** An agent
 holding the whole surah writes ayah readings that are slices of a thesis it has
