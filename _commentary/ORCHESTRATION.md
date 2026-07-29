@@ -128,6 +128,37 @@ regular/wide reader walks, and cross-run publication findings. Focus Trace
 citations preserve `mapped_root_id` with `branch_id` because split QAC roots may
 surface secondary Furuq branches that the commentary should not erase.
 
+### Optional upstream focus-trace generation
+
+If `v12_focus_trace_hermetic` is required for the run and reader JSONs do not
+exist yet, generate them upstream in `../latent_activation/focus_trace` before
+the final bundle build. Do not ask a commentary agent to create these files.
+
+For each missing ayah response, spawn one focus-trace worker with:
+
+```text
+agent_type: worker
+model: gpt-5.6-sol
+reasoning_effort: max
+service_tier: priority
+fork_context: false
+```
+
+Each worker receives only
+`focus_trace/prompts/focus_trace_hermetic.md`,
+`focus_trace/schemas/focus-trace-response.schema.json`, and its assigned packet
+`focus_trace/runs/sNNN/packets/{S}_{A}.packet.json`. It writes exactly one file:
+
+```text
+focus_trace/runs/sNNN/readers/<reader_id>/{S}_{A}.focus_trace.json
+```
+
+Validate each response with
+`focus_trace/scripts/validate_focus_trace.py`, then rerun
+`python3 scripts/build_bundle.py --surah {S}` so the commentary bundle sees
+`coverage.v12_focus_trace_hermetic.present: true`. The S100 continuation runbook
+is `../latent_activation/focus_trace/runs/s100/COLD_HANDOFF.md`.
+
 S1 basmalah lookup is explicit. Canonical commentary units keep `ayahRef: 1:1`;
 some V12 reader/publication artifacts store that same basmalah as `1:0`.
 Reader-walk lookup accepts both `1:1` and `1:0` for the S1 basmalah and records
