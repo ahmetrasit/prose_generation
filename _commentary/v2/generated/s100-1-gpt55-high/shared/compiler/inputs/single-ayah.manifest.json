@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "commentary-v2-prompt-manifest-v1",
+  "runId": "s100-1-gpt55-high",
+  "stage": "pericope-compiler",
+  "unit": "single-ayah",
+  "surah": 100,
+  "language": "tr",
+  "generated": "2026-07-29",
+  "expectedOutputs": [
+    "_commentary/v2/generated/s100-1-gpt55-high/shared/compiler/outputs/single-ayah.editorial-plan.json",
+    "_commentary/v2/generated/s100-1-gpt55-high/shared/compiler/outputs/single-ayah.channel-registry.json",
+    "_commentary/v2/generated/s100-1-gpt55-high/shared/compiler/outputs/single-ayah.friction.md"
+  ],
+  "sources": [
+    {
+      "path": "_commentary/v2/shared/compiler/PROMPT.md",
+      "kind": "task",
+      "bytes": 2328,
+      "sha256": "906b05312c4274b53e1c9c64308dc5d266ddbd82dab4ba6f4d4680c7c2441aa8"
+    },
+    {
+      "path": "_commentary/v2/shared/EDITORIAL_CONTRACT.md",
+      "kind": "editorial-contract",
+      "bytes": 3625,
+      "sha256": "530b89dae5b574671250452dd788e77de3f83d01e949b5538b68c70030efe2f4"
+    },
+    {
+      "path": "_commentary/v2/shared/schemas/pericope-editorial-plan.schema.json",
+      "kind": "schema",
+      "bytes": 7031,
+      "sha256": "59cdebfbdc70df4a5da606fd02b621ec35e31554854fca65676f0af61b40728e"
+    },
+    {
+      "path": "_commentary/v2/shared/schemas/channel-registry.schema.json",
+      "kind": "schema",
+      "bytes": 3619,
+      "sha256": "880b78b01960ccb151aa19dec6ea6575f11c81600fba56f237197adfe218c817"
+    },
+    {
+      "path": "s100-1-gpt55-high/single-ayah.compiler-input.json",
+      "kind": "compiler-input",
+      "bytes": 225,
+      "sha256": "02eb714e558a62fc161763ecca3c6a06b157e1a0082d06d89cd69d749cd26cdc"
+    },
+    {
+      "path": "_commentary/v2/generated/s100-1-gpt55-high/layer_2/discovery/outputs/100_1.ledger.json",
+      "kind": "discovery-ledger",
+      "bytes": 46040,
+      "sha256": "4dbeb09b2dc3c4e63b88f061d48d7d196a666311137c5446c990d5c356baa00c"
+    }
+  ]
+}

@@ -387,6 +387,55 @@ python3 scripts/check_channel_overlays.py \
 The completed preview is the human gate: the whole-surah channel prose should
 feel like recognition, while every original local surprise remains intact.
 
+## Stage 8 — Optional derived ayah orientation (`Dinle`)
+
+This is a derived reader surface, not a change to canonical Layer 2. The cold
+Layer-2 agent first completes its normal ayah work with no surah thesis or
+channel knowledge. After the combined surah pass has produced reviewed main arcs
+and channel maturity, the orchestrator may send the same ayah agent exactly one
+follow-up message to create a shorter Layer-2 orientation file in the same output
+folder as that ayah's canonical Layer-2 prose.
+
+The follow-up is blind in the limited sense that it adds no new task context
+beyond the files named in the message. Do not add commentary, reminders, quality
+criteria, or implementation notes before or after the template. Substitute only
+`<summary-path>` with the actual output path. The path must live beside the
+canonical prose file and add `summary` before the prose suffix, for example:
+
+```text
+_ayah_commentary/outputs/s100-hft-default-writer-5.6-sol-max/100_1.prose.summary.md
+```
+
+Send this message verbatim:
+
+```text
+Your canonical Layer 2 work for this ayah is complete and frozen.
+
+  Do not edit, replace, or append to any canonical prose, evidence, findings, or
+  friction file. Create only this new derived summary file:
+
+  <summary-path>
+
+  Read:
+  - the frozen canonical Layer 2 prose and findings index for this ayah;
+  - the reviewed surah main arcs;
+  - the channel maturity permitted at this ayah's position.
+
+  Write a 30-60 second Turkish orientation, approximately 80-130 words.
+
+  Requirements:
+  - Begin with the ayah's plain, recoverable meaning.
+  - Gather the material into one or two governing movements.
+  - Use only readings already present in canonical Layer 2.
+  - Add no new lexical claim or interpretation.
+  - Use surah context only where the reviewed maturity at this ayah permits it.
+  - Do not disclose the completed surah thesis or later channel developments early.
+  - Keep secondary meaning attached to the ayah's own words.
+  - Do not mention evidence, models, branches, layers, confidence, or production.
+  - Write continuous reader-facing prose with no heading or apparatus.
+  - Write exactly one new file and modify nothing else.
+```
+
 ## Output contract — agent-owned
 
 An ayah unit produces four files. The combined surah unit produces the artifacts

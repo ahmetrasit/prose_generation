@@ -1,0 +1,403 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "layer3-system-ledger-v1.schema.json",
+  "title": "Layer 3 reviewed system ledger v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "ledgerId",
+    "packetId",
+    "surah",
+    "architecture",
+    "systems",
+    "globalBoundaries",
+    "friction"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "layer3-system-ledger-v1"
+    },
+    "ledgerId": {
+      "type": "string",
+      "pattern": "^s[0-9]{3}-system-ledger-v1$"
+    },
+    "packetId": {
+      "type": "string"
+    },
+    "surah": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 114
+    },
+    "architecture": {
+      "$ref": "#/$defs/architecture"
+    },
+    "systems": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/system"
+      }
+    },
+    "globalBoundaries": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "friction": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "ayahRef": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]{0,2}:(?:0|[1-9][0-9]*)$"
+    },
+    "sourceRef": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._:-]*(?:#.+)?$"
+    },
+    "architecture": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "openingGround",
+        "orderedSystemIds",
+        "progression",
+        "endingShift",
+        "catalogueRiskControl"
+      ],
+      "properties": {
+        "openingGround": {
+          "type": "string",
+          "minLength": 1
+        },
+        "orderedSystemIds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "progression": {
+          "type": "string",
+          "minLength": 1
+        },
+        "endingShift": {
+          "type": "string",
+          "minLength": 1
+        },
+        "catalogueRiskControl": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "system": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "systemId",
+        "candidateSystemIds",
+        "name",
+        "disposition",
+        "governingOperation",
+        "readerStatement",
+        "primaryContainment",
+        "wholeSurahShift",
+        "ayahRefs",
+        "trajectory",
+        "ahaMoments",
+        "claimDecisions",
+        "failureTests"
+      ],
+      "properties": {
+        "systemId": {
+          "$ref": "#/$defs/id"
+        },
+        "candidateSystemIds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "disposition": {
+          "enum": [
+            "render",
+            "backbone",
+            "support",
+            "apparatus"
+          ]
+        },
+        "absorbedInto": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "governingOperation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "readerStatement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "primaryContainment": {
+          "type": "string",
+          "minLength": 1
+        },
+        "wholeSurahShift": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ayahRefs": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/ayahRef"
+          }
+        },
+        "trajectory": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/trajectoryStage"
+          }
+        },
+        "ahaMoments": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/aha"
+          }
+        },
+        "claimDecisions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/claimDecision"
+          }
+        },
+        "failureTests": {
+          "$ref": "#/$defs/failureTests"
+        }
+      }
+    },
+    "trajectoryStage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "stageId",
+        "movement",
+        "proseFunction",
+        "ayahRefs",
+        "sourceRefs"
+      ],
+      "properties": {
+        "stageId": {
+          "$ref": "#/$defs/id"
+        },
+        "movement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "proseFunction": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ayahRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/ayahRef"
+          }
+        },
+        "sourceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          }
+        }
+      }
+    },
+    "aha": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ahaId",
+        "before",
+        "hinge",
+        "after"
+      ],
+      "properties": {
+        "ahaId": {
+          "$ref": "#/$defs/id"
+        },
+        "before": {
+          "type": "string",
+          "minLength": 1
+        },
+        "hinge": {
+          "type": "string",
+          "minLength": 1
+        },
+        "after": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "claimDecision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claimId",
+        "sourceRefs",
+        "upstreamStatus",
+        "role",
+        "acceptedForm",
+        "retainedContribution",
+        "rationale"
+      ],
+      "properties": {
+        "claimId": {
+          "$ref": "#/$defs/id"
+        },
+        "sourceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          }
+        },
+        "upstreamStatus": {
+          "enum": [
+            "strong",
+            "weak",
+            "rejected-predication",
+            "counterevidence",
+            "ungraded"
+          ]
+        },
+        "role": {
+          "enum": [
+            "core",
+            "support",
+            "contrast",
+            "boundary",
+            "apparatus-only"
+          ]
+        },
+        "acceptedForm": {
+          "type": "string",
+          "minLength": 1
+        },
+        "retainedContribution": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prohibitedForm": {
+          "type": "string",
+          "minLength": 1
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "upstreamStatus": {
+                "const": "rejected-predication"
+              }
+            },
+            "required": [
+              "upstreamStatus"
+            ]
+          },
+          "then": {
+            "required": [
+              "prohibitedForm"
+            ],
+            "properties": {
+              "role": {
+                "enum": [
+                  "support",
+                  "contrast",
+                  "boundary",
+                  "apparatus-only"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "failureTests": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primaryContained",
+        "crossAyah",
+        "orderedOperation",
+        "explainsRatherThanLists",
+        "novelWholeSurahYield",
+        "noviceReadable",
+        "survivesRejectedClaims",
+        "reviewNote"
+      ],
+      "properties": {
+        "primaryContained": {
+          "type": "boolean"
+        },
+        "crossAyah": {
+          "type": "boolean"
+        },
+        "orderedOperation": {
+          "type": "boolean"
+        },
+        "explainsRatherThanLists": {
+          "type": "boolean"
+        },
+        "novelWholeSurahYield": {
+          "type": "boolean"
+        },
+        "noviceReadable": {
+          "type": "boolean"
+        },
+        "survivesRejectedClaims": {
+          "type": "boolean"
+        },
+        "reviewNote": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Bu perikop tek ayetten oluştuğu için ayetler arasında yinelenen ve ilerledikçe dönüşen bir imge ya da anlam sistemi kurulamaz. Tek ayetlik malzemeyi bir kanal diye genişletmek, ikinci bir üye ve gelişim basamağı bulunmadığı hâlde tekrar icat etmek olurdu. Bu nedenle burada ayetler arası bir kanal sunulmuyor.

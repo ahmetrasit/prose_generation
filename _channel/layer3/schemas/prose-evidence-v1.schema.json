@@ -1,0 +1,170 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "layer3-prose-evidence-v1.schema.json",
+  "title": "Layer 3 paragraph evidence map v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "packetId",
+    "ledgerId",
+    "surah",
+    "proseFile",
+    "paragraphs",
+    "ahaCoverage",
+    "limitations"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "layer3-prose-evidence-v1"
+    },
+    "packetId": {
+      "type": "string"
+    },
+    "ledgerId": {
+      "type": "string"
+    },
+    "surah": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 114
+    },
+    "proseFile": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.surah-reading\\.md$"
+    },
+    "paragraphs": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "$ref": "#/$defs/paragraph"
+      }
+    },
+    "ahaCoverage": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ahaCoverage"
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "sourceRef": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._:-]*(?:#.+)?$"
+    },
+    "paragraph": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "paragraphId",
+        "openingText",
+        "systemIds",
+        "claims",
+        "primaryGround",
+        "readerShift"
+      ],
+      "properties": {
+        "paragraphId": {
+          "type": "string",
+          "pattern": "^p[0-9]{2,}$"
+        },
+        "openingText": {
+          "type": "string",
+          "minLength": 1
+        },
+        "systemIds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "claims": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/claim"
+          }
+        },
+        "primaryGround": {
+          "type": "string",
+          "minLength": 1
+        },
+        "readerShift": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claimText",
+        "sourceRefs",
+        "supportType"
+      ],
+      "properties": {
+        "claimText": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          }
+        },
+        "supportType": {
+          "enum": [
+            "traceable",
+            "structural-inference"
+          ]
+        },
+        "inferenceNote": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "ahaCoverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "systemId",
+        "ahaId",
+        "paragraphIds"
+      ],
+      "properties": {
+        "systemId": {
+          "$ref": "#/$defs/id"
+        },
+        "ahaId": {
+          "$ref": "#/$defs/id"
+        },
+        "paragraphIds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^p[0-9]{2,}$"
+          }
+        }
+      }
+    }
+  }
+}

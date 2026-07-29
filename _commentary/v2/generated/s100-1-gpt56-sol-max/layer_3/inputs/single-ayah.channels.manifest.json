@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "commentary-v2-prompt-manifest-v1",
+  "runId": "s100-1-gpt56-sol-max",
+  "stage": "layer3-channel-authoring",
+  "unit": "single-ayah",
+  "surah": 100,
+  "language": "tr",
+  "generated": "2026-07-29",
+  "expectedOutputs": [
+    "_commentary/v2/generated/s100-1-gpt56-sol-max/layer_3/outputs/single-ayah.channels.prose.md",
+    "_commentary/v2/generated/s100-1-gpt56-sol-max/layer_3/outputs/single-ayah.channels.evidence.md",
+    "_commentary/v2/generated/s100-1-gpt56-sol-max/layer_3/outputs/single-ayah.channels.result.json",
+    "_commentary/v2/generated/s100-1-gpt56-sol-max/layer_3/outputs/single-ayah.channels.friction.md"
+  ],
+  "sources": [
+    {
+      "path": "_commentary/v2/layer_3/PROMPT.md",
+      "kind": "task",
+      "bytes": 1820,
+      "sha256": "db7f01f02c572d77c8169e65504a835b6ac1047a7db32a8b197dfa750b4c96e1"
+    },
+    {
+      "path": "_commentary/v2/shared/EDITORIAL_CONTRACT.md",
+      "kind": "editorial-contract",
+      "bytes": 3625,
+      "sha256": "530b89dae5b574671250452dd788e77de3f83d01e949b5538b68c70030efe2f4"
+    },
+    {
+      "path": "_commentary/v2/shared/schemas/layer3-result.schema.json",
+      "kind": "schema",
+      "bytes": 4015,
+      "sha256": "3260cb381ecc1859adc540f7beaf4335dcba07fed4767027d940ce787c2f74a4"
+    },
+    {
+      "path": "PRINCIPLES.md",
+      "kind": "governing",
+      "bytes": 9198,
+      "sha256": "fe4c0397d275a0201b8803782011ab9281392c2f76dc5e7584e1bec827c0c62c"
+    },
+    {
+      "path": "COMMENTARY_SPEC.md",
+      "kind": "governing",
+      "bytes": 9877,
+      "sha256": "3bb66fcd73a2af760b979f0cfcfabbee167ae8efa11f3f684df6dfa3e5e88a5f"
+    },
+    {
+      "path": "s100-1-gpt56-sol-max/single-ayah.layer3-input.json",
+      "kind": "compiler-input",
+      "bytes": 178,
+      "sha256": "7d3e41b94b986f08865da4fd1291e2b484510d301e7f62bd2e128c6aeebf143f"
+    },
+    {
+      "path": "_commentary/v2/generated/s100-1-gpt56-sol-max/shared/compiler/outputs/single-ayah.channel-registry.json",
+      "kind": "channel-registry",
+      "bytes": 220,
+      "sha256": "96fab4c2a89c4c0516f9f23d39db6354571c952fbe1204f6703f28b5783aef0f"
+    }
+  ]
+}

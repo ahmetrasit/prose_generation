@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "commentary-v2-prompt-manifest-v1",
+  "runId": "s100-1-gpt56-sol-xhigh",
+  "stage": "layer2-editorial",
+  "unit": "100_1",
+  "surah": 100,
+  "language": "tr",
+  "generated": "2026-07-29",
+  "expectedOutputs": [
+    "_commentary/v2/generated/s100-1-gpt56-sol-xhigh/layer_2/editorial/outputs/100_1.prose.md",
+    "_commentary/v2/generated/s100-1-gpt56-sol-xhigh/layer_2/editorial/outputs/100_1.evidence.md",
+    "_commentary/v2/generated/s100-1-gpt56-sol-xhigh/layer_2/editorial/outputs/100_1.index.md",
+    "_commentary/v2/generated/s100-1-gpt56-sol-xhigh/layer_2/editorial/outputs/100_1.result.json",
+    "_commentary/v2/generated/s100-1-gpt56-sol-xhigh/layer_2/editorial/outputs/100_1.friction.md"
+  ],
+  "sources": [
+    {
+      "path": "_commentary/v2/layer_2/editorial/PROMPT.md",
+      "kind": "task",
+      "bytes": 2178,
+      "sha256": "59ac7feff485ea5adba27a7ef2fe18c8698972f64f67e2a63b0d7516d60e7cd0"
+    },
+    {
+      "path": "_commentary/v2/shared/EDITORIAL_CONTRACT.md",
+      "kind": "editorial-contract",
+      "bytes": 3625,
+      "sha256": "530b89dae5b574671250452dd788e77de3f83d01e949b5538b68c70030efe2f4"
+    },
+    {
+      "path": "_commentary/v2/shared/schemas/layer2-editorial-result.schema.json",
+      "kind": "schema",
+      "bytes": 4264,
+      "sha256": "283ef5f2f3c000203a486b294d6e7f1fbbd11f4e56687fe98b5d11bcc08a32f8"
+    },
+    {
+      "path": "PRINCIPLES.md",
+      "kind": "governing",
+      "bytes": 9198,
+      "sha256": "fe4c0397d275a0201b8803782011ab9281392c2f76dc5e7584e1bec827c0c62c"
+    },
+    {
+      "path": "COMMENTARY_SPEC.md",
+      "kind": "governing",
+      "bytes": 9877,
+      "sha256": "3bb66fcd73a2af760b979f0cfcfabbee167ae8efa11f3f684df6dfa3e5e88a5f"
+    },
+    {
+      "path": "_commentary/v2/generated/s100-1-gpt56-sol-xhigh/layer_2/discovery/outputs/100_1.ledger.json",
+      "kind": "discovery-ledger",
+      "bytes": 78241,
+      "sha256": "b1a5096ab9d7ca5a0d9d152f2ab6f244767935755309d8aaf03f119ab8af0547"
+    },
+    {
+      "path": "s100-1-gpt56-sol-xhigh/single-ayah/100_1.plan-slice.json",
+      "kind": "editorial-plan-slice",
+      "bytes": 19400,
+      "sha256": "767aa0f9ceac5e15be9d1951b0cd800a70523ef08dc13692d764f2434f1812e6"
+    }
+  ]
+}

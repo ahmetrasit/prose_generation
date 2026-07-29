@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "commentary-v2-prompt-manifest-v1",
+  "runId": "s100-1-gpt56-sol-xhigh",
+  "stage": "layer2-discovery",
+  "unit": "100_1",
+  "surah": 100,
+  "language": "tr",
+  "generated": "2026-07-29",
+  "expectedOutputs": [
+    "_commentary/v2/generated/s100-1-gpt56-sol-xhigh/layer_2/discovery/outputs/100_1.ledger.json",
+    "_commentary/v2/generated/s100-1-gpt56-sol-xhigh/layer_2/discovery/outputs/100_1.memo.md",
+    "_commentary/v2/generated/s100-1-gpt56-sol-xhigh/layer_2/discovery/outputs/100_1.friction.md"
+  ],
+  "sources": [
+    {
+      "path": "_commentary/v2/layer_2/discovery/PROMPT.md",
+      "kind": "task",
+      "bytes": 2067,
+      "sha256": "b35f9089f8edafbe66dfdc66cadd23c4bc3f4cde8698209b3bc0f02fa48d4017"
+    },
+    {
+      "path": "_commentary/v2/shared/EDITORIAL_CONTRACT.md",
+      "kind": "editorial-contract",
+      "bytes": 3625,
+      "sha256": "530b89dae5b574671250452dd788e77de3f83d01e949b5538b68c70030efe2f4"
+    },
+    {
+      "path": "_commentary/v2/shared/schemas/layer2-discovery-ledger.schema.json",
+      "kind": "schema",
+      "bytes": 7927,
+      "sha256": "59527cf1e79f6d92a2954d4cd8ac078d2e886f946aa777e877baefdf1e76e4d6"
+    },
+    {
+      "path": "PRINCIPLES.md",
+      "kind": "governing",
+      "bytes": 9198,
+      "sha256": "fe4c0397d275a0201b8803782011ab9281392c2f76dc5e7584e1bec827c0c62c"
+    },
+    {
+      "path": "COMMENTARY_SPEC.md",
+      "kind": "governing",
+      "bytes": 9877,
+      "sha256": "3bb66fcd73a2af760b979f0cfcfabbee167ae8efa11f3f684df6dfa3e5e88a5f"
+    },
+    {
+      "path": "_commentary/work/hft-default/s100/100_1.ayah.json",
+      "kind": "ayah-source",
+      "bytes": 470606,
+      "sha256": "580ca4418487b1fa8e3e8ad2e9e9fe8cb744276793fb8d1ce72c99b274369d04",
+      "sourceFileBytes": 711751,
+      "sourceFileSha256": "89ff1f8a032fad2783ea45fd201db0a4e671fc8b783e319dd424319fd9603572"
+    }
+  ]
+}
