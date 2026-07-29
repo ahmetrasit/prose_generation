@@ -48,6 +48,10 @@ handed forward — see [`PRINCIPLES.md`](PRINCIPLES.md) §6.
 
 ### Layer 2 — function and resonance, per ayah (`_ayah_commentary/`)
 
+Active work continues in [`_ayah_commentary/v1/`](_ayah_commentary/v1/). The
+experimental `_commentary/v2/` cold orchestration path is not the active ayah
+commentary workflow.
+
 Two jobs.
 
 **Function.** What each word contributes to building the ayah, written for
@@ -124,8 +128,9 @@ they are planned, not because they exist.
 - Rules first: [`PRINCIPLES.md`](PRINCIPLES.md), then
   [`COMMENTARY_SPEC.md`](COMMENTARY_SPEC.md).
 - Running layer 1: [`_translation/v1/README.md`](_translation/v1/README.md).
-- Running layers 2–3: [`_commentary/ORCHESTRATION.md`](_commentary/ORCHESTRATION.md)
-  is the run contract for commentary prompts and agent-authored outputs;
+- Running ayah commentary Layer 2: [`_ayah_commentary/v1/`](_ayah_commentary/v1/)
+  is the active authoring path. [`_commentary/ORCHESTRATION.md`](_commentary/ORCHESTRATION.md)
+  remains the run contract for existing commentary prompts and agent-authored outputs;
   [`scripts/README.md`](scripts/README.md) documents the bundle builder behind
   those prompts.
 - What evidence exists: [`docs/SOURCES.md`](docs/SOURCES.md) for paths and
