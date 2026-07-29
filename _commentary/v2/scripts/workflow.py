@@ -19,8 +19,11 @@ from typing import Any, Iterable
 from validate import (
     load_json,
     sha256_path,
+    validate_layer2_result_data,
+    validate_layer3_result_data,
     validate_ledger_data,
     validate_plan_data,
+    validate_reconciliation_data,
     validate_registry_data,
     validate_run_config_data,
 )
@@ -851,6 +854,199 @@ def instantiate_layer3_surah(
     )
 
 
+def check_stage(
+    config: dict[str, Any],
+    stage: str,
+    pericope_id: str | None,
+    selected_ayah: int | None,
+    surah_scope: bool,
+) -> None:
+    root = output_root(config)
+    if stage == "discovery":
+        if selected_ayah is not None:
+            ayahs = [selected_ayah]
+        elif pericope_id is not None:
+            ayahs = find_pericope(config, pericope_id)["ayahs"]
+        else:
+            ayahs = all_ayahs(config)
+        failures: list[str] = []
+        for ayah in ayahs:
+            path = ledger_path(root, config, ayah)
+            if not path.is_file():
+                failures.append(f"{ayah_ref(config, ayah)}: missing {path}")
+                continue
+            try:
+                data = load_json(path)
+            except ValueError as exc:
+                failures.append(f"{ayah_ref(config, ayah)}: {exc}")
+                continue
+            errors = validate_ledger_data(data)
+            if data.get("ayahRef") != ayah_ref(config, ayah):
+                errors.append("ledger ayahRef does not match expected unit")
+            failures.extend(
+                f"{ayah_ref(config, ayah)}: {error}" for error in errors
+            )
+        if failures:
+            raise SystemExit(
+                "error: discovery validation failed:\n  " + "\n  ".join(failures)
+            )
+        print(f"ok discovery ({len(ayahs)} ayah ledgers)")
+        return
+
+    if stage in {"compiler", "layer2"}:
+        if pericope_id is None:
+            raise SystemExit(f"error: check --stage {stage} requires --pericope")
+        pericope = find_pericope(config, pericope_id)
+        ledgers, ledger_paths = pericope_ledgers(root, config, pericope)
+        plan, plan_file = load_valid_plan(root, config, pericope, ledgers)
+        plan_errors = validate_plan_data(plan, ledgers, ledger_paths)
+        if plan_errors:
+            raise SystemExit(
+                "error: editorial plan hash validation failed:\n  "
+                + "\n  ".join(plan_errors)
+            )
+        verify_declared_ledger_hashes(
+            plan, ledgers, ledger_paths, "editorial plan"
+        )
+        registry, _ = load_valid_registry(
+            root, config, pericope, ledgers, plan_file
+        )
+        verify_declared_ledger_hashes(
+            registry, ledgers, ledger_paths, "channel registry"
+        )
+        if stage == "compiler":
+            print(f"ok compiler ({pericope_id})")
+            return
+
+        ayahs = [selected_ayah] if selected_ayah is not None else pericope["ayahs"]
+        if any(ayah not in pericope["ayahs"] for ayah in ayahs):
+            raise SystemExit("error: selected ayah is outside the requested pericope")
+        ledger_by_ayah = {
+            int(ledger["ayahRef"].split(":")[1]): (ledger, path)
+            for ledger, path in zip(ledgers, ledger_paths)
+        }
+        failures = []
+        output_dir = stage_paths(root, "layer2")[1]
+        for ayah in ayahs:
+            result_file = output_dir / f"{unit_id(config, ayah)}.result.json"
+            if not result_file.is_file():
+                failures.append(f"{ayah_ref(config, ayah)}: missing {result_file}")
+                continue
+            try:
+                result = load_json(result_file)
+            except ValueError as exc:
+                failures.append(f"{ayah_ref(config, ayah)}: {exc}")
+                continue
+            ledger, ledger_file = ledger_by_ayah[ayah]
+            errors = validate_layer2_result_data(
+                result,
+                result_file,
+                ledger,
+                ledger_file,
+                plan,
+                plan_file,
+            )
+            failures.extend(
+                f"{ayah_ref(config, ayah)}: {error}" for error in errors
+            )
+        if failures:
+            raise SystemExit(
+                "error: Layer 2 editorial validation failed:\n  "
+                + "\n  ".join(failures)
+            )
+        print(f"ok layer2 ({pericope_id}, {len(ayahs)} ayah results)")
+        return
+
+    if stage == "reconciliation":
+        registries = pericope_registries(root, config)
+        ledgers, ledger_paths = run_ledgers(root, config)
+        result_registry_file = reconciled_registry_path(root)
+        try:
+            result_registry = load_json(result_registry_file)
+        except ValueError as exc:
+            raise SystemExit(f"error: {exc}") from exc
+        registry_errors = validate_registry_data(
+            result_registry,
+            ledgers,
+            ledger_paths=ledger_paths,
+        )
+        verify_declared_ledger_hashes(
+            result_registry,
+            ledgers,
+            ledger_paths,
+            "reconciled channel registry",
+        )
+        coverage_file = (
+            stage_paths(root, "reconciler")[1]
+            / "whole-surah.registry-coverage.json"
+        )
+        try:
+            coverage = load_json(coverage_file)
+        except ValueError as exc:
+            raise SystemExit(f"error: {exc}") from exc
+        coverage_errors = validate_reconciliation_data(
+            coverage,
+            [(path, registry) for registry, path in registries],
+            result_registry,
+        )
+        errors = registry_errors + coverage_errors
+        if errors:
+            raise SystemExit(
+                "error: reconciliation validation failed:\n  "
+                + "\n  ".join(errors)
+            )
+        print("ok reconciliation (whole-surah)")
+        return
+
+    if stage == "layer3":
+        if surah_scope:
+            registry_file = reconciled_registry_path(root)
+            result_file = (
+                stage_paths(root, "layer3")[1]
+                / "whole-surah.channels.result.json"
+            )
+        else:
+            if pericope_id is None:
+                raise SystemExit(
+                    "error: check --stage layer3 requires --pericope or --surah-scope"
+                )
+            pericope = find_pericope(config, pericope_id)
+            ledgers, ledger_paths = pericope_ledgers(root, config, pericope)
+            _, plan_file = load_valid_plan(root, config, pericope, ledgers)
+            registry, registry_file = load_valid_registry(
+                root, config, pericope, ledgers, plan_file
+            )
+            verify_declared_ledger_hashes(
+                registry, ledgers, ledger_paths, "channel registry"
+            )
+            result_file = (
+                stage_paths(root, "layer3")[1]
+                / f"{pericope_id}.channels.result.json"
+            )
+        if not registry_file.is_file():
+            raise SystemExit(f"error: missing channel registry {registry_file}")
+        try:
+            registry = load_json(registry_file)
+            result = load_json(result_file)
+        except ValueError as exc:
+            raise SystemExit(f"error: {exc}") from exc
+        errors = validate_layer3_result_data(
+            result,
+            registry,
+            registry_file,
+            result_file,
+        )
+        if errors:
+            raise SystemExit(
+                "error: Layer 3 validation failed:\n  " + "\n  ".join(errors)
+            )
+        scope = "whole-surah" if surah_scope else pericope_id
+        print(f"ok layer3 ({scope})")
+        return
+
+    raise SystemExit(f"error: unknown check stage {stage}")
+
+
 def status(config: dict[str, Any]) -> None:
     root = output_root(config)
     print(f"run: {config['runId']}")
@@ -934,6 +1130,23 @@ def main() -> int:
         help="inline final Layer 2 prose; registry-only is the token-efficient default",
     )
 
+    check = subparsers.add_parser("check")
+    check.add_argument("--config", type=Path, required=True)
+    check.add_argument(
+        "--stage",
+        choices=[
+            "discovery",
+            "compiler",
+            "layer2",
+            "reconciliation",
+            "layer3",
+        ],
+        required=True,
+    )
+    check.add_argument("--pericope")
+    check.add_argument("--ayah", type=int)
+    check.add_argument("--surah-scope", action="store_true")
+
     status_parser = subparsers.add_parser("status")
     status_parser.add_argument("--config", type=Path, required=True)
 
@@ -979,6 +1192,14 @@ def main() -> int:
                     args.include_layer2_prose,
                 )
             )
+    elif args.command == "check":
+        check_stage(
+            config,
+            args.stage,
+            args.pericope,
+            args.ayah,
+            args.surah_scope,
+        )
     else:
         status(config)
     return 0

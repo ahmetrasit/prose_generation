@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 import json
+import io
 import sys
 import tempfile
 import unittest
+from contextlib import redirect_stdout
 from pathlib import Path
 
 V2_ROOT = Path(__file__).resolve().parent.parent
@@ -419,6 +421,21 @@ class InstantiationTests(unittest.TestCase):
             (compiler_outputs / "test-pericope.channel-registry.json").write_text(
                 json.dumps(registry, ensure_ascii=False), encoding="utf-8"
             )
+            with redirect_stdout(io.StringIO()):
+                workflow.check_stage(
+                    config,
+                    stage="discovery",
+                    pericope_id=None,
+                    selected_ayah=None,
+                    surah_scope=False,
+                )
+                workflow.check_stage(
+                    config,
+                    stage="compiler",
+                    pericope_id="test-pericope",
+                    selected_ayah=None,
+                    surah_scope=False,
+                )
 
             written = workflow.instantiate_layer3(
                 config,

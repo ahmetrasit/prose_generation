@@ -3,6 +3,10 @@
 This directory implements a ledger-first commentary workflow for Layers 2 and 3.
 Layer 1 is intentionally outside this tree.
 
+For a cold run, start with [`ORCHESTRATION.md`](ORCHESTRATION.md). It is the
+stage-by-stage execution contract, including agent launch rules, parallelism,
+validation gates, and invalidation.
+
 The workflow separates four operations:
 
 1. Layer 2 discovery records every admitted ayah finding in a structured ledger.
