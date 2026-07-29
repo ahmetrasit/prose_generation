@@ -527,6 +527,19 @@ def verify_declared_ledger_hashes(
         )
 
 
+def validate_required_text_file(path: Path, failures: list[str], label: str) -> None:
+    if not path.is_file():
+        failures.append(f"missing {label} {path}")
+        return
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError as exc:
+        failures.append(f"cannot read {label} {path}: {exc}")
+        return
+    if not text.strip():
+        failures.append(f"empty {label} {path}")
+
+
 def ayah_plan_slice(
     config: dict[str, Any],
     pericope: dict[str, Any],
@@ -871,6 +884,7 @@ def check_stage(
             ayahs = all_ayahs(config)
         failures: list[str] = []
         for ayah in ayahs:
+            unit = unit_id(config, ayah)
             path = ledger_path(root, config, ayah)
             if not path.is_file():
                 failures.append(f"{ayah_ref(config, ayah)}: missing {path}")
@@ -883,6 +897,16 @@ def check_stage(
             errors = validate_ledger_data(data)
             if data.get("ayahRef") != ayah_ref(config, ayah):
                 errors.append("ledger ayahRef does not match expected unit")
+            validate_required_text_file(
+                stage_paths(root, "discovery")[1] / f"{unit}.memo.md",
+                errors,
+                "discovery memo",
+            )
+            validate_required_text_file(
+                stage_paths(root, "discovery")[1] / f"{unit}.friction.md",
+                errors,
+                "discovery friction",
+            )
             failures.extend(
                 f"{ayah_ref(config, ayah)}: {error}" for error in errors
             )
@@ -915,6 +939,17 @@ def check_stage(
             registry, ledgers, ledger_paths, "channel registry"
         )
         if stage == "compiler":
+            failures: list[str] = []
+            validate_required_text_file(
+                stage_paths(root, "compiler")[1] / f"{pericope_id}.friction.md",
+                failures,
+                "compiler friction",
+            )
+            if failures:
+                raise SystemExit(
+                    "error: compiler validation failed:\n  "
+                    + "\n  ".join(failures)
+                )
             print(f"ok compiler ({pericope_id})")
             return
 
@@ -990,6 +1025,11 @@ def check_stage(
             result_registry,
         )
         errors = registry_errors + coverage_errors
+        validate_required_text_file(
+            stage_paths(root, "reconciler")[1] / "whole-surah.registry-friction.md",
+            errors,
+            "reconciliation friction",
+        )
         if errors:
             raise SystemExit(
                 "error: reconciliation validation failed:\n  "

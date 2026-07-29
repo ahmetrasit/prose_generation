@@ -198,6 +198,99 @@ def channel_registry(
     }
 
 
+def layer2_result(
+    ledgers: list[dict],
+    ledger_path: Path,
+    plan: dict,
+    plan_path: Path,
+    ayah: int = 1,
+    pericope_id: str = "test-pericope",
+) -> dict:
+    ref = f"{ledgers[0]['surah']}:{ayah}"
+    ledger_item = next(item for item in ledgers if item["ayahRef"] == ref)
+    carried = [
+        item["findingId"]
+        for item in ledger_item["findings"]
+        if item["disposition"] == "carry"
+    ]
+    return {
+        "schemaVersion": "commentary-v2-layer2-editorial-result-v1",
+        "surah": ledgers[0]["surah"],
+        "ayahRef": ref,
+        "pericopeId": pericope_id,
+        "sourceLedgerSha256": validate.sha256_path(ledger_path),
+        "sourcePlanSha256": validate.sha256_path(plan_path),
+        "outputs": {
+            "prose": f"{ledgers[0]['surah']}_{ayah}.prose.md",
+            "evidence": f"{ledgers[0]['surah']}_{ayah}.evidence.md",
+            "index": f"{ledgers[0]['surah']}_{ayah}.index.md",
+            "friction": f"{ledgers[0]['surah']}_{ayah}.friction.md",
+        },
+        "representedFindingRefs": carried,
+        "representedSynthesisRefs": [],
+        "newSyntheses": [],
+        "standaloneCheck": {
+            "primaryReachable": True,
+            "outsideAyahWordsGrounded": True,
+            "surahThesisAbsent": True,
+            "allPlannedFindingsRepresented": True,
+        },
+    }
+
+
+def layer3_result(
+    registry: dict,
+    registry_path: Path,
+    pericope_id: str = "test-pericope",
+) -> dict:
+    candidate_id = registry["channels"][0]["candidateId"]
+    member_refs = [
+        member["findingRef"] for member in registry["channels"][0]["members"]
+    ]
+    ayah_sequence = [
+        member["ayahRef"] for member in registry["channels"][0]["members"]
+    ]
+    return {
+        "schemaVersion": "commentary-v2-layer3-result-v1",
+        "surah": registry["surah"],
+        "pericopeId": pericope_id,
+        "sourceRegistrySha256": validate.sha256_path(registry_path),
+        "outputs": {
+            "prose": f"{pericope_id}.channels.prose.md",
+            "evidence": f"{pericope_id}.channels.evidence.md",
+            "friction": f"{pericope_id}.channels.friction.md",
+        },
+        "channels": [
+            {
+                "channelId": "result-channel",
+                "sourceCandidateIds": [candidate_id],
+                "status": "accepted",
+                "name_tr": "Sonuc kanali",
+                "statement_tr": "Bulgular birlikte surer.",
+                "primaryRelation": "supports-primary",
+                "memberFindingRefs": member_refs,
+                "ayahSequence": ayah_sequence,
+                "proseSectionId": "result-section",
+            }
+        ],
+        "candidateCoverage": [
+            {
+                "candidateId": candidate_id,
+                "disposition": "accepted",
+                "resultChannelIds": ["result-channel"],
+                "reason_tr": "Kanal korunur.",
+            }
+        ],
+    }
+
+
+def write_discovery_sidecars(output_dir: Path, surah: int, ayahs: list[int]) -> None:
+    for ayah in ayahs:
+        unit = f"{surah}_{ayah}"
+        (output_dir / f"{unit}.memo.md").write_text("memo\n", encoding="utf-8")
+        (output_dir / f"{unit}.friction.md").write_text("friction\n", encoding="utf-8")
+
+
 class UncappedCoverageTests(unittest.TestCase):
     def test_dense_ayah_with_many_findings_is_valid(self) -> None:
         dense = ledger(2, 282, 120)
@@ -236,6 +329,141 @@ class UncappedCoverageTests(unittest.TestCase):
 
         for path in (V2_ROOT / "shared" / "schemas").glob("*.json"):
             walk(json.loads(path.read_text(encoding="utf-8")))
+
+
+class ValidatorRegressionTests(unittest.TestCase):
+    def test_config_rejects_null_source_maps(self) -> None:
+        config = {
+            "schemaVersion": "commentary-v2-run-v1",
+            "runId": "bad-config",
+            "surah": 100,
+            "language": "tr",
+            "governingSources": None,
+            "ayahSources": None,
+            "pericopes": [{"id": "test-pericope", "ayahs": [1]}],
+        }
+        errors = validate.validate_run_config_data(config)
+        self.assertTrue(any("governingSources: expected array" in error for error in errors))
+        self.assertTrue(any("ayahSources: expected object" in error for error in errors))
+
+    def test_ledger_rejects_empty_and_contradictory_obligations(self) -> None:
+        empty = ledger(100, 1, 1)
+        empty["findings"] = []
+        empty["sourceObligations"] = []
+        errors = validate.validate_ledger_data(empty)
+        self.assertTrue(any("ledger.findings: at least one" in error for error in errors))
+        self.assertTrue(any("ledger.sourceObligations: at least one" in error for error in errors))
+
+        contradictory = ledger(100, 1, 1)
+        contradictory["sourceObligations"][0]["blockingEvidence"] = ["not-blocked"]
+        errors = validate.validate_ledger_data(contradictory)
+        self.assertTrue(
+            any("carry obligation cannot be blocked" in error for error in errors)
+        )
+
+    def test_layer2_result_enforces_scope_and_sibling_outputs(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            directory = Path(tmp)
+            ledgers = [ledger(100, 1, 2), ledger(100, 2, 2)]
+            ledger_path = directory / "100_1.ledger.json"
+            ledger_path.write_text(json.dumps(ledgers[0]), encoding="utf-8")
+            plan = editorial_plan(ledgers, [ledger_path, ledger_path])
+            plan_path = directory / "test-pericope.editorial-plan.json"
+            plan_path.write_text(json.dumps(plan), encoding="utf-8")
+            result_path = directory / "100_1.result.json"
+            for name in (
+                "100_1.prose.md",
+                "100_1.evidence.md",
+                "100_1.index.md",
+                "100_1.friction.md",
+            ):
+                (directory / name).write_text("ok\n", encoding="utf-8")
+            result = layer2_result(ledgers, ledger_path, plan, plan_path)
+            self.assertEqual(
+                validate.validate_layer2_result_data(
+                    result, result_path, ledgers[0], ledger_path, plan, plan_path
+                ),
+                [],
+            )
+
+            bad = dict(result)
+            bad.pop("pericopeId")
+            bad["extra"] = True
+            bad["outputs"] = {**result["outputs"], "prose": "../100_1.prose.md"}
+            bad["newSyntheses"] = [
+                {
+                    "synthesisId": "author:test-synthesis",
+                    "componentFindingRefs": [result["representedFindingRefs"][0], "100:1:missing"],
+                    "evidenceRefs": ["evidence"],
+                }
+            ]
+            errors = validate.validate_layer2_result_data(
+                bad, result_path, ledgers[0], ledger_path, plan, plan_path
+            )
+            self.assertTrue(any("missing fields ['pericopeId']" in error for error in errors))
+            self.assertTrue(any("unknown fields ['extra']" in error for error in errors))
+            self.assertTrue(any("expected '100_1.prose.md'" in error for error in errors))
+            self.assertTrue(any(".relation: invalid value" in error for error in errors))
+            self.assertTrue(any("unknown carried finding" in error for error in errors))
+
+            wrong_scope = dict(result)
+            wrong_scope["surah"] = 999
+            wrong_scope["ayahRef"] = "999:1"
+            errors = validate.validate_layer2_result_data(
+                wrong_scope, result_path, ledgers[0], ledger_path, plan, plan_path
+            )
+            self.assertTrue(any("result.surah: expected integer" in error for error in errors))
+            self.assertTrue(any("result.surah: does not match ledger" in error for error in errors))
+            self.assertTrue(any("result.ayahRef: does not match ledger" in error for error in errors))
+            self.assertTrue(any("result.ayahRef: not present in plan" in error for error in errors))
+
+    def test_layer3_result_enforces_scope_and_channel_schema(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            directory = Path(tmp)
+            ledgers = [ledger(100, 1, 1), ledger(100, 2, 1)]
+            ledger_paths = []
+            for ayah, item in zip((1, 2), ledgers):
+                path = directory / f"100_{ayah}.ledger.json"
+                path.write_text(json.dumps(item), encoding="utf-8")
+                ledger_paths.append(path)
+            registry = channel_registry(ledgers, ledger_paths)
+            registry_path = directory / "test-pericope.channel-registry.json"
+            registry_path.write_text(json.dumps(registry), encoding="utf-8")
+            result_path = directory / "test-pericope.channels.result.json"
+            for name in (
+                "test-pericope.channels.prose.md",
+                "test-pericope.channels.evidence.md",
+                "test-pericope.channels.friction.md",
+            ):
+                (directory / name).write_text("ok\n", encoding="utf-8")
+            result = layer3_result(registry, registry_path)
+            self.assertEqual(
+                validate.validate_layer3_result_data(
+                    result, registry, registry_path, result_path
+                ),
+                [],
+            )
+
+            bad = dict(result)
+            bad.pop("surah")
+            bad["pericopeId"] = "other-pericope"
+            bad["outputs"] = {**result["outputs"], "prose": "nested/prose.md"}
+            bad["channels"] = [
+                {
+                    "channelId": "result-channel",
+                    "sourceCandidateIds": [registry["channels"][0]["candidateId"]],
+                    "memberFindingRefs": ["100:1:not-in-registry", "100:2:not-in-registry"],
+                    "ayahSequence": result["channels"][0]["ayahSequence"],
+                }
+            ]
+            errors = validate.validate_layer3_result_data(
+                bad, registry, registry_path, result_path
+            )
+            self.assertTrue(any("missing fields ['surah']" in error for error in errors))
+            self.assertTrue(any("pericopeId: does not match registry" in error for error in errors))
+            self.assertTrue(any("expected 'test-pericope.channels.prose.md'" in error for error in errors))
+            self.assertTrue(any(".status: invalid value" in error for error in errors))
+            self.assertTrue(any("not present in source candidates" in error for error in errors))
 
 
 class ReconciliationTests(unittest.TestCase):
@@ -410,6 +638,7 @@ class InstantiationTests(unittest.TestCase):
                 path = discovery_outputs / f"100_{ayah}.ledger.json"
                 path.write_text(json.dumps(item, ensure_ascii=False), encoding="utf-8")
                 ledger_paths.append(path)
+            write_discovery_sidecars(discovery_outputs, 100, [1, 2])
 
             _, compiler_outputs = workflow.stage_paths(root, "compiler")
             compiler_outputs.mkdir(parents=True)
@@ -420,6 +649,9 @@ class InstantiationTests(unittest.TestCase):
             registry = channel_registry(ledgers, ledger_paths)
             (compiler_outputs / "test-pericope.channel-registry.json").write_text(
                 json.dumps(registry, ensure_ascii=False), encoding="utf-8"
+            )
+            (compiler_outputs / "test-pericope.friction.md").write_text(
+                "friction\n", encoding="utf-8"
             )
             with redirect_stdout(io.StringIO()):
                 workflow.check_stage(
@@ -543,6 +775,63 @@ class InstantiationTests(unittest.TestCase):
                 reconciler_outputs / "whole-surah.channel-registry.json"
             )
             reconciled_path.write_text(json.dumps(reconciled), encoding="utf-8")
+            coverage = {
+                "schemaVersion": "commentary-v2-registry-reconciliation-v1",
+                "surah": 100,
+                "sourceRegistries": [
+                    {
+                        "pericopeId": "first",
+                        "sha256": validate.sha256_path(
+                            compiler_outputs / "first.channel-registry.json"
+                        ),
+                    },
+                    {
+                        "pericopeId": "second",
+                        "sha256": validate.sha256_path(
+                            compiler_outputs / "second.channel-registry.json"
+                        ),
+                    },
+                ],
+                "candidateCoverage": [
+                    {
+                        "sourcePericopeId": "first",
+                        "sourceCandidateId": "first-channel",
+                        "disposition": "merged",
+                        "resultCandidateIds": ["whole-channel"],
+                        "reason_tr": "Butun kanal icinde surer.",
+                    },
+                    {
+                        "sourcePericopeId": "second",
+                        "sourceCandidateId": "second-channel",
+                        "disposition": "merged",
+                        "resultCandidateIds": ["whole-channel"],
+                        "reason_tr": "Butun kanal icinde surer.",
+                    },
+                ],
+            }
+            (
+                reconciler_outputs / "whole-surah.registry-coverage.json"
+            ).write_text(json.dumps(coverage), encoding="utf-8")
+            with self.assertRaises(SystemExit) as caught:
+                workflow.check_stage(
+                    config,
+                    stage="reconciliation",
+                    pericope_id=None,
+                    selected_ayah=None,
+                    surah_scope=False,
+                )
+            self.assertIn("reconciliation friction", str(caught.exception))
+            (
+                reconciler_outputs / "whole-surah.registry-friction.md"
+            ).write_text("friction\n", encoding="utf-8")
+            with redirect_stdout(io.StringIO()):
+                workflow.check_stage(
+                    config,
+                    stage="reconciliation",
+                    pericope_id=None,
+                    selected_ayah=None,
+                    surah_scope=False,
+                )
             written = workflow.instantiate_layer3_surah(
                 config,
                 run_date="2026-07-29",
@@ -550,6 +839,50 @@ class InstantiationTests(unittest.TestCase):
             )
             manifest = json.loads(written[1].read_text(encoding="utf-8"))
             self.assertEqual(manifest["unit"], "whole-surah")
+
+    def test_stage_checks_require_documented_text_artifacts(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            config = self.config(root)
+            _, discovery_outputs = workflow.stage_paths(root, "discovery")
+            discovery_outputs.mkdir(parents=True)
+            ledgers = [ledger(100, 1, 1), ledger(100, 2, 1)]
+            ledger_paths = []
+            for ayah, item in zip((1, 2), ledgers):
+                path = discovery_outputs / f"100_{ayah}.ledger.json"
+                path.write_text(json.dumps(item), encoding="utf-8")
+                ledger_paths.append(path)
+
+            with self.assertRaises(SystemExit) as caught:
+                workflow.check_stage(
+                    config,
+                    stage="discovery",
+                    pericope_id=None,
+                    selected_ayah=1,
+                    surah_scope=False,
+                )
+            self.assertIn("discovery memo", str(caught.exception))
+
+            write_discovery_sidecars(discovery_outputs, 100, [1, 2])
+            _, compiler_outputs = workflow.stage_paths(root, "compiler")
+            compiler_outputs.mkdir(parents=True)
+            plan = editorial_plan(ledgers, ledger_paths)
+            (compiler_outputs / "test-pericope.editorial-plan.json").write_text(
+                json.dumps(plan), encoding="utf-8"
+            )
+            registry = channel_registry(ledgers, ledger_paths)
+            (compiler_outputs / "test-pericope.channel-registry.json").write_text(
+                json.dumps(registry), encoding="utf-8"
+            )
+            with self.assertRaises(SystemExit) as caught:
+                workflow.check_stage(
+                    config,
+                    stage="compiler",
+                    pericope_id="test-pericope",
+                    selected_ayah=None,
+                    surah_scope=False,
+                )
+            self.assertIn("compiler friction", str(caught.exception))
 
 
 if __name__ == "__main__":

@@ -36,12 +36,14 @@
     },
     "sourceObligations": {
       "type": "array",
+      "minItems": 1,
       "items": {
         "$ref": "#/$defs/sourceObligation"
       }
     },
     "findings": {
       "type": "array",
+      "minItems": 1,
       "items": {
         "$ref": "#/$defs/finding"
       }
@@ -341,6 +343,11 @@
               "findingRefs": {
                 "minItems": 1
               }
+            },
+            "not": {
+              "required": [
+                "blockingEvidence"
+              ]
             }
           },
           "else": {

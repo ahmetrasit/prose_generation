@@ -41,6 +41,9 @@ Every accepted or revised channel must list its source candidates, member
 finding IDs, ayah sequence, relation to the primary floor, and prose section.
 Every merged or rejected candidate must state why.
 
+In `result.json`, record output files only as sibling filenames such as
+`{PERICOPE}.channels.prose.md`, not repo-relative or absolute paths.
+
 Copy `sourceRegistrySha256` exactly from the inlined Layer 3 input descriptor.
 Do not calculate or normalize the hash.
 

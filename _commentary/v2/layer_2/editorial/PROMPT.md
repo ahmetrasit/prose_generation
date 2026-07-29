@@ -47,8 +47,12 @@ compresses wording, never field size.
 ## Result
 
 `result.json` must list every represented finding and synthesis. It must also
-record the five output paths and the standalone checks. A successful result
-represents every carried finding assigned by the plan.
+record the four authored output paths (`prose`, `evidence`, `index`, and
+`friction`) and the standalone checks. A successful result represents every
+carried finding assigned by the plan.
+
+In `result.json`, record only sibling filenames such as `{UNIT}.prose.md`, not
+repo-relative or absolute paths.
 
 Copy `sourceLedgerSha256` and `sourcePlanSha256` exactly from the inlined plan
 slice. Do not calculate or normalize either hash.

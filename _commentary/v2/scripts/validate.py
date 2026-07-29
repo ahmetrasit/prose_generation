@@ -17,7 +17,6 @@ from pathlib import Path
 from typing import Any, Iterable
 
 V2_ROOT = Path(__file__).resolve().parent.parent
-REPO_ROOT = V2_ROOT.parent.parent
 
 AYAH_RE = re.compile(r"^([1-9][0-9]{0,2}):([1-9][0-9]{0,2})$")
 ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
@@ -76,6 +75,35 @@ def require_array(value: Any, where: str, errors: list[str]) -> list[Any]:
     return value
 
 
+def validate_sibling_output_file(
+    outputs: dict[str, Any],
+    field: str,
+    result_path: Path | None,
+    where: str,
+    errors: list[str],
+) -> None:
+    value = outputs.get(field)
+    require_nonempty(value, where, errors)
+    if result_path is None or not isinstance(value, str):
+        return
+    suffix = ".result.json"
+    if result_path.name.endswith(suffix):
+        unit = result_path.name[: -len(suffix)]
+        expected = f"{unit}.{field}.md"
+        if value != expected:
+            errors.append(f"{where}: expected {expected!r}")
+            return
+    declared = Path(value)
+    if declared.is_absolute() or declared.name != value:
+        errors.append(f"{where}: expected relative sibling filename")
+        return
+    existing = result_path.parent / declared
+    if not existing.is_file():
+        errors.append(f"{where}: file does not exist: {existing}")
+    elif not existing.read_text(encoding="utf-8").strip():
+        errors.append(f"{where}: file is empty: {existing}")
+
+
 def duplicate_values(values: Iterable[str]) -> list[str]:
     seen: set[str] = set()
     duplicates: set[str] = set()
@@ -130,16 +158,15 @@ def validate_run_config_data(data: dict[str, Any]) -> list[str]:
             errors.append("config.defaultAyahSourcePattern: must contain {ayah}")
 
     governing = data.get("governingSources", [])
-    if governing is not None:
-        items = require_array(governing, "config.governingSources", errors)
-        values = [item for item in items if isinstance(item, str)]
-        if len(values) != len(items) or any(not item.strip() for item in values):
-            errors.append("config.governingSources: every path must be non-empty")
-        if duplicate_values(values):
-            errors.append("config.governingSources: duplicate paths")
+    items = require_array(governing, "config.governingSources", errors)
+    values = [item for item in items if isinstance(item, str)]
+    if len(values) != len(items) or any(not item.strip() for item in values):
+        errors.append("config.governingSources: every path must be non-empty")
+    if duplicate_values(values):
+        errors.append("config.governingSources: duplicate paths")
 
     ayah_sources = data.get("ayahSources", {})
-    if ayah_sources is not None and not isinstance(ayah_sources, dict):
+    if not isinstance(ayah_sources, dict):
         errors.append("config.ayahSources: expected object")
         ayah_sources = {}
     for ref, paths in ayah_sources.items():
@@ -230,6 +257,8 @@ def validate_ledger_data(data: dict[str, Any]) -> list[str]:
         errors.append("ledger.coverageNote_tr: expected string")
 
     findings = require_array(data.get("findings"), "ledger.findings", errors)
+    if not findings:
+        errors.append("ledger.findings: at least one finding is required")
     finding_by_id: dict[str, dict[str, Any]] = {}
     finding_allowed = {
         "findingId",
@@ -363,6 +392,8 @@ def validate_ledger_data(data: dict[str, Any]) -> list[str]:
     obligations = require_array(
         data.get("sourceObligations"), "ledger.sourceObligations", errors
     )
+    if not obligations:
+        errors.append("ledger.sourceObligations: at least one obligation is required")
     seen_obligations: list[str] = []
     for index, obligation in enumerate(obligations):
         where = f"ledger.sourceObligations[{index}]"
@@ -392,6 +423,8 @@ def validate_ledger_data(data: dict[str, Any]) -> list[str]:
             )
             if not blocking:
                 errors.append(f"{where}.blockingEvidence: blocked obligation needs evidence")
+        elif "blockingEvidence" in obligation:
+            errors.append(f"{where}.blockingEvidence: carry obligation cannot be blocked")
     duplicates = duplicate_values(seen_obligations)
     if duplicates:
         errors.append(f"ledger.sourceObligations: duplicate source refs {duplicates}")
@@ -833,14 +866,31 @@ def validate_layer2_result_data(
     plan_path: Path | None = None,
 ) -> list[str]:
     errors: list[str] = []
+    allowed = {
+        "schemaVersion",
+        "surah",
+        "ayahRef",
+        "pericopeId",
+        "sourceLedgerSha256",
+        "sourcePlanSha256",
+        "outputs",
+        "representedFindingRefs",
+        "representedSynthesisRefs",
+        "newSyntheses",
+        "standaloneCheck",
+    }
+    require_object(data, "result", allowed, allowed, errors)
     if data.get("schemaVersion") != "commentary-v2-layer2-editorial-result-v1":
         errors.append("result.schemaVersion: unexpected value")
     surah = data.get("surah")
-    if not isinstance(surah, int) or isinstance(surah, bool):
-        errors.append("result.surah: invalid value")
+    if not isinstance(surah, int) or isinstance(surah, bool) or not 1 <= surah <= 114:
+        errors.append("result.surah: expected integer 1 through 114")
         surah = 0
     ayah_ref = data.get("ayahRef")
     validate_ayah_ref(ayah_ref, surah, "result.ayahRef", errors)
+    pericope_id = data.get("pericopeId")
+    if not isinstance(pericope_id, str) or not ID_RE.fullmatch(pericope_id):
+        errors.append("result.pericopeId: invalid id")
     for field in ("sourceLedgerSha256", "sourcePlanSha256"):
         value = data.get(field)
         if not isinstance(value, str) or not SHA_RE.fullmatch(value):
@@ -856,6 +906,9 @@ def validate_layer2_result_data(
     represented_set = {item for item in represented if isinstance(item, str)}
     if len(represented_set) != len(represented):
         errors.append("result.representedFindingRefs: duplicate or invalid refs")
+    for index, ref in enumerate(represented):
+        if not isinstance(ref, str) or not FINDING_RE.fullmatch(ref):
+            errors.append(f"result.representedFindingRefs[{index}]: invalid finding ref")
     represented_syntheses = require_array(
         data.get("representedSynthesisRefs"),
         "result.representedSynthesisRefs",
@@ -866,6 +919,12 @@ def validate_layer2_result_data(
     }
     if len(synthesis_set) != len(represented_syntheses):
         errors.append("result.representedSynthesisRefs: duplicate or invalid refs")
+    for index, ref in enumerate(represented_syntheses):
+        if not isinstance(ref, str) or not (
+            EDITORIAL_SYNTHESIS_RE.fullmatch(ref)
+            or AUTHOR_SYNTHESIS_RE.fullmatch(ref)
+        ):
+            errors.append(f"result.representedSynthesisRefs[{index}]: invalid synthesis ref")
 
     new_syntheses = require_array(data.get("newSyntheses"), "result.newSyntheses", errors)
     new_ids: set[str] = set()
@@ -874,6 +933,15 @@ def validate_layer2_result_data(
         if not isinstance(synthesis, dict):
             errors.append(f"{where}: expected object")
             continue
+        synthesis_allowed = {
+            "synthesisId",
+            "componentFindingRefs",
+            "relation",
+            "supportLevel",
+            "claim_tr",
+            "evidenceRefs",
+        }
+        require_object(synthesis, where, synthesis_allowed, synthesis_allowed, errors)
         synthesis_id = synthesis.get("synthesisId")
         if not isinstance(synthesis_id, str) or not AUTHOR_SYNTHESIS_RE.fullmatch(
             synthesis_id
@@ -890,11 +958,32 @@ def validate_layer2_result_data(
         )
         if len(components) < 2:
             errors.append(f"{where}.componentFindingRefs: need at least two findings")
+        if len({item for item in components if isinstance(item, str)}) != len(components):
+            errors.append(f"{where}.componentFindingRefs: duplicate or invalid refs")
+        for ref_index, ref in enumerate(components):
+            if not isinstance(ref, str) or not FINDING_RE.fullmatch(ref):
+                errors.append(f"{where}.componentFindingRefs[{ref_index}]: invalid finding ref")
+        if synthesis.get("relation") not in {
+            "supports-primary",
+            "shifts-primary",
+            "parallel-pressure",
+        }:
+            errors.append(f"{where}.relation: invalid value")
+        if synthesis.get("supportLevel") not in {
+            "local-inference",
+            "contextual-inference",
+            "remote-lexical",
+            "synthetic",
+        }:
+            errors.append(f"{where}.supportLevel: invalid value")
+        require_nonempty(synthesis.get("claim_tr"), f"{where}.claim_tr", errors)
         evidence = require_array(
             synthesis.get("evidenceRefs"), f"{where}.evidenceRefs", errors
         )
         if not evidence:
             errors.append(f"{where}.evidenceRefs: at least one reference is required")
+        if len({item for item in evidence if isinstance(item, str)}) != len(evidence):
+            errors.append(f"{where}.evidenceRefs: duplicate or invalid refs")
     if not new_ids.issubset(synthesis_set):
         errors.append("result.representedSynthesisRefs: missing new author synthesis")
 
@@ -915,25 +1004,22 @@ def validate_layer2_result_data(
     if not isinstance(outputs, dict):
         errors.append("result.outputs: expected object")
     else:
+        output_fields = {"prose", "evidence", "index", "friction"}
+        require_object(outputs, "result.outputs", output_fields, output_fields, errors)
         for field in ("prose", "evidence", "index", "friction"):
-            require_nonempty(outputs.get(field), f"result.outputs.{field}", errors)
-            if result_path is not None and isinstance(outputs.get(field), str):
-                declared = Path(outputs[field])
-                candidates = (
-                    [declared]
-                    if declared.is_absolute()
-                    else [result_path.parent / declared, REPO_ROOT / declared]
-                )
-                existing = next((path for path in candidates if path.is_file()), None)
-                if existing is None:
-                    errors.append(
-                        f"result.outputs.{field}: file does not exist: "
-                        + " or ".join(str(path) for path in candidates)
-                    )
-                elif not existing.read_text(encoding="utf-8").strip():
-                    errors.append(f"result.outputs.{field}: file is empty: {existing}")
+            validate_sibling_output_file(
+                outputs,
+                field,
+                result_path,
+                f"result.outputs.{field}",
+                errors,
+            )
 
     if ledger is not None:
+        if data.get("surah") != ledger.get("surah"):
+            errors.append("result.surah: does not match ledger")
+        if data.get("ayahRef") != ledger.get("ayahRef"):
+            errors.append("result.ayahRef: does not match ledger")
         carried = {
             finding["findingId"]
             for finding in ledger.get("findings", [])
@@ -946,17 +1032,34 @@ def validate_layer2_result_data(
                 errors.append(f"result.representedFindingRefs: missing {missing}")
             if extra:
                 errors.append(f"result.representedFindingRefs: unknown {extra}")
+        for index, synthesis in enumerate(new_syntheses):
+            if not isinstance(synthesis, dict):
+                continue
+            for ref in synthesis.get("componentFindingRefs", []):
+                if ref not in carried:
+                    errors.append(
+                        f"result.newSyntheses[{index}].componentFindingRefs: "
+                        f"unknown carried finding {ref!r}"
+                    )
     if plan is not None:
+        if data.get("surah") != plan.get("surah"):
+            errors.append("result.surah: does not match plan")
+        if data.get("pericopeId") != plan.get("pericopeId"):
+            errors.append("result.pericopeId: does not match plan")
+        matched_plan = False
         plan_refs: set[str] = set()
         plan_syntheses: set[str] = set()
         for ayah_plan in plan.get("ayahPlans", []):
             if not isinstance(ayah_plan, dict) or ayah_plan.get("ayahRef") != ayah_ref:
                 continue
+            matched_plan = True
             for placement in ayah_plan.get("placements", []):
                 if not isinstance(placement, dict):
                     continue
                 plan_refs.update(placement.get("findingRefs", []))
                 plan_syntheses.update(placement.get("synthesisRefs", []))
+        if not matched_plan:
+            errors.append("result.ayahRef: not present in plan")
         if not plan_refs.issubset(represented_set):
             errors.append(
                 "result.representedFindingRefs: does not cover the ayah plan"
@@ -975,8 +1078,25 @@ def validate_layer3_result_data(
     result_path: Path | None = None,
 ) -> list[str]:
     errors: list[str] = []
+    allowed = {
+        "schemaVersion",
+        "surah",
+        "pericopeId",
+        "sourceRegistrySha256",
+        "outputs",
+        "channels",
+        "candidateCoverage",
+    }
+    require_object(data, "result", allowed, allowed, errors)
     if data.get("schemaVersion") != "commentary-v2-layer3-result-v1":
         errors.append("result.schemaVersion: unexpected value")
+    surah = data.get("surah")
+    if not isinstance(surah, int) or isinstance(surah, bool) or not 1 <= surah <= 114:
+        errors.append("result.surah: expected integer 1 through 114")
+        surah = 0
+    pericope_id = data.get("pericopeId")
+    if not isinstance(pericope_id, str) or not ID_RE.fullmatch(pericope_id):
+        errors.append("result.pericopeId: invalid id")
     source_sha = data.get("sourceRegistrySha256")
     if not isinstance(source_sha, str) or not SHA_RE.fullmatch(source_sha):
         errors.append("result.sourceRegistrySha256: invalid SHA-256")
@@ -986,31 +1106,49 @@ def validate_layer3_result_data(
     if not isinstance(outputs, dict):
         errors.append("result.outputs: expected object")
     else:
+        output_fields = {"prose", "evidence", "friction"}
+        require_object(outputs, "result.outputs", output_fields, output_fields, errors)
         for field in ("prose", "evidence", "friction"):
-            require_nonempty(outputs.get(field), f"result.outputs.{field}", errors)
-            if result_path is not None and isinstance(outputs.get(field), str):
-                declared = Path(outputs[field])
-                candidates = (
-                    [declared]
-                    if declared.is_absolute()
-                    else [result_path.parent / declared, REPO_ROOT / declared]
-                )
-                existing = next((path for path in candidates if path.is_file()), None)
-                if existing is None:
-                    errors.append(
-                        f"result.outputs.{field}: file does not exist: "
-                        + " or ".join(str(path) for path in candidates)
-                    )
-                elif not existing.read_text(encoding="utf-8").strip():
-                    errors.append(f"result.outputs.{field}: file is empty: {existing}")
+            validate_sibling_output_file(
+                outputs,
+                field,
+                result_path,
+                f"result.outputs.{field}",
+                errors,
+            )
     channels = require_array(data.get("channels"), "result.channels", errors)
     result_channel_ids: set[str] = set()
     used_candidates: set[str] = set()
+    registry_member_refs: dict[str, set[str]] = {}
+    if registry is not None:
+        for source_channel in registry.get("channels", []):
+            if not isinstance(source_channel, dict):
+                continue
+            candidate_id = source_channel.get("candidateId")
+            if not isinstance(candidate_id, str):
+                continue
+            registry_member_refs[candidate_id] = {
+                member["findingRef"]
+                for member in source_channel.get("members", [])
+                if isinstance(member, dict) and isinstance(member.get("findingRef"), str)
+            }
     for index, channel in enumerate(channels):
         where = f"result.channels[{index}]"
         if not isinstance(channel, dict):
             errors.append(f"{where}: expected object")
             continue
+        channel_allowed = {
+            "channelId",
+            "sourceCandidateIds",
+            "status",
+            "name_tr",
+            "statement_tr",
+            "primaryRelation",
+            "memberFindingRefs",
+            "ayahSequence",
+            "proseSectionId",
+        }
+        require_object(channel, where, channel_allowed, channel_allowed, errors)
         channel_id = channel.get("channelId")
         if not isinstance(channel_id, str) or not ID_RE.fullmatch(channel_id):
             errors.append(f"{where}.channelId: invalid id")
@@ -1023,15 +1161,55 @@ def validate_layer3_result_data(
         )
         if not source_ids:
             errors.append(f"{where}.sourceCandidateIds: at least one is required")
+        if len({item for item in source_ids if isinstance(item, str)}) != len(source_ids):
+            errors.append(f"{where}.sourceCandidateIds: duplicate or invalid ids")
+        for source_index, source_id in enumerate(source_ids):
+            if not isinstance(source_id, str) or not ID_RE.fullmatch(source_id):
+                errors.append(f"{where}.sourceCandidateIds[{source_index}]: invalid id")
         used_candidates.update(item for item in source_ids if isinstance(item, str))
+        if channel.get("status") not in {"accepted", "revised"}:
+            errors.append(f"{where}.status: invalid value")
+        require_nonempty(channel.get("name_tr"), f"{where}.name_tr", errors)
+        require_nonempty(channel.get("statement_tr"), f"{where}.statement_tr", errors)
+        if channel.get("primaryRelation") not in {
+            "supports-primary",
+            "shifts-primary",
+            "parallel-pressure",
+        }:
+            errors.append(f"{where}.primaryRelation: invalid value")
+        prose_section_id = channel.get("proseSectionId")
+        if not isinstance(prose_section_id, str) or not ID_RE.fullmatch(prose_section_id):
+            errors.append(f"{where}.proseSectionId: invalid id")
         member_refs = require_array(
             channel.get("memberFindingRefs"), f"{where}.memberFindingRefs", errors
         )
         if len(member_refs) < 2:
             errors.append(f"{where}.memberFindingRefs: need at least two findings")
+        if len({item for item in member_refs if isinstance(item, str)}) != len(member_refs):
+            errors.append(f"{where}.memberFindingRefs: duplicate or invalid refs")
+        for ref_index, ref in enumerate(member_refs):
+            if not isinstance(ref, str) or not FINDING_RE.fullmatch(ref):
+                errors.append(f"{where}.memberFindingRefs[{ref_index}]: invalid finding ref")
+        if registry_member_refs:
+            allowed_member_refs: set[str] = set()
+            for source_id in source_ids:
+                if isinstance(source_id, str):
+                    allowed_member_refs.update(registry_member_refs.get(source_id, set()))
+            unknown_member_refs = sorted(
+                ref for ref in member_refs if isinstance(ref, str) and ref not in allowed_member_refs
+            )
+            if unknown_member_refs:
+                errors.append(
+                    f"{where}.memberFindingRefs: not present in source candidates "
+                    f"{unknown_member_refs}"
+                )
         ayahs = require_array(channel.get("ayahSequence"), f"{where}.ayahSequence", errors)
         if len(set(item for item in ayahs if isinstance(item, str))) < 2:
             errors.append(f"{where}.ayahSequence: channel must cross two ayahs")
+        if len({item for item in ayahs if isinstance(item, str)}) != len(ayahs):
+            errors.append(f"{where}.ayahSequence: duplicate or invalid refs")
+        for ayah_index, ayah_ref in enumerate(ayahs):
+            validate_ayah_ref(ayah_ref, surah, f"{where}.ayahSequence[{ayah_index}]", errors)
 
     coverage = require_array(
         data.get("candidateCoverage"), "result.candidateCoverage", errors
@@ -1042,6 +1220,13 @@ def validate_layer3_result_data(
         if not isinstance(item, dict):
             errors.append(f"{where}: expected object")
             continue
+        coverage_allowed = {
+            "candidateId",
+            "disposition",
+            "resultChannelIds",
+            "reason_tr",
+        }
+        require_object(item, where, {"candidateId", "disposition", "reason_tr"}, coverage_allowed, errors)
         candidate_id = item.get("candidateId")
         if not isinstance(candidate_id, str) or not ID_RE.fullmatch(candidate_id):
             errors.append(f"{where}.candidateId: invalid id")
@@ -1066,6 +1251,10 @@ def validate_layer3_result_data(
             errors.append(f"{where}.resultChannelIds: unknown result channel")
 
     if registry is not None:
+        if data.get("surah") != registry.get("surah"):
+            errors.append("result.surah: does not match registry")
+        if data.get("pericopeId") != registry.get("pericopeId"):
+            errors.append("result.pericopeId: does not match registry")
         registry_ids = {
             channel["candidateId"]
             for channel in registry.get("channels", [])
