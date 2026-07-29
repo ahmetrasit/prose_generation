@@ -200,8 +200,13 @@ Before drafting, silently build a coverage ledger:
 - include every `must_integrate` topic;
 - include every `candidate` with a reader payoff not already expressed;
 - if `v12_reader_responses` is absent because the default workflow retired
-  per-ayah focus runs, do not infer a `stage_00` isolated response, staged
-  reveal sequence, `changed_reading`, or confidence movement;
+  per-ayah focus runs, do not infer a `stage_00` isolated response or
+  confidence movement;
+- if `v12_focus_trace_hermetic` is present, use its `baseline_models`,
+  `context_deltas`, and `surprising_valid_outliers` as reconstructed
+  before/after evidence. Do not call it a staged reveal transcript. Preserve
+  surprising outliers when they remain anchored in this ayah, especially
+  secondary split-root activations;
 - include a regular reader-walk, plus/minus-5 reader-walk, whole-surah reading,
   or cross-run-publication item only when it adds a distinct retrospective
   insight or coverage check;
@@ -298,6 +303,12 @@ access, read only those listed files when channel-family/path detail is
 necessary. Treat them as candidate/family/path evidence, not as an adjudicated
 channel ledger. State B channel restrictions still apply.
 
+If `v12_focus_trace_hermetic` is present, treat it as a reconstructed focus
+trace: baseline models show what the ayah can yield on its own, context deltas
+show changed reading after later context, and `surprising_valid_outliers` are
+live anchored readings to compress rather than audit away. Do not call it a
+`stage_00` / `stage_01` staged run.
+
 At first mention of an ayah word, use a structured Arabic surface span:
 `{ar:surface_form, tr:Turkish-readable transliteration, gloss:target-language meaning}`.
 Use the same full span again when the prose returns to that word after moving to
@@ -334,8 +345,8 @@ per-ayah focus-run staged reader responses.
 This profile supersedes the task document's normal before/after requirement
 when `v12_reader_responses` is deliberately absent. Do not infer a `stage_00`
 isolated response, a staged reveal sequence, `changed_reading`, or model
-confidence movement. If that source is absent because of ablation, report the
-absence in evidence coverage and friction, not in prose.
+confidence movement. If `v12_focus_trace_hermetic` is also absent because of
+ablation, report that absence in evidence coverage and friction, not in prose.
 
 Still write full ayah commentary. Use the remaining sources normally:
 
@@ -352,6 +363,7 @@ Still write full ayah commentary. Use the remaining sources normally:
 - `v12_cross_run_publication`, if present, only as a compact coverage/priority
   check derived from regular and plus/minus-5 reader runs; do not copy it as
   prose, and do not let it override local bundle evidence;
+- `v12_focus_trace_hermetic` is deliberately absent in this ablation;
 - `channel_generated_outputs`, if present, only as a file-access manifest for
   generated candidate/family/path evidence; read only listed files when needed,
   and do not treat them as an adjudicated channel ledger;
@@ -374,6 +386,7 @@ This profile supersedes every instruction that requires reader-derived sources.
 Do not infer or simulate:
 
 - per-ayah focus reader responses;
+- Hermetic Focus Trace responses;
 - staged before/after reveal trajectories;
 - reader walks;
 - retrospective surprises;

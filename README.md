@@ -119,6 +119,9 @@ they are planned, not because they exist.
   is the run contract for commentary prompts and agent-authored outputs;
   [`scripts/README.md`](scripts/README.md) documents the bundle builder behind
   those prompts.
+- Hermetic Focus Trace: [`docs/FOCUS_TRACE_INTEGRATION.md`](docs/FOCUS_TRACE_INTEGRATION.md)
+  explains the new upstream focus workflow, why `reader_m` matters as the S100
+  comparison point, and how the source enters Layer 2.
 - What evidence exists: [`docs/SOURCES.md`](docs/SOURCES.md) for paths and
   formats, [`docs/DATA_AVAILABILITY.md`](docs/DATA_AVAILABILITY.md) for coverage.
 

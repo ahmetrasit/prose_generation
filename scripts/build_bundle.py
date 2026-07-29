@@ -14,9 +14,10 @@ Standard library only, with one exception: `.zst` files are decompressed by
 shelling out to the `zstd` binary (the `zstandard` pip package is not assumed
 to be installed). `.gz` files are decompressed with the stdlib `gzip` module.
 
-Every source this script reads now lives under a single root:
-`/Volumes/OZTURK/_projects/quran-data/data/` (see QURAN_DATA below). There is
-no longer a `latent_activation` or `quran-slm` sibling root.
+Frozen corpus sources live under
+`/Volumes/OZTURK/_projects/quran-data/data/` (see QURAN_DATA below). Generated
+Hermetic Focus Trace responses, when present, are read from the sibling
+`latent_activation` checkout and treated as optional workflow output.
 
 Before building anything, `preflight()` enumerates every expected source for
 the requested surah/ayah and prints a table of present/missing sources,
@@ -57,15 +58,18 @@ PROSE_GEN_ROOT = SCRIPT_PATH.parent.parent          # .../prose_generation
 PROJECTS_ROOT = PROSE_GEN_ROOT.parent               # .../_projects
 
 QURAN_DATA = PROJECTS_ROOT / "quran-data" / "data"
+LATENT_ACTIVATION_ROOT = PROJECTS_ROOT / "latent_activation"
 
 QURAN_TEXT_TSV = QURAN_DATA / "text" / "quran-uthmani.tsv"
 WORD_ANALYSIS_DIR = QURAN_DATA / "analysis" / "word-analysis"
 QAC_SQLITE_GZ = QURAN_DATA / "morphology" / "qac.sqlite.gz"
+QAC_FURUQ_ROOT_MAP_SQLITE_GZ = QURAN_DATA / "bridges" / "qac-furuq-v4-root-map.sqlite.gz"
 
 V12_TR_DIR = QURAN_DATA / "analysis" / "ayah-activation" / "v12-tr"
 V12_TR_11AYAH_DIR = QURAN_DATA / "analysis" / "ayah-activation" / "v12-tr-11ayah"
 V12_CROSS_RUN_TR_DIR = QURAN_DATA / "analysis" / "ayah-activation" / "v12-cross-run" / "tr"
 NETWORK_V3_DIR = QURAN_DATA / "analysis" / "channels" / "network-v3"
+FOCUS_TRACE_RUNS_DIR = LATENT_ACTIVATION_ROOT / "focus_trace" / "runs"
 PERICOPES_PATH = NETWORK_V3_DIR / "pericopes" / "surah_pericopes.jsonl"
 INTER_AYAH_DIR = QURAN_DATA / "analysis" / "inter-ayah"
 DICTIONARY_TR_DIR = QURAN_DATA / "dictionary" / "tr"
@@ -683,6 +687,125 @@ def load_v12_reader_responses(surah: int, ayah: int) -> tuple:
         coverage["variants"][variant_name] = {"present": True, "readers": readers_meta}
         coverage["present"] = True
 
+    return out, coverage
+
+
+# ---------------------------------------------------------------------------
+# Source: Hermetic Focus Trace responses (generated in latent_activation)
+# ---------------------------------------------------------------------------
+
+def focus_trace_run_dir(surah: int) -> Path:
+    return FOCUS_TRACE_RUNS_DIR / f"s{surah:03d}"
+
+
+def focus_trace_packet_path(surah: int, ayah: int) -> Path:
+    return focus_trace_run_dir(surah) / "packets" / f"{surah}_{ayah}.packet.json"
+
+
+def focus_trace_response_files(surah: int, ayah: int) -> list[Path]:
+    readers_dir = focus_trace_run_dir(surah) / "readers"
+    if not readers_dir.exists():
+        return []
+    files = []
+    for reader_dir in sorted(d for d in readers_dir.iterdir() if d.is_dir()):
+        if reader_dir.name in QUARANTINED_DIR_NAMES:
+            continue
+        exact = reader_dir / f"{surah}_{ayah}.focus_trace.json"
+        if exact.exists():
+            files.append(exact)
+            continue
+        files.extend(sorted(reader_dir.glob(f"{surah}_{ayah}.*.json")))
+    return files
+
+
+def focus_trace_packet_summary(packet_path: Path) -> dict | None:
+    if not packet_path.exists():
+        return None
+    packet = json.loads(packet_path.read_text(encoding="utf-8"))
+    split_roots = []
+    for mapping in packet.get("root_mappings", []) or []:
+        if mapping.get("mapping_status") == "split":
+            split_roots.append({
+                "qac_root": mapping.get("qac_root"),
+                "targets": mapping.get("targets", []),
+            })
+    return {
+        "source_file": relpath(packet_path),
+        "protocol": packet.get("protocol"),
+        "focus_ref": packet.get("focus_ref"),
+        "window": packet.get("window", []),
+        "ayah_count": packet.get("ayah_count"),
+        "split_root_mappings": split_roots,
+    }
+
+
+def load_v12_focus_trace_hermetic(surah: int, ayah: int) -> tuple:
+    """Returns (dict, coverage_dict) for Hermetic Focus Trace.
+
+    This is optional generated evidence. A packet without reader outputs is
+    still useful operationally, so coverage records packet readiness separately
+    from response presence.
+    """
+    packet_path = focus_trace_packet_path(surah, ayah)
+    packet_summary = focus_trace_packet_summary(packet_path)
+    out = {}
+    coverage = {
+        "present": False,
+        "packet_present": packet_summary is not None,
+        "packet_source_file": relpath(packet_path) if packet_path.exists() else None,
+        "readers": {},
+    }
+    if packet_summary is not None:
+        out["packet_summary"] = packet_summary
+        coverage["packet_protocol"] = packet_summary.get("protocol")
+        coverage["packet_bytes"] = packet_path.stat().st_size
+        coverage["split_root_count"] = len(packet_summary.get("split_root_mappings", []))
+
+    reader_files = focus_trace_response_files(surah, ayah)
+    if not reader_files:
+        coverage["note"] = (
+            "Hermetic Focus Trace packet exists but no reader responses are present"
+            if packet_summary is not None
+            else f"no Hermetic Focus Trace packet or responses under {focus_trace_run_dir(surah)}"
+        )
+        return out, coverage
+
+    readers = {}
+    ayah_ref = f"{surah}:{ayah}"
+    for response_path in reader_files:
+        reader_id = response_path.parent.name
+        try:
+            response = json.loads(response_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            coverage["readers"][reader_id] = {
+                "present": False,
+                "source_file": relpath(response_path),
+                "note": f"invalid JSON: {exc}",
+            }
+            continue
+        if response.get("focus_ref") != ayah_ref:
+            coverage["readers"][reader_id] = {
+                "present": False,
+                "source_file": relpath(response_path),
+                "note": f"focus_ref {response.get('focus_ref')!r} does not match {ayah_ref}",
+            }
+            continue
+        readers[reader_id] = response
+        coverage["readers"][reader_id] = {
+            "present": True,
+            "source_file": relpath(response_path),
+            "protocol": response.get("protocol"),
+            "baseline_models": len(response.get("baseline_models", []) or []),
+            "context_deltas": len(response.get("context_deltas", []) or []),
+            "surprising_valid_outliers": len(response.get("surprising_valid_outliers", []) or []),
+        }
+
+    if readers:
+        out["readers"] = readers
+        coverage["present"] = True
+        coverage["reader_count"] = len(readers)
+    else:
+        coverage["note"] = "Hermetic Focus Trace response files found, but none matched this ayah"
     return out, coverage
 
 
@@ -1400,11 +1523,53 @@ def pericope_for_ayah(pericopes: list, ayah: int) -> dict:
 # ---------------------------------------------------------------------------
 
 def load_root_id_map(surah: int) -> tuple:
-    """Returns ({arabic_root_string: root_id}, packet_path or None). Root IDs
-    (e.g. 'root_000745') come from full_context_packet.json's
-    branch_inventories[].branches[].variants[].root_id, which is the only
-    artifact that carries both the Arabic root string (as used in
-    qac_morphemes.root_ar) and its dictionary/gloss envelope id."""
+    """Returns ({arabic_root_string: [target, ...]}, source_path or None).
+
+    The preferred source is the root-level QAC -> Furuq v4 bridge under
+    quran-data. It preserves split roots, so one QAC root can map to multiple
+    dictionary/gloss root_id envelopes. The legacy full_context_packet fallback
+    is kept only for older checkouts that do not have the bridge.
+    """
+    if QAC_FURUQ_ROOT_MAP_SQLITE_GZ.exists():
+        raw = read_gz_bytes(QAC_FURUQ_ROOT_MAP_SQLITE_GZ)
+        with tempfile.NamedTemporaryFile(suffix=".sqlite", delete=False) as tmp:
+            tmp.write(raw)
+            tmp_path = tmp.name
+        try:
+            conn = sqlite3.connect(tmp_path)
+            conn.row_factory = sqlite3.Row
+            rows = conn.execute(
+                """
+                SELECT qac_root_norm, mapping_status, target_rank,
+                       furuq_root_id, furuq_root_norm, furuq_source_root_norm,
+                       furuq_resolution, target_occurrences, is_dominant
+                FROM qac_to_furuq
+                WHERE has_furuq_root = 1
+                ORDER BY qac_root_norm, target_rank
+                """
+            ).fetchall()
+        finally:
+            try:
+                conn.close()
+            except UnboundLocalError:
+                pass
+            Path(tmp_path).unlink(missing_ok=True)
+
+        root_id_map = {}
+        for row in rows:
+            root_id_map.setdefault(row["qac_root_norm"], []).append({
+                "root_id": row["furuq_root_id"],
+                "root_norm": row["furuq_root_norm"],
+                "source_root_norm": row["furuq_source_root_norm"],
+                "resolution": row["furuq_resolution"],
+                "target_rank": int(row["target_rank"]),
+                "target_occurrences": int(row["target_occurrences"] or 0),
+                "is_dominant": row["is_dominant"] in {1, "1", True},
+                "mapping_status": row["mapping_status"],
+                "source": "qac-furuq-v4-root-map.sqlite.gz",
+            })
+        return root_id_map, QAC_FURUQ_ROOT_MAP_SQLITE_GZ
+
     packet_path = V12_TR_DIR / f"s{surah:03d}" / "full_context_packet.json"
     if not packet_path.exists():
         return {}, None
@@ -1421,7 +1586,17 @@ def load_root_id_map(surah: int) -> tuple:
             if root_id:
                 break
         if root and root_id:
-            root_id_map[root] = root_id
+            root_id_map[root] = [{
+                "root_id": root_id,
+                "root_norm": root,
+                "source_root_norm": root,
+                "resolution": "legacy_full_context_packet",
+                "target_rank": 1,
+                "target_occurrences": None,
+                "is_dominant": True,
+                "mapping_status": "legacy_single",
+                "source": "full_context_packet.json",
+            }]
     return root_id_map, packet_path
 
 
@@ -1511,7 +1686,14 @@ def build_root_lexicon(qac_rows: list, root_id_map: dict) -> tuple:
     """For each distinct root appearing in this ayah's QAC morphemes, joins
     the Turkish dictionary entry and gloss record. Returns (dict keyed by
     root_id, coverage_dict). Turkish is the only language with glosses
-    currently sourced; that fact is recorded in coverage, not assumed."""
+    currently sourced; that fact is recorded in coverage, not assumed.
+
+    root_id_map values are ranked target lists. For split QAC roots, every
+    mapped Furuq root_id is reported in coverage, but only the dominant target's
+    full dictionary/gloss payload is inlined. Secondary split branches are
+    carried by Hermetic Focus Trace outputs instead of duplicating large lexical
+    records into every Layer 2 bundle.
+    """
     roots_in_ayah = []
     seen = set()
     for row in qac_rows:
@@ -1523,37 +1705,94 @@ def build_root_lexicon(qac_rows: list, root_id_map: dict) -> tuple:
     entries = {}
     per_root = {}
     for root_ar in roots_in_ayah:
-        root_id = root_id_map.get(root_ar)
-        if not root_id:
+        targets = root_id_map.get(root_ar) or []
+        if isinstance(targets, str):
+            targets = [{
+                "root_id": targets,
+                "root_norm": root_ar,
+                "target_rank": 1,
+                "is_dominant": True,
+                "mapping_status": "legacy_single",
+            }]
+        if not targets:
             per_root[root_ar] = {
                 "root_id": None,
+                "root_ids": [],
                 "dictionary_present": False,
                 "gloss_present": False,
-                "note": "no root_id mapping found for this root in this surah's full_context_packet.json branch_inventories",
+                "targets": [],
+                "note": "no root_id mapping found for this QAC root",
             }
             continue
-        dict_entry, dict_path = load_dictionary_entry(root_id)
-        gloss_entry, gloss_path = load_gloss_record(root_id)
-        dict_entry, drop_record = _trim_occurrence_evidence(dict_entry)
-        entries[root_id] = {
-            "root_ar": root_ar,
-            "root_id": root_id,
-            "dictionary_entry": dict_entry,
-            "dictionary_source_file": relpath(dict_path) if dict_entry is not None else None,
-            "gloss": gloss_entry,
-            "gloss_source_file": relpath(gloss_path) if gloss_entry is not None else None,
-        }
-        note = None
-        if dict_entry is None:
-            note = "no Turkish dictionary entry found for this root_id"
-        elif gloss_entry is None:
-            note = "no reviewed Turkish gloss found for this root_id"
+
+        target_coverages = []
+        dominant_root_id = None
+        for target in targets:
+            root_id = target.get("root_id")
+            if not root_id:
+                continue
+            if target.get("is_dominant") and dominant_root_id is None:
+                dominant_root_id = root_id
+            inline_payload = bool(target.get("is_dominant") or len(targets) == 1)
+            dict_entry = gloss_entry = drop_record = None
+            dict_path = DICTIONARY_TR_DIR / f"{root_id}_entry.json"
+            gloss_path = GLOSSES_TR_DIR / f"{root_id}.json"
+            if inline_payload:
+                dict_entry, dict_path = load_dictionary_entry(root_id)
+                gloss_entry, gloss_path = load_gloss_record(root_id)
+                dict_entry, drop_record = _trim_occurrence_evidence(dict_entry)
+                entries[root_id] = {
+                    "root_ar": root_ar,
+                    "root_id": root_id,
+                    "root_mapping": target,
+                    "dictionary_entry": dict_entry,
+                    "dictionary_source_file": relpath(dict_path) if dict_entry is not None else None,
+                    "gloss": gloss_entry,
+                    "gloss_source_file": relpath(gloss_path) if gloss_entry is not None else None,
+                }
+            note = None
+            if not inline_payload:
+                note = (
+                    "secondary split-root target; full dictionary/gloss payload "
+                    "not inlined to keep Layer 2 prompts cost-effective"
+                )
+            elif dict_entry is None:
+                note = "no Turkish dictionary entry found for this root_id"
+            elif gloss_entry is None:
+                note = "no reviewed Turkish gloss found for this root_id"
+            target_coverages.append({
+                "root_id": root_id,
+                "root_norm": target.get("root_norm"),
+                "target_rank": target.get("target_rank"),
+                "is_dominant": bool(target.get("is_dominant")),
+                "mapping_status": target.get("mapping_status"),
+                "dictionary_inlined": inline_payload,
+                "dictionary_present": dict_entry is not None if inline_payload else dict_path.exists(),
+                "gloss_present": gloss_entry is not None if inline_payload else gloss_path.exists(),
+                "occurrence_evidence_trimmed": drop_record,
+                "note": note,
+            })
+
+        if dominant_root_id is None and target_coverages:
+            dominant_root_id = target_coverages[0]["root_id"]
         per_root[root_ar] = {
-            "root_id": root_id,
-            "dictionary_present": dict_entry is not None,
-            "gloss_present": gloss_entry is not None,
-            "occurrence_evidence_trimmed": drop_record,
-            "note": note,
+            "root_id": dominant_root_id,
+            "root_ids": [target["root_id"] for target in target_coverages],
+            "dictionary_present": any(
+                target["dictionary_inlined"] and target["dictionary_present"]
+                for target in target_coverages
+            ),
+            "gloss_present": any(
+                target["dictionary_inlined"] and target["gloss_present"]
+                for target in target_coverages
+            ),
+            "split_mapping": len(target_coverages) > 1,
+            "targets": target_coverages,
+            "note": (
+                "split QAC root: all mapped Furuq root_ids are listed; only "
+                "dominant target dictionary/gloss is inlined"
+                if len(target_coverages) > 1 else None
+            ),
         }
 
     coverage = {
@@ -1578,6 +1817,16 @@ def build_root_lexicon(qac_rows: list, root_id_map: dict) -> tuple:
                 "for the exact row counts dropped per root."
             ),
         },
+        "root_id_mapping_source": (
+            "qac-furuq-v4-root-map.sqlite.gz when available; legacy "
+            "full_context_packet.json only as fallback"
+        ),
+        "split_root_payload_policy": (
+            "coverage lists every mapped Furuq root_id; full dictionary/gloss "
+            "payload is inlined only for the dominant target to control prompt "
+            "size. Hermetic Focus Trace carries secondary split-root branch "
+            "images and reader activations."
+        ),
         "note": "Turkish is the only language with dictionary entries/glosses currently sourced.",
     }
     return entries, coverage
@@ -1852,10 +2101,15 @@ def preflight(surah: int, ayah_filter: int = None) -> dict:
 
     root_id_map, packet_path = load_root_id_map(surah)
     packet_path_display = packet_path or (V12_TR_DIR / f"s{surah:03d}" / "full_context_packet.json")
+    mapped_target_count = sum(len(targets) for targets in root_id_map.values())
     rows.append(_row(
-        "Root ID map (full_context_packet.json)", packet_path_display, False,
+        "Root ID map (qac-furuq-v4 bridge)", packet_path_display, False,
         bool(root_id_map),
-        f"{len(root_id_map)} roots mapped" if root_id_map else "no root_id map available; dictionary/gloss join will be empty for this surah",
+        (
+            f"{len(root_id_map)} QAC roots / {mapped_target_count} mapped Furuq targets"
+            if root_id_map
+            else "no root_id map available; dictionary/gloss join will be empty for this surah"
+        ),
     ))
 
     morph_by_ayah, morph_cov, morph_path = load_morphemes_tsv(surah)
@@ -1915,6 +2169,21 @@ def preflight(surah: int, ayah_filter: int = None) -> dict:
     rows.append(_row("Reader walks (+/-5 context)", wide_control_dir, False,
                       wide_cov.get("present", False), wide_cov.get("note")))
 
+    focus_trace_dir = focus_trace_run_dir(surah)
+    ft_packets = sum(1 for a in target_ayahs if focus_trace_packet_path(surah, a).exists())
+    ft_responses = sum(len(focus_trace_response_files(surah, a)) for a in target_ayahs)
+    rows.append(_row(
+        "Hermetic Focus Trace",
+        focus_trace_dir,
+        False,
+        focus_trace_dir.exists() and (ft_packets > 0 or ft_responses > 0),
+        (
+            f"{ft_packets} packet(s), {ft_responses} reader response file(s)"
+            if focus_trace_dir.exists()
+            else "no generated focus_trace run directory for this surah"
+        ),
+    ))
+
     cross_path = V12_CROSS_RUN_TR_DIR / f"{surah}_ayah_findings_publication.json"
     rows.append(_row("V12 cross-run publication", cross_path, False, cross_path.exists(),
                       None if cross_path.exists() else "no final cross-run publication file for this surah"))
@@ -1935,14 +2204,25 @@ def preflight(surah: int, ayah_filter: int = None) -> dict:
                 root_ar = qrow.get("root_ar")
                 if not root_ar:
                     continue
-                root_id = root_id_map.get(root_ar)
-                if not root_id:
+                targets = root_id_map.get(root_ar) or []
+                if isinstance(targets, str):
+                    targets = [{"root_id": targets, "target_rank": 1, "is_dominant": True}]
+                if not targets:
                     continue
-                seen_roots.setdefault(root_id, {"root_ar": root_ar, "ayahs": []})["ayahs"].append(a)
+                for target in targets:
+                    root_id = target.get("root_id")
+                    if not root_id:
+                        continue
+                    seen_roots.setdefault(
+                        root_id,
+                        {"root_ar": root_ar, "ayahs": [], "target": target},
+                    )["ayahs"].append(a)
         for root_id, info in sorted(seen_roots.items()):
             dpath = DICTIONARY_TR_DIR / f"{root_id}_entry.json"
             gpath = GLOSSES_TR_DIR / f"{root_id}.json"
-            ayahs_note = f"used in ayahs {info['ayahs']}"
+            target = info.get("target", {})
+            dominance = "dominant" if target.get("is_dominant") else "secondary"
+            ayahs_note = f"{dominance} target for {info['root_ar']}; used in ayahs {info['ayahs']}"
             rows.append(_row(f"Dictionary entry {root_id} ({info['root_ar']})", dpath, False, dpath.exists(), ayahs_note if not dpath.exists() else None))
             rows.append(_row(f"Gloss {root_id} ({info['root_ar']})", gpath, False, gpath.exists(),
                               "no reviewed gloss for this root" if not gpath.exists() else None))
@@ -2085,6 +2365,9 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
     reader_responses, rr_coverage = load_v12_reader_responses(surah, ayah)
     coverage["v12_reader_responses"] = rr_coverage
 
+    focus_trace_hermetic, ft_coverage = load_v12_focus_trace_hermetic(surah, ayah)
+    coverage["v12_focus_trace_hermetic"] = ft_coverage
+
     reader_walks, walk_coverage = load_v12_reader_walks(surah, ayah)
     coverage["v12_reader_walks"] = walk_coverage
 
@@ -2148,6 +2431,7 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
         "word_morpheme_spans": word_spans,
         "branch_inventories": branch_inventories,
         "v12_reader_responses": reader_responses,
+        "v12_focus_trace_hermetic": focus_trace_hermetic,
         "v12_reader_walks": reader_walks,
         "v12_reader_walks_wide": reader_walks_wide,
         "v12_cross_run_publication": cross_run_publication,

@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-28T10:12:53.880853+00:00",
+  "generated_at": "2026-07-29T09:44:03.864999+00:00",
   "surah": 100,
   "ayah": 2,
   "ayahRef": "100:2",
@@ -2055,6 +2055,107 @@
     }
   },
   "v12_reader_responses": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s100/packets/100_2.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "100:2",
+      "window": [
+        "100:1",
+        "100:2",
+        "100:3",
+        "100:4",
+        "100:5",
+        "100:6",
+        "100:7",
+        "100:8",
+        "100:9",
+        "100:10",
+        "100:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "ع د و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000993",
+              "furuq_root_norm": "ع د و",
+              "furuq_source_root_norm": "ع د و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 68,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000989",
+              "furuq_root_norm": "ع د د",
+              "furuq_source_root_norm": "ع د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_001058",
+              "furuq_root_norm": "ع و د",
+              "furuq_source_root_norm": "ع و د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ث و ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000210",
+              "furuq_root_norm": "ث و ر",
+              "furuq_source_root_norm": "ث و ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000011",
+              "furuq_root_norm": "ء ث ر",
+              "furuq_source_root_norm": "أ ث ر",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. **Hidden fire made visible by collision.** Evidence: و ر ي B002 hidden fire from a fire-stick; ق د ح B001 striking out fire; ض ب ح B003 scorching and B004 blackening; ص ب ح B005 lamp/source of light. Structural cue: sound in 100:1 advances to sparks in 100:2 and morning/light in 100:3. Role: وري supplies latent fire; قدح supplies the impact mechanism. Abductive move: the running bodies strike material conditions hard enough to expose concealed fire. Reading change: the ayah reads as revelation-through-friction: motion forces what was hidden to flash out.\n\n2. **Exposure also conceals.** Evidence: و ر ي B005 covering/dissembling and B006 far side/beyond; ق د ح B002 scoring/flawing; later ب ع ث ر B001 uncovering buried things and ح ص ل B002 extracting inner value. Structural cue: the same root that brings fire also carries hiding/behindness, while the surah ends in extraction. Role: وري makes the spark an ambiguous act: emergence from concealment and continued occlusion. Abductive move: a flash can both reveal direction and hide intention behind spectacle. Reading change: the ayah gains a double register: the raid's visible spark may mask the inner motives later forced open.\n\n3. **Planning as ignition.** Evidence: ق د ح B010 considering/planning an affair; و ر ي B003 successful fire-stick as aid/success; ج م ع B003 concerted resolve; ش د د B003 forceful charge. Structural cue: repeated fa- sequence suggests staged execution, not accidental events. Role: قدح names mental preparation as much as physical striking; وري names successful taking of the plan. Abductive move: sparks externalize a prior tactical calculation. Reading change: the ayah reads as the moment when a conceived plan catches and becomes irreversible action.",
@@ -3091,6 +3192,17 @@
     "root_001642": {
       "root_ar": "و ر ي",
       "root_id": "root_001642",
+      "root_mapping": {
+        "root_id": "root_001642",
+        "root_norm": "و ر ي",
+        "source_root_norm": "و ر ي",
+        "resolution": "source_root_norm",
+        "target_rank": 1,
+        "target_occurrences": 29,
+        "is_dominant": true,
+        "mapping_status": "unique",
+        "source": "qac-furuq-v4-root-map.sqlite.gz"
+      },
       "dictionary_entry": {
         "inputs_sha256": "203ad67543b1e74a71ebad85b7b06584660cf0496da18191e4eb4e6b77bff07e",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5220,6 +5332,17 @@
     "root_001203": {
       "root_ar": "ق د ح",
       "root_id": "root_001203",
+      "root_mapping": {
+        "root_id": "root_001203",
+        "root_norm": "ق د ح",
+        "source_root_norm": "ق د ح",
+        "resolution": "source_root_norm",
+        "target_rank": 1,
+        "target_occurrences": 1,
+        "is_dominant": true,
+        "mapping_status": "unique",
+        "source": "qac-furuq-v4-root-map.sqlite.gz"
+      },
       "dictionary_entry": {
         "inputs_sha256": "b5a67014b17e13a48e952012779fe4b96e641597963b57f126c0c691fb9036fb",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8377,6 +8500,16 @@
       "variants": {},
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
+    "v12_focus_trace_hermetic": {
+      "present": false,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_2.packet.json",
+      "readers": {},
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 145121,
+      "split_root_count": 3,
+      "note": "Hermetic Focus Trace packet exists but no reader responses are present"
+    },
     "v12_reader_walks": {
       "present": true,
       "readers": {
@@ -8446,42 +8579,76 @@
       "per_root": {
         "و ر ي": {
           "root_id": "root_001642",
+          "root_ids": [
+            "root_001642"
+          ],
           "dictionary_present": true,
           "gloss_present": true,
-          "occurrence_evidence_trimmed": {
-            "dropped_keys": [
-              "ayahs",
-              "occurrences"
-            ],
-            "dropped_row_counts": {
-              "occurrences": 32,
-              "ayahs": 31
-            },
-            "kept_keys": [
-              "forms",
-              "summary"
-            ]
-          },
+          "split_mapping": false,
+          "targets": [
+            {
+              "root_id": "root_001642",
+              "root_norm": "و ر ي",
+              "target_rank": 1,
+              "is_dominant": true,
+              "mapping_status": "unique",
+              "dictionary_inlined": true,
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 32,
+                  "ayahs": 31
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          ],
           "note": null
         },
         "ق د ح": {
           "root_id": "root_001203",
+          "root_ids": [
+            "root_001203"
+          ],
           "dictionary_present": true,
           "gloss_present": true,
-          "occurrence_evidence_trimmed": {
-            "dropped_keys": [
-              "ayahs",
-              "occurrences"
-            ],
-            "dropped_row_counts": {
-              "occurrences": 1,
-              "ayahs": 1
-            },
-            "kept_keys": [
-              "forms",
-              "summary"
-            ]
-          },
+          "split_mapping": false,
+          "targets": [
+            {
+              "root_id": "root_001203",
+              "root_norm": "ق د ح",
+              "target_rank": 1,
+              "is_dominant": true,
+              "mapping_status": "unique",
+              "dictionary_inlined": true,
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 1,
+                  "ayahs": 1
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          ],
           "note": null
         }
       },
@@ -8493,6 +8660,8 @@
         ],
         "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
       },
+      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
+      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

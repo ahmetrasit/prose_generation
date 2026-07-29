@@ -43,6 +43,12 @@ matching the v12 run layout, which has no `focus_{S}_0`:
   builder to roots this ayah can justify;
 - `v12_reader_responses` as an explicit retired/absent coverage field; per-ayah
   focus-run responses are no longer consumed by the default commentary lane;
+- `v12_focus_trace_hermetic` from `../latent_activation/focus_trace/runs/` when
+  generated for the surah, carrying a reconstructed focus-only baseline,
+  context-triggered deltas, and surprise-preserving outliers. If only packets
+  exist, coverage records `packet_present: true` while `present` remains false
+  until reader responses are generated. Focus Trace preserves split-root
+  identity with `mapped_root_id` + `branch_id`;
 - the per-ayah excerpt of each `reader_s{NNN}_{a,b}_ayah_walk.md` (Activated
   readings + Retrospective surprises, plus the separate Turkish Prose Synthesis
   block where the reader's file has one);

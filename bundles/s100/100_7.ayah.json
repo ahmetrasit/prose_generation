@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-28T10:12:53.960160+00:00",
+  "generated_at": "2026-07-29T09:44:04.028756+00:00",
   "surah": 100,
   "ayah": 7,
   "ayahRef": "100:7",
@@ -1816,6 +1816,107 @@
     }
   },
   "v12_reader_responses": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s100/packets/100_7.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "100:7",
+      "window": [
+        "100:1",
+        "100:2",
+        "100:3",
+        "100:4",
+        "100:5",
+        "100:6",
+        "100:7",
+        "100:8",
+        "100:9",
+        "100:10",
+        "100:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "ع د و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000993",
+              "furuq_root_norm": "ع د و",
+              "furuq_source_root_norm": "ع د و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 68,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000989",
+              "furuq_root_norm": "ع د د",
+              "furuq_source_root_norm": "ع د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_001058",
+              "furuq_root_norm": "ع و د",
+              "furuq_source_root_norm": "ع و د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ث و ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000210",
+              "furuq_root_norm": "ث و ر",
+              "furuq_source_root_norm": "ث و ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000011",
+              "furuq_root_norm": "ء ث ر",
+              "furuq_source_root_norm": "أ ث ر",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. **Self-witness through visible signs.** Evidence: ش ه د B001 presence with witnessing, B008 visible sign, B005 witnessing tongue; ء ن س B005 human image in the pupil. Structural cue: \"he\" follows the diagnosed human, and the packet moves from visible raid signs to interior disclosure. Role: shahīd names the human's own observable expression as proof. Abductive move: the human's conduct, speech, and face/pupil carry evidence of the severance. Reading change: the ayah reads as self-incrimination: the human is present as evidence against himself.\n\n2. **Witnessing as later legal testimony.** Evidence: ش ه د B002 testifying from knowledge; ج م ع B004 gathering-day/summons; ع ل م B001 knowing; ح ص ل B001 account-result. Structural cue: the moral claim is followed by a question about knowing and the extraction of what is in breasts. Role: testimony bridges present behavior and final disclosure. Abductive move: later uncovering supplies the court in which present testimony becomes decisive. Reading change: the verse becomes procedural: what is now witnessed will later be formally resolved.\n\n3. **Birth-puberty trace as embodied record.** Evidence: ش ه د B006 discharge at birth/puberty; ر ح م B003 womb and B004 afterbirth ailment; ج م ع B007 retained pregnancy; ق ب ر B001 grave. Structural cue: packet spans womb-like concealment, human life, grave, and exposure. Role: shahīd includes bodily traces that mark thresholds of emergence. Abductive move: the body itself records transitions from womb to maturity to grave, so testimony is materially stored. Reading change: 100:7 can be read as more than verbal witness: embodiment testifies.",
@@ -3011,6 +3112,17 @@
     "root_000822": {
       "root_ar": "ش ه د",
       "root_id": "root_000822",
+      "root_mapping": {
+        "root_id": "root_000822",
+        "root_norm": "ش ه د",
+        "source_root_norm": "ش ه د",
+        "resolution": "source_root_norm",
+        "target_rank": 1,
+        "target_occurrences": 139,
+        "is_dominant": true,
+        "mapping_status": "unique",
+        "source": "qac-furuq-v4-root-map.sqlite.gz"
+      },
       "dictionary_entry": {
         "inputs_sha256": "b198e7b81a7796d23f3a35a541b8b1f2731e27e492280aeaafab1252810ba6d8",
         "branches": [
@@ -4742,6 +4854,16 @@
       "variants": {},
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
+    "v12_focus_trace_hermetic": {
+      "present": false,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_7.packet.json",
+      "readers": {},
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 134267,
+      "split_root_count": 3,
+      "note": "Hermetic Focus Trace packet exists but no reader responses are present"
+    },
     "v12_reader_walks": {
       "present": true,
       "readers": {
@@ -4809,10 +4931,27 @@
       "per_root": {
         "ش ه د": {
           "root_id": "root_000822",
+          "root_ids": [
+            "root_000822"
+          ],
           "dictionary_present": true,
           "gloss_present": false,
-          "occurrence_evidence_trimmed": null,
-          "note": "no reviewed Turkish gloss found for this root_id"
+          "split_mapping": false,
+          "targets": [
+            {
+              "root_id": "root_000822",
+              "root_norm": "ش ه د",
+              "target_rank": 1,
+              "is_dominant": true,
+              "mapping_status": "unique",
+              "dictionary_inlined": true,
+              "dictionary_present": true,
+              "gloss_present": false,
+              "occurrence_evidence_trimmed": null,
+              "note": "no reviewed Turkish gloss found for this root_id"
+            }
+          ],
+          "note": null
         }
       },
       "occurrence_evidence_trim": {
@@ -4823,6 +4962,8 @@
         ],
         "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
       },
+      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
+      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

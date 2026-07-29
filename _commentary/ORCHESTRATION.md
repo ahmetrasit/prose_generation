@@ -103,6 +103,7 @@ Current ayah bundles distinguish three V12 reader-derived families:
 | bundle field | source | use |
 | --- | --- | --- |
 | `v12_reader_responses` | retired per-ayah focus runs | explicit absent/retired coverage field in the default lane |
+| `v12_focus_trace_hermetic` | one-call reconstructed focus trace from `../latent_activation/focus_trace` | baseline/context-delta/outlier evidence for surprise and changed reading |
 | `v12_reader_walks` | regular full-context ayah walks | retrospective/full-context reader evidence |
 | `v12_reader_walks_wide` | plus/minus-5 / 11-ayah-context walks | wider-window retrospective reader evidence |
 | `v12_cross_run_publication` | compact final cross-run findings | coverage/priority check derived from regular plus wide readers |
@@ -119,11 +120,13 @@ access, the agent may read only the listed files when channel detail is
 necessary. These generated outputs are candidate/family/path evidence, not an
 adjudicated ledger; State B restrictions still apply.
 
-Per-ayah focus runs are no longer part of the default workflow. Normal bundles
-use the surah `full_context_packet.json` branch inventory scoped to this ayah's
-roots and anchored citations, plus regular/wide reader walks and cross-run
-publication findings when present. A later audit can re-enable focus packets
-explicitly, but that is no longer the production lane.
+Retired staged per-ayah focus runs remain outside the default lane. Hermetic
+Focus Trace is the replacement ayah-level signal when it has been generated for
+the surah: it adds reconstructed baseline/context-delta/outlier evidence while
+the bundle still keeps the surah `full_context_packet.json` branch inventory,
+regular/wide reader walks, and cross-run publication findings. Focus Trace
+citations preserve `mapped_root_id` with `branch_id` because split QAC roots may
+surface secondary Furuq branches that the commentary should not erase.
 
 S1 basmalah lookup is explicit. Canonical commentary units keep `ayahRef: 1:1`;
 some V12 reader/publication artifacts store that same basmalah as `1:0`.
@@ -385,8 +388,8 @@ Two S100:1 ablation arms remain useful for experiments:
 
 | arm | bundle mutation | prompt profile | purpose |
 | --- | --- | --- | --- |
-| `no-focus` | legacy label for the current default: scoped surah branch inventory and no `v12_reader_responses` | `v2.5.6-sol-high-no-focus` | reproduce the pilot that promoted the current default |
-| `no-reader` | remove `v12_reader_walks`, `v12_reader_walks_wide`, `v12_cross_run_publication`, `butuncul_okuma_line`, and `channel_subchannels_anchored_here` | `v2.5.6-sol-high-no-reader` | test lexical/grammar commentary without reader-derived material |
+| `no-focus` | scoped surah branch inventory with `v12_reader_responses` and `v12_focus_trace_hermetic` removed | `v2.5.6-sol-high-no-focus` | test the lane without per-ayah focus evidence |
+| `no-reader` | remove `v12_reader_responses`, `v12_focus_trace_hermetic`, `v12_reader_walks`, `v12_reader_walks_wide`, `v12_cross_run_publication`, `butuncul_okuma_line`, and `channel_subchannels_anchored_here` | `v2.5.6-sol-high-no-reader` | test lexical/grammar commentary without reader-derived material |
 
 Build and instantiate with:
 

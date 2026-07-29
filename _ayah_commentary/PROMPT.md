@@ -151,6 +151,16 @@ ayah yielded in isolation (`stage_00`), and how that changed as neighbours were
 revealed (`stage_01`, `stage_02`), including `changed_reading{before, after}` and
 per-stage `status`/`confidence` movement.
 
+If the bundle contains `v12_focus_trace_hermetic`, use it as the cheaper
+replacement signal: a one-call reconstructed trace with `baseline_models`,
+`context_deltas`, and `surprising_valid_outliers`. It is not a strict staged
+reveal, so do not call it `stage_00` / `stage_01`; render its before/after value
+as "what the ayah can yield on its own" and "what later context activates,
+sharpens, revises, or leaves as a surprising but still anchored reading."
+Outliers are not errors by default. They are the material most likely to be lost
+in whole-surah synthesis, especially when the trace preserves a changed reading
+or a secondary split-root branch.
+
 Render this as reading experience, not as measurement:
 
 > Bu âyet tek başına gösterildiğinde … Sonra hüsran açıldı, sonra istisna — ve
@@ -162,8 +172,8 @@ If the reader walks record *retrospective surprises* — readings that only beca
 visible after a later ayah — those are the highest-value material at this level.
 They are literally the shape of understanding arriving late.
 
-**If reader responses are absent, say so.** Do not infer what they would have
-contained.
+**If both staged reader responses and Hermetic Focus Trace are absent, say so.**
+Do not infer what they would have contained.
 
 ## What the others dropped
 

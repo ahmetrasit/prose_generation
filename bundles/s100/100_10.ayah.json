@@ -1,7 +1,7 @@
 {
   "bundle_type": "ayah",
   "schema_version": "input-bundle-v3",
-  "generated_at": "2026-07-28T10:12:54.014478+00:00",
+  "generated_at": "2026-07-29T09:44:04.153274+00:00",
   "surah": 100,
   "ayah": 10,
   "ayahRef": "100:10",
@@ -2238,6 +2238,107 @@
     }
   },
   "v12_reader_responses": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s100/packets/100_10.packet.json",
+      "protocol": "focus-trace-hermetic-packet-v2",
+      "focus_ref": "100:10",
+      "window": [
+        "100:1",
+        "100:2",
+        "100:3",
+        "100:4",
+        "100:5",
+        "100:6",
+        "100:7",
+        "100:8",
+        "100:9",
+        "100:10",
+        "100:11"
+      ],
+      "ayah_count": 11,
+      "split_root_mappings": [
+        {
+          "qac_root": "ع د و",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000993",
+              "furuq_root_norm": "ع د و",
+              "furuq_source_root_norm": "ع د و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 68,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000989",
+              "furuq_root_norm": "ع د د",
+              "furuq_source_root_norm": "ع د د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 5,
+              "is_dominant": false
+            },
+            {
+              "target_rank": 3,
+              "furuq_root_id": "root_001058",
+              "furuq_root_norm": "ع و د",
+              "furuq_source_root_norm": "ع و د",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ث و ر",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000210",
+              "furuq_root_norm": "ث و ر",
+              "furuq_source_root_norm": "ث و ر",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 4,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000011",
+              "furuq_root_norm": "ء ث ر",
+              "furuq_source_root_norm": "أ ث ر",
+              "furuq_resolution": "root_norm_unique",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        },
+        {
+          "qac_root": "ر ب ب",
+          "targets": [
+            {
+              "target_rank": 1,
+              "furuq_root_id": "root_000532",
+              "furuq_root_norm": "ر ب ب",
+              "furuq_source_root_norm": "ر ب ب",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 970,
+              "is_dominant": true
+            },
+            {
+              "target_rank": 2,
+              "furuq_root_id": "root_000537",
+              "furuq_root_norm": "ر ب و",
+              "furuq_source_root_norm": "ر ب و",
+              "furuq_resolution": "source_root_norm",
+              "target_occurrences": 1,
+              "is_dominant": false
+            }
+          ]
+        }
+      ]
+    }
+  },
   "v12_reader_walks": {
     "reader_b": {
       "activated_readings_md": "1. **Inner audit-result.** Evidence: ح ص ل B001 collecting until outcome clear; ص د ر B001 chest as bodily front; ش ه د B002 testimony; خ ب ر B001 tested inner knowledge. Structural cue: after graves are upturned, breasts are processed. Role: tahsil is the accounting operation; sudur are the interior repository. Abductive move: physical resurrection alone is insufficient; the decisive remainder is the inward result. Reading change: the ayah reads as extraction of a final account from the chest.\n\n2. **Kernel from husk.** Evidence: ح ص ل B002 bringing out inner value from covering; ح ب ب B001 seed/kernel and B004 heart-kernel; ق ب ر B002 hollow/hiddenness. Structural cue: the preceding grave is an outer container; the breast is another container. Role: tahsil separates kernel from casing. Abductive move: desire and intention are embedded like grain in husk, requiring processing. Reading change: the ayah becomes agricultural/mineral extraction of the true inner substance.\n\n3. **Departure from water-source inverted.** Evidence: ص د ر B003 departing after coming to water; ن ق ع B002 water that quenches, B008 experienced water-hole drinker; خ ب ر B002 soft low water-gathering ground. Structural cue: the packet repeatedly activates water-place imagery under dust/raid. Role: sudur can echo places/routes of issuing after watering; tahsil retrieves what leaves or issues. Abductive move: the heart's outputs reveal what it drank from and what satisfied it. Reading change: the verse reads as tracing outward conduct back to its inner watering-source.",
@@ -3394,6 +3495,17 @@
     "root_000330": {
       "root_ar": "ح ص ل",
       "root_id": "root_000330",
+      "root_mapping": {
+        "root_id": "root_000330",
+        "root_norm": "ح ص ل",
+        "source_root_norm": "ح ص ل",
+        "resolution": "source_root_norm",
+        "target_rank": 1,
+        "target_occurrences": 1,
+        "is_dominant": true,
+        "mapping_status": "unique",
+        "source": "qac-furuq-v4-root-map.sqlite.gz"
+      },
       "dictionary_entry": {
         "inputs_sha256": "0cbbaa40eef7a39b72b8f6e8b254b063f83701af9793b92919fffe598b37c5f4",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -5370,6 +5482,17 @@
     "root_000849": {
       "root_ar": "ص د ر",
       "root_id": "root_000849",
+      "root_mapping": {
+        "root_id": "root_000849",
+        "root_norm": "ص د ر",
+        "source_root_norm": "ص د ر",
+        "resolution": "source_root_norm",
+        "target_rank": 1,
+        "target_occurrences": 46,
+        "is_dominant": true,
+        "mapping_status": "unique",
+        "source": "qac-furuq-v4-root-map.sqlite.gz"
+      },
       "dictionary_entry": {
         "inputs_sha256": "e6152caf1aa2d0d0afde56e9c2b089e6539143da75201cf77e4cd9e188ba4e23",
         "artifact_format": "dictionary-v2-root-entry-draft-v1",
@@ -8088,6 +8211,16 @@
       "variants": {},
       "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
     },
+    "v12_focus_trace_hermetic": {
+      "present": false,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_10.packet.json",
+      "readers": {},
+      "packet_protocol": "focus-trace-hermetic-packet-v2",
+      "packet_bytes": 140445,
+      "split_root_count": 3,
+      "note": "Hermetic Focus Trace packet exists but no reader responses are present"
+    },
     "v12_reader_walks": {
       "present": true,
       "readers": {
@@ -8156,42 +8289,76 @@
       "per_root": {
         "ح ص ل": {
           "root_id": "root_000330",
+          "root_ids": [
+            "root_000330"
+          ],
           "dictionary_present": true,
           "gloss_present": true,
-          "occurrence_evidence_trimmed": {
-            "dropped_keys": [
-              "ayahs",
-              "occurrences"
-            ],
-            "dropped_row_counts": {
-              "occurrences": 1,
-              "ayahs": 1
-            },
-            "kept_keys": [
-              "forms",
-              "summary"
-            ]
-          },
+          "split_mapping": false,
+          "targets": [
+            {
+              "root_id": "root_000330",
+              "root_norm": "ح ص ل",
+              "target_rank": 1,
+              "is_dominant": true,
+              "mapping_status": "unique",
+              "dictionary_inlined": true,
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 1,
+                  "ayahs": 1
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          ],
           "note": null
         },
         "ص د ر": {
           "root_id": "root_000849",
+          "root_ids": [
+            "root_000849"
+          ],
           "dictionary_present": true,
           "gloss_present": true,
-          "occurrence_evidence_trimmed": {
-            "dropped_keys": [
-              "ayahs",
-              "occurrences"
-            ],
-            "dropped_row_counts": {
-              "occurrences": 46,
-              "ayahs": 43
-            },
-            "kept_keys": [
-              "forms",
-              "summary"
-            ]
-          },
+          "split_mapping": false,
+          "targets": [
+            {
+              "root_id": "root_000849",
+              "root_norm": "ص د ر",
+              "target_rank": 1,
+              "is_dominant": true,
+              "mapping_status": "unique",
+              "dictionary_inlined": true,
+              "dictionary_present": true,
+              "gloss_present": true,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 46,
+                  "ayahs": 43
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          ],
           "note": null
         }
       },
@@ -8203,6 +8370,8 @@
         ],
         "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
       },
+      "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
+      "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
       "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
     }
   }

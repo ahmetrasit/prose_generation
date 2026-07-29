@@ -1,7 +1,7 @@
 {
   "bundle_type": "surah",
   "schema_version": "input-bundle-surah-v3",
-  "generated_at": "2026-07-28T10:12:54.051774+00:00",
+  "generated_at": "2026-07-29T09:44:04.235797+00:00",
   "surah": 100,
   "ayah_refs": [
     "100:1",
@@ -1731,6 +1731,16 @@
           "variants": {},
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
+        "v12_focus_trace_hermetic": {
+          "present": false,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_1.packet.json",
+          "readers": {},
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 163430,
+          "split_root_count": 3,
+          "note": "Hermetic Focus Trace packet exists but no reader responses are present"
+        },
         "v12_reader_walks": {
           "present": true,
           "readers": {
@@ -1799,42 +1809,102 @@
           "per_root": {
             "ع د و": {
               "root_id": "root_000993",
+              "root_ids": [
+                "root_000993",
+                "root_000989",
+                "root_001058"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 106,
-                  "ayahs": 92
+              "split_mapping": true,
+              "targets": [
+                {
+                  "root_id": "root_000993",
+                  "root_norm": "ع د و",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "split",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 106,
+                      "ayahs": 92
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
                 },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
-              "note": null
+                {
+                  "root_id": "root_000989",
+                  "root_norm": "ع د د",
+                  "target_rank": 2,
+                  "is_dominant": false,
+                  "mapping_status": "split",
+                  "dictionary_inlined": false,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": null,
+                  "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+                },
+                {
+                  "root_id": "root_001058",
+                  "root_norm": "ع و د",
+                  "target_rank": 3,
+                  "is_dominant": false,
+                  "mapping_status": "split",
+                  "dictionary_inlined": false,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": null,
+                  "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+                }
+              ],
+              "note": "split QAC root: all mapped Furuq root_ids are listed; only dominant target dictionary/gloss is inlined"
             },
             "ض ب ح": {
               "root_id": "root_000901",
+              "root_ids": [
+                "root_000901"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 1,
-                  "ayahs": 1
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_000901",
+                  "root_norm": "ض ب ح",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 1,
+                      "ayahs": 1
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             }
           },
@@ -1846,6 +1916,8 @@
             ],
             "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
           },
+          "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
+          "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       },
@@ -2176,6 +2248,16 @@
           "variants": {},
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
+        "v12_focus_trace_hermetic": {
+          "present": false,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_2.packet.json",
+          "readers": {},
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 145121,
+          "split_root_count": 3,
+          "note": "Hermetic Focus Trace packet exists but no reader responses are present"
+        },
         "v12_reader_walks": {
           "present": true,
           "readers": {
@@ -2245,42 +2327,76 @@
           "per_root": {
             "و ر ي": {
               "root_id": "root_001642",
+              "root_ids": [
+                "root_001642"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 32,
-                  "ayahs": 31
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_001642",
+                  "root_norm": "و ر ي",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 32,
+                      "ayahs": 31
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ق د ح": {
               "root_id": "root_001203",
+              "root_ids": [
+                "root_001203"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 1,
-                  "ayahs": 1
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_001203",
+                  "root_norm": "ق د ح",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 1,
+                      "ayahs": 1
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             }
           },
@@ -2292,6 +2408,8 @@
             ],
             "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
           },
+          "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
+          "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       },
@@ -2633,6 +2751,16 @@
           "variants": {},
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
+        "v12_focus_trace_hermetic": {
+          "present": false,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_3.packet.json",
+          "readers": {},
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 142661,
+          "split_root_count": 3,
+          "note": "Hermetic Focus Trace packet exists but no reader responses are present"
+        },
         "v12_reader_walks": {
           "present": true,
           "readers": {
@@ -2702,30 +2830,64 @@
           "per_root": {
             "غ ي ر": {
               "root_id": "root_001119",
+              "root_ids": [
+                "root_001119"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 154,
-                  "ayahs": 146
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_001119",
+                  "root_norm": "غ ي ر",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 154,
+                      "ayahs": 146
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ص ب ح": {
               "root_id": "root_000839",
+              "root_ids": [
+                "root_000839"
+              ],
               "dictionary_present": true,
               "gloss_present": false,
-              "occurrence_evidence_trimmed": null,
-              "note": "no reviewed Turkish gloss found for this root_id"
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_000839",
+                  "root_norm": "ص ب ح",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": false,
+                  "occurrence_evidence_trimmed": null,
+                  "note": "no reviewed Turkish gloss found for this root_id"
+                }
+              ],
+              "note": null
             }
           },
           "occurrence_evidence_trim": {
@@ -2736,6 +2898,8 @@
             ],
             "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
           },
+          "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
+          "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       },
@@ -3066,6 +3230,16 @@
           "variants": {},
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
+        "v12_focus_trace_hermetic": {
+          "present": false,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_4.packet.json",
+          "readers": {},
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 157607,
+          "split_root_count": 3,
+          "note": "Hermetic Focus Trace packet exists but no reader responses are present"
+        },
         "v12_reader_walks": {
           "present": true,
           "readers": {
@@ -3135,42 +3309,89 @@
           "per_root": {
             "ث و ر": {
               "root_id": "root_000210",
+              "root_ids": [
+                "root_000210",
+                "root_000011"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 5,
-                  "ayahs": 5
+              "split_mapping": true,
+              "targets": [
+                {
+                  "root_id": "root_000210",
+                  "root_norm": "ث و ر",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "split",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 5,
+                      "ayahs": 5
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
                 },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
-              "note": null
+                {
+                  "root_id": "root_000011",
+                  "root_norm": "ء ث ر",
+                  "target_rank": 2,
+                  "is_dominant": false,
+                  "mapping_status": "split",
+                  "dictionary_inlined": false,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": null,
+                  "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+                }
+              ],
+              "note": "split QAC root: all mapped Furuq root_ids are listed; only dominant target dictionary/gloss is inlined"
             },
             "ن ق ع": {
               "root_id": "root_001544",
+              "root_ids": [
+                "root_001544"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 1,
-                  "ayahs": 1
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_001544",
+                  "root_norm": "ن ق ع",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 1,
+                      "ayahs": 1
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             }
           },
@@ -3182,6 +3403,8 @@
             ],
             "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
           },
+          "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
+          "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       },
@@ -3558,6 +3781,16 @@
           "variants": {},
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
+        "v12_focus_trace_hermetic": {
+          "present": false,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_5.packet.json",
+          "readers": {},
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 149200,
+          "split_root_count": 3,
+          "note": "Hermetic Focus Trace packet exists but no reader responses are present"
+        },
         "v12_reader_walks": {
           "present": true,
           "readers": {
@@ -3626,42 +3859,76 @@
           "per_root": {
             "و س ط": {
               "root_id": "root_001646",
+              "root_ids": [
+                "root_001646"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 5,
-                  "ayahs": 5
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_001646",
+                  "root_norm": "و س ط",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 5,
+                      "ayahs": 5
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ج م ع": {
               "root_id": "root_000259",
+              "root_ids": [
+                "root_000259"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 129,
-                  "ayahs": 123
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_000259",
+                  "root_norm": "ج م ع",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 129,
+                      "ayahs": 123
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             }
           },
@@ -3673,6 +3940,8 @@
             ],
             "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
           },
+          "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
+          "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       },
@@ -4052,6 +4321,16 @@
           "variants": {},
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
+        "v12_focus_trace_hermetic": {
+          "present": false,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_6.packet.json",
+          "readers": {},
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 173769,
+          "split_root_count": 3,
+          "note": "Hermetic Focus Trace packet exists but no reader responses are present"
+        },
         "v12_reader_walks": {
           "present": true,
           "readers": {
@@ -4122,62 +4401,126 @@
           "per_root": {
             "ء ن س": {
               "root_id": "root_000059",
+              "root_ids": [
+                "root_000059"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 97,
-                  "ayahs": 93
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_000059",
+                  "root_norm": "ء ن س",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 97,
+                      "ayahs": 93
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ر ب ب": {
               "root_id": "root_000532",
+              "root_ids": [
+                "root_000532",
+                "root_000537"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 980,
-                  "ayahs": 871
+              "split_mapping": true,
+              "targets": [
+                {
+                  "root_id": "root_000532",
+                  "root_norm": "ر ب ب",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "split",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 980,
+                      "ayahs": 871
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
                 },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
-              "note": null
+                {
+                  "root_id": "root_000537",
+                  "root_norm": "ر ب و",
+                  "target_rank": 2,
+                  "is_dominant": false,
+                  "mapping_status": "split",
+                  "dictionary_inlined": false,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": null,
+                  "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+                }
+              ],
+              "note": "split QAC root: all mapped Furuq root_ids are listed; only dominant target dictionary/gloss is inlined"
             },
             "ك ن د": {
               "root_id": "root_001321",
+              "root_ids": [
+                "root_001321"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 1,
-                  "ayahs": 1
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_001321",
+                  "root_norm": "ك ن د",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 1,
+                      "ayahs": 1
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             }
           },
@@ -4189,6 +4532,8 @@
             ],
             "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
           },
+          "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
+          "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       },
@@ -4472,6 +4817,16 @@
           "variants": {},
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
+        "v12_focus_trace_hermetic": {
+          "present": false,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_7.packet.json",
+          "readers": {},
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 134267,
+          "split_root_count": 3,
+          "note": "Hermetic Focus Trace packet exists but no reader responses are present"
+        },
         "v12_reader_walks": {
           "present": true,
           "readers": {
@@ -4539,10 +4894,27 @@
           "per_root": {
             "ش ه د": {
               "root_id": "root_000822",
+              "root_ids": [
+                "root_000822"
+              ],
               "dictionary_present": true,
               "gloss_present": false,
-              "occurrence_evidence_trimmed": null,
-              "note": "no reviewed Turkish gloss found for this root_id"
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_000822",
+                  "root_norm": "ش ه د",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": false,
+                  "occurrence_evidence_trimmed": null,
+                  "note": "no reviewed Turkish gloss found for this root_id"
+                }
+              ],
+              "note": null
             }
           },
           "occurrence_evidence_trim": {
@@ -4553,6 +4925,8 @@
             ],
             "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
           },
+          "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
+          "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       },
@@ -4921,6 +5295,16 @@
           "variants": {},
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
+        "v12_focus_trace_hermetic": {
+          "present": false,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_8.packet.json",
+          "readers": {},
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 150259,
+          "split_root_count": 3,
+          "note": "Hermetic Focus Trace packet exists but no reader responses are present"
+        },
         "v12_reader_walks": {
           "present": true,
           "readers": {
@@ -4990,62 +5374,113 @@
           "per_root": {
             "ح ب ب": {
               "root_id": "root_000286",
+              "root_ids": [
+                "root_000286"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 95,
-                  "ayahs": 85
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_000286",
+                  "root_norm": "ح ب ب",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 95,
+                      "ayahs": 85
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "خ ي ر": {
               "root_id": "root_000452",
+              "root_ids": [
+                "root_000452"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 196,
-                  "ayahs": 178
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_000452",
+                  "root_norm": "خ ي ر",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 196,
+                      "ayahs": 178
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ش د د": {
               "root_id": "root_000782",
+              "root_ids": [
+                "root_000782"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 102,
-                  "ayahs": 99
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_000782",
+                  "root_norm": "ش د د",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 102,
+                      "ayahs": 99
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             }
           },
@@ -5057,6 +5492,8 @@
             ],
             "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
           },
+          "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
+          "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       },
@@ -5386,6 +5823,16 @@
           "variants": {},
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
+        "v12_focus_trace_hermetic": {
+          "present": false,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_9.packet.json",
+          "readers": {},
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 141916,
+          "split_root_count": 3,
+          "note": "Hermetic Focus Trace packet exists but no reader responses are present"
+        },
         "v12_reader_walks": {
           "present": true,
           "readers": {
@@ -5455,62 +5902,113 @@
           "per_root": {
             "ع ل م": {
               "root_id": "root_001040",
+              "root_ids": [
+                "root_001040"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 854,
-                  "ayahs": 728
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_001040",
+                  "root_norm": "ع ل م",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 854,
+                      "ayahs": 728
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ب ع ث ر": {
               "root_id": "root_000130",
+              "root_ids": [
+                "root_000130"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 2,
-                  "ayahs": 2
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_000130",
+                  "root_norm": "ب ع ث ر",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 2,
+                      "ayahs": 2
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ق ب ر": {
               "root_id": "root_001195",
+              "root_ids": [
+                "root_001195"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 8,
-                  "ayahs": 8
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_001195",
+                  "root_norm": "ق ب ر",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 8,
+                      "ayahs": 8
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             }
           },
@@ -5522,6 +6020,8 @@
             ],
             "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
           },
+          "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
+          "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       },
@@ -5851,6 +6351,16 @@
           "variants": {},
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
+        "v12_focus_trace_hermetic": {
+          "present": false,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_10.packet.json",
+          "readers": {},
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 140445,
+          "split_root_count": 3,
+          "note": "Hermetic Focus Trace packet exists but no reader responses are present"
+        },
         "v12_reader_walks": {
           "present": true,
           "readers": {
@@ -5919,42 +6429,76 @@
           "per_root": {
             "ح ص ل": {
               "root_id": "root_000330",
+              "root_ids": [
+                "root_000330"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 1,
-                  "ayahs": 1
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_000330",
+                  "root_norm": "ح ص ل",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 1,
+                      "ayahs": 1
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             },
             "ص د ر": {
               "root_id": "root_000849",
+              "root_ids": [
+                "root_000849"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 46,
-                  "ayahs": 43
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_000849",
+                  "root_norm": "ص د ر",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 46,
+                      "ayahs": 43
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             }
           },
@@ -5966,6 +6510,8 @@
             ],
             "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
           },
+          "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
+          "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       },
@@ -6337,6 +6883,16 @@
           "variants": {},
           "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
         },
+        "v12_focus_trace_hermetic": {
+          "present": false,
+          "packet_present": true,
+          "packet_source_file": "latent_activation/focus_trace/runs/s100/packets/100_11.packet.json",
+          "readers": {},
+          "packet_protocol": "focus-trace-hermetic-packet-v2",
+          "packet_bytes": 168142,
+          "split_root_count": 3,
+          "note": "Hermetic Focus Trace packet exists but no reader responses are present"
+        },
         "v12_reader_walks": {
           "present": true,
           "readers": {
@@ -6406,42 +6962,89 @@
           "per_root": {
             "ر ب ب": {
               "root_id": "root_000532",
+              "root_ids": [
+                "root_000532",
+                "root_000537"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 980,
-                  "ayahs": 871
+              "split_mapping": true,
+              "targets": [
+                {
+                  "root_id": "root_000532",
+                  "root_norm": "ر ب ب",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "split",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 980,
+                      "ayahs": 871
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
                 },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
-              "note": null
+                {
+                  "root_id": "root_000537",
+                  "root_norm": "ر ب و",
+                  "target_rank": 2,
+                  "is_dominant": false,
+                  "mapping_status": "split",
+                  "dictionary_inlined": false,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": null,
+                  "note": "secondary split-root target; full dictionary/gloss payload not inlined to keep Layer 2 prompts cost-effective"
+                }
+              ],
+              "note": "split QAC root: all mapped Furuq root_ids are listed; only dominant target dictionary/gloss is inlined"
             },
             "خ ب ر": {
               "root_id": "root_000387",
+              "root_ids": [
+                "root_000387"
+              ],
               "dictionary_present": true,
               "gloss_present": true,
-              "occurrence_evidence_trimmed": {
-                "dropped_keys": [
-                  "ayahs",
-                  "occurrences"
-                ],
-                "dropped_row_counts": {
-                  "occurrences": 52,
-                  "ayahs": 52
-                },
-                "kept_keys": [
-                  "forms",
-                  "summary"
-                ]
-              },
+              "split_mapping": false,
+              "targets": [
+                {
+                  "root_id": "root_000387",
+                  "root_norm": "خ ب ر",
+                  "target_rank": 1,
+                  "is_dominant": true,
+                  "mapping_status": "unique",
+                  "dictionary_inlined": true,
+                  "dictionary_present": true,
+                  "gloss_present": true,
+                  "occurrence_evidence_trimmed": {
+                    "dropped_keys": [
+                      "ayahs",
+                      "occurrences"
+                    ],
+                    "dropped_row_counts": {
+                      "occurrences": 52,
+                      "ayahs": 52
+                    },
+                    "kept_keys": [
+                      "forms",
+                      "summary"
+                    ]
+                  },
+                  "note": null
+                }
+              ],
               "note": null
             }
           },
@@ -6453,6 +7056,8 @@
             ],
             "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). The lexical concept material -- dictionary_entry.branches, with identity_judgment, lexicalization_scope and boundary notes -- is kept in full, as are occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory). Cross-ayah relations for this ayah are carried by inter_ayah_rows in reviewed, ordered form. See per_root[].occurrence_evidence_trimmed for the exact row counts dropped per root."
           },
+          "root_id_mapping_source": "qac-furuq-v4-root-map.sqlite.gz when available; legacy full_context_packet.json only as fallback",
+          "split_root_payload_policy": "coverage lists every mapped Furuq root_id; full dictionary/gloss payload is inlined only for the dominant target to control prompt size. Hermetic Focus Trace carries secondary split-root branch images and reader activations.",
           "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
         }
       }
