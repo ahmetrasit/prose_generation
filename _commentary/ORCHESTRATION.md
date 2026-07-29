@@ -421,24 +421,25 @@ Your canonical Layer 2 work for this ayah is complete and frozen.
 
   <summary-path>
 
-  Read:
-  - the frozen canonical Layer 2 prose and findings index for this ayah;
-  - the reviewed surah main arcs;
-  - the channel maturity permitted at this ayah's position.
+  Write one continuous Turkish paragraph of approximately 115-145 words, designed
+  for about 60 seconds of narration.
 
-  Write a 30-60 second Turkish orientation, approximately 80-130 words.
+  Begin with the ayah's plain, recoverable meaning. Then organize the strongest
+  existing readings into one coherent movement that hints at how the ayah relates
+  to what precedes and follows it, without revealing the completed surah thesis
+  too early.
 
-  Requirements:
-  - Begin with the ayah's plain, recoverable meaning.
-  - Gather the material into one or two governing movements.
-  - Use only readings already present in canonical Layer 2.
-  - Add no new lexical claim or interpretation.
-  - Use surah context only where the reviewed maturity at this ayah permits it.
-  - Do not disclose the completed surah thesis or later channel developments early.
-  - Keep secondary meaning attached to the ayah's own words.
-  - Do not mention evidence, models, branches, layers, confidence, or production.
-  - Write continuous reader-facing prose with no heading or apparatus.
-  - Write exactly one new file and modify nothing else.
+  Every sentence must add a supported but unexpected recognition that changes or
+  deepens the reader's understanding. Keep every secondary meaning attached to
+  the ayah's own words. Prioritize surprising reader payoff over grammatical,
+  lexical, or sound description; include such details only when they produce the
+  shift.
+
+  Add no new interpretation. Use later context only as permitted foreshadowing.
+  Do not mention evidence, models, branches, layers, channels, maturity, confidence,
+  or production. Output only the paragraph, with no heading or apparatus.
+
+  Write exactly one new file at the summary path above and modify nothing else.
 ```
 
 ## Output contract — agent-owned
