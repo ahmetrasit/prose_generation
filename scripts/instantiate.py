@@ -14,7 +14,7 @@ Usage:
     python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah
     python3 scripts/instantiate.py --surah 100 --layer ayah     # every ayah
     python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --profile v2.5.6-sol-high
-    python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir /tmp/ablation-bundles
+    python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir _commentary/work/ablation-bundles
     python3 scripts/instantiate.py --surah 100 --layer surah
     python3 scripts/instantiate.py --surah 100 --layer surah --layer2-dir _commentary/outputs/s100-default
     python3 scripts/instantiate.py --surah 100 --layer ayah --language tr --out DIR --date 2026-07-27
@@ -258,7 +258,7 @@ def _layer2_outputs(surah: int) -> tuple[list[UpstreamDoc], dict]:
 LAYER_REGISTRY: dict[str, LayerSpec] = {
     "ayah": LayerSpec(
         name="ayah",
-        task_prompt_rel="_ayah_commentary/PROMPT.md",
+        task_prompt_rel="_ayah_commentary/v1/PROMPT.md",
         per_ayah=True,
         output_stem=lambda surah, ayah: f"{surah}_{ayah}.ayah",
         bundle_files=_ayah_bundle_files,
@@ -357,8 +357,13 @@ Before drafting, silently build a coverage ledger:
 - include every `must_integrate` topic;
 - include every `candidate` with a reader payoff not already expressed;
 - if `v12_reader_responses` is absent because the default workflow retired
-  per-ayah focus runs, do not infer a `stage_00` isolated response, staged
-  reveal sequence, `changed_reading`, or confidence movement;
+  per-ayah focus runs, do not infer a `stage_00` isolated response or
+  confidence movement;
+- if `v12_focus_trace_hermetic` is present, use its `baseline_models`,
+  `context_deltas`, and `surprising_valid_outliers` as reconstructed
+  before/after evidence. Do not call it a staged reveal transcript. Preserve
+  surprising outliers when they remain anchored in this ayah, especially
+  secondary split-root activations;
 - include a regular reader-walk, plus/minus-5 reader-walk, whole-surah reading,
   or cross-run-publication item only when it adds a distinct retrospective
   insight or coverage check;
@@ -467,6 +472,12 @@ access, read only those listed files when channel-family/path detail is
 necessary. Treat them as candidate/family/path evidence, not as an adjudicated
 channel ledger. State B channel restrictions still apply.
 
+If `v12_focus_trace_hermetic` is present, treat it as a reconstructed focus
+trace: baseline models show what the ayah can yield on its own, context deltas
+show changed reading after later context, and `surprising_valid_outliers` are
+live anchored readings to compress rather than audit away. Do not call it a
+`stage_00` / `stage_01` staged run.
+
 At first mention of an ayah word, use a structured Arabic surface span:
 `{ar:surface_form, tr:Turkish-readable transliteration, gloss:target-language meaning}`.
 Use the same full span again when the prose returns to that word after moving to
@@ -501,11 +512,12 @@ expressed elsewhere.""",
 per-ayah focus-run staged reader responses.
 
 This profile supersedes the task document's normal before/after requirement
-when `v12_reader_responses` is deliberately absent. Do not infer a `stage_00`
-isolated response, a staged reveal sequence, `changed_reading`, or model
-confidence movement. If that source is absent because of ablation, record the
-absence in evidence coverage, and mention it in friction only if a live
-instruction depended on it. Do not mention the absence in prose.
+when `v12_reader_responses` and `v12_focus_trace_hermetic` are deliberately
+absent. Do not infer a `stage_00` isolated response, a staged reveal sequence,
+`changed_reading`, or model confidence movement. If those sources are absent
+because of ablation, record the absence in evidence coverage, and mention it in
+friction only if a live instruction depended on it. Do not mention the absence
+in prose.
 
 Still write full ayah commentary. Use the remaining sources normally:
 
@@ -519,6 +531,7 @@ Still write full ayah commentary. Use the remaining sources normally:
 - reader walks, plus/minus-5 reader walks, and whole-surah reading, if present,
   only as full-context or retrospective material, never as a substitute for
   missing staged focus responses;
+- `v12_focus_trace_hermetic` is deliberately absent in this ablation;
 - `v12_cross_run_publication`, if present, only as a compact coverage/priority
   check derived from regular and plus/minus-5 reader runs; do not copy it as
   prose, and do not let it override local bundle evidence;
@@ -544,6 +557,7 @@ This profile supersedes every instruction that requires reader-derived sources.
 Do not infer or simulate:
 
 - per-ayah focus reader responses;
+- Hermetic Focus Trace responses;
 - staged before/after reveal trajectories;
 - reader walks;
 - retrospective surprises;
@@ -580,6 +594,15 @@ def read_text(path: Path) -> str:
     if not path.exists():
         raise SystemExit(f"error: required document not found: {path}")
     return path.read_text(encoding="utf-8")
+
+
+def compact_json_text(path: Path, text: str) -> str:
+    """Render JSON without insignificant whitespace for agent-facing prompts."""
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError as exc:
+        raise SystemExit(f"error: invalid JSON bundle {path}: {exc}") from exc
+    return json.dumps(data, ensure_ascii=False, separators=(",", ":"))
 
 
 def discover_ayahs(surah: int) -> list[int]:
@@ -620,11 +643,12 @@ def build_prompt(
         governing.append((rel, p, read_text(p)))
 
     bundle_entries = layer.bundle_files(surah, ayah)
-    bundles: list[tuple[str, Path, str]] = []
+    bundles: list[tuple[str, Path, str, str]] = []
     for label, path in bundle_entries:
         if not path.exists():
             raise SystemExit(f"error: bundle file not found: {path}")
-        bundles.append((label, path, path.read_text(encoding="utf-8")))
+        source_text = path.read_text(encoding="utf-8")
+        bundles.append((label, path, source_text, compact_json_text(path, source_text)))
 
     upstream: list[UpstreamDoc] = []
     upstream_coverage: dict = {}
@@ -636,8 +660,14 @@ def build_prompt(
     sources.append((layer.task_prompt_rel, len(task_text.encode("utf-8"))))
     for rel, _, text in governing:
         sources.append((rel, len(text.encode("utf-8"))))
-    for label, _, text in bundles:
-        sources.append((label, len(text.encode("utf-8"))))
+    for label, _, source_text, prompt_text in bundles:
+        if source_text == prompt_text:
+            sources.append((label, len(prompt_text.encode("utf-8"))))
+        else:
+            sources.append((
+                f"{label} (compacted in prompt; source {len(source_text.encode('utf-8')):,} bytes)",
+                len(prompt_text.encode("utf-8")),
+            ))
     for doc in upstream:
         sources.append((doc.rel, len(doc.text.encode("utf-8"))))
 
@@ -714,11 +744,11 @@ def build_prompt(
             "them may be cited."
         )
     lines.append("")
-    for label, path, text in bundles:
+    for label, path, _source_text, prompt_text in bundles:
         lines.append(f"### Bundle file — `{label}`")
         lines.append("")
         lines.append("```json")
-        lines.append(text.rstrip("\n"))
+        lines.append(prompt_text)
         lines.append("```")
         lines.append("")
     lines.append("---")
@@ -854,7 +884,13 @@ def build_prompt(
             {"path": rel, "bytes": len(text.encode("utf-8"))} for rel, _, text in governing
         ],
         "bundle_files": [
-            {"path": label, "bytes": len(text.encode("utf-8"))} for label, _, text in bundles
+            {
+                "path": label,
+                "source_bytes": len(source_text.encode("utf-8")),
+                "inlined_bytes": len(prompt_text.encode("utf-8")),
+                "rendering": "compact-json",
+            }
+            for label, _, source_text, prompt_text in bundles
         ],
         "bundle_root": str(BUNDLES_DIR),
         "output_bytes": len(prompt_text.encode("utf-8")),

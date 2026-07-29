@@ -103,7 +103,7 @@ scripts/              shared bundle builder for both commentary levels
 bundles/              generated commentary input bundles
 _commentary/          hermetic prompts and outputs for Layers 2, 3, review, 2.5
 _translation/         layer 1 — the spine
-_ayah_commentary/     layer 2 — function and resonance, per ayah
+_ayah_commentary/v1/  layer 2 — function and resonance, per ayah
   _surah_commentary/    legacy separate layer-3 task
   _channel/             combined layer 3 + 2.5 — prose, maturity, and overlays
   _channel_review/      legacy review task for older draft plans

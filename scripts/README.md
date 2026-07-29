@@ -5,8 +5,8 @@ Shared tooling for the two commentary levels. Layer 1 has its own builder under
 
 ## build_bundle.py
 
-Assembles the input bundle consumed by `_ayah_commentary/PROMPT.md` (layer 2) and
-`_surah_commentary/PROMPT.md` (layer 3). Governed by `COMMENTARY_SPEC.md` §6;
+Assembles the input bundle consumed by `_ayah_commentary/v1/PROMPT.md` (layer 2)
+and `_surah_commentary/PROMPT.md` (layer 3). Governed by `COMMENTARY_SPEC.md` §6;
 sources, formats, and gotchas in `docs/SOURCES.md`; output shape in
 `bundles/schema.json`.
 
@@ -19,8 +19,17 @@ python3 scripts/build_bundle.py --surah 103 --ayah 1
 # Every ayah bundle for the surah, plus the surah-level bundle
 python3 scripts/build_bundle.py --surah 103
 
+# Include Hermetic Focus Trace from ../latent_activation/focus_trace
+python3 scripts/build_bundle.py --surah 100 --include-focus-trace
+
+# Focused run after reader JSON exists; fail if any target ayah is missing it
+python3 scripts/build_bundle.py --surah 100 --require-focus-trace
+
+# Use one labelled HFT response for a comparison run
+python3 scripts/build_bundle.py --surah 100 --ayah 1 --require-focus-trace --focus-trace-variant 5.5-high
+
 # Custom output directory (default is bundles/s{NNN}/)
-python3 scripts/build_bundle.py --surah 103 --out /tmp/some_dir
+python3 scripts/build_bundle.py --surah 103 --out _commentary/work/some_dir
 ```
 
 Requires Python 3 standard library, plus either the `zstandard` pip package or a
@@ -43,6 +52,9 @@ matching the v12 run layout, which has no `focus_{S}_0`:
   builder to roots this ayah can justify;
 - `v12_reader_responses` as an explicit retired/absent coverage field; per-ayah
   focus-run responses are no longer consumed by the default commentary lane;
+- `v12_focus_trace_hermetic`, when explicitly requested with
+  `--include-focus-trace` or `--require-focus-trace`, carrying Hermetic Focus
+  Trace packet summaries and reader JSONs from `../latent_activation`;
 - the per-ayah excerpt of each `reader_s{NNN}_{a,b}_ayah_walk.md` (Activated
   readings + Retrospective surprises, plus the separate Turkish Prose Synthesis
   block where the reader's file has one);
@@ -77,6 +89,11 @@ ayah bundle filenames rather than duplicating them and carries surah-scope
 material with no single-ayah home: every Quran-text row for the surah including
 the `S:0` basmalah, the full whole-surah reading, and a coverage rollup.
 
+`instantiate.py` compacts bundle JSON when inlining it into prompts. The on-disk
+bundle stays pretty-printed for diffs and review; the agent-facing prompt drops
+insignificant JSON whitespace and records both `source_bytes` and
+`inlined_bytes` in the manifest.
+
 ### Branch inventories: focus run, else surah packet
 
 The default commentary lane does not consume per-ayah `focus_{S}_{A}/` packets.
@@ -95,6 +112,22 @@ Before this fallback/scoping path existed the builder emitted a bundle with
 `branch_inventories: {}` for most surahs and exited 0 — a healthy-looking bundle
 with none of the latent material the commentary exists to render. If **no**
 branch source resolves, the run now aborts.
+
+### Hermetic Focus Trace
+
+Hermetic Focus Trace is opt-in because it reads a sibling generation workspace,
+`../latent_activation/focus_trace`, instead of the frozen `quran-data` source
+root. Use `--include-focus-trace` while packets exist but reader responses may
+still be absent. Use `--require-focus-trace` for the final focused commentary
+run; preflight fails if any target ayah lacks a reader response.
+
+If multiple HFT responses exist for the same ayah, `--focus-trace-variant`
+selects one filename variant. The unlabelled file is `default`; a file named
+`100_1.5.5-high.focus_trace.json` is variant `5.5-high`.
+
+Layer 2 treats this as reconstructed before/after evidence:
+`baseline_models`, `context_deltas`, and `surprising_valid_outliers`. It is not
+labelled as a staged `stage_00` / `stage_01` transcript.
 
 ### Reviewed channels
 

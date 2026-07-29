@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commentary-v2-registry-reconciliation.schema.json",
+  "title": "Commentary v2 surah registry reconciliation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "surah",
+    "sourceRegistries",
+    "candidateCoverage"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "commentary-v2-registry-reconciliation-v1"
+    },
+    "surah": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 114
+    },
+    "sourceRegistries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pericopeId",
+          "sha256"
+        ],
+        "properties": {
+          "pericopeId": {
+            "$ref": "#/$defs/id"
+          },
+          "sha256": {
+            "$ref": "#/$defs/sha256"
+          }
+        }
+      }
+    },
+    "candidateCoverage": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "sourcePericopeId",
+          "sourceCandidateId",
+          "disposition",
+          "resultCandidateIds",
+          "reason_tr"
+        ],
+        "properties": {
+          "sourcePericopeId": {
+            "$ref": "#/$defs/id"
+          },
+          "sourceCandidateId": {
+            "$ref": "#/$defs/id"
+          },
+          "disposition": {
+            "enum": [
+              "represented",
+              "merged"
+            ]
+          },
+          "resultCandidateIds": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "$ref": "#/$defs/id"
+            }
+          },
+          "reason_tr": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    }
+  }
+}

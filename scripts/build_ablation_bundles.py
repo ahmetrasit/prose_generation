@@ -62,8 +62,19 @@ def remove_focus_responses(bundle: dict) -> None:
     }
 
 
+def remove_focus_trace(bundle: dict) -> None:
+    bundle["v12_focus_trace_hermetic"] = {}
+    bundle.setdefault("coverage", {})["v12_focus_trace_hermetic"] = {
+        "present": False,
+        "packet_present": False,
+        "readers": {},
+        "note": "ABLATION: Hermetic Focus Trace evidence removed deliberately.",
+    }
+
+
 def remove_reader_derived(bundle: dict) -> None:
     remove_focus_responses(bundle)
+    remove_focus_trace(bundle)
     bundle["v12_reader_walks"] = {}
     bundle["v12_reader_walks_wide"] = {}
     bundle["v12_cross_run_publication"] = None
@@ -109,10 +120,12 @@ def mutate_bundle(bundle_path: Path, surah: int, ayah: int, mode: str) -> None:
     if mode == "no-focus":
         replace_focus_inventory_with_surah_fallback(bundle, surah, ayah)
         remove_focus_responses(bundle)
+        remove_focus_trace(bundle)
         bundle["ablation"]["label"] = "no-per-ayah-focus-run-evidence"
         bundle["ablation"]["removed"] = [
             "focus-scoped stage_00 branch inventories",
             "v12_reader_responses",
+            "v12_focus_trace_hermetic",
         ]
         bundle["ablation"]["replacement"] = "surah full_context_packet branch inventory scoped to the ayah"
     elif mode == "no-reader":
@@ -122,6 +135,7 @@ def mutate_bundle(bundle_path: Path, surah: int, ayah: int, mode: str) -> None:
         bundle["ablation"]["removed"] = [
             "focus-scoped stage_00 branch inventories",
             "v12_reader_responses",
+            "v12_focus_trace_hermetic",
             "v12_reader_walks",
             "v12_reader_walks_wide",
             "v12_cross_run_publication",

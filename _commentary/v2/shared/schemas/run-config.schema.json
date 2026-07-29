@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commentary-v2-run-config.schema.json",
+  "title": "Commentary v2 run configuration",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "runId",
+    "surah",
+    "language",
+    "pericopes"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "commentary-v2-run-v1"
+    },
+    "runId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "surah": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 114
+    },
+    "language": {
+      "type": "string",
+      "minLength": 2
+    },
+    "outputRoot": {
+      "type": "string",
+      "minLength": 1
+    },
+    "defaultAyahSourcePattern": {
+      "type": "string",
+      "minLength": 1
+    },
+    "governingSources": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "ayahSources": {
+      "type": "object",
+      "patternProperties": {
+        "^[1-9][0-9]{0,2}:[1-9][0-9]{0,2}$": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "pericopes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "ayahs"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "ayahs": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commentary-v2-layer2-editorial-result.schema.json",
+  "title": "Commentary v2 Layer 2 editorial result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "surah",
+    "ayahRef",
+    "pericopeId",
+    "sourceLedgerSha256",
+    "sourcePlanSha256",
+    "outputs",
+    "representedFindingRefs",
+    "representedSynthesisRefs",
+    "newSyntheses",
+    "standaloneCheck"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "commentary-v2-layer2-editorial-result-v1"
+    },
+    "surah": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 114
+    },
+    "ayahRef": {
+      "$ref": "#/$defs/ayahRef"
+    },
+    "pericopeId": {
+      "$ref": "#/$defs/id"
+    },
+    "sourceLedgerSha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "sourcePlanSha256": {
+      "$ref": "#/$defs/sha256"
+    },
+    "outputs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "prose",
+        "evidence",
+        "index",
+        "friction"
+      ],
+      "properties": {
+        "prose": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1
+        },
+        "index": {
+          "type": "string",
+          "minLength": 1
+        },
+        "friction": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "representedFindingRefs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/findingRef"
+      }
+    },
+    "representedSynthesisRefs": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/synthesisRef"
+      }
+    },
+    "newSyntheses": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/newSynthesis"
+      }
+    },
+    "standaloneCheck": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primaryReachable",
+        "outsideAyahWordsGrounded",
+        "surahThesisAbsent",
+        "allPlannedFindingsRepresented"
+      ],
+      "properties": {
+        "primaryReachable": {
+          "const": true
+        },
+        "outsideAyahWordsGrounded": {
+          "const": true
+        },
+        "surahThesisAbsent": {
+          "const": true
+        },
+        "allPlannedFindingsRepresented": {
+          "const": true
+        }
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "ayahRef": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]{0,2}:[1-9][0-9]{0,2}$"
+    },
+    "findingRef": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]{0,2}:[1-9][0-9]{0,2}:[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "synthesisRef": {
+      "type": "string",
+      "pattern": "^(?:editorial|author):[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "newSynthesis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "synthesisId",
+        "componentFindingRefs",
+        "relation",
+        "supportLevel",
+        "claim_tr",
+        "evidenceRefs"
+      ],
+      "properties": {
+        "synthesisId": {
+          "type": "string",
+          "pattern": "^author:[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "componentFindingRefs": {
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/findingRef"
+          }
+        },
+        "relation": {
+          "enum": [
+            "supports-primary",
+            "shifts-primary",
+            "parallel-pressure"
+          ]
+        },
+        "supportLevel": {
+          "enum": [
+            "local-inference",
+            "contextual-inference",
+            "remote-lexical",
+            "synthetic"
+          ]
+        },
+        "claim_tr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidenceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

@@ -82,9 +82,13 @@ an earlier prompt file byte-for-byte.
 ```
 python3 scripts/build_bundle.py --surah 100
 python3 scripts/build_bundle.py --surah 100 --ayah 1     # one ayah
+python3 scripts/build_bundle.py --surah 100 --require-focus-trace
+python3 scripts/build_bundle.py --surah 100 --ayah 1 --require-focus-trace --focus-trace-variant 5.6-sol-high
 ```
 
-Reads `../quran-data/data/` and nothing else (D-a). Writes
+Reads `../quran-data/data/` by default (D-a). With `--include-focus-trace` or
+`--require-focus-trace`, it also reads the explicitly requested Hermetic Focus
+Trace run under `../latent_activation/focus_trace/runs/s{NNN}/`. Writes
 `bundles/s{NNN}/`.
 
 The builder runs a **preflight** that enumerates every expected source for the
@@ -113,11 +117,12 @@ Required sources raise loudly. Optional sources record their absence in
 source you expect to be present is marked absent, resolve that before
 instantiating. Absence propagates silently into prose otherwise.
 
-Current ayah bundles distinguish three V12 reader-derived families:
+Current ayah bundles distinguish these V12 reader-derived families:
 
 | bundle field | source | use |
 | --- | --- | --- |
 | `v12_reader_responses` | retired per-ayah focus runs | explicit absent/retired coverage field in the default lane |
+| `v12_focus_trace_hermetic` | opt-in one-call reconstructed focus trace from `../latent_activation/focus_trace` | baseline/context-delta/outlier evidence for surprise and changed reading |
 | `v12_reader_walks` | regular full-context ayah walks | retrospective/full-context reader evidence |
 | `v12_reader_walks_wide` | plus/minus-5 / 11-ayah-context walks | wider-window retrospective reader evidence |
 | `v12_cross_run_publication` | compact final cross-run findings | coverage/priority check derived from regular plus wide readers |
@@ -134,11 +139,71 @@ access, the agent may read only the listed files when channel detail is
 necessary. These generated outputs are candidate/family/path evidence, not an
 adjudicated ledger; State B restrictions still apply.
 
-Per-ayah focus runs are no longer part of the default workflow. Normal bundles
-use the surah `full_context_packet.json` branch inventory scoped to this ayah's
-roots and anchored citations, plus regular/wide reader walks and cross-run
-publication findings when present. A later audit can re-enable focus packets
-explicitly, but that is no longer the production lane.
+Retired staged per-ayah focus runs remain outside the default lane. Normal
+bundles use the surah `full_context_packet.json` branch inventory scoped to this
+ayah's roots and anchored citations, plus regular/wide reader walks and
+cross-run publication findings when present.
+
+Hermetic Focus Trace is the replacement ayah-level signal when a run explicitly
+asks for it. Use `--include-focus-trace` to surface packet/readiness coverage
+without failing on missing reader JSON. Use `--require-focus-trace` for the
+actual focused commentary run after upstream readers are complete; it fails
+preflight unless every target ayah has a reader response.
+
+Use `--focus-trace-variant` when the same focus ayah has multiple HFT response
+files. The unlabelled filename is variant `default`; labelled filenames such as
+`100_1.5.5-high.focus_trace.json` and
+`100_1.5.6-sol-high.focus_trace.json` are variants `5.5-high` and
+`5.6-sol-high`. Build separate bundle/input directories for direct Layer-2
+comparisons.
+
+This should stay the same Layer-2 workflow, not a separate writer workflow:
+Focus Trace is an evidence source for the ayah's before/after experience. Use a
+separate bundle/output directory only when running controlled comparisons, such
+as HFT versus no-HFT or no-reader ablations.
+
+### Optional upstream focus-trace generation
+
+If focused Layer 2 is required and reader JSONs do not exist yet, generate them
+upstream in `../latent_activation/focus_trace` before the final bundle build. Do
+not ask a commentary agent to create these files.
+
+For each missing ayah response, spawn one focus-trace worker with:
+
+```text
+agent_type: worker
+model: gpt-5.6-sol
+reasoning_effort: max
+service_tier: priority
+fork_context: false
+```
+
+Each worker receives only
+`focus_trace/prompts/focus_trace_hermetic.md`,
+`focus_trace/schemas/focus-trace-response.schema.json`, and its assigned packet
+`focus_trace/runs/sNNN/packets/{S}_{A}.packet.json`. It writes exactly one file:
+
+```text
+focus_trace/runs/sNNN/readers/<reader_id>/{S}_{A}.focus_trace.json
+```
+
+For comparison variants, keep the same reader directory and write the variant
+label into the filename:
+
+```text
+focus_trace/runs/sNNN/readers/<reader_id>/{S}_{A}.{variant}.focus_trace.json
+```
+
+The unlabelled filename is `--focus-trace-variant default`; labelled filenames
+are selected with the label after `{S}_{A}.`, such as `5.5-high` or
+`5.6-sol-high`.
+
+Validate each response with
+`focus_trace/scripts/validate_focus_trace.py`, then rerun
+`python3 scripts/build_bundle.py --surah {S} --require-focus-trace` so the
+commentary bundle sees `coverage.v12_focus_trace_hermetic.present: true`. The
+S100 continuation runbook is
+`../latent_activation/focus_trace/runs/s100/COLD_HANDOFF.md`.
 
 S1 basmalah lookup is explicit. Canonical commentary units keep `ayahRef: 1:1`;
 some V12 reader/publication artifacts store that same basmalah as `1:0`.
@@ -185,7 +250,7 @@ Inlined per layer:
 
 | layer | task document | governing | bundle | upstream |
 | --- | --- | --- | --- | --- |
-| ayah | `_ayah_commentary/PROMPT.md` | `PRINCIPLES.md`, `COMMENTARY_SPEC.md`, `docs/CHANNELS.md` | `{S}_{A}.ayah.json` | — |
+| ayah | `_ayah_commentary/v1/PROMPT.md` | `PRINCIPLES.md`, `COMMENTARY_SPEC.md`, `docs/CHANNELS.md` | `{S}_{A}.ayah.json` | — |
 | combined 3 + 2.5 | `_channel/PROMPT.md` | selected excerpts + both schemas | `{NNN}.channel.json` | every Layer-2 `prose` file |
 
 **The combined pass consumes Layer-2 prose, not raw ayah bundles.** Exact channel
@@ -428,7 +493,7 @@ active `_commentary/inputs/s{NNN}/` path. Move comparator profile prompts to
 **Never evaluate on S1.** The governing documents inlined into every prompt
 contain worked answers for 1:6 — `docs/CHANNELS.md:48` and `:216` state the
 `sırât` finding and its branch id, `:132` gives the same finding in ready-made
-Turkish, and `_ayah_commentary/PROMPT.md:33` asserts the doubled-article point.
+Turkish, and `_ayah_commentary/v1/PROMPT.md:33` asserts the doubled-article point.
 Those are legitimate few-shot teaching of register and should stay. They make S1
 useless as an eval surah.
 
@@ -453,11 +518,11 @@ Two S100:1 ablation arms remain useful for experiments:
 Build and instantiate with:
 
 ```sh
-python3 scripts/build_ablation_bundles.py --surah 100 --ayah 1 --mode no-focus --out /tmp/prose_generation_ablation_no_focus
-python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir /tmp/prose_generation_ablation_no_focus --profile v2.5.6-sol-high-no-focus --out _commentary/inputs/s100-ablation-no-focus
+python3 scripts/build_ablation_bundles.py --surah 100 --ayah 1 --mode no-focus --out _commentary/work/prose_generation_ablation_no_focus
+python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir _commentary/work/prose_generation_ablation_no_focus --profile v2.5.6-sol-high-no-focus --out _commentary/inputs/s100-ablation-no-focus
 
-python3 scripts/build_ablation_bundles.py --surah 100 --ayah 1 --mode no-reader --out /tmp/prose_generation_ablation_no_reader
-python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir /tmp/prose_generation_ablation_no_reader --profile v2.5.6-sol-high-no-reader --out _commentary/inputs/s100-ablation-no-reader
+python3 scripts/build_ablation_bundles.py --surah 100 --ayah 1 --mode no-reader --out _commentary/work/prose_generation_ablation_no_reader
+python3 scripts/instantiate.py --surah 100 --ayah 1 --layer ayah --bundles-dir _commentary/work/prose_generation_ablation_no_reader --profile v2.5.6-sol-high-no-reader --out _commentary/inputs/s100-ablation-no-reader
 ```
 
 ## Decisions and rationale

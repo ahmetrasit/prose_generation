@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """
 build_bundle.py — assemble the per-ayah / per-surah input bundle consumed by
-`_ayah_commentary/PROMPT.md` and `_surah_commentary/PROMPT.md`.
+`_ayah_commentary/v1/PROMPT.md` and `_surah_commentary/PROMPT.md`.
 
-See `/Volumes/OZTURK/_projects/prose_generation/COMMENTARY_SPEC.md` §9 for the
-source inventory this script implements, and
-`/Volumes/OZTURK/_projects/prose_generation/scripts/README.md` for usage.
+See `COMMENTARY_SPEC.md` §9 for the source inventory this script implements,
+and `scripts/README.md` for usage.
 
 Usage:
     python3 build_bundle.py --surah 103 [--ayah 1] [--out DIR]
@@ -14,9 +13,11 @@ Standard library only, with one exception: `.zst` files are decompressed by
 shelling out to the `zstd` binary (the `zstandard` pip package is not assumed
 to be installed). `.gz` files are decompressed with the stdlib `gzip` module.
 
-Every source this script reads now lives under a single root:
-`/Volumes/OZTURK/_projects/quran-data/data/` (see QURAN_DATA below). There is
-no longer a `latent_activation` or `quran-slm` sibling root.
+Default commentary sources live under a single frozen root:
+`../quran-data/data/` (see QURAN_DATA below). The only intentional
+sibling-workspace exception is Hermetic Focus Trace, which reads
+`../latent_activation/focus_trace` only when `--include-focus-trace` or
+`--require-focus-trace` is passed.
 
 Before building anything, `preflight()` enumerates every expected source for
 the requested surah/ayah and prints a table of present/missing sources,
@@ -57,6 +58,7 @@ PROSE_GEN_ROOT = SCRIPT_PATH.parent.parent          # .../prose_generation
 PROJECTS_ROOT = PROSE_GEN_ROOT.parent               # .../_projects
 
 QURAN_DATA = PROJECTS_ROOT / "quran-data" / "data"
+LATENT_ACTIVATION_ROOT = PROJECTS_ROOT / "latent_activation"
 
 QURAN_TEXT_TSV = QURAN_DATA / "text" / "quran-uthmani.tsv"
 WORD_ANALYSIS_DIR = QURAN_DATA / "analysis" / "word-analysis"
@@ -67,6 +69,7 @@ V12_TR_DIR = QURAN_DATA / "analysis" / "ayah-activation" / "v12-tr"
 V12_TR_11AYAH_DIR = QURAN_DATA / "analysis" / "ayah-activation" / "v12-tr-11ayah"
 V12_CROSS_RUN_TR_DIR = QURAN_DATA / "analysis" / "ayah-activation" / "v12-cross-run" / "tr"
 NETWORK_V3_DIR = QURAN_DATA / "analysis" / "channels" / "network-v3"
+FOCUS_TRACE_RUNS_DIR = LATENT_ACTIVATION_ROOT / "focus_trace" / "runs"
 PERICOPES_PATH = NETWORK_V3_DIR / "pericopes" / "surah_pericopes.jsonl"
 INTER_AYAH_DIR = QURAN_DATA / "analysis" / "inter-ayah"
 DICTIONARY_TR_DIR = QURAN_DATA / "dictionary" / "tr"
@@ -77,6 +80,9 @@ ZSTD_CANDIDATES = ["/opt/homebrew/bin/zstd", "zstd"]
 QUARANTINED_DIR_NAMES = {"pilot_invalid_prompt_leak"}
 KNOWN_VARIANT_DIR_NAMES = {"left_first", "right_first"}
 USE_PER_AYAH_FOCUS_RUNS = False
+INCLUDE_HERMETIC_FOCUS_TRACE = False
+REQUIRE_HERMETIC_FOCUS_TRACE = False
+FOCUS_TRACE_VARIANT: str | None = None
 
 BUNDLE_SCHEMA_VERSION = "input-bundle-v3"
 SURAH_BUNDLE_SCHEMA_VERSION = "input-bundle-surah-v3"
@@ -87,6 +93,14 @@ def relpath(path: Path) -> str:
     (e.g. 'quran-data/data/analysis/...'), so provenance strings are stable
     regardless of where this checkout happens to live."""
     return str(path.relative_to(PROJECTS_ROOT))
+
+
+def display_path(path: Path) -> str:
+    """Project-relative path for logs and preflight output when possible."""
+    try:
+        return str(path.relative_to(PROJECTS_ROOT))
+    except ValueError:
+        return str(path)
 
 
 def v12_lookup_ref(surah: int, ayah: int) -> str:
@@ -684,6 +698,167 @@ def load_v12_reader_responses(surah: int, ayah: int) -> tuple:
         coverage["variants"][variant_name] = {"present": True, "readers": readers_meta}
         coverage["present"] = True
 
+    return out, coverage
+
+
+# ---------------------------------------------------------------------------
+# Source: Hermetic Focus Trace responses (generated in latent_activation)
+# ---------------------------------------------------------------------------
+
+def focus_trace_run_dir(surah: int) -> Path:
+    return FOCUS_TRACE_RUNS_DIR / f"s{surah:03d}"
+
+
+def focus_trace_packet_path(surah: int, ayah: int) -> Path:
+    return focus_trace_run_dir(surah) / "packets" / f"{surah}_{ayah}.packet.json"
+
+
+def focus_trace_response_files(surah: int, ayah: int) -> list[Path]:
+    readers_dir = focus_trace_run_dir(surah) / "readers"
+    if not readers_dir.exists():
+        return []
+    files = []
+    seen = set()
+    for reader_dir in sorted(d for d in readers_dir.iterdir() if d.is_dir()):
+        if reader_dir.name in QUARANTINED_DIR_NAMES:
+            continue
+        exact = reader_dir / f"{surah}_{ayah}.focus_trace.json"
+        candidates = []
+        if exact.exists():
+            candidates.append(exact)
+        candidates.extend(sorted(reader_dir.glob(f"{surah}_{ayah}.*.focus_trace.json")))
+        for candidate in candidates:
+            if candidate in seen:
+                continue
+            variant = focus_trace_response_variant(candidate, surah, ayah)
+            if FOCUS_TRACE_VARIANT is not None and variant != FOCUS_TRACE_VARIANT:
+                continue
+            files.append(candidate)
+            seen.add(candidate)
+    return files
+
+
+def focus_trace_response_variant(path: Path, surah: int, ayah: int) -> str:
+    prefix = f"{surah}_{ayah}"
+    suffix = ".focus_trace.json"
+    if path.name == f"{prefix}{suffix}":
+        return "default"
+    if path.name.startswith(f"{prefix}.") and path.name.endswith(suffix):
+        return path.name[len(prefix) + 1 : -len(suffix)]
+    return path.stem
+
+
+def focus_trace_reader_key(path: Path, surah: int, ayah: int) -> str:
+    variant = focus_trace_response_variant(path, surah, ayah)
+    if variant == "default":
+        return path.parent.name
+    return f"{path.parent.name}:{variant}"
+
+
+def focus_trace_packet_summary(packet_path: Path) -> dict | None:
+    if not packet_path.exists():
+        return None
+    packet = json.loads(packet_path.read_text(encoding="utf-8"))
+    split_roots = []
+    for mapping in packet.get("root_mappings", []) or []:
+        if mapping.get("mapping_status") == "split":
+            split_roots.append({
+                "qac_root": mapping.get("qac_root"),
+                "targets": mapping.get("targets", []),
+            })
+    return {
+        "source_file": relpath(packet_path),
+        "protocol": packet.get("protocol"),
+        "focus_ref": packet.get("focus_ref"),
+        "window": packet.get("window", []),
+        "ayah_count": packet.get("ayah_count"),
+        "split_root_mappings": split_roots,
+    }
+
+
+def load_v12_focus_trace_hermetic(surah: int, ayah: int) -> tuple:
+    """Returns (dict, coverage_dict) for Hermetic Focus Trace.
+
+    The default commentary build does not read this sibling repo. Callers must
+    pass --include-focus-trace or --require-focus-trace so focused runs remain
+    explicit and reproducible.
+    """
+    if not INCLUDE_HERMETIC_FOCUS_TRACE:
+        return {}, {
+            "present": False,
+            "packet_present": False,
+            "readers": {},
+            "note": (
+                "Hermetic Focus Trace not requested for this bundle. Rebuild "
+                "with --include-focus-trace, or --require-focus-trace when "
+                "reader JSON must be present."
+            ),
+        }
+
+    packet_path = focus_trace_packet_path(surah, ayah)
+    packet_summary = focus_trace_packet_summary(packet_path)
+    out = {}
+    coverage = {
+        "present": False,
+        "packet_present": packet_summary is not None,
+        "packet_source_file": relpath(packet_path) if packet_path.exists() else None,
+        "readers": {},
+    }
+    if packet_summary is not None:
+        out["packet_summary"] = packet_summary
+        coverage["packet_protocol"] = packet_summary.get("protocol")
+        coverage["packet_bytes"] = packet_path.stat().st_size
+        coverage["split_root_count"] = len(packet_summary.get("split_root_mappings", []))
+
+    reader_files = focus_trace_response_files(surah, ayah)
+    if not reader_files:
+        coverage["note"] = (
+            "Hermetic Focus Trace packet exists but no reader responses are present"
+            if packet_summary is not None
+            else f"no Hermetic Focus Trace packet or responses under {focus_trace_run_dir(surah)}"
+        )
+        return out, coverage
+
+    readers = {}
+    ayah_ref = f"{surah}:{ayah}"
+    for response_path in reader_files:
+        reader_id = focus_trace_reader_key(response_path, surah, ayah)
+        variant = focus_trace_response_variant(response_path, surah, ayah)
+        try:
+            response = json.loads(response_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as exc:
+            coverage["readers"][reader_id] = {
+                "present": False,
+                "source_file": relpath(response_path),
+                "variant": variant,
+                "note": f"invalid JSON: {exc}",
+            }
+            continue
+        if response.get("focus_ref") != ayah_ref:
+            coverage["readers"][reader_id] = {
+                "present": False,
+                "source_file": relpath(response_path),
+                "variant": variant,
+                "note": f"focus_ref {response.get('focus_ref')!r} does not match {ayah_ref}",
+            }
+            continue
+        readers[reader_id] = response
+        coverage["readers"][reader_id] = {
+            "present": True,
+            "source_file": relpath(response_path),
+            "variant": variant,
+            "protocol": response.get("protocol"),
+            "baseline_models": len(response.get("baseline_models", []) or []),
+            "context_deltas": len(response.get("context_deltas", []) or []),
+            "surprising_valid_outliers": len(response.get("surprising_valid_outliers", []) or []),
+        }
+
+    if readers:
+        out["readers"] = readers
+        coverage["present"] = True
+        coverage["reader_count"] = len(readers)
+    else:
+        coverage["note"] = "Hermetic Focus Trace response files found, but none matched this ayah"
     return out, coverage
 
 
@@ -1991,7 +2166,7 @@ def check_word_alignment(surah: int, word_analysis: dict, qac_by_ayah: dict,
 
 
 def _row(name, path, required, present, note=None):
-    return {"name": name, "path": str(path), "required": required, "present": present, "note": note}
+    return {"name": name, "path": display_path(path), "required": required, "present": present, "note": note}
 
 
 def print_preflight_table(surah: int, rows: list) -> None:
@@ -2014,8 +2189,9 @@ def preflight(surah: int, ayah_filter: int = None) -> dict:
     per-ayah sources if given), prints a full present/missing table, and
     raises RequiredSourceMissing (after printing, listing every gap at once)
     if any REQUIRED source is missing. Required = Quran text, word analysis,
-    QAC morphemes, branch inventories. Everything else is optional. Returns
-    the already-loaded data so main() doesn't have to reload it."""
+    QAC morphemes, branch inventories, plus Hermetic Focus Trace responses when
+    --require-focus-trace is active. Everything else is optional. Returns the
+    already-loaded data so main() doesn't have to reload it."""
     rows = []
     problems = []
 
@@ -2127,6 +2303,37 @@ def preflight(surah: int, ayah_filter: int = None) -> dict:
     )
     rows.append(_row("Reader walks (+/-5 context)", wide_control_dir, False,
                       wide_cov.get("present", False), wide_cov.get("note")))
+
+    if INCLUDE_HERMETIC_FOCUS_TRACE:
+        focus_trace_dir = focus_trace_run_dir(surah)
+        ft_packets = sum(1 for a in target_ayahs if focus_trace_packet_path(surah, a).exists())
+        ft_response_files = sum(len(focus_trace_response_files(surah, a)) for a in target_ayahs)
+        ft_usable_readers = 0
+        ft_coverage_by_ayah = {}
+        for a in target_ayahs:
+            _trace, coverage = load_v12_focus_trace_hermetic(surah, a)
+            ft_coverage_by_ayah[a] = coverage
+            ft_usable_readers += int(coverage.get("reader_count", 0) or 0)
+        rows.append(_row(
+            "Hermetic Focus Trace",
+            focus_trace_dir,
+            REQUIRE_HERMETIC_FOCUS_TRACE,
+            focus_trace_dir.exists() and (ft_packets > 0 or ft_response_files > 0),
+            (
+                f"{ft_packets} packet(s), {ft_response_files} response file(s), "
+                f"{ft_usable_readers} usable reader(s)"
+                + (f", variant={FOCUS_TRACE_VARIANT}" if FOCUS_TRACE_VARIANT else "")
+                if focus_trace_dir.exists()
+                else "no generated focus_trace run directory for this surah"
+            ),
+        ))
+        if REQUIRE_HERMETIC_FOCUS_TRACE:
+            for a, coverage in ft_coverage_by_ayah.items():
+                if not coverage.get("present"):
+                    problems.append(
+                        f"Hermetic Focus Trace usable reader response missing "
+                        f"for {surah}:{a}: {coverage.get('note') or coverage.get('readers')}"
+                    )
 
     cross_path = V12_CROSS_RUN_TR_DIR / f"{surah}_ayah_findings_publication.json"
     rows.append(_row("V12 cross-run publication", cross_path, False, cross_path.exists(),
@@ -2306,6 +2513,9 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
     reader_responses, rr_coverage = load_v12_reader_responses(surah, ayah)
     coverage["v12_reader_responses"] = rr_coverage
 
+    focus_trace_hermetic, ft_coverage = load_v12_focus_trace_hermetic(surah, ayah)
+    coverage["v12_focus_trace_hermetic"] = ft_coverage
+
     reader_walks, walk_coverage = load_v12_reader_walks(surah, ayah)
     coverage["v12_reader_walks"] = walk_coverage
 
@@ -2369,6 +2579,7 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
         "word_morpheme_spans": word_spans,
         "branch_inventories": branch_inventories,
         "v12_reader_responses": reader_responses,
+        "v12_focus_trace_hermetic": focus_trace_hermetic,
         "v12_reader_walks": reader_walks,
         "v12_reader_walks_wide": reader_walks_wide,
         "v12_cross_run_publication": cross_run_publication,
@@ -2452,11 +2663,45 @@ def discover_ayah_numbers(surah: int, quran_text: dict) -> list:
 
 
 def main() -> int:
+    global INCLUDE_HERMETIC_FOCUS_TRACE, REQUIRE_HERMETIC_FOCUS_TRACE, FOCUS_TRACE_VARIANT
+
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--surah", type=int, required=True)
     parser.add_argument("--ayah", type=int, default=None)
     parser.add_argument("--out", type=Path, default=None)
+    parser.add_argument(
+        "--include-focus-trace",
+        action="store_true",
+        help=(
+            "include Hermetic Focus Trace packets/responses from "
+            "../latent_activation/focus_trace when present"
+        ),
+    )
+    parser.add_argument(
+        "--require-focus-trace",
+        action="store_true",
+        help=(
+            "include Hermetic Focus Trace and fail preflight unless every "
+            "target ayah has a reader response"
+        ),
+    )
+    parser.add_argument(
+        "--focus-trace-variant",
+        default=None,
+        help=(
+            "select one Hermetic Focus Trace filename variant, e.g. 'default', "
+            "'5.5-high', or '5.6-sol-high'. By default all variants are included."
+        ),
+    )
     args = parser.parse_args()
+
+    INCLUDE_HERMETIC_FOCUS_TRACE = (
+        args.include_focus_trace
+        or args.require_focus_trace
+        or args.focus_trace_variant is not None
+    )
+    REQUIRE_HERMETIC_FOCUS_TRACE = args.require_focus_trace
+    FOCUS_TRACE_VARIANT = args.focus_trace_variant
 
     surah = args.surah
     out_dir = args.out or (PROSE_GEN_ROOT / "bundles" / f"s{surah:03d}")

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "commentary-v2-run-v1",
+  "runId": "s100-v2-example",
+  "surah": 100,
+  "language": "tr",
+  "outputRoot": "_commentary/v2/generated/s100-v2-example",
+  "defaultAyahSourcePattern": "bundles/s{surah_padded}/{surah}_{ayah}.ayah.json",
+  "governingSources": [
+    "PRINCIPLES.md",
+    "COMMENTARY_SPEC.md"
+  ],
+  "pericopes": [
+    {
+      "id": "whole-surah",
+      "ayahs": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commentary-v2-layer2-discovery-ledger.schema.json",
+  "title": "Commentary v2 Layer 2 discovery ledger",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "surah",
+    "ayahRef",
+    "language",
+    "primaryFloor_tr",
+    "sourceObligations",
+    "findings",
+    "coverageNote_tr"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "commentary-v2-layer2-discovery-v1"
+    },
+    "surah": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 114
+    },
+    "ayahRef": {
+      "$ref": "#/$defs/ayahRef"
+    },
+    "language": {
+      "type": "string",
+      "minLength": 2
+    },
+    "primaryFloor_tr": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceObligations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sourceObligation"
+      }
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/finding"
+      }
+    },
+    "coverageNote_tr": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "ayahRef": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]{0,2}:[1-9][0-9]{0,2}$"
+    },
+    "findingRef": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]{0,2}:[1-9][0-9]{0,2}:[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "localAnchor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "surface_ar",
+        "surface_tr",
+        "function_tr",
+        "evidenceRefs"
+      ],
+      "properties": {
+        "surface_ar": {
+          "type": "string",
+          "minLength": 1
+        },
+        "surface_tr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "function_tr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "qacRefs": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "rootId": {
+          "type": "string",
+          "pattern": "^root_[0-9]{6}$"
+        },
+        "branchId": {
+          "type": "string",
+          "pattern": "^B[0-9]{3}$"
+        },
+        "evidenceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "activationTrigger": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ayahRef",
+        "effect_tr",
+        "evidenceRefs"
+      ],
+      "properties": {
+        "ayahRef": {
+          "$ref": "#/$defs/ayahRef"
+        },
+        "wordSpan": {
+          "type": "string"
+        },
+        "effect_tr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidenceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "finding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "findingId",
+        "disposition",
+        "kind",
+        "relation",
+        "supportLevel",
+        "localAnchors",
+        "primaryReading_tr",
+        "proseClaim_tr",
+        "readerPayoff_tr",
+        "sourceClaimRefs",
+        "evidenceRefs",
+        "activationTriggers",
+        "counterEvidence",
+        "channelTags"
+      ],
+      "properties": {
+        "findingId": {
+          "$ref": "#/$defs/findingRef"
+        },
+        "disposition": {
+          "enum": [
+            "carry",
+            "blocked"
+          ]
+        },
+        "kind": {
+          "enum": [
+            "ayah-function",
+            "grammar",
+            "sound-form",
+            "local-resonance",
+            "context-activation",
+            "counterpressure",
+            "surprising-outlier"
+          ]
+        },
+        "relation": {
+          "enum": [
+            "primary-floor",
+            "supports-primary",
+            "shifts-primary",
+            "parallel-pressure"
+          ]
+        },
+        "supportLevel": {
+          "enum": [
+            "direct",
+            "local-inference",
+            "contextual-inference",
+            "remote-lexical",
+            "synthetic"
+          ]
+        },
+        "localAnchors": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/localAnchor"
+          }
+        },
+        "primaryReading_tr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "readingBefore_tr": {
+          "type": "string"
+        },
+        "readingAfter_tr": {
+          "type": "string"
+        },
+        "proseClaim_tr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "readerPayoff_tr": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceClaimRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "evidenceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "activationTriggers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/activationTrigger"
+          }
+        },
+        "counterEvidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "channelTags": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          }
+        },
+        "blockingEvidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "disposition": {
+                "const": "blocked"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "blockingEvidence"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "blockingEvidence"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "sourceObligation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceRef",
+        "disposition",
+        "findingRefs"
+      ],
+      "properties": {
+        "sourceRef": {
+          "type": "string",
+          "minLength": 1
+        },
+        "disposition": {
+          "enum": [
+            "carry",
+            "blocked"
+          ]
+        },
+        "findingRefs": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/findingRef"
+          }
+        },
+        "blockingEvidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "disposition": {
+                "const": "carry"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "findingRefs": {
+                "minItems": 1
+              }
+            }
+          },
+          "else": {
+            "required": [
+              "blockingEvidence"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
