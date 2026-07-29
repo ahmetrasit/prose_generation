@@ -53,6 +53,36 @@ a hard failure.
 
 Run the stages in this order. Never continue past a failed check.
 
+### Required transition order
+
+The orchestration loop is always:
+
+```text
+validate run configuration
+  -> instantiate discovery prompts
+  -> spawn discovery agents and wait for their files
+  -> check discovery
+  -> instantiate compiler prompts for eligible pericopes
+  -> spawn compiler agents and wait for their files
+  -> check each compiler result
+  -> instantiate final Layer 2 prompts for eligible pericopes
+  -> spawn Layer 2 agents and wait for their files
+  -> check each pericope's Layer 2 results
+  -> if multi-pericope: instantiate, spawn, and check reconciliation
+  -> instantiate the intended Layer 3 prompt
+  -> spawn the Layer 3 agent and wait for its files
+  -> check Layer 3
+```
+
+Instantiation prepares one or more agent packets. It does not complete the
+stage. A stage is complete only after its agents have written every declared
+artifact and the corresponding `check` command passes.
+
+For multiple pericopes, a pericope may advance as soon as all of its own
+dependencies pass. For example, its compiler does not need to wait for
+discovery in an unrelated pericope. Whole-surah reconciliation and Layer 3 must
+wait for every contributing pericope.
+
 ### Stage A: Layer 2 discovery
 
 Instantiate all ayah discovery prompts:
@@ -259,10 +289,36 @@ python3 _commentary/v2/scripts/workflow.py check \
 
 ## 4. Agent launch contract
 
+### Single-file worker packet
+
+Every generated `*.prompt.md` is the complete read packet for one writing
+agent. Depending on the stage, it inlines the task prompt, editorial contract,
+required schemas, governing documents, input bundles, descriptors, discovery
+ledgers, editorial-plan slices, or channel registries. The paths printed inside
+the packet are provenance identities and declared write targets; they are not
+instructions to open additional source files.
+
+The adjacent `*.manifest.json` belongs to the orchestrator. It records source
+hashes and expected outputs for auditing and invalidation. Do not give it to the
+writing agent, and do not ask the writing agent to read schemas or input bundles
+separately. Their contents are already in the generated prompt.
+
+Spawn each writing agent with an instruction equivalent to:
+
+```text
+Read only <absolute-path-to-generated.prompt.md>.
+Use only the material inlined in that file.
+Write exactly the output files declared in its header.
+Do not return the artifacts only in chat.
+```
+
+The writing agent needs filesystem permission to read that one prompt and write
+the declared outputs. It does not need read access to the original source
+bundle, source schemas, source task prompt, or manifest.
+
 For every instantiated prompt:
 
-1. Give the writing agent only that prompt unless the prompt explicitly names a
-   writable output root.
+1. Give the writing agent only that generated `*.prompt.md` as readable input.
 2. Tell it to use only inlined sources.
 3. Tell it to write exactly the expected files listed in the prompt header.
 4. Do not ask it to summarize its work in chat instead of writing the files.
@@ -270,8 +326,10 @@ For every instantiated prompt:
 6. Treat a missing, empty, malformed, or extra-contract artifact as failure.
 7. Run the stage gate before launching dependent work.
 
-The transport is intentionally unspecified. A cold agent may use the available
-worker/agent runner, but must preserve one prompt per isolated writing context.
+`workflow.py` instantiates packets and validates results; it does not spawn
+agents. The transport is intentionally unspecified. A cold orchestrator may use
+the available native worker/agent runner, but must preserve one generated prompt
+per isolated writing context.
 
 ## 5. Parallelism
 
