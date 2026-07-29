@@ -8,6 +8,10 @@ question they answer and in whether they are allowed to select.
 [`docs/SOURCES.md`](docs/SOURCES.md); channel rules in
 [`docs/CHANNELS.md`](docs/CHANNELS.md).
 
+The active Layer 3 production contract is
+[`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md). The
+former combined Layer 3 + 2.5 overlay workflow is retired.
+
 Status: draft, 2026-07-27. Derived from rejected S103 attempts; **not yet
 validated against a passing output.**
 
@@ -59,25 +63,23 @@ This does not demote channels — see `docs/CHANNELS.md` §4. The argument and t
 channels are separate outputs on separate axes, and for some surahs (S100) the
 channel is the more valuable finding.
 
-### 2.2 Local surprise is not a channel increment
+### 2.2 Local surprise is not a surah-wide system
 
 Layer 2 states the **local surprise reading** made visible by this ayah's own
 words: the secondary resonance, what it does to the recoverable primary reading,
 and what becomes newly legible. This requires no claim that the image recurs
 elsewhere.
 
-A **surah-channel increment** is different. It says how a reviewed recurring
-system has matured by this position in the surah. The isolated layer-2 writer
-cannot know that. The combined Layer 3 + 2.5 pass consumes the reviewed system
-and adds its maturity-bounded increment without rewriting the local reading into
-a thesis slice.
+A **surah-wide system** is different. It says how recurring semantic operations
+make several ayahs explain one another and change the reading of the assembly.
+The isolated Layer-2 writer cannot know that. Layer 3 consumes the unchanged
+Layer-2 outputs alongside available network, V12, and V11 evidence. It writes a
+separate surah reading and does not rewrite or overlay the ayah prose.
 
-Layer 2 may **not** carry the surah's thesis or name a recurring surah channel.
-The distinction is testable: a local surprise is fully anchored in this ayah;
-a channel increment depends on members already encountered elsewhere; a thesis
-is visible only from the assembly.
-
-Disclosure rules and the interim state: `docs/CHANNELS.md` §3 and §3.1.
+Layer 2 may **not** carry the surah's architecture or name a recurring
+surah-wide system. The distinction is testable: a local surprise is fully
+anchored in this ayah; a Layer-3 system depends on explanatory recurrence across
+multiple ayahs.
 
 ---
 
@@ -180,28 +182,23 @@ or the word does in plain target language, then name the construction that does
 it, within the same sentence. It should not make the reader cross a technical
 threshold before knowing what is happening.
 
-The combined Layer 3 + 2.5 lane additionally emits:
+Layer 3 emits:
 
-- **thesis** — one sentence;
-- **reviewed channel plan** — stable channel/member IDs, exact lexical anchors,
-  focus-ayah and whole-surah effects, and reviewed maturity in reading order,
-  compiled from the upstream reviewed channels;
-- **exclusions** — activated readings the thesis could not carry, recorded
-  against Layer 2's already-preserved full field. They do not trigger a
-  thesis-aware rewrite of the cold ayah prose.
+- **system candidates** — recall-first discovery, not reader prose;
+- **system ledger** — reviewed operations, safe claim forms, prohibited rejected
+  predications, and explicit before/after reader shifts;
+- **surah reading** — continuous reader prose, not a summary or ayah catalogue;
+- **paragraph evidence** — separate mapping from the prose to packet evidence;
+- **friction** — missing evidence and production limitations.
 
-The same pass emits structured ayah overlays whose insertion points refer to the
-unchanged Layer-2 prose. The channel plan and overlays share member IDs and
-maturity, so the completed prose and gradual disclosure are designed together.
-Schemas:
-`schemas/surah-channel-plan-v1.schema.json` and
-`schemas/ayah-channel-overlays-v1.schema.json`.
+Contracts and schemas are under `_channel/layer3/`.
 
 ---
 
 ## 6. Input bundle
 
-One bundle per ayah; a surah bundle is the ordered set of its ayah bundles plus
-surah-scope material. Built by `scripts/build_bundle.py`; shape in
-`bundles/schema.json`; sources, formats, gotchas, and the coverage requirement in
-[`docs/SOURCES.md`](docs/SOURCES.md).
+Layer 2 continues to use one bundle per ayah. Layer 3 builds a separate hermetic
+source packet from Quran text, the completed Layer-2 prose/evidence, and whatever
+network-v3, V12, and V11 sources are available. Missing optional source families
+are warnings, not build failures. See
+[`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md).

@@ -70,30 +70,32 @@ supports the primary reading or shifts its frame.
 Layer 2 does not select. It carries the full field, including readings no thesis
 could use.
 
-### Layer 3 — the whole image (`_surah_commentary/`)
+### Layer 3 — the whole image (`_channel/layer3/`)
 
-What the surah is doing as an assembly: its argument, its channels, and how each
-ayah and each particular word feeds them.
+What becomes visible only when the surah is read as an assembly: the recurring
+semantic operations through which distant ayahs explain one another.
 
 S100 is the case that requires this layer to exist. Under the primary reading the
 running horses have nothing to do with the rest of the surah. Only the resonances
 attach them — and that attachment is a surprise, which is the point.
 
-Layer 3 selects. A thesis excludes, and its exclusion artifact is checked
-against the full field Layer 2 already preserved. Layer 2 is not rerun with
-knowledge of the thesis.
+The active workflow is
+[`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md). It runs
+three hermetic passes:
 
-## The layer 2 / layer 3 problem
+1. recall-first discovery of cross-ayah systems;
+2. claim-scoped review, including safe reuse of material beneath weak or
+   rejected predications;
+3. composition for a reader with no Arabic or linguistic knowledge.
 
-Layer 3 is where disorientation risk peaks: a full channel argument delivered
-cold will unmoor a reader with no Arabic.
+The result is not a summary and does not proceed ayah by ayah. It begins inside
+the primary reading and produces a small number of "aha" shifts. The evidence
+packet may include Layer-2 prose/evidence, network-v3, V12, and V11. Missing
+network-v3, V12, or V11 inputs produce warnings but do not stop the run.
 
-The mechanism that solves it is specified in
-[`docs/CHANNELS.md`](docs/CHANNELS.md). Layer 2 makes each grounded local
-surprise explicit through *this ayah's own word*. The combined Layer 3 + 2.5
-lane then renders already-reviewed surah channels and returns only their
-maturity-bounded increments to the ayah sequence. Local surprise and
-surah-wide channel remain distinct, and the cold Layer-2 prose is unchanged.
+The retired root-level `_channel` prompt/plan and the old Layer 2.5 overlay lane
+are retained only for historical reproducibility. They are not inputs to the
+active workflow.
 
 ## Layout
 
@@ -105,16 +107,15 @@ STATUS.md             per-surah coverage
 docs/                 sources, available data, channels, open questions
 scripts/              shared bundle builder for both commentary levels
 bundles/              generated commentary input bundles
-_commentary/          hermetic prompts and outputs for Layers 2, 3, review, 2.5
+_commentary/          hermetic Layer-2 prompts and authored ayah outputs
 _translation/         layer 1 — the spine
 _ayah_commentary/v1/  layer 2 — function and resonance, per ayah
-  _surah_commentary/    legacy separate layer-3 task
-  _channel/             combined layer 3 + 2.5 — prose, maturity, and overlays
-  _channel_review/      legacy review task for older draft plans
-  _channel_integration/ legacy separate layer-2.5 task
-  _surah_final/         legacy final reconciliation task
-schemas/              channel-plan and overlay contracts
-_surah_commentary/    layer 3 — the whole image
+_channel/layer3/      active layer 3 — surah-wide resonance systems
+_channel/*.md         retired combined layer 3 + 2.5 experiment
+_channel_review/      retired review experiment
+_channel_integration/ retired layer-2.5 experiment
+_surah_commentary/    retired separate layer-3 experiment
+_surah_final/         retired final reconciliation experiment
 _words/               not started
 _curriculum/          not started
 _audio/               not started
@@ -130,9 +131,11 @@ they are planned, not because they exist.
 - Running layer 1: [`_translation/v1/README.md`](_translation/v1/README.md).
 - Running ayah commentary Layer 2: [`_ayah_commentary/v1/`](_ayah_commentary/v1/)
   is the active authoring path. [`_commentary/ORCHESTRATION.md`](_commentary/ORCHESTRATION.md)
-  remains the run contract for existing commentary prompts and agent-authored outputs;
+  remains the run contract for existing ayah prompts and agent-authored outputs;
   [`scripts/README.md`](scripts/README.md) documents the bundle builder behind
   those prompts.
+- Running surah commentary Layer 3:
+  [`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md).
 - What evidence exists: [`docs/SOURCES.md`](docs/SOURCES.md) for paths and
   formats, [`docs/DATA_AVAILABILITY.md`](docs/DATA_AVAILABILITY.md) for coverage.
 

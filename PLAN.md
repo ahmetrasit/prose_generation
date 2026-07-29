@@ -6,6 +6,10 @@ Last updated 2026-07-28. Rules in [`PRINCIPLES.md`](PRINCIPLES.md), per-surah
 state in [`STATUS.md`](STATUS.md), channel rules in
 [`docs/CHANNELS.md`](docs/CHANNELS.md).
 
+> **Layer 3 update:** the combined channel/overlay plan below is retained as
+> historical planning. Active Layer 3 work now follows
+> [`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md).
+
 ---
 
 ## Decisions taken (2026-07-27)

@@ -1,5 +1,10 @@
 # Commentary orchestration
 
+> **Layer 3 retirement notice:** this document remains the run contract for
+> existing ayah-level inputs and outputs. Its combined Layer 3 + 2.5 stages are
+> retired. New surah-wide work uses
+> [`../_channel/layer3/ORCHESTRATION.md`](../_channel/layer3/ORCHESTRATION.md).
+
 How to produce commentary for any ayah or any surah, in any target language,
 from a cold start. One file covers all passes because they are dependent: the
 combined Layer 3 + 2.5 pass consumes cold Layer-2 prose and the reviewed channel
