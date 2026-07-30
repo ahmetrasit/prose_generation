@@ -409,20 +409,23 @@ def scope_branch_inventories_to_ayah(branch_inventories: list, qac_rows: list,
             "applied": True,
             "roots_total": len(branch_inventories),
             "roots_retained": 0,
-            "roots_dropped": len(branch_inventories),
+            "roots_dropped": len(dropped_roots),
             "retained": [],
-            "dropped_roots": [entry.get("root") for entry in branch_inventories],
+            "dropped_roots": dropped_roots,
             "ayah_roots_from_qac": [],
             "channel_citations_found": len(raw_tokens),
-            "citations_unresolvable_in_surah_inventory": [],
+            "citations_unresolvable_in_surah_inventory": sorted(
+                [f"{k}:{b}" for k in set(cited_ar) - matched_cite_ar for b in sorted(cited_ar[k])] +
+                [f"{k}:{b}" for k in set(cited_id) - matched_cite_id for b in sorted(cited_id[k])]
+            ),
             "note": (
-                "SCOPED TO EMPTY FOR ROOTLESS AYAH. QAC records no rooted "
-                "morphemes for this ayah, so the surah-scope fallback branch "
-                "inventory has no local root to retain. This is distinct from "
-                "a missing branch-inventory source."
+                "SCOPED, NOT ABSENT. This ayah has QAC morpheme rows but no "
+                "lexical roots, so the surah-scope branch inventory has no "
+                "ayah root to retain. The empty scoped inventory is deliberate "
+                "for rootless units such as muqatta'at, not a missing source."
             ),
         }
-        return [], report
+        return retained, report
 
     if not retained:
         raise RequiredSourceMissing(
