@@ -20,19 +20,27 @@ see [`DATA_AVAILABILITY.md`](DATA_AVAILABILITY.md).
 | word analysis | `quran-data/data/analysis/word-analysis/s{NNN}.jsonl.zst` | zstd JSONL, one record per ayah, `schema_version: word-analysis-output-v2`. Each record has `words[]` with `aligned_qac_word_ref`, `root_display`, `gloss_range`, `prose`, `topics[]`. Topic `status` is `used` or `narrowed`; `narrowed` is the non-disambiguating marker. |
 | QAC morphology | `quran-data/data/morphology/qac.sqlite.gz` | gzip'd sqlite. Table `qac_morphemes`; cols include `qac_ref`, `qac_word_ref`, `surah`, `ayah`, `word_index`, `morpheme_index`, `root_join_key`, `root_ar`, `pos`, `morph_features`. Empty `root_join_key` means no root. |
 | Furuq / V4 lexicon | `quran-data/data/lexicon/furuq.sqlite.zst`, `v4.sqlite.gz` | Both are `lexicon-build` sqlite with identical tables (`roots`, `branch_images`, `dictionary_entries`, `lexical_unit_senses`). **Furuq is the successor and superset**: v4 (2026-06-30, 1,700 roots) was imported into furuq (2026-07-07, 3,470 roots). Use furuq. |
-| QAC↔V4 bridge | `quran-data/data/bridges/qac-v4.sqlite.gz` | Table `qac_v4_form_bridge`: morpheme ref → V4 form handle, with `match_status` (unique/ambiguous/unmatched/no_v4_forms), `confidence`, `downstream_usable`. |
+| QAC↔V4 form bridge | `quran-data/data/bridges/qac-v4.sqlite.gz` | Form-level table `qac_v4_form_bridge`: morpheme ref → V4 form handle, with `match_status` (unique/ambiguous/unmatched/no_v4_forms), `confidence`, `downstream_usable`. Do not use this for root identity. |
+| QAC↔Furuq root bridge | `quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz` | Root-level bridge used by `scripts/build_bundle.py` and `../latent_activation/focus_trace`. Views include `qac_to_furuq`; split QAC roots map to multiple Furuq `root_id` values, all of which must be preserved. |
 | grammar attachments | `quran-data/data/grammar/attachments/attachments.tsv` | **ayah-keyed and joinable**: `sura`, `ayah`, `relation`, `status`, `confidence`. 11 rows for S103. Records syntactic dependencies — e.g. `وَ` as oath particle governing `العصر` at `status=syntactically_forced`. |
 | grammar contextual | `quran-data/data/grammar/contextual/*_v2.tsv` | **root/form-keyed aggregate statistics** (narration ratio, imperative ratio, …), *not* ayah-scoped. **Do not join by ayah.** |
 
-## 2. Activation (`latent_activation`)
+## 2. Activation Artifacts
+
+Stable v12 activation artifacts are read from frozen `quran-data` copies. New
+Hermetic Focus Trace outputs are generated in the sibling `latent_activation`
+checkout and then consumed optionally by this repo.
 
 | source | path | format notes |
 | --- | --- | --- |
-| v12 surah packet | `latent_activation/v12/runs/s{NNN}/full_context_packet.json` | **Exists for all 114 surahs.** Carries `branch_inventories` (same structure as the focus packets) plus `missing_branch_inventories`. Scope is the whole surah's roots, unstaged. This is the branch source for every surah without a focus run. |
-| v12 input packets | `latent_activation/v12/runs/s{NNN}/focus_{S}_{A}/stage_{NN}_*.json` | Same `branch_inventories` structure, but scoped to the focus ayah's own roots at stage 0 and staged by reveal order. **Exists for 6 ayahs corpus-wide** — see §5. |
-| v12 reader responses | `latent_activation/v12/runs/s{NNN}/focus_{S}_{A}/responses/reader_{x}/stage_{NN}.json` | **Usually absent.** Each has `models[]` with `model_id`, `status`, `confidence`, `mechanism`, `activation_trace[]`, `structural_cues[]`, `abductive_moves[]`, `changed_reading{before,after}`, `minimal_triggers[]`, `ablation`. |
-| v12 reader walks | `latent_activation/v12/runs/s{NNN}/full_context_control/reader_s{NNN}_{a,b}_ayah_walk.md` | Markdown. Per ayah: numbered *Activated readings* with lexical evidence and `Reading change:`, then *Retrospective surprises*. **Highest-value latent source; do not skip.** |
-| whole-surah reading | `latent_activation/v12/runs/s{NNN}/full_context_control/{NNN}-0-{N}-butuncul-okuma.md` | Turkish. Per-ayah primary reading plus context expansion, with branch citations. |
+| v12 surah packet | `quran-data/data/analysis/ayah-activation/v12-tr/s{NNN}/full_context_packet.json` | **Exists for all 114 surahs.** Carries `branch_inventories` plus `missing_branch_inventories`. Scope is the whole surah's roots, unstaged. This is the required branch source for the current default lane. |
+| retired v12 input packets | `quran-data/data/analysis/ayah-activation/v12-tr/s{NNN}/focus_{S}_{A}/stage_{NN}_*.json` | Same `branch_inventories` structure, but scoped to the focus ayah's own roots at stage 0 and staged by reveal order. **Exists for 6 ayahs corpus-wide** — see §5. |
+| retired v12 reader responses | `quran-data/data/analysis/ayah-activation/v12-tr/s{NNN}/focus_{S}_{A}/responses/reader_{x}/stage_{NN}.json` | **Retired from the default lane and usually absent.** Each has `models[]` with `model_id`, `status`, `confidence`, `mechanism`, `activation_trace[]`, `structural_cues[]`, `abductive_moves[]`, `changed_reading{before,after}`, `minimal_triggers[]`, `ablation`. |
+| Hermetic Focus Trace | `latent_activation/focus_trace/runs/s{NNN}/packets/{S}_{A}.packet.json`; `latent_activation/focus_trace/runs/s{NNN}/readers/{reader_id}/{S}_{A}.focus_trace.json` | New one-call reconstructed focus workflow. Packets are generated upstream in `latent_activation`, not `quran-data`. Responses enter bundles under `v12_focus_trace_hermetic` with `baseline_models`, `context_deltas`, and `surprising_valid_outliers`. Packets use `qac-furuq-v4-root-map.sqlite.gz`; split roots preserve `mapped_root_id` with `branch_id`. |
+| v12 reader walks | `quran-data/data/analysis/ayah-activation/v12-tr/s{NNN}/full_context_control/reader_s{NNN}_{a,b}_ayah_walk.md` | Markdown. Per ayah: numbered *Activated readings* with lexical evidence and `Reading change:`, then *Retrospective surprises*. **Highest-value whole-surah reader source; do not skip.** |
+| v12 plus/minus-5 reader walks | `quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s{NNN}/full_context_control/reader_s{NNN}_{a,b}_ayah_walk.md` | Markdown in the same ayah-walk shape, generated with wider local context. Bundled separately as `v12_reader_walks_wide`. |
+| v12 cross-run publication | `quran-data/data/analysis/ayah-activation/v12-cross-run/tr/{S}_ayah_findings_publication.json` | Compact reconciled findings derived from regular and plus/minus-5 reader walks. Use as coverage/priority check, not prose to copy. |
+| whole-surah reading | `quran-data/data/analysis/ayah-activation/v12-tr/s{NNN}/full_context_control/{NNN}-0-{N}-butuncul-okuma.md` | Turkish. Per-ayah primary reading plus context expansion, with branch citations. |
 
 ## 3. Channels (`latent_activation/network/v3`)
 
@@ -113,11 +121,17 @@ So the staged before/after trajectory — `stage_00` in isolation through
 Absence is the rule; treat its presence as a bonus, not a section every ayah
 commentary is expected to have.
 
-**Branch inventories fall back to surah scope.** Because focus runs are rare,
-`scripts/build_bundle.py` reads `full_context_packet.json` when no focus dir
-exists, and records `coverage.branch_inventories.scope = "surah"` plus a note.
-The scope difference is real: surah-wide roots rather than this ayah's roots,
-and no staged reveal order.
+**Branch inventories are scoped from surah packets.** Retired focus runs are no
+longer the production branch lane. `scripts/build_bundle.py` reads the frozen
+`full_context_packet.json`, scopes it to this ayah's roots and anchored channel
+citations, and records `coverage.branch_inventories.scope = "surah_fallback"`.
+There is no staged reveal order in that inventory.
+
+**Hermetic Focus Trace is optional generated evidence.** A focus-trace packet can
+exist before any model response. In that state the bundle records
+`coverage.v12_focus_trace_hermetic.packet_present: true` and
+`present: false`; once reader JSON exists, responses are loaded under
+`v12_focus_trace_hermetic.readers`.
 
 **Whole-surah reading filenames are inconsistently zero-padded.** S103 is
 `103-0-3-butuncul-okuma.md` but S1 is `1-0-7-...` and S87–S99 are unpadded too.
@@ -154,19 +168,27 @@ must be able to state (`PRINCIPLES.md` §7).
 morphemes, and every variant's stage_00 branch-inventory packet are structurally
 expected for every canonical numbered ayah; their absence aborts the build.
 
-**Degrade gracefully on optional sources.** v12 reader responses, a reader's
-ayah-walk entry, the whole-surah reading line, and the inter-ayah TSV are
-recorded as `present: false` with a note; the run continues.
+**Degrade gracefully on optional sources.** retired v12 reader responses,
+Hermetic Focus Trace responses, reader-walk entries, the whole-surah reading
+line, cross-run publication rows, channel review/output manifests, pericopes,
+and inter-ayah TSVs are recorded as `present: false` with a note; the run
+continues.
 
 ---
 
 ## 8. Not currently bundled
 
-Furuq/V4 lexicon, the QAC↔V4 bridge, and grammar attachments/contextual are
-documented above but **not** carried in the commentary bundle, by scope decision:
-branch data is sourced from v12 packets (themselves built from furuq's
-`branch_images`), and grammar attachments are already folded into word-analysis
-`prose`/`topics[]` through `evidence_checked` tags.
+The full Furuq/V4 sqlite, the QAC↔V4 form bridge, and grammar
+attachments/contextual are documented above but **not** carried wholesale in the
+commentary bundle, by scope decision. Branch data is sourced from v12 packets
+and focus-trace responses; the root-level QAC↔Furuq bridge is used to join
+`root_lexicon` and focus-trace branch identities but is represented only through
+the mapped target metadata the bundle needs. For split roots, `root_lexicon`
+lists all mapped `root_id` values in coverage and inlines the dominant target's
+dictionary/gloss payload; secondary branch images and activations enter through
+Hermetic Focus Trace so prompts do not duplicate large lexical envelopes.
+Grammar attachments are already folded into word-analysis `prose`/`topics[]`
+through `evidence_checked` tags.
 
 Revisit if a writer needs branch `status` or bridge `match_status` directly, or
 if channel work needs review-status branches.
