@@ -1,0 +1,1955 @@
+{
+  "bundle_type": "ayah",
+  "schema_version": "input-bundle-v3",
+  "generated_at": "2026-07-30T16:19:30.847583+00:00",
+  "surah": 41,
+  "ayah": 1,
+  "ayahRef": "41:1",
+  "text": {
+    "arabic_uthmani": "حمٓ",
+    "source": "quran-data/data/text/quran-uthmani.tsv"
+  },
+  "qac_morphemes": [
+    {
+      "qac_ref": "41:1:1:1",
+      "qac_word_ref": "41:1:1",
+      "surah": 41,
+      "ayah": 1,
+      "word_index": 1,
+      "morpheme_index": 1,
+      "surface_bw": "Hm^",
+      "surface_ar": "حمٓ",
+      "stem_ar": "حمٓ",
+      "lemma_bw": "",
+      "lemma_ar": "",
+      "root_raw": "",
+      "root_ar": "",
+      "root_join_key": "",
+      "source_pos": "INL",
+      "pos": "INL",
+      "morpheme_role": "STEM",
+      "morph_features": "STEM|POS:INL",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 101850,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    }
+  ],
+  "word_analysis": {
+    "schema_version": "word-analysis-output-v2",
+    "prompt_version": "word-aha-prose-v1.6",
+    "ref": "41:1",
+    "bundle_id": "word-analysis-input-v1:agent:41:1",
+    "words": [
+      {
+        "critical_w": 1,
+        "aligned_qac_word_ref": "41:1:1",
+        "surface_display": "{{ar:حمٓ}} ({{tr:ḥā mīm}})",
+        "root_display": "no lexical root",
+        "gloss_range": "complete non-clausal two-letter opener: pronounceable, untranslated, rootless, and meaningful through script, ordered recitation, opacity, and threshold function rather than lexical predication",
+        "root_gloss_range": null,
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "41:1:1"
+            ],
+            "ar": "ح",
+            "tr": "ḥāʾ",
+            "display": "{{ar:ح}} ({{tr:ḥāʾ}})",
+            "gloss_range": "first letter-name in the opener; the sound begins from the throat",
+            "relation": "nearby_term"
+          },
+          {
+            "id": "s2",
+            "word_refs": [
+              "41:1:1"
+            ],
+            "ar": "م",
+            "tr": "mīm",
+            "display": "{{ar:م}} ({{tr:mīm}})",
+            "gloss_range": "second letter-name in the opener; nasal-labial closure at the sequence end",
+            "relation": "nearby_term"
+          }
+        ],
+        "prose": "{{ar:حمٓ}} ({{tr:ḥā mīm}}) is a complete ayah without verb, predicate, object, case government, or agreement; its completeness comes from being recited as a sign, so no supplied clause is needed. Its meaning is not a root gloss or a paraphrasable noun: the reader first receives visible script, ordered letter-names, sound, and controlled opacity. Because the opener has no triliteral root, analysis follows letter order, written compactness, recited expansion, and recognition rather than derivational tafsir. The single written unit contains an audible pair, and pausal recitation can make that pair more sharply separated without adding lexical meaning. It also belongs to the recognizable opening series at 40:1, 42:1, and 43:1-46:1; here at 41:1 it makes a threshold before explanatory discourse begins in 41:2. As a whole ayah made of one word, it both starts and closes the verse in one beat, replacing clause architecture with boundary architecture. Its sound path moves from throat opening to nasal-labial closure, and the final letter-name repeats its nasal m-sound at both edges, making the endpoint feel like an audible seal. The main payoff is the convergence: syntax refuses a clause, recurrence marks the portal, script and sound carry recognition, and recitation can let the listener hear the two-part threshold.",
+        "topics": [
+          {
+            "topic_id": "41:1:1:non-clausal-completeness",
+            "status": "used",
+            "headline": "complete without clause syntax",
+            "representative_source_ids": [
+              "QG-47af065b",
+              "QG-62ad90d5",
+              "QT-14002a2c"
+            ],
+            "reader_payoff": "The reader sees the ayah as complete by recited sign-status, not as an unfinished clause requiring an omitted predicate.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:grammar",
+              "attachment:translation_support"
+            ],
+            "reason": "The aligned QAC row labels the item as OTHER/ACRON with no inflection, case government, or verbal predication, and translation support warns against expanding the compressed surface into explanatory wording."
+          },
+          {
+            "topic_id": "41:1:1:recited-opaque-meaning",
+            "status": "used",
+            "headline": "meaning through recited opacity",
+            "representative_source_ids": [
+              "QS-057360f3",
+              "QS-4ac81544",
+              "QS-c2c944f9"
+            ],
+            "reader_payoff": "The reader notices that the opener is meaningful as seen and sounded recognition before it becomes paraphrasable vocabulary.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:source_particle",
+              "attachment:translation_support"
+            ],
+            "reason": "The local surface is a recited letter-name unit, while the guardrail evidence supports preserving compression rather than assigning an ordinary lexical paraphrase."
+          },
+          {
+            "topic_id": "41:1:1:no-root-derivation",
+            "status": "used",
+            "headline": "no root-derived tafsir",
+            "representative_source_ids": [
+              "QF-20b1322e",
+              "MF-6f716fb3"
+            ],
+            "reader_payoff": "The reader knows not to hunt for a triliteral root sense behind this opener; the analyzable material is form, order, and recitation.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:root_empty",
+              "v4:missing_root_not_negative"
+            ],
+            "reason": "The aligned word has no supplied root or form tag, so root-family claims would be imported rather than locally licensed."
+          },
+          {
+            "topic_id": "41:1:1:compact-script-audible-pair",
+            "status": "used",
+            "headline": "one written unit expands in recitation",
+            "representative_source_ids": [
+              "QF-8386bf7d",
+              "QF-9bc61971",
+              "QP-9883209e"
+            ],
+            "reader_payoff": "The reader notices the tension between one compact written unit and the fuller audible pair produced in recitation.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:single_word_row",
+              "attachment:translation_support"
+            ],
+            "reason": "The QAC alignment treats the whole ayah as one word, while the CRITICAL rows coherently press the surface's two-letter recited composition."
+          },
+          {
+            "topic_id": "41:1:1:waqf-separation",
+            "status": "narrowed",
+            "headline": "pausal separation as recitation texture",
+            "representative_source_ids": [
+              "QF-6c52205b",
+              "MF-7b313832",
+              "QP-99b640ca"
+            ],
+            "reader_payoff": "The reader can hear how pause may sharpen the two-part threshold while leaving the textual unit and meaning unchanged.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:single_surface",
+              "critical:qiraat_waqf"
+            ],
+            "reason": "The waqf material is useful as recitational texture, but it should not be made into a separate lexical sense or a replacement for the aligned local surface."
+          },
+          {
+            "topic_id": "41:1:1:opening-series-threshold",
+            "status": "used",
+            "headline": "recognized opening-series threshold",
+            "representative_source_ids": [
+              "QI-208abd55",
+              "QI-ffdfaa29",
+              "MI-01b1aecc"
+            ],
+            "reader_payoff": "The reader recognizes the opener as part of a Quranic opening series, so the surah begins with threshold recognition before explanation.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical:inter_ayah_recurrence",
+              "attachment:translation_support"
+            ],
+            "reason": "The CRITICAL evidence gives concrete recurrence at 40:1, 42:1, and 43:1-46:1, with 41:1 standing before the explanatory turn in 41:2."
+          },
+          {
+            "topic_id": "41:1:1:whole-ayah-boundary",
+            "status": "used",
+            "headline": "one beat as boundary architecture",
+            "representative_source_ids": [
+              "QT-7db5cd60",
+              "QT-a9040cb6",
+              "MT-b7d7fe9e"
+            ],
+            "reader_payoff": "The reader feels the verse as a one-beat boundary: the same non-clausal unit launches, lands, and closes before ordinary discourse begins.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:single_word_row",
+              "qac:grammar"
+            ],
+            "reason": "The input has one QAC word for the whole ayah and no clause-level attachments, supporting a boundary reading rather than a hidden syntactic architecture."
+          },
+          {
+            "topic_id": "41:1:1:functional-sound-reprise",
+            "status": "used",
+            "headline": "matched non-lexical sound function",
+            "representative_source_ids": [
+              "QE-0a937de5",
+              "QE-7db2d864"
+            ],
+            "reader_payoff": "The reader hears the pair as matched non-lexical letter-names, with the final name repeating its nasal m-sound at both edges to seal the sequence.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:source_particle",
+              "critical:local_sound_echo"
+            ],
+            "reason": "The two letters are distinct but share the same recited letter-name function, and the sound observation stays within the local acoustic form."
+          },
+          {
+            "topic_id": "41:1:1:articulation-path",
+            "status": "used",
+            "headline": "throat-to-lips articulation",
+            "representative_source_ids": [
+              "QP-940dfaf0",
+              "QP-bac70574",
+              "MP-4de8c461"
+            ],
+            "reader_payoff": "The reader notices that the first event is bodily recitation: the sound moves from throat opening toward nasal-labial closure before any predicative meaning appears.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical:phonetic_description",
+              "qac:non_predicative_surface"
+            ],
+            "reason": "Because no clause competes for attention, the CRITICAL phonetic contrast can survive as a local sound payoff without becoming a lexical claim."
+          },
+          {
+            "topic_id": "41:1:1:converging-threshold",
+            "status": "used",
+            "headline": "several surfaces stack",
+            "representative_source_ids": [
+              "QY-7dbc93af",
+              "QY-ad10492a"
+            ],
+            "reader_payoff": "The reader sees that the ayah's completeness comes from converging surfaces: non-clausal grammar, series recognition, visible script, recited sound, opacity, and possible pausal separability.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:grammar",
+              "attachment:translation_support",
+              "critical:synthesis"
+            ],
+            "reason": "The synthesis rows do not add an unrelated claim; they correctly gather the surviving grammatical, formal, recitational, and inter-ayah payoffs."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-47af065b",
+            "topic_id": "41:1:1:non-clausal-completeness",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-62ad90d5",
+            "topic_id": "41:1:1:non-clausal-completeness",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-af098ced",
+            "topic_id": "41:1:1:non-clausal-completeness",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-efd50d98",
+            "topic_id": "41:1:1:non-clausal-completeness",
+            "status": "used"
+          },
+          {
+            "row_id": "MG-56c49036",
+            "topic_id": "41:1:1:non-clausal-completeness",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-057360f3",
+            "topic_id": "41:1:1:recited-opaque-meaning",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-4ac81544",
+            "topic_id": "41:1:1:recited-opaque-meaning",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-51b8c61a",
+            "topic_id": "41:1:1:recited-opaque-meaning",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-c2c944f9",
+            "topic_id": "41:1:1:recited-opaque-meaning",
+            "status": "used"
+          },
+          {
+            "row_id": "MS-a9505aeb",
+            "topic_id": "41:1:1:recited-opaque-meaning",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-20b1322e",
+            "topic_id": "41:1:1:no-root-derivation",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-6c52205b",
+            "topic_id": "41:1:1:waqf-separation",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-8386bf7d",
+            "topic_id": "41:1:1:compact-script-audible-pair",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-9bc61971",
+            "topic_id": "41:1:1:compact-script-audible-pair",
+            "status": "used"
+          },
+          {
+            "row_id": "MF-6f716fb3",
+            "topic_id": "41:1:1:no-root-derivation",
+            "status": "used"
+          },
+          {
+            "row_id": "MF-7b313832",
+            "topic_id": "41:1:1:waqf-separation",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QI-208abd55",
+            "topic_id": "41:1:1:opening-series-threshold",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-cfe11004",
+            "topic_id": "41:1:1:opening-series-threshold",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-ffdfaa29",
+            "topic_id": "41:1:1:opening-series-threshold",
+            "status": "used"
+          },
+          {
+            "row_id": "MI-01b1aecc",
+            "topic_id": "41:1:1:opening-series-threshold",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-14002a2c",
+            "topic_id": "41:1:1:non-clausal-completeness",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-5059b0ab",
+            "topic_id": "41:1:1:opening-series-threshold",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-7db5cd60",
+            "topic_id": "41:1:1:whole-ayah-boundary",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-a9040cb6",
+            "topic_id": "41:1:1:whole-ayah-boundary",
+            "status": "used"
+          },
+          {
+            "row_id": "MT-b7d7fe9e",
+            "topic_id": "41:1:1:whole-ayah-boundary",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-0a937de5",
+            "topic_id": "41:1:1:functional-sound-reprise",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-7db2d864",
+            "topic_id": "41:1:1:functional-sound-reprise",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-940dfaf0",
+            "topic_id": "41:1:1:articulation-path",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-9883209e",
+            "topic_id": "41:1:1:compact-script-audible-pair",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-99b640ca",
+            "topic_id": "41:1:1:waqf-separation",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QP-bac70574",
+            "topic_id": "41:1:1:articulation-path",
+            "status": "used"
+          },
+          {
+            "row_id": "MP-4de8c461",
+            "topic_id": "41:1:1:articulation-path",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-7dbc93af",
+            "topic_id": "41:1:1:converging-threshold",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-ad10492a",
+            "topic_id": "41:1:1:converging-threshold",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      }
+    ]
+  },
+  "word_morpheme_spans": [
+    null
+  ],
+  "branch_inventories": {
+    "full_context_packet": {
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s041/full_context_packet.json",
+      "branch_inventories": []
+    }
+  },
+  "v12_reader_responses": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s41/packets/41_1.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "41:1",
+      "window": [
+        "41:1",
+        "41:2",
+        "41:3",
+        "41:4",
+        "41:5",
+        "41:6",
+        "41:7",
+        "41:8",
+        "41:9",
+        "41:10",
+        "41:11",
+        "41:12",
+        "41:13",
+        "41:14",
+        "41:15",
+        "41:16",
+        "41:17",
+        "41:18",
+        "41:19",
+        "41:20",
+        "41:21",
+        "41:22",
+        "41:23",
+        "41:24",
+        "41:25",
+        "41:26",
+        "41:27",
+        "41:28",
+        "41:29",
+        "41:30",
+        "41:31",
+        "41:32",
+        "41:33",
+        "41:34",
+        "41:35",
+        "41:36",
+        "41:37",
+        "41:38",
+        "41:39",
+        "41:40",
+        "41:41",
+        "41:42",
+        "41:43",
+        "41:44",
+        "41:45",
+        "41:46",
+        "41:47",
+        "41:48",
+        "41:49",
+        "41:50",
+        "41:51",
+        "41:52",
+        "41:53",
+        "41:54"
+      ],
+      "ayah_count": 54,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "41:1",
+        "trace_kind": "reconstructed",
+        "rootless_focus": true,
+        "baseline_models": [
+          {
+            "model_id": "B1_recitative_threshold",
+            "confidence": "strong",
+            "focus_anchor": "حمٓ as two separately sounded letter names in a standalone, rootless ayah.",
+            "mechanism": "With no lexical syntax to parse, the ayah shifts the first act from extracting a proposition to voicing discrete signs and attending to their arrival.",
+            "activation_trace": [],
+            "changed_reading": {
+              "before": "An opaque label placed before the message.",
+              "after": "A performative threshold in which sounding and attending precede lexical understanding."
+            }
+          },
+          {
+            "model_id": "B2_alphabetic_material",
+            "confidence": "medium",
+            "focus_anchor": "The visible sequence ح then م, without a rooted morpheme or clause.",
+            "mechanism": "Two bare graphemes foreground the elemental material from which rooted words and sentences can be assembled while withholding any fixed expansion.",
+            "activation_trace": [],
+            "changed_reading": {
+              "before": "An abbreviation whose missing phrase should be guessed.",
+              "after": "Underdetermined alphabetic material whose exposed form is meaningful before any supplied lexical decoding."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "D1_descent_to_articulation",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ز ل",
+              "ك ت ب",
+              "ف ص ل",
+              "ق ر ء",
+              "ع ر ب"
+            ],
+            "mechanism": "The bare sound-pair becomes the threshold of a controlled material sequence: conveyed descent, letters joined as writing, parts differentiated, the result voiced as recitation, and meaning made linguistically explicit.",
+            "activation_trace": [
+              {
+                "source_ref": "41:2",
+                "root": "ن ز ل",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001492",
+                "branch_id": "B002",
+                "role": "Conveyed descent supplies the movement by which an unexplained opening sound arrives as discourse."
+              },
+              {
+                "source_ref": "41:3",
+                "root": "ك ت ب",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001283",
+                "branch_id": "B002",
+                "role": "Ordered letters and the written product turn the isolated pair into the pre-compositional edge of a book."
+              },
+              {
+                "source_ref": "41:3",
+                "root": "ف ص ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_001159",
+                "branch_id": "B013",
+                "role": "Differentiation into disclosed parts and meanings expands the compressed opener without pretending to decode it."
+              },
+              {
+                "source_ref": "41:3",
+                "root": "ق ر ء",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001210",
+                "branch_id": "B002",
+                "role": "Voiced reading makes the opener's acoustic performance continuous with the recited book."
+              },
+              {
+                "source_ref": "41:3",
+                "root": "ع ر ب",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000996",
+                "branch_id": "B001",
+                "role": "Explicit expression provides the articulated endpoint against which the opener's initial underdetermination can function."
+              }
+            ],
+            "structural_cues": [
+              "The standalone rootless ayah is immediately followed by a nominal descent formula and then by a book described through detail, recitation, and linguistic explicitness.",
+              "The sequence expands from two bare signs into an articulated textual whole without ever assigning the signs a lexical gloss."
+            ],
+            "reader_inference": "The packet supplies delivery, writing, differentiation, recitation, and explicitness; I infer a condensation-to-articulation arrow from 41:1 into 41:2-3. A live alternative is that the opener is an independent marker beside, rather than the first stage of, this chain.",
+            "changed_reading": {
+              "before": "A mysterious item before revelation begins.",
+              "after": "The compressed acoustic edge from which the surah stages revelation as descent, composition, differentiation, and recitation."
+            }
+          },
+          {
+            "model_id": "D2_reception_stress_test",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "س م ع",
+              "ح ج ب",
+              "ل غ و",
+              "ن د و"
+            ],
+            "mechanism": "Because the opener offers a minimal audible event before explanation, the surah's sequence of failed hearing, blocked access, deliberate counter-noise, and distance makes reception prior to interpretation diagnostically central.",
+            "activation_trace": [
+              {
+                "source_ref": "41:4",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B003",
+                "role": "Hearing as understanding and response turns the sounded opener into a test of uptake rather than bare audibility."
+              },
+              {
+                "source_ref": "41:5",
+                "root": "ح ج ب",
+                "source_word_indices": [
+                  "14"
+                ],
+                "mapped_root_id": "root_000294",
+                "branch_id": "B001",
+                "role": "Blocked access locates failure between signal and receiver, before any lexical solution to the opener."
+              },
+              {
+                "source_ref": "41:26",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B001",
+                "role": "The explicit refusal of auditory contact confirms that reception itself is being contested."
+              },
+              {
+                "source_ref": "41:26",
+                "root": "ل غ و",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001361",
+                "branch_id": "B003",
+                "role": "Mixed counter-noise supplies an active mechanism for drowning the recited signal before it can become intelligible."
+              },
+              {
+                "source_ref": "41:44",
+                "root": "ن د و",
+                "source_word_indices": [
+                  "27"
+                ],
+                "mapped_root_id": "root_001487",
+                "branch_id": "B002",
+                "role": "A voice attenuated by range and distance culminates the model of a signal rendered inaccessible by the receiver's position."
+              }
+            ],
+            "structural_cues": [
+              "The reception sequence progresses from not hearing, to an asserted barrier, to organized noise against the recitation, and finally to the image of being called from far away.",
+              "The focus ayah's lack of lexical content makes the hearer's stance visible before propositional agreement or disagreement can dominate."
+            ],
+            "reader_inference": "The packet supplies auditory uptake, obstruction, counter-noise, and distance; I infer that the minimal opening sound exposes receptivity before argument begins. The live alternative is that these later scenes concern the recitation generally and do not specially characterize 41:1.",
+            "changed_reading": {
+              "before": "Sound before meaning is only a formal peculiarity.",
+              "after": "Sound before meaning is a reception stress test: refusal can occur at the threshold, before semantic dispute."
+            }
+          },
+          {
+            "model_id": "D3_distributed_disclosure",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ء ي ي",
+              "ب ي ن",
+              "ح ق ق"
+            ],
+            "mechanism": "The opener's unresolved signhood is not repaired by an internal expansion; it is placed at the start of a surah-long disclosure process in which signs recur across text, world, and self until correspondence with truth becomes manifest.",
+            "activation_trace": [
+              {
+                "source_ref": "41:3",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "Manifest signs classify the detailed textual units that unfold immediately after the bare opening unit."
+              },
+              {
+                "source_ref": "41:53",
+                "root": "ء ي ي",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000074",
+                "branch_id": "B003",
+                "role": "Manifest signs distributed across outer and inner fields relocate resolution beyond the opener itself."
+              },
+              {
+                "source_ref": "41:53",
+                "root": "ب ي ن",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000170",
+                "branch_id": "B004",
+                "role": "Emergence into visibility supplies the delayed transition from initial opacity to disclosure."
+              },
+              {
+                "source_ref": "41:53",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Stable correspondence with reality gives the disclosure process an evidential endpoint rather than a guessed abbreviation."
+              }
+            ],
+            "structural_cues": [
+              "References to signs recur from the detailed textual signs near the opening through cosmic and terrestrial signs to signs in horizons and selves near the close.",
+              "The late purpose clause is eventual clarification, while no verse supplies a lexical expansion for the focus letters."
+            ],
+            "reader_inference": "The packet supplies an initially rootless unit, recurring signs, and eventual clarification as truth; I infer temporal deferral, with 41:1 opening an evidence process rather than encoding a recoverable phrase. The live alternative is that 41:53 verifies the revelation generally without making the opener itself part of that process.",
+            "changed_reading": {
+              "before": "The opening is a local riddle that should resolve inside itself.",
+              "after": "The opening is an unresolved first sign whose intelligibility is distributed forward across textual, cosmic, and inward evidence."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "O1_material_witness",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it maps bodily and cosmic testimony back onto alphabetic matter. It remains anchored in the focus's actually sounded graphemes and in the surah's repeated animation of things not ordinarily treated as speakers, but downstream prose should present it only as a formal-performative analogy, never as a claim that the letters literally testify.",
+            "focus_anchor": "The focus consists solely of visible marks made vocal, with no lexical speaker or proposition.",
+            "activation_trace": [
+              {
+                "source_ref": "41:11",
+                "root": "ق و ل",
+                "source_word_indices": [
+                  "7",
+                  "14"
+                ],
+                "mapped_root_id": "root_001272",
+                "branch_id": "B001",
+                "role": "Uttered command and reply give cosmic matter a speech exchange, widening what can bear a voice."
+              },
+              {
+                "source_ref": "41:20",
+                "root": "ج ل د",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000253",
+                "branch_id": "B001",
+                "role": "The body's outer covering becomes part of the witnessing apparatus, supplying a material surface that can carry disclosure."
+              },
+              {
+                "source_ref": "41:20",
+                "root": "ش ه د",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000822",
+                "branch_id": "B002",
+                "role": "Testimony grounded in knowledge turns bodily material from passive object into declarative evidence."
+              },
+              {
+                "source_ref": "41:21",
+                "root": "ن ط ق",
+                "source_word_indices": [
+                  "7",
+                  "10"
+                ],
+                "mapped_root_id": "root_001519",
+                "branch_id": "B002",
+                "role": "Caused, signifying speech supplies the activation by which otherwise mute material can disclose."
+              }
+            ],
+            "changed_reading": {
+              "before": "Two inert letter shapes awaiting a speaker's explanation.",
+              "after": "A first instance of matter made vocal, anticipating a world and body whose surfaces are later made to disclose."
+            }
+          },
+          {
+            "outlier_id": "O2_formal_enclosure_ring",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it follows an exact consonantal pair across unrelated roots and then uses its reversal in the final word. It remains formally anchored by the focus's adjacent ح-م, two later same-order lexical embeddings, and the terminal م-ح onset with an encompassing branch; downstream prose must call this a whole-surah graphic-phonetic resonance, not shared etymology, lexical decoding, or proof of design.",
+            "focus_anchor": "The focus exposes adjacent ح-م in that order as a complete ayah.",
+            "activation_trace": [
+              {
+                "source_ref": "41:34",
+                "root": "ح م م",
+                "source_word_indices": [
+                  "17"
+                ],
+                "mapped_root_id": "root_000001",
+                "branch_id": "B011",
+                "role": "A rooted adjective begins with the exact focus sequence and places that material pair inside intimate nearness."
+              },
+              {
+                "source_ref": "41:42",
+                "root": "ح م د",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_000355",
+                "branch_id": "B002",
+                "role": "The same initial pair enters a different rooted adjective of praiseworthiness at the close of the surah's repeated descent formula."
+              },
+              {
+                "source_ref": "41:54",
+                "root": "ح و ط",
+                "source_word_indices": [
+                  "12"
+                ],
+                "mapped_root_id": "root_000372",
+                "branch_id": "B004",
+                "role": "The last word begins with the reversed pair م-ح and contributes complete cognitive enclosure, giving the formal reversal a terminal framing role."
+              }
+            ],
+            "changed_reading": {
+              "before": "An isolated pair with no lexical assignment.",
+              "after": "A bare pair later embedded in divergent words and finally reversed at the onset of the enclosing last word, forming a tentative material ring from aperture to closure."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The immediate context turns the rootless sound-pair into the compressed threshold of a descent-to-articulation sequence.",
+            "The whole-surah hearing, barrier, noise, and distance sequence makes reception of the opening sound more central than immediate decoding.",
+            "The late signs-and-clarification sequence distributes resolution across text, world, and self rather than supplying a lexical expansion."
+          ],
+          "what_was_special": "Whole-surah context preserved a strong reception-and-disclosure reading while also exposing two containable formal outliers: mute material made vocal, and the ح-م pair entering later rooted words before reversing at the onset of the final encompassing word.",
+          "remaining_uncertainties": [
+            "The packet supplies no lexical expansion or etymology for the rootless focus.",
+            "The reception and disclosure arcs may characterize the recitation as a whole rather than 41:1 specifically.",
+            "The consonantal enclosure pattern may be coincidental and should remain exploratory."
+          ]
+        }
+      }
+    }
+  },
+  "v12_reader_walks": {},
+  "v12_reader_walks_wide": {},
+  "v12_cross_run_publication": {
+    "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/41_ayah_findings_publication.json",
+    "protocol": "v12-cross-run-publication-v3",
+    "language": "tr",
+    "surah": 41,
+    "ayah_ref": "41:1",
+    "canonical_ayah_ref": "41:1",
+    "baseline": {
+      "source_ref": "41:1",
+      "text": "Hâ Mîm.",
+      "target_tokens": [
+        [
+          "Hâ",
+          [
+            "41:1:1"
+          ]
+        ],
+        [
+          "Mîm",
+          [
+            "41:1:1"
+          ]
+        ]
+      ]
+    },
+    "findings": []
+  },
+  "butuncul_okuma_line": null,
+  "inter_ayah_rows": [
+    {
+      "label": "strong",
+      "ref": "40:1",
+      "note": "Exact recurrence of the opening disjoint letters حم."
+    },
+    {
+      "label": "strong",
+      "ref": "42:1",
+      "note": "Exact recurrence of the opening disjoint letters حم."
+    },
+    {
+      "label": "strong",
+      "ref": "43:1",
+      "note": "Exact recurrence of the opening disjoint letters حم."
+    },
+    {
+      "label": "strong",
+      "ref": "44:1",
+      "note": "Exact recurrence of the opening disjoint letters حم."
+    },
+    {
+      "label": "strong",
+      "ref": "45:1",
+      "note": "Exact recurrence of the opening disjoint letters حم."
+    },
+    {
+      "label": "weak",
+      "ref": "29:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "2:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "30:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "31:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "26:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "32:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "36:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "42:2",
+      "note": "It completes another disjoint-letter opening but does not parallel حم."
+    },
+    {
+      "label": "weak",
+      "ref": "20:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "19:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "strong",
+      "ref": "46:1",
+      "note": "Exact recurrence of the opening disjoint letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "37:130",
+      "note": "The greeting formula does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "29:21",
+      "note": "The statement on mercy and return does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "34:50",
+      "note": "The guidance and revelation statement does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "6:145",
+      "note": "The dietary prohibition does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "2:259",
+      "note": "The resurrection narrative does not clarify the opening letters حم."
+    },
+    {
+      "label": "weak",
+      "ref": "3:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "28:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "7:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "101:11",
+      "note": "The description of a blazing fire does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "78:1",
+      "note": "The question about the great news does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "69:1",
+      "note": "The calamity title does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "74:21",
+      "note": "The narrative action does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "83:20",
+      "note": "The recorded-book description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "55:64",
+      "note": "The garden description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "83:9",
+      "note": "The recorded-book description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "56:93",
+      "note": "The provision of scalding water does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "20:28",
+      "note": "Musa's prayer for understanding does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "77:22",
+      "note": "The appointed-measure statement does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "56:37",
+      "note": "The description of companions does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "85:18",
+      "note": "The mention of Pharaoh and Thamud does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "80:16",
+      "note": "The description of noble scribes does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "100:1",
+      "note": "The oath by charging steeds does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "85:22",
+      "note": "The preserved-tablet statement does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "37:155",
+      "note": "The exhortation to remember does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "74:40",
+      "note": "The garden setting does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "55:1",
+      "note": "The divine-name opening does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "81:21",
+      "note": "The messenger's attributes do not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "37:109",
+      "note": "The greeting formula does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "56:29",
+      "note": "The garden-tree description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "101:1",
+      "note": "The calamity title does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "56:78",
+      "note": "The hidden-book description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "56:10",
+      "note": "The description of the foremost does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "70:10",
+      "note": "The statement about close companions does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "52:3",
+      "note": "The written-scroll description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "56:94",
+      "note": "The Hellfire punishment does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "77:26",
+      "note": "The living-and-dead pairing does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "77:1",
+      "note": "The oath by sent winds does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "51:1",
+      "note": "The oath by scattering winds does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "96:4",
+      "note": "The teaching-by-pen statement does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "80:14",
+      "note": "The purified-pages description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "56:31",
+      "note": "The poured-water description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "53:61",
+      "note": "The rebuke of heedlessness does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "51:10",
+      "note": "The condemnation of conjecturers does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "52:2",
+      "note": "The written-book description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "56:44",
+      "note": "The shade description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "56:22",
+      "note": "The paradise-companion description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "88:4",
+      "note": "The blazing-fire description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "69:2",
+      "note": "The question about the calamity does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "101:9",
+      "note": "The abyss description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "92:21",
+      "note": "The promise of satisfaction does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "89:1",
+      "note": "The oath by dawn does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "77:6",
+      "note": "The warning-or-excuse phrase does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "52:1",
+      "note": "The oath by the mount does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "68:27",
+      "note": "The claim of deprivation does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "56:67",
+      "note": "The claim of deprivation does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "77:12",
+      "note": "The deferred-day question does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "56:42",
+      "note": "The heat-and-scorching-water description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "90:13",
+      "note": "The freeing-a-captive phrase does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "82:11",
+      "note": "The recording-angels description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "56:34",
+      "note": "The raised-beds description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "20:30",
+      "note": "Musa naming Aaron does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "70:16",
+      "note": "The fire's stripping description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "56:32",
+      "note": "The abundant-fruit description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "103:1",
+      "note": "The oath by time does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "75:26",
+      "note": "The death-throes description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "56:21",
+      "note": "The desired-bird-meat description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "80:31",
+      "note": "The fruit-and-pasture description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "89:7",
+      "note": "The description of Iram does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "44:44",
+      "note": "The sinner's food does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "68:13",
+      "note": "The character description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "74:2",
+      "note": "The command to warn does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "74:3",
+      "note": "The command to magnify the Lord does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "68:12",
+      "note": "The character description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "56:89",
+      "note": "The paradise-rest description does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "56:36",
+      "note": "The description of companions does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "15:31",
+      "note": "Iblis's refusal does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "10:58",
+      "note": "The command to rejoice does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "57:14",
+      "note": "The hypocrites' dialogue does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "3:161",
+      "note": "The warning against betrayal does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "18:93",
+      "note": "The travel narrative does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "4:84",
+      "note": "The command to fight does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "67:15",
+      "note": "The command to travel and eat provision does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "24:31",
+      "note": "The modesty instruction does not clarify the opening letters حم."
+    },
+    {
+      "label": "no value",
+      "ref": "33:53",
+      "note": "The household etiquette instruction does not clarify the opening letters حم."
+    },
+    {
+      "label": "weak",
+      "ref": "10:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "11:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "12:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "13:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "14:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "15:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "27:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "38:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "50:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "68:1",
+      "note": "A different disjoint-letter opening provides only a broad formal parallel."
+    }
+  ],
+  "channel_subchannels_anchored_here": [],
+  "channel_generated_outputs": {
+    "source_dir": "quran-data/data/analysis/channels/network-v3/s041",
+    "files": [
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s041/channel_candidates.jsonl",
+        "role": "channel_candidates.jsonl",
+        "bytes": 22370441,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s041/channel_candidates.tsv",
+        "role": "channel_candidates.tsv",
+        "bytes": 571012,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s041/summary.json",
+        "role": "summary.json",
+        "bytes": 13436,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s041/families/candidate_graphs.jsonl",
+        "role": "families/candidate_graphs.jsonl",
+        "bytes": 10895394,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s041/families/candidate_similarity_edges.tsv",
+        "role": "families/candidate_similarity_edges.tsv",
+        "bytes": 243152,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s041/families/channel_families.jsonl",
+        "role": "families/channel_families.jsonl",
+        "bytes": 1994123,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s041/families/candidate_family_membership.tsv",
+        "role": "families/candidate_family_membership.tsv",
+        "bytes": 23891,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s041/families/family_branch_inventory.tsv",
+        "role": "families/family_branch_inventory.tsv",
+        "bytes": 671649,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s041/families/consolidation_summary.json",
+        "role": "families/consolidation_summary.json",
+        "bytes": 9106,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s041/paths/path_summary.json",
+        "role": "paths/path_summary.json",
+        "bytes": 23866,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s041/paths/path_families/semantic_path_families.jsonl",
+        "role": "paths/path_families/semantic_path_families.jsonl",
+        "bytes": 86093375,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s041/paths/path_families/path_similarity_edges.tsv",
+        "role": "paths/path_families/path_similarity_edges.tsv",
+        "bytes": 17819241,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s041/paths/path_families/path_family_summary.json",
+        "role": "paths/path_families/path_family_summary.json",
+        "bytes": 10844,
+        "compressed": false
+      }
+    ],
+    "usage": "External source manifest only. These generated outputs may inform channel-family/path context when the agent has file access, but first-pass review limits still apply: no established channel name, accept/reject claim, or maturity claim unless a future adjudicated ledger is present."
+  },
+  "pericope": {
+    "surah": 41,
+    "pericope": 1,
+    "ayah_from": 1,
+    "ayah_to": 18,
+    "label": "Clear scripture and the fate of Aad and Thamud",
+    "synthesized": false
+  },
+  "root_lexicon": {},
+  "coverage": {
+    "quran_text": {
+      "present": true
+    },
+    "word_analysis": {
+      "present": true,
+      "word_count": 1
+    },
+    "word_morpheme_spans": {
+      "present": false,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s041/linguistic/morphemes.tsv",
+      "words_total": 1,
+      "words_resolved": 0,
+      "words_unresolved": 1,
+      "unresolved": [
+        {
+          "word_index": 0,
+          "surface_ar": "حمٓ",
+          "reason": "no morpheme rows for this ayah"
+        }
+      ],
+      "morphemes_tsv": {
+        "present": true,
+        "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s041/linguistic/morphemes.tsv",
+        "ayah_count": 54,
+        "row_count": 1353,
+        "malformed_rows": 0,
+        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+      },
+      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+    },
+    "word_analysis_qac_alignment": {
+      "consistent": true,
+      "detail": null,
+      "note": "aligned_qac_word_ref resolves against qac_morphemes for this ayah"
+    },
+    "qac_morphemes": {
+      "present": true,
+      "row_count": 1
+    },
+    "channel_review": {
+      "present": true,
+      "review_status": "first-pass-single-reader",
+      "parent_channel_count": 41,
+      "subchannel_count": 51,
+      "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
+      "source_file": "quran-data/data/analysis/channels/network-v3/s041/review/reader_a_pilot.md",
+      "subchannels_anchored_here": 0
+    },
+    "channel_generated_outputs": {
+      "present": true,
+      "source_dir": "quran-data/data/analysis/channels/network-v3/s041",
+      "file_count": 13,
+      "missing_expected_files": [
+        "paths/path_families/semantic_path_families.jsonl.gz"
+      ],
+      "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
+    },
+    "branch_inventories": {
+      "present": true,
+      "scope": "surah-fallback-scoped-to-ayah",
+      "variants": {
+        "full_context_packet": {
+          "present": true,
+          "roots": [],
+          "branch_counts": {},
+          "missing_branch_inventories": [],
+          "note": "surah-scope fallback: the default commentary workflow does not consume per-ayah focus packets, so the source packet is scoped by this builder to roots this ayah can justify and carries no staged reveal order"
+        }
+      },
+      "scoping": {
+        "applied": true,
+        "roots_total": 203,
+        "roots_retained": 0,
+        "roots_dropped": 203,
+        "retained": [],
+        "dropped_roots": [
+          "س م و",
+          "ء ل ه",
+          "ر ح م",
+          "ن ز ل",
+          "ك ت ب",
+          "ف ص ل",
+          "ء ي ي",
+          "ق ر ء",
+          "ع ر ب",
+          "ق و م",
+          "ع ل م",
+          "ب ش ر",
+          "ن ذ ر",
+          "ع ر ض",
+          "ك ث ر",
+          "س م ع",
+          "ق و ل",
+          "ق ل ب",
+          "ك ن ن",
+          "د ع و",
+          "ء ذ ن",
+          "و ق ر",
+          "ب ي ن",
+          "ح ج ب",
+          "ع م ل",
+          "م ث ل",
+          "و ح ي",
+          "و ح د",
+          "غ ف ر",
+          "ش ر ك",
+          "ء ت ي",
+          "ز ك و",
+          "ء خ ر",
+          "ك ف ر",
+          "ء م ن",
+          "ص ل ح",
+          "ء ج ر",
+          "غ ي ر",
+          "م ن ن",
+          "خ ل ق",
+          "ء ر ض",
+          "ي و م",
+          "ج ع ل",
+          "ن د د",
+          "ر ب ب",
+          "ر س و",
+          "ف و ق",
+          "ب ر ك",
+          "ق د ر",
+          "ق و ت",
+          "ر ب ع",
+          "س و ي",
+          "س ء ل",
+          "د خ ن",
+          "ط و ع",
+          "ك ر ه",
+          "ق ض ي",
+          "س ب ع",
+          "ك ل ل",
+          "ء م ر",
+          "ز ي ن",
+          "د ن و",
+          "ص ب ح",
+          "ح ف ظ",
+          "ع ز ز",
+          "ص ع ق",
+          "ع و د",
+          "ج ي ء",
+          "ر س ل",
+          "ي د ي",
+          "خ ل ف",
+          "ع ب د",
+          "ش ي ء",
+          "م ل ك",
+          "ك ب ر",
+          "ح ق ق",
+          "ش د د",
+          "ق و ي",
+          "ر ء ي",
+          "ك و ن",
+          "ج ح د",
+          "ر و ح",
+          "ص ر ص ر",
+          "ن ح س",
+          "ذ و ق",
+          "ع ذ ب",
+          "خ ز ي",
+          "ح ي ي",
+          "ن ص ر",
+          "ه د ي",
+          "ح ب ب",
+          "ع م ي",
+          "ء خ ذ",
+          "ه و ن",
+          "ك س ب",
+          "ن ج و",
+          "و ق ي",
+          "ح ش ر",
+          "ع د و",
+          "ن و ر",
+          "و ز ع",
+          "ش ه د",
+          "ب ص ر",
+          "ج ل د",
+          "ن ط ق",
+          "ء و ل",
+          "م ر ر",
+          "ر ج ع",
+          "س ت ر",
+          "ظ ن ن",
+          "ر د ي",
+          "خ س ر",
+          "ص ب ر",
+          "ث و ي",
+          "ع ت ب",
+          "ق ي ض",
+          "ق ر ن",
+          "ء م م",
+          "خ ل و",
+          "ق ب ل",
+          "ج ن ن",
+          "ء ن س",
+          "ل غ و",
+          "غ ل ب",
+          "ج ز ي",
+          "س و ء",
+          "د و ر",
+          "خ ل د",
+          "ض ل ل",
+          "ت ح ت",
+          "ق د م",
+          "س ف ل",
+          "خ و ف",
+          "ح ز ن",
+          "و ع د",
+          "و ل ي",
+          "ش ه و",
+          "ن ف س",
+          "ح س ن",
+          "س ل م",
+          "د ف ع",
+          "ح م م",
+          "ل ق ي",
+          "ح ظ ظ",
+          "ع ظ م",
+          "ن ز غ",
+          "ش ط ن",
+          "ع و ذ",
+          "ل ي ل",
+          "ن ه ر",
+          "ش م س",
+          "ق م ر",
+          "س ج د",
+          "ع ن د",
+          "س ب ح",
+          "س ء م",
+          "خ ش ع",
+          "م و ه",
+          "ه ز ز",
+          "ر ب و",
+          "م و ت",
+          "ل ح د",
+          "خ ف ي",
+          "خ ي ر",
+          "ذ ك ر",
+          "ب ط ل",
+          "ح ك م",
+          "ح م د",
+          "ع ق ب",
+          "ء ل م",
+          "ع ج م",
+          "ش ف ي",
+          "ن د و",
+          "ب ع د",
+          "ك ل م",
+          "س ب ق",
+          "ش ك ك",
+          "ر ي ب",
+          "ظ ل م",
+          "ر د د",
+          "س و ع",
+          "خ ر ج",
+          "ث م ر",
+          "ك م م",
+          "ح م ل",
+          "ء ن ث",
+          "و ض ع",
+          "ح ي ص",
+          "م س س",
+          "ش ر ر",
+          "ي ء س",
+          "ق ن ط",
+          "ض ر ر",
+          "ن ب ء",
+          "غ ل ظ",
+          "ن ع م",
+          "ن ء ي",
+          "ج ن ب",
+          "ش ق ق",
+          "ء ف ق",
+          "ك ف ي",
+          "م ر ي",
+          "ح و ط"
+        ],
+        "ayah_roots_from_qac": [],
+        "channel_citations_found": 0,
+        "citations_unresolvable_in_surah_inventory": [],
+        "note": "SCOPED, NOT ABSENT. This ayah has QAC morpheme rows but no lexical roots, so the surah-scope branch inventory has no ayah root to retain. The empty scoped inventory is deliberate for rootless units such as muqatta'at, not a missing source."
+      }
+    },
+    "v12_reader_responses": {
+      "present": false,
+      "variants": {},
+      "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
+    },
+    "v12_focus_trace_hermetic": {
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s41/packets/41_1.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s41/readers/reader_hft_a/41_1.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 3,
+          "surprising_valid_outliers": 2
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 280120,
+      "split_root_count": 0,
+      "reader_count": 1
+    },
+    "v12_reader_walks": {
+      "present": false,
+      "readers": {
+        "reader_a": {
+          "present": false,
+          "note": "41:1 heading not found in reader_s041_a_ayah_walk.md"
+        }
+      },
+      "lookup_refs": [
+        "41:1"
+      ]
+    },
+    "v12_reader_walks_wide": {
+      "present": false,
+      "readers": {
+        "reader_a": {
+          "present": false,
+          "note": "41:1 heading not found in reader_s041_a_ayah_walk.md"
+        }
+      },
+      "lookup_refs": [
+        "41:1"
+      ]
+    },
+    "v12_cross_run_publication": {
+      "present": true,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/41_ayah_findings_publication.json",
+      "protocol": "v12-cross-run-publication-v3",
+      "language": "tr",
+      "lookup_ref": "41:1",
+      "finding_count": 0,
+      "grade_counts": {},
+      "note": "Compact final cross-run findings for this ayah, reconciled upstream from regular and plus/minus-5 reader runs; use as a coverage/priority check, not as replacement prose."
+    },
+    "butuncul_okuma": {
+      "present": false,
+      "source_file": null,
+      "note": "no whole-surah reading file exists for this surah"
+    },
+    "inter_ayah": {
+      "present": true,
+      "row_count": 110,
+      "label_counts": {
+        "strong": 6,
+        "weak": 23,
+        "no value": 81
+      }
+    },
+    "pericope": {
+      "present": true,
+      "synthesized": false,
+      "note": null
+    },
+    "root_lexicon": {
+      "present": false,
+      "roots_in_ayah": [],
+      "per_root": {},
+      "occurrence_evidence_trim": {
+        "applied": true,
+        "dropped_keys": [
+          "occurrences",
+          "ayahs"
+        ],
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
+      },
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 0,
+        "dictionary_branches_kept": 0,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 0,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
+      "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
+    }
+  }
+}
