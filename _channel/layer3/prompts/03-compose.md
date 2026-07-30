@@ -35,20 +35,32 @@ reading.
 ## Weak and Counterpressured Material
 
 Use weak or counterpressured material with the degree of assertion permitted by
-the channel brief. Preserve each `doNotClaim` limit while allowing the surviving
-operation to participate. State the resonance positively and cleanly; do not
-surround it with repeated prohibitions or turn the prose into an evidence
-defense.
+the channel brief. Treat `doNotClaim` entries as silent writing boundaries, not
+material to explain. State a containment correction only when the reader would
+otherwise be likely to mistake a resonance for the local translation, an
+identity, or an event. Allow the surviving operation to participate positively
+and cleanly without turning the prose into an evidence defense.
 
 ## One Developing Argument
 
-Develop every supplied channel. Let the channels meet inside one cumulative
-argument rather than giving each a titled section or catalogue entry. A later
-recognition should prepare, complicate, or transform what the reader now sees
-in an earlier one.
+The briefs are material, not prose units. Carry every distinct reader gain, not
+every supplied semantic image. A supporting contribution need not appear
+separately when it does not further change the reader's understanding. Do not
+preserve brief boundaries or give a brief its own paragraph merely to discharge
+it. When several briefs transform the same agency, value, or process, let their
+hinges meet inside one developing movement. Build the argument from dependencies
+among recognitions, not from brief boundaries or input order.
 
-There is no word, paragraph, section, or channel-count target. Write what the
-earned reader movement requires.
+Translate the semantic system into experience; do not reproduce its motif
+inventory. Introduce the concrete contribution that lets the reader grasp the
+operation, and let the other supplied signals work through that movement
+without being enumerated.
+
+A later recognition should prepare, complicate, or transform what the reader
+now sees in an earlier one. Write the earned reader movement in full.
+
+Once the primary ground has been established, do not re-explain it merely to
+reassure the reader. Continue from the altered model.
 
 Do not imply that two movements have the same actor unless the supplied
 material establishes that identity. Structural reversals are changes of role,
@@ -70,7 +82,9 @@ The surviving operation recorded in the brief remains available as a secondary
 resonance.
 
 Begin inside the argument, not with methodology. End inside the final altered
-understanding, not with a recap or list of findings.
+understanding, not with a recap or list of findings. The ending must advance the
+final recognition; gathering earlier channel images into a closing list is
+recap.
 
 ## Output
 

@@ -75,28 +75,19 @@ could use.
 What becomes visible only when the surah is read as an assembly: the recurring
 semantic operations through which distant ayahs explain one another.
 
-S100 is the case that requires this layer to exist. Under the primary reading the
-running horses have nothing to do with the rest of the surah. Only the resonances
-attach them — and that attachment is a surprise, which is the point.
+The active cold-agent runbook is
+[`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md).
+Mechanical scripts build stage-specific hermetic prompts. Fresh agents then
+perform blind discovery, latent-dependence review into channel briefs, and
+composition as one developing argument for a reader with no Arabic or
+linguistic knowledge.
 
-The active workflow is
-[`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md). It runs
-three hermetic passes:
-
-1. blind, uncapped discovery from Quran surface rows and mechanically stripped
-   reviewed activation cards;
-2. direct review against the complete packet, where hypotheses may be merged,
-   absorbed, narrowed, rendered, or rejected;
-3. composition as one developing argument for a reader with no Arabic or
-   linguistic knowledge.
-
-The result is not a summary and does not proceed ayah by ayah. It begins inside
-the primary reading and makes every earned reader-model shift available without
-a system or length target. The evidence packet contains completed Layer-2 prose
-and explicit boundaries, the reviewed network-v3 synthesis when present, and
-selected V11 integration sections when present. V12 is not repeated because it
-is already upstream of completed Layer 2. Missing network-v3 or V11 inputs
-produce warnings but do not stop the run.
+The result is not a summary and does not proceed ayah by ayah. A finding belongs
+here only when secondary semantic material changes the reader's model in a way
+the ordinary translation cannot produce, while making something specific in
+the surah newly intelligible. Reviewed Network V3 and V11 inputs are optional;
+their absence produces warnings and does not stop the run. The runbook defines
+the exact source projections, agent boundaries, commands, and output paths.
 
 The retired root-level `_channel` prompt/plan and the old Layer 2.5 overlay lane
 are retained only for historical reproducibility. They are not inputs to the

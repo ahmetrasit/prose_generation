@@ -10,7 +10,7 @@ what survives.
 ## Reader Delta
 
 The eventual reader knows no Arabic or linguistics. A discovery gives that
-reader a recognition with three parts:
+reader a recognition articulated as:
 
 - `before`: a plausible ordinary understanding of the participating movements;
 - `hinge`: the exact latent signal or cross-ayah relation that unsettles it;
@@ -68,8 +68,6 @@ Layer 2 preserves its field by refusing to select prematurely. Do the same
 here. Do not rank, merge, reject, narrow, certify, or choose hypotheses for
 publication. Do not favor easy-to-defend ideas over risky ones. Preserve
 mutually incompatible hypotheses when they produce different reader changes.
-Do not use quantity, length, defensibility, or anticipated publication value as
-a reason to stop or omit a hypothesis.
 
 Speculation is permitted at this stage when it remains attached to supplied
 surface anchors and activation signals. Do not dilute a proposed shift into
@@ -90,7 +88,6 @@ falsification, containment decisions, counterpressure, coherence scores,
 rankings, risk assessments, rejection lists, merged systems, names for
 publication, or prose architecture.
 
-Return only the JSON object for `N.discovery-hypotheses.json`, conforming
-exactly to the inlined schema. Do not edit the filesystem; the runner saves the
-returned object. Use the target language for reader-facing fields and concise
-English only for fixed keys.
+Write `N.discovery-hypotheses.json` as a JSON object conforming exactly to the
+inlined schema. Write no other files. Use the target language for reader-facing
+fields and concise English only for fixed keys.

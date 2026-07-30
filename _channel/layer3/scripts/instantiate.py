@@ -202,11 +202,7 @@ def assemble(
         f"- stage: `{stage}`",
         f"- surah: `{surah}`",
         f"- target language: `{packet.get('language')}`",
-        (
-            f"- write: `{config['output'].format(surah=surah)}`"
-            if stage == "compose"
-            else f"- return for: `{config['output'].format(surah=surah)}`"
-        ),
+        f"- write: `{config['output'].format(surah=surah)}`",
         "",
         "Use only the material between the inlined boundary markers below. "
         "Paths inside the packet are provenance labels, not permission to read files.",
@@ -269,10 +265,9 @@ def assemble(
         )
     else:
         response = (
-            f"For this run, `N` in the task means `{surah}`. Return exactly one "
-            "JSON object conforming to the inlined schema. Do not call tools or "
-            "edit files. The runner will save the returned object as "
-            f"`{config['output'].format(surah=surah)}`."
+            f"For this run, `N` in the task means `{surah}`. Write "
+            f"`{config['output'].format(surah=surah)}` as a JSON object "
+            "conforming to the inlined schema. Write no additional files."
         )
     sections.extend(["", "# Response", "", response, ""])
     return "\n".join(sections)

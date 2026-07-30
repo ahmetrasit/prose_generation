@@ -67,7 +67,6 @@
         },
         "hypothesisIds": {
           "type": "array",
-          "minItems": 1,
           "items": {
             "$ref": "#/$defs/id"
           }
@@ -78,7 +77,6 @@
         },
         "latentHinges": {
           "type": "array",
-          "minItems": 1,
           "items": {
             "$ref": "#/$defs/latentHinge"
           }
@@ -117,14 +115,12 @@
         },
         "ayahRefs": {
           "type": "array",
-          "minItems": 1,
           "items": {
             "$ref": "#/$defs/ayahRef"
           }
         },
         "sourceRefs": {
           "type": "array",
-          "minItems": 1,
           "items": {
             "$ref": "#/$defs/sourceRef"
           }

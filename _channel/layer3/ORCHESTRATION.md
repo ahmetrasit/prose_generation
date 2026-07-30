@@ -1,19 +1,38 @@
 # Layer 3 Surah Reading
 
-This is the active workflow for producing a surah-wide reading from completed
+This is the active runbook for producing a surah-wide reading from completed
 ayah-level commentary and reviewed latent semantic material.
 
-The output is not a surah summary and not a catalogue of events or lexical
-fields. It should give a reader with no Arabic or linguistic training
-surprising recognitions that materially change how distant parts of the surah
-explain one another while leaving the primary reading intact.
+The final text is not a summary, an ayah-by-ayah retelling, or a catalogue of
+semantic fields. It reveals cross-ayah activations that an ordinary translation
+cannot supply and shows how they materially change the reader's understanding
+while leaving the primary reading intact.
 
-The retired files directly under `_channel/` do not govern this workflow.
+Files directly under `_channel/` belong to retired workflows. They are not
+instructions or inputs for this workflow.
 
-## Files
+## Cold-Agent Contract
+
+A cold orchestration agent can run this workflow using this document and the
+files under `_channel/layer3/`.
+
+- The Python scripts perform mechanical source projection and prompt assembly.
+- Fresh semantic agents perform discovery, review, and composition.
+- Each semantic agent reads only its generated prompt.
+- Do not use `codex exec` for semantic passes. Spawn a fresh agent for each pass.
+- Do not let an agent inspect source repositories or other workflow files after
+  its prompt has been generated.
+- Save each agent response only at the output path named by its prompt.
+- Do not use output from an earlier run as fallback when a pass fails.
+
+The scripts do not discover, merge, rank, or write channels. Cross-ayah
+reasoning begins only after the mechanical input has been generated.
+
+## Active Files
 
 ```text
 _channel/layer3/
+  ORCHESTRATION.md
   prompts/
     01-discover.md
     02-review.md
@@ -21,12 +40,11 @@ _channel/layer3/
   schemas/
     source-packet-v2.schema.json
     discovery-hypotheses-v1.schema.json
-    system-ledger-v2.schema.json
+    channel-briefs-v1.schema.json
   scripts/
     common.py
     build_packet.py
     instantiate.py
-    validate.py
   packets/sNNN/
     N.source-packet.json
   inputs/sNNN/
@@ -35,163 +53,178 @@ _channel/layer3/
     N.compose.prompt.md
   outputs/sNNN/
     N.discovery-hypotheses.json
-    N.system-ledger.json
+    N.channel-briefs.json
     N.surah-reading.md
-    N.surah-reading.friction.md
 ```
 
-`packets/` and `inputs/` are generated mechanically. `outputs/` are agent
-outputs.
+`packets/` and `inputs/` are mechanically generated. Files under `outputs/`
+are semantic-agent results.
 
-## Mechanical Boundary
+## Source Contract
 
-`build_packet.py` joins sources by fixed paths and fixed projections. It does
-not call a model or discover a channel.
+Required inputs:
 
-The canonical packet contains:
+- Quran text from `../quran-data/data/text/quran-uthmani.tsv`;
+- accepted Layer 2 prose for every numbered ayah;
+- the corresponding Layer 2 evidence files, projected to explicit rejection,
+  counterpressure, and boundary sections.
 
-- Quran text;
-- complete accepted Layer-2 prose for every ayah;
-- explicit Layer-2 rejection and counterpressure sections;
-- the reviewed network-v3 channel source;
-- selected integration and boundary sections from the V11 final report.
+Optional inputs:
 
-V12 is not repeated because the completed Layer-2 prose already consumes it.
-Routine Layer-2 evidence maps and production friction are excluded.
+- the reviewed Network V3 file at
+  `../quran-data/data/analysis/channels/network-v3/sNNN/review/reader_a_pilot.md`;
+- V11 `09-final-report.md`, searched in `../quran-data` first and then
+  `../latent_activation/v11/run/sNNN/`.
 
-Network-v3 is optional. The reviewed source is
-`review/reader_a_pilot.md`; raw candidates and machine families are not
-substituted when it is absent. V11 is also optional and is looked up in
-`quran-data` before the `latent_activation` fallback. Missing optional inputs
-produce warnings and never stop the workflow.
+Network V3 contributes mechanically extracted activation cards. Raw candidates
+and machine-family files are excluded.
 
-## Stage-Specific Input
+V11 contributes only its surprising-discovery and open-boundary sections. Its
+prior integrated mechanism, rankings, inventories, and prewritten synthesis are
+excluded so they cannot anchor the downstream answer.
 
-The discovery call must not be anchored by the completed Layer-2 explanation or
-by prior final synthesis. `instantiate.py discover` therefore creates a
-mechanical view containing only:
+Missing Network V3 or V11 material emits a warning in the terminal and in the
+packet. The packet is still produced. Quran text and complete Layer 2 outputs
+are required.
+
+## Hermetic Views
+
+`build_packet.py` creates the canonical source packet. `instantiate.py` then
+projects a different hermetic view for each semantic pass.
+
+### Discover
+
+The discovery prompt contains:
 
 - Quran surface rows;
-- reviewed network activation cards;
-- network and Quran coverage warnings.
+- mechanically projected Network V3 activation cards;
+- relevant coverage state and warnings.
 
-The activation cards are deterministic projections of the reviewed source.
-They retain active motifs, ayah anchors, and source references. Review labels,
-parent titles, scene descriptions, invariants, surprising reach, and prewritten
-synthesis are omitted.
+It intentionally excludes Layer 2 prose, local rejection material, V11 prose,
+and prior synthesis. The discovery agent opens the field without selecting,
+auditing, or composing.
 
-The complete packet is inlined only for review and composition.
+Output: `N.discovery-hypotheses.json`.
 
-## Pass 1A: Discover
+### Review
 
-The discovery agent searches the stage-specific input for every materially
-distinct cross-ayah hypothesis it can see.
+The review prompt contains:
 
-It does not:
+- the discovery hypotheses;
+- the same reviewed activation cards;
+- the primary ground from completed Layer 2 prose;
+- local rejection and counterpressure boundaries;
+- projected V11 secondary material;
+- coverage state and warnings.
 
-- rank, merge, select, reject, or certify;
-- compare against Layer-2 prose;
-- produce evidence ledgers or final system names;
-- target any number or length;
-- prefer easily defended hypotheses over risky ones.
+The full reviewed Network V3 prose is not repeated because its activation cards
+already carry the mechanically retained signals.
 
-Each hypothesis records only its proposed operation, its
-`before -> hinge -> after` reader change, participating movements, and
-activation references.
+The review agent builds latent-dependent channel briefs. A channel qualifies
+only when removing its secondary semantic contribution preserves the ordinary
+reading but removes the changed understanding. Mere non-derivability is not
+enough: the channel must also make a specific feature, tension, transition, or
+ending of the surah newly intelligible.
 
-It writes `N.discovery-hypotheses.json`.
+Output: `N.channel-briefs.json`.
 
-## Pass 1B: Review
+### Compose
 
-The review agent receives the complete packet and the blind hypotheses.
+The composition prompt contains:
 
-It decides which hypotheses genuinely change the reader's model, which ones
-support another shift, and which ones are only primary exposition, analogy, or
-unsupported construction. It may merge, absorb, narrow, or reject.
+- the primary ground;
+- the reviewed channel briefs.
 
-There is no desired number of systems. The review does not create filler and
-does not remove an earned system to meet a count.
+It does not contain the discovery hypotheses, Network V3 prose, V11 prose, or
+the local-boundary catalogue. The briefs carry the exact usable hinge and the
+specific claims that must not be made.
 
-The ledger assigns only editorial roles:
+The composition agent writes one developing reader experience. Brief boundaries
+are not prose boundaries, and the prose does not enumerate evidence. The exact
+secondary hinge must be visible in ordinary reader language and must materially
+alter what the reader sees.
 
-- `render`: an independent reader shift;
-- `backbone`: connective structure;
-- `support`: material absorbed into another system;
-- `apparatus`: relevant to review but absent from reader prose.
+Output: `N.surah-reading.md`.
 
-It writes `N.system-ledger.json`.
+## Run A Surah
 
-## Pass 3: Compose
+Replace `{N}`, `{LAYER2_DIR}`, and `{LAYER2_LABEL}` with the selected surah and
+accepted Layer 2 output set.
 
-The composer receives the complete packet and reviewed ledger. It writes one
-continuous argument rather than one section per system.
-
-The primary reading remains reachable throughout. Every secondary semantic
-detail immediately returns to what it changes for the reader. Source labels,
-workflow vocabulary, roots, branch IDs, and rejected predications stay out of
-the prose.
-
-It writes:
-
-- `N.surah-reading.md`;
-- `N.surah-reading.friction.md`.
-
-There are no word, paragraph, section, or system-count targets.
-
-## Commands
-
-For S100:
+Build the source packet:
 
 ```sh
 python3 _channel/layer3/scripts/build_packet.py \
-  --surah 100 \
-  --layer2-dir _commentary/outputs/s100-default \
-  --layer2-label default.v2.5.6-sol-high
-
-python3 _channel/layer3/scripts/validate.py packet \
-  _channel/layer3/packets/s100/100.source-packet.json
-
-python3 _channel/layer3/scripts/instantiate.py discover --surah 100
+  --surah {N} \
+  --layer2-dir {LAYER2_DIR} \
+  --layer2-label {LAYER2_LABEL}
 ```
 
-After discovery:
+If every ayah has a unique matching Layer 2 prose and evidence file,
+`--layer2-label` may be omitted. If Network V3 or V11 is unavailable, confirm
+that the expected warning was emitted and continue.
+
+Generate and run discovery:
 
 ```sh
-python3 _channel/layer3/scripts/validate.py hypotheses \
-  _channel/layer3/outputs/s100/100.discovery-hypotheses.json \
-  --packet _channel/layer3/packets/s100/100.source-packet.json
-
-python3 _channel/layer3/scripts/instantiate.py review --surah 100
+python3 _channel/layer3/scripts/instantiate.py discover --surah {N}
 ```
 
-After review:
+Spawn a fresh agent with this task:
+
+```text
+Read only `_channel/layer3/inputs/sNNN/N.discover.prompt.md`.
+Follow that prompt and write only
+`_channel/layer3/outputs/sNNN/N.discovery-hypotheses.json`.
+Do not inspect other files or use outside sources.
+```
+
+Generate and run review:
 
 ```sh
-python3 _channel/layer3/scripts/validate.py ledger \
-  _channel/layer3/outputs/s100/100.system-ledger.json \
-  --packet _channel/layer3/packets/s100/100.source-packet.json \
-  --hypotheses _channel/layer3/outputs/s100/100.discovery-hypotheses.json
-
-python3 _channel/layer3/scripts/instantiate.py compose --surah 100
+python3 _channel/layer3/scripts/instantiate.py review --surah {N}
 ```
 
-After composition:
+Spawn a fresh agent with this task:
+
+```text
+Read only `_channel/layer3/inputs/sNNN/N.review.prompt.md`.
+Follow that prompt and write only
+`_channel/layer3/outputs/sNNN/N.channel-briefs.json`.
+Do not inspect other files or use outside sources.
+```
+
+Generate and run composition:
 
 ```sh
-python3 _channel/layer3/scripts/validate.py publication \
-  --packet _channel/layer3/packets/s100/100.source-packet.json \
-  --ledger _channel/layer3/outputs/s100/100.system-ledger.json \
-  --prose _channel/layer3/outputs/s100/100.surah-reading.md
+python3 _channel/layer3/scripts/instantiate.py compose --surah {N}
 ```
+
+Spawn a fresh agent with this task:
+
+```text
+Read only `_channel/layer3/inputs/sNNN/N.compose.prompt.md`.
+Follow that prompt and write only
+`_channel/layer3/outputs/sNNN/N.surah-reading.md`.
+Do not inspect other files or use outside sources.
+```
+
+The generated prompt tells the semantic agent the concrete value represented by
+`N` and the exact output filename.
 
 ## Acceptance
 
-A run is acceptable when:
+A completed reading must satisfy all of these conditions:
 
-- optional input gaps were reported mechanically;
-- discovery was blind to full Layer-2 prose and prior synthesis;
-- rendered systems produce material reader-model changes rather than detailed
-  primary explanation;
-- rejected predications do not return as core claims or metaphors;
-- removing secondary resonances still leaves the primary reading recoverable;
-- the final text reads as one engaging argument rather than a catalogue.
+- It changes the reader's model rather than explaining the primary reading in
+  greater detail.
+- Its changed understanding is unavailable when the secondary semantic
+  contribution is removed.
+- The same contribution makes something specific in this surah newly
+  intelligible rather than supplying a portable metaphor or general moral.
+- Weak, remote, and counterpressured material remains usable without becoming
+  an alternate translation.
+- Rejected local predications do not return as claims, while their surviving
+  semantic residue may participate in a bounded cross-ayah operation.
+- The primary reading remains recoverable.
+- The final prose is coherent and engaging rather than a channel catalogue.
