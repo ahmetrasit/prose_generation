@@ -404,6 +404,26 @@ def scope_branch_inventories_to_ayah(branch_inventories: list, qac_rows: list,
         else:
             dropped_roots.append(root)
 
+    if not retained and not ayah_roots:
+        report = {
+            "applied": True,
+            "roots_total": len(branch_inventories),
+            "roots_retained": 0,
+            "roots_dropped": len(branch_inventories),
+            "retained": [],
+            "dropped_roots": [entry.get("root") for entry in branch_inventories],
+            "ayah_roots_from_qac": [],
+            "channel_citations_found": len(raw_tokens),
+            "citations_unresolvable_in_surah_inventory": [],
+            "note": (
+                "SCOPED TO EMPTY FOR ROOTLESS AYAH. QAC records no rooted "
+                "morphemes for this ayah, so the surah-scope fallback branch "
+                "inventory has no local root to retain. This is distinct from "
+                "a missing branch-inventory source."
+            ),
+        }
+        return [], report
+
     if not retained:
         raise RequiredSourceMissing(
             f"branch-inventory scoping retained ZERO roots for {ayah_ref}: the "
@@ -706,7 +726,13 @@ def load_v12_reader_responses(surah: int, ayah: int) -> tuple:
 # ---------------------------------------------------------------------------
 
 def focus_trace_run_dir(surah: int) -> Path:
-    return FOCUS_TRACE_RUNS_DIR / f"s{surah:03d}"
+    padded = FOCUS_TRACE_RUNS_DIR / f"s{surah:03d}"
+    if padded.exists():
+        return padded
+    unpadded = FOCUS_TRACE_RUNS_DIR / f"s{surah}"
+    if unpadded.exists():
+        return unpadded
+    return padded
 
 
 def focus_trace_packet_path(surah: int, ayah: int) -> Path:

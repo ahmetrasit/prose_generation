@@ -49,8 +49,8 @@ handed forward — see [`PRINCIPLES.md`](PRINCIPLES.md) §6.
 ### Layer 2 — function and resonance, per ayah (`_ayah_commentary/`)
 
 Active work continues in [`_ayah_commentary/v1/`](_ayah_commentary/v1/). The
-experimental `_commentary/v2/` cold orchestration path is not the active ayah
-commentary workflow.
+incompatible v2 experiment has been removed from the active workflow tree and
+archived under [`archive/_commentary/v2/`](archive/_commentary/v2/).
 
 Two jobs.
 
@@ -83,15 +83,20 @@ The active workflow is
 [`_channel/layer3/ORCHESTRATION.md`](_channel/layer3/ORCHESTRATION.md). It runs
 three hermetic passes:
 
-1. recall-first discovery of cross-ayah systems;
-2. claim-scoped review, including safe reuse of material beneath weak or
-   rejected predications;
-3. composition for a reader with no Arabic or linguistic knowledge.
+1. blind, uncapped discovery from Quran surface rows and mechanically stripped
+   reviewed activation cards;
+2. direct review against the complete packet, where hypotheses may be merged,
+   absorbed, narrowed, rendered, or rejected;
+3. composition as one developing argument for a reader with no Arabic or
+   linguistic knowledge.
 
 The result is not a summary and does not proceed ayah by ayah. It begins inside
-the primary reading and produces a small number of "aha" shifts. The evidence
-packet may include Layer-2 prose/evidence, network-v3, V12, and V11. Missing
-network-v3, V12, or V11 inputs produce warnings but do not stop the run.
+the primary reading and makes every earned reader-model shift available without
+a system or length target. The evidence packet contains completed Layer-2 prose
+and explicit boundaries, the reviewed network-v3 synthesis when present, and
+selected V11 integration sections when present. V12 is not repeated because it
+is already upstream of completed Layer 2. Missing network-v3 or V11 inputs
+produce warnings but do not stop the run.
 
 The retired root-level `_channel` prompt/plan and the old Layer 2.5 overlay lane
 are retained only for historical reproducibility. They are not inputs to the

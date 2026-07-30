@@ -1,0 +1,391 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "layer3-source-packet-v2.schema.json",
+  "title": "Layer 3 normalized surah-reading source packet v2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "packetId",
+    "surah",
+    "language",
+    "sourceRegistry",
+    "primaryGround",
+    "evidenceField",
+    "coverage",
+    "warnings"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "const": "layer3-source-packet-v2"
+    },
+    "packetId": {
+      "type": "string",
+      "pattern": "^s[0-9]{3}-[a-z]{2,8}-layer3-v2$"
+    },
+    "surah": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 114
+    },
+    "language": {
+      "type": "string",
+      "minLength": 2
+    },
+    "sourceRegistry": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "primaryGround": {
+      "$ref": "#/$defs/primaryGround"
+    },
+    "evidenceField": {
+      "$ref": "#/$defs/evidenceField"
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "quranText",
+        "layer2",
+        "networkV3",
+        "v11"
+      ],
+      "properties": {
+        "quranText": {
+          "$ref": "#/$defs/coverageGroup"
+        },
+        "layer2": {
+          "$ref": "#/$defs/coverageGroup"
+        },
+        "networkV3": {
+          "$ref": "#/$defs/coverageGroup"
+        },
+        "v11": {
+          "$ref": "#/$defs/coverageGroup"
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "ayahRef": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]{0,2}:(?:0|[1-9][0-9]*)$"
+    },
+    "sourceRef": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._:-]*(?:#.+)?$"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceId",
+        "kind",
+        "role",
+        "path",
+        "format",
+        "projection"
+      ],
+      "properties": {
+        "sourceId": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9._:-]*$"
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "quran-text",
+            "layer2-prose",
+            "layer2-evidence",
+            "network-review",
+            "v11-final-report"
+          ]
+        },
+        "role": {
+          "type": "string",
+          "enum": [
+            "primary-ground",
+            "local-reading",
+            "claim-boundary",
+            "reviewed-evidence",
+            "secondary-material"
+          ]
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "format": {
+          "type": "string",
+          "enum": [
+            "json",
+            "markdown",
+            "tsv"
+          ]
+        },
+        "projection": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "primaryGround": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceRefs",
+        "ayahs"
+      ],
+      "properties": {
+        "sourceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          }
+        },
+        "ayahs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/ayah"
+          }
+        }
+      }
+    },
+    "ayah": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ayahRef",
+        "unitType",
+        "arabic",
+        "reading"
+      ],
+      "properties": {
+        "ayahRef": {
+          "$ref": "#/$defs/ayahRef"
+        },
+        "unitType": {
+          "type": "string",
+          "enum": [
+            "basmala",
+            "ayah"
+          ]
+        },
+        "arabic": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reading": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/reading"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      }
+    },
+    "reading": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sourceRef",
+        "text"
+      ],
+      "properties": {
+        "sourceRef": {
+          "$ref": "#/$defs/sourceRef"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "evidenceField": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "localBoundaries",
+        "reviewedChannels",
+        "secondaryMaterial"
+      ],
+      "properties": {
+        "localBoundaries": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/localBoundary"
+          }
+        },
+        "reviewedChannels": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/reviewedSynthesis"
+          }
+        },
+        "secondaryMaterial": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/secondarySection"
+          }
+        }
+      }
+    },
+    "localBoundary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "boundaryId",
+        "ayahRefs",
+        "sourceRefs",
+        "text"
+      ],
+      "properties": {
+        "boundaryId": {
+          "$ref": "#/$defs/id"
+        },
+        "ayahRefs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/ayahRef"
+          }
+        },
+        "sourceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          }
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "reviewedSynthesis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "synthesisId",
+        "sourceRefs",
+        "text"
+      ],
+      "properties": {
+        "synthesisId": {
+          "$ref": "#/$defs/id"
+        },
+        "sourceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          }
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "secondarySection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "sectionId",
+        "heading",
+        "sourceRefs",
+        "text"
+      ],
+      "properties": {
+        "sectionId": {
+          "$ref": "#/$defs/id"
+        },
+        "heading": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceRefs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/sourceRef"
+          }
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "coverageGroup": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "required",
+        "sourceIds",
+        "missing",
+        "notes"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "complete",
+            "partial",
+            "absent"
+          ]
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "sourceIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "missing": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "fallbackUsed": {
+          "type": "boolean"
+        },
+        "sourceRoot": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

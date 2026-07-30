@@ -1,80 +1,77 @@
-# Pass 3: Compose the Surah Reading
+# Pass 3: Make the Secondary Reading Happen
 
-Write the Layer 3 reader experience from the reviewed system ledger.
+Write the Layer 3 reader experience from the reviewed channel briefs.
 
-## Audience
+The reader already knows an ordinary translation of the surah and has no Arabic
+or linguistic training. Establish only the surface ground needed for the
+argument, then move through the changed understanding opened by the channels.
+Do not retell the surah in order and do not repeatedly defend its primary
+reading.
 
-Assume the reader:
+## Indispensable Hinge
 
-- has an ordinary translation-level understanding of the surah;
-- knows no Arabic;
-- knows no linguistic terminology;
-- wants to understand how semantic structures beneath the primary reading can
-  expand or shift that understanding.
+Every channel must turn on its indispensable secondary semantic hinge.
+Introduce that hinge in plain reader language through the translated word or
+scene already in view. A useful construction is:
 
-## What the Prose Must Do
+> The word still gives the familiar scene; its wider field also carries ...
 
-Begin inside a concrete scene, movement, or tension already present in the
-ordinary reading. Then let the reviewed systems emerge as an ordered sequence
-of recognitions.
+Do not use that sentence mechanically. Make the relationship natural in the
+prose.
 
-The reading must:
+Then show what the secondary material does across distant ayahs. Name the
+changed agency, causality, value, process, temporality, or consequence. Continue
+writing from that altered model instead of returning to summary.
 
-- keep the primary reading visible throughout;
-- make distant parts of the surah explain one another;
-- deliver the ledger's `ahaMoments` through prose rather than announcing them;
-- explain a wider semantic field in plain language and immediately state its
-  interpretive payoff;
-- move as one argument even when several systems contribute;
-- end with a changed view of the surah, not a recap.
+Do not present a secondary contribution as the translation, a hidden
+replacement meaning, or a historical event. Do not hide it either. A reader
+with no Arabic must be able to identify the exact new semantic contribution and
+understand why the recognition was unavailable before it appeared.
 
-## What the Prose Must Not Do
+A paragraph whose conclusion remains materially unchanged after its secondary
+semantic material is removed is primary exposition. It does not belong in this
+reading.
 
-Do not:
+## Weak and Counterpressured Material
 
-- summarize the surah;
-- proceed ayah by ayah;
-- create one section per channel or source;
-- list roots, branches, candidates, or semantic fields;
-- mention V11, V12, network-v3, Layer 2, evidence grades, confidence, prompts,
-  schemas, agents, or review;
-- say that a word "really means" a secondary image;
-- smuggle a prohibited rejected predication back as metaphor;
-- require the reader to understand Arabic before receiving the payoff;
-- open with a methodological explanation.
+Use weak or counterpressured material with the degree of assertion permitted by
+the channel brief. Preserve each `doNotClaim` limit while allowing the surviving
+operation to participate. State the resonance positively and cleanly; do not
+surround it with repeated prohibitions or turn the prose into an evidence
+defense.
 
-Arabic words may appear only when a specific surface word is indispensable to
-the recognition. Give its ordinary translated sense first. Never display root
-skeletons or identifiers.
+## One Developing Argument
 
-## Form
+Develop every supplied channel. Let the channels meet inside one cumulative
+argument rather than giving each a titled section or catalogue entry. A later
+recognition should prepare, complicate, or transform what the reader now sees
+in an earlier one.
 
-Write continuous, engaging prose in the packet's target language. A literary
-title is allowed. Internal headings are discouraged; use them only if removing
-them would make a long reading genuinely harder to follow.
+There is no word, paragraph, section, or channel-count target. Write what the
+earned reader movement requires.
 
-Each paragraph must advance the system. A paragraph that could move anywhere
-without changing the argument probably belongs in apparatus.
+Do not imply that two movements have the same actor unless the supplied
+material establishes that identity. Structural reversals are changes of role,
+direction, or relation.
 
-## Evidence Surface
+## Reader Language
 
-After writing the prose, map every paragraph to:
+Meaning comes before linguistic terminology. Arabic words may appear only when
+a specific surface word is indispensable; give its ordinary translated sense
+first.
 
-- one or more reviewed system IDs;
-- the packet source fragments supporting its claims;
-- any structural inference;
-- the primary element kept recoverable;
-- the reader shift advanced there.
+Never display roots, branch identifiers, activation-card identifiers, source
+labels, workflow vocabulary, evidence grades, confidence labels, prompts,
+schemas, or agents.
 
-Evidence language stays out of the prose.
+Do not say a word "really means" its secondary contribution. Do not state a
+`doNotClaim` item as a word's local meaning, an identity, or a historical event.
+The surviving operation recorded in the brief remains available as a secondary
+resonance.
+
+Begin inside the argument, not with methodology. End inside the final altered
+understanding, not with a recap or list of findings.
 
 ## Output
 
-Write exactly:
-
-1. `N.surah-reading.md`
-2. `N.surah-reading.evidence.json`
-3. `N.surah-reading.friction.md`
-
-The evidence JSON must conform exactly to the inlined schema. Friction records
-instruction or evidence limitations only; it is not a second commentary.
+Write exactly `N.surah-reading.md`.

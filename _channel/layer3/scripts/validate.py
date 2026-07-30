@@ -39,7 +39,7 @@ def is_list(value: Any) -> bool:
 def source_ids(packet: dict[str, Any]) -> set[str]:
     return {
         item.get("sourceId")
-        for item in packet.get("sources", [])
+        for item in packet.get("sourceRegistry", [])
         if isinstance(item, dict) and isinstance(item.get("sourceId"), str)
     }
 
@@ -66,18 +66,19 @@ def validate_packet(packet: dict[str, Any]) -> list[str]:
             "packetId",
             "surah",
             "language",
-            "ayahs",
-            "sources",
+            "sourceRegistry",
+            "primaryGround",
+            "evidenceField",
             "coverage",
             "warnings",
         },
         "packet",
     )
-    if packet.get("schemaVersion") != "layer3-source-packet-v1":
+    if packet.get("schemaVersion") != "layer3-source-packet-v2":
         errors.append("packet: unsupported schemaVersion")
-    sources = packet.get("sources")
+    sources = packet.get("sourceRegistry")
     if not is_list(sources) or not sources:
-        errors.append("packet: sources must be a non-empty array")
+        errors.append("packet: sourceRegistry must be a non-empty array")
         sources = []
     ids = [
         item.get("sourceId")
@@ -85,39 +86,115 @@ def validate_packet(packet: dict[str, Any]) -> list[str]:
         if is_dict(item) and isinstance(item.get("sourceId"), str)
     ]
     errors.extend(unique_values(ids, "packet sources"))
-    required_source_keys = {"sourceId", "kind", "role", "path", "format", "content"}
+    required_source_keys = {
+        "sourceId",
+        "kind",
+        "role",
+        "path",
+        "format",
+        "projection",
+    }
     for index, source in enumerate(sources):
         if not is_dict(source):
-            errors.append(f"packet sources[{index}]: must be an object")
-            continue
-        errors.extend(
-            require_keys(source, required_source_keys, f"packet sources[{index}]")
-        )
-    ayahs = packet.get("ayahs")
-    if not is_list(ayahs) or not ayahs:
-        errors.append("packet: ayahs must be a non-empty array")
-        ayahs = []
-    ayah_refs = []
-    known_sources = set(ids)
-    for index, ayah in enumerate(ayahs):
-        if not is_dict(ayah):
-            errors.append(f"packet ayahs[{index}]: must be an object")
+            errors.append(f"packet sourceRegistry[{index}]: must be an object")
             continue
         errors.extend(
             require_keys(
+                source,
+                required_source_keys,
+                f"packet sourceRegistry[{index}]",
+            )
+        )
+    known_sources = set(ids)
+    primary = packet.get("primaryGround")
+    if not is_dict(primary):
+        errors.append("packet: primaryGround must be an object")
+        primary = {}
+    else:
+        errors.extend(
+            require_keys(primary, {"sourceRefs", "ayahs"}, "packet primaryGround")
+        )
+        errors.extend(
+            check_source_refs(
+                primary.get("sourceRefs"),
+                known_sources,
+                "packet primaryGround",
+            )
+        )
+    ayahs = primary.get("ayahs")
+    if not is_list(ayahs) or not ayahs:
+        errors.append("packet primaryGround: ayahs must be a non-empty array")
+        ayahs = []
+    ayah_refs = []
+    for index, ayah in enumerate(ayahs):
+        if not is_dict(ayah):
+            errors.append(f"packet primaryGround.ayahs[{index}]: must be an object")
+            continue
+        context = f"packet primaryGround.ayahs[{index}]"
+        errors.extend(
+            require_keys(
                 ayah,
-                {"ayahRef", "unitType", "arabic", "sourceRefs"},
-                f"packet ayahs[{index}]",
+                {"ayahRef", "unitType", "arabic", "reading"},
+                context,
             )
         )
         if isinstance(ayah.get("ayahRef"), str):
             ayah_refs.append(ayah["ayahRef"])
-        for ref in ayah.get("sourceRefs", []):
-            if ref not in known_sources:
+        reading = ayah.get("reading")
+        if ayah.get("unitType") == "ayah" and not is_dict(reading):
+            errors.append(f"{context}: numbered ayah requires a reading")
+        if is_dict(reading):
+            errors.extend(
+                require_keys(reading, {"sourceRef", "text"}, f"{context}.reading")
+            )
+            source_ref = reading.get("sourceRef")
+            if (
+                not isinstance(source_ref, str)
+                or source_base(source_ref) not in known_sources
+            ):
                 errors.append(
-                    f"packet ayahs[{index}]: unknown source reference {ref!r}"
+                    f"{context}.reading: unknown source reference {source_ref!r}"
                 )
     errors.extend(unique_values(ayah_refs, "packet ayahs"))
+
+    evidence = packet.get("evidenceField")
+    if not is_dict(evidence):
+        errors.append("packet: evidenceField must be an object")
+        evidence = {}
+    else:
+        errors.extend(
+            require_keys(
+                evidence,
+                {"localBoundaries", "reviewedChannels", "legacyIntegration"},
+                "packet evidenceField",
+            )
+        )
+    evidence_ids: list[str] = []
+    evidence_groups = (
+        ("localBoundaries", "boundaryId"),
+        ("reviewedChannels", "synthesisId"),
+        ("legacyIntegration", "sectionId"),
+    )
+    for group_name, id_key in evidence_groups:
+        records = evidence.get(group_name)
+        if not is_list(records):
+            errors.append(f"packet evidenceField.{group_name}: must be an array")
+            continue
+        for index, record in enumerate(records):
+            context = f"packet evidenceField.{group_name}[{index}]"
+            if not is_dict(record):
+                errors.append(f"{context}: must be an object")
+                continue
+            errors.extend(
+                require_keys(record, {id_key, "sourceRefs", "text"}, context)
+            )
+            if isinstance(record.get(id_key), str):
+                evidence_ids.append(record[id_key])
+            errors.extend(
+                check_source_refs(record.get("sourceRefs"), known_sources, context)
+            )
+    errors.extend(unique_values(evidence_ids, "packet evidence records"))
+
     coverage = packet.get("coverage")
     if not is_dict(coverage):
         errors.append("packet: coverage must be an object")
@@ -125,7 +202,7 @@ def validate_packet(packet: dict[str, Any]) -> list[str]:
         errors.extend(
             require_keys(
                 coverage,
-                {"quranText", "layer2", "networkV3", "v12", "v11"},
+                {"quranText", "layer2", "networkV3", "v11"},
                 "packet coverage",
             )
         )
@@ -141,42 +218,100 @@ def validate_packet(packet: dict[str, Any]) -> list[str]:
     return errors
 
 
-def validate_candidates(
-    candidates: dict[str, Any], packet: dict[str, Any]
+def validate_hypotheses(
+    hypotheses: dict[str, Any], packet: dict[str, Any]
 ) -> list[str]:
     errors = require_keys(
-        candidates,
+        hypotheses,
         {
             "schemaVersion",
             "packetId",
             "surah",
-            "primaryMovement",
-            "primaryTensions",
+            "hypotheses",
+        },
+        "hypotheses",
+    )
+    if hypotheses.get("schemaVersion") != "layer3-discovery-hypotheses-v1":
+        errors.append("hypotheses: unsupported schemaVersion")
+    if hypotheses.get("packetId") != packet.get("packetId"):
+        errors.append("hypotheses: packetId does not match packet")
+    if hypotheses.get("surah") != packet.get("surah"):
+        errors.append("hypotheses: surah does not match packet")
+    records = hypotheses.get("hypotheses")
+    if not is_list(records):
+        errors.append("hypotheses: hypotheses must be an array")
+        return errors
+    hypothesis_ids = [
+        record.get("hypothesisId")
+        for record in records
+        if is_dict(record) and isinstance(record.get("hypothesisId"), str)
+    ]
+    errors.extend(unique_values(hypothesis_ids, "discovery hypotheses"))
+    for index, record in enumerate(records):
+        context = f"hypotheses[{index}]"
+        if not is_dict(record):
+            errors.append(f"{context}: must be an object")
+            continue
+        errors.extend(
+            require_keys(
+                record,
+                {
+                    "hypothesisId",
+                    "proposedOperation",
+                    "readerShift",
+                    "rhetoricalReach",
+                    "activationCardRefs",
+                },
+                context,
+            )
+        )
+    return errors
+
+
+def validate_ledger(
+    ledger: dict[str, Any],
+    packet: dict[str, Any],
+    hypotheses: dict[str, Any] | None,
+) -> list[str]:
+    errors = require_keys(
+        ledger,
+        {
+            "schemaVersion",
+            "ledgerId",
+            "packetId",
+            "surah",
+            "architecture",
             "systems",
             "friction",
         },
-        "candidates",
+        "ledger",
     )
-    if candidates.get("schemaVersion") != "layer3-system-candidates-v1":
-        errors.append("candidates: unsupported schemaVersion")
-    if candidates.get("packetId") != packet.get("packetId"):
-        errors.append("candidates: packetId does not match packet")
-    if candidates.get("surah") != packet.get("surah"):
-        errors.append("candidates: surah does not match packet")
-    systems = candidates.get("systems")
-    if not is_list(systems) or not systems:
-        errors.append("candidates: systems must be a non-empty array")
+    if ledger.get("schemaVersion") != "layer3-system-ledger-v2":
+        errors.append("ledger: unsupported schemaVersion")
+    if ledger.get("packetId") != packet.get("packetId"):
+        errors.append("ledger: packetId does not match packet")
+    if ledger.get("surah") != packet.get("surah"):
+        errors.append("ledger: surah does not match packet")
+    systems = ledger.get("systems")
+    if not is_list(systems):
+        errors.append("ledger: systems must be an array")
         return errors
     known_sources = source_ids(packet)
+    known_hypotheses = {
+        item.get("hypothesisId")
+        for item in (hypotheses or {}).get("hypotheses", [])
+        if is_dict(item)
+    }
     system_ids = [
         system.get("systemId")
         for system in systems
         if is_dict(system) and isinstance(system.get("systemId"), str)
     ]
-    errors.extend(unique_values(system_ids, "candidate systems"))
-    contribution_ids: list[str] = []
+    errors.extend(unique_values(system_ids, "ledger systems"))
+    known_systems = set(system_ids)
+    claim_ids: list[str] = []
     for index, system in enumerate(systems):
-        context = f"candidates systems[{index}]"
+        context = f"ledger systems[{index}]"
         if not is_dict(system):
             errors.append(f"{context}: must be an object")
             continue
@@ -185,22 +320,27 @@ def validate_candidates(
                 system,
                 {
                     "systemId",
-                    "workingName",
+                    "hypothesisIds",
+                    "name",
+                    "disposition",
+                    "absorbedInto",
                     "governingOperation",
                     "primaryContainment",
-                    "wholeSurahShift",
                     "ayahRefs",
                     "trajectory",
+                    "readerShifts",
                     "evidenceContributions",
-                    "ahaMoments",
-                    "counterpressure",
-                    "coherence",
+                    "boundaries",
                 },
                 context,
             )
         )
-        if len(set(system.get("ayahRefs", []))) < 2:
-            errors.append(f"{context}: system must span at least two ayahs")
+        if hypotheses is not None:
+            for hypothesis_id in system.get("hypothesisIds", []):
+                if hypothesis_id not in known_hypotheses:
+                    errors.append(
+                        f"{context}: unknown hypothesisId {hypothesis_id!r}"
+                    )
         for stage_index, stage in enumerate(system.get("trajectory", [])):
             if is_dict(stage):
                 errors.extend(
@@ -215,121 +355,6 @@ def validate_candidates(
             if not is_dict(claim):
                 errors.append(f"{claim_context}: must be an object")
                 continue
-            if isinstance(claim.get("contributionId"), str):
-                contribution_ids.append(claim["contributionId"])
-            errors.extend(
-                check_source_refs(claim.get("sourceRefs"), known_sources, claim_context)
-            )
-            if claim.get("upstreamStatus") == "rejected-predication":
-                if claim.get("role") == "core":
-                    errors.append(
-                        f"{claim_context}: rejected predication cannot be core"
-                    )
-                if not claim.get("prohibitedInference"):
-                    errors.append(
-                        f"{claim_context}: rejected predication needs "
-                        "prohibitedInference"
-                    )
-    errors.extend(unique_values(contribution_ids, "candidate contributions"))
-    return errors
-
-
-def validate_ledger(
-    ledger: dict[str, Any],
-    packet: dict[str, Any],
-    candidates: dict[str, Any] | None,
-) -> list[str]:
-    errors = require_keys(
-        ledger,
-        {
-            "schemaVersion",
-            "ledgerId",
-            "packetId",
-            "surah",
-            "architecture",
-            "systems",
-            "globalBoundaries",
-            "friction",
-        },
-        "ledger",
-    )
-    if ledger.get("schemaVersion") != "layer3-system-ledger-v1":
-        errors.append("ledger: unsupported schemaVersion")
-    if ledger.get("packetId") != packet.get("packetId"):
-        errors.append("ledger: packetId does not match packet")
-    if ledger.get("surah") != packet.get("surah"):
-        errors.append("ledger: surah does not match packet")
-    systems = ledger.get("systems")
-    if not is_list(systems) or not systems:
-        errors.append("ledger: systems must be a non-empty array")
-        return errors
-    known_sources = source_ids(packet)
-    known_candidates = {
-        system.get("systemId")
-        for system in (candidates or {}).get("systems", [])
-        if is_dict(system)
-    }
-    system_ids = [
-        system.get("systemId")
-        for system in systems
-        if is_dict(system) and isinstance(system.get("systemId"), str)
-    ]
-    errors.extend(unique_values(system_ids, "ledger systems"))
-    known_systems = set(system_ids)
-    render_count = 0
-    claim_ids: list[str] = []
-    for index, system in enumerate(systems):
-        context = f"ledger systems[{index}]"
-        if not is_dict(system):
-            errors.append(f"{context}: must be an object")
-            continue
-        errors.extend(
-            require_keys(
-                system,
-                {
-                    "systemId",
-                    "candidateSystemIds",
-                    "name",
-                    "disposition",
-                    "governingOperation",
-                    "readerStatement",
-                    "primaryContainment",
-                    "wholeSurahShift",
-                    "ayahRefs",
-                    "trajectory",
-                    "ahaMoments",
-                    "claimDecisions",
-                    "failureTests",
-                },
-                context,
-            )
-        )
-        if system.get("disposition") == "render":
-            render_count += 1
-            if not system.get("ahaMoments"):
-                errors.append(f"{context}: rendered system requires an ahaMoment")
-        if len(set(system.get("ayahRefs", []))) < 2:
-            errors.append(f"{context}: system must span at least two ayahs")
-        if candidates is not None:
-            for candidate_id in system.get("candidateSystemIds", []):
-                if candidate_id not in known_candidates:
-                    errors.append(
-                        f"{context}: unknown candidateSystemId {candidate_id!r}"
-                    )
-        for stage_index, stage in enumerate(system.get("trajectory", [])):
-            if is_dict(stage):
-                errors.extend(
-                    check_source_refs(
-                        stage.get("sourceRefs"),
-                        known_sources,
-                        f"{context}.trajectory[{stage_index}]",
-                    )
-                )
-        for claim_index, claim in enumerate(system.get("claimDecisions", [])):
-            claim_context = f"{context}.claimDecisions[{claim_index}]"
-            if not is_dict(claim):
-                errors.append(f"{claim_context}: must be an object")
-                continue
             if isinstance(claim.get("claimId"), str):
                 claim_ids.append(claim["claimId"])
             errors.extend(
@@ -340,13 +365,19 @@ def validate_ledger(
                     errors.append(
                         f"{claim_context}: rejected predication cannot be core"
                     )
-                if not claim.get("prohibitedForm"):
-                    errors.append(
-                        f"{claim_context}: rejected predication needs prohibitedForm"
-                    )
+        for boundary_index, boundary in enumerate(system.get("boundaries", [])):
+            boundary_context = f"{context}.boundaries[{boundary_index}]"
+            if not is_dict(boundary):
+                errors.append(f"{boundary_context}: must be an object")
+                continue
+            errors.extend(
+                check_source_refs(
+                    boundary.get("sourceRefs"),
+                    known_sources,
+                    boundary_context,
+                )
+            )
     errors.extend(unique_values(claim_ids, "ledger claims"))
-    if render_count == 0:
-        errors.append("ledger: at least one system must have disposition 'render'")
     architecture = ledger.get("architecture", {})
     if is_dict(architecture):
         for system_id in architecture.get("orderedSystemIds", []):
@@ -357,83 +388,12 @@ def validate_ledger(
     return errors
 
 
-def prose_paragraphs(markdown: str) -> list[str]:
-    blocks = [
-        block.strip()
-        for block in re.split(r"\n\s*\n", markdown.strip())
-        if block.strip()
-    ]
-    return [block for block in blocks if not block.startswith("#")]
-
-
 def validate_publication(
-    evidence: dict[str, Any],
     packet: dict[str, Any],
     ledger: dict[str, Any],
     prose: str,
 ) -> list[str]:
-    errors = require_keys(
-        evidence,
-        {
-            "schemaVersion",
-            "packetId",
-            "ledgerId",
-            "surah",
-            "proseFile",
-            "paragraphs",
-            "ahaCoverage",
-            "limitations",
-        },
-        "publication evidence",
-    )
-    if evidence.get("schemaVersion") != "layer3-prose-evidence-v1":
-        errors.append("publication evidence: unsupported schemaVersion")
-    if evidence.get("packetId") != packet.get("packetId"):
-        errors.append("publication evidence: packetId does not match packet")
-    if evidence.get("ledgerId") != ledger.get("ledgerId"):
-        errors.append("publication evidence: ledgerId does not match ledger")
-    known_sources = source_ids(packet)
-    known_systems = {
-        system.get("systemId")
-        for system in ledger.get("systems", [])
-        if is_dict(system)
-    }
-    paragraphs = prose_paragraphs(prose)
-    rows = evidence.get("paragraphs")
-    if not is_list(rows):
-        errors.append("publication evidence: paragraphs must be an array")
-        rows = []
-    if len(paragraphs) != len(rows):
-        errors.append(
-            "publication evidence: prose paragraph count "
-            f"({len(paragraphs)}) does not match evidence ({len(rows)})"
-        )
-    paragraph_ids: list[str] = []
-    for index, row in enumerate(rows):
-        context = f"publication paragraphs[{index}]"
-        if not is_dict(row):
-            errors.append(f"{context}: must be an object")
-            continue
-        if isinstance(row.get("paragraphId"), str):
-            paragraph_ids.append(row["paragraphId"])
-        for system_id in row.get("systemIds", []):
-            if system_id not in known_systems:
-                errors.append(f"{context}: unknown systemId {system_id!r}")
-        for claim_index, claim in enumerate(row.get("claims", [])):
-            if is_dict(claim):
-                errors.extend(
-                    check_source_refs(
-                        claim.get("sourceRefs"),
-                        known_sources,
-                        f"{context}.claims[{claim_index}]",
-                    )
-                )
-        if index < len(paragraphs) and isinstance(row.get("openingText"), str):
-            normalized = re.sub(r"\s+", " ", paragraphs[index]).casefold()
-            opening = re.sub(r"\s+", " ", row["openingText"]).casefold()
-            if not normalized.startswith(opening):
-                errors.append(f"{context}: openingText does not match prose")
-    errors.extend(unique_values(paragraph_ids, "publication paragraphs"))
+    errors: list[str] = []
     for pattern in FORBIDDEN_PROSE:
         match = pattern.search(prose)
         if match:
@@ -444,15 +404,15 @@ def validate_publication(
     for system in ledger.get("systems", []):
         if not is_dict(system):
             continue
-        for claim in system.get("claimDecisions", []):
-            if not is_dict(claim):
+        for boundary in system.get("boundaries", []):
+            if not is_dict(boundary):
                 continue
-            prohibited = claim.get("prohibitedForm")
+            prohibited = boundary.get("prohibitedForm")
             if isinstance(prohibited, str) and prohibited.strip():
                 if prohibited.casefold() in prose_folded:
                     errors.append(
-                        f"prose: contains prohibited claim form from "
-                        f"{claim.get('claimId')!r}"
+                        f"prose: contains a prohibited claim form from "
+                        f"system {system.get('systemId')!r}"
                     )
     return errors
 
@@ -473,17 +433,16 @@ def main() -> int:
     packet_parser = subparsers.add_parser("packet")
     packet_parser.add_argument("artifact", type=Path)
 
-    candidates_parser = subparsers.add_parser("candidates")
-    candidates_parser.add_argument("artifact", type=Path)
-    candidates_parser.add_argument("--packet", required=True, type=Path)
+    hypotheses_parser = subparsers.add_parser("hypotheses")
+    hypotheses_parser.add_argument("artifact", type=Path)
+    hypotheses_parser.add_argument("--packet", required=True, type=Path)
 
     ledger_parser = subparsers.add_parser("ledger")
     ledger_parser.add_argument("artifact", type=Path)
     ledger_parser.add_argument("--packet", required=True, type=Path)
-    ledger_parser.add_argument("--candidates", type=Path)
+    ledger_parser.add_argument("--hypotheses", type=Path)
 
     publication_parser = subparsers.add_parser("publication")
-    publication_parser.add_argument("artifact", type=Path)
     publication_parser.add_argument("--packet", required=True, type=Path)
     publication_parser.add_argument("--ledger", required=True, type=Path)
     publication_parser.add_argument("--prose", required=True, type=Path)
@@ -491,17 +450,17 @@ def main() -> int:
     args = parser.parse_args()
     if args.command == "packet":
         return report(validate_packet(load_json(args.artifact)))
-    if args.command == "candidates":
+    if args.command == "hypotheses":
         packet = load_json(args.packet)
-        return report(validate_candidates(load_json(args.artifact), packet))
+        return report(validate_hypotheses(load_json(args.artifact), packet))
     if args.command == "ledger":
         packet = load_json(args.packet)
-        candidates = load_json(args.candidates) if args.candidates else None
-        return report(validate_ledger(load_json(args.artifact), packet, candidates))
+        hypotheses = load_json(args.hypotheses) if args.hypotheses else None
+        return report(validate_ledger(load_json(args.artifact), packet, hypotheses))
     packet = load_json(args.packet)
     ledger = load_json(args.ledger)
     prose = args.prose.read_text(encoding="utf-8")
-    return report(validate_publication(load_json(args.artifact), packet, ledger, prose))
+    return report(validate_publication(packet, ledger, prose))
 
 
 if __name__ == "__main__":

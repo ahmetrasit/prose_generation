@@ -1,0 +1,1922 @@
+{
+  "bundle_type": "ayah",
+  "schema_version": "input-bundle-v3",
+  "generated_at": "2026-07-30T04:11:58.200874+00:00",
+  "surah": 85,
+  "ayah": 18,
+  "ayahRef": "85:18",
+  "text": {
+    "arabic_uthmani": "فِرْعَوْنَ وَثَمُودَ",
+    "source": "quran-data/data/text/quran-uthmani.tsv"
+  },
+  "qac_morphemes": [
+    {
+      "qac_ref": "85:18:1:1",
+      "qac_word_ref": "85:18:1",
+      "surah": 85,
+      "ayah": 18,
+      "word_index": 1,
+      "morpheme_index": 1,
+      "surface_bw": "firoEawona",
+      "surface_ar": "فِرْعَوْنَ",
+      "stem_ar": "فِرْعَوْنَ",
+      "lemma_bw": "firoEawon",
+      "lemma_ar": "فِرْعَوْن",
+      "root_raw": "",
+      "root_ar": "",
+      "root_join_key": "",
+      "source_pos": "PN",
+      "pos": "PN",
+      "morpheme_role": "STEM",
+      "morph_features": "STEM|POS:PN|LEM:firoEawon|M|GEN",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 126213,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    },
+    {
+      "qac_ref": "85:18:2:1",
+      "qac_word_ref": "85:18:2",
+      "surah": 85,
+      "ayah": 18,
+      "word_index": 2,
+      "morpheme_index": 1,
+      "surface_bw": "wa",
+      "surface_ar": "وَ",
+      "stem_ar": "",
+      "lemma_bw": "",
+      "lemma_ar": "",
+      "root_raw": "",
+      "root_ar": "",
+      "root_join_key": "",
+      "source_pos": "CONJ",
+      "pos": "CONJ",
+      "morpheme_role": "PREFIX",
+      "morph_features": "PREFIX|w:CONJ+",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 126214,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    },
+    {
+      "qac_ref": "85:18:2:2",
+      "qac_word_ref": "85:18:2",
+      "surah": 85,
+      "ayah": 18,
+      "word_index": 2,
+      "morpheme_index": 2,
+      "surface_bw": "vamuwda",
+      "surface_ar": "ثَمُودَ",
+      "stem_ar": "ثَمُودَ",
+      "lemma_bw": "vamuwd",
+      "lemma_ar": "ثَمُود",
+      "root_raw": "",
+      "root_ar": "",
+      "root_join_key": "",
+      "source_pos": "PN",
+      "pos": "PN",
+      "morpheme_role": "STEM",
+      "morph_features": "STEM|POS:PN|LEM:vamuwd|GEN",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 126215,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    }
+  ],
+  "word_analysis": {
+    "schema_version": "word-analysis-output-v2",
+    "prompt_version": "word-aha-prose-v1.6",
+    "ref": "85:18",
+    "bundle_id": "word-analysis-input-v1:agent:85:18",
+    "words": [
+      {
+        "critical_w": 1,
+        "aligned_qac_word_ref": "85:18:1",
+        "surface_display": "{{ar:فِرْعَوْنَ}} ({{tr:firʿawna}})",
+        "root_display": "-",
+        "gloss_range": "foreign proper name used as the first appositional exhibit under the prior host-frame; it invokes ruler, court, army, and imperial apparatus without opening a new narrative clause",
+        "root_gloss_range": null,
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "85:18:3"
+            ],
+            "ar": "ثَمُودَ",
+            "tr": "thamūda",
+            "display": "{{ar:ثَمُودَ}} ({{tr:thamūda}})",
+            "gloss_range": "the second named exhibit, a people-name rather than a ruler-name",
+            "relation": "contrast"
+          }
+        ],
+        "prose": "{{ar:فِرْعَوْنَ}} ({{tr:firʿawna}}) opens the ayah, but its case-marked appositional shape keeps it dependent on the report of the hosts in 85:17. The most sovereign-looking name is therefore introduced as evidence, not as an actor starting a new scene. Because the word is an opaque foreign proper name, the local force is not Arabic root-play; it is name-recognition. The title-origin and later tyrant-class derivatives stay as provenance, not local derivation: they explain why one base name can summon palace, ruler, court, army, and command-system while remaining a compact item under the prior report-frame. Its recurrence also matters: the name that stands inside prophetic confrontation elsewhere (79:17; 20:24) is here grammatically still, reduced to a remembered case-file. Placed before {{ar:ثَمُودَ}} ({{tr:thamūda}}), it starts the catalogue at ruler scale before the pair widens to collective civilization.",
+        "topics": [
+          {
+            "topic_id": "85:18:1:appositional-host-dependency",
+            "status": "used",
+            "headline": "name subordinated to host-frame",
+            "summary": "The first name is case-marked as appositional content of the prior host-report rather than a new independent clause.",
+            "representative_source_ids": [
+              "QG-37fb4092",
+              "QG-68b0c8cb",
+              "QG-e10f4aba",
+              "MG-b788582b"
+            ],
+            "reader_payoff": "The reader notices that the royal name begins the ayah while remaining grammatically lowered into the prior report about the hosts.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:NOUN_PROP_FOREIGN",
+              "attachment:translation_support",
+              "attachment:noun_instances"
+            ],
+            "reason": "QAC and attachment evidence place {{ar:فِرْعَوْنَ}} ({{tr:firʿawna}}) as a foreign proper noun in accusative appositional position, with translation support warning that the pair specifies the prior hosts."
+          },
+          {
+            "topic_id": "85:18:1:proper-name-compresses-system",
+            "status": "narrowed",
+            "headline": "proper name carries ruler-system",
+            "summary": "The name can carry palace, office, ruler, court, and army as recognition pressure, while etymology and later derivatives do not replace the local proper-name function.",
+            "representative_source_ids": [
+              "QS-9dd6e790",
+              "QS-c553f060",
+              "MS-82bc0fe2",
+              "QF-be2a7753"
+            ],
+            "reader_payoff": "The reader sees how a single recognized name can import the whole imperial apparatus without the ayah narrating that apparatus.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:NOUN_PROP_FOREIGN",
+              "v4:missing_root_note",
+              "critical:derivative_rows"
+            ],
+            "reason": "The no-root proper-name analysis keeps the word from becoming Arabic derivation, but the supplied title and derivative evidence supports recognition of the ruler-system compressed in the base name."
+          },
+          {
+            "topic_id": "85:18:1:foreign-name-arabicized-by-syntax",
+            "status": "used",
+            "headline": "foreign name shaped by Arabic case",
+            "summary": "The opaque loan-name remains a definite proper name, yet Arabic case syntax makes it serve the appositional list.",
+            "representative_source_ids": [
+              "QF-447b6927",
+              "QF-b933874f",
+              "MF-e565356f"
+            ],
+            "reader_payoff": "The reader notices that imperial grandeur is reduced by Arabic syntax even though the name itself is not opened into an Arabic root argument.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:grammar",
+              "qac:form_tag"
+            ],
+            "reason": "The aligned grammar treats the word as a foreign proper noun in case-marked appositional position, matching the CRITICAL claim that form and syntax perform the local reduction."
+          },
+          {
+            "topic_id": "85:18:1:recurrence-turns-adversary-to-case-file",
+            "status": "used",
+            "headline": "active adversary becomes exhibit",
+            "summary": "Concrete recurrence references shift the name from prophetic confrontation to compressed remembered evidence.",
+            "representative_source_ids": [
+              "QI-fde04a2e",
+              "MI-69f4ec89",
+              "QE-7a94f519"
+            ],
+            "reader_payoff": "The reader recognizes that a figure active in confrontation elsewhere (79:17; 20:24) is now presented only as a stored exhibit under the host-report.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical:intertext_rows",
+              "qac:word_order"
+            ],
+            "reason": "The CRITICAL rows give concrete references to 79:17 and 20:24; local grammar supplies only the bare appositional name, supporting the role-shift without changing the parse."
+          },
+          {
+            "topic_id": "85:18:1:first-member-ruler-scale",
+            "status": "used",
+            "headline": "catalogue begins at ruler scale",
+            "summary": "The ordered pair begins with concentrated royal power before widening to a people-name.",
+            "representative_source_ids": [
+              "QT-88b3ec9d",
+              "QT-d58b8ba3",
+              "MT-70919378"
+            ],
+            "reader_payoff": "The reader feels the catalogue begin with personalized domination before it widens to collective civilization.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_order",
+              "attachment:attachments"
+            ],
+            "reason": "The name is the first item in the coordinated pair, and attachment evidence keeps the second name coordinated with it rather than replacing the order effect."
+          },
+          {
+            "topic_id": "85:18:1:question-boundary-to-name-catalogue",
+            "status": "used",
+            "headline": "report becomes a name catalogue",
+            "summary": "The previous addressed question gives way to two bare names, making hostile forces appear as labels rather than narrated actors.",
+            "representative_source_ids": [
+              "QB-03761984",
+              "QB-157e9e0a",
+              "QB-29ff9e7c",
+              "QY-f27e371e"
+            ],
+            "reader_payoff": "The reader notices the dramatic compression across the ayah boundary: question, report, and host-category collapse into a bare named exhibit.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:translation_support",
+              "qac:word_order",
+              "critical:bridge_rows"
+            ],
+            "reason": "The bundle's translation support explicitly ties the name pair to the prior host-frame, while the local ayah provides no verb or new clause marker before the first name."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-37fb4092",
+            "topic_id": "85:18:1:appositional-host-dependency",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-68b0c8cb",
+            "topic_id": "85:18:1:appositional-host-dependency",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-e10f4aba",
+            "topic_id": "85:18:1:appositional-host-dependency",
+            "status": "used"
+          },
+          {
+            "row_id": "MG-b788582b",
+            "topic_id": "85:18:1:appositional-host-dependency",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-9dd6e790",
+            "topic_id": "85:18:1:proper-name-compresses-system",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-c553f060",
+            "topic_id": "85:18:1:proper-name-compresses-system",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-e12e1385",
+            "topic_id": "85:18:1:proper-name-compresses-system",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "MS-82bc0fe2",
+            "topic_id": "85:18:1:proper-name-compresses-system",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-447b6927",
+            "topic_id": "85:18:1:foreign-name-arabicized-by-syntax",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-b933874f",
+            "topic_id": "85:18:1:foreign-name-arabicized-by-syntax",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-be2a7753",
+            "topic_id": "85:18:1:proper-name-compresses-system",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "MF-e565356f",
+            "topic_id": "85:18:1:foreign-name-arabicized-by-syntax",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-fde04a2e",
+            "topic_id": "85:18:1:recurrence-turns-adversary-to-case-file",
+            "status": "used"
+          },
+          {
+            "row_id": "MI-69f4ec89",
+            "topic_id": "85:18:1:recurrence-turns-adversary-to-case-file",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-88b3ec9d",
+            "topic_id": "85:18:1:first-member-ruler-scale",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-d58b8ba3",
+            "topic_id": "85:18:1:first-member-ruler-scale",
+            "status": "used"
+          },
+          {
+            "row_id": "MT-70919378",
+            "topic_id": "85:18:1:first-member-ruler-scale",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-7a94f519",
+            "topic_id": "85:18:1:recurrence-turns-adversary-to-case-file",
+            "status": "used"
+          },
+          {
+            "row_id": "ME-a1012499",
+            "topic_id": "85:18:1:question-boundary-to-name-catalogue",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-03761984",
+            "topic_id": "85:18:1:question-boundary-to-name-catalogue",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-157e9e0a",
+            "topic_id": "85:18:1:question-boundary-to-name-catalogue",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-29ff9e7c",
+            "topic_id": "85:18:1:question-boundary-to-name-catalogue",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-a9563078",
+            "topic_id": "85:18:1:question-boundary-to-name-catalogue",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-f27e371e",
+            "topic_id": "85:18:1:question-boundary-to-name-catalogue",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      },
+      {
+        "critical_w": 2,
+        "aligned_qac_word_ref": "85:18:2",
+        "surface_display": "{{ar:وَ}} ({{tr:wa}})",
+        "root_display": "-",
+        "gloss_range": "coordinating connector that keeps the second name inside the same inherited host-frame while pivoting the catalogue from ruler-scale to people-scale",
+        "root_gloss_range": null,
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "85:18:1"
+            ],
+            "ar": "فِرْعَوْنَ",
+            "tr": "firʿawna",
+            "display": "{{ar:فِرْعَوْنَ}} ({{tr:firʿawna}})",
+            "gloss_range": "the first named exhibit, a ruler-name",
+            "relation": "contrast"
+          },
+          {
+            "id": "s2",
+            "word_refs": [
+              "85:18:3"
+            ],
+            "ar": "ثَمُودَ",
+            "tr": "thamūda",
+            "display": "{{ar:ثَمُودَ}} ({{tr:thamūda}})",
+            "gloss_range": "the second named exhibit, a people-name",
+            "relation": "contrast"
+          },
+          {
+            "id": "s3",
+            "word_refs": [
+              "85:18:2",
+              "85:18:3"
+            ],
+            "ar": "وَثَمُودَ",
+            "tr": "wa-thamūda",
+            "display": "{{ar:وَثَمُودَ}} ({{tr:wa-thamūda}})",
+            "gloss_range": "the connector fused to the second name in the recited surface",
+            "relation": "grammar"
+          }
+        ],
+        "prose": "{{ar:وَ}} ({{tr:wa}}) is small, but it does the hinge-work of the ayah. It keeps {{ar:ثَمُودَ}} ({{tr:thamūda}}) coordinated with {{ar:فِرْعَوْنَ}} ({{tr:firʿawna}}) inside the same inherited host-frame, so the second name is not an epithet, afterthought, or new clause. The link is non-hierarchical: two separate exempla become co-witnesses under one warning rather than separate narrative episodes. The same connector also changes the scale of the catalogue at the exact hinge between the names: ruler-power is joined to people-power without adding a verb or explanation. In the written and recited surface {{ar:وَثَمُودَ}} ({{tr:wa-thamūda}}), the letter clings to the second name, making the expansion feel immediate and compressed rather than paused.",
+        "topics": [
+          {
+            "topic_id": "85:18:2:coordinate-scope-under-host-frame",
+            "status": "used",
+            "headline": "coordination keeps shared frame",
+            "summary": "The connector attaches the second name to the first as a coordinate under the same prior host-frame.",
+            "representative_source_ids": [
+              "QG-3679f953",
+              "QG-9eac86d1",
+              "MG-432d434b"
+            ],
+            "reader_payoff": "The reader sees two separate exempla held inside one warning frame, not a hierarchy or a fresh narrative start.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:particle",
+              "attachment:attachments"
+            ],
+            "reason": "Attachment evidence strongly licenses {{ar:ثَمُودَ}} ({{tr:thamūda}}) as conjoined with {{ar:فِرْعَوْنَ}} ({{tr:firʿawna}}), preserving both under the prior host category."
+          },
+          {
+            "topic_id": "85:18:2:scale-pivot-and-catalogue-expansion",
+            "status": "used",
+            "headline": "one-letter scale pivot",
+            "summary": "The connector expands the terse catalogue from ruler-centered power to collective civilization while preserving compression.",
+            "representative_source_ids": [
+              "QS-7335e9bc",
+              "QT-243279b2",
+              "MT-88edecf1",
+              "QY-07e47920"
+            ],
+            "reader_payoff": "The reader notices the exact point where the ayah widens from one ruler-name to a people-name without leaving the clipped catalogue form.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_order",
+              "attachment:attachments",
+              "critical:structural_rows"
+            ],
+            "reason": "The connector stands between the two named exhibits, and the strongly licensed coordination lets the scale shift happen through linkage rather than through a new predicate."
+          },
+          {
+            "topic_id": "85:18:2:fused-surface-and-audible-liaison",
+            "status": "used",
+            "headline": "fused connector on second name",
+            "summary": "The proclitic form makes the connector visually and audibly attach to the second proper noun.",
+            "representative_source_ids": [
+              "QF-d239c6a3",
+              "QT-a84466ca",
+              "QP-e1d08dff"
+            ],
+            "reader_payoff": "The reader hears and sees the second exhibit arrive as an attached continuation, not as a paused restart.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:surface_split",
+              "attachment:attachments"
+            ],
+            "reason": "QAC splits the particle for analysis, while the surface form preserves the connector's attachment to the second name."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-3679f953",
+            "topic_id": "85:18:2:coordinate-scope-under-host-frame",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-9eac86d1",
+            "topic_id": "85:18:2:coordinate-scope-under-host-frame",
+            "status": "used"
+          },
+          {
+            "row_id": "MG-432d434b",
+            "topic_id": "85:18:2:coordinate-scope-under-host-frame",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-7335e9bc",
+            "topic_id": "85:18:2:scale-pivot-and-catalogue-expansion",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-d239c6a3",
+            "topic_id": "85:18:2:fused-surface-and-audible-liaison",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-243279b2",
+            "topic_id": "85:18:2:scale-pivot-and-catalogue-expansion",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-a84466ca",
+            "topic_id": "85:18:2:fused-surface-and-audible-liaison",
+            "status": "used"
+          },
+          {
+            "row_id": "MT-88edecf1",
+            "topic_id": "85:18:2:scale-pivot-and-catalogue-expansion",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-e1d08dff",
+            "topic_id": "85:18:2:fused-surface-and-audible-liaison",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-07e47920",
+            "topic_id": "85:18:2:scale-pivot-and-catalogue-expansion",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      },
+      {
+        "critical_w": 3,
+        "aligned_qac_word_ref": "85:18:3",
+        "surface_display": "{{ar:ثَمُودَ}} ({{tr:thamūda}})",
+        "root_display": "{{ar:ث م و د}} ({{tr:th-m-w-d}})",
+        "gloss_range": "recognized people-name functioning as the second coordinated appositional exhibit; it compresses a whole civilization and its remembered denial into one closing proper noun",
+        "root_gloss_range": "uncertain proper-name root field with possible residual-water background; locally the proper people-name controls, while water-related derivation remains secondary image-pressure only",
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "85:18:1"
+            ],
+            "ar": "فِرْعَوْنَ",
+            "tr": "firʿawna",
+            "display": "{{ar:فِرْعَوْنَ}} ({{tr:firʿawna}})",
+            "gloss_range": "the first named exhibit, a ruler-name",
+            "relation": "contrast"
+          }
+        ],
+        "prose": "{{ar:ثَمُودَ}} ({{tr:thamūda}}) closes the ayah as a coordinated proper name, not as a new sentence. The connector makes it inherit the same appositional role as {{ar:فِرْعَوْنَ}} ({{tr:firʿawna}}), while the proper-name definiteness and fixed recurrence as a name-label let the ayah cite a known people without article or description. Its force is collective: one grammatical item carries a whole civilization, so the pair moves from ruler-centered power to people-scale power and lands on collective collapse. Possible water-root pressure from {{ar:ث م و د}} ({{tr:th-m-w-d}}) remains secondary; the local word is the recognized people-name, not a common water noun or a plural counting individual members. The recurrence field supplies the omitted story: built strength, rock-cut security, denial, and destruction are explicit elsewhere (89:9; 91:11-15), while 85:18 uses only the label. With two bare names, matching dependent shape, final fatḥa cadence, and no predicate, the ayah makes memory do the narrative work, and the final historical denier-name prepares the turn to the present denial category in 85:19.",
+        "topics": [
+          {
+            "topic_id": "85:18:3:coordinated-appositional-dependency",
+            "status": "used",
+            "headline": "second name shares dependency",
+            "summary": "The final name remains inside the same coordinated appositional list under the prior host-frame.",
+            "representative_source_ids": [
+              "QG-10261d8b",
+              "QG-785b2416",
+              "QG-cf053560",
+              "MG-fa8671c5"
+            ],
+            "reader_payoff": "The reader sees the people-name as the second exhibit in the same remembered host-frame, not as a separate clause.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:NOUN_PROP",
+              "attachment:attachments",
+              "attachment:noun_instances"
+            ],
+            "reason": "Attachment evidence strongly licenses the word as conjoined with the first name, and QAC marks it as a proper noun in coordinated appositional position."
+          },
+          {
+            "topic_id": "85:18:3:collective-proper-name",
+            "status": "used",
+            "headline": "one name carries a people",
+            "summary": "The surface is a singular proper name, but its referent is a whole people or civilization.",
+            "representative_source_ids": [
+              "QS-0e6850f2",
+              "QS-cd13dfbc",
+              "MS-dd7e63bb",
+              "QF-cf7d1e7e"
+            ],
+            "reader_payoff": "The reader notices that the warning is not confined to exceptional monarchy; an entire society is compressed into the final name.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:NOUN_PROP",
+              "contextual:referent_profiles_v2",
+              "contextual:role_profiles_v2"
+            ],
+            "reason": "QAC identifies a proper noun, while contextual profiles associate the exact form with a disbelieving referent and frequent conjoined behavior."
+          },
+          {
+            "topic_id": "85:18:3:known-definite-people-name",
+            "status": "used",
+            "headline": "definite without an article",
+            "summary": "The proper name supplies an identifiable collective referent without needing an article or description.",
+            "representative_source_ids": [
+              "QG-ef897937",
+              "QI-ba297981"
+            ],
+            "reader_payoff": "The reader recognizes that the ayah relies on a fixed known name-label rather than introducing an indefinite tribe.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:NOUN_PROP",
+              "contextual:contextual_summary_v2",
+              "contextual:referent_supplement_profiles_v2"
+            ],
+            "reason": "The exact proper-noun form is recurrent in the profile evidence, and the local word has no article because proper-name definiteness is already doing the work."
+          },
+          {
+            "topic_id": "85:18:3:derivation-background-narrowed",
+            "status": "narrowed",
+            "headline": "residual-water background subordinated",
+            "summary": "Possible water-related derivation remains image-pressure only; the local operative value is the proper people-name.",
+            "representative_source_ids": [
+              "QS-1978cae2",
+              "QS-4c107ac4",
+              "QF-77643c7f",
+              "MF-5816b373"
+            ],
+            "reader_payoff": "The reader may feel a faint residue-image behind the name, while keeping the ayah's argument anchored in the recognized people.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:NOUN_PROP",
+              "v4:local_form_observations",
+              "v4:lexical_sense_groups"
+            ],
+            "reason": "The local form is a proper noun and V4 provides no locally activating lexical-sense rows for a common water noun, so derivation is retained only as secondary image-pressure."
+          },
+          {
+            "topic_id": "85:18:3:derivational-family-as-secondary-pressure",
+            "status": "narrowed",
+            "headline": "family field stays secondary",
+            "summary": "Cultural and water-related family pressure can accompany the name but cannot turn it into a distributive or common-noun reading.",
+            "representative_source_ids": [
+              "QS-54ffdd02",
+              "QF-857624bc"
+            ],
+            "reader_payoff": "The reader sees the people gathered as one civilizational exhibit, not counted as individual members or redefined by etymology.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:NOUN_PROP",
+              "contextual:role_profiles_v2"
+            ],
+            "reason": "The ayah uses the collective proper name rather than a nisba plural or common noun, so family evidence is limited to background pressure."
+          },
+          {
+            "topic_id": "85:18:3:recurrence-memory-of-strength-and-denial",
+            "status": "used",
+            "headline": "bare name carries remembered indictment",
+            "summary": "Concrete recurrence references supply built strength, denial, and collapse while the local ayah gives only the name.",
+            "representative_source_ids": [
+              "QS-6f13c264",
+              "QI-04a6e0a9",
+              "MI-03b1d175",
+              "QE-4ba93a44"
+            ],
+            "reader_payoff": "The reader supplies the known story of built strength and denial (89:9; 91:11-15) when the ayah gives only the terse people-name.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical:intertext_rows",
+              "contextual:referent_supplement_profiles_v2"
+            ],
+            "reason": "The CRITICAL rows provide concrete references to 89:9 and 91:11-15, and the contextual supplement confirms frequent recurrence of the same proper-name referent."
+          },
+          {
+            "topic_id": "85:18:3:paired-exempla-widen-to-people-power",
+            "status": "used",
+            "headline": "pair widens to people-power",
+            "summary": "The second item restricts the host answer to paired exempla while widening the scale from ruler to society.",
+            "representative_source_ids": [
+              "QI-8f09b3c7",
+              "QT-36164665",
+              "QT-e926b01e",
+              "MT-fe0c8a9a"
+            ],
+            "reader_payoff": "The reader feels the catalogue close on collective force, preventing the warning from staying at the level of an exceptional ruler.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_order",
+              "attachment:attachments"
+            ],
+            "reason": "The word is the second and final member of the coordinated pair, and attachment evidence preserves the pair's ruler-versus-people contrast."
+          },
+          {
+            "topic_id": "85:18:3:verbless-label-catalogue-and-cadence",
+            "status": "used",
+            "headline": "two names with no predicate",
+            "summary": "The ayah's bare paired-name architecture and matching final cadence make unlike histories structurally comparable as compact labels.",
+            "representative_source_ids": [
+              "QT-2ac1b6c2",
+              "QE-ffd59db4",
+              "ME-bcc10cfb",
+              "QP-94f3e838"
+            ],
+            "reader_payoff": "The reader hears two unlike histories compressed into a single paired label-form, so established memory replaces narrated explanation.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:word_table",
+              "critical:phonetic_rows",
+              "critical:echo_rows"
+            ],
+            "reason": "The local ayah contains two proper nouns and a connector with no predicate, and the CRITICAL rows identify the shared bare dependent shape and final case-vowel cadence."
+          },
+          {
+            "topic_id": "85:18:3:boundary-and-final-label",
+            "status": "used",
+            "headline": "scene stripping reaches closure",
+            "summary": "The final name completes the boundary shift from report-frame to compact content-label.",
+            "representative_source_ids": [
+              "QB-3f3908a8",
+              "QB-717f2631",
+              "QY-01b0090c"
+            ],
+            "reader_payoff": "The reader notices that a whole civilization becomes the closing exhibit under the prior host category, with narrative detail stripped away.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:translation_support",
+              "qac:word_order",
+              "contextual:referent_supplement_profiles_v2"
+            ],
+            "reason": "Translation support ties the pair to the prior host-frame, and the final position of the recurrent people-name concentrates the boundary payoff at closure."
+          },
+          {
+            "topic_id": "85:18:3:forward-bridge-to-present-denial",
+            "status": "used",
+            "headline": "history points toward present denial",
+            "summary": "The final people-name prepares the next ayah's move from historical exempla to a live denial category.",
+            "representative_source_ids": [
+              "QB-6866e855"
+            ],
+            "reader_payoff": "The reader sees the catalogue preparing 85:19, where remembered deniers become a present category of unbelief and denial.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical:bridge_rows",
+              "qac:nearby_context"
+            ],
+            "reason": "The CRITICAL row explicitly links the final people-name to the following denial language in 85:19, and the local closing position supports that bridge."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-10261d8b",
+            "topic_id": "85:18:3:coordinated-appositional-dependency",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-785b2416",
+            "topic_id": "85:18:3:coordinated-appositional-dependency",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-cf053560",
+            "topic_id": "85:18:3:coordinated-appositional-dependency",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-ef897937",
+            "topic_id": "85:18:3:known-definite-people-name",
+            "status": "used"
+          },
+          {
+            "row_id": "MG-fa8671c5",
+            "topic_id": "85:18:3:coordinated-appositional-dependency",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-0e6850f2",
+            "topic_id": "85:18:3:collective-proper-name",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-1978cae2",
+            "topic_id": "85:18:3:derivation-background-narrowed",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-4c107ac4",
+            "topic_id": "85:18:3:derivation-background-narrowed",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-54ffdd02",
+            "topic_id": "85:18:3:derivational-family-as-secondary-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-6f13c264",
+            "topic_id": "85:18:3:recurrence-memory-of-strength-and-denial",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-cd13dfbc",
+            "topic_id": "85:18:3:collective-proper-name",
+            "status": "used"
+          },
+          {
+            "row_id": "MS-dd7e63bb",
+            "topic_id": "85:18:3:collective-proper-name",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-77643c7f",
+            "topic_id": "85:18:3:derivation-background-narrowed",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-857624bc",
+            "topic_id": "85:18:3:derivational-family-as-secondary-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-cf7d1e7e",
+            "topic_id": "85:18:3:collective-proper-name",
+            "status": "used"
+          },
+          {
+            "row_id": "MF-5816b373",
+            "topic_id": "85:18:3:derivation-background-narrowed",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QI-04a6e0a9",
+            "topic_id": "85:18:3:recurrence-memory-of-strength-and-denial",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-8f09b3c7",
+            "topic_id": "85:18:3:paired-exempla-widen-to-people-power",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-ba297981",
+            "topic_id": "85:18:3:known-definite-people-name",
+            "status": "used"
+          },
+          {
+            "row_id": "MI-03b1d175",
+            "topic_id": "85:18:3:recurrence-memory-of-strength-and-denial",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-2ac1b6c2",
+            "topic_id": "85:18:3:verbless-label-catalogue-and-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-36164665",
+            "topic_id": "85:18:3:paired-exempla-widen-to-people-power",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-e926b01e",
+            "topic_id": "85:18:3:paired-exempla-widen-to-people-power",
+            "status": "used"
+          },
+          {
+            "row_id": "MT-fe0c8a9a",
+            "topic_id": "85:18:3:paired-exempla-widen-to-people-power",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-4ba93a44",
+            "topic_id": "85:18:3:recurrence-memory-of-strength-and-denial",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-ffd59db4",
+            "topic_id": "85:18:3:verbless-label-catalogue-and-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "ME-bcc10cfb",
+            "topic_id": "85:18:3:verbless-label-catalogue-and-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-94f3e838",
+            "topic_id": "85:18:3:verbless-label-catalogue-and-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-3f3908a8",
+            "topic_id": "85:18:3:boundary-and-final-label",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-6866e855",
+            "topic_id": "85:18:3:forward-bridge-to-present-denial",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-717f2631",
+            "topic_id": "85:18:3:boundary-and-final-label",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-01b0090c",
+            "topic_id": "85:18:3:boundary-and-final-label",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      }
+    ]
+  },
+  "word_morpheme_spans": [
+    null,
+    null,
+    null
+  ],
+  "branch_inventories": {
+    "full_context_packet": {
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s085/full_context_packet.json",
+      "branch_inventories": []
+    }
+  },
+  "v12_reader_responses": {},
+  "v12_focus_trace_hermetic": {},
+  "v12_reader_walks": {},
+  "v12_reader_walks_wide": {},
+  "v12_cross_run_publication": {
+    "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/85_ayah_findings_publication.json",
+    "protocol": "v12-cross-run-publication-v3",
+    "language": "tr",
+    "surah": 85,
+    "ayah_ref": "85:18",
+    "canonical_ayah_ref": "85:18",
+    "baseline": {
+      "source_ref": "85:18",
+      "text": "Firavun'un ve Semud'un?",
+      "target_tokens": [
+        [
+          "Firavun'un",
+          [
+            "85:18:1"
+          ]
+        ],
+        [
+          "ve",
+          [
+            "85:18:2"
+          ]
+        ],
+        [
+          "Semud'un",
+          [
+            "85:18:2"
+          ]
+        ]
+      ]
+    },
+    "findings": []
+  },
+  "butuncul_okuma_line": null,
+  "inter_ayah_rows": [
+    {
+      "label": "medium",
+      "ref": "26:11",
+      "note": "Frames Pharaoh's people as the object of a summons to God-consciousness."
+    },
+    {
+      "label": "medium",
+      "ref": "20:79",
+      "note": "Adds Pharaoh's misguidance of his own people."
+    },
+    {
+      "label": "medium",
+      "ref": "20:24",
+      "note": "Identifies Pharaoh's transgression as the setting for Moses's mission."
+    },
+    {
+      "label": "weak",
+      "ref": "79:17",
+      "note": "Reiterates the transgression formula already supplied by 20:24."
+    },
+    {
+      "label": "medium",
+      "ref": "89:9",
+      "note": "Adds a distinct feature of Thamud within a wider tyrant catalogue."
+    },
+    {
+      "label": "medium",
+      "ref": "26:23",
+      "note": "Shows Pharaoh's challenge to the Lordship invoked by Moses."
+    },
+    {
+      "label": "medium",
+      "ref": "50:12",
+      "note": "Places Thamud among prior rejecting communities."
+    },
+    {
+      "label": "weak",
+      "ref": "22:42",
+      "note": "Reiterates Thamud in a prior-community pattern already established."
+    },
+    {
+      "label": "strong",
+      "ref": "41:13",
+      "note": "Makes the fate of Thamud an explicit warning analogue."
+    },
+    {
+      "label": "weak",
+      "ref": "38:13",
+      "note": "Adds Thamud only as one name in another hostile grouping."
+    },
+    {
+      "label": "strong",
+      "ref": "53:51",
+      "note": "Directly states Thamud's complete removal."
+    },
+    {
+      "label": "strong",
+      "ref": "50:13",
+      "note": "Completes the adjacent 50:12 catalogue by adding Pharaoh."
+    },
+    {
+      "label": "weak",
+      "ref": "20:43",
+      "note": "Repeats the transgression formula and mission setting."
+    },
+    {
+      "label": "medium",
+      "ref": "11:97",
+      "note": "Adds Pharaoh's unrighteous command and his followers' compliance."
+    },
+    {
+      "label": "medium",
+      "ref": "54:23",
+      "note": "Specifies Thamud's rejection of the warners."
+    },
+    {
+      "label": "no value",
+      "ref": "26:1",
+      "note": "Opening letters add no discernible link to Pharaoh or Thamud here."
+    },
+    {
+      "label": "no value",
+      "ref": "28:1",
+      "note": "Repeated opening letters add no discernible link to Pharaoh or Thamud here."
+    },
+    {
+      "label": "weak",
+      "ref": "26:48",
+      "note": "Locates Moses and Aaron's Lord within the Pharaoh narrative, indirectly."
+    },
+    {
+      "label": "weak",
+      "ref": "7:122",
+      "note": "Repeats the Moses-and-Aaron formula without adding the focus pair."
+    },
+    {
+      "label": "medium",
+      "ref": "40:31",
+      "note": "Places Thamud in an extended historical pattern while denying divine injustice."
+    },
+    {
+      "label": "weak",
+      "ref": "10:79",
+      "note": "Adds only a scene of Pharaoh's opposition through sorcerers."
+    },
+    {
+      "label": "strong",
+      "ref": "8:54",
+      "note": "Connects denial, wrongdoing, destruction, and Pharaoh's household."
+    },
+    {
+      "label": "medium",
+      "ref": "10:83",
+      "note": "Adds Pharaoh's high-handed excess and the fear surrounding belief."
+    },
+    {
+      "label": "medium",
+      "ref": "2:50",
+      "note": "Supplies the drowning of Pharaoh's household and rescue of others."
+    },
+    {
+      "label": "medium",
+      "ref": "9:70",
+      "note": "Frames Thamud's history as self-wronging after clear messengers."
+    },
+    {
+      "label": "weak",
+      "ref": "7:109",
+      "note": "Adds only the elite's accusation within Pharaoh's court."
+    },
+    {
+      "label": "weak",
+      "ref": "7:130",
+      "note": "Shows an earlier affliction of Pharaoh's household, without outcome."
+    },
+    {
+      "label": "medium",
+      "ref": "10:75",
+      "note": "Links Pharaoh's pride and criminality to the signs sent through Moses and Aaron."
+    },
+    {
+      "label": "medium",
+      "ref": "8:52",
+      "note": "Explicitly connects Pharaoh's pattern with disbelief, sin, and divine seizure."
+    },
+    {
+      "label": "weak",
+      "ref": "3:11",
+      "note": "Reiterates the Pharaoh pattern of denial and punishment already supplied by 8:52."
+    },
+    {
+      "label": "medium",
+      "ref": "14:9",
+      "note": "Expands Thamud's place in a history of rejecting clear messengers."
+    },
+    {
+      "label": "weak",
+      "ref": "7:113",
+      "note": "Adds a court episode without clarifying the focus names' significance."
+    },
+    {
+      "label": "medium",
+      "ref": "7:103",
+      "note": "Connects Pharaoh's wrongdoing with the fate of corrupters."
+    },
+    {
+      "label": "medium",
+      "ref": "2:49",
+      "note": "Adds the concrete oppression suffered under Pharaoh's household."
+    },
+    {
+      "label": "weak",
+      "ref": "7:141",
+      "note": "Reiterates the oppression-and-rescue account of 2:49."
+    },
+    {
+      "label": "weak",
+      "ref": "7:123",
+      "note": "Adds Pharaoh's coercive response to belief, but no broader outcome."
+    },
+    {
+      "label": "medium",
+      "ref": "7:127",
+      "note": "Shows Pharaoh's regime threatening violent domination over Moses's people."
+    },
+    {
+      "label": "medium",
+      "ref": "10:88",
+      "note": "Adds Moses's plea against Pharaoh's wealth, misguidance, and hardened hearts."
+    },
+    {
+      "label": "medium",
+      "ref": "7:137",
+      "note": "States the destruction of Pharaoh's works after the oppressed endure."
+    },
+    {
+      "label": "no value",
+      "ref": "5:41",
+      "note": "Does not add a clear route to understanding Pharaoh or Thamud in 85:18."
+    },
+    {
+      "label": "medium",
+      "ref": "40:24",
+      "note": "Pairs Pharaoh with Haman and Qarun in their rejection of a messenger."
+    },
+    {
+      "label": "strong",
+      "ref": "69:9",
+      "note": "Places Pharaoh among prior communities marked by grave wrongdoing."
+    },
+    {
+      "label": "strong",
+      "ref": "54:41",
+      "note": "Directly identifies warnings having reached Pharaoh's household."
+    },
+    {
+      "label": "strong",
+      "ref": "91:11",
+      "note": "Identifies Thamud's rejection as arising from its transgression."
+    },
+    {
+      "label": "medium",
+      "ref": "20:60",
+      "note": "Adds Pharaoh's deliberate gathering of a scheme against Moses."
+    },
+    {
+      "label": "medium",
+      "ref": "89:10",
+      "note": "Names Pharaoh within a nearby catalogue of oppressive powers."
+    },
+    {
+      "label": "no value",
+      "ref": "20:1",
+      "note": "Opening letters add no discernible link to Pharaoh or Thamud here."
+    },
+    {
+      "label": "medium",
+      "ref": "25:38",
+      "note": "Places Thamud among repeatedly destroyed prior peoples."
+    },
+    {
+      "label": "strong",
+      "ref": "73:16",
+      "note": "Makes Pharaoh's disobedience of a messenger lead to a severe seizure."
+    },
+    {
+      "label": "weak",
+      "ref": "26:53",
+      "note": "Adds a logistical episode in Pharaoh's pursuit, without interpretive expansion."
+    },
+    {
+      "label": "medium",
+      "ref": "26:141",
+      "note": "States Thamud's rejection of the messengers."
+    },
+    {
+      "label": "strong",
+      "ref": "69:4",
+      "note": "Connects Thamud's denial with a named overwhelming calamity."
+    },
+    {
+      "label": "weak",
+      "ref": "28:8",
+      "note": "Supplies an early narrative turn involving Pharaoh's household, indirectly."
+    },
+    {
+      "label": "no value",
+      "ref": "22:43",
+      "note": "Does not mention or clarify Pharaoh or Thamud."
+    },
+    {
+      "label": "no value",
+      "ref": "40:1",
+      "note": "Opening letters add no discernible link to Pharaoh or Thamud here."
+    },
+    {
+      "label": "no value",
+      "ref": "53:53",
+      "note": "Does not add a clear route to understanding Pharaoh or Thamud in 85:18."
+    },
+    {
+      "label": "no value",
+      "ref": "54:33",
+      "note": "Does not add a clear route to understanding Pharaoh or Thamud in 85:18."
+    },
+    {
+      "label": "medium",
+      "ref": "23:46",
+      "note": "Adds the arrogance and high-handedness of Pharaoh's elite."
+    },
+    {
+      "label": "no value",
+      "ref": "78:16",
+      "note": "Does not add a clear route to understanding Pharaoh or Thamud in 85:18."
+    },
+    {
+      "label": "no value",
+      "ref": "56:89",
+      "note": "Does not add a clear route to understanding Pharaoh or Thamud in 85:18."
+    },
+    {
+      "label": "medium",
+      "ref": "91:12",
+      "note": "Adds the active instigator within Thamud's transgressive rejection."
+    },
+    {
+      "label": "weak",
+      "ref": "37:120",
+      "note": "Connects Moses and Aaron only indirectly to Pharaoh's account."
+    },
+    {
+      "label": "strong",
+      "ref": "44:17",
+      "note": "Identifies Pharaoh's people as tested through a noble messenger."
+    },
+    {
+      "label": "medium",
+      "ref": "29:38",
+      "note": "Adds Thamud's visible dwellings and its turning from the way despite insight."
+    },
+    {
+      "label": "medium",
+      "ref": "44:31",
+      "note": "Characterizes Pharaoh as high-handed and excessive."
+    },
+    {
+      "label": "medium",
+      "ref": "28:6",
+      "note": "Adds the reversal in which Pharaoh's forces are shown what they feared."
+    },
+    {
+      "label": "medium",
+      "ref": "40:36",
+      "note": "Adds Pharaoh's self-exalting project and rejection posture."
+    },
+    {
+      "label": "medium",
+      "ref": "66:11",
+      "note": "Provides an internal counterexample: Pharaoh's wife seeks rescue from him and his work."
+    },
+    {
+      "label": "no value",
+      "ref": "90:9",
+      "note": "Does not add a clear route to understanding Pharaoh or Thamud in 85:18."
+    },
+    {
+      "label": "strong",
+      "ref": "40:45",
+      "note": "States the evil punishment enclosing Pharaoh's household."
+    },
+    {
+      "label": "medium",
+      "ref": "20:78",
+      "note": "Adds Pharaoh's armed pursuit and its engulfing outcome."
+    },
+    {
+      "label": "medium",
+      "ref": "40:37",
+      "note": "Characterizes Pharaoh's scheme as ruined after being turned from the way."
+    },
+    {
+      "label": "weak",
+      "ref": "26:16",
+      "note": "Adds the messengers' address to Pharaoh, without further characterization."
+    },
+    {
+      "label": "medium",
+      "ref": "51:38",
+      "note": "Frames Moses's mission to Pharaoh as bearing manifest authority."
+    },
+    {
+      "label": "medium",
+      "ref": "27:12",
+      "note": "Adds signs sent to Pharaoh and his people, calling them defiantly immoral."
+    },
+    {
+      "label": "weak",
+      "ref": "26:44",
+      "note": "Adds a contest scene affirming Pharaoh's claimed might, without outcome."
+    },
+    {
+      "label": "medium",
+      "ref": "28:32",
+      "note": "Adds two proofs sent to Pharaoh's elite and calls them defiantly immoral."
+    },
+    {
+      "label": "medium",
+      "ref": "43:46",
+      "note": "States Moses's mission and message to Pharaoh's elite."
+    },
+    {
+      "label": "weak",
+      "ref": "28:9",
+      "note": "Adds an early household detail that does not explain Pharaoh's exemplar role."
+    },
+    {
+      "label": "strong",
+      "ref": "40:46",
+      "note": "Extends Pharaoh's household punishment to the final hour."
+    },
+    {
+      "label": "medium",
+      "ref": "43:51",
+      "note": "Displays Pharaoh's appeal to visible dominion over his people."
+    },
+    {
+      "label": "strong",
+      "ref": "73:15",
+      "note": "Sets the present messenger's role alongside the messenger sent to Pharaoh."
+    },
+    {
+      "label": "medium",
+      "ref": "40:26",
+      "note": "Shows Pharaoh threatening Moses while framing his own fear of disorder."
+    },
+    {
+      "label": "strong",
+      "ref": "10:90",
+      "note": "Shows Pharaoh's violent pursuit and his last-moment declaration at drowning."
+    },
+    {
+      "label": "strong",
+      "ref": "28:4",
+      "note": "Characterizes Pharaoh's rule by elevation, division, oppression, and corruption."
+    },
+    {
+      "label": "medium",
+      "ref": "17:101",
+      "note": "Adds Pharaoh's dismissal of manifest signs by accusing Moses."
+    },
+    {
+      "label": "medium",
+      "ref": "28:38",
+      "note": "Displays Pharaoh's exclusive god-claim and rejection of Moses."
+    },
+    {
+      "label": "weak",
+      "ref": "14:6",
+      "note": "Reiterates the oppression-and-rescue account already supplied by 2:49."
+    },
+    {
+      "label": "weak",
+      "ref": "40:29",
+      "note": "Shows Pharaoh's claimed guidance amid his court's fear of divine force."
+    },
+    {
+      "label": "medium",
+      "ref": "40:28",
+      "note": "Provides a believing voice within Pharaoh's household warning against killing Moses."
+    },
+    {
+      "label": "no value",
+      "ref": "20:19",
+      "note": "Does not add a clear route to understanding Pharaoh or Thamud in 85:18."
+    },
+    {
+      "label": "no value",
+      "ref": "73:20",
+      "note": "Tail-audit material does not add a clear route to Pharaoh or Thamud."
+    },
+    {
+      "label": "no value",
+      "ref": "6:99",
+      "note": "Tail-audit material does not add a clear route to Pharaoh or Thamud."
+    },
+    {
+      "label": "no value",
+      "ref": "97:2",
+      "note": "Tail-audit material does not add a clear route to Pharaoh or Thamud."
+    },
+    {
+      "label": "no value",
+      "ref": "2:187",
+      "note": "Tail-audit material does not add a clear route to Pharaoh or Thamud."
+    },
+    {
+      "label": "no value",
+      "ref": "4:34",
+      "note": "Tail-audit material does not add a clear route to Pharaoh or Thamud."
+    },
+    {
+      "label": "no value",
+      "ref": "2:233",
+      "note": "Tail-audit material does not add a clear route to Pharaoh or Thamud."
+    },
+    {
+      "label": "no value",
+      "ref": "12:40",
+      "note": "Tail-audit material does not add a clear route to Pharaoh or Thamud."
+    },
+    {
+      "label": "no value",
+      "ref": "17:110",
+      "note": "Tail-audit material does not add a clear route to Pharaoh or Thamud."
+    },
+    {
+      "label": "no value",
+      "ref": "41:33",
+      "note": "Tail-audit material does not add a clear route to Pharaoh or Thamud."
+    },
+    {
+      "label": "strong",
+      "ref": "7:73",
+      "note": "Introduces Salih's mission and the divine sign sent to Thamud."
+    },
+    {
+      "label": "medium",
+      "ref": "7:104",
+      "note": "Places Pharaoh directly before Moses as a messenger from the Lord of all worlds."
+    },
+    {
+      "label": "strong",
+      "ref": "7:133",
+      "note": "Records escalating signs sent against Pharaoh's household after their rejection."
+    },
+    {
+      "label": "strong",
+      "ref": "11:61",
+      "note": "Introduces Salih's summons to Thamud and their accountability before their maker."
+    },
+    {
+      "label": "strong",
+      "ref": "11:68",
+      "note": "States Thamud's denial of its Lord and its final removal."
+    },
+    {
+      "label": "strong",
+      "ref": "17:59",
+      "note": "Identifies the she-camel given to Thamud as a manifest sign whose rejection brought warning."
+    },
+    {
+      "label": "strong",
+      "ref": "17:102",
+      "note": "Has Moses identify Pharaoh as destined for ruin after manifest signs."
+    },
+    {
+      "label": "weak",
+      "ref": "26:25",
+      "note": "Adds a court reaction to Moses's speech, with limited independent value."
+    },
+    {
+      "label": "strong",
+      "ref": "27:45",
+      "note": "Introduces Salih's mission to Thamud and their division into opposing parties."
+    },
+    {
+      "label": "medium",
+      "ref": "28:3",
+      "note": "Frames the Moses-Pharaoh account as material for believing hearers."
+    },
+    {
+      "label": "strong",
+      "ref": "28:39",
+      "note": "Characterizes Pharaoh's and Haman's groundless arrogance and denial of return."
+    },
+    {
+      "label": "strong",
+      "ref": "29:39",
+      "note": "Places Pharaoh with Qarun and Haman in rejecting Moses's clear proofs through arrogance."
+    },
+    {
+      "label": "medium",
+      "ref": "40:23",
+      "note": "Introduces Moses's signs before Pharaoh, Haman, and Qarun and their accusation against him."
+    },
+    {
+      "label": "strong",
+      "ref": "41:17",
+      "note": "States that Thamud preferred blindness after guidance and was seized by humiliating punishment."
+    },
+    {
+      "label": "medium",
+      "ref": "51:43",
+      "note": "Places Thamud under a time-limited command before its punishment."
+    }
+  ],
+  "channel_subchannels_anchored_here": [],
+  "channel_generated_outputs": {
+    "source_dir": "quran-data/data/analysis/channels/network-v3/s085",
+    "files": [
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s085/channel_candidates.jsonl",
+        "role": "channel_candidates.jsonl",
+        "bytes": 5525399,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s085/channel_candidates.tsv",
+        "role": "channel_candidates.tsv",
+        "bytes": 163415,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s085/summary.json",
+        "role": "summary.json",
+        "bytes": 8639,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s085/families/candidate_graphs.jsonl",
+        "role": "families/candidate_graphs.jsonl",
+        "bytes": 3143773,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s085/families/candidate_similarity_edges.tsv",
+        "role": "families/candidate_similarity_edges.tsv",
+        "bytes": 78279,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s085/families/channel_families.jsonl",
+        "role": "families/channel_families.jsonl",
+        "bytes": 532990,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s085/families/candidate_family_membership.tsv",
+        "role": "families/candidate_family_membership.tsv",
+        "bytes": 7446,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s085/families/family_branch_inventory.tsv",
+        "role": "families/family_branch_inventory.tsv",
+        "bytes": 204714,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s085/families/consolidation_summary.json",
+        "role": "families/consolidation_summary.json",
+        "bytes": 9227,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s085/paths/path_summary.json",
+        "role": "paths/path_summary.json",
+        "bytes": 16295,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s085/paths/path_families/semantic_path_families.jsonl",
+        "role": "paths/path_families/semantic_path_families.jsonl",
+        "bytes": 14442802,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s085/paths/path_families/path_similarity_edges.tsv",
+        "role": "paths/path_families/path_similarity_edges.tsv",
+        "bytes": 3618330,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s085/paths/path_families/path_family_summary.json",
+        "role": "paths/path_families/path_family_summary.json",
+        "bytes": 10190,
+        "compressed": false
+      }
+    ],
+    "usage": "External source manifest only. These generated outputs may inform channel-family/path context when the agent has file access, but first-pass review limits still apply: no established channel name, accept/reject claim, or maturity claim unless a future adjudicated ledger is present."
+  },
+  "pericope": {
+    "surah": 85,
+    "pericope": 2,
+    "ayah_from": 12,
+    "ayah_to": 22,
+    "label": "Divine might, past armies, and guarded Quran",
+    "synthesized": false
+  },
+  "root_lexicon": {},
+  "coverage": {
+    "quran_text": {
+      "present": true
+    },
+    "word_analysis": {
+      "present": true,
+      "word_count": 3
+    },
+    "word_morpheme_spans": {
+      "present": false,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s085/linguistic/morphemes.tsv",
+      "words_total": 3,
+      "words_resolved": 0,
+      "words_unresolved": 3,
+      "unresolved": [
+        {
+          "word_index": 0,
+          "surface_ar": "فِرْعَوْنَ",
+          "reason": "no morpheme rows for this ayah"
+        },
+        {
+          "word_index": 1,
+          "surface_ar": "وَ",
+          "reason": "no morpheme rows for this ayah"
+        },
+        {
+          "word_index": 2,
+          "surface_ar": "ثَمُودَ",
+          "reason": "no morpheme rows for this ayah"
+        }
+      ],
+      "morphemes_tsv": {
+        "present": true,
+        "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s085/linguistic/morphemes.tsv",
+        "ayah_count": 22,
+        "row_count": 176,
+        "malformed_rows": 0,
+        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+      },
+      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+    },
+    "word_analysis_qac_alignment": {
+      "consistent": false,
+      "detail": {
+        "qac_word_count": 2,
+        "word_analysis_word_count": 3,
+        "dangling_refs": [
+          "85:18:3"
+        ]
+      },
+      "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+    },
+    "qac_morphemes": {
+      "present": true,
+      "row_count": 3
+    },
+    "channel_review": {
+      "present": true,
+      "review_status": "first-pass-single-reader",
+      "parent_channel_count": 17,
+      "subchannel_count": 97,
+      "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
+      "source_file": "quran-data/data/analysis/channels/network-v3/s085/review/reader_a_pilot.md",
+      "subchannels_anchored_here": 0
+    },
+    "channel_generated_outputs": {
+      "present": true,
+      "source_dir": "quran-data/data/analysis/channels/network-v3/s085",
+      "file_count": 13,
+      "missing_expected_files": [
+        "paths/path_families/semantic_path_families.jsonl.gz"
+      ],
+      "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
+    },
+    "branch_inventories": {
+      "present": true,
+      "scope": "surah-fallback-scoped-to-ayah",
+      "variants": {
+        "full_context_packet": {
+          "present": true,
+          "roots": [],
+          "branch_counts": {},
+          "missing_branch_inventories": [],
+          "note": "surah-scope fallback: the default commentary workflow does not consume per-ayah focus packets, so the source packet is scoped by this builder to roots this ayah can justify and carries no staged reveal order"
+        }
+      },
+      "scoping": {
+        "applied": true,
+        "roots_total": 54,
+        "roots_retained": 0,
+        "roots_dropped": 54,
+        "retained": [],
+        "dropped_roots": [
+          "س م و",
+          "ء ل ه",
+          "ر ح م",
+          "ب ر ج",
+          "ي و م",
+          "و ع د",
+          "ش ه د",
+          "ق ت ل",
+          "ص ح ب",
+          "خ د د",
+          "ن و ر",
+          "و ق د",
+          "ق ع د",
+          "ف ع ل",
+          "ء م ن",
+          "ن ق م",
+          "ع ز ز",
+          "ح م د",
+          "م ل ك",
+          "ء ر ض",
+          "ك ل ل",
+          "ش ي ء",
+          "ف ت ن",
+          "ت و ب",
+          "ع ذ ب",
+          "ح ر ق",
+          "ع م ل",
+          "ص ل ح",
+          "ج ن ن",
+          "ج ر ي",
+          "ت ح ت",
+          "ن ه ر",
+          "ف و ز",
+          "ك ب ر",
+          "ب ط ش",
+          "ر ب ب",
+          "ش د د",
+          "ب د ء",
+          "ع و د",
+          "غ ف ر",
+          "و د د",
+          "ع ر ش",
+          "م ج د",
+          "ر و د",
+          "ء ت ي",
+          "ح د ث",
+          "ج ن د",
+          "ك ف ر",
+          "ك ذ ب",
+          "و ر ي",
+          "ح و ط",
+          "ق ر ء",
+          "ل و ح",
+          "ح ف ظ"
+        ],
+        "ayah_roots_from_qac": [],
+        "channel_citations_found": 0,
+        "citations_unresolvable_in_surah_inventory": [],
+        "note": "SCOPED TO EMPTY FOR ROOTLESS AYAH. QAC records no rooted morphemes for this ayah, so the surah-scope fallback branch inventory has no local root to retain. This is distinct from a missing branch-inventory source."
+      }
+    },
+    "v12_reader_responses": {
+      "present": false,
+      "variants": {},
+      "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
+    },
+    "v12_focus_trace_hermetic": {
+      "present": false,
+      "packet_present": false,
+      "readers": {},
+      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+    },
+    "v12_reader_walks": {
+      "present": false,
+      "readers": {
+        "reader_a": {
+          "present": false,
+          "note": "85:18 heading not found in reader_s085_a_ayah_walk.md"
+        }
+      },
+      "lookup_refs": [
+        "85:18"
+      ]
+    },
+    "v12_reader_walks_wide": {
+      "present": false,
+      "readers": {
+        "reader_a": {
+          "present": false,
+          "note": "85:18 heading not found in reader_s085_a_ayah_walk.md"
+        }
+      },
+      "lookup_refs": [
+        "85:18"
+      ]
+    },
+    "v12_cross_run_publication": {
+      "present": true,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/85_ayah_findings_publication.json",
+      "protocol": "v12-cross-run-publication-v3",
+      "language": "tr",
+      "lookup_ref": "85:18",
+      "finding_count": 0,
+      "grade_counts": {},
+      "note": "Compact final cross-run findings for this ayah, reconciled upstream from regular and plus/minus-5 reader runs; use as a coverage/priority check, not as replacement prose."
+    },
+    "butuncul_okuma": {
+      "present": false,
+      "source_file": null,
+      "note": "no whole-surah reading file exists for this surah"
+    },
+    "inter_ayah": {
+      "present": true,
+      "row_count": 115,
+      "label_counts": {
+        "medium": 47,
+        "weak": 22,
+        "strong": 25,
+        "no value": 21
+      }
+    },
+    "pericope": {
+      "present": true,
+      "synthesized": false,
+      "note": null
+    },
+    "root_lexicon": {
+      "present": false,
+      "roots_in_ayah": [],
+      "per_root": {},
+      "occurrence_evidence_trim": {
+        "applied": true,
+        "dropped_keys": [
+          "occurrences",
+          "ayahs"
+        ],
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
+      },
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 0,
+        "dictionary_branches_kept": 0,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 0,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
+      "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
+    }
+  }
+}

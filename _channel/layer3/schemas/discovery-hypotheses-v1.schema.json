@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "layer3-discovery-hypotheses-v1.schema.json",
+  "title": "Layer 3 blind discovery hypotheses v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "packetId",
+    "surah",
+    "hypotheses"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "const": "layer3-discovery-hypotheses-v1"
+    },
+    "packetId": {
+      "type": "string"
+    },
+    "surah": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 114
+    },
+    "hypotheses": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/hypothesis"
+      }
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    },
+    "ayahRef": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]{0,2}:(?:0|[1-9][0-9]*)$"
+    },
+    "hypothesis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "hypothesisId",
+        "proposedOperation",
+        "readerShift",
+        "rhetoricalReach",
+        "activationCardRefs"
+      ],
+      "properties": {
+        "hypothesisId": {
+          "$ref": "#/$defs/id"
+        },
+        "proposedOperation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "readerShift": {
+          "$ref": "#/$defs/readerShift"
+        },
+        "rhetoricalReach": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/rhetoricalMovement"
+          }
+        },
+        "activationCardRefs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        }
+      }
+    },
+    "readerShift": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "before",
+        "hinge",
+        "after"
+      ],
+      "properties": {
+        "before": {
+          "type": "string",
+          "minLength": 1
+        },
+        "hinge": {
+          "type": "string",
+          "minLength": 1
+        },
+        "after": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "rhetoricalMovement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "movement",
+        "ayahRefs"
+      ],
+      "properties": {
+        "movement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ayahRefs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ayahRef"
+          }
+        }
+      }
+    }
+  }
+}

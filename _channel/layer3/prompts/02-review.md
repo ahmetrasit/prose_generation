@@ -1,71 +1,100 @@
-# Pass 2: Review and Integrate Surah Systems
+# Pass 1B: Build Latent-Dependent Channels
 
-You are reviewing system candidates for a Layer 3 surah reading. This is
-claim-scoped structural review, not lexical disambiguation and not prose
-composition.
+The discovery hypotheses are raw material. Find which combinations become
+surah-wide recognitions that an ordinary translation cannot produce by itself.
 
-## Review Question
+Do not write reader prose.
 
-Which candidate systems genuinely let separate parts of the surah explain one
-another, while keeping the ordinary reading intact?
+## Admission Rule
 
-Do not ask which secondary meaning is "correct." Ask what role each supported
-semantic contribution can legitimately play.
+Do not choose the safest account of the surah. Do not reward a hypothesis for
+summarizing the surface sequence, matching prior prose, having strong primary
+evidence, or being easy to defend. Surface coherence is ground, not Layer 3.
 
-## Tests
+Begin with the discovery hypotheses and their activation signals. For each
+possible channel, state the ordinary translated reading and identify the exact
+secondary semantic material that changes it. Ask:
 
-For every resulting system, test:
+> If every secondary semantic contribution were hidden, could a thoughtful
+> reader still reach materially the same changed understanding from the
+> translation and sequence alone?
 
-1. **Containment:** Does the primary reading remain fully recoverable?
-2. **Recurrence:** Does the system operate across multiple ayahs?
-3. **Direction:** Is there a transformation or causal order?
-4. **Explanation:** Do members explain one another rather than share a label?
-5. **Yield:** Is the whole-surah shift unavailable to isolated ayah readings?
-6. **Grounding:** Can a reader with no Arabic follow the shift from ordinary
-   translated words and scenes?
-7. **Boundary discipline:** Are weak and rejected predications used only in the
-   roles their evidence permits?
+If yes, the proposal is primary exposition and does not become a channel. If
+no, identify what the secondary material makes newly thinkable and how distant
+movements perform one operation together.
 
-You may merge, split, or narrow discovery systems. Preserve their IDs in
-`candidateSystemIds`.
+Apply both sides of the subtraction:
 
-## Rejected-Predication Rule
+- removing the secondary material leaves the primary reading intact;
+- removing the secondary material makes the Layer 3 recognition unavailable.
 
-For a claim with `upstreamStatus: "rejected-predication"`:
+Being cross-ayah, elegant, coherent, or well supported does not rescue a
+surface-derived proposal.
 
-- it may not have `role: "core"`;
-- `retainedContribution` must state what survives;
-- `prohibitedForm` must state what the prose must not claim;
-- the system must remain coherent if the prohibited form is removed.
+## Secondary Material
 
-Do not convert a rejected sentence into a poetic metaphor that makes the same
-assertion less visibly.
+A channel does not require a secondary branch to replace the local meaning of a
+word. Local meanings remain intact. Ask whether secondary contributions
+distributed across the surah form a coherent operation: a process with changing
+stages, transfer of role, reversal of agency, altered causal model, changed
+value relation, or another transformation of the reader's model.
 
-## Disposition Is Editorial
+Treat Layer-2 prose as the surface floor and a source of local limits, not as
+the answer. A finding is not disqualified because Layer 2 noticed one of its
+local parts. It qualifies only when the surah-wide operation depends on
+secondary material and creates a recognition unavailable from the surface
+alone.
 
-Do not rank systems. Assign an editorial role:
+This is not disambiguation. Do not decide that a secondary meaning is the
+correct translation. Weak, remote, or counterpressured contributions may
+participate when their distributed operation is coherent. Their uncertainty
+controls how the final claim is worded; it is not a reason to default to the
+surface account.
 
-- `render`: a system the final prose should make the reader experience;
-- `backbone`: an operation that joins rendered systems but should not become a
-  separate catalogue entry;
-- `support`: legitimate evidence absorbed by another system;
-- `apparatus`: preserved for audit but not useful in the final reading.
+## Rejected Predications
 
-The prose architecture should normally contain two to four `render` systems.
-More is allowed only when they form one ordered movement rather than sections.
+A rejected predication prohibits that sentence, local identity claim, or event
+claim. It does not erase the semantic contributions from which the rejected
+sentence was built.
 
-## Required Reader Shift
+Preserve the rejection, then ask whether the surviving contribution joins
+other ayahs without requiring the rejected claim. Multiple supplied secondary
+signals may converge into a bounded resonance without becoming an alternate
+translation or a claim about what historically happened.
 
-Every rendered system needs at least one `ahaMoment` with:
+Record only the specific claims the composer must not make. Do not turn those
+limits into a catalogue, evidence audit, or reason to suppress the surviving
+operation.
 
-- what an ordinary reader is likely to see before;
-- what becomes visible after the system;
-- the exact hinge that produces the change.
+## Building Channels
 
-Generic statements such as "the surah is deeper" fail.
+Merge hypotheses when they are stages of one operation. Keep them distinct when
+they produce different changed understandings. Multiple channels may coexist
+without being collapsed into one thesis.
+
+Do not create editorial roles, apparatus bins, rankings, evidence grades,
+confidence scores, prose architecture, or a catalogue of discarded ideas.
+There is no target count or length. Return every channel that meets the
+latent-dependence rule.
+
+For each channel, provide only:
+
+- its source hypotheses;
+- the ordinary surface floor;
+- the exact secondary semantic hinges in plain language, with ayah and source
+  references;
+- the cross-ayah operation;
+- the reader's understanding before and after;
+- the gain that disappears when the secondary material is removed;
+- any local identity, translation, or event claim the final prose must not make.
+
+Do not turn a structural correspondence into continuity of actor. When a
+participant is unnamed or changes between movements, describe the transfer of
+role, direction, or relation without claiming that the same participant
+occupies both scenes.
 
 ## Output
 
-Write only `N.system-ledger.json`, conforming exactly to the inlined schema.
-Use the target language for reader-facing fields and concise English only for
-fixed enum values.
+Return only the JSON object for `N.channel-briefs.json`, conforming exactly to
+the inlined schema. Do not edit the filesystem; the runner saves the returned
+object. Use the target language for reader-facing fields.

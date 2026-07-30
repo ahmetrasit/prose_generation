@@ -1,0 +1,4484 @@
+{
+  "bundle_type": "ayah",
+  "schema_version": "input-bundle-v3",
+  "generated_at": "2026-07-29T22:32:35.351577+00:00",
+  "surah": 95,
+  "ayah": 2,
+  "ayahRef": "95:2",
+  "text": {
+    "arabic_uthmani": "وَطُورِ سِينِينَ",
+    "source": "quran-data/data/text/quran-uthmani.tsv"
+  },
+  "qac_morphemes": [
+    {
+      "qac_ref": "95:2:1:1",
+      "qac_word_ref": "95:2:1",
+      "surah": 95,
+      "ayah": 2,
+      "word_index": 1,
+      "morpheme_index": 1,
+      "surface_bw": "wa",
+      "surface_ar": "وَ",
+      "stem_ar": "",
+      "lemma_bw": "",
+      "lemma_ar": "",
+      "root_raw": "",
+      "root_ar": "",
+      "root_join_key": "",
+      "source_pos": "CONJ",
+      "pos": "CONJ",
+      "morpheme_role": "PREFIX",
+      "morph_features": "PREFIX|w:CONJ+",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 127308,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    },
+    {
+      "qac_ref": "95:2:1:2",
+      "qac_word_ref": "95:2:1",
+      "surah": 95,
+      "ayah": 2,
+      "word_index": 1,
+      "morpheme_index": 2,
+      "surface_bw": "Tuwri",
+      "surface_ar": "طُورِ",
+      "stem_ar": "طُورِ",
+      "lemma_bw": "Tuwr",
+      "lemma_ar": "طُور",
+      "root_raw": "Twr",
+      "root_ar": "ط و ر",
+      "root_join_key": "طور",
+      "source_pos": "N",
+      "pos": "N",
+      "morpheme_role": "STEM",
+      "morph_features": "STEM|POS:N|LEM:Tuwr|ROOT:Twr|M|GEN",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 127309,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    },
+    {
+      "qac_ref": "95:2:2:1",
+      "qac_word_ref": "95:2:2",
+      "surah": 95,
+      "ayah": 2,
+      "word_index": 2,
+      "morpheme_index": 1,
+      "surface_bw": "siyniyna",
+      "surface_ar": "سِينِينَ",
+      "stem_ar": "سِينِينَ",
+      "lemma_bw": "siyniyn",
+      "lemma_ar": "سِينِين",
+      "root_raw": "",
+      "root_ar": "",
+      "root_join_key": "",
+      "source_pos": "PN",
+      "pos": "PN",
+      "morpheme_role": "STEM",
+      "morph_features": "STEM|POS:PN|LEM:siyniyn|GEN",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 127310,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    }
+  ],
+  "word_analysis": {
+    "schema_version": "word-analysis-output-v2",
+    "prompt_version": "word-aha-prose-v1.6",
+    "ref": "95:2",
+    "bundle_id": "word-analysis-input-v1:agent:95:2",
+    "words": [
+      {
+        "critical_w": 1,
+        "aligned_qac_word_ref": "95:2:1",
+        "surface_display": "{{ar:وَ}} ({{tr:wa}})",
+        "root_display": "",
+        "gloss_range": "oath-and-coordination particle that carries the oath series forward and governs the following genitive phrase",
+        "root_gloss_range": null,
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "95:2:2",
+              "95:2:3"
+            ],
+            "ar": "طُورِ سِينِينَ",
+            "tr": "ṭūri sīnīna",
+            "display": "{{ar:طُورِ سِينِينَ}} ({{tr:ṭūri sīnīna}})",
+            "gloss_range": "the genitive sworn phrase governed by the oath particle",
+            "relation": "grammar"
+          },
+          {
+            "id": "s2",
+            "word_refs": [
+              "95:2:1",
+              "95:2:2"
+            ],
+            "ar": "وَطُورِ",
+            "tr": "wa-ṭūri",
+            "display": "{{ar:وَطُورِ}} ({{tr:wa-ṭūri}})",
+            "gloss_range": "the attached written form combining the oath particle and the Mount noun",
+            "relation": "grammar"
+          }
+        ],
+        "prose": "{{ar:وَ}} ({{tr:wa}}) does two jobs at once: it connects the phrase to the prior sworn items in 95:1 and, as oath-particle, governs the genitive object that follows. Because the oath answer is not inside 95:2 but comes in 95:4, the particle makes this short ayah visibly dependent on a larger qasam frame. Its attachment in {{ar:وَطُورِ}} ({{tr:wa-ṭūri}}) also compresses connector and oath-governor into the first written shape, so the reader meets continuation and oath force before the mountain noun stands on its own. Across the ayah boundary, the particle keeps the list cumulative and lets the sequence move from cultivated trees in 95:1 toward sacred geography in 95:2.",
+        "topics": [
+          {
+            "topic_id": "95:2:1:oath-scope-and-deferred-answer",
+            "status": "used",
+            "headline": "oath force governs a deferred qasam frame",
+            "representative_source_ids": [
+              "QG-856e0d6c",
+              "QG-ed2bfbf6",
+              "MG-5ab065c6",
+              "QS-c9970bbb",
+              "QI-cc06e918"
+            ],
+            "reader_payoff": "The reader notices that this particle is not a loose connective; it governs the genitive sworn phrase and leaves the oath answer pending until 95:4.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:grammar",
+              "attachment:particle_complement",
+              "attachment:ellipsis",
+              "attachment:translation_support"
+            ],
+            "reason": "QAC and attachment evidence identify the particle as the oath governor before the genitive phrase, with the oath verb compressed and the response supplied later in the surah."
+          },
+          {
+            "topic_id": "95:2:1:visible-proclitic-fusion",
+            "status": "used",
+            "headline": "written attachment compresses oath and noun",
+            "representative_source_ids": [
+              "QF-7095294b"
+            ],
+            "reader_payoff": "The reader notices that the oath relation is encountered as an attached written form before the noun can be processed independently.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:surface",
+              "attachment:particle_complement"
+            ],
+            "reason": "The particle is proclitic to the following noun in the written surface, while the grammar still separates its oath-governing function from the content word."
+          },
+          {
+            "topic_id": "95:2:1:ayah-boundary-continuation",
+            "status": "used",
+            "headline": "boundary falls inside the sworn list",
+            "representative_source_ids": [
+              "QT-073336d6",
+              "QT-fad0025a",
+              "QB-af82a850"
+            ],
+            "reader_payoff": "The reader notices that 95:2 begins as continuation, so the ayah division does not close the oath sequence opened in 95:1.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:translation_support",
+              "qac:grammar"
+            ],
+            "reason": "The initial particle explicitly links the new genitive sworn phrase to the preceding oath items, and translation support recommends reading the surrounding oath window."
+          },
+          {
+            "topic_id": "95:2:1:botany-to-geography-link",
+            "status": "used",
+            "headline": "particle carries the move from trees to mountain",
+            "representative_source_ids": [
+              "MT-69fb1215"
+            ],
+            "reader_payoff": "The reader notices that the connective does not only add another item; it carries the oath list from cultivated plant imagery in 95:1 to mountain geography in 95:2.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:translation_support",
+              "critical:sequence_claim"
+            ],
+            "reason": "The grammatical continuation licensed by the particle supports reading the second ayah as the next step in the same sworn sequence."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-856e0d6c",
+            "topic_id": "95:2:1:oath-scope-and-deferred-answer",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-ed2bfbf6",
+            "topic_id": "95:2:1:oath-scope-and-deferred-answer",
+            "status": "used"
+          },
+          {
+            "row_id": "MG-5ab065c6",
+            "topic_id": "95:2:1:oath-scope-and-deferred-answer",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-c9970bbb",
+            "topic_id": "95:2:1:oath-scope-and-deferred-answer",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-7095294b",
+            "topic_id": "95:2:1:visible-proclitic-fusion",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-cc06e918",
+            "topic_id": "95:2:1:oath-scope-and-deferred-answer",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-073336d6",
+            "topic_id": "95:2:1:ayah-boundary-continuation",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-fad0025a",
+            "topic_id": "95:2:1:ayah-boundary-continuation",
+            "status": "used"
+          },
+          {
+            "row_id": "MT-69fb1215",
+            "topic_id": "95:2:1:botany-to-geography-link",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-af82a850",
+            "topic_id": "95:2:1:ayah-boundary-continuation",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      },
+      {
+        "critical_w": 2,
+        "aligned_qac_word_ref": "95:2:2",
+        "surface_display": "{{ar:طُورِ}} ({{tr:ṭūri}})",
+        "root_display": "{{ar:ط و ر}} ({{tr:ṭ-w-r}})",
+        "gloss_range": "construct head naming the Mount in the Sinai phrase; locally a genitive sworn object rather than an abstract stage noun",
+        "root_gloss_range": "root range includes mountain, successive stages or turns, boundary, surrounding precinct, and limit imagery; the local construct selects the Mount while allowing some secondary stage and elevation pressure",
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "95:2:1"
+            ],
+            "ar": "وَ",
+            "tr": "wa",
+            "display": "{{ar:وَ}} ({{tr:wa}})",
+            "gloss_range": "oath particle governing the genitive sworn object",
+            "relation": "grammar"
+          },
+          {
+            "id": "s2",
+            "word_refs": [
+              "95:2:3"
+            ],
+            "ar": "سِينِينَ",
+            "tr": "sīnīna",
+            "display": "{{ar:سِينِينَ}} ({{tr:sīnīna}})",
+            "gloss_range": "Sinai complement that specifies the mount",
+            "relation": "grammar"
+          },
+          {
+            "id": "s3",
+            "word_refs": [
+              "95:2:2"
+            ],
+            "ar": "أَطْوَارًا",
+            "tr": "aṭwāran",
+            "display": "{{ar:أَطْوَارًا}} ({{tr:aṭwāran}})",
+            "gloss_range": "stage-word echo from 71:14 used only as root-field comparison",
+            "relation": "root_comparison"
+          }
+        ],
+        "prose": "{{ar:طُورِ}} ({{tr:ṭūri}}) is the head of the construct phrase, so the word does not remain a free mountain noun: {{ar:سِينِينَ}} ({{tr:sīnīna}}) specifies it as the Sinai mount, and the oath particle makes the whole phrase a sworn-by witness. The genitive form therefore carries two pressures at once, construct binding and oath role. The broader {{ar:ط و ر}} ({{tr:ṭ-w-r}}) field includes stages and turns, and that field is especially audible beside {{ar:أَطْوَارًا}} ({{tr:aṭwāran}}) in 71:14, but local grammar keeps the selected sense as the Mount rather than an abstract phase. That same pressure leaves the inherited or borrowed sacred-geography name in conversation with Arabic stage, boundary, and limit imagery, without making those branches the local referent. The mountain image gives the oath a raised, durable landscape after the cultivated trees of 95:1; reports of a tree-bearing mountain and the Sinai tree association in 23:20 make that transition continuous rather than abrupt. The word also belongs to a wider Sinai set, including 20:80, 23:20, 28:46, and the unqualified oath by the Mount in 52:1, while the heavy opening sound gives this content-word pivot acoustic weight.",
+        "topics": [
+          {
+            "topic_id": "95:2:2:construct-sinai-specificity",
+            "status": "used",
+            "headline": "construct grammar specifies the Mount",
+            "representative_source_ids": [
+              "QG-0b6e004e",
+              "QG-182560f2",
+              "MG-fae53cc5",
+              "QF-1791ba12",
+              "QF-3e0ad28d"
+            ],
+            "reader_payoff": "The reader notices that the unarticled noun becomes a specified Sinai mount through construct binding, not an indefinite mountain image.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:grammar",
+              "attachment:idafa",
+              "attachment:translation_support",
+              "contextual:role_profiles_v2",
+              "v4:lexical_unit_senses"
+            ],
+            "reason": "QAC and attachment evidence make the word the construct head governing the Sinai complement, and V4 includes the Mount or mountain branch as the locally compatible branch."
+          },
+          {
+            "topic_id": "95:2:2:genitive-sworn-witness",
+            "status": "used",
+            "headline": "genitive case makes the mountain sworn-by",
+            "representative_source_ids": [
+              "QG-cce2ae26",
+              "QI-afa85473"
+            ],
+            "reader_payoff": "The reader notices that the mountain is not merely named as scenery; its genitive role makes it the entity by which the coming claim is solemnized.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:grammar",
+              "attachment:particle_complement",
+              "attachment:idafa"
+            ],
+            "reason": "The word is genitive under the oath particle and also heads the construct phrase, so its case is part of both oath governance and local phrase structure."
+          },
+          {
+            "topic_id": "95:2:2:mountain-with-stage-pressure",
+            "status": "narrowed",
+            "headline": "stage field remains secondary to the Mount",
+            "representative_source_ids": [
+              "QS-3c5d449e",
+              "QS-73a9fc26",
+              "QS-7a4319aa",
+              "MS-e1a83c8c",
+              "ME-15543832"
+            ],
+            "reader_payoff": "The reader notices that the selected Mount sense can still resonate with ordered development through the same root field and the stages wording in 71:14.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "v4:branches",
+              "v4:lexical_unit_senses",
+              "qac:form_tag",
+              "attachment:idafa",
+              "critical:concrete_reference"
+            ],
+            "reason": "V4 preserves both the Mount branch and successive-stage branch, while the local construct with Sinai selects the Mount; the 71:14 echo can color the oath but cannot replace the local referent."
+          },
+          {
+            "topic_id": "95:2:2:sacred-geography-and-intertexts",
+            "status": "used",
+            "headline": "Sinai cluster frames the mountain",
+            "representative_source_ids": [
+              "MI-2d520246",
+              "QI-b8290960"
+            ],
+            "reader_payoff": "The reader notices that this is a marked sacred-geography use tied to Sinai passages, including 20:80, 23:20, 28:46, and the Mount oath in 52:1.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "contextual:contextual_summary_v2",
+              "contextual:role_profiles_v2",
+              "v4:lexical_unit_senses",
+              "critical:concrete_reference"
+            ],
+            "reason": "The contextual profile treats this exact root and form as low-occurrence and proper-name aligned, and the CRITICAL row supplies concrete Sinai references (20:80, 23:20, 28:46, 52:1)."
+          },
+          {
+            "topic_id": "95:2:2:botany-to-elevated-landscape",
+            "status": "narrowed",
+            "headline": "tree-bearing mountain bridges the oath images",
+            "representative_source_ids": [
+              "QS-fd3d348a",
+              "MS-044a88b4",
+              "MT-6fc92b5b",
+              "QE-594f9a25"
+            ],
+            "reader_payoff": "The reader notices that the move from fig and olive in 95:1 to Sinai in 95:2 can remain thematically continuous through tree-bearing mountain imagery and the Sinai tree association in 23:20.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical:lexical_source_claim",
+              "critical:concrete_reference",
+              "v4:branches",
+              "attachment:translation_support"
+            ],
+            "reason": "The local word still names the Mount, so vegetation does not become the selected sense; it survives as a lexical and inter-ayah bridge to the prior tree imagery and to 23:20."
+          },
+          {
+            "topic_id": "95:2:2:loanword-versus-arabic-field",
+            "status": "narrowed",
+            "headline": "borrowed name and Arabic root field both press",
+            "representative_source_ids": [
+              "QS-b00d145b"
+            ],
+            "reader_payoff": "The reader notices that the word can be heard as inherited sacred-geography nomenclature while Arabic root branches still create stage and boundary pressure around it.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "v4:branches",
+              "v4:lexical_unit_senses",
+              "qac:root"
+            ],
+            "reason": "V4 lists Arabic root branches including mountain, stages, boundaries, and limits, while the CRITICAL row preserves a loanword provenance claim; local grammar chooses the Mount rather than deciding etymology."
+          },
+          {
+            "topic_id": "95:2:2:content-word-pivot",
+            "status": "used",
+            "headline": "first content word turns the oath scene",
+            "representative_source_ids": [
+              "QT-50374eb2",
+              "QB-ec833998"
+            ],
+            "reader_payoff": "The reader notices that this first content word after the boundary turns the oath field from cultivated plant products in 95:1 to enduring prophetic landscape.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:translation_support",
+              "critical:sequence_claim"
+            ],
+            "reason": "The surrounding oath sequence and ayah boundary make the mountain noun the local pivot from one class of sworn object to another."
+          },
+          {
+            "topic_id": "95:2:2:acoustic-weight",
+            "status": "used",
+            "headline": "heavy sound matches the mountain image",
+            "representative_source_ids": [
+              "QP-74caed49"
+            ],
+            "reader_payoff": "The reader notices that the emphatic opening and long vowel give the sworn mountain audible weight inside a very brief phrase.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:surface",
+              "critical:phonetic_claim"
+            ],
+            "reason": "The phonetic observation is consistent with the local surface and reinforces the selected mountain image without changing the lexical sense."
+          },
+          {
+            "topic_id": "95:2:2:dense-hinge-convergence",
+            "status": "used",
+            "headline": "grammar, image, and sound converge",
+            "representative_source_ids": [
+              "QY-ee159645"
+            ],
+            "reader_payoff": "The reader notices that construct grammar, oath role, mountain imagery, secondary stage pressure, and sound texture converge in one hinge word.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:idafa",
+              "attachment:particle_complement",
+              "v4:branches",
+              "critical:synthesis_row"
+            ],
+            "reason": "The synthesis row is retained as a convergence topic because its component claims are individually supported or narrowed elsewhere in the same word analysis."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-0b6e004e",
+            "topic_id": "95:2:2:construct-sinai-specificity",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-182560f2",
+            "topic_id": "95:2:2:construct-sinai-specificity",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-cce2ae26",
+            "topic_id": "95:2:2:genitive-sworn-witness",
+            "status": "used"
+          },
+          {
+            "row_id": "MG-fae53cc5",
+            "topic_id": "95:2:2:construct-sinai-specificity",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-3c5d449e",
+            "topic_id": "95:2:2:mountain-with-stage-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-73a9fc26",
+            "topic_id": "95:2:2:mountain-with-stage-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-7a4319aa",
+            "topic_id": "95:2:2:mountain-with-stage-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-9b6762f4",
+            "topic_id": "95:2:2:content-word-pivot",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-b00d145b",
+            "topic_id": "95:2:2:loanword-versus-arabic-field",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-fd3d348a",
+            "topic_id": "95:2:2:botany-to-elevated-landscape",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "MS-044a88b4",
+            "topic_id": "95:2:2:botany-to-elevated-landscape",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "MS-e1a83c8c",
+            "topic_id": "95:2:2:mountain-with-stage-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-1791ba12",
+            "topic_id": "95:2:2:construct-sinai-specificity",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-3e0ad28d",
+            "topic_id": "95:2:2:construct-sinai-specificity",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-afa85473",
+            "topic_id": "95:2:2:genitive-sworn-witness",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-b8290960",
+            "topic_id": "95:2:2:sacred-geography-and-intertexts",
+            "status": "used"
+          },
+          {
+            "row_id": "MI-2d520246",
+            "topic_id": "95:2:2:sacred-geography-and-intertexts",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-50374eb2",
+            "topic_id": "95:2:2:content-word-pivot",
+            "status": "used"
+          },
+          {
+            "row_id": "MT-6fc92b5b",
+            "topic_id": "95:2:2:botany-to-elevated-landscape",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QE-594f9a25",
+            "topic_id": "95:2:2:botany-to-elevated-landscape",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "ME-15543832",
+            "topic_id": "95:2:2:mountain-with-stage-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QP-74caed49",
+            "topic_id": "95:2:2:acoustic-weight",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-ec833998",
+            "topic_id": "95:2:2:content-word-pivot",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-ee159645",
+            "topic_id": "95:2:2:dense-hinge-convergence",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      },
+      {
+        "critical_w": 3,
+        "aligned_qac_word_ref": "95:2:3",
+        "surface_display": "{{ar:سِينِينَ}} ({{tr:sīnīna}})",
+        "root_display": "{{ar:س ي ن}} ({{tr:s-y-n}})",
+        "gloss_range": "Sinai place-name as genitive complement to the Mount; variant and etymological pressures remain secondary to the local proper-name reading",
+        "root_gloss_range": "root range includes the Sinai/Sinin place-name cluster and separate letter or future-marker material; local construct selects the Sinai expression, with radiance, years, and variant-form pressures only as apparatus",
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "95:2:2"
+            ],
+            "ar": "طُورِ",
+            "tr": "ṭūri",
+            "display": "{{ar:طُورِ}} ({{tr:ṭūri}})",
+            "gloss_range": "construct head that governs the Sinai complement",
+            "relation": "grammar"
+          },
+          {
+            "id": "s2",
+            "word_refs": [
+              "95:2:3"
+            ],
+            "ar": "سِنِينَ",
+            "tr": "sinīna",
+            "display": "{{ar:سِنِينَ}} ({{tr:sinīna}})",
+            "gloss_range": "variant form that can reopen a years reading as apparatus",
+            "relation": "contrast"
+          },
+          {
+            "id": "s3",
+            "word_refs": [
+              "95:2:3"
+            ],
+            "ar": "سَيْنَاءَ",
+            "tr": "saynāʾa",
+            "display": "{{ar:سَيْنَاءَ}} ({{tr:saynāʾa}})",
+            "gloss_range": "Sinai form attested in the parallel construct at 23:20",
+            "relation": "contrast"
+          }
+        ],
+        "prose": "{{ar:سِينِينَ}} ({{tr:sīnīna}}) completes the construct phrase by identifying the mount: as genitive complement, it makes {{ar:طُورِ}} ({{tr:ṭūri}}) a specified Sinai expression rather than a loose mountain title. The genitive relation can be heard as locative or descriptive, but in either case the second word constrains the first. Its form is analytically charged: the local reading selects the proper place-name, while the {{ar:سِنِينَ}} ({{tr:sinīna}}) variant can reopen a years reading, and the {{ar:سَيْنَاءَ}} ({{tr:saynāʾa}}) form in 23:20 pulls the phrase toward the other Quranic Sinai construct. The same variant apparatus can add a rugged edge or serration image to the mountain profile, but only as coloring around the received place-name. The rare distribution of {{ar:س ي ن}} ({{tr:s-y-n}}) in this cluster makes the word feel like a constrained place-name marker, while Arabic radiance or beauty explanations and foreign-name provenance remain interpretive pressures rather than the selected sense. Its long vowels, sibilant opening, and repeated nasal sound bind the phrase together and echo the nasal cadence of the prior oath items in 95:1; variant endings can shift that flow toward diphthong or hamza-like closure while keeping the Sinai referent.",
+        "topics": [
+          {
+            "topic_id": "95:2:3:sinai-complement-specificity",
+            "status": "used",
+            "headline": "Sinai complement specifies the mount",
+            "representative_source_ids": [
+              "QG-71427135",
+              "QG-987635e2",
+              "QG-b132827f",
+              "QG-c0f734a2"
+            ],
+            "reader_payoff": "The reader notices that the second word is not a separate noun beside the mountain; it is the genitive complement that identifies and classifies the Mount as Sinaitic.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:grammar",
+              "attachment:idafa",
+              "attachment:translation_support",
+              "v4:lexical_unit_senses"
+            ],
+            "reason": "QAC and attachment evidence make the word the genitive complement in a construct phrase, and V4 preserves the Sinai/Sinin expression branch as the locally compatible sense."
+          },
+          {
+            "topic_id": "95:2:3:years-variant-pressure",
+            "status": "narrowed",
+            "headline": "near form can shift place toward years",
+            "representative_source_ids": [
+              "MG-c95c3b2c",
+              "MG-e047002d",
+              "QS-3448bf26",
+              "QF-5418b5f7",
+              "QF-b08433e8",
+              "QE-b37d6225"
+            ],
+            "reader_payoff": "The reader notices that a small vowel-length and ending pressure can move the phrase from Sinai geography toward a years or ages reading, even though the local construct selects place.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:grammar",
+              "v4:branches",
+              "v4:lexical_unit_senses",
+              "critical:variant_claim"
+            ],
+            "reason": "The local QAC form is a Sinai complement, but the CRITICAL rows preserve variant-form pressure around the plural-like ending; that pressure is apparatus, not the governing parse."
+          },
+          {
+            "topic_id": "95:2:3:radiance-and-provenance-pressure",
+            "status": "narrowed",
+            "headline": "radiance and origin claims remain secondary",
+            "representative_source_ids": [
+              "QS-47c93c69",
+              "QS-546e434e",
+              "QS-b4546872",
+              "MS-5d86d353",
+              "MS-e6ffdc6a",
+              "QI-4ab13fb6"
+            ],
+            "reader_payoff": "The reader notices that the place-name may carry beauty or radiance explanations and foreign-name provenance questions, while the local grammar still selects Sinai as the referent.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "v4:branches",
+              "v4:lexical_unit_senses",
+              "contextual:contextual_summary_v2",
+              "contextual:collocation_summary_v2",
+              "qac:root"
+            ],
+            "reason": "V4 centers the local branch on the Mount Sinai/Sinin cluster and contextual evidence shows constrained occurrence, so radiance and provenance claims survive as interpretive pressure rather than replacing the place-name."
+          },
+          {
+            "topic_id": "95:2:3:serrated-variant-image",
+            "status": "narrowed",
+            "headline": "edge image is apparatus, not the local sense",
+            "representative_source_ids": [
+              "QS-52742a2e"
+            ],
+            "reader_payoff": "The reader notices that a variant-linked edge or serration image can make the mountain profile feel more concrete, while the received local word remains the Sinai place-name.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:root",
+              "v4:branches",
+              "critical:variant_claim"
+            ],
+            "reason": "The local root and V4 guardrail do not make a serration branch the selected sense, so the claim is limited to variant-linked imagery around the place-name."
+          },
+          {
+            "topic_id": "95:2:3:qiraat-and-sinai-form-variants",
+            "status": "narrowed",
+            "headline": "variant forms test the Sinai naming pattern",
+            "representative_source_ids": [
+              "QF-239bcd90",
+              "QF-5f2ee70b",
+              "QF-c51a8dec",
+              "MI-941a1605",
+              "QP-c5eddca9"
+            ],
+            "reader_payoff": "The reader notices that the Sinai referent can be carried through different recitational shapes, especially the alignment with the 23:20 form, while each shape changes cadence and closure.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical:variant_claim",
+              "critical:concrete_reference",
+              "v4:lexical_unit_senses"
+            ],
+            "reason": "The 23:20 parallel supports the Sinai-place cluster, but the alternate endings and closures are variant apparatus rather than a replacement of the local form."
+          },
+          {
+            "topic_id": "95:2:3:sound-cadence-continuity",
+            "status": "used",
+            "headline": "nasal cadence sustains the oath phrase",
+            "representative_source_ids": [
+              "QE-8d88eb5c",
+              "QP-15d027ab",
+              "QP-2ee26308",
+              "MP-0ac90fc1"
+            ],
+            "reader_payoff": "The reader notices that the sibilant, repeated nasals, and long vowels make the place-name sound continuous with both the mount word and the prior oath cadence in 95:1.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:surface",
+              "critical:phonetic_claim"
+            ],
+            "reason": "The phonetic claims match the local surface and reinforce the construct phrase without changing the selected Sinai sense."
+          },
+          {
+            "topic_id": "95:2:3:dense-place-name-convergence",
+            "status": "used",
+            "headline": "form, rarity, variants, and sound converge",
+            "representative_source_ids": [
+              "QY-9196a3cf"
+            ],
+            "reader_payoff": "The reader notices that the place-name is analytically dense because rarity, etymology, variant morphology, and sound texture all gather around one short complement.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:idafa",
+              "contextual:collocation_summary_v2",
+              "v4:lexical_unit_senses",
+              "critical:synthesis_row"
+            ],
+            "reason": "The synthesis row is retained because its parts are either locally selected, such as the Sinai complement, or explicitly narrowed as variant and provenance pressure."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-71427135",
+            "topic_id": "95:2:3:sinai-complement-specificity",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-987635e2",
+            "topic_id": "95:2:3:sinai-complement-specificity",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-b132827f",
+            "topic_id": "95:2:3:sinai-complement-specificity",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-c0f734a2",
+            "topic_id": "95:2:3:sinai-complement-specificity",
+            "status": "used"
+          },
+          {
+            "row_id": "MG-c95c3b2c",
+            "topic_id": "95:2:3:years-variant-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "MG-e047002d",
+            "topic_id": "95:2:3:years-variant-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-3448bf26",
+            "topic_id": "95:2:3:years-variant-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-47c93c69",
+            "topic_id": "95:2:3:radiance-and-provenance-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-52742a2e",
+            "topic_id": "95:2:3:serrated-variant-image",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-546e434e",
+            "topic_id": "95:2:3:radiance-and-provenance-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-b4546872",
+            "topic_id": "95:2:3:radiance-and-provenance-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "MS-5d86d353",
+            "topic_id": "95:2:3:radiance-and-provenance-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "MS-e6ffdc6a",
+            "topic_id": "95:2:3:radiance-and-provenance-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-239bcd90",
+            "topic_id": "95:2:3:qiraat-and-sinai-form-variants",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-5418b5f7",
+            "topic_id": "95:2:3:years-variant-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-5f2ee70b",
+            "topic_id": "95:2:3:qiraat-and-sinai-form-variants",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-b08433e8",
+            "topic_id": "95:2:3:years-variant-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-c51a8dec",
+            "topic_id": "95:2:3:qiraat-and-sinai-form-variants",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QI-4ab13fb6",
+            "topic_id": "95:2:3:radiance-and-provenance-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "MI-941a1605",
+            "topic_id": "95:2:3:qiraat-and-sinai-form-variants",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QE-8d88eb5c",
+            "topic_id": "95:2:3:sound-cadence-continuity",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-b37d6225",
+            "topic_id": "95:2:3:years-variant-pressure",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QP-15d027ab",
+            "topic_id": "95:2:3:sound-cadence-continuity",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-2ee26308",
+            "topic_id": "95:2:3:sound-cadence-continuity",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-c5eddca9",
+            "topic_id": "95:2:3:qiraat-and-sinai-form-variants",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "MP-0ac90fc1",
+            "topic_id": "95:2:3:sound-cadence-continuity",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-9196a3cf",
+            "topic_id": "95:2:3:dense-place-name-convergence",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      }
+    ]
+  },
+  "word_morpheme_spans": [
+    {
+      "word_index": 0,
+      "surface_ar": "وَ",
+      "word_ids": [
+        "w-s095-a002-w001"
+      ],
+      "qac_refs": [
+        "95:2:1:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s095-a002-w001-01"
+      ],
+      "aligned_qac_word_ref_upstream": "95:2:1"
+    },
+    {
+      "word_index": 1,
+      "surface_ar": "طُورِ",
+      "word_ids": [
+        "w-s095-a002-w001"
+      ],
+      "qac_refs": [
+        "95:2:1:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s095-a002-w001-02"
+      ],
+      "aligned_qac_word_ref_upstream": "95:2:2"
+    },
+    {
+      "word_index": 2,
+      "surface_ar": "سِينِينَ",
+      "word_ids": [
+        "w-s095-a002-w002"
+      ],
+      "qac_refs": [
+        "95:2:2:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s095-a002-w002-01"
+      ],
+      "aligned_qac_word_ref_upstream": "95:2:3"
+    }
+  ],
+  "branch_inventories": {
+    "full_context_packet": {
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s095/full_context_packet.json",
+      "branch_inventories": [
+        {
+          "root": "ت ي ن",
+          "branches": [
+            {
+              "branch_id": "B002",
+              "image_ar": "موضع التين من الجبال",
+              "image_en": "fig as a named mountain or place",
+              "scope_ar": "يدخل فيه تفسير التين بأنه جبل أو جبلان أو جبال أو موضعان بالشام",
+              "scope_en": "This branch covers interpretations of al-tin as a mountain, two mountains, mountains, or two named places in Syria/Levant.",
+              "variants": [
+                {
+                  "root_id": "root_000190",
+                  "source_path": "v4/outputs/pass2_branches/root_000190.branches.tsv",
+                  "image_ar": "موضع التين من الجبال",
+                  "image_en": "fig as a named mountain or place",
+                  "scope_ar": "يدخل فيه تفسير التين بأنه جبل أو جبلان أو جبال أو موضعان بالشام",
+                  "scope_en": "This branch covers interpretations of al-tin as a mountain, two mountains, mountains, or two named places in Syria/Levant."
+                }
+              ]
+            },
+            {
+              "branch_id": "B003",
+              "image_ar": "ذئب يسمى تِينان",
+              "image_en": "a wolf called Tinan",
+              "scope_ar": "يدخل فيه تسمية الذئب تِينانا في بعض اللغات",
+              "scope_en": "This branch covers the dialectal naming of a wolf as Tinan.",
+              "variants": [
+                {
+                  "root_id": "root_000190",
+                  "source_path": "v4/outputs/pass2_branches/root_000190.branches.tsv",
+                  "image_ar": "ذئب يسمى تِينان",
+                  "image_en": "a wolf called Tinan",
+                  "scope_ar": "يدخل فيه تسمية الذئب تِينانا في بعض اللغات",
+                  "scope_en": "This branch covers the dialectal naming of a wolf as Tinan."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "root": "ط و ر",
+          "branches": [
+            {
+              "branch_id": "B001",
+              "image_ar": "امتداد الحافة والفناء بمحاذاة الشيء",
+              "image_en": "extended perimeter alongside a thing",
+              "scope_ar": "ما كان طوارا للدار أو الحائط: امتداد الفناء أو البناء أو الطول بمحاذاة الشيء وعلى نسق واحد",
+              "scope_en": "The branch covers a perimeter, frontage, or length extending alongside a house, wall, or thing.",
+              "variants": [
+                {
+                  "root_id": "root_000955",
+                  "source_path": "v4/outputs/pass2_branches/root_000955.branches.tsv",
+                  "image_ar": "امتداد الحافة والفناء بمحاذاة الشيء",
+                  "image_en": "extended perimeter alongside a thing",
+                  "scope_ar": "ما كان طوارا للدار أو الحائط: امتداد الفناء أو البناء أو الطول بمحاذاة الشيء وعلى نسق واحد",
+                  "scope_en": "The branch covers a perimeter, frontage, or length extending alongside a house, wall, or thing."
+                }
+              ]
+            },
+            {
+              "branch_id": "B002",
+              "image_ar": "الدنو من حريم الشيء وما حوله",
+              "image_en": "nearing the surrounding precinct",
+              "scope_ar": "الدخول في معنى القرب من الفناء أو الحريم، أو الحومان حول الشيء والدنو منه",
+              "scope_en": "This branch covers approaching a yard, precinct, or surrounding space, including hovering near it.",
+              "variants": [
+                {
+                  "root_id": "root_000955",
+                  "source_path": "v4/outputs/pass2_branches/root_000955.branches.tsv",
+                  "image_ar": "الدنو من حريم الشيء وما حوله",
+                  "image_en": "nearing the surrounding precinct",
+                  "scope_ar": "الدخول في معنى القرب من الفناء أو الحريم، أو الحومان حول الشيء والدنو منه",
+                  "scope_en": "This branch covers approaching a yard, precinct, or surrounding space, including hovering near it."
+                }
+              ]
+            },
+            {
+              "branch_id": "B003",
+              "image_ar": "الحد الذي يوقف عنده أو يتجاوز",
+              "image_en": "boundary limit reached or exceeded",
+              "scope_ar": "الطور بمعنى الحد، وما يقال في تعديه أو بلوغ طرفيه وأقصاه",
+              "scope_en": "This branch covers a person's proper limit, crossing beyond it, or reaching the two ends/extreme of a matter.",
+              "variants": [
+                {
+                  "root_id": "root_000955",
+                  "source_path": "v4/outputs/pass2_branches/root_000955.branches.tsv",
+                  "image_ar": "الحد الذي يوقف عنده أو يتجاوز",
+                  "image_en": "boundary limit reached or exceeded",
+                  "scope_ar": "الطور بمعنى الحد، وما يقال في تعديه أو بلوغ طرفيه وأقصاه",
+                  "scope_en": "This branch covers a person's proper limit, crossing beyond it, or reaching the two ends/extreme of a matter."
+                }
+              ]
+            },
+            {
+              "branch_id": "B004",
+              "image_ar": "تتابع الأطوار والحالات",
+              "image_en": "successive turns and states",
+              "scope_ar": "التارة بعد التارة، والمرحلة بعد المرحلة، والأحوال أو الأصناف المتعددة كأطوار الخلق",
+              "scope_en": "This branch covers repeated turns, successive stages, and varied states or classes such as stages of creation.",
+              "variants": [
+                {
+                  "root_id": "root_000955",
+                  "source_path": "v4/outputs/pass2_branches/root_000955.branches.tsv",
+                  "image_ar": "تتابع الأطوار والحالات",
+                  "image_en": "successive turns and states",
+                  "scope_ar": "التارة بعد التارة، والمرحلة بعد المرحلة، والأحوال أو الأصناف المتعددة كأطوار الخلق",
+                  "scope_en": "This branch covers repeated turns, successive stages, and varied states or classes such as stages of creation."
+                }
+              ]
+            },
+            {
+              "branch_id": "B005",
+              "image_ar": "الطور جبلا أو علما على جبل",
+              "image_en": "the Mount or a mountain",
+              "scope_ar": "الطور اسما للجبل، إما جبلا معروفا مخصوصا أو اسما يقال للجبل في بعض النقل",
+              "scope_en": "This branch covers al-Tur as a known/specific mountain and the reported broader use for a mountain.",
+              "variants": [
+                {
+                  "root_id": "root_000955",
+                  "source_path": "v4/outputs/pass2_branches/root_000955.branches.tsv",
+                  "image_ar": "الطور جبلا أو علما على جبل",
+                  "image_en": "the Mount or a mountain",
+                  "scope_ar": "الطور اسما للجبل، إما جبلا معروفا مخصوصا أو اسما يقال للجبل في بعض النقل",
+                  "scope_en": "This branch covers al-Tur as a known/specific mountain and the reported broader use for a mountain."
+                }
+              ]
+            },
+            {
+              "branch_id": "B006",
+              "image_ar": "التوحش والخروج عن حد الأنس",
+              "image_en": "wildness beyond the domestic limit",
+              "scope_ar": "وصف طوري وطوراني للوحشي أو المتوحش من الطير والناس، وما تباعد عن حد الأنس",
+              "scope_en": "This branch covers طوري/طوراني as wild, undomesticated, or outside familiar human company.",
+              "variants": [
+                {
+                  "root_id": "root_000955",
+                  "source_path": "v4/outputs/pass2_branches/root_000955.branches.tsv",
+                  "image_ar": "التوحش والخروج عن حد الأنس",
+                  "image_en": "wildness beyond the domestic limit",
+                  "scope_ar": "وصف طوري وطوراني للوحشي أو المتوحش من الطير والناس، وما تباعد عن حد الأنس",
+                  "scope_en": "This branch covers طوري/طوراني as wild, undomesticated, or outside familiar human company."
+                }
+              ]
+            },
+            {
+              "branch_id": "B007",
+              "image_ar": "نفي وجود أحد في الموضع",
+              "image_en": "no one present in a place",
+              "scope_ar": "الاستعمال الضيق في قولهم ما بها طوري، أي ليس بها أحد",
+              "scope_en": "This branch covers the idiom ما بها طوري meaning that there is no one there.",
+              "variants": [
+                {
+                  "root_id": "root_000955",
+                  "source_path": "v4/outputs/pass2_branches/root_000955.branches.tsv",
+                  "image_ar": "نفي وجود أحد في الموضع",
+                  "image_en": "no one present in a place",
+                  "scope_ar": "الاستعمال الضيق في قولهم ما بها طوري، أي ليس بها أحد",
+                  "scope_en": "This branch covers the idiom ما بها طوري meaning that there is no one there."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "root": "ب ل د",
+          "branches": [
+            {
+              "branch_id": "B001",
+              "image_ar": "الموضع المحدود من الأرض",
+              "image_en": "bounded tract or place of land",
+              "scope_ar": "يدخل فيه البلد والبلدة والبلاد والبلدان، وكل موضع من الأرض عامر أو غير عامر أو خال أو مسكون، والمفازة، والمقبرة والقبر، والتراب، والفضاء البراز.",
+              "scope_en": "Includes balad/baldah as a bounded place of land, inhabited or uninhabited, wilderness, cemetery or grave, dust, and open exposed space.",
+              "variants": [
+                {
+                  "root_id": "root_000148",
+                  "source_path": "v4/outputs/pass2_branches/root_000148.branches.tsv",
+                  "image_ar": "الموضع المحدود من الأرض",
+                  "image_en": "bounded tract or place of land",
+                  "scope_ar": "يدخل فيه البلد والبلدة والبلاد والبلدان، وكل موضع من الأرض عامر أو غير عامر أو خال أو مسكون، والمفازة، والمقبرة والقبر، والتراب، والفضاء البراز.",
+                  "scope_en": "Includes balad/baldah as a bounded place of land, inhabited or uninhabited, wilderness, cemetery or grave, dust, and open exposed space."
+                }
+              ]
+            },
+            {
+              "branch_id": "B005",
+              "image_ar": "الحيرة والتبلد",
+              "image_en": "confusion and collapse of composure",
+              "scope_ar": "يدخل فيه تبلد وبلد وأبلد إذا تردد متحيرا، ووضع يده على صدره عند الحيرة، والاستكانة والخضوع عند غلبة الحزن.",
+              "scope_en": "Includes becoming confused or hesitant, putting a hand on the chest in perplexity, and losing firmness into submissive collapse under grief.",
+              "variants": [
+                {
+                  "root_id": "root_000148",
+                  "source_path": "v4/outputs/pass2_branches/root_000148.branches.tsv",
+                  "image_ar": "الحيرة والتبلد",
+                  "image_en": "confusion and collapse of composure",
+                  "scope_ar": "يدخل فيه تبلد وبلد وأبلد إذا تردد متحيرا، ووضع يده على صدره عند الحيرة، والاستكانة والخضوع عند غلبة الحزن.",
+                  "scope_en": "Includes becoming confused or hesitant, putting a hand on the chest in perplexity, and losing firmness into submissive collapse under grief."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "root": "ء ن س",
+          "branches": [
+            {
+              "branch_id": "B001",
+              "image_ar": "ظهور الإنسان المخالف للتوحش والجن",
+              "image_en": "visible human presence over against hidden or wild beings",
+              "scope_ar": "يدخل فيه الإنس والبشر والناس والأناسي والإنسان من حيث الجماعة أو الواحد، وما بالدار أنيس بمعنى أحد.",
+              "scope_en": "Human beings or human presence: ins, humans, people, anasi, insan as a person or group, and anis meaning anyone present in a dwelling.",
+              "variants": [
+                {
+                  "root_id": "root_000059",
+                  "source_path": "v4/outputs/pass2_branches/root_000059.branches.tsv",
+                  "image_ar": "ظهور الإنسان المخالف للتوحش والجن",
+                  "image_en": "visible human presence over against hidden or wild beings",
+                  "scope_ar": "يدخل فيه الإنس والبشر والناس والأناسي والإنسان من حيث الجماعة أو الواحد، وما بالدار أنيس بمعنى أحد.",
+                  "scope_en": "Human beings or human presence: ins, humans, people, anasi, insan as a person or group, and anis meaning anyone present in a dwelling."
+                }
+              ]
+            },
+            {
+              "branch_id": "B003",
+              "image_ar": "الأنس الذي يزيل الوحشة",
+              "image_en": "familiar comfort that removes estrangement",
+              "scope_ar": "يدخل فيه أنس الإنسان بالشيء أو بفلان، المؤانسة والتأنيس، الأنيس وكل ما يؤنس به، الفرح بالقرب والحديث، والحيوان الأنوس غير العقور.",
+              "scope_en": "Familiarity, sociability, comfort, or companionship that removes estrangement, including an intimate companion, anything that gives comfort, pleasant conversation, and tame non-biting animals.",
+              "variants": [
+                {
+                  "root_id": "root_000059",
+                  "source_path": "v4/outputs/pass2_branches/root_000059.branches.tsv",
+                  "image_ar": "الأنس الذي يزيل الوحشة",
+                  "image_en": "familiar comfort that removes estrangement",
+                  "scope_ar": "يدخل فيه أنس الإنسان بالشيء أو بفلان، المؤانسة والتأنيس، الأنيس وكل ما يؤنس به، الفرح بالقرب والحديث، والحيوان الأنوس غير العقور.",
+                  "scope_en": "Familiarity, sociability, comfort, or companionship that removes estrangement, including an intimate companion, anything that gives comfort, pleasant conversation, and tame non-biting animals."
+                }
+              ]
+            },
+            {
+              "branch_id": "B004",
+              "image_ar": "الجانب الإنسي المقبل على الإنسان",
+              "image_en": "the near or human-facing side",
+              "scope_ar": "يدخل فيه إنسي الدابة والقوس وكل شيئين: ما يلي الإنسان أو يقبل على الراكب أو الرامي، في مقابلة الوحشي.",
+              "scope_en": "The near, inner, or person-facing side of an animal, bow, or paired thing, opposite the wild or outward side.",
+              "variants": [
+                {
+                  "root_id": "root_000059",
+                  "source_path": "v4/outputs/pass2_branches/root_000059.branches.tsv",
+                  "image_ar": "الجانب الإنسي المقبل على الإنسان",
+                  "image_en": "the near or human-facing side",
+                  "scope_ar": "يدخل فيه إنسي الدابة والقوس وكل شيئين: ما يلي الإنسان أو يقبل على الراكب أو الرامي، في مقابلة الوحشي.",
+                  "scope_en": "The near, inner, or person-facing side of an animal, bow, or paired thing, opposite the wild or outward side."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "root": "ح س ن",
+          "branches": [
+            {
+              "branch_id": "B004",
+              "image_ar": "أسماء الحسن للمواضع والأجسام",
+              "image_en": "names from حسن for places and bodies",
+              "scope_ar": "الأسماء المتفرعة من الحسن للمواضع والأجسام والأجزاء، مثل الحسن للرمل أو الجبل، والحسين للجبل العالي، والحسن من الذراع، والحاسن للقمر",
+              "scope_en": "Named physical uses derived from حسن: sand ridge or mountain names, a part of the forearm, a high mountain, and the moon.",
+              "variants": [
+                {
+                  "root_id": "root_000323",
+                  "source_path": "v4/outputs/pass2_branches/root_000323.branches.tsv",
+                  "image_ar": "أسماء الحسن للمواضع والأجسام",
+                  "image_en": "names from حسن for places and bodies",
+                  "scope_ar": "الأسماء المتفرعة من الحسن للمواضع والأجسام والأجزاء، مثل الحسن للرمل أو الجبل، والحسين للجبل العالي، والحسن من الذراع، والحاسن للقمر",
+                  "scope_en": "Named physical uses derived from حسن: sand ridge or mountain names, a part of the forearm, a high mountain, and the moon."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "root": "ر د د",
+          "branches": [
+            {
+              "branch_id": "B010",
+              "image_ar": "التكرار والتردد والحيرة",
+              "image_en": "repetition and wavering",
+              "scope_ar": "يدخل فيه ترديد الشيء مرة بعد مرة، والتردد، والحيرة، والهيئة المجتمعة كأن بعضها رد على بعض",
+              "scope_en": "It includes repeating something again and again, wavering, bewilderment, and a compact form as though parts are folded back on each other.",
+              "variants": [
+                {
+                  "root_id": "root_000555",
+                  "source_path": "v4/outputs/pass2_branches/root_000555.branches.tsv",
+                  "image_ar": "التكرار والتردد والحيرة",
+                  "image_en": "repetition and wavering",
+                  "scope_ar": "يدخل فيه ترديد الشيء مرة بعد مرة، والتردد، والحيرة، والهيئة المجتمعة كأن بعضها رد على بعض",
+                  "scope_en": "It includes repeating something again and again, wavering, bewilderment, and a compact form as though parts are folded back on each other."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "root": "س ف ل",
+          "branches": [
+            {
+              "branch_id": "B001",
+              "image_ar": "انخفاض ومكان دون العلو",
+              "image_en": "lowness or a place below height",
+              "scope_ar": "يدخل فيه السفل والأسفل والسافل والسفلى وما كان خلاف العلو أو دون غيره في المكان والبناء والنهر والرمح ونحو ذلك.",
+              "scope_en": "This includes the lower, below, inferior-in-position, and what stands opposite height or above-ness in place, buildings, rivers, spears, and similar physical settings.",
+              "variants": [
+                {
+                  "root_id": "root_000715",
+                  "source_path": "v4/outputs/pass2_branches/root_000715.branches.tsv",
+                  "image_ar": "انخفاض ومكان دون العلو",
+                  "image_en": "lowness or a place below height",
+                  "scope_ar": "يدخل فيه السفل والأسفل والسافل والسفلى وما كان خلاف العلو أو دون غيره في المكان والبناء والنهر والرمح ونحو ذلك.",
+                  "scope_en": "This includes the lower, below, inferior-in-position, and what stands opposite height or above-ness in place, buildings, rivers, spears, and similar physical settings."
+                }
+              ]
+            },
+            {
+              "branch_id": "B003",
+              "image_ar": "سفالة الريح بإزاء علاوتها",
+              "image_en": "the lower or downwind side of the wind",
+              "scope_ar": "يدخل فيه سفالة الريح في مقابل علاوتها، أي الجهة التي تكون بإزاء مهب الريح أو تحت الصيد في اصطلاح الصيد.",
+              "scope_en": "This includes the lower or downwind side of the wind as opposed to its upper side, including the hunting explanation in Tahdhib.",
+              "variants": [
+                {
+                  "root_id": "root_000715",
+                  "source_path": "v4/outputs/pass2_branches/root_000715.branches.tsv",
+                  "image_ar": "سفالة الريح بإزاء علاوتها",
+                  "image_en": "the lower or downwind side of the wind",
+                  "scope_ar": "يدخل فيه سفالة الريح في مقابل علاوتها، أي الجهة التي تكون بإزاء مهب الريح أو تحت الصيد في اصطلاح الصيد.",
+                  "scope_en": "This includes the lower or downwind side of the wind as opposed to its upper side, including the hunting explanation in Tahdhib."
+                }
+              ]
+            },
+            {
+              "branch_id": "B007",
+              "image_ar": "السافلة للمقعدة والدبر",
+              "image_en": "the lower backside or anus",
+              "scope_ar": "يدخل فيه السافلة بمعنى المقعدة والدبر.",
+              "scope_en": "This includes al-safila as the backside or anus.",
+              "variants": [
+                {
+                  "root_id": "root_000715",
+                  "source_path": "v4/outputs/pass2_branches/root_000715.branches.tsv",
+                  "image_ar": "السافلة للمقعدة والدبر",
+                  "image_en": "the lower backside or anus",
+                  "scope_ar": "يدخل فيه السافلة بمعنى المقعدة والدبر.",
+                  "scope_en": "This includes al-safila as the backside or anus."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "root": "ع م ل",
+          "branches": [
+            {
+              "branch_id": "B009",
+              "image_ar": "عامل الرمح",
+              "image_en": "shaft portion just below the spearhead",
+              "scope_ar": "يدخل فيه عامل الرمح وعاملته وهو صدر الرمح أو ما يلي السنان دون الثعلب",
+              "scope_en": "It includes the portion of a spear just below the spearhead and before the ثعلب",
+              "variants": [
+                {
+                  "root_id": "root_001046",
+                  "source_path": "v4/outputs/pass2_branches/root_001046.branches.tsv",
+                  "image_ar": "عامل الرمح",
+                  "image_en": "shaft portion just below the spearhead",
+                  "scope_ar": "يدخل فيه عامل الرمح وعاملته وهو صدر الرمح أو ما يلي السنان دون الثعلب",
+                  "scope_en": "It includes the portion of a spear just below the spearhead and before the ثعلب"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "root": "ص ل ح",
+          "branches": [
+            {
+              "branch_id": "B005",
+              "image_ar": "صلاح والصلح علمان لمواضع",
+              "image_en": "place names from Ṣ-L-Ḥ",
+              "scope_ar": "يدخل فيه صلاح اسما لمكة، والصلح اسما لنهر بميسان.",
+              "scope_en": "Includes Ṣalāḥ as a name for Mecca and al-Ṣulḥ as a river name at Maysan.",
+              "variants": [
+                {
+                  "root_id": "root_000876",
+                  "source_path": "v4/outputs/pass2_branches/root_000876.branches.tsv",
+                  "image_ar": "صلاح والصلح علمان لمواضع",
+                  "image_en": "place names from Ṣ-L-Ḥ",
+                  "scope_ar": "يدخل فيه صلاح اسما لمكة، والصلح اسما لنهر بميسان.",
+                  "scope_en": "Includes Ṣalāḥ as a name for Mecca and al-Ṣulḥ as a river name at Maysan."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "root": "غ ي ر",
+          "branches": [
+            {
+              "branch_id": "B005",
+              "image_ar": "السوى والخلاف والاستثناء والنفي",
+              "image_en": "otherness, difference, exception, and negation",
+              "scope_ar": "يدخل فيه كون الشيء سوى غيره وخلافه، واستعمال غير صفة أو اسما أو أداة استثناء، ومعنى لا، ونفي صورة أو ذات، وعموم الغيرين على المختلفين.",
+              "scope_en": "Includes one thing being other than or contrary to another, ghayr as adjective, noun, or exception marker, its use with the sense of not, negating a form or entity, and the broader category of two others versus two differents.",
+              "variants": [
+                {
+                  "root_id": "root_001119",
+                  "source_path": "v4/outputs/pass2_branches/root_001119.branches.tsv",
+                  "image_ar": "السوى والخلاف والاستثناء والنفي",
+                  "image_en": "otherness, difference, exception, and negation",
+                  "scope_ar": "يدخل فيه كون الشيء سوى غيره وخلافه، واستعمال غير صفة أو اسما أو أداة استثناء، ومعنى لا، ونفي صورة أو ذات، وعموم الغيرين على المختلفين.",
+                  "scope_en": "Includes one thing being other than or contrary to another, ghayr as adjective, noun, or exception marker, its use with the sense of not, negating a form or entity, and the broader category of two others versus two differents."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "root": "ب ع د",
+          "branches": [
+            {
+              "branch_id": "B001",
+              "image_ar": "البعد عن القرب",
+              "image_en": "remoteness from nearness",
+              "scope_ar": "يدخل فيه النأي المكاني والمعنوي، ووصف الشيء بأنه بعيد أو غير قريب، والبعد في الأرض أو المكان أو القرابة",
+              "scope_en": "Includes physical or abstract remoteness, describing something as far or not near, and distance in place, land, or kinship",
+              "variants": [
+                {
+                  "root_id": "root_000131",
+                  "source_path": "v4/outputs/pass2_branches/root_000131.branches.tsv",
+                  "image_ar": "البعد عن القرب",
+                  "image_en": "remoteness from nearness",
+                  "scope_ar": "يدخل فيه النأي المكاني والمعنوي، ووصف الشيء بأنه بعيد أو غير قريب، والبعد في الأرض أو المكان أو القرابة",
+                  "scope_en": "Includes physical or abstract remoteness, describing something as far or not near, and distance in place, land, or kinship"
+                }
+              ]
+            },
+            {
+              "branch_id": "B002",
+              "image_ar": "البعد بعد القبل",
+              "image_en": "afterness opposite beforeness",
+              "scope_ar": "يدخل فيه بعد بمعنى اللاحق والمقابل لقبل، ومن بعد، وبعد هذا، وما خلف بعقب الشيء",
+              "scope_en": "Includes after, later than, opposite of before, from after, after this, and what follows behind something",
+              "variants": [
+                {
+                  "root_id": "root_000131",
+                  "source_path": "v4/outputs/pass2_branches/root_000131.branches.tsv",
+                  "image_ar": "البعد بعد القبل",
+                  "image_en": "afterness opposite beforeness",
+                  "scope_ar": "يدخل فيه بعد بمعنى اللاحق والمقابل لقبل، ومن بعد، وبعد هذا، وما خلف بعقب الشيء",
+                  "scope_en": "Includes after, later than, opposite of before, from after, after this, and what follows behind something"
+                }
+              ]
+            },
+            {
+              "branch_id": "B003",
+              "image_ar": "إحداث البعد والمباعدة",
+              "image_en": "creating distance and separation",
+              "scope_ar": "يدخل فيه باعد وأبعد وبعده تبعيدا والمباعدة، أي جعل الشيء بعيدا أو فصل بين شيئين أو أمعن في الذهاب",
+              "scope_en": "Includes causing distance, separating one thing from another, mutual distancing, and going far in travel or movement",
+              "variants": [
+                {
+                  "root_id": "root_000131",
+                  "source_path": "v4/outputs/pass2_branches/root_000131.branches.tsv",
+                  "image_ar": "إحداث البعد والمباعدة",
+                  "image_en": "creating distance and separation",
+                  "scope_ar": "يدخل فيه باعد وأبعد وبعده تبعيدا والمباعدة، أي جعل الشيء بعيدا أو فصل بين شيئين أو أمعن في الذهاب",
+                  "scope_en": "Includes causing distance, separating one thing from another, mutual distancing, and going far in travel or movement"
+                }
+              ]
+            },
+            {
+              "branch_id": "B006",
+              "image_ar": "غير باعد وغير بعيد",
+              "image_en": "neither abased nor far",
+              "scope_ar": "يدخل فيه الصيغ المحفوظة مثل تنح غير باعد أي غير صاغر، وتنح غير بعيد أي كن قريبا، وهم مني غير بعد أي ليسوا ببعيد",
+              "scope_en": "Includes fixed expressions using not far: not abased, stay near, or they are not far from me",
+              "variants": [
+                {
+                  "root_id": "root_000131",
+                  "source_path": "v4/outputs/pass2_branches/root_000131.branches.tsv",
+                  "image_ar": "غير باعد وغير بعيد",
+                  "image_en": "neither abased nor far",
+                  "scope_ar": "يدخل فيه الصيغ المحفوظة مثل تنح غير باعد أي غير صاغر، وتنح غير بعيد أي كن قريبا، وهم مني غير بعد أي ليسوا ببعيد",
+                  "scope_en": "Includes fixed expressions using not far: not abased, stay near, or they are not far from me"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "root": "ل ي س",
+          "branches": [
+            {
+              "branch_id": "B001",
+              "image_ar": "ليس جحود ينفي الحال كفعل جامد",
+              "image_en": "laysa as a fixed negating verb for present-state denial",
+              "scope_ar": "يدخل فيه ليس كلمة جحود أو نفي، وعملها عمل كان فترفع الاسم وتنصب الخبر، وتصريفها بلفظ الماضي دون المستقبل، ودخول الباء في خبرها لتأكيد النفي.",
+              "scope_en": "Includes laysa as a word or verb of negation that works like kana, raising the subject and putting the predicate in the accusative, with past-form inflection used for present negation.",
+              "variants": [
+                {
+                  "root_id": "root_001390",
+                  "source_path": "v4/outputs/pass2_branches/root_001390.branches.tsv",
+                  "image_ar": "ليس جحود ينفي الحال كفعل جامد",
+                  "image_en": "laysa as a fixed negating verb for present-state denial",
+                  "scope_ar": "يدخل فيه ليس كلمة جحود أو نفي، وعملها عمل كان فترفع الاسم وتنصب الخبر، وتصريفها بلفظ الماضي دون المستقبل، ودخول الباء في خبرها لتأكيد النفي.",
+                  "scope_en": "Includes laysa as a word or verb of negation that works like kana, raising the subject and putting the predicate in the accusative, with past-form inflection used for present negation."
+                }
+              ]
+            },
+            {
+              "branch_id": "B002",
+              "image_ar": "ليس استثناء يخرج المذكور",
+              "image_en": "laysa as excepting or excluding",
+              "scope_ar": "يدخل فيه استعمال ليس للاستثناء بمعنى إلا أو ما عدا، مثل نصب الاسم بعدها في جاءني القوم ليس زيدا.",
+              "scope_en": "Includes laysa used for exception, meaning except or other than, with the following noun treated as the excluded item.",
+              "variants": [
+                {
+                  "root_id": "root_001390",
+                  "source_path": "v4/outputs/pass2_branches/root_001390.branches.tsv",
+                  "image_ar": "ليس استثناء يخرج المذكور",
+                  "image_en": "laysa as excepting or excluding",
+                  "scope_ar": "يدخل فيه استعمال ليس للاستثناء بمعنى إلا أو ما عدا، مثل نصب الاسم بعدها في جاءني القوم ليس زيدا.",
+                  "scope_en": "Includes laysa used for exception, meaning except or other than, with the following noun treated as the excluded item."
+                }
+              ]
+            },
+            {
+              "branch_id": "B003",
+              "image_ar": "ليس تقوم مقام لا في النسق والتبرئة",
+              "image_en": "laysa standing in for la in coordination or categorical negation",
+              "scope_ar": "يدخل فيه مجيء ليس بمعنى لا التي ينسق بها، ومجيئها بمعنى لا التبرئة.",
+              "scope_en": "Includes laysa used like la in coordination, and like the la of categorical negation.",
+              "variants": [
+                {
+                  "root_id": "root_001390",
+                  "source_path": "v4/outputs/pass2_branches/root_001390.branches.tsv",
+                  "image_ar": "ليس تقوم مقام لا في النسق والتبرئة",
+                  "image_en": "laysa standing in for la in coordination or categorical negation",
+                  "scope_ar": "يدخل فيه مجيء ليس بمعنى لا التي ينسق بها، ومجيئها بمعنى لا التبرئة.",
+                  "scope_en": "Includes laysa used like la in coordination, and like the la of categorical negation."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "v12_reader_responses": {},
+  "v12_focus_trace_hermetic": {},
+  "v12_reader_walks": {
+    "reader_a": {
+      "activated_readings_md": "1. **The Mount as a boundary marker before crossing into human valuation.** Lexical evidence: ط و ر B005, the Mount/mountain; ط و ر B003, boundary limit reached or exceeded. Structural cue: 95:2 stands between the fruit/place pair of 95:1 and the secure town of 95:3, immediately before the created human in 95:4. Assigned role: طور supplies a height/place, while its boundary branch marks a threshold between witnessed signs and the claim about the human. Abductive move: I supply the arrow from spatial mountain to evaluative limit: the packet uses topography to stage the question of whether the human remains within proper bounds. Reading change: the Mount reads less as a static landmark and more as a limit-post in the surah's moral geometry.\n\n2. **Stages and turns hidden inside the mountain word.** Lexical evidence: ط و ر B004, successive turns and states; خ ل ق B001/B003 in 95:4, proportioning and complete form; ر د د B001/B010 in 95:5, return and repetition/wavering. Structural cue: after طور comes a sequence: creation in best taqwim, then return to the lowest, then exception. Assigned role: طور activates \"phase\" as well as \"mountain,\" making the surah's later temporal movement visible in advance. Abductive move: I infer that the same root's stage-branch can be activated by the packet's following state-changes even when the surface is a mountain noun. Reading change: 95:2 becomes an anticipatory marker of phases in human becoming, not only a geographic oath.\n\n3. **Approaching a precinct rather than merely naming a mountain.** Lexical evidence: ط و ر B001, extended perimeter/frontage; ط و ر B002, nearing the surrounding precinct; ب ل د B001/ء م ن B001 in 95:3, bounded secure land. Structural cue: \"طور\" is followed by \"this secure town\"; both are oath-sites with implied surrounding spaces. Assigned role: ط و ر functions as a perimeter one approaches, and البلد as the secured bounded tract inside the next oath unit. Abductive move: I supply the spatial movement from perimeter to protected city because the ayat move from mountain to town. Reading change: the ayah reads as approach to a protected sacred zone, not only as a named elevation.",
+      "retrospective_surprises_md": "The later ثم رددناه in 95:5 most strongly activated ط و ر B004, \"successive turns and states\"; without 95:5, the mountain reading might have dominated. 95:7-8 also made ط و ر B003, boundary limit, more important: denial after evidence is a crossing or failure at the limit, and final judgment decides it. The surprise is that the mountain becomes a phase-marker and boundary-marker at once.",
+      "turkish_prose_synthesis_md": null,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s095/full_context_control/reader_s095_a_ayah_walk.md"
+    }
+  },
+  "v12_reader_walks_wide": {
+    "reader_a": {
+      "activated_readings_md": "1. **A topographic hinge in the oath sequence.** **Lexical evidence:** fixed `ط و ر/B005` supplies the Mount or a mountain. **Structural cue:** it stands between the accepted mountain/place branch `ت ي ن/B002` in 95:1 and the bounded land `ب ل د/B001` in 95:3. **Assigned role:** *ṭūr* is the unmistakably elevated landmark that stabilizes a possible spatial reading on either side. **Abductive move:** the packet supplies adjacency but no route; I infer that the middle mountain organizes the three oath units as a traversable landscape. **Reading change:** the ayah reads as a geographic hinge linking cultivated place to secure settlement, while retaining its direct reference to a mountain.\n\n2. **From perimeter to protected interior.** **Lexical evidence:** fixed `ط و ر/B001` is an extended perimeter, `ط و ر/B002` approach to a surrounding precinct, and `ط و ر/B003` a boundary reached or crossed. **Structural cue:** the mount is immediately followed by the deictic “this bounded land, the secure/trustworthy” (95:3; `ب ل د/B001`, `ء م ن/B001`). **Assigned role:** the *ṭūr* branches supply edge, approach, and threshold; the next ayah supplies the bounded interior and its security. **Abductive move:** the packet does not explicitly describe motion; I infer a spatial progression perimeter → approach → protected jurisdiction from the lexical sequence. **Reading change:** the mount can function not only as an elevated object but as the threshold by which the oath enters ordered human space.\n\n3. **Successive states latent in the Mount.** **Lexical evidence:** fixed `ط و ر/B004` supplies repeated turns and successive stages, including stages of creation. **Structural cue:** the window proceeds through creation in a best setting (95:4), “then” a downward return (95:5), an exception (95:6), and temporal “after” (95:7; `ب ع د/B002`). **Assigned role:** the stage branch turns *ṭūr* into a process-image that anticipates the sequence of human states. **Abductive move:** the packet supplies the stages and transition markers but does not call them *aṭwār*; I infer that their unusually explicit succession activates this dormant branch of the fixed root. **Reading change:** the oath can announce not just a place but a staged anthropology: formation, reversal, differentiated exception, and subsequent reckoning.\n\n4. **A limit between wild exterior and human order.** **Lexical evidence:** fixed `ط و ر/B006` supplies wildness beyond familiar human company. Later `ء ن س/B001` defines visible human presence over against the wild, and 95:3 supplies a secure city. **Structural cue:** the sequence moves from mount to city and then explicitly to *al-insān* (95:4). **Assigned role:** the wild branch marks the exterior side of a boundary; city and human presence mark the social side. **Abductive move:** the packet supplies the lexical opposition but not a theory of settlement; I infer that the mount occupies the liminal edge from which accountable human order comes into view. **Reading change:** *ṭūr* gains an anthropological boundary function in addition to its topographic one.",
+      "retrospective_surprises_md": "The later transition markers were the surprise. Creation in 95:4, *thumma* plus return in 95:5, the exception in 95:6, and *baʿdu* in 95:7 together activated fixed `ط و ر/B004` more strongly than the immediate topography did: the Mount retrospectively became an image of successive human states as well as a place. The exception also corrected a deterministic stage-reading by splitting the post-descent trajectory.",
+      "turkish_prose_synthesis_md": null,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s095/full_context_control/reader_s095_a_ayah_walk.md"
+    }
+  },
+  "v12_cross_run_publication": {
+    "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/95_ayah_findings_publication.json",
+    "protocol": "v12-cross-run-publication-v3",
+    "language": "tr",
+    "surah": 95,
+    "ayah_ref": "95:2",
+    "canonical_ayah_ref": "95:2",
+    "baseline": {
+      "source_ref": "95:2",
+      "text": "Sina Dağı'na da andolsun.",
+      "target_tokens": [
+        [
+          "Sina",
+          [
+            "95:2:2"
+          ]
+        ],
+        [
+          "Dağı'na",
+          [
+            "95:2:1",
+            "95:2:2"
+          ]
+        ],
+        [
+          "da",
+          [
+            "95:2:1"
+          ]
+        ],
+        [
+          "andolsun",
+          [
+            "95:2:1",
+            "95:2:2"
+          ]
+        ]
+      ]
+    },
+    "findings": [
+      {
+        "text": "Sina Dağı, incir-zeytin arazisi ile güvenli şehir arasında çevreden içeriye yaklaşmayı ve korunan alana geçişi düzenleyen bir eşik olur.",
+        "grade": "strong",
+        "anchors": [
+          [
+            "95:2:1",
+            "root_000955",
+            [
+              "B001",
+              "B002",
+              "B003",
+              "B005"
+            ]
+          ]
+        ]
+      },
+      {
+        "text": "Sina Dağı, yaratılma, aşağıya döndürülme ve istisna dizisiyle birlikte insanın art arda geçtiği evreleri de önden bildirir.",
+        "grade": "strong",
+        "anchors": [
+          [
+            "95:2:1",
+            "root_000955",
+            [
+              "B004"
+            ]
+          ]
+        ]
+      },
+      {
+        "text": "Sınır anlamı, sonraki inkâr sorusuyla ahlaki bir eşiğe dönüşür: delillerden sonra inkâr, uygun sınırı aşma gibi görünür.",
+        "grade": "weak",
+        "anchors": [
+          [
+            "95:2:1",
+            "root_000955",
+            [
+              "B003"
+            ]
+          ]
+        ]
+      },
+      {
+        "text": "Dağın yabani ve insansız dış alan anlamları, güvenli şehir ve insanın tanıdık toplumsal varlığı karşısında medeni düzenin sınırını belirler.",
+        "grade": "weak",
+        "anchors": [
+          [
+            "95:2:1",
+            "root_000955",
+            [
+              "B006",
+              "B007"
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "butuncul_okuma_line": {
+    "raw_line": "**95:2.** وَطُورِ سِينِينَ — Birincil okuma: Tûr, yükselen bir dağ ve sınır işareti olarak yemin dizisinin ortasında durur. Ardından gelen yaratılış, aşağı çevrilme ve istisna sırası, Tûr’u yalnız coğrafi bir yükseklik değil, insanın haddi, evreleri ve güvenli alana yaklaşmasıyla ilgili bir eşik hâline getirir. {ط و ر B005; ط و ر B003; ط و ر B004; ط و ر B002; خ ل ق B003; ر د د B001}",
+    "arabic_text": "وَطُورِ سِينِينَ",
+    "reading_text_tr": "Tûr, yükselen bir dağ ve sınır işareti olarak yemin dizisinin ortasında durur. Ardından gelen yaratılış, aşağı çevrilme ve istisna sırası, Tûr’u yalnız coğrafi bir yükseklik değil, insanın haddi, evreleri ve güvenli alana yaklaşmasıyla ilgili bir eşik hâline getirir.",
+    "root_citations": [
+      "ط و ر B005",
+      "ط و ر B003",
+      "ط و ر B004",
+      "ط و ر B002",
+      "خ ل ق B003",
+      "ر د د B001"
+    ]
+  },
+  "inter_ayah_rows": [
+    {
+      "label": "strong",
+      "ref": "52:1",
+      "note": "Exact طور root; V12 positively joins f01 and also retains f03."
+    },
+    {
+      "label": "medium",
+      "ref": "22:53",
+      "note": "Branch b001 bridges ch019 to ch008; indirect boundary parallel."
+    },
+    {
+      "label": "strong",
+      "ref": "71:14",
+      "note": "Exact طور root; V12 positively joins f01/f02 and retains f03."
+    },
+    {
+      "label": "strong",
+      "ref": "23:20",
+      "note": "Exact طور/سيناء wording; closest lexical parallel to the focus."
+    },
+    {
+      "label": "strong",
+      "ref": "95:1",
+      "note": "Immediate sequence context; ch017/ch023 preserves the landmark and outer-field reading."
+    },
+    {
+      "label": "strong",
+      "ref": "4:154",
+      "note": "طور with covenant and entry context; V12 positively joins f01."
+    },
+    {
+      "label": "strong",
+      "ref": "19:52",
+      "note": "طور with side and nearness context; V12 positively joins f01."
+    },
+    {
+      "label": "strong",
+      "ref": "95:5",
+      "note": "Immediate sequence supplies the downward-turning side of f02."
+    },
+    {
+      "label": "medium",
+      "ref": "2:63",
+      "note": "طور covenant scene; V12 retains mixed f01 and provisional f03 routes."
+    },
+    {
+      "label": "no value",
+      "ref": "56:22",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "43:37",
+      "note": "b001/ch019 connects an obstructed route to a boundary parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "74:13",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "strong",
+      "ref": "95:3",
+      "note": "Immediate sequence supplies the protected-place side of f01."
+    },
+    {
+      "label": "weak",
+      "ref": "52:2",
+      "note": "Extends the 52 oath sequence after the direct طور anchor."
+    },
+    {
+      "label": "strong",
+      "ref": "95:7",
+      "note": "Immediate sequence supplies the post-evidence question central to f03."
+    },
+    {
+      "label": "no value",
+      "ref": "78:26",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "3:196",
+      "note": "b004 relates land-circulation to ch017/ch019, indirectly."
+    },
+    {
+      "label": "no value",
+      "ref": "55:48",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "strong",
+      "ref": "95:4",
+      "note": "Immediate sequence supplies the creation side of f02."
+    },
+    {
+      "label": "no value",
+      "ref": "84:12",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "95:8",
+      "note": "Immediate closing judgment sharpens the moral-boundary reading of f03."
+    },
+    {
+      "label": "no value",
+      "ref": "90:8",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "3:197",
+      "note": "Continues the indirect b004/ch017/ch019 land-circulation parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "44:26",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "strong",
+      "ref": "95:6",
+      "note": "Immediate exception in the sequence is material to f02."
+    },
+    {
+      "label": "weak",
+      "ref": "52:6",
+      "note": "Distant continuation of the 52 oath sequence; no direct route."
+    },
+    {
+      "label": "weak",
+      "ref": "34:52",
+      "note": "b001/ch019 supplies only a near-far boundary parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "56:86",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "34:53",
+      "note": "b001/ch019 supplies only a near-far boundary parallel."
+    },
+    {
+      "label": "strong",
+      "ref": "20:80",
+      "note": "Exact طور with side context; direct named-landmark parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "7:69",
+      "note": "b002/ch020 provides a secondary succession-orientation parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "28:46",
+      "note": "Exact طور with side context, though framed as absence from the scene."
+    },
+    {
+      "label": "medium",
+      "ref": "50:36",
+      "note": "b004/ch019 gives a route-and-no-exit boundary parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "2:93",
+      "note": "Exact طور covenant scene; redundant with earlier covenant cards but adds refusal context."
+    },
+    {
+      "label": "weak",
+      "ref": "52:43",
+      "note": "b009/ch024 is an exclusion parallel, not a direct طور route."
+    },
+    {
+      "label": "strong",
+      "ref": "28:29",
+      "note": "Exact طور with side and approach context; direct landscape parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "21:97",
+      "note": "b001/ch019 gives only an approaching-distance parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "7:143",
+      "note": "Mountain scene gives a broad, non-طور mountain counterpoint."
+    },
+    {
+      "label": "weak",
+      "ref": "25:49",
+      "note": "b004 connects land and growth to ch017/ch019 only indirectly."
+    },
+    {
+      "label": "no value",
+      "ref": "2:102",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "7:58",
+      "note": "b004 supplies a land-quality parallel; indirect to the focus."
+    },
+    {
+      "label": "no value",
+      "ref": "26:195",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "21:101",
+      "note": "b003/ch021 supplies a separation parallel to the exception pattern."
+    },
+    {
+      "label": "no value",
+      "ref": "90:9",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "6:71",
+      "note": "b005/ch026 preserves reversal and route alternatives relevant to f02."
+    },
+    {
+      "label": "no value",
+      "ref": "55:70",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "70:6",
+      "note": "Multiple channel links preserve near-far and orientation parallels."
+    },
+    {
+      "label": "no value",
+      "ref": "78:4",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "88:15",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "80:29",
+      "note": "Echoes زيتون in the preceding focus context; no طور route."
+    },
+    {
+      "label": "no value",
+      "ref": "56:31",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "96:18",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "56:34",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "56:37",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "55:64",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "80:1",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "93:1",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "83:27",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "81:3",
+      "note": "Mountain movement is a contrary, broad mountain counterpoint."
+    },
+    {
+      "label": "no value",
+      "ref": "68:5",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "56:29",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "56:15",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "37:130",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "79:32",
+      "note": "Broad mountain anchoring parallel; weaker than direct طور cards."
+    },
+    {
+      "label": "no value",
+      "ref": "90:13",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "88:14",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "56:28",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "26:58",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "89:1",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "74:4",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "80:28",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "26:219",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "90:16",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "103:1",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "52:10",
+      "note": "Mountain movement is a contrary continuation after 52:1."
+    },
+    {
+      "label": "weak",
+      "ref": "78:7",
+      "note": "Broad mountain figure; secondary to direct طور evidence."
+    },
+    {
+      "label": "no value",
+      "ref": "83:20",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "83:9",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "81:6",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "26:134",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "53:9",
+      "note": "Nearness wording gives a limited f01 boundary parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "104:9",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "87:8",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "56:78",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "9:102",
+      "note": "Exception-pattern resonance with the later focus sequence only."
+    },
+    {
+      "label": "weak",
+      "ref": "52:3",
+      "note": "Further 52 oath continuation; no direct focus route."
+    },
+    {
+      "label": "no value",
+      "ref": "88:16",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "77:21",
+      "note": "Established-place wording is only a distant f04 parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "78:32",
+      "note": "No identifiable route or focused parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "7:152",
+      "note": "Adds refusal aftermath to the earlier طور covenant cluster."
+    },
+    {
+      "label": "no value",
+      "ref": "78:1",
+      "note": "Tail-audit card; no identifiable focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "25:72",
+      "note": "Tail-audit card; no identifiable focused parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "37:156",
+      "note": "Tail-audit card; no identifiable focused parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "42:26",
+      "note": "Tail-audit card; a secondary exception-pattern parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "2:259",
+      "note": "Tail-audit card; a broad successive-state parallel to f02."
+    },
+    {
+      "label": "medium",
+      "ref": "2:187",
+      "note": "Tail-audit card; explicit divine-limit language supports f03 as boundary evidence."
+    },
+    {
+      "label": "weak",
+      "ref": "6:7",
+      "note": "Tail-audit card; disbelief after a sign is a distant f03 parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "3:162",
+      "note": "Tail-audit card; contrasted outcomes echo the surrounding judgment sequence."
+    },
+    {
+      "label": "no value",
+      "ref": "27:39",
+      "note": "Tail-audit card; no identifiable focused parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "7:196",
+      "note": "Tail-audit card; righteous-participant wording faintly echoes 95:6."
+    },
+    {
+      "label": "strong",
+      "ref": "7:171",
+      "note": "Raised-mountain covenant scene; direct parallel to the طور covenant cluster."
+    }
+  ],
+  "channel_subchannels_anchored_here": [
+    {
+      "parent_channel": "Landmark, Celestial Station, and Settlement",
+      "parent_semantic_invariant": "A place becomes intelligible through prominent terrain, named stations, residence, and the civic order maintained there.",
+      "parent_surprising_reach": "The named landscape extends from mountains and towns into lunar stations, the noonday balance of the sun, civic obedience, and habitual residence.",
+      "key": "A",
+      "name": "Mountain and Named Landmark",
+      "reading_type": "mixed",
+      "scene_or_process": "Mountains and named places organize a landscape into recognizable sacred or inhabited landmarks.",
+      "active_motifs": "fig-associated mountain place `ت ي ن:B002/m01`, mountain landmark `ط و ر:B005/m01`, bounded tract of land `ب ل د:B001/m01`, named places `ص ل ح:B005/m01`, mountain or elevated body-name `ح س ن:B004/m01`",
+      "ayah_anchors": "95:1 `التين`; 95:2 `طور`; 95:3 `البلد`; 95:4 `أحسن`; 95:6 `الصالحات`",
+      "synthesis": "Mountain, tract, and place-name cooperate as a geography of recognition. The same naming process moves between ordinary terrain and elevated landmarks, allowing a lexical mountain sense of the fig to join the explicit mountain and city sequence.",
+      "ayah_refs": [
+        "95:1",
+        "95:2",
+        "95:3",
+        "95:4",
+        "95:6"
+      ]
+    },
+    {
+      "parent_channel": "Boundary, Relative Position, and Separation",
+      "parent_semantic_invariant": "Entities are located by edges, near and far relations, facing and trailing sides, and movement across a lower or outer boundary.",
+      "parent_surprising_reach": "Spatial language reaches from courtyards and distant places into spear anatomy, the human-facing side of an object, posteriority, and a lower bodily outlet.",
+      "key": "A",
+      "name": "Edge, Enclosure, and Near-Far Relation",
+      "reading_type": "latent/lexical",
+      "scene_or_process": "A bounded place has an aligned edge, a protected vicinity, an approach zone, and a measurable distance beyond it.",
+      "active_motifs": "aligned edge or frontage `ط و ر:B001/m01`, approach to an enclosure `ط و ر:B002/m01`, terminal boundary `ط و ر:B003/m01`, distance from nearness `ب ع د:B001/m01`, bounded place `ب ل د:B001/m01`",
+      "ayah_anchors": "95:2 `طور`; 95:3 `البلد`; 95:7 `بعد`",
+      "synthesis": "The aligned edge gives a place shape, the enclosure creates an inside and a vicinity, and approach measures movement toward that boundary. Distance names the corresponding movement away from it.",
+      "ayah_refs": [
+        "95:2",
+        "95:3",
+        "95:7"
+      ]
+    },
+    {
+      "parent_channel": "Boundary, Relative Position, and Separation",
+      "parent_semantic_invariant": "Entities are located by edges, near and far relations, facing and trailing sides, and movement across a lower or outer boundary.",
+      "parent_surprising_reach": "Spatial language reaches from courtyards and distant places into spear anatomy, the human-facing side of an object, posteriority, and a lower bodily outlet.",
+      "key": "B",
+      "name": "Facing Side, Forepart, and Posteriority",
+      "reading_type": "latent/lexical",
+      "scene_or_process": "A body or implement is oriented by the side facing a person, its working forepart, its lower line, and what comes behind.",
+      "active_motifs": "human-facing inner side `ء ن س:B004/m01`, spear forepart `ع م ل:B009/m01`, posterior or subsequent position `ب ع د:B002/m01`, lower line `س ف ل:B001/m01`, leeward side `س ف ل:B003/m01`, aligned edge `ط و ر:B001/m01`",
+      "ayah_anchors": "95:2 `طور`; 95:4 `الإنسان`; 95:5 `أسفل`; 95:6 `عملوا`; 95:7 `بعد`",
+      "synthesis": "The human-facing side fixes orientation from the participant's viewpoint, while the spear's forepart supplies a functional front. Lower, leeward, and posterior positions complete a directional frame that works across bodies, tools, wind, and sequences.",
+      "ayah_refs": [
+        "95:2",
+        "95:4",
+        "95:5",
+        "95:6",
+        "95:7"
+      ]
+    },
+    {
+      "parent_channel": "Boundary, Relative Position, and Separation",
+      "parent_semantic_invariant": "Entities are located by edges, near and far relations, facing and trailing sides, and movement across a lower or outer boundary.",
+      "parent_surprising_reach": "Spatial language reaches from courtyards and distant places into spear anatomy, the human-facing side of an object, posteriority, and a lower bodily outlet.",
+      "key": "C",
+      "name": "Lower Boundary and Outward Separation",
+      "reading_type": "latent/lexical",
+      "scene_or_process": "A lower or rear boundary marks the point from which something is directed away and placed at a distance.",
+      "active_motifs": "lower bodily outlet `س ف ل:B007/m01`, active distancing `ب ع د:B003/m01`, limit crossed or reached `ط و ر:B003/m01`",
+      "ayah_anchors": "95:2 `طور`; 95:5 `أسفل`، `سافلين`; 95:7 `بعد`",
+      "synthesis": "The lower outlet provides a concrete boundary, the limit gives it a terminal edge, and active distancing describes motion beyond that edge. The channel is organized by separation from a bounded body rather than by general bodily anatomy.",
+      "ayah_refs": [
+        "95:2",
+        "95:5",
+        "95:7"
+      ]
+    },
+    {
+      "parent_channel": "Familiarity, Fitness, and Steadfast Capacity",
+      "parent_semantic_invariant": "Capacity appears as the ability to approach without fear, fit an intended role, bear a load, and continue rather than lag or stop.",
+      "parent_surprising_reach": "Human familiarity, technical suitability, warrior courage, animal stamina, bodily stature, and material strength become variations of remaining fit for engagement.",
+      "key": "A",
+      "name": "Familiar Presence Against Wild Absence",
+      "reading_type": "latent/lexical",
+      "scene_or_process": "Human or tame presence occupies a place from which wildness, estrangement, or complete absence would otherwise withdraw.",
+      "active_motifs": "human presence `ء ن س:B001/m01`, tame familiarity `ء ن س:B003/m01`, wildness beyond human familiarity `ط و ر:B006/m01`, absence of anyone in the place `ط و ر:B007/m01`, wolf named `تينان` `ت ي ن:B003/m01`",
+      "ayah_anchors": "95:1 `التين`; 95:2 `طور`; 95:4 `الإنسان`",
+      "synthesis": "Familiarity is spatial and social: a place is humanly occupied, a participant can be approached without hostility, and wildness marks movement beyond that relation. The named wolf supplies a concrete wild participant, while total absence is the limiting case in which no familiar participant remains.",
+      "ayah_refs": [
+        "95:1",
+        "95:2",
+        "95:4"
+      ]
+    },
+    {
+      "parent_channel": "Deixis, Negation, and Invocation",
+      "parent_semantic_invariant": "Small utterance forms organize discourse by pointing, questioning, urging, excluding, negating, calling, and answering.",
+      "parent_surprising_reach": "The demonstrative and negative surface opens into handover formulas, interrogatives, exception, the absence of anyone, divine address, the response to a caller, and the written name of a letter.",
+      "key": "C",
+      "name": "Negation, Exception, and Absence",
+      "reading_type": "mixed",
+      "scene_or_process": "A proposition or participant is denied, excluded, or declared absent from a set or place.",
+      "active_motifs": "predicative negation `ل ي س:B001/m01`, exception by `ليس` `ل ي س:B002/m01`, coordinating or absolute negation `ل ي س:B003/m01`, otherness and exception `غ ي ر:B005/m01`, negated-distance idiom `ب ع د:B006/m01`, absence of anyone `ط و ر:B007/m01`",
+      "ayah_anchors": "95:2 `طور`; 95:6 `غير`; 95:7 `بعد`; 95:8 `أليس`",
+      "synthesis": "Predicative negation denies a state, exception removes one member from a set, and otherness marks the excluded alternative. Negated distance reverses remoteness into proximity, while the empty-place formula gives negation a spatial result: no participant remains within the domain.",
+      "ayah_refs": [
+        "95:2",
+        "95:6",
+        "95:7",
+        "95:8"
+      ]
+    },
+    {
+      "parent_channel": "Succession, Recurrence, and Cessation",
+      "parent_semantic_invariant": "Processes unfold through ordered stages, return in intervals, or terminate when their duration, material, or force is cut.",
+      "parent_surprising_reach": "Temporal order spans stages of creation, hesitation, intermittent meetings, action without delay, repeated oiling, exhausted travel, failing milk, and fraying cloth.",
+      "key": "A",
+      "name": "Stages, Repetition, and Hesitation",
+      "reading_type": "latent/lexical",
+      "scene_or_process": "A process passes through successive states, but repeated return can turn ordered recurrence into hesitation and confusion.",
+      "active_motifs": "successive stages `ط و ر:B004/m01`, repetition and hesitation `ر د د:B010/m01`, bewildered indecision `ب ل د:B005/m01`",
+      "ayah_anchors": "95:2 `طور`; 95:3 `البلد`; 95:5 `رددناه`",
+      "synthesis": "Stages organize change into a sequence, repetition brings a state back, and hesitation traps that recurrence between alternatives. Confusion is the participant's corresponding state when return no longer advances the process.",
+      "ayah_refs": [
+        "95:2",
+        "95:3",
+        "95:5"
+      ]
+    }
+  ],
+  "channel_generated_outputs": {
+    "source_dir": "quran-data/data/analysis/channels/network-v3/s095",
+    "files": [
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s095/channel_candidates.jsonl",
+        "role": "channel_candidates.jsonl",
+        "bytes": 1929815,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s095/channel_candidates.tsv",
+        "role": "channel_candidates.tsv",
+        "bytes": 54086,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s095/summary.json",
+        "role": "summary.json",
+        "bytes": 7556,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s095/families/candidate_graphs.jsonl",
+        "role": "families/candidate_graphs.jsonl",
+        "bytes": 1141702,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s095/families/candidate_similarity_edges.tsv",
+        "role": "families/candidate_similarity_edges.tsv",
+        "bytes": 26095,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s095/families/channel_families.jsonl",
+        "role": "families/channel_families.jsonl",
+        "bytes": 195636,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s095/families/candidate_family_membership.tsv",
+        "role": "families/candidate_family_membership.tsv",
+        "bytes": 2529,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s095/families/family_branch_inventory.tsv",
+        "role": "families/family_branch_inventory.tsv",
+        "bytes": 72312,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s095/families/consolidation_summary.json",
+        "role": "families/consolidation_summary.json",
+        "bytes": 4748,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s095/paths/path_summary.json",
+        "role": "paths/path_summary.json",
+        "bytes": 14859,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s095/paths/path_families/semantic_path_families.jsonl",
+        "role": "paths/path_families/semantic_path_families.jsonl",
+        "bytes": 2631304,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s095/paths/path_families/path_similarity_edges.tsv",
+        "role": "paths/path_families/path_similarity_edges.tsv",
+        "bytes": 1153265,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s095/paths/path_families/path_family_summary.json",
+        "role": "paths/path_families/path_family_summary.json",
+        "bytes": 11604,
+        "compressed": false
+      }
+    ],
+    "usage": "External source manifest only. These generated outputs may inform channel-family/path context when the agent has file access, but first-pass review limits still apply: no established channel name, accept/reject claim, or maturity claim unless a future adjudicated ledger is present."
+  },
+  "pericope": {
+    "surah": 95,
+    "pericope": 1,
+    "ayah_from": 1,
+    "ayah_to": 8,
+    "label": "Whole surah",
+    "synthesized": true
+  },
+  "root_lexicon": {
+    "root_000955": {
+      "root_ar": "ط و ر",
+      "qac_roots_ar": [
+        "ط و ر"
+      ],
+      "root_id": "root_000955",
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ط و ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 11
+        }
+      ],
+      "dictionary_entry": {
+        "inputs_sha256": "5c95638b349c0b1688052f1327da87230e128bad03027f03e866e94d2f12d00c",
+        "artifact_format": "dictionary-v2-root-entry-draft-v1",
+        "generated_by": "v2/scripts/accept_root_writer.py",
+        "root_envelope_id": "root_000955",
+        "language": "tr",
+        "branches": [
+          {
+            "branch_ref": "root_000955/B001",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, bir evin ya da başka bir şeyin avlusundan veya yapısından onunla aynı doğrultuda uzanan bölümü açıkça tanımlar. Bu nedenle durağan bir çevre şeridi anlamı korunmalı, yakınlaşma, sınır aşma veya dağ anlamları bu dala katılmamalıdır.",
+              "boundary_note": "Dal, bir şeyin yanında aynı hizada uzanan avlu ya da yapı bölümüyle sınırlıdır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım yalın biçimin uzanma ve hizalanma anlamını verir; başka yapılara bağlı anlamları içermez."
+            },
+            "concept_map": {
+              "definition": "Bir evin ya da başka bir yapının avlusundan veya yapı kısmından, o şeyin yanı boyunca aynı hizada ve aynı doğrultuda uzanan bölüm.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bölüm, dayandığı şeyin yanı boyunca onunla aynı hizada ve kesintisiz bir doğrultuda uzanır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar, anlamı evin avlusundan ya da yapısından onun yanı boyunca uzanan ve başka bir şeyle aynı hizada bulunan bölüm üzerinde birleştirir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "yanı boyunca aynı hizada uzanan bölüm",
+              "applicability": "Bir evin, duvarın ya da benzeri bir şeyin yanında onun doğrultusunu izleyen avlu veya yapı bölümünü karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Hem yana koşut uzanmayı hem de avlu veya yapı bölümü olmayı korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "ev boyunca uzanan avlu şeridi",
+                "usage_role": "contextual",
+                "applicability": "Söz konusu bölüm özellikle bir evin avlusundan evin yanı boyunca uzanıyorsa doğal bir karşılıktır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Ev bağlamındaki hizalı uzanmayı ve avlu bölümünü birlikte korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_001",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ev ya da yapıyla aynı hizada uzanan avlu veya yapı bölümü"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000756/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Bir yapı boyunca aynı hizada uzanan belirli avlu ya da yapı bölümünü gösterir.",
+                "neighbor_only": "Avlunun veya açık ev alanının bütününü gösterir; yana koşut bir uzanma şartı taşımaz.",
+                "gloss": "avlu ve yanı boyunca uzanan bölüm",
+                "shared_zone": "İki dal da evin çevresindeki açık alanla ilgilidir.",
+                "distinction": "Odak dal avlunun bütününü değil, evle aynı doğrultuda uzanan bölümünü belirler; komşu dal ise avlu veya ev sahasını genel olarak adlandırır."
+              },
+              {
+                "neighbor_ref": "root_000343/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Bir şeyin yanında onun doğrultusunu izleyen uzunlamasına bölümü anlatır.",
+                "neighbor_only": "Bir merkezin çevresini saran kenarı ya da iki yan sınırı anlatır.",
+                "gloss": "hizalı uzantı ve çevre kenarı",
+                "shared_zone": "Her iki dal da bir şeyin yanındaki veya çevresindeki sınır alanını konu eder.",
+                "distinction": "Odak dalda temel ilişki yan yana ve aynı doğrultuda uzanmadır; komşu dalda ise merkezin çevresini sarma ya da kenar oluşturma öne çıkar."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; yayımlanan iki komşu avlu ve çevre kenarıyla en yakın karışma noktalarını gösterirken ötekiler yalnızca uzak alan benzerliği taşır.",
+            "branch_image_ar": "امتداد الحافة والفناء بمحاذاة الشيء",
+            "what_is_ar": "ما كان طوارا للدار أو الحائط: امتداد الفناء أو البناء أو الطول بمحاذاة الشيء وعلى نسق واحد",
+            "what_is_not_ar": "ليس الجبل ولا التارة ولا مجاوزة الحد بعد ثبوته.",
+            "source_phrase_ar": "طوار الدار وهو الذي يمتد معها من فنائها (maqayis)؛ الطوار ما كان على حذو الشيء أو بحذائه (ayn)؛ طوار الدار ما كان ممتدا معها من الفناء (sihah)؛ طوار الدار وطواره ما امتد منها من البناء (mufradat)",
+            "sources": [
+              "MQ",
+              "AY",
+              "SI",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000955/B002",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi hem bir şeyin çevresinde dolanıp ona yaklaşma eylemini hem de olumsuz yapılarda kişiye, avluya veya çevredeki korunaklı alana yaklaşmamayı bildirir. Çerçeve bu ortak yakınlaşma çekirdeğini doğru verir.",
+              "boundary_note": "Çevrede dolanarak yaklaşma ile belirli olumsuz yapılardaki yaklaşmama anlamları ayrı tutulmalıdır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Yalın eylem çevrede dolanıp yaklaşmayı, bağlı olumsuz yapılar ise kişiye, avluya veya çevredeki alana yaklaşmamayı anlatır."
+            },
+            "concept_map": {
+              "definition": "Bir şeyin çevresinde dolanarak ona doğru yaklaşmak. Olumsuz yapılar içinde, o şeye, onun avlusuna ya da çevresindeki korunaklı alana yaklaşmamak anlamını verir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Eylem, bir şeyin çevresinde dolanmayı ve ona doğru yakınlaşmayı birleştirir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Olumsuz bağlı kullanımlar, bir kişiye, onun avlusuna veya çevredeki korunaklı alana yaklaşmamayı bildirir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Toplu kanıt, çevrede dolanarak yaklaşma eylemiyle bundan türeyen yaklaşmama bildiren olumsuz kullanımları aynı dalda birleştirir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "çevresinde dolanıp yaklaşmak",
+              "applicability": "Dalın yalın eylem çekirdeğini verir; olumsuz yapılarda aynı eylem yaklaşmama biçiminde çevrilir.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Çevrede hareket etme ile hedefe yakınlaşma işlemlerini birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "yakınına uğramamak",
+                "usage_role": "contextual",
+                "applicability": "Bir kişiye ya da onun avlusuna yaklaşmama bildiren olumsuz yapıların doğal karşılığıdır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Olumsuzluğu ve hedefin yakınına gelmeme koşulunu korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              },
+              {
+                "text": "çevremize yaklaşma",
+                "usage_role": "contextual",
+                "applicability": "Konuşanların çevresindeki alanı veya korunaklı bölgeyi yaklaşılmaması gereken yer olarak gösteren kullanım içindir.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Yasağı, konuşanlara ait çevre alanını ve yaklaşma eylemini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_002",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ona ya da avlusuna yaklaşmam"
+              },
+              {
+                "lexical_unit_id": "lu_003",
+                "rendering_kind": "ordinary",
+                "target_gloss": "çevremize veya korunaklı alanımıza yaklaşma"
+              },
+              {
+                "lexical_unit_id": "lu_004",
+                "rendering_kind": "ordinary",
+                "target_gloss": "çevresinde dolanıp ona yaklaşmak"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000029/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Çevrede dolanma bileşenini ve avlu ya da çevre alanına bağlı olumsuz kullanımları içerir.",
+                "neighbor_only": "Bir olayın zamanının yaklaşması gibi daha genel ve zamansal yakınlaşmaları da içerir.",
+                "gloss": "çevrede dolanarak yaklaşma ve genel yakınlaşma",
+                "shared_zone": "İki dalın ortak çekirdeği bir şeye veya zamana göre yakın duruma gelmektir.",
+                "distinction": "Odak dal uzamsal hedefin çevresinde hareket etmeyi ve ona yaklaşmayı gerektirir; komşu dal genel yakınlığı ve zamanın yaklaşmasını da kapsar."
+              },
+              {
+                "neighbor_ref": "root_000372/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Hedefin çevresinde dolanıp ona doğru yaklaşan bir hareketi anlatır.",
+                "neighbor_only": "Hedefi çevreleme, duvarla çevirme veya kuşatma sonucunu anlatır.",
+                "gloss": "yaklaşarak dolanma ve çevreleme",
+                "shared_zone": "Her iki dalda da bir hedefin çevresiyle kurulan uzamsal ilişki bulunur.",
+                "distinction": "Odak dalın sonucu yakınlıktır ve tam çevreleme gerekmez; komşu dalda temel işlem hedefin çevresini kapatmak veya kuşatmaktır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; seçilenler genel yakınlaşma ve fiziksel çevreleme ile gerçek sınır karışmalarını gösterir, kalanlar yalnızca aynı uzamsal sahneyi paylaşır.",
+            "branch_image_ar": "الدنو من حريم الشيء وما حوله",
+            "what_is_ar": "الدخول في معنى القرب من الفناء أو الحريم، أو الحومان حول الشيء والدنو منه",
+            "what_is_not_ar": "ليس مجرد امتداد الطوار، ولا مجاوزة الحد، ولا اسم الجبل.",
+            "source_phrase_ar": "طار فلان يطور طورا أي كأنه يحوم حواليه ويدنو منه (ayn)؛ لا أطور به أي لا أقربه (sihah)؛ لا تطر حرانا أي لا تقرب ما حولنا (sihah)؛ لا أطور به أي لا أقرب فناءه (mufradat)",
+            "sources": [
+              "AY",
+              "SI",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000955/B003",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi bir kişiye veya şeye ait sınırı, bu sınırın aşılmasını ve bir bilgi alanının başlangıç ile bitiş uçlarına varmayı birlikte tanıklar. Dal çerçevesi sınır çekirdeğini ve iki ayrı bağlı gerçekleşmesini doğru biçimde korur.",
+              "boundary_note": "Sınırın kendisi, onu aşma eylemi ve iki ucuna ulaşma kullanımı birbirine indirgenmemelidir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım sınır çekirdeğini verir; sınırı aşma ve başlangıç ile bitiş uçlarına ulaşma anlamlarını yalnızca tanıklanan yapılara bağlar."
+            },
+            "concept_map": {
+              "definition": "Bir kişi ya da şey için geçerli olan sınır. Bağlı kullanımlarda bu sınırın aşılmasını veya bir alanın başlangıç ve bitiş uçlarına ulaşılmasını anlatır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir kişi ya da şey için geçerli olan ve davranışın veya kapsamın durması beklenen sınırı gösterir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "associated_use",
+                  "statement": "Belirli bir bağlı kullanım, kişinin kendisi için geçerli sınırı veya ölçüyü aşmasını anlatır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "extension",
+                  "statement": "İkili biçim, bir alanın ilk ve son uçlarına, yani iki sınırına ulaşmayı anlatır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Toplu kanıt, kişiye veya şeye ait sınırı temel alır; sınırı aşma ve bir alanın ilk ile son uçlarına varma kullanımlarını bu çekirdeğe bağlar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "kişiye veya şeye ait sınır",
+              "applicability": "Dalın sınır çekirdeğini karşılar; aşma ve iki uca ulaşma, bağlam içinde ayrıca eylemle belirtilmelidir.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Sınırın belirli bir kişi ya da şeye göre geçerli oluşunu korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "kendine düşen sınırı aşmak",
+                "usage_role": "contextual",
+                "applicability": "Bir kişinin kendisi için geçerli davranış veya ölçü sınırını geçtiği yapı için kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Kişiye ait sınırı ve o sınırın ötesine geçme eylemini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "başından sonuna dek ulaşmak",
+                "usage_role": "contextual",
+                "applicability": "Bir bilgi alanının hem başlangıç hem bitiş sınırına erişmeyi anlatan kullanım içindir.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Alanı iki ucuyla kavramayı ve her iki sınıra ulaşmayı korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_005",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kendine düşen sınırı ya da ölçüyü aşmak"
+              },
+              {
+                "lexical_unit_id": "lu_006",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir alanın başlangıç ve bitiş uçları"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000002/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Kişiye veya şeye düşen sınırı ve bir alanın iki ucuna ulaşma kullanımını içerir.",
+                "neighbor_only": "İki şeyi ayıran çizgiyi, arazi sınırlarını ve çiğnenmemesi gereken kuralları da kapsar.",
+                "gloss": "kişisel sınır ve ayırıcı sınır",
+                "shared_zone": "İki dal da bir şeyin sona erdiği veya ötesine geçilmemesi gereken sınırı bildirir.",
+                "distinction": "Odak dal sınırı belirli bir kişi ya da şeye ait ölçü olarak kurar ve bağlı yapılarda aşılmasını anlatır; komşu dal ayırma, bitiş ve kural sınırlarını daha geniş kapsar."
+              },
+              {
+                "neighbor_ref": "root_001134/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Sınırı yansız biçimde adlandırır ve alanın iki ucuna varmayı da kapsar.",
+                "neighbor_only": "Sınır aşımını hoş görülmeyen, çirkin veya aşırı bir nitelik olarak değerlendirir.",
+                "gloss": "sınır ve ölçüyü aşan aşırılık",
+                "shared_zone": "Her iki dalda da geçerli bir sınırın veya ölçünün ötesine geçme düşüncesi vardır.",
+                "distinction": "Odak dalda sınır ve aşma kendi başına yansızdır; komşu dal sınır aşımına olumsuz bir değer ve aşırılık niteliği ekler."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; seçilen iki komşu genel sınır ile olumsuz değerlendirilen sınır aşımını ayırır, öteki adayların paylaştığı alan daha uzaktır.",
+            "branch_image_ar": "الحد الذي يوقف عنده أو يتجاوز",
+            "what_is_ar": "الطور بمعنى الحد، وما يقال في تعديه أو بلوغ طرفيه وأقصاه",
+            "what_is_not_ar": "ليس الطوار المكاني نفسه ولا التارة بعد التارة ولا الجبل.",
+            "source_phrase_ar": "عدا طوره أي جاز الحد الذي هو له من داره (maqayis)؛ عدا طوره أي جاوز حده (sihah)؛ بلغ فلان في العلم أطوريه أي حديه أوله وآخره (sihah)؛ عدا فلان طوره أي تجاوز حده (mufradat)",
+            "sources": [
+              "MQ",
+              "SI",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000955/B004",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Kaynak ifadesi yalnızca art arda gelen evreleri değil, bir eylemin ayrı kezlerini veya sürelerini ve çoğulda farklı durum ya da türleri de içerir. Verilen çerçeve kullanılabilir, ancak ardışıklığın farklı türlerden oluşma kullanımında zorunlu olmadığı açıkça belirtilmelidir.",
+              "boundary_note": "Ayrı kez veya evre çekirdeği korunmalı; farklı durum ve türler her zaman zaman sıralı sayılmamalıdır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Yalın biçimler kez, evre, durum veya tür bildirir; art arda gelme anlamı yalnızca ilgili çoğul ve bağlı yapılarda açıkça taşınır."
+            },
+            "concept_map": {
+              "definition": "Bir eylemin ya da oluşumun ayrı bir kezini, süresini veya evresini anlatır. Çoğulda peş peşe evreleri ya da zaman sırası gerektirmeden birbirinden farklı durum ve türleri gösterebilir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir eylem veya oluşum içindeki ayrı bir kez, süre ya da evreyi gösterir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Bağlı yineleme yapısı, bir kezden veya süreden sonra başka bir kez ya da sürenin gelmesini anlatır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "extension",
+                  "statement": "Çoğul biçim, yaratılışın peş peşe evrelerini veya insanların farklı durum ve türlerini gösterebilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar ayrı kez veya süre anlamını, art arda yineleme yapısını ve çoğul biçimin farklı durum, tür ya da oluşum evreleri göstermesini birlikte tanıklar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "ayrı kez, durum veya evre",
+              "applicability": "Dalın bir kezlik gerçekleşme, farklı durum ve süreç evresi çekirdeğini kısa biçimde birlikte karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Ayrı gerçekleşme, durum farklılığı ve evre olma bileşenlerini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "bir kezden sonra bir kez daha",
+                "usage_role": "contextual",
+                "applicability": "Bir eylemin veya sürenin art arda ayrı gerçekleşmeler halinde yinelendiği bağlı yapı içindir.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Ayrı gerçekleşmeleri ve bunların peş peşe gelmesini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "çeşitli durumlar ve türler",
+                "usage_role": "contextual",
+                "applicability": "İnsanların veya başka varlıkların birbirinden farklı durum ya da türlerde olduğunu bildiren çoğul kullanım içindir.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Çoğulluğu ve zaman sırası gerektirmeyen durum veya tür farklılığını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              },
+              {
+                "text": "birbiri ardınca gelen evreler",
+                "usage_role": "contextual",
+                "applicability": "Bir oluşumun başlangıçtan sonraki farklı durumlarının sıra içinde geliştiği çoğul kullanım içindir.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Evre ayrımını ve evrelerin zaman içinde peş peşe gelmesini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_007",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kez veya evre"
+              },
+              {
+                "lexical_unit_id": "lu_008",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir kezden sonra bir kez daha; dönem dönem"
+              },
+              {
+                "lexical_unit_id": "lu_009",
+                "rendering_kind": "ordinary",
+                "target_gloss": "çeşitli durumlar, türler veya ardışık evreler"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000927/B004",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Ayrı kez veya süreyi ve zaman sırası olmadan farklı durum ya da türleri de gösterebilir.",
+                "neighbor_only": "Bir durumdan başka bir duruma geçişi ve süreç içindeki konumu doğrudan öne çıkarır.",
+                "gloss": "ayrı kez veya evre ve durumdan duruma geçiş",
+                "shared_zone": "İki dal da süreç içindeki durumları, evreleri ve bunların birbirini izlemesini anlatabilir.",
+                "distinction": "Odak dal tek bir kez anlamına ve sınıf farklılığına kadar uzanır; komşu dalın çekirdeği bir durumdan sonraki duruma geçiş ve evre konumudur."
+              },
+              {
+                "neighbor_ref": "root_000171/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Süreç evresi ile farklı durum veya tür anlamlarını da taşır.",
+                "neighbor_only": "Aynı şeyin geri dönmesi veya yeniden yapılması anlamını özellikle içerir.",
+                "gloss": "ayrı kez ve yeniden gerçekleşme",
+                "shared_zone": "Her iki dal da bir eylemin ayrı bir kez gerçekleşmesini ve bunun yinelenmesini anlatabilir.",
+                "distinction": "Odak dalda her bir kez ayrı bir evre veya farklı durum olabilir; komşu dalda geri dönüş ve aynı şeyin yeniden yapılması daha belirgindir."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; seçilenler evre geçişi ve yinelenen kez anlamlarıyla en güçlü örtüşmeyi gösterir, kalanlar yalnızca ardışıklık veya yenilik temasını paylaşır.",
+            "branch_image_ar": "تتابع الأطوار والحالات",
+            "what_is_ar": "التارة بعد التارة، والمرحلة بعد المرحلة، والأحوال أو الأصناف المتعددة كأطوار الخلق",
+            "what_is_not_ar": "ليس الحد المكاني ولا الجبل ولا الوحشي.",
+            "source_phrase_ar": "فعل ذلك طورا بعد طور كأنه فعله مدة بعد مدة (maqayis)؛ الطور التارة يقال طورا بعد طور (ayn)؛ الناس أطوار أي أصناف على حالات شتى (ayn)؛ الطور التارة (sihah)؛ خلقكم أطوارا طورا علقة وطورا مضغة (sihah)؛ فعل كذا طورا بعد طور أي تارة بعد تارة (mufradat)؛ خلقكم أطوارا (mufradat)",
+            "sources": [
+              "MQ",
+              "AY",
+              "SI",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000955/B005",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi dağ anlamında birleşir, ancak bunun tanınmış belirli bir dağ, belirli bir dağın adı veya her dağ için kullanılabilen bir ad olup olmadığı konusunda kapsam farkı bildirir. Verilen çerçeve bu ortak çekirdeği ve kaynak içi kapsam ayrılığını doğru yansıtır.",
+              "boundary_note": "Dağ çekirdeği sabittir; genel dağ adı ile belirli bir dağın adı arasındaki kapsam farkı korunmalıdır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım yalın biçimin dağ anlamını verir ve belirli ad ile genel ad arasındaki kaynak farkını açıkça korur."
+            },
+            "concept_map": {
+              "definition": "Dağ; kaynakların bir bölümünde tanınmış veya belirli bir dağın adı, başka bir görüşte ise her dağ için kullanılabilen bir ad.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Sözcük, yüksek bir yer biçimi olarak dağı gösterir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "source_variant",
+                  "statement": "Kapsam, belirli ve tanınmış bir dağın adından bütün dağlara uygulanabilen genel ada kadar değişir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak noktası dağ anlamıdır; toplu ifade bunun tanınmış ya da belirli bir dağın adı mı, yoksa her dağa uygulanabilen genel bir ad mı olduğu konusunda kapsam farkı taşır.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "dağ veya belirli bir dağın adı",
+              "applicability": "Dağ çekirdeğini ve kaynaklarda görülen genel ad ile belirli ad arasındaki kapsam farkını birlikte gösterir.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Dağ anlamını ve belirli bir dağa ad olabilme olasılığını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "tanınmış dağ",
+                "usage_role": "contextual",
+                "applicability": "Bağlam sözcüğün belirli ve bilinen bir dağı gösterdiğini ortaya koyduğunda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Dağ olmayı ve bağlamca belirlenmiş tanınmış bir yeri göstermeyi korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "dağ",
+                "usage_role": "general",
+                "applicability": "Sözcüğün herhangi bir dağı gösteren genel ad sayıldığı görüş veya bağlam için uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Genel yer biçimi olarak dağ anlamını doğrudan korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_010",
+                "rendering_kind": "ordinary",
+                "target_gloss": "dağ; bağlama göre belirli bir dağın adı"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000824/B001",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Bir yer biçimini dağ olarak adlandırır ve belirli bir dağa ad olabilme kapsamını taşır.",
+                "neighbor_only": "Dağ olsun olmasın bir şeyin yüksek ve uzun oluşunu nitelendirir.",
+                "gloss": "dağ ve yükseklik",
+                "shared_zone": "Dağlar tipik olarak yüksek olduğundan iki dal aynı yükselti alanında buluşur.",
+                "distinction": "Odak dal bir nesne türünü veya onun adını bildirir; komşu dal ise nesnenin türünden bağımsız olarak yükseklik niteliğini bildirir."
+              },
+              {
+                "neighbor_ref": "root_001066/B008",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Genel dağ adı ile belirli bir dağın adı arasında değişebilen bir kapsama sahiptir.",
+                "neighbor_only": "Tek tek belirlenmiş bir dağ veya yer için kullanılan özel adı gösterir.",
+                "gloss": "dağ adı ve belirli yer adı",
+                "shared_zone": "Her iki dal da bir dağın veya yüksek yerin adlandırılmasıyla ilgilidir.",
+                "distinction": "Odak dalın genel olarak dağ anlamına gelebilmesi mümkündür; komşu dalın çekirdeği ise belirli bir yere verilen özel addır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; seçilenler dağın yükseklik niteliği ve belirli yer adıyla karışmasını açıklar, kalan adaylar başka dağ veya yer adlarının örnekleridir.",
+            "branch_image_ar": "الطور جبلا أو علما على جبل",
+            "what_is_ar": "الطور اسما للجبل، إما جبلا معروفا مخصوصا أو اسما يقال للجبل في بعض النقل",
+            "what_is_not_ar": "لا يدخل فيه طور بمعنى تارة، ولا طوار الدار، ولا عدا طوره.",
+            "source_phrase_ar": "الطور جبل (maqayis)؛ الطور جبل معروف (ayn)؛ الطور الجبل (sihah)؛ الطور اسم جبل مخصوص وقيل اسم لكل جبل (mufradat)",
+            "sources": [
+              "MQ",
+              "AY",
+              "SI",
+              "MU"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000955/B006",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi kuşlar, başka hayvanlar ve insanlar için yabanıl ya da insanlara alışmamış olma niteliğini açıkça tanıklar. Bir açıklama bu niteliği alışıklığın olağan sınırından uzaklaşmayla ilişkilendirir; bu, çekirdeği değiştirmeyen bağımlı bir gerekçelendirmedir.",
+              "boundary_note": "Dal yabanıllık ve insanlara alışmamışlıkla sınırlıdır; sırf uzaklık veya yalnızlık yeterli değildir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım tanıklanan niteleme biçimlerinin yalın yabanıllık anlamını verir ve başka yapılardan anlam aktarmaz."
+            },
+            "concept_map": {
+              "definition": "Kuş, başka bir hayvan veya insan için yabanıl, yabanıllaşmış ya da insanlara alışmamış olma niteliği. Bir açıklamada bu durum, alışıklığın olağan sınırından uzaklaşmış sayılmaya bağlanır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Canlının yabanıl, yabanıllaşmış veya insanlarla yakınlığa alışmamış olduğunu bildirir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "associated_use",
+                  "statement": "Niteliğin açıklaması, insanlarla alışıklığın olağan sınırından uzaklaşma düşüncesine bağlanır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "example",
+                  "statement": "Kuşlar, başka hayvanlar ve insanlar bu nitelikle betimlenebilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Toplu kanıt nitelemeyi yabanıl veya insanlara alışmamış kuş, hayvan ve insanlara uygular; ayrıca bir açıklama bunu alışıklık sınırından uzaklaşma düşüncesiyle ilişkilendirir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "yabanıl ve insanlara alışmamış",
+              "applicability": "Kuş, başka hayvan veya insanın insanlarla yakınlığa alışmamış yabanıl durumunu karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Yabanıllığı ve insanlarla alışıklığın bulunmamasını birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "insana alışmamış yabanıl kuş",
+                "usage_role": "contextual",
+                "applicability": "Nitelik özellikle kuş veya benzeri bir hayvan için kullanıldığında doğal bir karşılıktır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Canlının kuş oluşunu, yabanıllığını ve insana alışmamışlığını korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ]
+              },
+              {
+                "text": "insanlardan uzak duran yabanıl kimse",
+                "usage_role": "contextual",
+                "applicability": "Nitelik bir insanın alışılmadık ölçüde yabanıl ve insan yakınlığından uzak oluşunu bildirdiğinde kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "İnsana uygulanmayı, yabanıllığı ve alışılmış yakınlıktan uzaklığı korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_011",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yabanıl, yabanıllaşmış veya insanlara alışmamış"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001632/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Belirli niteleme biçimleriyle özellikle kuşlara ve insanlara uygulanır ve alışıklık sınırından uzaklaşma açıklamasını taşır.",
+                "neighbor_only": "Genel olarak bütün kara hayvanlarını ve insanlardan uzak duran her şeyi kapsayabilir.",
+                "gloss": "insana alışmamış ve genel yabanıl",
+                "shared_zone": "İki dalın ortak çekirdeği insanlara alışmama ve evcil ya da yakın olunan durumun dışında kalmadır.",
+                "distinction": "Odak dal belirli niteleme biçimlerinin kuş, hayvan ve insana uygulanışıdır; komşu dal yabanıl canlı ve nesne alanını daha genel kurar."
+              },
+              {
+                "neighbor_ref": "root_000004/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Canlının yabanıl veya alışmamış durumunu niteleme olarak bildirir.",
+                "neighbor_only": "Canlının insanlardan ürküp uzaklaşması ve yabanıllaşması sürecini özellikle anlatır.",
+                "gloss": "yabanıl durum ve yabanıllaşıp ürkme",
+                "shared_zone": "Her iki dal da insan yakınlığından uzaklaşan veya insana alışmamış canlıları konu eder.",
+                "distinction": "Odak dal öncelikle kalıcı ya da gözlenen bir niteliği verir; komşu dal ürkme, kaçınma ve yabanıllaşma eylemini daha belirgin taşır."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; seçilenler genel yabanıllık ile yabanıllaşma sürecini ayırır, kalan adaylar uzaklık, yalnızlık veya yabancılık bakımından daha gevşek ilişkilidir.",
+            "branch_image_ar": "التوحش والخروج عن حد الأنس",
+            "what_is_ar": "وصف طوري وطوراني للوحشي أو المتوحش من الطير والناس، وما تباعد عن حد الأنس",
+            "what_is_not_ar": "ليس النسبة إلى الجبل هنا، ولا معنى التارة، ولا نفي وجود أحد.",
+            "source_phrase_ar": "للوحشي من الطير وغيرها طوري وطوارني فهو من هذا كأنه توحش فعدا الطور (maqayis)؛ رجل طوري وطوراني (ayn)؛ الطوري الوحشي من الطير والناس (sihah)؛ حمام طوري وطوراني (sihah)",
+            "sources": [
+              "MQ",
+              "AY",
+              "SI"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000955/B007",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Tek kaynak ifadesi, belirli bir olumsuz yapı içinde bir yerde hiç kimsenin bulunmadığını açıkça bildirir. Dalın dar kalıp anlamı bu kanıtla tam uyumludur ve yabanıllık ya da dağ anlamına genişletilemez.",
+              "boundary_note": "Anlam yalnızca tanıklanan yokluk bildiren yapıya bağlıdır; yalın bir sözcük anlamı değildir."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "non_bare",
+              "note": "Tanım yalnızca bir yerde hiç kimse bulunmadığını bildiren tanıklanmış yapıyı kapsar."
+            },
+            "concept_map": {
+              "definition": "Belirli bir olumsuz yapı içinde, söz konusu yerde hiç kimsenin bulunmadığını bildiren kalıplaşmış kullanım.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Olumsuz yapı, belirtilen yerde tek bir kişinin bile bulunmadığını bildirir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Ortak kaynak özeti yoktur; bu dar yapı ve yokluk anlamı tek bir kaynağın tanıklığına dayanır.",
+              "common_claim_ids": [],
+              "source_details": [
+                {
+                  "claim_ids": [
+                    "bc_001"
+                  ],
+                  "kind": "sole_attestation",
+                  "summary": "Tanıklanan olumsuz yapı, söz konusu yerde hiç kimsenin bulunmadığını bildirir."
+                }
+              ],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "orada hiç kimsenin bulunmaması",
+              "applicability": "Yalnızca belirli olumsuz yapı içinde bir yerin insan bakımından bütünüyle boş olduğunu bildirir.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Belirli yerde bulunmayı, olumsuzluğu ve tek kişinin bile olmamasını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "orada hiç kimse yok",
+                "usage_role": "contextual",
+                "applicability": "Tanıklanan olumsuz yapının doğal ve doğrudan cümle karşılığıdır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Yeri ve hiç kimsenin bulunmaması yargısını eksiksiz korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_012",
+                "rendering_kind": "ordinary",
+                "target_gloss": "orada hiç kimse yok"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000622/B007",
+                "relation_type": "synonym",
+                "boundary_match": "exact",
+                "focus_only": null,
+                "neighbor_only": null,
+                "gloss": "bir yerde hiç kimsenin bulunmaması",
+                "shared_zone": "İki dal da olumsuz bir yapı içinde belirtilen yerde hiç kimse bulunmadığını bildirir.",
+                "distinction": "Kavramsal çekirdek ve yapı sınırı aynıdır; ayrım yalnızca kaynak dilde kullanılan sözcük biçimindedir."
+              },
+              {
+                "neighbor_ref": "root_000075/B008",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Tek bir dar yapı içinde yalnızca hiç kimsenin bulunmamasını bildirir.",
+                "neighbor_only": "Birden çok olumsuz biçimi ve kimi kullanımlarda hiçbir belirti ya da bilgi bulunmamasını da kapsar.",
+                "gloss": "hiç kimsenin olmaması ve genel iz yokluğu",
+                "shared_zone": "İki dal da bir yerde insan bulunmadığını olumsuz bir yapı aracılığıyla bildirebilir.",
+                "distinction": "Odak dal tek yapıya ve insan yokluğuna bağlıdır; komşu dal farklı biçimlere ve insan dışındaki belirti veya bilgi yokluğuna genişleyebilir."
+              }
+            ],
+            "neighbor_coverage_note": "Bütün adaylar değerlendirildi; tam eşdeğer yapı ile daha geniş yokluk alanı yayımlandı, kalan adaylar aynı yargıyı başka dar sözcüklerle yineler veya genel boşluğu anlatır.",
+            "branch_image_ar": "نفي وجود أحد في الموضع",
+            "what_is_ar": "الاستعمال الضيق في قولهم ما بها طوري، أي ليس بها أحد",
+            "what_is_not_ar": "ليس الوحشي طوري ولا الطور الجبل ولا التارة.",
+            "source_phrase_ar": "ما بها طوري أي أحد (sihah)",
+            "sources": [
+              "SI"
+            ],
+            "source_note": {
+              "SI": "Tanıklanan olumsuz yapı, söz konusu yerde hiç kimsenin bulunmadığını bildirir."
+            }
+          }
+        ],
+        "root_profile": {
+          "summary": "Kök; bir şey boyunca uzanan yan bölüm, çevresinde dolanarak yaklaşma, kişiye ait sınır, ayrı kez ve evreler, dağ, yabanıllık ve belirli bir yerde hiç kimsenin bulunmaması gibi farklı anlam dalları taşır. Uzamsal kenar ve sınır düşünceleri bazı dalları birbirine bağlasa da dağ ve dar yokluk kullanımı gibi dallar ayrı sözlüksel merkezler oluşturur.",
+          "polysemy": "polysemic",
+          "organization": "mixed"
+        },
+        "occurrence_evidence": {
+          "summary": {
+            "morpheme_count": 11,
+            "word_count": 11,
+            "ayah_count": 11,
+            "surah_count": 9
+          },
+          "forms": [
+            {
+              "form_id": "F001",
+              "lemma_ar": "طُور",
+              "stem_ar": "طُّورَ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Tuwr|ROOT:Twr|M|ACC",
+              "occurrence_count": 3
+            },
+            {
+              "form_id": "F002",
+              "lemma_ar": "طُور",
+              "stem_ar": "طُّورِ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Tuwr|ROOT:Twr|M|GEN",
+              "occurrence_count": 5
+            },
+            {
+              "form_id": "F003",
+              "lemma_ar": "طُور",
+              "stem_ar": "طُورِ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:Tuwr|ROOT:Twr|M|GEN",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F004",
+              "lemma_ar": "أَطْوَار",
+              "stem_ar": "أَطْوَارًا",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:>aTowaAr|ROOT:Twr|MP|INDEF|ACC",
+              "occurrence_count": 1
+            }
+          ]
+        }
+      },
+      "dictionary_source_file": "quran-data/data/dictionary/tr/root_000955_entry.json",
+      "gloss": {
+        "format": "dictionary-v2-gloss-result-v2",
+        "generated_by": "v2/gloss_generation/workflow.py",
+        "status": "reviewed",
+        "root_envelope_id": "root_000955",
+        "source_language": "tr",
+        "target_language": "tr",
+        "source_entry_status": "reviewed",
+        "writer_mode": "initial",
+        "inputs_sha256": "4e2ad6c25c68f2dfb8b7e0ca7bf64264f1b9520b831be90cfd561fac3f1f14fe",
+        "review_inputs_sha256": "3ca8db361678f40848889f4027a540849d8836858902bbc073f28e5ad5e8346f",
+        "source_entry": {
+          "path": "v2/work/entry_creation/root_000955/tr/output/root_000955_entry.json",
+          "sha256": "70669be3377d5ee9e1dfe8f2d9b068a2013b2d33d66d7e6a7126467b360002c9",
+          "entry_id": "root_000955/tr",
+          "status": "reviewed",
+          "review_verdict": "pass",
+          "validation_status": "clean",
+          "validation_warnings": []
+        },
+        "source_packet": {
+          "path": "data/output/root_packets/root_000955.json",
+          "sha256": "bc50fe16474fb0c018af924f37dac19ddf40b2c62d1dd66c270f02a7587b3ea2"
+        },
+        "writer_task": {
+          "path": "v2/gloss_generation/work/root_000955/tr/input/task.json",
+          "sha256": "8e7b8f1416bd19460a8f36cc6f1ac2d40b0189a5740942f69d75743525766543"
+        },
+        "review_task": {
+          "path": "v2/gloss_generation/work/root_000955/tr/review/input/task.json",
+          "sha256": "ed497b1051622baac29ef28c08a384aa2bcb39a7dd8796a32a5e115f1b6c1503"
+        },
+        "review_response": {
+          "path": "v2/gloss_generation/work/root_000955/tr/review/output/review.json",
+          "sha256": "c2e26d764d6235c73e101f7be5e4c4956162a7dd68f5978c0b7167343e7a0bed"
+        },
+        "branches": [
+          {
+            "branch_ref": "root_000955/B001",
+            "concept_gloss": {
+              "text": "yana hizalı uzantı",
+              "facet_ids": [
+                "F001"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "evin yanında aynı doğrultuda uzanan bölüm",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_001"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_001": {
+                "text": "ev ya da yapının yan hizasındaki uzantı",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000955/B002",
+            "concept_gloss": {
+              "text": "çevresinde dolanarak yaklaşma",
+              "facet_ids": [
+                "F001"
+              ],
+              "error": {
+                "fit": "narrowing",
+                "loses_facet_ids": [
+                  "F002"
+                ],
+                "adds": null,
+                "collision": null,
+                "reason": "Bu etiket olumsuz yapılardaki yaklaşmama kullanımını açıkça taşımaz.",
+                "loses_core_concept": true
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "bir şeyin çevresinde dolanıp ona yaklaşmak",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_004"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss olumsuz yapılardaki yaklaşmama kullanımını ayrıca göstermez.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "bir kimseye ya da avlusuna yaklaşmamak",
+                "facet_ids": [
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "korunaklı çevreye yaklaşmamak",
+                "facet_ids": [
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_002": {
+                "text": "ona ya da avlusuna yaklaşmam",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_003": {
+                "text": "çevremize veya korunaklı alanımıza yaklaşma",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              "lu_004": {
+                "text": "çevresinde dolanıp ona yaklaşmak",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss olumsuz yapılardaki yaklaşmama kullanımını ayrıca göstermez.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000955/B003",
+            "concept_gloss": {
+              "text": "kişiye veya şeye özgü sınır",
+              "facet_ids": [
+                "F001"
+              ],
+              "error": {
+                "fit": "narrowing",
+                "loses_facet_ids": [
+                  "F002",
+                  "F003"
+                ],
+                "adds": null,
+                "collision": null,
+                "reason": "Kısa etiket sınır aşma ve iki uca ulaşma bağlı kullanımlarını ayrıca belirtmez.",
+                "loses_core_concept": true
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "kendisi için geçerli ölçüyü aşmak",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_005"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "bir alanın iki sınır ucuna ulaşmak",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_006"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_005": {
+                "text": "kendine düşen sınırı ya da ölçüyü aşmak",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss alanın başlangıç ve bitiş uçlarına ulaşma kullanımını belirtmez.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_006": {
+                "text": "başlangıç ve bitiş sınırları",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss kişinin kendi sınırını aşma kullanımını belirtmez.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000955/B004",
+            "concept_gloss": {
+              "text": "ayrı kez, evre veya durum",
+              "facet_ids": [
+                "F001",
+                "F003"
+              ],
+              "error": {
+                "fit": "narrowing",
+                "loses_facet_ids": [
+                  "F002"
+                ],
+                "adds": null,
+                "collision": null,
+                "reason": "Etiket art arda gelme anlamını yalnızca dolaylı biçimde hissettirir.",
+                "loses_core_concept": true
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "bir oluşumun ayrı bir kez veya evresi",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_007"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss art arda gelme ile farklı durum veya tür anlamlarını belirtmez.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "evre evre, dönem dönem",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_008"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss farklı durum veya tür anlamını belirtmez.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "farklı durumlar, türler veya gelişim evreleri",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_009"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss bağlı yineleme yapısındaki bir kezden sonra başka bir kez gelme anlamını belirtmez.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_007": {
+                "text": "kez veya evre",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss art arda gelme ile farklı durum veya tür anlamlarını belirtmez.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_008": {
+                "text": "evre evre; dönem dönem",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss farklı durum veya tür anlamını belirtmez.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_009": {
+                "text": "çeşitli durumlar, türler veya ardışık evreler",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000955/B005",
+            "concept_gloss": {
+              "text": "dağ veya belirli dağ adı",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "dağ",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_010"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu gloss belirli bir dağın adı olabilme kapsamını dışarıda bırakır.",
+                  "loses_core_concept": true
+                }
+              },
+              {
+                "text": "Tur Dağı",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_010"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu özel ad yorumu, kelimenin her dağ için kullanılabildiği aktarımı daraltır.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_010": {
+                "text": "dağ; bağlama göre belirli bir dağ adı",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000955/B006",
+            "concept_gloss": {
+              "text": "yabanıl veya insana alışmamış",
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "insanlara alışmamış kuş, hayvan veya kişi",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_011"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bu ifade alışıklığın olağan sınırından uzaklaşma açıklamasını açıkça taşımaz.",
+                  "loses_core_concept": true
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_011": {
+                "text": "yabanıl, yabanıllaşmış veya insana alışmamış",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000955/B007",
+            "concept_gloss": {
+              "text": "orada hiç kimse yok",
+              "facet_ids": [
+                "F001"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "belirtilen yerde tek kişi bile bulunmamak",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_012"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_012": {
+                "text": "orada hiç kimse yok",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          }
+        ]
+      },
+      "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000955.json"
+    }
+  },
+  "coverage": {
+    "quran_text": {
+      "present": true
+    },
+    "word_analysis": {
+      "present": true,
+      "word_count": 3
+    },
+    "word_morpheme_spans": {
+      "present": true,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s095/linguistic/morphemes.tsv",
+      "words_total": 3,
+      "words_resolved": 3,
+      "words_unresolved": 0,
+      "unresolved": [],
+      "morphemes_tsv": {
+        "present": true,
+        "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s095/linguistic/morphemes.tsv",
+        "ayah_count": 9,
+        "row_count": 67,
+        "malformed_rows": 0,
+        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+      },
+      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+    },
+    "word_analysis_qac_alignment": {
+      "consistent": false,
+      "detail": {
+        "qac_word_count": 2,
+        "word_analysis_word_count": 3,
+        "dangling_refs": [
+          "95:2:3"
+        ]
+      },
+      "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+    },
+    "qac_morphemes": {
+      "present": true,
+      "row_count": 3
+    },
+    "channel_review": {
+      "present": true,
+      "review_status": "first-pass-single-reader",
+      "parent_channel_count": 18,
+      "subchannel_count": 58,
+      "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
+      "source_file": "quran-data/data/analysis/channels/network-v3/s095/review/reader_a_pilot.md",
+      "subchannels_anchored_here": 7
+    },
+    "channel_generated_outputs": {
+      "present": true,
+      "source_dir": "quran-data/data/analysis/channels/network-v3/s095",
+      "file_count": 13,
+      "missing_expected_files": [
+        "paths/path_families/semantic_path_families.jsonl.gz"
+      ],
+      "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
+    },
+    "branch_inventories": {
+      "present": true,
+      "scope": "surah-fallback-scoped-to-ayah",
+      "variants": {
+        "full_context_packet": {
+          "present": true,
+          "roots": [
+            "ت ي ن",
+            "ط و ر",
+            "ب ل د",
+            "ء ن س",
+            "ح س ن",
+            "ر د د",
+            "س ف ل",
+            "ع م ل",
+            "ص ل ح",
+            "غ ي ر",
+            "ب ع د",
+            "ل ي س"
+          ],
+          "branch_counts": {
+            "ت ي ن": 2,
+            "ط و ر": 7,
+            "ب ل د": 2,
+            "ء ن س": 3,
+            "ح س ن": 1,
+            "ر د د": 1,
+            "س ف ل": 3,
+            "ع م ل": 1,
+            "ص ل ح": 1,
+            "غ ي ر": 1,
+            "ب ع د": 4,
+            "ل ي س": 3
+          },
+          "missing_branch_inventories": [],
+          "note": "surah-scope fallback: the default commentary workflow does not consume per-ayah focus packets, so the source packet is scoped by this builder to roots this ayah can justify and carries no staged reveal order"
+        }
+      },
+      "scoping": {
+        "applied": true,
+        "roots_total": 24,
+        "roots_retained": 12,
+        "roots_dropped": 12,
+        "retained": [
+          {
+            "root": "ت ي ن",
+            "rule": "cited_by_channel",
+            "branches_kept": 2,
+            "branches_total": 3,
+            "cited_branch_ids": [
+              "B002",
+              "B003"
+            ]
+          },
+          {
+            "root": "ط و ر",
+            "rule": "in_ayah",
+            "branches_kept": 7,
+            "branches_total": 7
+          },
+          {
+            "root": "ب ل د",
+            "rule": "cited_by_channel",
+            "branches_kept": 2,
+            "branches_total": 12,
+            "cited_branch_ids": [
+              "B001",
+              "B005"
+            ]
+          },
+          {
+            "root": "ء ن س",
+            "rule": "cited_by_channel",
+            "branches_kept": 3,
+            "branches_total": 6,
+            "cited_branch_ids": [
+              "B001",
+              "B003",
+              "B004"
+            ]
+          },
+          {
+            "root": "ح س ن",
+            "rule": "cited_by_channel",
+            "branches_kept": 1,
+            "branches_total": 4,
+            "cited_branch_ids": [
+              "B004"
+            ]
+          },
+          {
+            "root": "ر د د",
+            "rule": "cited_by_channel",
+            "branches_kept": 1,
+            "branches_total": 10,
+            "cited_branch_ids": [
+              "B010"
+            ]
+          },
+          {
+            "root": "س ف ل",
+            "rule": "cited_by_channel",
+            "branches_kept": 3,
+            "branches_total": 7,
+            "cited_branch_ids": [
+              "B001",
+              "B003",
+              "B007"
+            ]
+          },
+          {
+            "root": "ع م ل",
+            "rule": "cited_by_channel",
+            "branches_kept": 1,
+            "branches_total": 12,
+            "cited_branch_ids": [
+              "B009"
+            ]
+          },
+          {
+            "root": "ص ل ح",
+            "rule": "cited_by_channel",
+            "branches_kept": 1,
+            "branches_total": 5,
+            "cited_branch_ids": [
+              "B005"
+            ]
+          },
+          {
+            "root": "غ ي ر",
+            "rule": "cited_by_channel",
+            "branches_kept": 1,
+            "branches_total": 5,
+            "cited_branch_ids": [
+              "B005"
+            ]
+          },
+          {
+            "root": "ب ع د",
+            "rule": "cited_by_channel",
+            "branches_kept": 4,
+            "branches_total": 10,
+            "cited_branch_ids": [
+              "B001",
+              "B002",
+              "B003",
+              "B006"
+            ]
+          },
+          {
+            "root": "ل ي س",
+            "rule": "cited_by_channel",
+            "branches_kept": 3,
+            "branches_total": 8,
+            "cited_branch_ids": [
+              "B001",
+              "B002",
+              "B003"
+            ]
+          }
+        ],
+        "dropped_roots": [
+          "س م و",
+          "ء ل ه",
+          "ر ح م",
+          "ز ي ت",
+          "ء م ن",
+          "خ ل ق",
+          "ق و م",
+          "ء ج ر",
+          "م ن ن",
+          "ك ذ ب",
+          "د ي ن",
+          "ح ك م"
+        ],
+        "ayah_roots_from_qac": [
+          "طور"
+        ],
+        "channel_citations_found": 29,
+        "citations_unresolvable_in_surah_inventory": [],
+        "note": "SCOPED, NOT ABSENT. The surah-scope fallback inventory covers every root in the surah; it is narrowed here to roots this ayah can justify -- roots occurring in this ayah (all their branches kept, unconditionally, because Layer 2 selects nothing) plus roots explicitly cited by channel material anchored here (only the cited branches kept, enough to resolve the citation). A root listed in dropped_roots is a deliberate scoping decision, not a missing source."
+      }
+    },
+    "v12_reader_responses": {
+      "present": false,
+      "variants": {},
+      "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
+    },
+    "v12_focus_trace_hermetic": {
+      "present": false,
+      "packet_present": false,
+      "readers": {},
+      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+    },
+    "v12_reader_walks": {
+      "present": true,
+      "readers": {
+        "reader_a": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s095/full_context_control/reader_s095_a_ayah_walk.md",
+          "matched_ref": "95:2"
+        }
+      },
+      "lookup_refs": [
+        "95:2"
+      ]
+    },
+    "v12_reader_walks_wide": {
+      "present": true,
+      "readers": {
+        "reader_a": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s095/full_context_control/reader_s095_a_ayah_walk.md",
+          "matched_ref": "95:2"
+        }
+      },
+      "lookup_refs": [
+        "95:2"
+      ]
+    },
+    "v12_cross_run_publication": {
+      "present": true,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/95_ayah_findings_publication.json",
+      "protocol": "v12-cross-run-publication-v3",
+      "language": "tr",
+      "lookup_ref": "95:2",
+      "finding_count": 4,
+      "grade_counts": {
+        "strong": 2,
+        "weak": 2
+      },
+      "note": "Compact final cross-run findings for this ayah, reconciled upstream from regular and plus/minus-5 reader runs; use as a coverage/priority check, not as replacement prose."
+    },
+    "butuncul_okuma": {
+      "present": true,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s095/full_context_control/95-0-8-butuncul-okuma.md",
+      "note": null
+    },
+    "inter_ayah": {
+      "present": true,
+      "row_count": 101,
+      "label_counts": {
+        "strong": 14,
+        "medium": 10,
+        "no value": 49,
+        "weak": 28
+      }
+    },
+    "pericope": {
+      "present": true,
+      "synthesized": true,
+      "note": null
+    },
+    "root_lexicon": {
+      "present": true,
+      "roots_in_ayah": [
+        "ط و ر"
+      ],
+      "per_root": {
+        "ط و ر": {
+          "root_id": "root_000955",
+          "root_ids": [
+            "root_000955"
+          ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ط و ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000955",
+            "targets": [
+              {
+                "qac_root_norm": "ط و ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_000955",
+                "furuq_root_norm": "ط و ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 11,
+                "is_dominant": 1
+              }
+            ]
+          },
+          "dictionary_present": true,
+          "gloss_present": true,
+          "targets": [
+            {
+              "root_id": "root_000955",
+              "target_rank": 1,
+              "is_dominant": true,
+              "furuq_root_norm": "ط و ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 11,
+              "dictionary_present": true,
+              "gloss_present": true,
+              "dictionary_branch_count": 7,
+              "gloss_branch_count": 7,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 11,
+                  "ayahs": 11
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          ],
+          "note": null
+        }
+      },
+      "occurrence_evidence_trim": {
+        "applied": true,
+        "dropped_keys": [
+          "occurrences",
+          "ayahs"
+        ],
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
+      },
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 7,
+        "dictionary_branches_kept": 7,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 7,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
+      "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
+    }
+  }
+}

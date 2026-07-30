@@ -1,0 +1,3551 @@
+{
+  "bundle_type": "ayah",
+  "schema_version": "input-bundle-v3",
+  "generated_at": "2026-07-30T04:05:39.960370+00:00",
+  "surah": 80,
+  "ayah": 9,
+  "ayahRef": "80:9",
+  "text": {
+    "arabic_uthmani": "وَهُوَ يَخْشَىٰ",
+    "source": "quran-data/data/text/quran-uthmani.tsv"
+  },
+  "qac_morphemes": [
+    {
+      "qac_ref": "80:9:1:1",
+      "qac_word_ref": "80:9:1",
+      "surah": 80,
+      "ayah": 9,
+      "word_index": 1,
+      "morpheme_index": 1,
+      "surface_bw": "wa",
+      "surface_ar": "وَ",
+      "stem_ar": "",
+      "lemma_bw": "",
+      "lemma_ar": "",
+      "root_raw": "",
+      "root_ar": "",
+      "root_join_key": "",
+      "source_pos": "CIRC",
+      "pos": "CIRC",
+      "morpheme_role": "PREFIX",
+      "morph_features": "PREFIX|w:CIRC+",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 125165,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    },
+    {
+      "qac_ref": "80:9:1:2",
+      "qac_word_ref": "80:9:1",
+      "surah": 80,
+      "ayah": 9,
+      "word_index": 1,
+      "morpheme_index": 2,
+      "surface_bw": "huwa",
+      "surface_ar": "هُوَ",
+      "stem_ar": "هُوَ",
+      "lemma_bw": "",
+      "lemma_ar": "",
+      "root_raw": "",
+      "root_ar": "",
+      "root_join_key": "",
+      "source_pos": "PRON",
+      "pos": "PRON",
+      "morpheme_role": "STEM",
+      "morph_features": "STEM|POS:PRON|3MS",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 125166,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    },
+    {
+      "qac_ref": "80:9:2:1",
+      "qac_word_ref": "80:9:2",
+      "surah": 80,
+      "ayah": 9,
+      "word_index": 2,
+      "morpheme_index": 1,
+      "surface_bw": "yaxo$aY`",
+      "surface_ar": "يَخْشَىٰ",
+      "stem_ar": "يَخْشَىٰ",
+      "lemma_bw": "xa$iYa",
+      "lemma_ar": "خَشِىَ",
+      "root_raw": "x$y",
+      "root_ar": "خ ش ي",
+      "root_join_key": "خشي",
+      "source_pos": "V",
+      "pos": "V",
+      "morpheme_role": "STEM",
+      "morph_features": "STEM|POS:V|IMPF|LEM:xa$iYa|ROOT:x$y|3MS",
+      "aspect": "IMPF",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 125167,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    }
+  ],
+  "word_analysis": {
+    "schema_version": "word-analysis-output-v2",
+    "prompt_version": "word-aha-prose-v1.6",
+    "ref": "80:9",
+    "bundle_id": "word-analysis-input-v1:agent:80:9",
+    "words": [
+      {
+        "critical_w": 1,
+        "aligned_qac_word_ref": "80:9:1",
+        "surface_display": "{{ar:وَ}} ({{tr:wa}})",
+        "root_display": "-",
+        "gloss_range": "resumptive, connective, and circumstantial conjunction; here it carries the prior arrival and striving into the seeker's inward state",
+        "root_gloss_range": null,
+        "supporting_anchors": [
+          {
+            "id": "s2",
+            "word_refs": [
+              "80:9:2",
+              "80:9:3"
+            ],
+            "ar": "هُوَ يَخْشَىٰ",
+            "tr": "huwa yakhshā",
+            "display": "{{ar:هُوَ يَخْشَىٰ}} ({{tr:huwa yakhshā}})",
+            "gloss_range": "he fears or stands in reverent awe",
+            "relation": "grammar"
+          }
+        ],
+        "prose": "{{ar:وَ}} ({{tr:wa}}) makes 80:9 lean back into 80:8 instead of beginning a detached label. The connector can resume, join, and mark circumstance at the same time, so the seeker's inward fear accompanies the arrival and striving of 80:8 rather than arriving as an afterthought. Its separate word position before the pronoun keeps that linking work visible, and the light opening cadence of the connector plus pronoun prepares the longer final verb.",
+        "topics": [
+          {
+            "topic_id": "80:9:1:circumstantial-boundary-bridge",
+            "status": "used",
+            "headline": "circumstantial bridge to 80:8",
+            "summary": "The conjunction carries the arrival and striving of 80:8 into the fear clause as an accompanying state.",
+            "representative_source_ids": [
+              "QG-6a130e76",
+              "QG-76e06de5",
+              "QB-f388d7ce",
+              "QY-f990a65f"
+            ],
+            "reader_payoff": "The reader notices that fear travels with the seeker's coming and striving from 80:8 rather than being added afterward as a detached explanation.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:CONJ",
+              "attachment:clauses",
+              "attachment:translation_support"
+            ],
+            "reason": "QAC marks the word as a conjunction, and the attachment evidence treats {{ar:وَهُوَ يَخْشَىٰ}} ({{tr:wa-huwa yakhshā}}) as a clause whose participant and function depend on the preceding context."
+          },
+          {
+            "topic_id": "80:9:1:multi-force-visible-connector",
+            "status": "used",
+            "headline": "visible connector with multiple live forces",
+            "summary": "The particle remains a separate connector whose resumptive, additive, and circumstantial values can work together.",
+            "representative_source_ids": [
+              "QG-067b8e72",
+              "QS-17859b53",
+              "QF-ed5691f8",
+              "QT-74fa016b"
+            ],
+            "reader_payoff": "The reader sees the small prefixed particle doing visible structural work: it links, resumes, and prevents the clause from collapsing into a mere appositive label.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:split_conjunction",
+              "attachment:clauses"
+            ],
+            "reason": "The bundle splits the prefixed conjunction as its own word before the pronoun, while the local clause structure licenses connective and circumstantial force together."
+          },
+          {
+            "topic_id": "80:9:1:sound-and-cadence-entry",
+            "status": "used",
+            "headline": "soft opening cadence before the state",
+            "summary": "The local sound of the connector plus pronoun forms a light entry before the longer fear verb.",
+            "representative_source_ids": [
+              "QE-9ead7cfa",
+              "QP-aed5c247"
+            ],
+            "reader_payoff": "The reader hears the ayah move through a compact, cohesive opening before it lands on the heavier inward state.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:surface_sequence"
+            ],
+            "reason": "The surface sequence places the short connector-pronoun opening directly before the final defective verb, so the cadence claim is local and does not control the grammar."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-067b8e72",
+            "topic_id": "80:9:1:multi-force-visible-connector",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-64620772",
+            "topic_id": "80:9:1:circumstantial-boundary-bridge",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-6a130e76",
+            "topic_id": "80:9:1:circumstantial-boundary-bridge",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-76e06de5",
+            "topic_id": "80:9:1:circumstantial-boundary-bridge",
+            "status": "used"
+          },
+          {
+            "row_id": "MG-8b3b1341",
+            "topic_id": "80:9:1:circumstantial-boundary-bridge",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-17859b53",
+            "topic_id": "80:9:1:multi-force-visible-connector",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-ed5691f8",
+            "topic_id": "80:9:1:multi-force-visible-connector",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-74fa016b",
+            "topic_id": "80:9:1:multi-force-visible-connector",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-b51fcfa7",
+            "topic_id": "80:9:1:circumstantial-boundary-bridge",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-da08768e",
+            "topic_id": "80:9:1:circumstantial-boundary-bridge",
+            "status": "used"
+          },
+          {
+            "row_id": "MT-1352bdad",
+            "topic_id": "80:9:1:circumstantial-boundary-bridge",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-9ead7cfa",
+            "topic_id": "80:9:1:sound-and-cadence-entry",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-aed5c247",
+            "topic_id": "80:9:1:sound-and-cadence-entry",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-1d75b571",
+            "topic_id": "80:9:1:circumstantial-boundary-bridge",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-f388d7ce",
+            "topic_id": "80:9:1:circumstantial-boundary-bridge",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-f990a65f",
+            "topic_id": "80:9:1:circumstantial-boundary-bridge",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      },
+      {
+        "critical_w": 2,
+        "aligned_qac_word_ref": "80:9:2",
+        "surface_display": "{{ar:هُوَ}} ({{tr:huwa}})",
+        "root_display": "-",
+        "gloss_range": "explicit independent third-person masculine singular pronoun; here it resumes the seeker from 80:8 and foregrounds him before the fear predicate",
+        "root_gloss_range": null,
+        "supporting_anchors": [],
+        "prose": "{{ar:هُوَ}} ({{tr:huwa}}) makes the seeker visible as a separate subject even though the verb already carries third-person marking. It reaches back to the one who came striving in 80:8, fixes the same masculine singular referent before the reader, and then lets the fear predicate attach to that foregrounded person rather than to a faceless case. The short pronoun-first beat also slows the clause around identity before the final fear verb. The pronoun tightens the nearby chain: 80:8 points to the arrival toward the addressee, 80:9 pauses on him, and 80:10 can then refer back to him.",
+        "topics": [
+          {
+            "topic_id": "80:9:2:explicit-referent-resumption",
+            "status": "used",
+            "headline": "explicit resumption of the seeker",
+            "summary": "The independent pronoun resumes the seeker from 80:8 and blocks a shift to the addressee.",
+            "representative_source_ids": [
+              "QG-191218ac",
+              "QG-6cc115f8",
+              "QS-2ec7d45d",
+              "QB-532c89a8"
+            ],
+            "reader_payoff": "The reader can track that the feared state belongs to the same one who came striving in 80:8, not to a new subject or to the addressee.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:PRON",
+              "attachment:subject",
+              "attachment:cross_references"
+            ],
+            "reason": "Attachment evidence identifies the pronoun as the explicit subject of the verb and resolves it back to the masculine singular participant introduced in 80:8."
+          },
+          {
+            "topic_id": "80:9:2:foregrounded-person-before-state",
+            "status": "used",
+            "headline": "person foregrounded before the state",
+            "summary": "The pronoun-first order gives the overlooked person prominence before the inward state is named.",
+            "representative_source_ids": [
+              "MG-baac4d5c",
+              "QS-33534f1f",
+              "QT-d4b91bb8",
+              "MT-ca323b24"
+            ],
+            "reader_payoff": "The reader pauses on the person himself before hearing the fear, so the clause presents a morally visible subject rather than an anonymous condition.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:PRON",
+              "attachment:clauses",
+              "attachment:verb_instances"
+            ],
+            "reason": "The finite verb could carry the subject morphologically, but the independent pronoun is separately present before it, making the focus claim locally grounded."
+          },
+          {
+            "topic_id": "80:9:2:pronoun-chain-across-ayahs",
+            "status": "used",
+            "headline": "pronoun chain through 80:8, 80:9, and 80:10",
+            "summary": "The pronoun imports the participant from 80:8 and prepares the pronominal reference in 80:10.",
+            "representative_source_ids": [
+              "QI-d8e19fc3",
+              "QE-c5c2bcb4",
+              "QB-ffc1fd7e"
+            ],
+            "reader_payoff": "The reader follows a tight discourse chain from the arrival toward the addressee in 80:8 to the neglected person referenced in 80:10.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:cross_references",
+              "attachment:translation_support"
+            ],
+            "reason": "The cross-reference data resolves the pronoun backward to 80:8, while the CRITICAL rows give the forward link to the pronominal object in 80:10."
+          },
+          {
+            "topic_id": "80:9:2:compact-pronoun-cadence",
+            "status": "used",
+            "headline": "compact cadence isolates the pronoun",
+            "summary": "The light opening sequence makes the pronoun a small audible pivot before the longer verb.",
+            "representative_source_ids": [
+              "QT-26b04ee0",
+              "QT-b94ab992",
+              "QP-1732e91c",
+              "QY-721640ea"
+            ],
+            "reader_payoff": "The reader hears the short clause slow around identity before it moves into the final fear verb.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:surface_sequence",
+              "attachment:clauses"
+            ],
+            "reason": "The word stands after the connector and before the imperfect predicate, so the cadence and placement observations remain tied to the actual three-word clause."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-191218ac",
+            "topic_id": "80:9:2:explicit-referent-resumption",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-6cc115f8",
+            "topic_id": "80:9:2:explicit-referent-resumption",
+            "status": "used"
+          },
+          {
+            "row_id": "MG-baac4d5c",
+            "topic_id": "80:9:2:foregrounded-person-before-state",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-2ec7d45d",
+            "topic_id": "80:9:2:explicit-referent-resumption",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-33534f1f",
+            "topic_id": "80:9:2:foregrounded-person-before-state",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-9f8ead8b",
+            "topic_id": "80:9:2:foregrounded-person-before-state",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-d8e19fc3",
+            "topic_id": "80:9:2:pronoun-chain-across-ayahs",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-26b04ee0",
+            "topic_id": "80:9:2:compact-pronoun-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-b94ab992",
+            "topic_id": "80:9:2:compact-pronoun-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-d4b91bb8",
+            "topic_id": "80:9:2:foregrounded-person-before-state",
+            "status": "used"
+          },
+          {
+            "row_id": "MT-ca323b24",
+            "topic_id": "80:9:2:foregrounded-person-before-state",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-c5c2bcb4",
+            "topic_id": "80:9:2:pronoun-chain-across-ayahs",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-1732e91c",
+            "topic_id": "80:9:2:compact-pronoun-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-532c89a8",
+            "topic_id": "80:9:2:explicit-referent-resumption",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-ffc1fd7e",
+            "topic_id": "80:9:2:pronoun-chain-across-ayahs",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-721640ea",
+            "topic_id": "80:9:2:compact-pronoun-cadence",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      },
+      {
+        "critical_w": 3,
+        "aligned_qac_word_ref": "80:9:3",
+        "surface_display": "{{ar:يَخْشَىٰ}} ({{tr:yakhshā}})",
+        "root_display": "{{ar:خ ش ي}} ({{tr:kh-sh-y}})",
+        "gloss_range": "fears, stands in reverent awe, or carries accountability-aware caution; locally an ongoing objectless state of the seeker",
+        "root_gloss_range": "the active local branch is fear, dread, and reverent awe; accepted figurative knowing, aversion/dislike in special attribution, and dryness or shriveling branches are not selected by this local Form I objectless fear predicate",
+        "supporting_anchors": [],
+        "prose": "{{ar:يَخْشَىٰ}} ({{tr:yakhshā}}) closes the clause by naming the seeker's inward state as active, present reverent fear. The imperfect does not command fear or report it as completed; it shows him already fearing while the encounter is unfolding, without ranking his fear or reducing him to a static label. Because no object is expressed, the grammar fixes the fearing person but keeps the feared direction open, so awe, consequence, divine accountability, and teachability remain compressed into one state. In the light of 35:28, this awe can also be heard as readiness to learn and respond, while the local verb remains fear or reverent awe. The root range is locally narrowed to fear, dread, and reverent caution, not to every accepted dictionary branch, and that selected range turns the visitor's striving in 80:8 into movement under restraint. The final position also makes the word a hinge in the surah: it answers the self-sufficiency contrast in 80:5, prepares the distraction contrast in 80:10, and shares the long final cadence with the endings of 80:8 and 80:10.",
+        "topics": [
+          {
+            "topic_id": "80:9:3:ongoing-finite-state",
+            "status": "used",
+            "headline": "ongoing finite state, not command or label",
+            "summary": "The imperfect active finite form presents fear as already active during the encounter.",
+            "representative_source_ids": [
+              "QG-1700be22",
+              "QG-6ddc09cb",
+              "QF-57c5b739",
+              "MF-ba3e9dba"
+            ],
+            "reader_payoff": "The reader sees the seeker's reverent fear as present during the misallocated attention, not as a later label, a completed fact, or a command issued to him.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:verb_form",
+              "attachment:verb_instances",
+              "v4:lexical_unit_senses"
+            ],
+            "reason": "QAC and the verb-instance evidence identify the surface as an imperfect active Form I 3MS verb in the circumstantial clause."
+          },
+          {
+            "topic_id": "80:9:3:objectless-open-valency",
+            "status": "used",
+            "headline": "objectless fear keeps the direction open",
+            "summary": "The verb fixes the subject while withholding a direct object, making the posture more important than a named feared item.",
+            "representative_source_ids": [
+              "QG-0cce35e0",
+              "QG-c673dc41",
+              "MG-b30e6362",
+              "QY-d82e0655"
+            ],
+            "reader_payoff": "The reader notices that the word portrays a whole posture of accountability-aware awe rather than narrowing fear to one explicitly named object.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:verb_instances",
+              "attachment:translation_support",
+              "contextual:valency_profiles_v2"
+            ],
+            "reason": "The verb instance marks the frame as objectless, and the contextual valency profile confirms that this root-form can occur with explicit objects elsewhere, so the local omission is meaningful."
+          },
+          {
+            "topic_id": "80:9:3:reverent-caution-lexical-range",
+            "status": "used",
+            "headline": "fear as reverent, accountable caution",
+            "summary": "The local root sense joins fear, dread, awe, and disciplined receptivity while broader dictionary branches remain inactive.",
+            "representative_source_ids": [
+              "QS-07bb0201",
+              "QS-921e7991",
+              "QS-f72316d7",
+              "MS-8eb8117d"
+            ],
+            "reader_payoff": "The reader understands the fear as morally alert reverent caution, not panic, social timidity, or a neutral psychological reaction.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "v4:branch_images",
+              "v4:lexical_unit_senses",
+              "contextual:referent_profiles_v2"
+            ],
+            "reason": "V4 accepts the fear, dread, and reverent-awe branch for the root, while the local Form I predicate and objectless frame do not license the figurative knowing, aversion, or dryness branches as local senses."
+          },
+          {
+            "topic_id": "80:9:3:movement-under-restraint",
+            "status": "used",
+            "headline": "80:8 striving becomes inwardly restrained",
+            "summary": "The fear verb completes the motion of 80:8 by showing the same seeker moving urgently yet humbly in 80:9.",
+            "representative_source_ids": [
+              "QS-a4589e84",
+              "QI-5adceff1",
+              "MT-457dbdcd",
+              "QY-367f55b1"
+            ],
+            "reader_payoff": "The reader sees that the visitor's urgency is not entitlement; the striving of 80:8 is qualified by inward reverent restraint in 80:9.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:cross_references",
+              "attachment:translation_support",
+              "contextual:argument_supplement_profiles_v2"
+            ],
+            "reason": "The cross-reference and translation-support evidence tie the clause to the participant and movement of 80:8, supporting the boundary claim without inventing a new object."
+          },
+          {
+            "topic_id": "80:9:3:form-contrast-with-other-options",
+            "status": "used",
+            "headline": "selected form avoids other nearby possibilities",
+            "summary": "The surface is active, non-comparative, finite, and verbal rather than passive, imperative, comparative, nominal, or participial.",
+            "representative_source_ids": [
+              "QF-0f9ed3a3",
+              "QF-53180575",
+              "QF-60ecbbf2",
+              "QF-c79421a6"
+            ],
+            "reader_payoff": "The reader notices that the wording keeps the seeker as the active bearer of a live state without ranking his fear, commanding it, or reducing it to a static label.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:verb_form",
+              "attachment:verb_instances",
+              "v4:lexical_unit_senses"
+            ],
+            "reason": "The local surface is a finite active imperfect verb; contrast with other family forms is useful as form contrast but does not replace the selected local parse."
+          },
+          {
+            "topic_id": "80:9:3:knowledge-and-teachability-echo",
+            "status": "used",
+            "headline": "awe near knowledge and teachability",
+            "summary": "The khashyah distribution, including 35:28, lets the local fear read as teachable awe without turning the verb into a knowing verb.",
+            "representative_source_ids": [
+              "QI-2de05e89",
+              "MI-8b8f7ee4",
+              "QI-3d4cdbe0"
+            ],
+            "reader_payoff": "The reader can hear the fear as readiness to learn and respond, while the local verb still means fearing or standing in awe.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "v4:branch_images",
+              "contextual:contextual_summary_v2",
+              "contextual:discourse_profiles_v2"
+            ],
+            "reason": "The cited inter-ayah link to 35:28 supports a knowledge-adjacent payoff, while local grammar and V4 keep the selected sense in the fear and reverent-awe branch."
+          },
+          {
+            "topic_id": "80:9:3:same-surah-contrast-chain",
+            "status": "used",
+            "headline": "contrast with 80:5 self-sufficiency and 80:10 distraction",
+            "summary": "The final verb stands between the self-sufficient posture of 80:5 and the distraction response of 80:10.",
+            "representative_source_ids": [
+              "QE-8403e25f",
+              "QE-8fff6a0c",
+              "ME-e6213422",
+              "QB-7d5e50a4"
+            ],
+            "reader_payoff": "The reader sees the seeker's reverent dependence as the posture that reverses social ranking in 80:5 and makes the neglect of 80:10 sharper.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:translation_support",
+              "qac:word_order"
+            ],
+            "reason": "The CRITICAL rows provide concrete same-surah references to 80:5 and 80:10, and the local word's final position makes it the state against which the distraction of 80:10 is read."
+          },
+          {
+            "topic_id": "80:9:3:sound-final-cadence",
+            "status": "used",
+            "headline": "open final cadence at the omitted object",
+            "summary": "The weak-final form and long final sound join the endings of 80:8 and 80:10 and suit the unspoken object.",
+            "representative_source_ids": [
+              "QF-00e8e69f",
+              "QE-5aa2e1dd",
+              "QP-6dc5c81c",
+              "QY-77d48be9"
+            ],
+            "reader_payoff": "The reader hears the clause remain open at the exact point where the feared object is grammatically unspoken, while the endings of 80:8, 80:9, and 80:10 link striving, fear, and distraction.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac:surface",
+              "qac:verb_form",
+              "attachment:verb_instances"
+            ],
+            "reason": "The surface is a weak-final imperfect ending in a long final sound, and the objectless verb frame lets the cadence claim remain tied to local grammar."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-0cce35e0",
+            "topic_id": "80:9:3:objectless-open-valency",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-1700be22",
+            "topic_id": "80:9:3:ongoing-finite-state",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-6ddc09cb",
+            "topic_id": "80:9:3:ongoing-finite-state",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-793089be",
+            "topic_id": "80:9:3:ongoing-finite-state",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-a954000a",
+            "topic_id": "80:9:3:objectless-open-valency",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-c673dc41",
+            "topic_id": "80:9:3:objectless-open-valency",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-d8f58d45",
+            "topic_id": "80:9:3:objectless-open-valency",
+            "status": "used"
+          },
+          {
+            "row_id": "MG-b30e6362",
+            "topic_id": "80:9:3:objectless-open-valency",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-07bb0201",
+            "topic_id": "80:9:3:reverent-caution-lexical-range",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-290f50be",
+            "topic_id": "80:9:3:reverent-caution-lexical-range",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-2f12baac",
+            "topic_id": "80:9:3:reverent-caution-lexical-range",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-5317c786",
+            "topic_id": "80:9:3:objectless-open-valency",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-921e7991",
+            "topic_id": "80:9:3:reverent-caution-lexical-range",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-a4589e84",
+            "topic_id": "80:9:3:movement-under-restraint",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-baf98ec8",
+            "topic_id": "80:9:3:reverent-caution-lexical-range",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-cf3b4461",
+            "topic_id": "80:9:3:movement-under-restraint",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-ef9fd4df",
+            "topic_id": "80:9:3:reverent-caution-lexical-range",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-f72316d7",
+            "topic_id": "80:9:3:reverent-caution-lexical-range",
+            "status": "used"
+          },
+          {
+            "row_id": "MS-8eb8117d",
+            "topic_id": "80:9:3:reverent-caution-lexical-range",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-00e8e69f",
+            "topic_id": "80:9:3:sound-final-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-0f9ed3a3",
+            "topic_id": "80:9:3:form-contrast-with-other-options",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-53180575",
+            "topic_id": "80:9:3:form-contrast-with-other-options",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-57c5b739",
+            "topic_id": "80:9:3:ongoing-finite-state",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-60ecbbf2",
+            "topic_id": "80:9:3:form-contrast-with-other-options",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-7eba5c74",
+            "topic_id": "80:9:3:sound-final-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-9964077b",
+            "topic_id": "80:9:3:form-contrast-with-other-options",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-bc4ec7db",
+            "topic_id": "80:9:3:movement-under-restraint",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-c79421a6",
+            "topic_id": "80:9:3:form-contrast-with-other-options",
+            "status": "used"
+          },
+          {
+            "row_id": "MF-ba3e9dba",
+            "topic_id": "80:9:3:ongoing-finite-state",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-2de05e89",
+            "topic_id": "80:9:3:knowledge-and-teachability-echo",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-3d4cdbe0",
+            "topic_id": "80:9:3:knowledge-and-teachability-echo",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-5adceff1",
+            "topic_id": "80:9:3:movement-under-restraint",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-753ecd13",
+            "topic_id": "80:9:3:form-contrast-with-other-options",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-87529ab4",
+            "topic_id": "80:9:3:movement-under-restraint",
+            "status": "used"
+          },
+          {
+            "row_id": "MI-8b8f7ee4",
+            "topic_id": "80:9:3:knowledge-and-teachability-echo",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-0acbbbd0",
+            "topic_id": "80:9:3:movement-under-restraint",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-2624890d",
+            "topic_id": "80:9:3:same-surah-contrast-chain",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-57c3aefd",
+            "topic_id": "80:9:3:objectless-open-valency",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-f79408c7",
+            "topic_id": "80:9:3:movement-under-restraint",
+            "status": "used"
+          },
+          {
+            "row_id": "MT-457dbdcd",
+            "topic_id": "80:9:3:movement-under-restraint",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-05c30564",
+            "topic_id": "80:9:3:sound-final-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-5aa2e1dd",
+            "topic_id": "80:9:3:sound-final-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-8403e25f",
+            "topic_id": "80:9:3:same-surah-contrast-chain",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-8fff6a0c",
+            "topic_id": "80:9:3:same-surah-contrast-chain",
+            "status": "used"
+          },
+          {
+            "row_id": "ME-e6213422",
+            "topic_id": "80:9:3:same-surah-contrast-chain",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-62d92428",
+            "topic_id": "80:9:3:sound-final-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-6dc5c81c",
+            "topic_id": "80:9:3:sound-final-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-819f7d88",
+            "topic_id": "80:9:3:sound-final-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "MP-e0a1c0b5",
+            "topic_id": "80:9:3:sound-final-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-00589e34",
+            "topic_id": "80:9:3:movement-under-restraint",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-7a434101",
+            "topic_id": "80:9:3:movement-under-restraint",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-7d5e50a4",
+            "topic_id": "80:9:3:same-surah-contrast-chain",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-9c09a208",
+            "topic_id": "80:9:3:movement-under-restraint",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-2ac9000f",
+            "topic_id": "80:9:3:ongoing-finite-state",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-367f55b1",
+            "topic_id": "80:9:3:movement-under-restraint",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-77d48be9",
+            "topic_id": "80:9:3:sound-final-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-d82e0655",
+            "topic_id": "80:9:3:objectless-open-valency",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      }
+    ]
+  },
+  "word_morpheme_spans": [
+    {
+      "word_index": 0,
+      "surface_ar": "وَ",
+      "word_ids": [
+        "w-s080-a009-w001"
+      ],
+      "qac_refs": [
+        "80:9:1:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s080-a009-w001-01"
+      ],
+      "aligned_qac_word_ref_upstream": "80:9:1"
+    },
+    {
+      "word_index": 1,
+      "surface_ar": "هُوَ",
+      "word_ids": [
+        "w-s080-a009-w001"
+      ],
+      "qac_refs": [
+        "80:9:1:2"
+      ],
+      "morpheme_ids": [
+        "m-w-s080-a009-w001-02"
+      ],
+      "aligned_qac_word_ref_upstream": "80:9:2"
+    },
+    {
+      "word_index": 2,
+      "surface_ar": "يَخْشَىٰ",
+      "word_ids": [
+        "w-s080-a009-w002"
+      ],
+      "qac_refs": [
+        "80:9:2:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s080-a009-w002-01"
+      ],
+      "aligned_qac_word_ref_upstream": "80:9:3"
+    }
+  ],
+  "branch_inventories": {
+    "full_context_packet": {
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s080/full_context_packet.json",
+      "branch_inventories": [
+        {
+          "root": "خ ش ي",
+          "branches": [
+            {
+              "branch_id": "B001",
+              "image_ar": "الخوف والخشية مع الهيبة",
+              "image_en": "fear, dread, and reverent awe",
+              "scope_ar": "يدخل فيه الخشية والخوف والذعر وخشي يخشى وخشيان وخشياء وشدة الخشية والتخويف وكون الموضع أخشى أي أشد إخافة أو خوفا",
+              "scope_en": "This includes fear, dread, awe-tinged khashya, the verb khashiya, fearful persons, stronger fear, causing fear, and a place being more fearsome.",
+              "variants": [
+                {
+                  "root_id": "root_000413",
+                  "source_path": "v4/outputs/pass2_branches/root_000413.branches.tsv",
+                  "image_ar": "الخوف والخشية مع الهيبة",
+                  "image_en": "fear, dread, and reverent awe",
+                  "scope_ar": "يدخل فيه الخشية والخوف والذعر وخشي يخشى وخشيان وخشياء وشدة الخشية والتخويف وكون الموضع أخشى أي أشد إخافة أو خوفا",
+                  "scope_en": "This includes fear, dread, awe-tinged khashya, the verb khashiya, fearful persons, stronger fear, causing fear, and a place being more fearsome."
+                }
+              ]
+            },
+            {
+              "branch_id": "B002",
+              "image_ar": "العلم على سبيل المجاز",
+              "image_en": "knowing as a figurative use",
+              "scope_ar": "يدخل فيه استعمال خشيت بمعنى علمت في المجاز وما يلحق به من تفسير فخشينا بعلمنا عند بعض أهل اللغة",
+              "scope_en": "This includes the figurative use of khashiya to mean to know, including reports that explain fakhashina as we knew.",
+              "variants": [
+                {
+                  "root_id": "root_000413",
+                  "source_path": "v4/outputs/pass2_branches/root_000413.branches.tsv",
+                  "image_ar": "العلم على سبيل المجاز",
+                  "image_en": "knowing as a figurative use",
+                  "scope_ar": "يدخل فيه استعمال خشيت بمعنى علمت في المجاز وما يلحق به من تفسير فخشينا بعلمنا عند بعض أهل اللغة",
+                  "scope_en": "This includes the figurative use of khashiya to mean to know, including reports that explain fakhashina as we knew."
+                }
+              ]
+            },
+            {
+              "branch_id": "B004",
+              "image_ar": "الحشف واليبس",
+              "image_en": "shriveling and dryness",
+              "scope_ar": "يدخل فيه الخشو بمعنى التمر الحشف وخشت النخلة إذا أحشفت والخشي من اللحم اليابس",
+              "scope_en": "This includes khashw as shriveled dates, a palm producing such dates, and khashy as dried meat.",
+              "variants": [
+                {
+                  "root_id": "root_000413",
+                  "source_path": "v4/outputs/pass2_branches/root_000413.branches.tsv",
+                  "image_ar": "الحشف واليبس",
+                  "image_en": "shriveling and dryness",
+                  "scope_ar": "يدخل فيه الخشو بمعنى التمر الحشف وخشت النخلة إذا أحشفت والخشي من اللحم اليابس",
+                  "scope_en": "This includes khashw as shriveled dates, a palm producing such dates, and khashy as dried meat."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "v12_reader_responses": {},
+  "v12_focus_trace_hermetic": {},
+  "v12_reader_walks": {
+    "reader_a": {
+      "activated_readings_md": "1. **Fear is an epistemic posture, not mere alarm.** `يَخْشَىٰ` directly activates fear, dread, and reverent awe (`خ ش ي` B001); the accepted figurative branch also allows knowing (`خ ش ي` B002). Its proximity to `وَمَا يُدْرِيكَ` and `يَذَّكَّرُ` supplies a knowledge sequence; I infer that awe makes the seeker teachable because he recognizes consequence. The ayah reads as fear informed by apprehension.\n2. **Awe anticipates the event-day without needing spectacle.** The deafening calamity and family-flight of 80:33-37 provide the feared object only later. I infer that the seeker responds to consequence before it becomes sensory and public, unlike the social ranking based on visible sufficiency. Anchored in `خ ش ي` B001, the ayah reads as future-aware responsiveness.",
+      "retrospective_surprises_md": "80:33-41 supplied sensory and social content for the earlier awe: deafening impact, failed kinship, and exposed faces. The later sequence strengthened `خ ش ي` B002's knowing dimension because the seeker responds before those consequences become visible.",
+      "turkish_prose_synthesis_md": null,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s080/full_context_control/reader_s080_a_ayah_walk.md"
+    }
+  },
+  "v12_reader_walks_wide": {
+    "reader_a": {
+      "activated_readings_md": "1. **Awe functions as a receptive condition.** `خ ش ي B001` supplies fear, dread, and reverent awe. The participial circumstance follows purposeful striving at 80:8; reminder, honored sheets, and their raised and purified condition follow at 80:11-14. The packet supplies the disposition and elevated object, while I infer that awe opens the person to the reminder’s benefit modeled at 80:4. `يَخْشَىٰ` is thus not free-floating emotion but a functional readiness to receive.\n\n2. **Fear also carries a knowledge-bearing edge.** `خ ش ي B002` records “knowing” as a figurative use. Within the window, the fearful seeker moves toward reminder whose material status is disclosed at 80:11-14, whereas the addressee is diverted from him at 80:10. I infer that reverent fear arises from recognizing the reminder’s weight. The line can therefore hold affective awe and epistemic recognition together without reducing either to the other.",
+      "retrospective_surprises_md": "80:11-14 supplied an object proportionate to the awe: a reminder that is honored, raised, and purified. This later disclosure made the knowing variant `خ ش ي B002` newly functional rather than leaving fear as contentless emotion.",
+      "turkish_prose_synthesis_md": null,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s080/full_context_control/reader_s080_a_ayah_walk.md"
+    }
+  },
+  "v12_cross_run_publication": {
+    "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/80_ayah_findings_publication.json",
+    "protocol": "v12-cross-run-publication-v3",
+    "language": "tr",
+    "surah": 80,
+    "ayah_ref": "80:9",
+    "canonical_ayah_ref": "80:9",
+    "baseline": {
+      "source_ref": "80:9",
+      "text": "Oysa o korkuyordu.",
+      "target_tokens": [
+        [
+          "Oysa",
+          [
+            "80:9:1"
+          ]
+        ],
+        [
+          "o",
+          [
+            "80:9:1"
+          ]
+        ],
+        [
+          "korkuyordu",
+          [
+            "80:9:2"
+          ]
+        ]
+      ]
+    },
+    "findings": [
+      {
+        "text": "Korku, yalnız ürkme değil, öğüdün ağırlığını kavrayıp onu almaya hazır hale getiren bilgi taşıyan bir saygıdır.",
+        "grade": "strong",
+        "anchors": [
+          [
+            "80:9:2",
+            "root_000413",
+            [
+              "B001",
+              "B002"
+            ]
+          ]
+        ]
+      },
+      {
+        "text": "Sonraki sağır edici olay ve açığa çıkan yüzler, bu kişinin sonuç görünür olmadan önce ona göre davrandığını gösterir.",
+        "grade": "weak",
+        "anchors": [
+          [
+            "80:9:2",
+            "root_000413",
+            [
+              "B001",
+              "B002"
+            ]
+          ]
+        ]
+      }
+    ]
+  },
+  "butuncul_okuma_line": null,
+  "inter_ayah_rows": [
+    {
+      "label": "strong",
+      "ref": "87:10",
+      "note": "Exact parallel: يخشى marks the one reached by تذكرة; positive V12 route."
+    },
+    {
+      "label": "strong",
+      "ref": "80:1",
+      "note": "Opening movement of the immediate passage that frames the encounter."
+    },
+    {
+      "label": "medium",
+      "ref": "23:57",
+      "note": "Parallel pairs خشية الرب with active concern; redundant after earlier direct parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "20:44",
+      "note": "Links soft address, remembrance, and fear; positive V12 route."
+    },
+    {
+      "label": "medium",
+      "ref": "80:2",
+      "note": "Identifies the arriving person in the immediate passage."
+    },
+    {
+      "label": "medium",
+      "ref": "98:8",
+      "note": "Direct خشية الرب parallel; adds its concluding relational setting."
+    },
+    {
+      "label": "medium",
+      "ref": "79:26",
+      "note": "Fearer is the recipient of an exemplary lesson; parallel V12 route."
+    },
+    {
+      "label": "strong",
+      "ref": "80:8",
+      "note": "Immediately pairs his coming and striving with the focus clause."
+    },
+    {
+      "label": "medium",
+      "ref": "79:19",
+      "note": "Guidance is followed by فتخشى; a causal parallel with V12 support."
+    },
+    {
+      "label": "medium",
+      "ref": "20:3",
+      "note": "Pairs تذكرة with the fearer, though its V12 route is provisional."
+    },
+    {
+      "label": "strong",
+      "ref": "80:11",
+      "note": "Names the surrounding message تذكرة, completing the local response frame."
+    },
+    {
+      "label": "medium",
+      "ref": "79:45",
+      "note": "Warning is directed to one who fears it; parallel V12 route."
+    },
+    {
+      "label": "medium",
+      "ref": "35:28",
+      "note": "Associates يخشى with knowledge; a secondary V12-supported reading."
+    },
+    {
+      "label": "medium",
+      "ref": "80:12",
+      "note": "Continues the local تذكرة sequence and its receptive response."
+    },
+    {
+      "label": "medium",
+      "ref": "24:52",
+      "note": "Places fear within obedient, guarded conduct; V12 positive route."
+    },
+    {
+      "label": "no value",
+      "ref": "53:7",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "medium",
+      "ref": "80:3",
+      "note": "Links the arrival to possible purification in the same local sequence."
+    },
+    {
+      "label": "weak",
+      "ref": "3:173",
+      "note": "Contrasts fear of people with trust; V12 route is provisional."
+    },
+    {
+      "label": "no value",
+      "ref": "85:14",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "strong",
+      "ref": "80:4",
+      "note": "States the beneficial effect of the remembrance in the immediate passage."
+    },
+    {
+      "label": "medium",
+      "ref": "50:33",
+      "note": "Unseen fear and return of heart offer a secondary, provisional parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "37:142",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "strong",
+      "ref": "80:6",
+      "note": "Immediate contrast: attention is given elsewhere despite the arriving fearer."
+    },
+    {
+      "label": "weak",
+      "ref": "2:150",
+      "note": "Redirects fear in a distinct communal setting; V12 route is provisional."
+    },
+    {
+      "label": "no value",
+      "ref": "37:145",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "strong",
+      "ref": "80:7",
+      "note": "Immediate contrast over another person's purification."
+    },
+    {
+      "label": "medium",
+      "ref": "21:49",
+      "note": "Unseen fear accompanies watchfulness; positive V12 route."
+    },
+    {
+      "label": "no value",
+      "ref": "39:62",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "weak",
+      "ref": "80:24",
+      "note": "Later instruction to observe does not directly clarify the focus clause."
+    },
+    {
+      "label": "medium",
+      "ref": "9:13",
+      "note": "Reorders who is feared; positive V12 boundary parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "91:15",
+      "note": "Negated fear of consequence is only a broad contrary reading."
+    },
+    {
+      "label": "strong",
+      "ref": "80:10",
+      "note": "Immediate statement of turning away from the one described in the focus."
+    },
+    {
+      "label": "medium",
+      "ref": "67:12",
+      "note": "Direct unseen-fear parallel with positive V12 support."
+    },
+    {
+      "label": "no value",
+      "ref": "85:13",
+      "note": "Shared هو is only a lexical collision."
+    },
+    {
+      "label": "weak",
+      "ref": "80:34",
+      "note": "Later scene supplies only indirect outcome context for the passage."
+    },
+    {
+      "label": "medium",
+      "ref": "33:39",
+      "note": "Fear of God rather than others supports the directed-fear reading."
+    },
+    {
+      "label": "weak",
+      "ref": "79:9",
+      "note": "Later humbled eyes offer only distant eschatological context."
+    },
+    {
+      "label": "strong",
+      "ref": "80:5",
+      "note": "Immediate contrast with the self-sufficient addressee."
+    },
+    {
+      "label": "weak",
+      "ref": "20:77",
+      "note": "Negated physical fear is a boundary case, not the focus disposition."
+    },
+    {
+      "label": "no value",
+      "ref": "86:14",
+      "note": "Shared هو is only a lexical collision."
+    },
+    {
+      "label": "weak",
+      "ref": "80:20",
+      "note": "Later path statement has no direct link to the focus clause."
+    },
+    {
+      "label": "medium",
+      "ref": "13:21",
+      "note": "Distinguishes خشية الرب from fear of a bad reckoning; V12 supported."
+    },
+    {
+      "label": "no value",
+      "ref": "74:21",
+      "note": "No material connection to the focus reading."
+    },
+    {
+      "label": "medium",
+      "ref": "59:21",
+      "note": "Connects خشية with reflection and comprehension; V12-supported secondary evidence."
+    },
+    {
+      "label": "weak",
+      "ref": "92:17",
+      "note": "Later mention of the most guarded is only broad contextual overlap."
+    },
+    {
+      "label": "weak",
+      "ref": "33:37",
+      "note": "Fear of people versus God is a distinct social-pressure setting."
+    },
+    {
+      "label": "no value",
+      "ref": "51:9",
+      "note": "No material connection to the focus reading."
+    },
+    {
+      "label": "medium",
+      "ref": "17:31",
+      "note": "Contrary fear turns anticipated poverty into harm; positive V12 boundary evidence."
+    },
+    {
+      "label": "no value",
+      "ref": "3:150",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "weak",
+      "ref": "4:77",
+      "note": "Compares fear of people and God, but adds little after stronger parallels."
+    },
+    {
+      "label": "weak",
+      "ref": "9:18",
+      "note": "Exclusive fear of God is a redundant general parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "2:216",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "no value",
+      "ref": "4:176",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "no value",
+      "ref": "3:85",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "weak",
+      "ref": "4:142",
+      "note": "Sparse remembrance is only a remote contrary context."
+    },
+    {
+      "label": "no value",
+      "ref": "2:29",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "weak",
+      "ref": "2:112",
+      "note": "Absence of fear is a broad outcome parallel only."
+    },
+    {
+      "label": "no value",
+      "ref": "2:139",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "no value",
+      "ref": "4:124",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "weak",
+      "ref": "18:80",
+      "note": "A distinct anticipatory fear supplies only a secondary contrast."
+    },
+    {
+      "label": "no value",
+      "ref": "2:204",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "weak",
+      "ref": "20:94",
+      "note": "Fear of social division is a context-specific secondary contrast."
+    },
+    {
+      "label": "no value",
+      "ref": "4:125",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "no value",
+      "ref": "2:137",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "weak",
+      "ref": "21:28",
+      "note": "General خشية pairing is redundant and lacks an explicit route."
+    },
+    {
+      "label": "weak",
+      "ref": "17:100",
+      "note": "Fear of giving is a contrary disposition, not the focus response."
+    },
+    {
+      "label": "no value",
+      "ref": "3:39",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "weak",
+      "ref": "4:9",
+      "note": "Anticipatory concern is redirected toward guarded speech; distant parallel."
+    },
+    {
+      "label": "no value",
+      "ref": "4:108",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "weak",
+      "ref": "5:52",
+      "note": "Fear of reversal is a contrary, context-bound motive."
+    },
+    {
+      "label": "no value",
+      "ref": "2:91",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "no value",
+      "ref": "2:255",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "no value",
+      "ref": "5:5",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "no value",
+      "ref": "2:85",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "weak",
+      "ref": "2:74",
+      "note": "Khashyah of stones is a boundary analogy, not a human receptive response."
+    },
+    {
+      "label": "no value",
+      "ref": "2:217",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "no value",
+      "ref": "4:92",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "weak",
+      "ref": "4:25",
+      "note": "Fear of hardship in a legal exception is only a remote lexical parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "31:33",
+      "note": "Fear of the Day gives an outcome-oriented secondary parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "9:24",
+      "note": "Fear of commercial loss is a contrary, worldly motive."
+    },
+    {
+      "label": "weak",
+      "ref": "5:3",
+      "note": "Fear God rather than others is a redundant directive parallel."
+    },
+    {
+      "label": "weak",
+      "ref": "5:44",
+      "note": "Same fear-of-people contrast, with little added for the focus."
+    },
+    {
+      "label": "weak",
+      "ref": "2:282",
+      "note": "Guarded conduct and divine teaching give only distant thematic overlap."
+    },
+    {
+      "label": "no value",
+      "ref": "52:8",
+      "note": "No material connection to the focus reading."
+    },
+    {
+      "label": "no value",
+      "ref": "75:27",
+      "note": "No material connection to the focus reading."
+    },
+    {
+      "label": "no value",
+      "ref": "89:1",
+      "note": "No material connection to the focus reading."
+    },
+    {
+      "label": "no value",
+      "ref": "75:33",
+      "note": "No material connection to the focus reading."
+    },
+    {
+      "label": "no value",
+      "ref": "93:1",
+      "note": "No material connection to the focus reading."
+    },
+    {
+      "label": "no value",
+      "ref": "18:34",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "no value",
+      "ref": "7:196",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "medium",
+      "ref": "35:18",
+      "note": "Joins unseen fear, warning, and purification; strong secondary local parallel despite tail rank."
+    },
+    {
+      "label": "no value",
+      "ref": "21:33",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "no value",
+      "ref": "6:62",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "no value",
+      "ref": "42:29",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "no value",
+      "ref": "14:4",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "weak",
+      "ref": "88:25",
+      "note": "Return context is too general to clarify the focus clause."
+    },
+    {
+      "label": "weak",
+      "ref": "20:56",
+      "note": "Rejected signs form only a distant contrary response."
+    },
+    {
+      "label": "no value",
+      "ref": "6:99",
+      "note": "Shared وهو is only a lexical collision."
+    },
+    {
+      "label": "no value",
+      "ref": "9:84",
+      "note": "No material connection to the focus reading."
+    },
+    {
+      "label": "no value",
+      "ref": "78:34",
+      "note": "No material connection to the focus reading."
+    },
+    {
+      "label": "weak",
+      "ref": "3:175",
+      "note": "Contrary boundary: competing objects of خوف are explicitly reordered."
+    },
+    {
+      "label": "medium",
+      "ref": "5:94",
+      "note": "Direct بالغيب parallel that adds a testing frame."
+    },
+    {
+      "label": "medium",
+      "ref": "6:51",
+      "note": "Pairs إنذار with an anticipatory response to the final gathering."
+    },
+    {
+      "label": "medium",
+      "ref": "16:50",
+      "note": "Links fear of the Lord with subsequent action; a redundant secondary parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "23:60",
+      "note": "Within the same surah, inward وجل accompanies a return-oriented response."
+    },
+    {
+      "label": "strong",
+      "ref": "24:37",
+      "note": "Contrasts not being تلهي with ذكر and fear of the Day, directly illuminating 80:10 and 80:9 together."
+    },
+    {
+      "label": "weak",
+      "ref": "32:16",
+      "note": "Pairs calling on the Lord with خوف and hope; a broad secondary parallel."
+    },
+    {
+      "label": "strong",
+      "ref": "36:11",
+      "note": "Combines إنذار, ذكر, and خشية الرحمن بالغيب in one close response pattern."
+    },
+    {
+      "label": "medium",
+      "ref": "55:46",
+      "note": "Pairs standing before the Lord with a consequential response; a secondary eschatological parallel."
+    },
+    {
+      "label": "medium",
+      "ref": "70:27",
+      "note": "Inner إشفاق toward the Lord's punishment develops the outcome-facing reading."
+    },
+    {
+      "label": "medium",
+      "ref": "76:7",
+      "note": "Fear of a Day is joined to enacted commitment; secondary support for the outcome reading."
+    },
+    {
+      "label": "medium",
+      "ref": "76:10",
+      "note": "Fear before the Lord and an explicitly characterized Day provide a close outcome parallel."
+    }
+  ],
+  "channel_subchannels_anchored_here": [],
+  "channel_generated_outputs": {
+    "source_dir": "quran-data/data/analysis/channels/network-v3/s080",
+    "files": [
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s080/channel_candidates.jsonl",
+        "role": "channel_candidates.jsonl",
+        "bytes": 7474202,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s080/channel_candidates.tsv",
+        "role": "channel_candidates.tsv",
+        "bytes": 208427,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s080/summary.json",
+        "role": "summary.json",
+        "bytes": 8677,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s080/families/candidate_graphs.jsonl",
+        "role": "families/candidate_graphs.jsonl",
+        "bytes": 4294128,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s080/families/candidate_similarity_edges.tsv",
+        "role": "families/candidate_similarity_edges.tsv",
+        "bytes": 95857,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s080/families/channel_families.jsonl",
+        "role": "families/channel_families.jsonl",
+        "bytes": 717684,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s080/families/candidate_family_membership.tsv",
+        "role": "families/candidate_family_membership.tsv",
+        "bytes": 9480,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s080/families/family_branch_inventory.tsv",
+        "role": "families/family_branch_inventory.tsv",
+        "bytes": 253525,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s080/families/consolidation_summary.json",
+        "role": "families/consolidation_summary.json",
+        "bytes": 9172,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s080/paths/path_summary.json",
+        "role": "paths/path_summary.json",
+        "bytes": 15615,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s080/paths/path_families/semantic_path_families.jsonl",
+        "role": "paths/path_families/semantic_path_families.jsonl",
+        "bytes": 17177174,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s080/paths/path_families/path_similarity_edges.tsv",
+        "role": "paths/path_families/path_similarity_edges.tsv",
+        "bytes": 4060625,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s080/paths/path_families/path_family_summary.json",
+        "role": "paths/path_families/path_family_summary.json",
+        "bytes": 10042,
+        "compressed": false
+      }
+    ],
+    "usage": "External source manifest only. These generated outputs may inform channel-family/path context when the agent has file access, but first-pass review limits still apply: no established channel name, accept/reject claim, or maturity claim unless a future adjudicated ledger is present."
+  },
+  "pericope": {
+    "surah": 80,
+    "pericope": 1,
+    "ayah_from": 1,
+    "ayah_to": 16,
+    "label": "The rebuke and the honored revelation",
+    "synthesized": false
+  },
+  "root_lexicon": {
+    "root_000413": {
+      "root_ar": "خ ش ي",
+      "qac_roots_ar": [
+        "خ ش ي"
+      ],
+      "root_id": "root_000413",
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "خ ش ي",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 28
+        }
+      ],
+      "dictionary_entry": {
+        "inputs_sha256": "afd6284f313b721cce6ed603802e2f0cd033cdd5d08ac9b6aeff3e4d6e3ca6cc",
+        "artifact_format": "dictionary-v2-root-entry-draft-v1",
+        "generated_by": "v2/scripts/accept_root_writer.py",
+        "root_envelope_id": "root_000413",
+        "language": "tr",
+        "branches": [
+          {
+            "branch_ref": "root_000413/B001",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Verilen çerçeve korku çekirdeğini doğru gösterir; ancak saygı ve bilgiyle karışma, bütün kullanımlarda bulunması gereken bir özellik değildir. Kaynak ifadesi yalın korkuyu temel alır, bu nitelikleri ise özellikle belirginleşebilen bir görünüm olarak sunar; ayrıca derece karşılaştırmasını, korkutucu yer anlatımını ve başkasını korkutmayı sınırlı yapılarda kaydeder.",
+              "boundary_note": "Dalın çekirdeği korku duymaktır; saygı ve bilgi uzmanlaşmış bir görünüm, derece ve korkutma anlatımlarıysa belirli yapılara bağlı uzantılardır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım yalın korku çekirdeğini kapsar; saygı ve bilgiyle güçlenen görünümü, derece karşılaştırmasını, korkutucu yer anlatımını ve başkasını korkutmayı birbirine karıştırmadan ayırır."
+            },
+            "concept_map": {
+              "definition": "Sakınılan bir şey karşısında korku duyma halidir; insanda bu duygu kimi bağlamlarda büyüklük karşısındaki saygı ve bilgiyle iç içe geçebilir. Belirli yapılar korkunun daha güçlü oluşunu, bir yerin daha çok korku vermesini veya birinin başkasını korkutmasını ayrıca bildirir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Temel anlam, kişinin sakındığı bir şey karşısında korku duyması ve ürpermesidir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "İnsanla ilgili bazı kullanımlarda korkuya, karşıdakinin büyüklüğünü tanıyan saygı ve bilgi eşlik eder.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "associated_use",
+                  "statement": "Karşılaştırmalı yapılar bir kişinin korkusunun veya bir yerin verdiği korkunun daha güçlü olduğunu anlatır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F004",
+                  "role": "extension",
+                  "statement": "Ettirgen kullanımda duyguyu yaşayan kişi değil, başka bir kişide korku oluşturan kişi öne çıkar.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynakların ortak çekirdeği korku duymaktır. Toplu aktarım, bu duygunun insanda bazen saygı ve bilgiyle karıştığını; derece karşılaştırmasıyla güçlendirilebildiğini, bir yere korkutuculuk yükleyebildiğini ve ettirgen yapıda başkasına geçirilebildiğini gösterir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "korku duyma",
+              "applicability": "Dalın yalın ve genel çekirdeğinde, sakınılan bir şey karşısındaki korku deneyimini karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Sakınılan şey karşısındaki temel korku deneyimini eksiksiz korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "saygıyla karışan bilinçli korku",
+                "usage_role": "contextual",
+                "applicability": "Korkunun büyüklüğü tanıma, saygı ve bilgiyle birlikte bulunduğu insan bağlamlarında kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Korkuyu, ona eşlik eden saygı ve bilgiyle birlikte korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              },
+              {
+                "text": "daha çok korku verme",
+                "usage_role": "contextual",
+                "applicability": "Bir yerin başka bir yere göre daha korkutucu olduğunu bildiren karşılaştırmalı yapıda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Korkunun kaynağa yüklenen karşılaştırmalı derecesini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              },
+              {
+                "text": "korkutma",
+                "usage_role": "contextual",
+                "applicability": "Bir kişinin başka bir kişide korku oluşturduğu ettirgen kullanımda geçerlidir.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Korkunun başkasında oluşturulması ve katılımcı değişimini korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F004"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_001",
+                "rendering_kind": "ordinary",
+                "target_gloss": "korku; özellikle saygı ve bilgiyle karışan korku"
+              },
+              {
+                "lexical_unit_id": "lu_002",
+                "rendering_kind": "ordinary",
+                "target_gloss": "korkmak"
+              },
+              {
+                "lexical_unit_id": "lu_003",
+                "rendering_kind": "ordinary",
+                "target_gloss": "korkan erkek"
+              },
+              {
+                "lexical_unit_id": "lu_004",
+                "rendering_kind": "ordinary",
+                "target_gloss": "korkan kadın"
+              },
+              {
+                "lexical_unit_id": "lu_005",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ondan daha çok korku duydum"
+              },
+              {
+                "lexical_unit_id": "lu_006",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bu yer ötekinden daha çok korku verir"
+              },
+              {
+                "lexical_unit_id": "lu_007",
+                "rendering_kind": "ordinary",
+                "target_gloss": "onu korkuttu"
+              }
+            ],
+            "excluded_glosses": [],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000572/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bu dal, korkunun saygı ve bilgiyle birleşebilen insan görünümünü ve derece bildiren sınırlı yapılarını içerir.",
+                "neighbor_only": "Komşu dal yoğun ürküntüyü, korkaklığı, tehditle korkutmayı ve korkutucu ıssız yeri de kapsayan daha geniş bir alan taşır.",
+                "gloss": "korku ile yoğun ürküntü",
+                "shared_zone": "Her iki dal da korku deneyimini ve bir başkasında korku oluşturulabilmesini kapsar.",
+                "distinction": "Bu dalın merkezi, saygı ve bilgiyle derinleşebilen korku deneyimidir. Komşu dal ise yoğun ürküntü, korkaklık ve tehdit gibi sonuç ve araçlara daha geniş yer verir; bu nedenle her bağlamda birbirinin yerine geçmezler."
+              },
+              {
+                "neighbor_ref": "root_000604/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Bu dalın merkezi korkuyu yaşayan kişinin iç durumudur; korkutma yalnızca bağlı bir uzantıdır.",
+                "neighbor_only": "Komşu dalın merkezi başkasında korku oluşturmak, tehditle yıldırmak veya hayvanı korkuyla uzaklaştırmaktır.",
+                "gloss": "korku duyma ile korkutma",
+                "shared_zone": "İki dal, korkunun bir kişide oluşması bakımından aynı olay alanına temas eder.",
+                "distinction": "Bu dal korkuyu yaşayanın durumundan hareket eder ve ettirgenliği ikincil tutar. Komşu dal doğrudan korkuya yol açan özneyi ve onun etkisini merkeze alır."
+              },
+              {
+                "neighbor_ref": "root_001594/B004",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Bu dalda temel öğe korku duygusudur; saygı bu duyguya eşlik edebilir.",
+                "neighbor_only": "Komşu dalda temel öğe boyun eğme, alçalma ve uysallıktır; korku ancak kimi kullanımlarda eşlik eder.",
+                "gloss": "saygılı korku ile boyun eğme",
+                "shared_zone": "Her iki dal, güçlü bir varlık karşısındaki çekinme ve geri durma halinde buluşabilir.",
+                "distinction": "Burada kişinin içindeki korku belirleyicidir; komşu dalda ise davranışsal boyun eğme ve alçalış belirleyicidir. Saygı ile korku, boyun eğmeyle aynı şey değildir."
+              },
+              {
+                "neighbor_ref": "root_001384/B006",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Bu dal sakınılan şey karşısında doğrudan korku duymayı bildirir.",
+                "neighbor_only": "Komşu dal tehlikeye karşı dikkatli olmayı, biri için kaygılanmayı ve ona acımayı da bildirir.",
+                "gloss": "korku ile kaygılı sakınma",
+                "shared_zone": "İki dal da olası zarar karşısındaki olumsuz beklenti ve çekinme alanına girer.",
+                "distinction": "Bu dalda korku duygusu çekirdektir. Komşu dalda ise tedbirli sakınma veya başkası için kaygılanma bulunabilir; bunlar doğrudan korku gerektirmez."
+              }
+            ],
+            "neighbor_coverage_note": "On adayın tamamı değerlendirildi. Yoğun ürküntü bildiren benzer adaylar yinelenen ayrımlar ürettiği, bilgi ve kuruluk dallarıysa bu korku çekirdeğiyle anlam örtüşmesi taşımadığı için yayımlanmadı.",
+            "branch_image_ar": "الخوف والخشية مع الهيبة",
+            "what_is_ar": "يدخل فيه الخشية والخوف والذعر وخشي يخشى وخشيان وخشياء وشدة الخشية والتخويف وكون الموضع أخشى أي أشد إخافة أو خوفا",
+            "what_is_not_ar": "ليس هو العلم المجازي ولا الكراهة عند الإسناد الخاص ولا الخشو والحشف واليبس",
+            "source_phrase_ar": "الخشية الخوف والفعل خشي يخشى؛ هذا المكان أخشى من ذاك أي أفزعه (ayn)؛ خشي الرجل يخشى خشية أي خاف فهو خشيان والمرأة خشياء؛ كنت أشد خشية منه؛ هذا المكان أخشى أي أشد خوفا؛ خشاه تخشية أي خوفه (sihah)؛ الخشية الخوف والفعل خشي يخشى؛ هذا المكان أخشى من ذلك المكان؛ معناها من الآدميين الخوف (tahdhib)؛ الخشية خوف يشوبه تعظيم وأكثر ما يكون ذلك عن علم (mufradat)؛ يدل على خوف وذعر فالخشية الخوف ورجل خشيان؛ كنت أشد خشية منه؛ هذا المكان أخشى من ذلك أي أشد خوفا (maqayis)",
+            "sources": [
+              "AY",
+              "SI",
+              "TA",
+              "MU",
+              "MQ"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000413/B002",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, normalde korku bildiren sözün aktarmalı kullanımda doğrudan bilmek anlamında yorumlandığını tutarlı biçimde gösterir. Bu dal ayrı bir bilgi söz varlığı değil, aynı sözün belirli bağlamdaki aktarılmış anlamıdır.",
+              "boundary_note": "Anlam bilmekle sınırlıdır; korku duygusu, genel öğrenme süreci, öğretme ve bilgiyi başkasına aktarma bu dalın çekirdeğine girmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "bare",
+              "note": "Tanım, aktarmalı bilmek anlamını yalın kullanım düzeyinde ele alır ve komşu bilgi dallarının öğrenme, öğretme veya kapsamlı kavrayış alanlarını içeri taşımaz."
+            },
+            "concept_map": {
+              "definition": "Korku bildiren sözün aktarmalı biçimde, bir durumun doğru olduğunu bilmek anlamında kullanılmasıdır; genel bilgi edinme, öğretme veya bilgiyi başkasına aktarma alanını kapsamaz.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Aktarmalı kullanımda söz, korkmak yerine bir durumu bilmek anlamına gelir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Bu anlam, bir önermenin veya beklenen sonucun bilindiğini bildiren bağlamla sınırlıdır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar, korku bildiren sözün belirli örneklerde aktarmalı olarak bilmek anlamına geldiği konusunda birleşir. Bu aktarım genel bilgi alanını değil, belirli bir durumun bilindiğini bildiren kullanımı açıklar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "bilmek",
+              "applicability": "Korku bildiren sözün bir durumun bilindiğini anlatan aktarmalı kullanımında geçerlidir.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Belirli bir durum hakkında bilgi sahibi olma çekirdeğini korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_008",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bildim"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "sanmak",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Bir durum hakkında zihinsel bir yargıda bulunma yönünü korur.",
+                  "loses": "Kaynakların bildirdiği kesin bilgi ve doğruluk kabulünü kaybeder.",
+                  "adds": "Bilginin yerine tahmin ve belirsizlik ekler.",
+                  "collision": "Kesin bilme ile kanı veya tahmin arasındaki sınırı bulanıklaştırır."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001040/B001",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bu dal, korku bildiren bir sözün belirli bağlamda bilmek anlamına aktarılmasıyla sınırlıdır.",
+                "neighbor_only": "Komşu dal genel bilgiyi, öğrenmeyi, öğretmeyi ve birine bilgi vermeyi de kapsar.",
+                "gloss": "aktarmalı bilme ile genel bilgi",
+                "shared_zone": "Her iki dal da bir durum hakkında bilgi sahibi olma çekirdeğinde buluşur.",
+                "distinction": "Bu dal belirli bir sözün bağlama bağlı aktarılmış anlamıdır. Komşu dal ise bilgi sahibi olmanın yanı sıra bilginin kazanılması ve aktarılması gibi daha geniş süreçleri kapsar."
+              },
+              {
+                "neighbor_ref": "root_001171/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Bu dal bir durumun doğru olduğunu bilmeye yönelir.",
+                "neighbor_only": "Komşu dal sözü, anlatılanı veya anlamı kavrama ve çözümleme yönünü öne çıkarır.",
+                "gloss": "bilmek ile anlamak",
+                "shared_zone": "İki dal da zihinsel kavrayış ve bilgi alanında yer alır.",
+                "distinction": "Bilmek, bir durum hakkında bilgi sahibi olmayı bildirir; anlamak ise sözün veya anlamın zihinde çözülmesini gerektirir. Bilgi her zaman çözümleme sürecini içermez."
+              },
+              {
+                "neighbor_ref": "root_000271/B001",
+                "relation_type": "antonym",
+                "boundary_match": "opposed",
+                "focus_only": "Bu dal bir durum hakkında doğru bilgi sahibi olmayı bildirir.",
+                "neighbor_only": "Komşu dal bilginin yokluğunu, gerçeği bilmeme veya gerçeğe aykırı inanma durumunu bildirir.",
+                "gloss": "bilme ile bilgisizlik",
+                "shared_zone": "İki dal aynı bilgi ekseni üzerinde kişinin gerçeğe erişim durumunu belirtir.",
+                "distinction": "Bu dal eksenin bilgi sahibi olma ucundadır; komşu dal bilgi yokluğu veya yanlış inanış ucundadır. Bu karşıtlık yalnızca bilgi bakımındandır."
+              },
+              {
+                "neighbor_ref": "root_000121/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Bu dal belirli bir durumun bilindiğini yalın biçimde bildirir.",
+                "neighbor_only": "Komşu dal içgörü, doğrulama, kanıt ve kişinin kendisi hakkında tanıklık gibi daha derin kavrayış biçimlerini kapsar.",
+                "gloss": "bilgi ile içgörü",
+                "shared_zone": "Her iki dal da zihnin bir gerçeği kavraması ve ona erişmesiyle ilgilidir.",
+                "distinction": "Bu dalda bilgi sahibi olmak yeterlidir. Komşu dal kalbî kavrayış, kanıtla doğrulama veya içten tanıklık gibi ek bir derinlik taşır."
+              }
+            ],
+            "neighbor_coverage_note": "On adayın tamamı değerlendirildi. Diğer genel bilgi adayları yayımlanan ayrımı yineledi; belirsizlik, amaç ve aynı kökün korku ile kuruluk dalları ise bilmek çekirdeğine daha keskin bir karşılaştırma sağlamadı.",
+            "branch_image_ar": "العلم على سبيل المجاز",
+            "what_is_ar": "يدخل فيه استعمال خشيت بمعنى علمت في المجاز وما يلحق به من تفسير فخشينا بعلمنا عند بعض أهل اللغة",
+            "what_is_not_ar": "ليس هو الخوف الأصلي ولا الكراهة المنقولة في فخشينا",
+            "source_phrase_ar": "خشيت بأن من تبع الهدى معناه علمت (sihah)؛ فخشينا أي فعلمنا (tahdhib)؛ المجاز قولهم خشيت بمعنى علمت؛ أي علمت (maqayis)",
+            "sources": [
+              "SI",
+              "TA",
+              "MQ"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000413/B003",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Kaynak ifadesi, korku bildiren söz Tanrı'ya yüklendiğinde insan korkusu olarak değil, belirli bir sonucu istememe ve ondan hoşnutsuzluk duyma olarak yorumlandığını açıkça belirtir. Verilen çerçeve bu yükleme koşulunu ve anlam değişimini doğru korur.",
+              "boundary_note": "Dal yalnızca Tanrı'ya yüklenen özel kullanımda geçerlidir; insanın korku duyması veya aktarmalı olarak bilmesi bu dala girmez."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "collocation",
+              "note": "Tanım yalnızca korku sözünün Tanrı'ya yüklendiği yapıya bağlıdır; buradaki istememe anlamı yalın köke veya insan özneye genellenmez."
+            },
+            "concept_map": {
+              "definition": "Korku bildiren sözün Tanrı'ya yüklenmesi halinde, belirli bir sonucun gerçekleşmesini istememe ve o sonuçtan hoşnutsuz olma biçiminde yorumlanan kullanımdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Tanrı'ya yüklenen kullanım insan korkusunu değil, bir sonucu istememe ve ondan hoşnutsuz olmayı bildirir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "example",
+                  "statement": "Kaynak örneğinde istenmeyen sonuç, kişilerin baskı ve inançsızlığa sürüklenmesidir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Kaynaklar, korku sözünün Tanrı'ya yüklenmesini insan korkusundan ayırır ve bunu istenmeyen bir sonuca karşı hoşnutsuzluk olarak açıklar. Verilen örnekte olumsuz yöneliş, kişilerin baskı ve inançsızlığa sürüklenmesi ihtimaline ilişkindir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "istememe ve hoşnutsuzluk",
+              "applicability": "Korku bildiren sözün Tanrı'ya yüklendiği ve istenmeyen bir sonucu konu aldığı özel yapıda geçerlidir.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "İstenmeyen sonuca yönelik olumsuz iradeyi ve hoşnutsuzluğu birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "sakıncalı bulma",
+                "usage_role": "contextual",
+                "applicability": "İstenmeyen sonucun olumsuz niteliğinin öne çıktığı açıklayıcı bağlamda kullanılabilir.",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Sonuca karşı olumsuz değerlendirmeyi korur.",
+                  "loses": "Sonucun gerçekleşmesini istememe yönündeki irade boyutunu zayıflatır.",
+                  "adds": "Hoşnutsuzluğun yerine sonucun sakıncasına ilişkin açık bir yargı ekler.",
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_009",
+                "rendering_kind": "ordinary",
+                "target_gloss": "Tanrı'ya yüklenen kullanımda istememe ve hoşnutsuzluk"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "korku duyma",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Aynı söz ailesinin insan özneyle kullanılan temel duygu anlamını korur.",
+                  "loses": "Tanrı'ya yüklemede bildirilen istememe ve hoşnutsuzluk yorumunu kaybeder.",
+                  "adds": "Tanrı'ya insana özgü korku duygusu yükler.",
+                  "collision": "Birinci dalın insan korkusu anlamıyla bu özel yükleme arasındaki sınırı siler."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000413/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Bu dal, Tanrı'ya yüklenen özel yapıda istememe ve hoşnutsuzluk bildirir.",
+                "neighbor_only": "Komşu dal insanın sakınılan şey karşısında korku duymasını ve kimi zaman saygıyla çekinmesini bildirir.",
+                "gloss": "hoşnutsuzluk ile korku",
+                "shared_zone": "İki dal aynı söz ailesinde olumsuz bir sonuca yönelen geri duruşu anlatabilir.",
+                "distinction": "Bu dalda yüklemenin öznesi nedeniyle insani korku yorumu dışlanır ve istememe öne çıkar. Komşu dalda ise duyguyu yaşayan insanın korkusu çekirdektir."
+              },
+              {
+                "neighbor_ref": "root_000413/B002",
+                "relation_type": "other",
+                "boundary_match": "partial",
+                "focus_only": "Bu dal aktarmalı kullanımda bir sonucu istememe ve ondan hoşnutsuz olmayı bildirir.",
+                "neighbor_only": "Komşu dal aktarmalı kullanımda bir durum hakkında bilgi sahibi olmayı bildirir.",
+                "gloss": "istememe ile bilme yorumu",
+                "shared_zone": "İki dal da korku anlamından ayrılan ve belirli bağlamda ortaya çıkan yorumlardır.",
+                "distinction": "Biri iradeye ve olumsuz yönelişe, diğeri zihinsel bilgiye dayanır. Aynı bağlam çevresinde ileri sürülebilseler de anlamsal çekirdekleri birbirinin yerine geçmez."
+              }
+            ],
+            "neighbor_coverage_note": "On bir adayın tamamı değerlendirildi. Dinî kişiler, yapılar, ibadet ve sunu alanındaki adaylar yalnızca geniş bir konu çevresi paylaştı; kuruluk dalıysa anlam örtüşmesi göstermediği için yayımlanmadı.",
+            "branch_image_ar": "الكراهة في إسناد الخشية",
+            "what_is_ar": "يدخل فيه تفسير الخشية بالكراهة عند إسنادها إلى الله أو في قول فخشينا على بعض النقل",
+            "what_is_not_ar": "ليس هو خوف الآدميين ولا العلم المجازي",
+            "source_phrase_ar": "فخشينا أن يرهقهما طغيانا وكفرا قال الأخفش معناه كرهنا (sihah)؛ فخشينا عن الله لأن الخشية من الله تعالى معناها الكراهة ومعناها من الآدميين الخوف (tahdhib)",
+            "sources": [
+              "SI",
+              "TA"
+            ],
+            "source_note": {}
+          },
+          {
+            "branch_ref": "root_000413/B004",
+            "identity_judgment": {
+              "status": "qualified",
+              "rationale": "Verilen çerçeve kuruluk ve buruşma alanını doğru yakalar; ancak dal tek bir nesneyi değil, kurumuş eti, buruşup düşük nitelikli olmuş hurmayı ve böyle meyve veren hurma ağacını birlikte taşır. Kaynak ifadesi ayrıca bu kümenin kökün öteki anlamlarıyla bağının uzak görüldüğünü bildirir.",
+              "boundary_note": "Kuruluk ortak zemin olsa da kuru et, düşük nitelikli hurma ve ağacın böyle ürün vermesi ayrı görünümler olarak tutulmalı; korku, bilme ve hoşnutsuzluk anlamları buraya katılmamalıdır."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "Tanım kuru ürün çekirdeğini, hurmaya özgü düşük nitelik görünümünü ve ağacın böyle meyve vermesini ayırır; ağaçla ilgili yapıdan genel bir yalın anlam çıkarmaz."
+            },
+            "concept_map": {
+              "definition": "Bu dal, kuruyup sertleşmiş eti ve buruşarak düşük nitelikli hale gelmiş hurmayı adlandırır; hurma ağacına ilişkin yapıda ise ağacın böyle meyve vermesini bildirir. Bu anlam kümesinin kökün öteki dallarıyla bağlantısı uzak kabul edilir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kuruluk ve sertleşme, özellikle kuru etle gerçekleşen temel nitelik alanını oluşturur.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Hurmada kuruma, buruşma ve düşük nitelikli hale gelme birlikte öne çıkar.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "associated_use",
+                  "statement": "Hurma ağacına yüklenen kullanım, ağacın buruşmuş ve düşük nitelikli meyve vermesini bildirir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F004",
+                  "role": "source_variant",
+                  "statement": "Bu kuruluk kümesinin kökün ana anlam alanıyla ilişkisi uzak ve sıra dışı görülür.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Toplu aktarım, kurumuş eti, buruşmuş ve düşük nitelikli hurmayı, ayrıca böyle ürün veren hurma ağacını aynı dalda toplar. Bu kümenin kökün ana anlam alanından ayrı durduğu ve aralarında ancak uzak bir bağlantı kurulabildiği de belirtilir.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "kuruyup sertleşmiş veya buruşup niteliğini yitirmiş olma",
+              "applicability": "Kuru et ile buruşmuş, düşük nitelikli hurmayı birlikte kapsayan dal düzeyindeki en geniş karşılıktır.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Etteki kuruluk ve sertliği, hurmadaki buruşma ve nitelik kaybını seçenekli biçimde korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "buruşmuş, düşük nitelikli hurma",
+                "usage_role": "contextual",
+                "applicability": "Kuruyup buruşmuş ve ürün niteliğini yitirmiş hurmanın adlandırıldığı bağlamda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Hurmaya özgü buruşmayı ve düşük niteliği birlikte korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002"
+                ]
+              },
+              {
+                "text": "kuru et",
+                "usage_role": "contextual",
+                "applicability": "Etin kurumuş ve sertleşmiş durumunu adlandıran kullanımda geçerlidir.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Nesneyi ve onun kurumuş durumunu birlikte korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001"
+                ]
+              },
+              {
+                "text": "meyvesi buruşup kalitesizleşmek",
+                "usage_role": "contextual",
+                "applicability": "Hurma ağacının buruşmuş ve düşük nitelikli ürün verdiğini bildiren yapıda kullanılır.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Ağacı katılımcı olarak ve meyvesindeki nitelik kaybını birlikte korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F003"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_010",
+                "rendering_kind": "ordinary",
+                "target_gloss": "buruşmuş, düşük nitelikli hurma"
+              },
+              {
+                "lexical_unit_id": "lu_011",
+                "rendering_kind": "ordinary",
+                "target_gloss": "hurma ağacı buruşmuş, düşük nitelikli meyve verdi"
+              },
+              {
+                "lexical_unit_id": "lu_012",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kuru et"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "kuru meyve",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Meyvenin kurumuş olma niteliğini korur.",
+                  "loses": "Düşük nitelikli hurma özelliğini, kuru et görünümünü ve ağacın böyle ürün vermesini kaybeder.",
+                  "adds": "Koruma amacıyla kurutulmuş her türlü yenebilir meyveyi kapsama katar.",
+                  "collision": "Buruşup bozulan hurmayı olağan kurutulmuş meyve sınıfıyla karıştırır."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000242/B005",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bu dal düşük nitelikli, buruşmuş hurmanın yanında kuru eti ve böyle ürün veren hurma ağacını da kapsar.",
+                "neighbor_only": "Komşu dal hurmanın kurumasını ve kuru hale gelmesini nesne kapsamını genişletmeden bildirir.",
+                "gloss": "buruşmuş hurma ile kurumuş hurma",
+                "shared_zone": "Her iki dal da hurmanın suyunu yitirip kuru hale gelmesi alanında buluşur.",
+                "distinction": "Bu dalda hurmanın buruşması ve düşük nitelikli hale gelmesi belirgindir; ayrıca kuru et ve ağaç kullanımı vardır. Komşu dalın çekirdeği ise hurmanın kurumasıdır ve nitelik kaybını zorunlu kılmaz."
+              },
+              {
+                "neighbor_ref": "root_000695/B003",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Bu dal buruşmuş düşük nitelikli hurma, kuru et ve bu ürünü veren hurma ağacıyla sınırlı bir küme kurar.",
+                "neighbor_only": "Komşu dal susuzluktan olgunlaşmadan kuruyan meyveyi, sert bitki parçasını ve kuru üzümü de kapsar.",
+                "gloss": "kuruyup sertleşen ürün",
+                "shared_zone": "İki dal da meyvede su kaybı, kuruma ve sertleşme sonucunu bildirir.",
+                "distinction": "Bu dalın hurma görünümünde buruşma ve düşük nitelik öne çıkar, ayrıca kuru ete uzanır. Komşu dal susuzluk, erken kuruma ve farklı bitkisel ürünlerle daha geniş bir kuruluk alanı kurar."
+              },
+              {
+                "neighbor_ref": "root_000187/B001",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Bu dal hurmanın buruşmuş ve düşük nitelikli durumunu, ayrıca kuru eti bildirir.",
+                "neighbor_only": "Komşu dal yenilen hurmayı genel olarak, onun ürününü ve hurmayla uğraşan kişileri kapsar.",
+                "gloss": "kusurlu hurma ile genel hurma",
+                "shared_zone": "Her iki dalın nesne alanında hurma bulunur.",
+                "distinction": "Bu dal hurmayı yalnızca kuruma ve nitelik kaybı sonucunda adlandırır. Komşu dal hurmayı herhangi bir kusur şartı olmadan genel ürün ve yiyecek olarak ele alır."
+              },
+              {
+                "neighbor_ref": "root_000239/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Bu dal buruşmuş düşük nitelikli hurmayı, kuru eti ve ağacın böyle ürün vermesini bildirir.",
+                "neighbor_only": "Komşu dal hasat sonrasında yerde kalan hurmaları, toplanan artıkları, kuru hurmayı ve çekirdeği kapsar.",
+                "gloss": "kusurlu hurma ile hasat artığı",
+                "shared_zone": "İki dal kurumuş hurmayı ve ürün niteliğindeki düşüşü konu edinebilir.",
+                "distinction": "Bu dalda belirleyici olan ürünün kuruyup buruşmasıdır. Komşu dalda ise hasat sonrası kalma veya toplanma durumu belirleyici olabilir; kuruluk yalnızca kapsamın bir bölümüdür."
+              }
+            ],
+            "neighbor_coverage_note": "On adayın tamamı değerlendirildi. Genel bitki ve meyve adayları yalnızca geniş ürün alanını paylaştı; başka bir hurma gelişim evresi yayımlanan kuruluk ayrımlarını yineledi, aynı kökün korku ve bilgi dallarıysa anlam örtüşmesi taşımadı.",
+            "branch_image_ar": "الحشف واليبس",
+            "what_is_ar": "يدخل فيه الخشو بمعنى التمر الحشف وخشت النخلة إذا أحشفت والخشي من اللحم اليابس",
+            "what_is_not_ar": "ليس هو الخشية بمعنى الخوف أو العلم أو الكراهة",
+            "source_phrase_ar": "الخشي وهو اليابس؛ الخشو الحشف من التمر؛ خشت النخلة تخشو إذا أحشفت (sihah)؛ مما شذ عن الباب وقد يمكن الجمع بينهما على بعد الخشو التمر الحشف؛ خشت النخلة تخشو خشوا؛ الخشي من اللحم اليابس (maqayis)",
+            "sources": [
+              "SI",
+              "MQ"
+            ],
+            "source_note": {}
+          }
+        ],
+        "root_profile": {
+          "summary": "Kök, korku duymayı temel alan bir dalın yanında bilmek anlamındaki aktarmalı kullanımı ve Tanrı'ya yüklemede istememe yorumunu taşır; ayrıca kurumuş et, buruşmuş düşük nitelikli hurma ve böyle ürün veren ağaçla ilgili ayrı bir anlam kümesi içerir. İlk üç dal duygu ile bağlama bağlı yorumlar çevresinde ilişkiliyken kuruluk kümesi bunlardan ayrı durur.",
+          "polysemy": "polysemic",
+          "organization": "mixed"
+        },
+        "occurrence_evidence": {
+          "summary": {
+            "morpheme_count": 48,
+            "word_count": 48,
+            "ayah_count": 40,
+            "surah_count": 24
+          },
+          "forms": [
+            {
+              "form_id": "F001",
+              "lemma_ar": "خَشْيَة",
+              "stem_ar": "خَشْيَةِ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:xa$oyap|ROOT:x$y|F|GEN",
+              "occurrence_count": 4
+            },
+            {
+              "form_id": "F002",
+              "lemma_ar": "خَشِىَ",
+              "stem_ar": "تَخْشَ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:xa$iYa|ROOT:x$y|2MP|MOOD:JUS",
+              "occurrence_count": 3
+            },
+            {
+              "form_id": "F003",
+              "lemma_ar": "خَشِىَ",
+              "stem_ar": "ٱخْشَ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPV|LEM:xa$iYa|ROOT:x$y|2MP",
+              "occurrence_count": 5
+            },
+            {
+              "form_id": "F004",
+              "lemma_ar": "خَشِىَ",
+              "stem_ar": "يَخْشَ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:xa$iYa|ROOT:x$y|3MS|MOOD:JUS",
+              "occurrence_count": 3
+            },
+            {
+              "form_id": "F005",
+              "lemma_ar": "خَشِىَ",
+              "stem_ar": "خَشِىَ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|PERF|LEM:xa$iYa|ROOT:x$y|3MS",
+              "occurrence_count": 4
+            },
+            {
+              "form_id": "F006",
+              "lemma_ar": "خَشِىَ",
+              "stem_ar": "يَخْشَ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:xa$iYa|ROOT:x$y|3MP",
+              "occurrence_count": 8
+            },
+            {
+              "form_id": "F007",
+              "lemma_ar": "خَشْيَة",
+              "stem_ar": "خَشْيَةً",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:xa$oyap|ROOT:x$y|F|INDEF|ACC",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F008",
+              "lemma_ar": "خَشِىَ",
+              "stem_ar": "نَخْشَىٰٓ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:xa$iYa|ROOT:x$y|1P",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F009",
+              "lemma_ar": "خَشِىَ",
+              "stem_ar": "تَخْشَ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:xa$iYa|ROOT:x$y|2MP",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F010",
+              "lemma_ar": "خَشِىَ",
+              "stem_ar": "تَخْشَ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:xa$iYa|ROOT:x$y|2MP|MOOD:SUBJ",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F011",
+              "lemma_ar": "خَشْيَة",
+              "stem_ar": "خَشْيَةَ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:xa$oyap|ROOT:x$y|F|ACC",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F012",
+              "lemma_ar": "خَشِىَ",
+              "stem_ar": "خَشِي",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|PERF|LEM:xa$iYa|ROOT:x$y|1P",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F013",
+              "lemma_ar": "خَشِىَ",
+              "stem_ar": "يَخْشَىٰ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:xa$iYa|ROOT:x$y|3MS",
+              "occurrence_count": 5
+            },
+            {
+              "form_id": "F014",
+              "lemma_ar": "خَشِىَ",
+              "stem_ar": "تَخْشَىٰ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:xa$iYa|ROOT:x$y|2MS",
+              "occurrence_count": 2
+            },
+            {
+              "form_id": "F015",
+              "lemma_ar": "خَشِىَ",
+              "stem_ar": "خَشِي",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|PERF|LEM:xa$iYa|ROOT:x$y|1S",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F016",
+              "lemma_ar": "خَشْيَة",
+              "stem_ar": "خَشْيَتِ",
+              "pos": "N",
+              "measure": "",
+              "morph_features": "STEM|POS:N|LEM:xa$oyap|ROOT:x$y|F|GEN",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F017",
+              "lemma_ar": "خَشِىَ",
+              "stem_ar": "تَخْشَى",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:xa$iYa|ROOT:x$y|3FS",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F018",
+              "lemma_ar": "خَشِىَ",
+              "stem_ar": "يَخْشَى",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:xa$iYa|ROOT:x$y|3MS|MOOD:SUBJ",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F019",
+              "lemma_ar": "خَشِىَ",
+              "stem_ar": "تَخْشَىٰ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:xa$iYa|ROOT:x$y|2MS|MOOD:SUBJ",
+              "occurrence_count": 1
+            },
+            {
+              "form_id": "F020",
+              "lemma_ar": "خَشِىَ",
+              "stem_ar": "يَخْشَىٰٓ",
+              "pos": "V",
+              "measure": "",
+              "morph_features": "STEM|POS:V|IMPF|LEM:xa$iYa|ROOT:x$y|3MS",
+              "occurrence_count": 1
+            }
+          ]
+        }
+      },
+      "dictionary_source_file": "quran-data/data/dictionary/tr/root_000413_entry.json",
+      "gloss": {
+        "format": "dictionary-v2-gloss-result-v2",
+        "generated_by": "v2/gloss_generation/workflow.py",
+        "status": "reviewed",
+        "root_envelope_id": "root_000413",
+        "source_language": "tr",
+        "target_language": "tr",
+        "source_entry_status": "reviewed",
+        "writer_mode": "editorial_repair",
+        "inputs_sha256": "be6725913fdf4ccefcc3cdef4ee5b9b8beb37822ba3e07de9b40059839b9f82a",
+        "review_inputs_sha256": "96ac5f17d45dc7c79a32c8d2fb05259c3d6eef1afc166d2b8d26d5a064fb00eb",
+        "source_entry": {
+          "path": "v2/work/entry_creation/root_000413/tr/output/root_000413_entry.json",
+          "sha256": "8da4787fe4381eeb303a955c26b5754352f413970046cbd42bf9c01e6e5d5a37",
+          "entry_id": "root_000413/tr",
+          "status": "reviewed",
+          "review_verdict": "repair",
+          "validation_status": "clean",
+          "validation_warnings": []
+        },
+        "source_packet": {
+          "path": "data/output/root_packets/root_000413.json",
+          "sha256": "0ac40e887470e0c0ade5f0fb882987d06ce5e1b4ec4a088ba998368e2a48368b"
+        },
+        "writer_task": {
+          "path": "v2/gloss_generation/work/root_000413/tr/repair/editorial/input/task.json",
+          "sha256": "1dd25792a1cadef75b0a5de292883780715872bbcd7b3db2cf07353fce798cfc"
+        },
+        "review_task": {
+          "path": "v2/gloss_generation/work/root_000413/tr/repair/editorial/review/input/task.json",
+          "sha256": "70d2c271c0c2004186df4f2258f23729aa90da31564a97827d8f108985fae176"
+        },
+        "review_response": {
+          "path": "v2/gloss_generation/work/root_000413/tr/repair/editorial/review/output/review.json",
+          "sha256": "e30df3615af6af0da08d8a17e41d96ff098086cbc9cb1f83b8ca0d1a717cad2a"
+        },
+        "branches": [
+          {
+            "branch_ref": "root_000413/B001",
+            "concept_gloss": {
+              "text": "sakınılan şeyden korku ve çekinme",
+              "facet_ids": [
+                "F001"
+              ],
+              "error": {
+                "fit": "narrowing",
+                "loses_facet_ids": [
+                  "F002",
+                  "F003",
+                  "F004"
+                ],
+                "adds": null,
+                "collision": null,
+                "reason": "Kısa etiket saygı ve bilgiyle derinleşen kullanımı, derece karşılaştırmasını ve ettirgen korkutmayı dışarıda bırakır.",
+                "loses_core_concept": true
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "sakınılan şeyden korkup çekinmek",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_001",
+                  "lu_002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "büyüklüğünü bilerek saygılı korku duymak",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_001",
+                  "lu_002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "korkusu başkasınınkinden daha fazla olmak",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_005"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "bir yerin daha korkutucu olması",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_006"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "birini korkuya düşürmek",
+                "facet_ids": [
+                  "F001",
+                  "F004"
+                ],
+                "lexical_unit_ids": [
+                  "lu_007"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_001": {
+                "text": "korku; saygıyla karışık çekinme",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "İsim glossu temel duygu ve saygılı görünümü verir, fakat karşılaştırmalı dereceyi ve ettirgen korkutmayı kapsamaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_002": {
+                "text": "korkmak ve çekinmek",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Fiil glossu insanın korku durumunu verir, ancak derece karşılaştırması ve başkasını korkutma yapısı bu biçimde görünmez.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_003": {
+                "text": "korkan erkek",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Niteleme glossu korkan kişiyi belirtir; saygı-bilgi boyutunu, dereceyi ve ettirgen kullanımı ayrıca taşımaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_004": {
+                "text": "korkan kadın",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Niteleme glossu korkan kişiyi belirtir; saygı-bilgi boyutunu, dereceyi ve ettirgen kullanımı ayrıca taşımaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_005": {
+                "text": "korkum onunkinden daha fazlaydı",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Bağlamdaki karşılaştırmalı korku derecesini verir, fakat saygı-bilgi boyutu ve ettirgen korkutma yoktur.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_006": {
+                "text": "bu yer ötekinden daha korkutucu",
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Yer için daha güçlü korku verme anlamını verir, saygı-bilgi boyutunu ve kişiyi korkutma yapısını kapsamaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_007": {
+                "text": "onu korkuya düşürdü",
+                "facet_ids": [
+                  "F001",
+                  "F004"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Ettirgen korkutmayı verir, fakat saygı-bilgi boyutunu ve karşılaştırmalı dereceyi içermez.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000413/B002",
+            "concept_gloss": {
+              "text": "aktarmalı bilmek anlamı",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "öyle olduğunu bilmek",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_008"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_008": {
+                "text": "öyle olduğunu bildim",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000413/B003",
+            "concept_gloss": {
+              "text": "Allah’a nispetle sonucu, baskı ve inkara sürüklenmeyi istememe",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "none",
+                "loses_facet_ids": [],
+                "adds": null,
+                "collision": null,
+                "reason": null,
+                "loses_core_concept": false
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "Allah'a nispetle bir sonucu istememek",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_009"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "onların baskıya ve inkara sürüklenmesini istememek",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_009"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_009": {
+                "text": "Allah'a nispet edilen istememe ve hoşnutsuzluk",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            }
+          },
+          {
+            "branch_ref": "root_000413/B004",
+            "concept_gloss": {
+              "text": "kurumuş et ve buruşuk hurma",
+              "facet_ids": [
+                "F001",
+                "F002"
+              ],
+              "error": {
+                "fit": "narrowing",
+                "loses_facet_ids": [
+                  "F003",
+                  "F004"
+                ],
+                "adds": null,
+                "collision": null,
+                "reason": "Kısa etiket kuru et ve kusurlu hurmayı verir, fakat ağacın böyle meyve vermesini ve kökle uzak ilişki notunu taşımaz.",
+                "loses_core_concept": true
+              }
+            },
+            "contextual_glosses": [
+              {
+                "text": "kuruyup sertleşmiş et",
+                "facet_ids": [
+                  "F001"
+                ],
+                "lexical_unit_ids": [
+                  "lu_012"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "buruşmuş, düşük nitelikli hurma",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "lexical_unit_ids": [
+                  "lu_010"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              },
+              {
+                "text": "hurma ağacının buruşuk ve düşük nitelikli ürün vermesi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "lexical_unit_ids": [
+                  "lu_011"
+                ],
+                "error": {
+                  "fit": "none",
+                  "loses_facet_ids": [],
+                  "adds": null,
+                  "collision": null,
+                  "reason": null,
+                  "loses_core_concept": false
+                }
+              }
+            ],
+            "lexical_glosses": {
+              "lu_010": {
+                "text": "buruşmuş, niteliksiz hurma",
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F003",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Hurma ürününün kuru ve kusurlu durumunu verir, ağaç kullanımını ve uzak ilişki notunu kapsamaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_011": {
+                "text": "hurma ağacı buruşuk ve düşük nitelikli meyve verdi",
+                "facet_ids": [
+                  "F001",
+                  "F002",
+                  "F003"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Ağaç kullanımını ve ürünün kuru kusurlu niteliğini verir, fakat kökle uzak ilişki notunu taşımaz.",
+                  "loses_core_concept": true
+                }
+              },
+              "lu_012": {
+                "text": "kurumuş, sertleşmiş et",
+                "facet_ids": [
+                  "F001"
+                ],
+                "error": {
+                  "fit": "narrowing",
+                  "loses_facet_ids": [
+                    "F002",
+                    "F003",
+                    "F004"
+                  ],
+                  "adds": null,
+                  "collision": null,
+                  "reason": "Kuru et anlamını verir, hurmadaki kusurlu durum, ağaç kullanımı ve uzak ilişki notu yoktur.",
+                  "loses_core_concept": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      "gloss_source_file": "quran-data/data/translation/glosses/locales/tr/root_000413.json"
+    }
+  },
+  "coverage": {
+    "quran_text": {
+      "present": true
+    },
+    "word_analysis": {
+      "present": true,
+      "word_count": 3
+    },
+    "word_morpheme_spans": {
+      "present": true,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s080/linguistic/morphemes.tsv",
+      "words_total": 3,
+      "words_resolved": 3,
+      "words_unresolved": 0,
+      "unresolved": [],
+      "morphemes_tsv": {
+        "present": true,
+        "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s080/linguistic/morphemes.tsv",
+        "ayah_count": 43,
+        "row_count": 219,
+        "malformed_rows": 0,
+        "note": "ayah attribution taken from morpheme_id/word_id, never from the qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+      },
+      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+    },
+    "word_analysis_qac_alignment": {
+      "consistent": false,
+      "detail": {
+        "qac_word_count": 2,
+        "word_analysis_word_count": 3,
+        "dangling_refs": [
+          "80:9:3"
+        ]
+      },
+      "note": "aligned_qac_word_ref does NOT resolve against qac_morphemes for this ayah: word-analysis counts orthographic words where QAC counts morphological words. Word-level joins between word_analysis topics and QAC morphology are UNRELIABLE here. Upstream defect in quran-data's word-analysis; deliberately not auto-repaired (renumbering would fabricate identities)."
+    },
+    "qac_morphemes": {
+      "present": true,
+      "row_count": 3
+    },
+    "channel_review": {
+      "present": true,
+      "review_status": "first-pass-single-reader",
+      "parent_channel_count": 22,
+      "subchannel_count": 87,
+      "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
+      "source_file": "quran-data/data/analysis/channels/network-v3/s080/review/reader_a_pilot.md",
+      "subchannels_anchored_here": 0
+    },
+    "channel_generated_outputs": {
+      "present": true,
+      "source_dir": "quran-data/data/analysis/channels/network-v3/s080",
+      "file_count": 13,
+      "missing_expected_files": [
+        "paths/path_families/semantic_path_families.jsonl.gz"
+      ],
+      "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
+    },
+    "branch_inventories": {
+      "present": true,
+      "scope": "surah-fallback-scoped-to-ayah",
+      "variants": {
+        "full_context_packet": {
+          "present": true,
+          "roots": [
+            "خ ش ي"
+          ],
+          "branch_counts": {
+            "خ ش ي": 3
+          },
+          "missing_branch_inventories": [],
+          "note": "surah-scope fallback: the default commentary workflow does not consume per-ayah focus packets, so the source packet is scoped by this builder to roots this ayah can justify and carries no staged reveal order"
+        }
+      },
+      "scoping": {
+        "applied": true,
+        "roots_total": 73,
+        "roots_retained": 1,
+        "roots_dropped": 72,
+        "retained": [
+          {
+            "root": "خ ش ي",
+            "rule": "in_ayah",
+            "branches_kept": 3,
+            "branches_total": 3
+          }
+        ],
+        "dropped_roots": [
+          "س م و",
+          "ء ل ه",
+          "ر ح م",
+          "ع ب س",
+          "و ل ي",
+          "ج ي ء",
+          "ع م ي",
+          "د ر ي",
+          "ز ك و",
+          "ذ ك ر",
+          "ن ف ع",
+          "غ ن ي",
+          "ص د ي",
+          "س ع ي",
+          "ل ه و",
+          "ش ي ء",
+          "ص ح ف",
+          "ك ر م",
+          "ر ف ع",
+          "ط ه ر",
+          "ي د ي",
+          "س ف ر",
+          "ب ر ر",
+          "ق ت ل",
+          "ء ن س",
+          "ك ف ر",
+          "خ ل ق",
+          "ن ط ف",
+          "ق د ر",
+          "س ب ل",
+          "ي س ر",
+          "م و ت",
+          "ق ب ر",
+          "ن ش ر",
+          "ق ض ي",
+          "ء م ر",
+          "ن ظ ر",
+          "ط ع م",
+          "ص ب ب",
+          "م و ه",
+          "ش ق ق",
+          "ء ر ض",
+          "ن ب ت",
+          "ح ب ب",
+          "ع ن ب",
+          "ق ض ب",
+          "ز ي ت",
+          "ن خ ل",
+          "ح د ق",
+          "غ ل ب",
+          "ف ك ه",
+          "ء ب ب",
+          "م ت ع",
+          "ن ع م",
+          "ص خ خ",
+          "ي و م",
+          "ف ر ر",
+          "م ر ء",
+          "ء خ و",
+          "ء م م",
+          "ء ب و",
+          "ص ح ب",
+          "ب ن ي",
+          "ك ل ل",
+          "ش ء ن",
+          "و ج ه",
+          "ض ح ك",
+          "ب ش ر",
+          "غ ب ر",
+          "ر ه ق",
+          "ق ت ر",
+          "ف ج ر"
+        ],
+        "ayah_roots_from_qac": [
+          "خشي"
+        ],
+        "channel_citations_found": 0,
+        "citations_unresolvable_in_surah_inventory": [],
+        "note": "SCOPED, NOT ABSENT. The surah-scope fallback inventory covers every root in the surah; it is narrowed here to roots this ayah can justify -- roots occurring in this ayah (all their branches kept, unconditionally, because Layer 2 selects nothing) plus roots explicitly cited by channel material anchored here (only the cited branches kept, enough to resolve the citation). A root listed in dropped_roots is a deliberate scoping decision, not a missing source."
+      }
+    },
+    "v12_reader_responses": {
+      "present": false,
+      "variants": {},
+      "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
+    },
+    "v12_focus_trace_hermetic": {
+      "present": false,
+      "packet_present": false,
+      "readers": {},
+      "note": "Hermetic Focus Trace not requested for this bundle. Rebuild with --include-focus-trace, or --require-focus-trace when reader JSON must be present."
+    },
+    "v12_reader_walks": {
+      "present": true,
+      "readers": {
+        "reader_a": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s080/full_context_control/reader_s080_a_ayah_walk.md",
+          "matched_ref": "80:9"
+        }
+      },
+      "lookup_refs": [
+        "80:9"
+      ]
+    },
+    "v12_reader_walks_wide": {
+      "present": true,
+      "readers": {
+        "reader_a": {
+          "present": true,
+          "source_file": "quran-data/data/analysis/ayah-activation/v12-tr-11ayah/s080/full_context_control/reader_s080_a_ayah_walk.md",
+          "matched_ref": "80:9"
+        }
+      },
+      "lookup_refs": [
+        "80:9"
+      ]
+    },
+    "v12_cross_run_publication": {
+      "present": true,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/80_ayah_findings_publication.json",
+      "protocol": "v12-cross-run-publication-v3",
+      "language": "tr",
+      "lookup_ref": "80:9",
+      "finding_count": 2,
+      "grade_counts": {
+        "strong": 1,
+        "weak": 1
+      },
+      "note": "Compact final cross-run findings for this ayah, reconciled upstream from regular and plus/minus-5 reader runs; use as a coverage/priority check, not as replacement prose."
+    },
+    "butuncul_okuma": {
+      "present": false,
+      "source_file": null,
+      "note": "no whole-surah reading file exists for this surah"
+    },
+    "inter_ayah": {
+      "present": true,
+      "row_count": 112,
+      "label_counts": {
+        "strong": 11,
+        "medium": 29,
+        "no value": 41,
+        "weak": 31
+      }
+    },
+    "pericope": {
+      "present": true,
+      "synthesized": false,
+      "note": null
+    },
+    "root_lexicon": {
+      "present": true,
+      "roots_in_ayah": [
+        "خ ش ي"
+      ],
+      "per_root": {
+        "خ ش ي": {
+          "root_id": "root_000413",
+          "root_ids": [
+            "root_000413"
+          ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "خ ش ي",
+            "mapping_status": "unique",
+            "primary_root_id": "root_000413",
+            "targets": [
+              {
+                "qac_root_norm": "خ ش ي",
+                "target_rank": 1,
+                "furuq_root_id": "root_000413",
+                "furuq_root_norm": "خ ش ي",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 28,
+                "is_dominant": 1
+              }
+            ]
+          },
+          "dictionary_present": true,
+          "gloss_present": true,
+          "targets": [
+            {
+              "root_id": "root_000413",
+              "target_rank": 1,
+              "is_dominant": true,
+              "furuq_root_norm": "خ ش ي",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 28,
+              "dictionary_present": true,
+              "gloss_present": true,
+              "dictionary_branch_count": 4,
+              "gloss_branch_count": 4,
+              "occurrence_evidence_trimmed": {
+                "dropped_keys": [
+                  "ayahs",
+                  "occurrences"
+                ],
+                "dropped_row_counts": {
+                  "occurrences": 48,
+                  "ayahs": 40
+                },
+                "kept_keys": [
+                  "forms",
+                  "summary"
+                ]
+              },
+              "note": null
+            }
+          ],
+          "note": null
+        }
+      },
+      "occurrence_evidence_trim": {
+        "applied": true,
+        "dropped_keys": [
+          "occurrences",
+          "ayahs"
+        ],
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
+      },
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 4,
+        "dictionary_branches_kept": 4,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 4,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
+      "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
+    }
+  }
+}

@@ -302,7 +302,8 @@ prompt, no other context, no conversation history. Repo/file reads are limited t
 explicit external-source manifests in the bundle, currently
 `channel_generated_outputs.files[]`.
 Do not set a service-tier override when spawning these agents; use the model and
-reasoning effort only.
+reasoning effort only. The current default commentary family is recorded under
+Cross-model runs below; its reasoning effort is `max`.
 
 **One agent per ayah is a correctness requirement, not a preference.** An agent
 holding the whole surah writes ayah readings that are slices of a thesis it has
@@ -532,18 +533,18 @@ Current S100 ayah pilot default:
 
 ```
 model: gpt-5.6-sol
-reasoning_effort: high
+reasoning_effort: max
 prompt_profile: v2.5.6-sol-high
 output_label: v2.5.6-sol-high
 per_ayah_focus_runs: retired
 ```
 
-`gpt-5.6-sol` at `max` remains useful as a lexical/evidence comparator, but the
-default reader-facing prose lane is the high-effort v2 profile until a later
-pilot changes this record. Keep only the current default profile prompt in the
-active `_commentary/inputs/s{NNN}/` path. Move comparator profile prompts to
-`_commentary/inputs/archive/s{NNN}/` after use; they are reproducible with
-`scripts/instantiate.py --profile`.
+The default reader-facing prose lane uses `gpt-5.6-sol` at `max` reasoning. The
+historical `v2.5.6-sol-high` prompt/output label remains the active lane label
+until a later pilot changes this record. Keep only the current default profile
+prompt in the active `_commentary/inputs/s{NNN}/` path. Move comparator profile
+prompts to `_commentary/inputs/archive/s{NNN}/` after use; they are reproducible
+with `scripts/instantiate.py --profile`.
 
 **Never evaluate on S1.** The governing documents inlined into every prompt
 contain worked answers for 1:6 — `docs/CHANNELS.md:48` and `:216` state the
