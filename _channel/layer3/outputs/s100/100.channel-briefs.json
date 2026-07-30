@@ -5,69 +5,206 @@
   "surah": 100,
   "channels": [
     {
-      "channelId": "nurture-to-yield",
+      "channelId": "beslenmeden-urune",
       "hypothesisIds": [
-        "grain-to-kernel",
-        "cultivation-to-harvest",
-        "terrain-to-moral-state",
-        "gift-to-withholding"
+        "thirst-leaves-source",
+        "seed-threshing-yield",
+        "cultivated-or-barren-ground",
+        "raid-or-cultivation"
       ],
-      "surfaceFloor": "Yüzeyde koşanların kaldırdığı toz ve girdikleri topluluk, insanın Rabbine nankörlüğü ve mala şiddetli sevgisi, ardından mezarların altüst edilip göğüslerdekinin çıkarılması ve Rabbin bunu bilmesi anlatılır.",
+      "surfaceFloor": "İlk beş âyet soluk soluğa koşan, kıvılcım çıkaran, şafakta baskın yapan, toz kaldıran ve bir topluluğun ortasına girenleri anlatır. Ardından insanın Rabbine karşı nankörlüğü ve hayra şiddetli sevgisi bildirilir; son bölümde kabirlerdekiler saçılır, göğüslerdekiler ayrıştırılır ve Rabbin onları bütünüyle bildiği söylenir.",
       "latentHinges": [
         {
-          "contribution": "Tohum, sürgün, bitki, olgunlaşmamış ürün ve meyveye varabilecek gelişim dalları; sevilen iyi ile insanın yetişme durumunu aynı üretim alanına açar.",
+          "contribution": "Şafak ve yükselen madde çevresindeki sabah içeceği, susuzluğu giderme, sulama yerinden ayrılma ve ortama yayılan su izleri, görünür kuru tozun arkasında hayat veren suyu bir karşı-imge olarak tutar.",
+          "ayahRefs": [
+            "100:3",
+            "100:4"
+          ],
+          "sourceRefs": [
+            "network-p03-a",
+            "network-p03-c",
+            "v11-final-report#surprising-discoveries"
+          ]
+        },
+        {
+          "contribution": "Tohum, filiz, ham meyve, toprağı işleme, sulama ve ortakçılık dalları açılıştaki toprak hareketine, yerel baskın anlamını değiştirmeden, bir şey yetiştiren süreç basıncı ekler.",
           "ayahRefs": [
             "100:1",
             "100:2",
-            "100:5",
-            "100:6",
-            "100:8",
-            "100:10",
-            "100:11"
-          ],
-          "sourceRefs": [
-            "network-review#parent-5/subchannel-a"
-          ]
-        },
-        {
-          "contribution": "Toprağı işleme, yetiştiricilik, rızık veya sulama ve aşamalı bakım çağrışımları; kaldırılan zemini Rabbin terbiye ve verme ilişkisine bağlar.",
-          "ayahRefs": [
             "100:3",
             "100:4",
-            "100:6",
-            "100:11"
+            "100:5"
           ],
           "sourceRefs": [
-            "network-review#parent-5/subchannel-b"
+            "network-p05-a",
+            "network-p05-b"
           ]
         },
         {
-          "contribution": "Sert, düz, çukur ve yumuşak zeminlerin karşısındaki kısır toprak dalı; dış araziden insanın ürün vermeyen iç durumuna geçiş sağlar.",
+          "contribution": "Rab alanındaki armağan, rızık, onarma ve aşamalı yetiştirme ile kenûd alanındaki esirgeme ve çorak zemin, alınan bakımın ürüne dönüşmemesini tek bir ilişki modeli hâline getirir.",
           "ayahRefs": [
-            "100:1",
-            "100:4",
             "100:6",
+            "100:8",
+            "100:11"
+          ],
+          "sourceRefs": [
+            "network-p10-c",
+            "network-p12-a",
+            "v11-final-report#surprising-discoveries"
+          ]
+        },
+        {
+          "contribution": "Toplama ve saçmanın ardından taneyi kabuktan, özü samandan ya da kalıntıdan ayırma dalları, son açığa çıkışı yetiştirilmiş hayatın net ürününü belirleyen bir işlem olarak düşündürür.",
+          "ayahRefs": [
+            "100:5",
+            "100:9",
+            "100:10"
+          ],
+          "sourceRefs": [
+            "network-p05-c"
+          ]
+        }
+      ],
+      "crossAyahOperation": "Açılıştaki toprak hareketi saldırı ile yetiştirme arasında ikincil bir çatallanma taşır. Su, rızık ve terbiye yönleri 6 ve 11'deki Rab ilişkisine geçtiğinde insan, kaynaktan beslenen fakat 6'daki kenûd niteliğiyle karşılık ve ürün vermeyen zemine dönüşür. 9-10'daki saçma ve ayrıştırma da bu süreci, alınan bakımın gerçekte ne yetiştirdiğini açığa çıkaran sonuca bağlar.",
+      "readerShift": {
+        "before": "Nankörlük, hızlı baskın sahnesinden sonra bildirilen bağımsız bir insan kusurudur; son açılma da bu kusurun hesabıdır.",
+        "after": "Nankörlük, kaynaktan su ve bakım aldığı hâlde bunları ürüne çevirmeyen bir oluş sürecidir. Son açılma yalnız saklı olanı göstermez; yetiştirilmiş bir hayatın tane mi, verimsizlik mi ürettiğini belirginleştirir."
+      },
+      "indispensableGain": "Su, tohum, yetiştirme, çoraklık ve ayırma katkıları kaldırıldığında Rabbin terbiyesi ile kenûd arasındaki üretim ilişkisi ve son âyetleri bir hayatın verimi olarak okutan nedensel model kaybolur; geriye yalnız nankörlük ve dirilişin yüzey dizisi kalır.",
+      "doNotClaim": [
+        "100:3-5'i sulama, tarla sürme veya çiftçilik diye çevirmeyin; yerel sahne şafak baskını, toz kaldırma ve merkeze giriştir.",
+        "100:4'te durgun suyun ya da düz kil zeminin zorla havaya kaldırıldığını söylemeyin.",
+        "Susuzluk veya ihtiyacın 100:3'teki baskına ve şiddetli el koymaya dönüştüğünü söylemeyin.",
+        "Kenûdu yerel anlamda çorak toprakla özdeşleştirmeyin; âyette insan Rabbine karşı nankör diye nitelenir.",
+        "100:9-11'i gerçek bir harman veya tarım olayı, Rab unvanını da yerel olarak ekici ya da ortakçı çiftçi diye sunmayın.",
+        "Su ağının kesinlikle rızık karşı-imgesi mi yoksa yalnız benzer bir yayılma biçimi mi olduğuna hükmetmeyin."
+      ]
+    },
+    {
+      "channelId": "gorunen-gucten-netice-sinamasina",
+      "hypothesisIds": [
+        "hidden-fire-hidden-heart",
+        "spark-ash-assay",
+        "appetite-as-false-light",
+        "speed-masks-stagnation",
+        "dawn-exposes-sleep"
+      ],
+      "surfaceFloor": "Açılış hız, soluk, kıvılcım, şafak, toz ve yoğunlaşmış hücum kuvveti gösterir. İnsan da hayra sevgisi bakımından şiddetli diye nitelenir; ardından kabirler ile göğüslerin içi açılır ve Rabbin iç yüzü bildiği bildirilir.",
+      "latentHinges": [
+        {
+          "contribution": "Gizli ateş ve kandil dallarının yanında işe yaramayan zayıf kıvılcım, sabah uykusu ve yükseldikçe sertleşen gün dalları bulunur; böylece parlaklık ile uyanış ya da yol gösterme arasındaki bağ zorunlu olmaktan çıkar.",
+          "ayahRefs": [
+            "100:2",
+            "100:3",
+            "100:8",
             "100:9",
             "100:11"
           ],
           "sourceRefs": [
-            "network-review#parent-12/subchannel-a"
+            "network-p02-b",
+            "network-s02"
           ]
         },
         {
-          "contribution": "Armağan, rızık, onarma ve aşamalı yetiştirmeye karşı esirgeme ve nankörlük dalları; alınan iyinin kaynağından koparılıp karşılıksız bırakılması gerilimini kurar.",
+          "contribution": "Koşu ve toplanmış kuvvet ağının içinde yerinde kalan ya da sakatlığı yüzünden ilerlemeyen deve, zayıf hayvan ve düzensiz sert zemin dalları vardır; görünür hızın amaç bakımından ilerleme olmayabileceğini düşündürür.",
           "ayahRefs": [
+            "100:1",
             "100:3",
+            "100:5",
             "100:6",
-            "100:8",
-            "100:11"
+            "100:8"
           ],
           "sourceRefs": [
-            "network-review#parent-10/subchannel-c"
+            "network-p01-a",
+            "network-p06-a",
+            "network-p12-c",
+            "v11-final-report#surprising-discoveries"
           ]
         },
         {
-          "contribution": "Maddenin saçılması ve toplanması, tohum, çekirdeğin kabuktan çıkarılması ve geride kalan saman veya tortu dalları; son açılışı birikimin çözülüp iç ürünün ayrıştırılması haline getirir.",
+          "contribution": "Vuruşla saklı ateşin çıkması ile sevgide tutuşan karanlık çekirdek, dış kıvılcımı insanın iç yönelimine taşıyan fakat onu doğru veya yararlı ilan etmeyen bir süreklilik kurar.",
+          "ayahRefs": [
+            "100:2",
+            "100:8",
+            "100:10"
+          ],
+          "sourceRefs": [
+            "network-p02-a",
+            "network-p13-c"
+          ]
+        },
+        {
+          "contribution": "Isıyla kararma, kül ve yanma artığı dalları; çekirdeği çıkarma, samanı ayırma ve geriye kalan sonucu belirleme dallarıyla birleşerek ilk enerjiyi son ürünü üzerinden sınanabilir kılar.",
+          "ayahRefs": [
+            "100:1",
+            "100:2",
+            "100:9",
+            "100:10"
+          ],
+          "sourceRefs": [
+            "network-p02-c",
+            "network-p05-c"
+          ]
+        }
+      ],
+      "crossAyahOperation": "İlk hareket hız, ışık ve yoğunluğu başarı işaretleri gibi üretir; ikincil karşı-dallar bu işaretlerin değerini askıya alır. Aynı yoğunluk 8'de insanın hayra sevgisine geçtiğinde onu ileri götüren güç de yerinde tutan bağ da olabilir. 10'daki ayrıştırma, görünüşteki enerji yerine onun bıraktığı özün ya da artığın değerini belirleyen son aşama olur.",
+      "readerShift": {
+        "before": "Hız ilerlemeyi, kıvılcım ile şafak görünürlüğü, sevginin şiddeti de güçlü ve etkin yönelişi gösterir.",
+        "after": "Hız yönü, parlaklık rehberliği ve yoğunluk değeri kanıtlamaz. İnsan dıştan çok hareketli ve içten çok tutkulu görünürken amaç bakımından durmuş veya uyanmamış olabilir; son ayrıştırma kuvvet gösterisini değil geride kalan sonucu ölçer."
+      },
+      "indispensableGain": "Yerinde kalan hayvan, işe yaramayan kıvılcım, uyku ve kül karşı-dalları çıkarıldığında hareket, ışık ve yoğunluğun değer göstergesi olmaktan düşmesi mümkün olmaz; son âyetleri görünüş ile neticeyi ayıran bir sınama olarak okutan değişim kaybolur.",
+      "doNotClaim": [
+        "Açılıştaki koşanların yerel olarak sakat, yorgun veya hareketsiz hayvanlar olduğunu söylemeyin.",
+        "100:2'deki kıvılcımı işe yaramayan ışık, 100:3'teki şafağı uyku veya 100:8'deki sevgiyi gerçek ateş diye çevirmeyin.",
+        "100:2'de reddedilmiş olan planın tutuşması predikasyonunu yeniden kurmayın.",
+        "Göğüste gerçek kül bulunduğunu veya hussilenin yerel anlamının bir yanma testi olduğunu ileri sürmeyin.",
+        "Koşanların ahlaki kimliğini 100:6'daki insanla özdeşleştirmeyin."
+      ]
+    },
+    {
+      "channelId": "saklama-ve-sahiplik-tersine-donusu",
+      "hypothesisIds": [
+        "raider-becomes-territory",
+        "human-as-vessel",
+        "gather-scatter-net-result",
+        "nested-containers-open"
+      ],
+      "surfaceFloor": "İlk bölümde adı verilmeyen eyleyiciler toplanmış bir kitlenin ortasına girer. İnsan hayra şiddetle bağlanır. Son bölümde kabirlerde bulunanlar dışarı saçılır, göğüslerde bulunanlar ayrıştırılır ve insanların Rabbi onlar hakkında tam bilgi sahibidir.",
+      "latentHinges": [
+        {
+          "contribution": "Kadeh, ıslatma kabı, tulum, küp, havuz ve büyük kap dalları, kıvılcım, yükselen madde ve toplama hareketleri boyunca saklama ile içerilme ilişkisini çoğaltır.",
+          "ayahRefs": [
+            "100:2",
+            "100:4",
+            "100:5"
+          ],
+          "sourceRefs": [
+            "network-p04-a"
+          ]
+        },
+        {
+          "contribution": "Sevginin göğüste tutulan karanlık kalp çekirdeği yönü, sevilen şeyin yalnız dışarıda bir mülk değil, insanın iç kabını dolduran yönelim olmasını sağlar.",
+          "ayahRefs": [
+            "100:8",
+            "100:10"
+          ],
+          "sourceRefs": [
+            "network-p13-c"
+          ]
+        },
+        {
+          "contribution": "Gizli oyuk, mezar muhafazası ve toprağı çevirerek kapalı yeri açma dalları, kabir ile göğsü saklama işlevi sona erdirilen iç içe kaplar olarak birbirine bağlar.",
+          "ayahRefs": [
+            "100:9",
+            "100:10"
+          ],
+          "sourceRefs": [
+            "network-p07-d",
+            "v11-final-report#surprising-discoveries"
+          ]
+        },
+        {
+          "contribution": "Malzeme ve mülkü toplama, sonra saçma ve en sonunda yalnız net sonucu derleme dalları, dışarıda sahip olunan içerik ile insanın kendisinden çıkarılan sonuç arasındaki yönü tersine çevirir.",
           "ayahRefs": [
             "100:5",
             "100:8",
@@ -75,230 +212,80 @@
             "100:10"
           ],
           "sourceRefs": [
-            "network-review#parent-5/subchannel-c"
-          ]
-        }
-      ],
-      "crossAyahOperation": "Toprağın karıştırılması, bakım ve rızık verilmesi, iyi olanın tohum gibi elde tutulması, verimsizlik ve sonunda saçıp ayırma hareketleri tek bir gelişim süreci kurar. Dışarıda biriktirilen çözülürken, Rabbin bakımının insanda ne yetiştirdiği iç sonuç olarak çıkarılır.",
-      "readerShift": {
-        "before": "Nankörlük bir karakter kusuru, mal sevgisi ayrı bir tercih, mezar ve göğüslerin açılması da bunlardan sonra gelen genel bir hesap sahnesidir.",
-        "after": "İnsan, bakım ve rızkı alan fakat bunları meyveye çevirmeyen bir iç zemin olarak görülebilir; son açılış sahip olunanların sayımından çok, bu yetişme sürecinin insanda bıraktığı ürünün ayrıştırılmasıdır."
-      },
-      "indispensableGain": "İkincil tohum, bakım, kısır zemin ve çekirdek-tortu katkıları kaldırıldığında nankörlük ve son hesap yüzeyde kalır; fakat alınan terbiyenin ürün vermeyişi ile göğüsten çıkarılan sonucun aynı gelişim sürecinin iki ucu olduğu anlayışı kaybolur.",
-      "doNotClaim": [
-        "100:6'daki kenûd sözcüğünün yerel çevirisinin 'kısır toprak' olduğu söylenmemeli.",
-        "100:11'de habîr sözcüğünün 'çiftçi' veya 'ortakçı' anlamına geldiği ya da ayetin yerel olarak bir hasadı anlattığı söylenmemeli.",
-        "100:10'daki ayırmanın yalnız değerli bir çekirdek ya da yalnız değersiz bir tortu ürettiği kesinleştirilmemeli.",
-        "Suredeki hareketler lafzen bir ekim-hasat olayı veya Rab için çiftçi kimliği olarak sunulmamalı."
-      ]
-    },
-    {
-      "channelId": "keeper-becomes-inventory",
-      "hypothesisIds": [
-        "containers-to-inventory",
-        "raid-to-inner-breach",
-        "breaking-to-unsealing",
-        "gather-scatter-collect",
-        "penetration-agent-reversal"
-      ],
-      "surfaceFloor": "Yüzeyde hareketli bir topluluk başka bir topluluğun ortasına girer; insan iyi olana güçlü biçimde bağlıdır; sonunda mezarlardaki dış örtü ve göğüslerdeki iç içerik açılır ve Rab insanların iç yüzünü bilir.",
-      "latentHinges": [
-        {
-          "contribution": "Islatma yeri, tulum, küp, kazan ve kadeh gibi içine alan kap dalları; ilk hareketten mal sevgisine ve son bilgiye kadar bir saklama düzeni oluşturur.",
-          "ayahRefs": [
-            "100:2",
-            "100:4",
-            "100:5",
-            "100:8",
-            "100:11"
-          ],
-          "sourceRefs": [
-            "network-review#parent-4/subchannel-a"
+            "network-p11-c",
+            "network-p05-c"
           ]
         },
         {
-          "contribution": "Kapalı tutuş, mahfaza ve kaptan çekip çıkarma dalları; biriktiren ve tutan konumu, içeriği kendisinden çekilip alınan konuma çevirecek mekanizmayı sağlar.",
+          "contribution": "Topluluğun ortasına nüfuz etme, gizli oyuğu açma ve iç çekirdeği çıkarma dalları aynı katmanlı erişim biçimini farklı katlarda sürdürür.",
           "ayahRefs": [
-            "100:2",
+            "100:3",
             "100:5",
-            "100:6",
-            "100:11"
-          ],
-          "sourceRefs": [
-            "network-review#parent-4/subchannel-b"
-          ]
-        },
-        {
-          "contribution": "Toprağı çevirerek açma, gömü çevresi, gizli oyuk, saklı şey ve kıymetli özü çıkarma dalları; mezar ile göğsü aynı gizleme-açma işleminin ardışık düzeyleri yapar.",
-          "ayahRefs": [
-            "100:2",
-            "100:4",
             "100:9",
             "100:10"
           ],
           "sourceRefs": [
-            "network-review#parent-7/subchannel-d"
+            "network-p01-b",
+            "network-p08-b",
+            "network-p07-d"
           ]
-        },
+        }
+      ],
+      "crossAyahOperation": "Açılış nüfuz eden kuvvet ile nüfuz edilen toplanmış merkezi kurar. Orta bölümde sevgi insanın içinde tutulan içeriğe dönüşür. Son bölüm rolü insana geçirir: kabir, beden, göğüs ve kalp katmanlarının saklama yetkisi sırayla kalkar; dışarıda biriktirilenler dağılırken insanın kendi net içeriği derlenir. Bu, aynı aktörün iki sahnede bulunduğu iddiası değil, nüfuz eden ile nüfuz edilen rollerinin aktarılmasıdır.",
+      "readerShift": {
+        "before": "Merkeze giriş askerî bir başarı, mal sevgisi psikolojik bir kusur, kabir ve göğüs açılması da ayrı bir diriliş ve hesap sahnesidir.",
+        "after": "Biriktirme ve saklama, insana kalıcı sahiplik vermez; sevdiği şey onu içeriden doldururken kendisi de daha büyük kapların içinde tutulan içeriğe dönüşür. Son açılma yalnız sırları duyurmaz, bütün kapların saklama yetkisini iptal edip sahiplik yönünü tersine çevirir."
+      },
+      "indispensableGain": "Kap, muhafaza, iç çekirdek ve toplama-saçma dalları kaldırıldığında insanın malı tutan özne konumundan içeriği çıkarılan nesne konumuna geçmesi ve dirilişin saklama yetkisini iptal eden işlem olarak anlaşılması kaybolur.",
+      "doNotClaim": [
+        "100:2, 100:4 veya 100:5'teki kelimeleri kadeh, tulum, küp, havuz ya da kazan diye çevirmeyin.",
+        "Açılıştaki adı verilmeyen eyleyicilerle kabirlerden çıkarılan insanların aynı kişiler olduğunu söylemeyin.",
+        "100:9'da saçılan içeriğin doğrudan mal veya mülk olduğunu ileri sürmeyin.",
+        "Kap benzerliğini kanıtlanmış bilinçli bir retorik mimari veya alternatif yerel çeviri olarak sunmayın."
+      ]
+    },
+    {
+      "channelId": "izden-delile-ve-sinirli-karsiliga",
+      "hypothesisIds": [
+        "trace-becomes-testimony",
+        "noise-becomes-evidence",
+        "redress-case-unfolds"
+      ],
+      "surfaceFloor": "Baskın hareketi soluk, kıvılcım, şafak ve tozla görünür olur. İnsan 7. âyette nankörlük meselesi üzerine tanık diye nitelenir; 9-10'da dış ve iç gizlilik açılır, 11'de Rabbin insanlar hakkında bütünüyle haberdar olduğu bildirilir.",
+      "latentHinges": [
         {
-          "contribution": "Kesme, çatlatma, ikiye ayırma, iç oyuk ve ters çevrilmiş havuz dalları; ilişkinin kopuşundan kapalı yapıların saklama gücünü yitirmesine uzanan bir mühür bozma hareketi kurar.",
+          "contribution": "Su izi, kabarcık, görünür renk ve durum göstergesi dalları; ardından belirginleşmiş sonuç ve içe nüfuz eden uzmanlık, geçici dış işaretin okunabilir delile dönüşmesini sağlar.",
           "ayahRefs": [
-            "100:2",
-            "100:5",
+            "100:3",
+            "100:4",
             "100:6",
-            "100:9"
-          ],
-          "sourceRefs": [
-            "network-review#parent-11/subchannel-b"
-          ]
-        },
-        {
-          "contribution": "Yönetici merkez ve egemenlik dalları ile göğüste belirginleşen sonuç ve içten uzmanlık dalları; dışarıdaki merkeze nüfuz etme yönünü insanın karar merkezinin bütünüyle bilinmesine aktarır.",
-          "ayahRefs": [
-            "100:5",
-            "100:6",
-            "100:8",
-            "100:9",
+            "100:7",
             "100:10",
             "100:11"
           ],
           "sourceRefs": [
-            "network-review#parent-8/subchannel-c",
-            "network-review#parent-7/subchannel-e"
+            "network-p03-b",
+            "network-p07-c",
+            "network-p07-e"
           ]
         },
         {
-          "contribution": "Sahip olunanın saçılması, maddenin toplanması ve sonucun derlenmesi dalları; korunacak envanteri dış varlıktan insanın içinde oluşmuş sonuca taşır.",
-          "ayahRefs": [
-            "100:5",
-            "100:9",
-            "100:10"
-          ],
-          "sourceRefs": [
-            "network-review#parent-11/subchannel-c"
-          ]
-        }
-      ],
-      "crossAyahOperation": "İlk ve son hareketlerin katılımcıları özdeşleştirilmeden, nüfuz eden, merkez tutan ve dışarıda biriktiren role ait yön tersine döner. Kap, oyuk, çekip çıkarma ve kırılma katkıları boyunca dış muhafazalar açılır; sonunda insan kendi yönetici merkezinin içeriği çıkarılan ve incelenen envanter konumuna geçer.",
-      "readerShift": {
-        "before": "Baskın, mal tutkusu, mezarların açılması ve göğüslerin ifşası birbirini izleyen fakat ayrı sahnelerdir.",
-        "after": "Sure, dışarıdaki merkezlere girip şeyleri tutan faillik modelini tersine çevirir: hiçbir muhafaza saklama yetkisini koruyamaz ve sahip olduğunu sanan insanın kendisi, içeriği çıkarılıp bilinen bir muhafaza haline gelir."
-      },
-      "indispensableGain": "Kap, mahfaza, oyuk, çekip çıkarma, ters çevirme ve yönetici merkez katkıları gizlendiğinde dış mezardan iç göğse geçiş kalır; fakat saklama yetkisinin surenin bütünü boyunca iptal edilmesi ve nüfuz eden fail rolünün incelenen içeriğe dönmesi kaybolur.",
-      "doNotClaim": [
-        "İlk beş ayetteki koşan veya baskın yapan katılımcılar ile 6-10. ayetlerdeki insanın aynı aktör olduğu söylenmemeli.",
-        "2-5. ayetlerdeki herhangi bir sözcük tulum, küp, kazan veya kadeh diye çevrilmemeli.",
-        "Mezarların lafzen kap ya da havuz olduğu veya ba'sere fiilinin yerel anlamının 'havuzu ters çevirmek' olduğu söylenmemeli.",
-        "Son açılış belirli bir tarihsel baskına aynı biçimde karşılık veren misilleme olayı olarak sunulmamalı.",
-        "100:5'teki fiziksel orta ile 100:10'daki göğsün aynı yer veya aynı katılımcıya ait merkez olduğu ileri sürülmemeli."
-      ]
-    },
-    {
-      "channelId": "motion-conceals-captivity",
-      "hypothesisIds": [
-        "momentum-to-desire",
-        "motion-to-stasis",
-        "hunt-reversal",
-        "hidden-disease-to-exposure",
-        "possession-drives-violence"
-      ],
-      "surfaceFloor": "Yüzeyde hızlı koşu, soluk, darbe, kıvılcım ve merkeze dalış güçlü bir dış hareket oluşturur; insanın iyi olana sevgisi de şiddetli diye nitelenir; ardından mezarlardan çıkarılma ve içlerin açılması gelir.",
-      "latentHinges": [
-        {
-          "contribution": "Koşu, gerilmiş adım, soluk, toplanmış ivme ve kuvvetli hücum dalları; dış hareketin gücünü 8. ayetteki yoğun tercihle aynı itici kuvvet çizgisine alır.",
-          "ayahRefs": [
-            "100:1",
-            "100:5",
-            "100:8"
-          ],
-          "sourceRefs": [
-            "network-review#parent-1/subchannel-a"
-          ]
-        },
-        {
-          "contribution": "Yerinde kalma, sakat devenin kalkamaması, sabah konaklamasından ayrılamama ve güç zeminde ilerleyememe dalları; görünür hızın altına amaçsal hareketsizlik yerleştirir.",
+          "contribution": "Hayvan çağrısı, yeniden yükselen ses, dil ve ifade dalları tanıklık ve haber alanına bağlanır; açılıştaki gürültü, daha sonra sözlü ya da sözsüz kanıt işlevi kazanabilecek bir iz üretir.",
           "ayahRefs": [
             "100:1",
             "100:3",
-            "100:6",
-            "100:8",
+            "100:4",
+            "100:7",
             "100:11"
           ],
           "sourceRefs": [
-            "network-review#parent-12/subchannel-c"
+            "network-p01-b",
+            "network-p07-b",
+            "network-p13-a"
           ]
         },
         {
-          "contribution": "Yuvadan çıkaran yem, peş peşe av, avcı hayvan ve çağrı dalları; koşan fail ile peşine düştüğü hedef arasındaki avcı-av yönünü tersine çevirebilir.",
-          "ayahRefs": [
-            "100:1",
-            "100:8",
-            "100:9"
-          ],
-          "sourceRefs": [
-            "network-review#standalone-1"
-          ]
-        },
-        {
-          "contribution": "İç hastalık, bulaşma, yerleşen zehir, hasta hayvanın hareketsizliği ve zayıflama dalları; güçlü görünen hareketi içerideki bozulmanın belirtisi olarak yeniden modeller.",
-          "ayahRefs": [
-            "100:1",
-            "100:2",
-            "100:4",
-            "100:8"
-          ],
-          "sourceRefs": [
-            "network-review#parent-13/subchannel-d"
-          ]
-        },
-        {
-          "contribution": "Sevme ve tercih etme, yararlı iyi ve yoğunluk dalları; dışarıdaki kuvvetin nesnesini salt maldan, insanın yönünü belirleyen güçlü seçime taşır.",
-          "ayahRefs": [
-            "100:8"
-          ],
-          "sourceRefs": [
-            "network-review#parent-10/subchannel-a"
-          ]
-        },
-        {
-          "contribution": "Düşmanlık, sınır aşan saldırı, ilişkiyi kesme ve kuvvetli hücum dalları; görünen saldırı ile insanın Rabbiyle ilişkisindeki kopuşu aynı kuvvetin farklı yönleri olarak buluşturur.",
-          "ayahRefs": [
-            "100:1",
-            "100:6",
-            "100:8"
-          ],
-          "sourceRefs": [
-            "network-review#parent-9/subchannel-b"
-          ]
-        }
-      ],
-      "crossAyahOperation": "Hız ve şiddet önce etkin faillik gibi görünür; fakat hareketsiz hayvan, gizli hastalık ve av yemi dalları bu modeli içeriden tersine çevirir. İyi olana yoğun tercih, insanın yönettiği hedef olmaktan çıkıp onu koşturan, yerinde tutan ve sonunda saklandığı yerden çıkaran kuvvet haline gelir; burada aktör değil hareket ve rol örüntüsü ayetler arasında aktarılır.",
-      "readerShift": {
-        "before": "Koşanlar güçlü faillerdir; insanın yoğun sevgisi de aynı canlı iradenin ahlaki alandaki görünümüdür.",
-        "after": "Aşırı hareket, özgür yönelişin değil insanın arzusunca sürülmesinin belirtisi olabilir: avcı görünen avın peşinden çıkarılır, hız onu amacına taşımak yerine yön değiştiremez halde tutar ve son açılış bu gizli edilgenliği görünür kılar."
-      },
-      "indispensableGain": "İkincil hareketsizlik, yem-av ve gizli hastalık katkıları kaldırıldığında koşu ile şiddetli sevgi arasında yalnız bir kuvvet benzerliği kalır; görünür hareketin aslında yön kaybı ve tutsaklık olduğu tersine dönüş kurulamaz.",
-      "doNotClaim": [
-        "Açılıştaki hayvanların gerçekten hasta, sakat, zehirlenmiş veya av olduğu söylenmemeli.",
-        "100:8'deki hayr sözcüğü yerel olarak 'yem' ya da 'tuzak' diye çevrilmemeli.",
-        "İlk baskının tarihsel nedeninin mal elde etmek olduğu kesin bir olay iddiasına dönüştürülmemeli.",
-        "İlk beş ayetteki eyleyiciler ile sonraki tekil insan aynı kişi veya topluluk sayılmamalı.",
-        "İnsanın mala sevgisi klinik hastalık, bulaşıcı hastalık veya gerçek zehirlenme diye adlandırılmamalı."
-      ]
-    },
-    {
-      "channelId": "violation-becomes-case",
-      "hypothesisIds": [
-        "appeal-to-tribunal",
-        "self-witness-to-expert-knowledge",
-        "good-becomes-evidence",
-        "assembly-to-final-presence",
-        "pact-to-shackle"
-      ],
-      "surfaceFloor": "Yüzeyde bir baskın sahnesinin ardından insanın nankörlüğü, tanıklığı ve mala sevgisi bildirilir; mezarlar ile göğüsler açılır ve Rabbin o gün insanlar hakkında bütünüyle haberdar olduğu söylenir.",
-      "latentHinges": [
-        {
-          "contribution": "Hakkını arama, tanıklık, davanın içini bilme, el koyma veya takdir edilmiş ödeme ve tazmin dalları; saldırıdan sona kadar yargısal roller ve sınırlı karşılık imkanı kurar.",
+          "contribution": "Haksızlığa karşı başvuru, karşı taraf, tanıklık, davanın iç yüzünü bilme, hesaplanmış ödeme ve tazminat dalları saldırıdan hükme uzanan hukukî bir süreç modeli kurar.",
           "ayahRefs": [
             "100:1",
             "100:3",
@@ -307,84 +294,24 @@
             "100:11"
           ],
           "sourceRefs": [
-            "network-review#parent-9/subchannel-c"
-          ]
-        },
-        {
-          "contribution": "Duyusal tanıma ve genel bilgiden içten uzmanlığa uzanan dallar; insanın inkâr edemediği belirti bilgisi ile Rabbin neden ve iç yüz bilgisi arasında derece farkı oluşturur.",
-          "ayahRefs": [
-            "100:6",
-            "100:9",
-            "100:11"
-          ],
-          "sourceRefs": [
-            "network-review#parent-7/subchannel-a"
-          ]
-        },
-        {
-          "contribution": "Tanıklık veya kesin bildirim, haber, ifade ve tanınmış bilgi dalları; 7. ayetteki tanıklığı 9-11. ayetlerde açılan bilgi sürecine bağlar.",
-          "ayahRefs": [
-            "100:7",
-            "100:9",
-            "100:11"
-          ],
-          "sourceRefs": [
-            "network-review#parent-7/subchannel-b"
-          ]
-        },
-        {
-          "contribution": "Yararlı iyi, yoğun tercih, ortaya çıkmış iç sonuç ve içeriden uzmanlık dalları; sevilen şeyi suç nesnesi yapmadan, insanın yönelişini gösteren delil malzemesine dönüştürür.",
-          "ayahRefs": [
-            "100:6",
-            "100:7",
-            "100:8",
-            "100:10",
-            "100:11"
-          ],
-          "sourceRefs": [
-            "network-review#parent-10/subchannel-a",
-            "network-review#parent-10/subchannel-c",
-            "network-review#parent-7/subchannel-e"
-          ]
-        },
-        {
-          "contribution": "İnsanları toplama, çağrılmış meclis, konfederasyon ve tanık olunan huzur dalları; saldırının hedefindeki kalabalık rolünü, herkesin tek tek kaybolmadan hazır bulunduğu hesap meclisi rolüne aktarır.",
-          "ayahRefs": [
-            "100:5",
-            "100:6",
-            "100:7",
-            "100:11"
-          ],
-          "sourceRefs": [
-            "network-review#parent-8/subchannel-a"
-          ]
-        },
-        {
-          "contribution": "Sıkı bağ, düğüm ve el-boyun bağı dalları; tazmin katkısıyla birleştiğinde son karşılığı kontrolsüz karşı şiddet değil, delile bağlı ve ölçülü bir yaptırım modeli olarak düşündürür.",
-          "ayahRefs": [
-            "100:5",
-            "100:6",
-            "100:8",
-            "100:11"
-          ],
-          "sourceRefs": [
-            "network-review#parent-11/subchannel-a",
+            "network-p09-c",
+            "network-p07-b",
             "v11-final-report#surprising-discoveries"
           ]
         }
       ],
-      "crossAyahOperation": "Katılımcıların sürekliliği ileri sürülmeden, açılıştaki ihlal veya hak arama rolü bir hesap sürecine aktarılır: toplanma meclise, insanın tanıdığı yöneliş tanıklığa, sevilen iyi delile, göğüsten çıkarılan sonuç dosyanın içeriğine ve Rabbin habîr oluşu hükmü temellendiren iç bilgiye dönüşür. Tazmin ve bağlama katkıları da karşılığı misillemeden ölçülü yaptırıma çevirir.",
+      "crossAyahOperation": "Açılıştaki hareket yalnız olay üretmez; ses, iz ve görünür durum bırakır. Bu malzeme 7'de tanıklık işlevine, 10'da ayrıştırılmış iç sonuca ve 11'de işin iç yüzünü bilen uzman bilgiye ilerler. Hukukî yan dallar bu diziyi saldırıya karşı yeni bir kontrolsüz saldırı olarak değil, delilin oluştuğu, dosyanın açıldığı ve karşılığın delille sınırlandığı süreç olarak değiştirir.",
       "readerShift": {
-        "before": "İlk sahne bir güç olayı, tanıklık kişinin hali hakkındaki ayrı bir bildirim, son ilahi bilgi ise zaten bilinenlerin genel teyididir.",
-        "after": "Sure, ihlali kanıtı adım adım görünür hale gelen bir dosya gibi düşündürebilir: insan kendi yönelişinin belirtilerini inkâr edemez, gizli sonuç açılır, Rab ise yalnız belirtiyi değil iç nedeni bilen merci olarak karşılığı delile ve ölçüye bağlar."
+        "before": "Baskın, insanın tanıklığı, gizlinin açılması ve Rabbin bilgisi art arda gelen fakat ayrı sahnelerdir; son hesap genel bir ilahî karşılıktır.",
+        "after": "İlk hareket daha gerçekleşirken kendi delilini üretmeye başlar. Dış iz tanıklığa, tanıklık ayrıştırılmış iç sonuca, sonuç da iç yüzü bilen hükme bağlanır; son karşılık çıplak karşı şiddet değil, delile bağlı bir giderim ufku kazanır."
       },
-      "indispensableGain": "Hakkını arama, tazmin, meclis, delil, dosyanın iç bilgisi ve bağlayıcı yaptırım katkıları kaldırıldığında tanıklık, ifşa ve ilahi bilgi yüzeyde kalır; fakat sonun keyfi misilleme veya yeni bilgi edinme değil, iç kanıta dayalı ve sınırlandırılmış bir hesap olduğu anlayışı kaybolur.",
+      "indispensableGain": "İz okuma, sesin ifadeye dönüşmesi ve tazmin-giderim dalları kaldırıldığında olayın kendi dosyasını üretmesi ile nihai karşılığın delil tarafından sınırlandırılması düşünülemez; geriye yalnız tanıklık ve ilahî bilginin yüzey bildirimi kalır.",
       "doNotClaim": [
-        "İlk baskının belirli bir tarihsel dava, tazmin seferi veya hak arama olayı olduğu söylenmemeli.",
-        "Tazmin, el koyma, kan bedeli ve el-boyun bağı dalları ayetlerin yerel çevirisi veya metnin belirlediği somut ceza sayılmamalı.",
-        "100:7'de şahidin insan mı Rab mi olduğu bu kanal aracılığıyla kesinleştirilmemeli.",
-        "İlk sahnedeki topluluk ile son hesapta hazır bulunanların aynı katılımcılar olduğu ileri sürülmemeli.",
-        "Rabbin bilgisinin o gün başladığı ya da göğüslerin açılmasının O'na yeni bilgi sağladığı söylenmemeli."
+        "Açılıştaki baskını belirli bir tarihsel olay, hedef veya Rabb'e yönelmiş somut bir saldırı olarak tanımlamayın.",
+        "100:3'teki baskını yanlışı doğruyla değiştiren düzeltici bir müdahale veya yakınları koruma amaçlı bir eylem diye tanımlamayın.",
+        "100:7'de tanık olan özneyi kesin biçimde insan ya da Rab olarak sabitlemeyin.",
+        "Bedenin kendisini kurulmuş bir kayıt sistemi veya sonraki hesabın bağımsız delili diye ilan etmeyin.",
+        "Tazminatı, el-boyun bağını veya başka belirli bir ceza biçimini âyetlerin doğrudan çevirisi ya da kesin olay iddiası olarak sunmayın."
       ]
     }
   ]
