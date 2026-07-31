@@ -2013,12 +2013,11 @@ def build_root_lexicon(qac_rows: list, root_id_map: dict) -> tuple:
 # by one -- it is the wrong unit type, and no renumbering fixes it. A critical
 # word maps to a MORPHEME SPAN.
 #
-# Ayah attribution comes from morpheme_id / word_id (`m-w-s100-a001-w001-01`),
-# NEVER from the qac_ref column: the 7 basmalah rows in every surah's file are
-# `a000` but carry SURAH 1's qac_refs (`1:1:1:1` ...). Keying on qac_ref
-# silently merges the basmalah into ayah 1 for all 114 surahs -- verified.
+# Ayah attribution comes from qac_ref in this dataset because morpheme_id-based
+# ayah (a000) rows are preface markers that can carry surrogate qac_refs.
 _MORPHEME_ID_RE = re.compile(r"^m-w-s(\d+)-a(\d+)-w(\d+)-(\d+)$")
 _WA_ARABIC_RE = re.compile(r"\{\{ar:([^}]*)\}\}")
+_MAX_SKIP_FOR_MORPHEME_MATCH = 3
 # Quranic annotation letters + tatweel + superscript alef: present in one
 # source's orthography and absent from the other's (e.g. word_analysis
 # ضَبْحًۭا vs morphemes.tsv ضَبْحًا; morphemes.tsv هِۦ vs word_analysis هِ).
@@ -2040,10 +2039,36 @@ def normalize_arabic_surface(text: str) -> str:
     return stripped.translate(_ALEF_FOLD)
 
 
+def _find_word_span_from_position(
+    morpheme_rows: list[dict],
+    position: int,
+    target: str,
+    max_skip: int = _MAX_SKIP_FOR_MORPHEME_MATCH,
+) -> tuple[bool, int, int, int]:
+    """Find a morpheme span that matches ``target`` from a position.
+
+    Returns (matched, span_start, span_end, skipped_rows).
+    """
+    for skip in range(max_skip + 1):
+        span_start = position + skip
+        if span_start >= len(morpheme_rows):
+            return False, position, position, 0
+        accumulated = ""
+        for j in range(span_start + 1, len(morpheme_rows) + 1):
+            accumulated = "".join(
+                normalize_arabic_surface(row["surface_ar"]) for row in morpheme_rows[span_start:j]
+            )
+            if accumulated == target:
+                return True, span_start, j, skip
+            if not target.startswith(accumulated):
+                break
+    return False, position, position, 0
+
+
 def load_morphemes_tsv(surah: int) -> tuple:
     """Returns ({ayah_int: [morpheme_row, ...]}, coverage, path or None).
-    Rows keep file order. Basmalah rows (a000) are keyed under ayah 0 and so
-    never leak into a real ayah's span."""
+    Rows keep file order. Uses qac_ref-derived ayah attribution to avoid
+    silently keying basmalah rows into surah-1 ayahs."""
     path = V12_TR_DIR / f"s{surah:03d}" / "linguistic" / "morphemes.tsv"
     coverage = {"present": False, "source_file": None}
     if not path.exists():
@@ -2051,6 +2076,7 @@ def load_morphemes_tsv(surah: int) -> tuple:
         return {}, coverage, None
 
     by_ayah, malformed = {}, 0
+    dropped_marker_rows = 0
     with open(path, encoding="utf-8") as fh:
         for line in fh:
             parts = line.rstrip("\n").split("\t")
@@ -2060,7 +2086,27 @@ def load_morphemes_tsv(surah: int) -> tuple:
             if not m:
                 malformed += 1
                 continue
-            by_ayah.setdefault(int(m.group(2)), []).append({
+            is_marker = m.group(2) == "000"
+            qac_ref = parts[2]
+            qac_ref_parts = qac_ref.split(":") if qac_ref else []
+            if len(qac_ref_parts) < 2:
+                malformed += 1
+                continue
+            try:
+                qac_surah = int(qac_ref_parts[0])
+                ayah = int(qac_ref_parts[1])
+            except ValueError:
+                malformed += 1
+                continue
+            if qac_surah != surah:
+                if is_marker:
+                    dropped_marker_rows += 1
+                continue
+            if is_marker and ayah == 0:
+                # standalone preface marker rows should remain unmapped in per-ayah mapping.
+                dropped_marker_rows += 1
+                continue
+            by_ayah.setdefault(ayah, []).append({
                 "morpheme_id": parts[0],
                 "word_id": parts[1],
                 "qac_ref": parts[2],
@@ -2075,10 +2121,13 @@ def load_morphemes_tsv(surah: int) -> tuple:
         "row_count": sum(len(v) for v in by_ayah.values()),
         "malformed_rows": malformed,
         "note": (
-            "ayah attribution taken from morpheme_id/word_id, never from the "
-            "qac_ref column: basmalah rows are a000 but carry surah 1's qac_refs"
+            "ayah attribution taken from qac_ref, with non-surah rows and "
+            "standalone basmala ayah marker rows (1:0) filtered out"
         ),
     })
+    coverage["dropped_preface_rows"] = dropped_marker_rows
+    if dropped_marker_rows:
+        coverage["note"] += f" | dropped_preface_rows={dropped_marker_rows}"
     if not by_ayah:
         coverage["note"] = f"{path} present but no parseable morpheme rows"
     return by_ayah, coverage, path
@@ -2111,15 +2160,11 @@ def resolve_word_morpheme_spans(wa_record: dict, morpheme_rows: list) -> tuple:
             })
             continue
 
-        accumulated, j, matched = "", position, False
-        while j < len(morpheme_rows):
-            accumulated += normalize_arabic_surface(morpheme_rows[j]["surface_ar"])
-            j += 1
-            if accumulated == target:
-                matched = True
-                break
-            if not target.startswith(accumulated):
-                break
+        matched, span_start, j, skipped = _find_word_span_from_position(
+            morpheme_rows=morpheme_rows,
+            position=position,
+            target=target,
+        )
 
         if not matched:
             spans.append(None)
@@ -2132,7 +2177,7 @@ def resolve_word_morpheme_spans(wa_record: dict, morpheme_rows: list) -> tuple:
             })
             continue
 
-        spanned = morpheme_rows[position:j]
+        spanned = morpheme_rows[span_start:j]
         position = j
         spans.append({
             "word_index": index,
@@ -2141,6 +2186,7 @@ def resolve_word_morpheme_spans(wa_record: dict, morpheme_rows: list) -> tuple:
             "qac_refs": [r["qac_ref"] for r in spanned],
             "morpheme_ids": [r["morpheme_id"] for r in spanned],
             "aligned_qac_word_ref_upstream": word.get("aligned_qac_word_ref"),
+            "morpheme_skip_count": skipped,
         })
     return spans, unresolved
 
@@ -2470,6 +2516,17 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
     word_spans, span_unresolved = resolve_word_morpheme_spans(
         wa_record, morphemes_by_ayah.get(ayah, [])
     )
+    skip_counts = [s.get("morpheme_skip_count", 0) for s in word_spans if s]
+    span_skip_histogram = {}
+    for skip_count in skip_counts:
+        span_skip_histogram[str(skip_count)] = span_skip_histogram.get(str(skip_count), 0) + 1
+    if any(count > 0 for count in skip_counts):
+        print(
+            f"WARNING: {ayah_ref}: alignment used non-zero morpheme skips for "
+            f"{sum(1 for count in skip_counts if count > 0)} word(s); "
+            f"see coverage.word_morpheme_spans.morpheme_skip_histogram",
+            file=sys.stderr,
+        )
     if span_unresolved:
         print(
             f"WARNING: {ayah_ref}: {len(span_unresolved)} of "
@@ -2484,6 +2541,9 @@ def build_ayah_bundle(surah: int, ayah: int, quran_text: dict, word_analysis: di
         "words_total": len(wa_record.get("words", []) or []),
         "words_resolved": sum(1 for s in word_spans if s),
         "words_unresolved": len(span_unresolved),
+        "morpheme_skip_total": sum(skip_counts),
+        "morpheme_skip_max": max(skip_counts, default=0),
+        "morpheme_skip_histogram": span_skip_histogram,
         "unresolved": span_unresolved,
         "morphemes_tsv": morph_cov,
         "note": (
