@@ -16,24 +16,36 @@ import sys
 import time
 import urllib.error
 import urllib.request
+import uuid
 import wave
 
 
 ENDPOINT = "https://texttospeech.googleapis.com/v1beta1/text:synthesize"
-PROJECT_ID = "quran-roots"
+DEFAULT_PROJECT_ID = "quran-roots"
+DEFAULT_LEDGER_DIR = Path(__file__).resolve().parents[1] / "ledger"
 SAMPLE_RATE = 24000
 BYTES_PER_SAMPLE = 2
 CHANNELS = 1
 WAV_HEADER_BYTES = 44
 MP3_BITRATE_BPS = "64000"
 MP3_BITRATE_FFMPEG = "64k"
-INPUT_COST_PER_MILLION_CHARS = Decimal("1")
-OUTPUT_COST_PER_MILLION_CHARS = Decimal("20")
+INPUT_COST_PER_MILLION_TOKENS = Decimal("1")
+OUTPUT_COST_PER_MILLION_TOKENS = Decimal("20")
+AUDIO_TOKENS_PER_SECOND = Decimal("25")
+ESTIMATED_CHARS_PER_INPUT_TOKEN = Decimal("4")
+MAX_INPUT_TOKENS_PER_REQUEST = 8192
+MAX_OUTPUT_TOKENS_PER_REQUEST = 16384
+MAX_TEXT_BYTES_PER_REQUEST = 4000
+MAX_PROMPT_BYTES_PER_REQUEST = 4000
+MAX_COMBINED_INPUT_BYTES_PER_REQUEST = 8000
 UNKNOWN_REMOTE_OUTCOMES = {"in_flight", "unknown"}
+ACCESS_TOKEN_REFRESH_SECONDS = 45 * 60
 COLLECTION_SOURCE_KINDS = {
-    "surah": "surah",
-    "ayah": "ayah",
-    "ayah-recitation": "ayah",
+    "surah": {"surah"},
+    "ayah": {"ayah"},
+    "ayah-recitation": {"ayah"},
+    "summary": {"summary"},
+    "recitation": {"recitation"},
 }
 EXPECTED_AUDIO_CONFIG = {
     "audioEncoding": "LINEAR16",
@@ -44,6 +56,29 @@ EXPECTED_VOICE = {
     "languageCode": "tr-TR",
     "modelName": "gemini-3.1-flash-tts-preview",
     "name": "Rasalgethi",
+}
+COMMENTARY_PROMPT = (
+    "Speak as a warm, conversational Turkish narrator addressing one curious "
+    "listener. Sound like a thoughtful person sharing a discovery as it becomes "
+    "clear, with natural human cadence, varied sentence energy, and quiet "
+    "curiosity. Let short reveal sentences land, then slow slightly for "
+    "explanation. Use clear Istanbul Turkish diction and natural pauses. Avoid "
+    "sermon, classroom lecture, documentary-announcer delivery, exaggerated "
+    "drama, and a repeated rhetorical rise-and-fall. Do not give every section "
+    "the same cadence. Pronounce Arabic Quranic words naturally as Arabic, then "
+    "return smoothly to Turkish."
+)
+RECITATION_PROMPT = (
+    "Read only the exact text in the text field. The text field is the complete "
+    "script. Do not repeat, add, explain, translate, paraphrase, or continue it. "
+    "Stop immediately after the final Arabic word. Say the Turkish label once, "
+    "then recite the Arabic Quran text once, with a short natural pause after "
+    "the label."
+)
+APPROVED_PROMPTS = {
+    sha256: prompt
+    for prompt in (COMMENTARY_PROMPT, RECITATION_PROMPT)
+    for sha256 in (hashlib.sha256(prompt.encode("utf-8")).hexdigest(),)
 }
 CHUNK_ID_RE = re.compile(r"^sec-(?P<section>\d{3})-p-(?P<paragraph>\d{3})$")
 _REMOTE_AUTHORIZATION = object()
@@ -184,34 +219,60 @@ def load_manifest(path):
     return manifest
 
 
+def manifest_prompt_hashes(manifest):
+    prompts = manifest.get("prompts")
+    if prompts is None:
+        prompt = manifest.get("prompt")
+        prompt_hash = manifest.get("promptSha256")
+        if not isinstance(prompt, str) or not prompt.strip():
+            raise ValueError("Manifest is missing prompt")
+        if not isinstance(prompt_hash, str) or sha256_text(prompt) != prompt_hash:
+            raise ValueError("Manifest prompt hash does not match prompt")
+        prompts = {"default": prompt}
+    if not isinstance(prompts, dict) or not prompts:
+        raise ValueError("Manifest prompts must be a non-empty object")
+
+    hashes = set()
+    for name, prompt in prompts.items():
+        if not isinstance(name, str) or not name:
+            raise ValueError("Manifest prompt names must be non-empty strings")
+        if not isinstance(prompt, str) or not prompt.strip():
+            raise ValueError(f"Manifest prompt {name!r} is empty")
+        prompt_hash = sha256_text(prompt)
+        if APPROVED_PROMPTS.get(prompt_hash) != prompt:
+            raise ValueError(f"Manifest prompt {name!r} is not allowlisted")
+        hashes.add(prompt_hash)
+    return hashes
+
+
 def validate_manifest_and_chunks(surah_dir, manifest, chunks):
     surah_dir = surah_dir.resolve()
     if not surah_dir.is_dir():
         raise ValueError(f"Collection directory does not exist: {surah_dir}")
-    if not re.fullmatch(r"S\d{3}", surah_dir.name):
-        raise ValueError(f"Collection directory must be named SNNN: {surah_dir}")
+    collection = manifest.get("collection")
+    valid_directory_name = bool(re.fullmatch(r"S\d{3}", surah_dir.name)) or (
+        collection == "recitation" and surah_dir.name == "besmele"
+    )
+    if not valid_directory_name:
+        raise ValueError(f"Collection directory must be named SNNN or recitation/besmele: {surah_dir}")
     if manifest.get("surahId") != surah_dir.name:
         raise ValueError("Manifest surahId does not match the collection directory")
+    if surah_dir.parent.name != collection:
+        raise ValueError("Manifest collection does not match the parent directory")
     if manifest.get("chunksJsonl") != "chunks.jsonl":
         raise ValueError("Manifest must point to the canonical chunks.jsonl")
     if manifest.get("chunkCount") != len(chunks):
         raise ValueError("Manifest chunkCount does not match chunks.jsonl")
     source_kind = manifest.get("sourceKind")
-    if source_kind not in {"surah", "ayah"}:
+    if source_kind not in {"surah", "ayah", "summary", "recitation"}:
         raise ValueError("Manifest has an unsupported sourceKind")
-    collection = manifest.get("collection")
-    if COLLECTION_SOURCE_KINDS.get(collection) != source_kind:
+    if source_kind not in COLLECTION_SOURCE_KINDS.get(collection, set()):
         raise ValueError("Manifest collection does not match sourceKind")
     if manifest.get("voice") != EXPECTED_VOICE:
         raise ValueError("Manifest voice does not match the approved TTS voice")
     if manifest.get("audioConfig") != EXPECTED_AUDIO_CONFIG:
         raise ValueError("Manifest audioConfig does not match the approved TTS config")
-    if not isinstance(manifest.get("prompt"), str) or not manifest["prompt"].strip():
-        raise ValueError("Manifest is missing prompt")
-    if not isinstance(manifest.get("promptSha256"), str):
-        raise ValueError("Manifest is missing promptSha256")
-    if sha256_text(manifest["prompt"]) != manifest["promptSha256"]:
-        raise ValueError("Manifest prompt hash does not match prompt")
+    approved_prompt_hashes = manifest_prompt_hashes(manifest)
 
     sections = manifest.get("sections")
     if not isinstance(sections, list) or not sections:
@@ -258,6 +319,8 @@ def validate_manifest_and_chunks(surah_dir, manifest, chunks):
         ):
             if not isinstance(chunk.get(field), str) or not chunk[field]:
                 raise ValueError(f"{chunk_id} is missing {field}")
+        if chunk["promptSha256"] not in approved_prompt_hashes:
+            raise ValueError(f"{chunk_id} prompt hash is not declared by the manifest")
         remote_outcome = chunk.get("remoteOutcome")
         if remote_outcome is not None and remote_outcome not in UNKNOWN_REMOTE_OUTCOMES:
             raise ValueError(f"{chunk_id} has an unsupported remoteOutcome: {remote_outcome}")
@@ -303,6 +366,8 @@ def validate_manifest_and_chunks(surah_dir, manifest, chunks):
                 "wav",
                 "mp3",
                 "remoteOutcome",
+                "remoteAttemptId",
+                "remoteAttemptStartedAt",
             ):
                 if paragraph.get(field) != chunk.get(field):
                     raise ValueError(f"Manifest paragraph {chunk_id} disagrees on {field}")
@@ -322,10 +387,13 @@ def validate_manifest_and_chunks(surah_dir, manifest, chunks):
     return chunk_by_id
 
 
-def request_set_digest(chunks, request_bodies):
-    """Digest the exact ordered POST bodies with unambiguous boundaries."""
+def request_set_digest(chunks, request_bodies, project_id=DEFAULT_PROJECT_ID):
+    """Digest the billing project and exact ordered POST bodies."""
 
     digest = hashlib.sha256()
+    project_bytes = project_id.encode("utf-8")
+    digest.update(len(project_bytes).to_bytes(8, "big"))
+    digest.update(project_bytes)
     for chunk in chunks:
         body = request_bodies.get(chunk["chunkId"])
         if not isinstance(body, bytes):
@@ -335,28 +403,48 @@ def request_set_digest(chunks, request_bodies):
     return digest.hexdigest()
 
 
-def cost_estimate(char_count, rate):
+def token_cost(token_count, rate):
     if not rate.is_finite() or rate <= 0:
         raise ValueError("Cost rate must be finite and greater than zero")
     return (
-        Decimal(char_count) * rate / Decimal(1_000_000)
+        Decimal(token_count) * rate / Decimal(1_000_000)
     ).quantize(Decimal("0.000001"), rounding=ROUND_CEILING)
 
 
-def estimate_request_costs(chunks, manifest):
-    prompt = manifest.get("prompt")
-    if not isinstance(prompt, str):
-        raise ValueError("Manifest prompt is required for input cost estimation")
+def estimate_request_costs(chunks, request_bodies):
     output_chars = sum(chunk["ttsCharCount"] for chunk in chunks)
-    input_chars = sum(len(prompt) + chunk["ttsCharCount"] for chunk in chunks)
-    input_cost = cost_estimate(input_chars, INPUT_COST_PER_MILLION_CHARS)
-    output_cost = cost_estimate(output_chars, OUTPUT_COST_PER_MILLION_CHARS)
+    input_chars = 0
+    for chunk in chunks:
+        request = strict_json_loads(request_bodies[chunk["chunkId"]])
+        input_chars += len(request["input"]["prompt"]) + len(request["input"]["text"])
+
+    estimated_input_tokens = int(
+        (Decimal(input_chars) / ESTIMATED_CHARS_PER_INPUT_TOKEN).to_integral_value(
+            rounding=ROUND_CEILING
+        )
+    )
+    request_count = len(chunks)
+    maximum_input_tokens = request_count * MAX_INPUT_TOKENS_PER_REQUEST
+    maximum_output_tokens = request_count * MAX_OUTPUT_TOKENS_PER_REQUEST
+    estimated_input_cost = token_cost(
+        estimated_input_tokens, INPUT_COST_PER_MILLION_TOKENS
+    )
+    maximum_input_cost = token_cost(
+        maximum_input_tokens, INPUT_COST_PER_MILLION_TOKENS
+    )
+    maximum_output_cost = token_cost(
+        maximum_output_tokens, OUTPUT_COST_PER_MILLION_TOKENS
+    )
     return {
         "inputChars": input_chars,
         "outputChars": output_chars,
-        "inputCostUsd": input_cost,
-        "outputCostUsd": output_cost,
-        "totalCostUsd": input_cost + output_cost,
+        "estimatedInputTokens": estimated_input_tokens,
+        "estimatedInputCostUsd": estimated_input_cost,
+        "maximumInputTokens": maximum_input_tokens,
+        "maximumOutputTokens": maximum_output_tokens,
+        "maximumInputCostUsd": maximum_input_cost,
+        "maximumOutputCostUsd": maximum_output_cost,
+        "maximumCostUsd": maximum_input_cost + maximum_output_cost,
     }
 
 
@@ -414,6 +502,123 @@ def write_jsonl(path, records):
     )
 
 
+def utc_timestamp():
+    return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+
+
+def ledger_path_for_now(ledger_dir):
+    return ledger_dir / f"{time.strftime('%Y-%m-%d', time.gmtime())}.jsonl"
+
+
+def append_ledger_entry(ledger_dir, entry):
+    """Durably append one entry, serializing concurrent writers with flock."""
+
+    ledger_dir = Path(ledger_dir).expanduser().resolve()
+    ledger_dir.mkdir(parents=True, exist_ok=True)
+    path = ledger_path_for_now(ledger_dir)
+    if path.is_symlink():
+        raise ValueError(f"Refusing symlinked ledger: {path}")
+    payload = json.dumps(entry, ensure_ascii=False, sort_keys=True) + "\n"
+    with path.open("a", encoding="utf-8") as handle:
+        fcntl.flock(handle.fileno(), fcntl.LOCK_EX)
+        try:
+            handle.write(payload)
+            handle.flush()
+            os.fsync(handle.fileno())
+        finally:
+            fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
+
+
+def ledger_has_success_terminal(ledger_dir, attempt_id):
+    if not attempt_id:
+        return False
+    ledger_dir = Path(ledger_dir).expanduser()
+    if not ledger_dir.is_dir():
+        return False
+    for path in sorted(ledger_dir.glob("*.jsonl")):
+        if path.is_symlink():
+            raise ValueError(f"Refusing symlinked ledger: {path}")
+        for line_number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+            if not line.strip():
+                continue
+            try:
+                entry = strict_json_loads(line)
+            except json.JSONDecodeError as error:
+                raise ValueError(f"Invalid ledger JSON at {path}:{line_number}") from error
+            if entry.get("attemptId") == attempt_id and entry.get("event") in {
+                "synthesized",
+                "synthesized_recovered",
+            }:
+                return True
+    return False
+
+
+def build_ledger_entry(
+    *,
+    event,
+    collection,
+    chunk,
+    request_body,
+    attempt_id,
+    project_id,
+    duration_seconds=None,
+    new_spend=False,
+    error=None,
+):
+    request = strict_json_loads(request_body)
+    prompt = request["input"]["prompt"]
+    text = request["input"]["text"]
+    input_chars = len(prompt) + len(text)
+    estimated_input_tokens = int(
+        (Decimal(input_chars) / ESTIMATED_CHARS_PER_INPUT_TOKEN).to_integral_value(
+            rounding=ROUND_CEILING
+        )
+    )
+    output_audio_tokens = (
+        Decimal(str(duration_seconds)) * AUDIO_TOKENS_PER_SECOND
+        if duration_seconds is not None
+        else None
+    )
+    input_cost = token_cost(
+        estimated_input_tokens, INPUT_COST_PER_MILLION_TOKENS
+    )
+    output_cost = (
+        token_cost(output_audio_tokens, OUTPUT_COST_PER_MILLION_TOKENS)
+        if output_audio_tokens is not None
+        else Decimal("0")
+    )
+    estimated_billed_input = input_cost if new_spend else Decimal("0")
+    billed_output = output_cost if new_spend else Decimal("0")
+    entry = {
+        "timestamp": utc_timestamp(),
+        "event": event,
+        "attemptId": attempt_id,
+        "projectId": project_id,
+        "collection": collection,
+        "surahId": chunk.get("surahId"),
+        "chunkId": chunk.get("chunkId"),
+        "kind": chunk.get("kind"),
+        "requestSha256": chunk.get("requestSha256"),
+        "textCharCount": len(text),
+        "promptCharCount": len(prompt),
+        "estimatedInputTokens": estimated_input_tokens,
+        "durationSeconds": duration_seconds,
+        "outputAudioTokens": (
+            str(output_audio_tokens.quantize(Decimal("0.001")))
+            if output_audio_tokens is not None
+            else None
+        ),
+        "newSpend": new_spend,
+        "possibleNewSpend": event in {"attempted", "unknown"},
+        "estimatedBilledInputUsd": str(estimated_billed_input),
+        "billedOutputUsd": str(billed_output),
+        "estimatedBilledTotalUsd": str(estimated_billed_input + billed_output),
+    }
+    if error is not None:
+        entry["error"] = str(error)
+    return entry
+
+
 def get_authorized_token(authorization=None):
     if authorization is not _REMOTE_AUTHORIZATION:
         raise PermissionError("Remote authorization is required before obtaining credentials")
@@ -426,7 +631,14 @@ def get_authorized_token(authorization=None):
     return result.stdout.strip()
 
 
-def synthesize(request_body, token, chunk, generated_at, authorization=None):
+def synthesize(
+    request_body,
+    token,
+    chunk,
+    generated_at,
+    project_id,
+    authorization=None,
+):
     if authorization is not _REMOTE_AUTHORIZATION:
         raise PermissionError("Remote authorization is required before TTS synthesis")
     request = urllib.request.Request(
@@ -435,7 +647,7 @@ def synthesize(request_body, token, chunk, generated_at, authorization=None):
         method="POST",
         headers={
             "Authorization": f"Bearer {token}",
-            "x-goog-user-project": PROJECT_ID,
+            "x-goog-user-project": project_id,
             "Content-Type": "application/json; charset=utf-8",
         },
     )
@@ -493,9 +705,7 @@ def decode_audio_response(response):
     return payload
 
 
-def response_matches_chunk(response, chunk):
-    if "error" in response:
-        return False
+def response_metadata_matches_chunk(response, chunk):
     metadata = response.get("_requestMetadata")
     if not metadata:
         return False
@@ -507,6 +717,10 @@ def response_matches_chunk(response, chunk):
         "audioConfigSha256",
     )
     return all(metadata.get(key) == chunk.get(key) for key in keys)
+
+
+def response_matches_chunk(response, chunk):
+    return "error" not in response and response_metadata_matches_chunk(response, chunk)
 
 
 def request_metadata(chunk):
@@ -544,6 +758,16 @@ def validate_request_file(request_path, chunk, manifest=None):
         raise ValueError(f"Request prompt is empty: {request_path}")
     if not isinstance(input_block.get("text"), str):
         raise ValueError(f"Request text is not a string: {request_path}")
+    prompt_bytes = len(input_block["prompt"].encode("utf-8"))
+    text_bytes = len(input_block["text"].encode("utf-8"))
+    if prompt_bytes > MAX_PROMPT_BYTES_PER_REQUEST:
+        raise ValueError(f"Request prompt exceeds {MAX_PROMPT_BYTES_PER_REQUEST} bytes: {request_path}")
+    if text_bytes > MAX_TEXT_BYTES_PER_REQUEST:
+        raise ValueError(f"Request text exceeds {MAX_TEXT_BYTES_PER_REQUEST} bytes: {request_path}")
+    if prompt_bytes + text_bytes > MAX_COMBINED_INPUT_BYTES_PER_REQUEST:
+        raise ValueError(
+            f"Request prompt and text exceed {MAX_COMBINED_INPUT_BYTES_PER_REQUEST} bytes: {request_path}"
+        )
     request_sha256 = sha256_text(stable_json(request))
     if request_sha256 != chunk.get("requestSha256"):
         raise ValueError(
@@ -557,10 +781,14 @@ def validate_request_file(request_path, chunk, manifest=None):
         raise ValueError(f"{chunk['chunkId']} request text does not match chunk ttsText")
     if chunk.get("ttsCharCount") != len(expected_text):
         raise ValueError(f"{chunk['chunkId']} ttsCharCount does not match request text")
-    if sha256_text(request.get("input", {}).get("prompt", "")) != chunk.get("promptSha256"):
+    prompt = request.get("input", {}).get("prompt", "")
+    prompt_hash = sha256_text(prompt)
+    if prompt_hash != chunk.get("promptSha256"):
         raise ValueError(f"{chunk['chunkId']} request prompt hash mismatch")
-    if manifest is not None and chunk.get("promptSha256") != manifest.get("promptSha256"):
-        raise ValueError(f"{chunk['chunkId']} prompt hash does not match manifest")
+    if APPROVED_PROMPTS.get(prompt_hash) != prompt:
+        raise ValueError(f"{chunk['chunkId']} request prompt is not allowlisted")
+    if manifest is not None and prompt_hash not in manifest_prompt_hashes(manifest):
+        raise ValueError(f"{chunk['chunkId']} prompt hash is not declared by manifest")
     if sha256_text(stable_json(request.get("voice"))) != chunk.get("voiceSha256"):
         raise ValueError(f"{chunk['chunkId']} request voice hash mismatch")
     if sha256_text(stable_json(request.get("audioConfig"))) != chunk.get("audioConfigSha256"):
@@ -580,10 +808,11 @@ def update_manifest(manifest_path, records_by_chunk_id):
             paragraph["generatedAt"] = record.get("generatedAt")
             paragraph["audioSha256"] = record.get("audioSha256")
             paragraph["mp3Sha256"] = record.get("mp3Sha256")
-            if record.get("remoteOutcome") is not None:
-                paragraph["remoteOutcome"] = record["remoteOutcome"]
-            else:
-                paragraph.pop("remoteOutcome", None)
+            for field in ("remoteOutcome", "remoteAttemptId", "remoteAttemptStartedAt"):
+                if record.get(field) is not None:
+                    paragraph[field] = record[field]
+                else:
+                    paragraph.pop(field, None)
     atomic_write_text(
         manifest_path,
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
@@ -635,7 +864,7 @@ def inspect_cached_chunk(surah_dir, chunk, paths):
     if response_path.exists():
         try:
             response = load_response(response_path)
-            if not response_matches_chunk(response, chunk):
+            if not response_metadata_matches_chunk(response, chunk):
                 return "mismatched_response"
             if "error" in response:
                 return "error_response"
@@ -691,7 +920,10 @@ def preflight_collection(
     chunk_ids=None,
     force=False,
     reconcile_unknown=False,
+    project_id=DEFAULT_PROJECT_ID,
 ):
+    if not isinstance(project_id, str) or not re.fullmatch(r"[a-z][a-z0-9-]{4,28}[a-z0-9]", project_id):
+        raise ValueError(f"Invalid Google Cloud project id: {project_id!r}")
     reject_symlink_components(surah_dir, "collection")
     surah_dir = surah_dir.expanduser().resolve()
     chunks_path = surah_dir / "chunks.jsonl"
@@ -730,6 +962,7 @@ def preflight_collection(
         chunk
         for chunk in target_chunks
         if chunk.get("remoteOutcome") in UNKNOWN_REMOTE_OUTCOMES
+        and statuses[chunk["chunkId"]] not in {"verified_response", "error_response"}
     ]
     if unknown_chunks and not reconcile_unknown:
         unknown_ids = ", ".join(chunk["chunkId"] for chunk in unknown_chunks)
@@ -744,7 +977,7 @@ def preflight_collection(
         unsafe_cached = {
             chunk_id: status
             for chunk_id, status in statuses.items()
-            if status not in {"missing", "verified_response"}
+            if status not in {"missing", "verified_response", "error_response"}
         }
         if unsafe_cached:
             details = ", ".join(f"{chunk_id}={status}" for chunk_id, status in unsafe_cached.items())
@@ -755,14 +988,14 @@ def preflight_collection(
         remote_chunks = []
         for chunk in target_chunks:
             status = statuses[chunk["chunkId"]]
-            if status == "missing" or (
+            if status in {"missing", "error_response"} or (
                 chunk.get("remoteOutcome") in UNKNOWN_REMOTE_OUTCOMES
                 and status != "verified_response"
             ):
                 remote_chunks.append(chunk)
 
-    request_digest = request_set_digest(remote_chunks, request_bodies)
-    costs = estimate_request_costs(remote_chunks, manifest)
+    request_digest = request_set_digest(remote_chunks, request_bodies, project_id)
+    costs = estimate_request_costs(remote_chunks, request_bodies)
     return {
         "surahDir": surah_dir,
         "manifestPath": manifest_path,
@@ -783,11 +1016,16 @@ def preflight_collection(
         "unknownChunks": unknown_chunks,
         "remoteChunks": remote_chunks,
         "requestDigest": request_digest,
+        "projectId": project_id,
         "ttsChars": costs["outputChars"],
         "inputChars": costs["inputChars"],
-        "inputCostUsd": costs["inputCostUsd"],
-        "outputCostUsd": costs["outputCostUsd"],
-        "estimatedCostUsd": costs["totalCostUsd"],
+        "estimatedInputTokens": costs["estimatedInputTokens"],
+        "estimatedInputCostUsd": costs["estimatedInputCostUsd"],
+        "maximumInputTokens": costs["maximumInputTokens"],
+        "maximumOutputTokens": costs["maximumOutputTokens"],
+        "maximumInputCostUsd": costs["maximumInputCostUsd"],
+        "maximumOutputCostUsd": costs["maximumOutputCostUsd"],
+        "maximumCostUsd": costs["maximumCostUsd"],
     }
 
 
@@ -800,17 +1038,17 @@ def require_remote_confirmation(args, preflight):
             "Remote confirmation must exactly match the preflight requestSetSha256: "
             f"{preflight['requestDigest']}"
         )
-    expected_cost = preflight["estimatedCostUsd"]
+    expected_cost = preflight["maximumCostUsd"]
     if args.confirm_cost_usd != expected_cost:
         raise PermissionError(
-            "Remote cost confirmation does not match preflight: "
+            "Remote maximum-cost confirmation does not match preflight: "
             f"expected {expected_cost}"
         )
     if args.max_cost_usd is None:
         raise PermissionError("Provide --max-cost-usd as an explicit spending ceiling")
     if expected_cost > args.max_cost_usd:
         raise PermissionError(
-            f"Preflight cost {expected_cost} exceeds --max-cost-usd {args.max_cost_usd}"
+            f"Preflight maximum cost {expected_cost} exceeds --max-cost-usd {args.max_cost_usd}"
         )
     if args.force and not args.confirm_force:
         raise PermissionError("--force requires the separate --confirm-force acknowledgement")
@@ -822,6 +1060,7 @@ def preflight_summary(preflight, dry_run):
     summary = {
         "dryRun": dry_run,
         "surahDir": str(preflight["surahDir"]),
+        "projectId": preflight["projectId"],
         "validatedChunks": len(preflight["chunks"]),
         "targetChunks": len(preflight["targetChunks"]),
         "remoteChunks": len(preflight["remoteChunks"]),
@@ -829,9 +1068,14 @@ def preflight_summary(preflight, dry_run):
         "unknownChunks": len(preflight["unknownChunks"]),
         "ttsChars": preflight["ttsChars"],
         "inputChars": preflight["inputChars"],
-        "inputCostUsd": str(preflight["inputCostUsd"]),
-        "outputCostUsd": str(preflight["outputCostUsd"]),
-        "estimatedCostUsd": str(preflight["estimatedCostUsd"]),
+        "estimatedInputTokens": preflight["estimatedInputTokens"],
+        "estimatedInputCostUsd": str(preflight["estimatedInputCostUsd"]),
+        "maximumInputTokens": preflight["maximumInputTokens"],
+        "maximumOutputTokens": preflight["maximumOutputTokens"],
+        "maximumInputCostUsd": str(preflight["maximumInputCostUsd"]),
+        "maximumOutputCostUsd": str(preflight["maximumOutputCostUsd"]),
+        "maximumCostUsd": str(preflight["maximumCostUsd"]),
+        "costBasis": "Gemini TTS provider token limits per remote request",
         "requestSetSha256": preflight["requestDigest"],
         "remoteCalls": 0 if dry_run else len(preflight["remoteChunks"]),
     }
@@ -933,6 +1177,24 @@ def materialize_original_mp3(surah_dir, chunk):
 def remove_file_if_exists(path):
     if path.exists():
         path.unlink()
+
+
+def archive_existing_chunk_artifacts(surah_dir, chunk, paths, attempt_id):
+    """Preserve artifacts displaced by an explicitly confirmed force run."""
+
+    archive_root = safe_relative_path(
+        surah_dir,
+        f"archive/stale/{chunk['chunkId']}/{attempt_id}",
+        "stale archive",
+    )
+    for field in ("response", "wav", "mp3"):
+        source = paths[field]
+        if not source.exists():
+            continue
+        relative = PurePosixPath(chunk[field])
+        destination = archive_root.joinpath(*relative.parts)
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        os.replace(source, destination)
 
 
 def section_audio_paths(surah_dir, section):
@@ -1048,6 +1310,17 @@ def decimal_argument(value):
     return number
 
 
+def clear_remote_attempt(chunk):
+    chunk.pop("remoteOutcome", None)
+    chunk.pop("remoteAttemptId", None)
+    chunk.pop("remoteAttemptStartedAt", None)
+
+
+def persist_chunk_state(chunks_path, manifest_path, chunks):
+    write_jsonl(chunks_path, chunks)
+    update_manifest(manifest_path, {record["chunkId"]: record for record in chunks})
+
+
 def process_collection(preflight, args, authorization):
     surah_dir = preflight["surahDir"]
     manifest_path = preflight["manifestPath"]
@@ -1056,10 +1329,17 @@ def process_collection(preflight, args, authorization):
     target_chunks = preflight["targetChunks"]
     target_ids = {chunk["chunkId"] for chunk in target_chunks}
     remote_chunks = preflight["remoteChunks"]
+    collection = preflight["manifest"]["collection"]
     processed = 0
     in_flight_chunk = None
+    current_attempt_id = None
+    current_request_body = None
+    current_response = None
+    remote_started = False
 
     try:
+        token = get_authorized_token(authorization) if remote_chunks else None
+        token_refreshed_at = time.monotonic() if remote_chunks else None
         if remote_chunks:
             clear_affected_section_derivatives(surah_dir, manifest_path, target_ids)
             update_generation_state(
@@ -1067,7 +1347,6 @@ def process_collection(preflight, args, authorization):
                 "in_progress",
                 preflight["requestDigest"],
             )
-        token = get_authorized_token(authorization) if remote_chunks else None
 
         for index, chunk in enumerate(target_chunks, start=1):
             paths = preflight["targetPaths"][chunk["chunkId"]]
@@ -1084,43 +1363,127 @@ def process_collection(preflight, args, authorization):
                 chunk["generatedAt"] = chunk.get("generatedAt") or response.get(
                     "_generatedAt"
                 )
-                chunk.pop("remoteOutcome", None)
+                cached_attempt_id = response.get("_attemptId")
+                recovered = cached_attempt_id and not ledger_has_success_terminal(
+                    args.ledger_dir, cached_attempt_id
+                )
+                append_ledger_entry(
+                    args.ledger_dir,
+                    build_ledger_entry(
+                        event="synthesized_recovered" if recovered else "cached",
+                        collection=collection,
+                        chunk=chunk,
+                        request_body=preflight["requestBodies"][chunk["chunkId"]],
+                        attempt_id=cached_attempt_id or f"cache-{uuid.uuid4().hex}",
+                        project_id=args.project_id,
+                        duration_seconds=duration_seconds,
+                        new_spend=bool(recovered),
+                    ),
+                )
+                clear_remote_attempt(chunk)
+                persist_chunk_state(chunks_path, manifest_path, chunks)
                 processed += 1
                 continue
 
             print(f"{index}/{len(target_chunks)} {chunk['chunkId']}...", flush=True)
-            generated_at = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+            generated_at = utc_timestamp()
+            current_attempt_id = uuid.uuid4().hex
+            current_request_body = preflight["requestBodies"][chunk["chunkId"]]
+            current_response = None
+            remote_started = False
             in_flight_chunk = chunk
             chunk["remoteOutcome"] = "in_flight"
-            write_jsonl(chunks_path, chunks)
-            update_manifest(manifest_path, {record["chunkId"]: record for record in chunks})
-            response = synthesize(
-                preflight["requestBodies"][chunk["chunkId"]],
+            chunk["remoteAttemptId"] = current_attempt_id
+            chunk["remoteAttemptStartedAt"] = generated_at
+            persist_chunk_state(chunks_path, manifest_path, chunks)
+            append_ledger_entry(
+                args.ledger_dir,
+                build_ledger_entry(
+                    event="attempted",
+                    collection=collection,
+                    chunk=chunk,
+                    request_body=current_request_body,
+                    attempt_id=current_attempt_id,
+                    project_id=args.project_id,
+                ),
+            )
+            if args.force:
+                archive_existing_chunk_artifacts(
+                    surah_dir, chunk, paths, current_attempt_id
+                )
+            if time.monotonic() - token_refreshed_at >= ACCESS_TOKEN_REFRESH_SECONDS:
+                token = get_authorized_token(authorization)
+                token_refreshed_at = time.monotonic()
+            remote_started = True
+            current_response = synthesize(
+                current_request_body,
                 token,
                 chunk,
                 generated_at,
+                args.project_id,
                 authorization,
             )
-            if "error" in response:
-                raise RuntimeError(json.dumps(response["error"], ensure_ascii=False))
+            current_response["_attemptId"] = current_attempt_id
+            if "error" in current_response:
+                write_response(paths["response"], current_response, chunk)
+                append_ledger_entry(
+                    args.ledger_dir,
+                    build_ledger_entry(
+                        event="failed",
+                        collection=collection,
+                        chunk=chunk,
+                        request_body=current_request_body,
+                        attempt_id=current_attempt_id,
+                        project_id=args.project_id,
+                        error=json.dumps(current_response["error"], ensure_ascii=False),
+                    ),
+                )
+                clear_remote_attempt(chunk)
+                persist_chunk_state(chunks_path, manifest_path, chunks)
+                update_generation_state(
+                    manifest_path,
+                    "failed",
+                    preflight["requestDigest"],
+                    json.dumps(current_response["error"], ensure_ascii=False),
+                )
+                print(
+                    json.dumps(current_response["error"], ensure_ascii=False, indent=2),
+                    file=sys.stderr,
+                )
+                return 1
 
             # Validate the returned bytes before committing the response record.
-            audio = decode_audio_response(response)
+            audio = decode_audio_response(current_response)
             atomic_write_bytes(paths["wav"], audio)
             chunk["durationSeconds"] = round(wav_duration_seconds(paths["wav"]), 3)
             chunk["audioSha256"] = sha256_bytes(audio)
             chunk.pop("mp3Sha256", None)
-            write_response(paths["response"], response, chunk)
+            write_response(paths["response"], current_response, chunk)
+            append_ledger_entry(
+                args.ledger_dir,
+                build_ledger_entry(
+                    event="synthesized",
+                    collection=collection,
+                    chunk=chunk,
+                    request_body=current_request_body,
+                    attempt_id=current_attempt_id,
+                    project_id=args.project_id,
+                    duration_seconds=chunk["durationSeconds"],
+                    new_spend=True,
+                ),
+            )
             materialize_original_mp3(surah_dir, chunk)
             chunk["generatedAt"] = generated_at
-            chunk.pop("remoteOutcome", None)
-            write_jsonl(chunks_path, chunks)
-            update_manifest(manifest_path, {record["chunkId"]: record for record in chunks})
+            clear_remote_attempt(chunk)
+            persist_chunk_state(chunks_path, manifest_path, chunks)
             in_flight_chunk = None
+            current_attempt_id = None
+            current_request_body = None
+            current_response = None
+            remote_started = False
             processed += 1
 
-        write_jsonl(chunks_path, chunks)
-        update_manifest(manifest_path, {record["chunkId"]: record for record in chunks})
+        persist_chunk_state(chunks_path, manifest_path, chunks)
         build_section_derivatives(
             surah_dir,
             manifest_path,
@@ -1141,9 +1504,33 @@ def process_collection(preflight, args, authorization):
     except Exception as error:
         try:
             if in_flight_chunk is not None:
-                in_flight_chunk["remoteOutcome"] = "unknown"
-            write_jsonl(chunks_path, chunks)
-            update_manifest(manifest_path, {record["chunkId"]: record for record in chunks})
+                if remote_started:
+                    in_flight_chunk["remoteOutcome"] = "unknown"
+                    if current_response is not None:
+                        unknown_path = safe_relative_path(
+                            surah_dir,
+                            f"responses/unknown/{in_flight_chunk['chunkId']}-{current_attempt_id}.json",
+                            "unknown response",
+                        )
+                        write_response(unknown_path, current_response, in_flight_chunk)
+                    try:
+                        append_ledger_entry(
+                            args.ledger_dir,
+                            build_ledger_entry(
+                                event="unknown",
+                                collection=collection,
+                                chunk=in_flight_chunk,
+                                request_body=current_request_body,
+                                attempt_id=current_attempt_id,
+                                project_id=args.project_id,
+                                error=error,
+                            ),
+                        )
+                    except Exception as ledger_error:
+                        print(f"Failed to append unknown ledger state: {ledger_error}", file=sys.stderr)
+                else:
+                    clear_remote_attempt(in_flight_chunk)
+            persist_chunk_state(chunks_path, manifest_path, chunks)
             clear_affected_section_derivatives(surah_dir, manifest_path, target_ids)
             update_generation_state(
                 manifest_path,
@@ -1173,6 +1560,17 @@ def process_collection(preflight, args, authorization):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("surah_dir", type=Path)
+    parser.add_argument(
+        "--project-id",
+        default=os.environ.get("GOOGLE_CLOUD_PROJECT", DEFAULT_PROJECT_ID),
+        help="Google Cloud billing/quota project (default: GOOGLE_CLOUD_PROJECT or quran-roots).",
+    )
+    parser.add_argument(
+        "--ledger-dir",
+        type=Path,
+        default=DEFAULT_LEDGER_DIR,
+        help="Append-only attempt and spending ledger directory.",
+    )
     selection_group = parser.add_mutually_exclusive_group()
     selection_group.add_argument("--limit", type=int)
     selection_group.add_argument(
@@ -1195,7 +1593,7 @@ def main():
     parser.add_argument(
         "--confirm-cost-usd",
         type=decimal_argument,
-        help="Exact estimated cost printed by preflight, to six decimal places.",
+        help="Exact maximumCostUsd printed by preflight, to six decimal places.",
     )
     parser.add_argument(
         "--max-cost-usd",
@@ -1226,6 +1624,7 @@ def main():
                 chunk_ids=args.chunk_ids,
                 force=args.force,
                 reconcile_unknown=args.reconcile_unknown,
+                project_id=args.project_id,
             )
         except (OSError, ValueError, RuntimeError) as error:
             print(f"Preflight failed: {error}", file=sys.stderr)
@@ -1241,6 +1640,7 @@ def main():
                 chunk_ids=args.chunk_ids,
                 force=args.force,
                 reconcile_unknown=args.reconcile_unknown,
+                project_id=args.project_id,
             )
             print(json.dumps(preflight_summary(preflight, False), indent=2))
             authorization = require_remote_confirmation(args, preflight)

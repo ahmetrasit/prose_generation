@@ -22,7 +22,11 @@ QURAN_DATA_ROOT = WORKSPACE_ROOT.parent / "quran-data"
 # --out-root.  A bare invocation is safe and stays inside this repository.
 DEFAULT_OUT_ROOT = WORKSPACE_ROOT / "_audio" / "audio"
 UNKNOWN_REMOTE_OUTCOMES = {"in_flight", "unknown"}
-INPUT_COST_PER_MILLION_CHARS = Decimal("1")
+INPUT_COST_PER_MILLION_TOKENS = Decimal("1")
+OUTPUT_COST_PER_MILLION_TOKENS = Decimal("20")
+ESTIMATED_CHARS_PER_INPUT_TOKEN = Decimal("4")
+MAX_INPUT_TOKENS_PER_REQUEST = 8192
+MAX_OUTPUT_TOKENS_PER_REQUEST = 16384
 QURAN_TEXT_PATH = QURAN_DATA_ROOT / "data" / "text" / "quran-uthmani.tsv"
 
 SURAH_DETAILED_PREFIX = ("data", "commentary", "surah", "detailed", "tr")
@@ -37,7 +41,7 @@ AYAH_FILE_RE = re.compile(
 # are intentionally separate from the English/transliterated names in the
 # source Quran resources, because the TTS label is Turkish prose.
 SURAH_NAMES_TR = {
-    1: "Fatiha",
+    1: "Fâtiha",
     2: "Bakara",
     3: "Âl-i İmrân",
     4: "Nisâ",
@@ -230,9 +234,9 @@ PROMPT = (
 RECITATION_PROMPT = (
     "Read only the exact text in the text field. The text field is the complete "
     "script. Do not repeat, add, explain, translate, paraphrase, or continue it. "
-    "Stop immediately after the final Arabic word. Say the Turkish surah label "
-    "once, then recite the Arabic Quran text once, with a short natural pause "
-    "after the colon."
+    "Stop immediately after the final Arabic word. Say the Turkish label once, "
+    "then recite the Arabic Quran text once, with a short natural pause after "
+    "the label."
 )
 
 AUDIO_CONFIG = {
@@ -1306,12 +1310,6 @@ def main():
     )
     parser.add_argument("--surah-id", help="Override inferred S001-style surah id.")
     parser.add_argument(
-        "--cost-per-million-chars",
-        type=cost_argument,
-        default=Decimal("20"),
-        help="Estimate only: TTS price in USD per million spoken characters (default: 20).",
-    )
-    parser.add_argument(
         "--prune",
         action="store_true",
         help="Delete unreferenced files in this output collection after writing.",
@@ -1362,11 +1360,30 @@ def main():
     output_chars = artifacts["ttsCharCount"]
     prompt = artifacts["manifest"]["prompt"]
     input_chars = output_chars + len(prompt) * len(artifacts["chunks"])
-    input_cost = (Decimal(input_chars) * INPUT_COST_PER_MILLION_CHARS / Decimal(1_000_000)).quantize(
+    estimated_input_tokens = int(
+        (Decimal(input_chars) / ESTIMATED_CHARS_PER_INPUT_TOKEN).to_integral_value(
+            rounding=ROUND_CEILING
+        )
+    )
+    estimated_input_cost = (
+        Decimal(estimated_input_tokens)
+        * INPUT_COST_PER_MILLION_TOKENS
+        / Decimal(1_000_000)
+    ).quantize(
         Decimal("0.000001"), rounding=ROUND_CEILING
     )
-    output_cost = (
-        Decimal(output_chars) * args.cost_per_million_chars / Decimal(1_000_000)
+    request_count = len(artifacts["chunks"])
+    maximum_input_tokens = request_count * MAX_INPUT_TOKENS_PER_REQUEST
+    maximum_output_tokens = request_count * MAX_OUTPUT_TOKENS_PER_REQUEST
+    maximum_input_cost = (
+        Decimal(maximum_input_tokens)
+        * INPUT_COST_PER_MILLION_TOKENS
+        / Decimal(1_000_000)
+    ).quantize(Decimal("0.000001"), rounding=ROUND_CEILING)
+    maximum_output_cost = (
+        Decimal(maximum_output_tokens)
+        * OUTPUT_COST_PER_MILLION_TOKENS
+        / Decimal(1_000_000)
     ).quantize(Decimal("0.000001"), rounding=ROUND_CEILING)
     summary = {
         "dryRun": args.dry_run,
@@ -1379,11 +1396,14 @@ def main():
         "ttsChars": artifacts["ttsCharCount"],
         "inputChars": input_chars,
         "outputChars": output_chars,
-        "inputCostUsd": str(input_cost),
-        "outputCostUsd": str(output_cost),
-        "estimatedCostUsd": str(input_cost + output_cost),
-        "inputCostRateUsdPerMillionChars": str(INPUT_COST_PER_MILLION_CHARS),
-        "outputCostRateUsdPerMillionChars": str(args.cost_per_million_chars),
+        "estimatedInputTokens": estimated_input_tokens,
+        "estimatedInputCostUsd": str(estimated_input_cost),
+        "maximumInputTokens": maximum_input_tokens,
+        "maximumOutputTokens": maximum_output_tokens,
+        "maximumInputCostUsd": str(maximum_input_cost),
+        "maximumOutputCostUsd": str(maximum_output_cost),
+        "maximumCostUsd": str(maximum_input_cost + maximum_output_cost),
+        "costBasis": "Gemini TTS provider token limits per request",
         "ttsRequestsPrepared": len(artifacts["chunks"]),
         "prune": args.prune,
         "replaceExisting": args.replace_existing,

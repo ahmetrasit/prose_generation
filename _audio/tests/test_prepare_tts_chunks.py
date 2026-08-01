@@ -180,7 +180,7 @@ class PrepareTtsChunksTest(unittest.TestCase):
         self.assertIn("One joined ttsText per ayah", artifacts["manifest"]["titleHandling"])
         self.assertEqual(
             artifacts["chunks"][4]["ttsText"],
-            "Fatiha 5: إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+            "Fâtiha 5: إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
         )
         self.assertEqual(artifacts["chunks"][4]["kind"], "ayah_recitation")
         self.assertEqual(artifacts["chunks"][4]["text"], "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ")

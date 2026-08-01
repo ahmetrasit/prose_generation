@@ -1,9 +1,14 @@
 import argparse
+import base64
 from decimal import Decimal
 import hashlib
+import io
+import json
 import sys
 import tempfile
 import unittest
+from unittest import mock
+import wave
 from pathlib import Path
 
 
@@ -40,7 +45,7 @@ class SynthesizeTtsChunksTest(unittest.TestCase):
 
             args = argparse.Namespace(
                 confirm_remote="wrong-digest",
-                confirm_cost_usd=preflight["estimatedCostUsd"],
+                confirm_cost_usd=preflight["maximumCostUsd"],
                 max_cost_usd=Decimal("1"),
                 force=False,
                 confirm_force=False,
@@ -53,7 +58,13 @@ class SynthesizeTtsChunksTest(unittest.TestCase):
             collection = self.build_collection(directory)
             first = synth.preflight_collection(collection, limit=1)
             body = first["requestBodies"][first["targetChunks"][0]["chunkId"]]
-            expected = hashlib.sha256(len(body).to_bytes(8, "big") + body).hexdigest()
+            project = synth.DEFAULT_PROJECT_ID.encode("utf-8")
+            expected = hashlib.sha256(
+                len(project).to_bytes(8, "big")
+                + project
+                + len(body).to_bytes(8, "big")
+                + body
+            ).hexdigest()
             self.assertEqual(first["requestDigest"], expected)
 
             request_path = collection / first["targetChunks"][0]["request"]
@@ -214,6 +225,44 @@ class SynthesizeTtsChunksTest(unittest.TestCase):
     def test_redirect_handler_never_returns_a_followup_request(self):
         handler = synth.NoRedirectHandler()
         self.assertIsNone(handler.redirect_request(None, None, 302, "Found", {}, "https://example.com"))
+
+    def test_remote_attempt_automatically_creates_terminal_ledger_entries(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory).resolve()
+            collection = self.build_collection(root)
+            preflight = synth.preflight_collection(collection, limit=1)
+            wav_buffer = io.BytesIO()
+            with wave.open(wav_buffer, "wb") as handle:
+                handle.setnchannels(synth.CHANNELS)
+                handle.setsampwidth(synth.BYTES_PER_SAMPLE)
+                handle.setframerate(synth.SAMPLE_RATE)
+                handle.writeframes(b"\0\0" * 240)
+            response = {
+                "audioContent": base64.b64encode(wav_buffer.getvalue()).decode("ascii")
+            }
+            args = argparse.Namespace(
+                force=False,
+                ledger_dir=root / "ledger",
+                project_id=synth.DEFAULT_PROJECT_ID,
+                limit=1,
+                chunk_ids=None,
+            )
+
+            with mock.patch.object(synth, "get_authorized_token", return_value="token"), \
+                    mock.patch.object(synth, "synthesize", return_value=response), \
+                    mock.patch.object(synth, "materialize_original_mp3"), \
+                    mock.patch.object(synth, "build_section_derivatives"):
+                result = synth.process_collection(
+                    preflight, args, synth._REMOTE_AUTHORIZATION
+                )
+
+            self.assertEqual(result, 0)
+            ledger_path = next((root / "ledger").glob("*.jsonl"))
+            entries = [json.loads(line) for line in ledger_path.read_text().splitlines()]
+            self.assertEqual([entry["event"] for entry in entries], ["attempted", "synthesized"])
+            self.assertEqual(entries[0]["attemptId"], entries[1]["attemptId"])
+            self.assertTrue(entries[0]["possibleNewSpend"])
+            self.assertTrue(entries[1]["newSpend"])
 
 
 if __name__ == "__main__":

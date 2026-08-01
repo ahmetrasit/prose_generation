@@ -1,0 +1,4436 @@
+{
+  "bundle_type": "ayah",
+  "schema_version": "input-bundle-v3",
+  "generated_at": "2026-08-01T06:01:15.632022+00:00",
+  "surah": 35,
+  "ayah": 23,
+  "ayahRef": "35:23",
+  "text": {
+    "arabic_uthmani": "إِنْ أَنتَ إِلَّا نَذِيرٌ",
+    "source": "quran-data/data/text/quran-uthmani.tsv"
+  },
+  "qac_morphemes": [
+    {
+      "qac_ref": "35:23:1:1",
+      "qac_word_ref": "35:23:1",
+      "surah": 35,
+      "ayah": 23,
+      "word_index": 1,
+      "morpheme_index": 1,
+      "surface_bw": "<ino",
+      "surface_ar": "إِنْ",
+      "stem_ar": "إِنْ",
+      "lemma_bw": "<in",
+      "lemma_ar": "إِن",
+      "root_raw": "",
+      "root_ar": "",
+      "root_join_key": "",
+      "source_pos": "NEG",
+      "pos": "NEG",
+      "morpheme_role": "STEM",
+      "morph_features": "STEM|POS:NEG|LEM:<in",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 93392,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    },
+    {
+      "qac_ref": "35:23:2:1",
+      "qac_word_ref": "35:23:2",
+      "surah": 35,
+      "ayah": 23,
+      "word_index": 2,
+      "morpheme_index": 1,
+      "surface_bw": ">anta",
+      "surface_ar": "أَنتَ",
+      "stem_ar": "أَنتَ",
+      "lemma_bw": "",
+      "lemma_ar": "",
+      "root_raw": "",
+      "root_ar": "",
+      "root_join_key": "",
+      "source_pos": "PRON",
+      "pos": "PRON",
+      "morpheme_role": "STEM",
+      "morph_features": "STEM|POS:PRON|2MS",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 93393,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    },
+    {
+      "qac_ref": "35:23:3:1",
+      "qac_word_ref": "35:23:3",
+      "surah": 35,
+      "ayah": 23,
+      "word_index": 3,
+      "morpheme_index": 1,
+      "surface_bw": "<il~aA",
+      "surface_ar": "إِلَّا",
+      "stem_ar": "إِلَّا",
+      "lemma_bw": "<il~aA",
+      "lemma_ar": "إِلَّا",
+      "root_raw": "",
+      "root_ar": "",
+      "root_join_key": "",
+      "source_pos": "RES",
+      "pos": "RES",
+      "morpheme_role": "STEM",
+      "morph_features": "STEM|POS:RES|LEM:<il~aA",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 93394,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    },
+    {
+      "qac_ref": "35:23:4:1",
+      "qac_word_ref": "35:23:4",
+      "surah": 35,
+      "ayah": 23,
+      "word_index": 4,
+      "morpheme_index": 1,
+      "surface_bw": "na*iyrN",
+      "surface_ar": "نَذِيرٌ",
+      "stem_ar": "نَذِيرٌ",
+      "lemma_bw": "na*iyr",
+      "lemma_ar": "نَذِير",
+      "root_raw": "n*r",
+      "root_ar": "ن ذ ر",
+      "root_join_key": "نذر",
+      "source_pos": "N",
+      "pos": "N",
+      "morpheme_role": "STEM",
+      "morph_features": "STEM|POS:N|LEM:na*iyr|ROOT:n*r|M|INDEF|NOM",
+      "aspect": "",
+      "mood": "",
+      "voice": "",
+      "measure": "",
+      "source_line_no": 93395,
+      "source_file_sha256": "a1d12923815341face765083805d2148ed2d9f5cc3f7d6665219d887675d8c46",
+      "parser_version": "qac-build.v0.1"
+    }
+  ],
+  "word_analysis": {
+    "schema_version": "word-analysis-output-v2",
+    "prompt_version": "word-aha-prose-v1.6",
+    "ref": "35:23",
+    "bundle_id": "word-analysis-input-v1:agent:35:23",
+    "words": [
+      {
+        "critical_w": 1,
+        "aligned_qac_word_ref": "35:23:1",
+        "surface_display": "{{ar:إِنْ}} ({{tr:in}})",
+        "root_display": "none",
+        "gloss_range": "negative particle that opens a restriction frame completed by the later exception particle",
+        "root_gloss_range": null,
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "35:23:2"
+            ],
+            "ar": "أَنتَ",
+            "tr": "anta",
+            "display": "{{ar:أَنتَ}} ({{tr:anta}})",
+            "gloss_range": "independent second-person subject held inside the restriction frame",
+            "relation": "grammar"
+          },
+          {
+            "id": "s2",
+            "word_refs": [
+              "35:23:3"
+            ],
+            "ar": "إِلَّا",
+            "tr": "illā",
+            "display": "{{ar:إِلَّا}} ({{tr:illā}})",
+            "gloss_range": "exception particle that completes the restriction frame",
+            "relation": "grammar"
+          },
+          {
+            "id": "s3",
+            "word_refs": [
+              "35:23:4"
+            ],
+            "ar": "نَذِيرٌ",
+            "tr": "nadhīrun",
+            "display": "{{ar:نَذِيرٌ}} ({{tr:nadhīrun}})",
+            "gloss_range": "final warning-role predicate selected by the restriction frame",
+            "relation": "grammar"
+          }
+        ],
+        "prose": "{{ar:إِنْ}} ({{tr:in}}) is the opening negator in a restriction frame, not a conditional marker. It makes exclusion the first processing demand of the ayah and keeps the clause suspended until {{ar:إِلَّا}} ({{tr:illā}}) and {{ar:نَذِيرٌ}} ({{tr:nadhīrun}}) identify the one role left standing. Because its scope reaches the final predicate, the clause does not deny the addressee; it strips away surplus roles and confines the mission to warning. Its small indeclinable form carries clause-level force without lexical description, while the repeated n-sound across {{ar:إِنْ}} ({{tr:in}}), {{ar:أَنتَ}} ({{tr:anta}}), and {{ar:نَذِيرٌ}} ({{tr:nadhīrun}}) makes the grammatical binding audible. After the limit stated in (35:22), this opening turns incapacity language into a positive office boundary.",
+        "topics": [
+          {
+            "topic_id": "35:23:1:restriction-scope",
+            "status": "used",
+            "headline": "opening restriction scope",
+            "representative_source_ids": [
+              "QG-0747ae22",
+              "QG-484ceec0",
+              "MG-67b5f105",
+              "QS-a39b2670"
+            ],
+            "reader_payoff": "The reader notices that the first word opens a clause-wide restriction, not an if-clause or a negation aimed only at the pronoun.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac_word_table:grammar",
+              "attachment:clauses",
+              "attachment:translation_support"
+            ],
+            "reason": "QAC and attachment evidence both identify {{ar:إِنْ}} ({{tr:in}}) as the negative particle in the {{ar:إِنْ}} ({{tr:in}}) ... {{ar:إِلَّا}} ({{tr:illā}}) restriction frame, so the CRITICAL non-conditional and clause-scope claims are locally licensed."
+          },
+          {
+            "topic_id": "35:23:1:delayed-role-landing",
+            "status": "used",
+            "headline": "delayed role landing",
+            "representative_source_ids": [
+              "QI-414469a7",
+              "QT-1f04fecf",
+              "QT-9815f2e1",
+              "MT-8fd8bea4"
+            ],
+            "reader_payoff": "The reader notices that exclusion is heard before the role is named, so the final warning noun lands as the surviving office rather than a bare description.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:exception_scope",
+              "attachment:predication",
+              "critical_words:rows"
+            ],
+            "reason": "The local syntax delays the predicate until after the exception particle, supporting the CRITICAL rows that treat the opening negation as withholding the clause's final force until the role noun appears."
+          },
+          {
+            "topic_id": "35:23:1:fixed-particle-form",
+            "status": "used",
+            "headline": "fixed scope particle",
+            "representative_source_ids": [
+              "QF-e949dec1"
+            ],
+            "reader_payoff": "The reader notices that a rootless two-letter particle can still carry the main clause-level polarity and restriction setup.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac_word_table:source",
+              "qac_word_table:grammar"
+            ],
+            "reason": "The QAC row treats the word as an indeclinable particle with no content root, matching the CRITICAL claim that its force is grammatical scope rather than lexical morphology."
+          },
+          {
+            "topic_id": "35:23:1:nasal-binding",
+            "status": "used",
+            "headline": "nasal binding",
+            "representative_source_ids": [
+              "QP-1099729d"
+            ],
+            "reader_payoff": "The reader notices an audible n-thread tying the negator, addressee, and final warning noun inside one tight restriction frame.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac_word_table:arabic",
+              "critical_words:rows"
+            ],
+            "reason": "The surface sequence contains the repeated n-sound across {{ar:إِنْ}} ({{tr:in}}), {{ar:أَنتَ}} ({{tr:anta}}), and {{ar:نَذِيرٌ}} ({{tr:nadhīrun}}); the topic is kept as phonetic reinforcement, not as an added lexical meaning."
+          },
+          {
+            "topic_id": "35:23:1:boundary-from-35-22",
+            "status": "used",
+            "headline": "boundary shift from (35:22)",
+            "representative_source_ids": [
+              "QB-7a3a53b4"
+            ],
+            "reader_payoff": "The reader notices that the ayah converts the previous denial of making the dead hear (35:22) into a positive definition of the messenger's office.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical_words:rows",
+              "attachment:exception_scope"
+            ],
+            "reason": "The CRITICAL bridge is coherent with the local restriction frame: the ayah begins with negation but resolves it as role confinement rather than mission failure."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-0747ae22",
+            "topic_id": "35:23:1:restriction-scope",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-484ceec0",
+            "topic_id": "35:23:1:restriction-scope",
+            "status": "used"
+          },
+          {
+            "row_id": "MG-67b5f105",
+            "topic_id": "35:23:1:restriction-scope",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-a39b2670",
+            "topic_id": "35:23:1:restriction-scope",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-e949dec1",
+            "topic_id": "35:23:1:fixed-particle-form",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-414469a7",
+            "topic_id": "35:23:1:delayed-role-landing",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-1f04fecf",
+            "topic_id": "35:23:1:delayed-role-landing",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-9815f2e1",
+            "topic_id": "35:23:1:delayed-role-landing",
+            "status": "used"
+          },
+          {
+            "row_id": "MT-8fd8bea4",
+            "topic_id": "35:23:1:delayed-role-landing",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-1099729d",
+            "topic_id": "35:23:1:nasal-binding",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-7a3a53b4",
+            "topic_id": "35:23:1:boundary-from-35-22",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      },
+      {
+        "critical_w": 2,
+        "aligned_qac_word_ref": "35:23:2",
+        "surface_display": "{{ar:أَنتَ}} ({{tr:anta}})",
+        "root_display": "none",
+        "gloss_range": "independent second-person singular pronoun made the explicit subject of the restricted predicate",
+        "root_gloss_range": null,
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "35:23:4"
+            ],
+            "ar": "نَذِيرٌ",
+            "tr": "nadhīrun",
+            "display": "{{ar:نَذِيرٌ}} ({{tr:nadhīrun}})",
+            "gloss_range": "final predicate that classifies the same addressed person",
+            "relation": "grammar"
+          }
+        ],
+        "prose": "{{ar:أَنتَ}} ({{tr:anta}}) keeps the addressed person visible inside the restriction rather than letting the clause become a general statement about warning. As an independent second-person pronoun, it fills its own word-slot between the two particles, so the addressee is the subject whose possible predicates are being narrowed. The ayah therefore does not erase the person addressed; it separates the person from any surplus functions and then lets {{ar:نَذِيرٌ}} ({{tr:nadhīrun}}) name the permitted role. That continuity also carries the direct address from the limit in (35:22) into this role assignment, while the short beats around {{ar:أَنتَ}} ({{tr:anta}}) audibly enclose the addressee before the final noun releases the clause.",
+        "topics": [
+          {
+            "topic_id": "35:23:2:explicit-addressee",
+            "status": "used",
+            "headline": "explicit addressed subject",
+            "representative_source_ids": [
+              "QG-15c066ea",
+              "QG-259d0b57",
+              "MG-a3754737",
+              "QF-cfbbf332"
+            ],
+            "reader_payoff": "The reader notices that the restriction is applied to a definite, directly addressed person, not to a generic category of warners.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac_word_table:grammar",
+              "attachment:cross_references",
+              "attachment:predication"
+            ],
+            "reason": "QAC identifies {{ar:أَنتَ}} ({{tr:anta}}) as an independent second-person masculine singular pronoun, and attachment evidence makes it the predication head for the final noun."
+          },
+          {
+            "topic_id": "35:23:2:agency-delimited-not-denied",
+            "status": "used",
+            "headline": "person affirmed, agency delimited",
+            "representative_source_ids": [
+              "QG-bd6f1681",
+              "QS-40ecdb70",
+              "QS-5613e91a",
+              "QI-4fa9229d",
+              "QY-ff2dfcc7"
+            ],
+            "reader_payoff": "The reader notices that the clause limits what may be predicated of the messenger while keeping the addressed person fully present.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:exception_scope",
+              "attachment:translation_support",
+              "critical_words:rows"
+            ],
+            "reason": "The pronoun stands inside the restriction frame, so the CRITICAL rows are right to read the word as the visible target of role limitation rather than as a denied subject."
+          },
+          {
+            "topic_id": "35:23:2:subject-before-predicate",
+            "status": "used",
+            "headline": "subject held before role",
+            "representative_source_ids": [
+              "QT-de667d3e",
+              "MT-5f77f2b2"
+            ],
+            "reader_payoff": "The reader notices the order holds the addressee in view before the final noun defines the permitted function.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:predication",
+              "attachment:exception_scope"
+            ],
+            "reason": "The word order places {{ar:أَنتَ}} ({{tr:anta}}) before {{ar:إِلَّا}} ({{tr:illā}}) and the delayed predicate, preserving the CRITICAL structural payoff."
+          },
+          {
+            "topic_id": "35:23:2:boundary-continuity",
+            "status": "used",
+            "headline": "continuity from (35:22)",
+            "representative_source_ids": [
+              "QT-9c00e795",
+              "QB-f811f04c"
+            ],
+            "reader_payoff": "The reader notices that the same direct addressee from the preceding limit (35:22) is carried into the new role statement.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:cross_references",
+              "critical_words:rows"
+            ],
+            "reason": "The direct second-person pronoun supports the CRITICAL bridge from the previous boundary into the present restriction without requiring a new referent."
+          },
+          {
+            "topic_id": "35:23:2:enclosed-cadence",
+            "status": "used",
+            "headline": "enclosed cadence",
+            "representative_source_ids": [
+              "QP-e171c615"
+            ],
+            "reader_payoff": "The reader notices that the addressee is audibly enclosed by quick particle-pronoun-particle beats before the longer final noun.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac_word_table:arabic",
+              "critical_words:rows"
+            ],
+            "reason": "The local four-word surface supports the cadence observation as recitational shape, while the topic does not add a separate semantic claim."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-15c066ea",
+            "topic_id": "35:23:2:explicit-addressee",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-259d0b57",
+            "topic_id": "35:23:2:explicit-addressee",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-bd6f1681",
+            "topic_id": "35:23:2:agency-delimited-not-denied",
+            "status": "used"
+          },
+          {
+            "row_id": "MG-a3754737",
+            "topic_id": "35:23:2:explicit-addressee",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-40ecdb70",
+            "topic_id": "35:23:2:agency-delimited-not-denied",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-5613e91a",
+            "topic_id": "35:23:2:agency-delimited-not-denied",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-cfbbf332",
+            "topic_id": "35:23:2:explicit-addressee",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-4fa9229d",
+            "topic_id": "35:23:2:agency-delimited-not-denied",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-9c00e795",
+            "topic_id": "35:23:2:boundary-continuity",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-de667d3e",
+            "topic_id": "35:23:2:subject-before-predicate",
+            "status": "used"
+          },
+          {
+            "row_id": "MT-5f77f2b2",
+            "topic_id": "35:23:2:subject-before-predicate",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-e171c615",
+            "topic_id": "35:23:2:enclosed-cadence",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-f811f04c",
+            "topic_id": "35:23:2:boundary-continuity",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-ff2dfcc7",
+            "topic_id": "35:23:2:agency-delimited-not-denied",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      },
+      {
+        "critical_w": 3,
+        "aligned_qac_word_ref": "35:23:3",
+        "surface_display": "{{ar:إِلَّا}} ({{tr:illā}})",
+        "root_display": "none",
+        "gloss_range": "exception particle that converts prior negation into selection of the following predicate",
+        "root_gloss_range": null,
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "35:23:4"
+            ],
+            "ar": "نَذِيرٌ",
+            "tr": "nadhīrun",
+            "display": "{{ar:نَذِيرٌ}} ({{tr:nadhīrun}})",
+            "gloss_range": "following predicate licensed as the exception to the negated field",
+            "relation": "grammar"
+          }
+        ],
+        "prose": "{{ar:إِلَّا}} ({{tr:illā}}) is the hinge where the opening negation becomes positive selection. It stands as its own particle before {{ar:نَذِيرٌ}} ({{tr:nadhīrun}}), so the final noun is not an afterthought to a completed negative clause; it is the predicate licensed by the exception. The word keeps both sides of the logic visible: exception removes the role noun from the negated field, and restriction makes that surviving role the only asserted office. Its doubled l-sound gives the pivot a compact audible weight, while its position directly before the predicate makes the warning role land as the attribute preserved after exclusion. After the incapacity boundary in (35:22), this particle is the surface turn from denied capacity to defined office.",
+        "topics": [
+          {
+            "topic_id": "35:23:3:predicate-selection",
+            "status": "used",
+            "headline": "predicate selection",
+            "representative_source_ids": [
+              "QG-a561384b",
+              "QG-a60e08be",
+              "MG-1066db8c",
+              "MT-0d53f50e"
+            ],
+            "reader_payoff": "The reader notices that the particle licenses the following noun as the one predicate left standing after negation.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac_word_table:grammar",
+              "attachment:clauses",
+              "attachment:predication"
+            ],
+            "reason": "QAC calls {{ar:إِلَّا}} ({{tr:illā}}) the exception and restriction particle, and the attachment clause marks the whole ayah as an exception scope ending in the predicate."
+          },
+          {
+            "topic_id": "35:23:3:exception-to-restriction",
+            "status": "used",
+            "headline": "exception becomes restriction",
+            "representative_source_ids": [
+              "QS-18ed4503",
+              "QS-b54fcbef",
+              "QI-91125f4c",
+              "QY-a8dedf6e"
+            ],
+            "reader_payoff": "The reader notices that the logic is not loose exclusion but a restriction mechanism that leaves warning as the sole authorized role.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:translation_support",
+              "attachment:exception_scope",
+              "critical_words:rows"
+            ],
+            "reason": "The negative-plus-exception construction is locally licensed, so the CRITICAL claim that exception logic yields role restriction is preserved."
+          },
+          {
+            "topic_id": "35:23:3:separate-audible-hinge",
+            "status": "used",
+            "headline": "separate audible hinge",
+            "representative_source_ids": [
+              "QF-ae8ae526",
+              "QF-f1221bed",
+              "QP-c143a1a3"
+            ],
+            "reader_payoff": "The reader notices the exception point as a distinct recited word with compressed sound before the final noun.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac_word_table:arabic",
+              "critical_words:rows"
+            ],
+            "reason": "The particle is a separate surface word immediately before the predicate, and its doubled consonant supports the recitational hinge claim without adding a new lexical branch."
+          },
+          {
+            "topic_id": "35:23:3:mid-clause-pivot",
+            "status": "used",
+            "headline": "mid-clause pivot",
+            "representative_source_ids": [
+              "QT-c6a6f015",
+              "QT-da00d119",
+              "QB-d4f10c60"
+            ],
+            "reader_payoff": "The reader notices the movement from cancellation before the particle to authorization after it, with the role noun placed at the exclusive landing point.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:exception_scope",
+              "critical_words:rows"
+            ],
+            "reason": "The particle's position between the pronoun and final predicate supports the structural-pivot rows, and the boundary reading coheres with the preceding limit in (35:22)."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-a561384b",
+            "topic_id": "35:23:3:predicate-selection",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-a60e08be",
+            "topic_id": "35:23:3:predicate-selection",
+            "status": "used"
+          },
+          {
+            "row_id": "MG-1066db8c",
+            "topic_id": "35:23:3:predicate-selection",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-18ed4503",
+            "topic_id": "35:23:3:exception-to-restriction",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-b54fcbef",
+            "topic_id": "35:23:3:exception-to-restriction",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-ae8ae526",
+            "topic_id": "35:23:3:separate-audible-hinge",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-f1221bed",
+            "topic_id": "35:23:3:separate-audible-hinge",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-91125f4c",
+            "topic_id": "35:23:3:exception-to-restriction",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-c6a6f015",
+            "topic_id": "35:23:3:mid-clause-pivot",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-da00d119",
+            "topic_id": "35:23:3:mid-clause-pivot",
+            "status": "used"
+          },
+          {
+            "row_id": "MT-0d53f50e",
+            "topic_id": "35:23:3:predicate-selection",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-c143a1a3",
+            "topic_id": "35:23:3:separate-audible-hinge",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-d4f10c60",
+            "topic_id": "35:23:3:mid-clause-pivot",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-a8dedf6e",
+            "topic_id": "35:23:3:exception-to-restriction",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      },
+      {
+        "critical_w": 4,
+        "aligned_qac_word_ref": "35:23:4",
+        "surface_display": "{{ar:نَذِيرٌ}} ({{tr:nadhīrun}})",
+        "root_display": "{{ar:ن ذ ر}} ({{tr:n-dh-r}})",
+        "gloss_range": "personal warning-role predicate: prior notice of danger and accountability, not control over audience response",
+        "root_gloss_range": "primary warning and caution field is locally selected; vow and wound-compensation branches remain root-family background and are not the local predicate sense",
+        "supporting_anchors": [
+          {
+            "id": "s1",
+            "word_refs": [
+              "35:23:2"
+            ],
+            "ar": "أَنتَ",
+            "tr": "anta",
+            "display": "{{ar:أَنتَ}} ({{tr:anta}})",
+            "gloss_range": "independent second-person subject of the final predicate",
+            "relation": "grammar"
+          },
+          {
+            "id": "s2",
+            "word_refs": [
+              "35:23:3"
+            ],
+            "ar": "إِلَّا",
+            "tr": "illā",
+            "display": "{{ar:إِلَّا}} ({{tr:illā}})",
+            "gloss_range": "exception particle directly before the warning-role predicate",
+            "relation": "grammar"
+          }
+        ],
+        "prose": "{{ar:نَذِيرٌ}} ({{tr:nadhīrun}}) is the final content word and the restricted predicate of {{ar:أَنتَ}} ({{tr:anta}}). Because it follows {{ar:إِلَّا}} ({{tr:illā}}), it bears the whole clause weight as the one office left after exclusion: a personal warner, not a coercive controller of response. The objectless predicate names the function without specifying the audience or outcome, so the role is prior notice before consequence rather than management of reception. The advance-scout image makes that notice concrete: the warner alerts like a lookout or rider before harm reaches the camp, but does not become the force producing that harm. Its indefinite nominative form and qualitative pattern make warning a settled role-quality and an open functional class, while the nominal clause frames identity rather than a single act. That nominative predicate also contrasts with the accusative mission complement in (35:24), where the same warning word sits inside sending language rather than serving as the identity predicate. The selected root field is warning that awakens caution; the vow branch can add solemn accountability as background, but local grammar keeps the meaning on warning, not vow-making or wound compensation. Other family forms sharpen the contrast: the ayah does not choose Form II repeated-warning intensity or a more overt Form IV agentive participle like the form used in (13:7); it keeps those pressures as contrast while selecting the qualitative role noun. Unlike (13:7), the restriction here is staged analytically: negation strips alternatives before the exception lets the role land. The ayah also does not speak of plural warning-portents, but concentrates that field into one role-bearer. The same root then sits in a local thread with (35:24), (35:37), and (35:42), while (35:24) immediately expands the compressed role into a fuller sending formula. The final cadence and n-sound reprise make this warning noun the audible resolution of the whole restriction frame.",
+        "topics": [
+          {
+            "topic_id": "35:23:4:restricted-final-predicate",
+            "status": "used",
+            "headline": "restricted final predicate",
+            "representative_source_ids": [
+              "QG-182e1b3e",
+              "QI-3e0a5ea8",
+              "QT-058f6f14",
+              "MT-d06c3a92"
+            ],
+            "reader_payoff": "The reader notices that the final noun carries the whole clause as the only role left after exclusion.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac_word_table:grammar",
+              "attachment:predication",
+              "attachment:exception_scope"
+            ],
+            "reason": "The attachment evidence makes {{ar:نَذِيرٌ}} ({{tr:nadhīrun}}) the predicate of {{ar:أَنتَ}} ({{tr:anta}}) under the exception frame, directly supporting the CRITICAL role-restriction rows."
+          },
+          {
+            "topic_id": "35:23:4:objectless-noncoercive-warning",
+            "status": "used",
+            "headline": "objectless non-coercive warning",
+            "representative_source_ids": [
+              "QG-5dc5bcd7",
+              "QS-664623f3",
+              "QS-8eb45ddf",
+              "QS-d2b3429a",
+              "QB-a67ba147"
+            ],
+            "reader_payoff": "The reader notices warning as advance-scout notice before harm reaches the camp, while reception and outcome remain outside the predicate's control.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:noun_instances",
+              "v4:branches:B001",
+              "attachment:implicit_arguments"
+            ],
+            "reason": "The noun has no expressed object or complement in the attachment data, and V4's selected warning branch supports prior notice and caution without adding coercive power."
+          },
+          {
+            "topic_id": "35:23:4:nominal-role-quality",
+            "status": "used",
+            "headline": "nominal role quality",
+            "representative_source_ids": [
+              "QG-c1866944",
+              "MG-831842cf",
+              "QS-a973e52f",
+              "QF-a5b8783a",
+              "MF-ee68a0ac"
+            ],
+            "reader_payoff": "The reader notices that the word classifies the addressee by a durable warning role rather than narrating one act of warning.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac_word_table:form_tag",
+              "attachment:noun_instances",
+              "contextual:role_profiles_v2"
+            ],
+            "reason": "QAC marks the word as an indefinite nominative qualitative adjective functioning as predicate, supporting the CRITICAL claim that the form presents role-quality rather than a finite event."
+          },
+          {
+            "topic_id": "35:23:4:case-and-class-force",
+            "status": "used",
+            "headline": "case and class force",
+            "representative_source_ids": [
+              "QG-bac0db8a",
+              "QF-72045df8",
+              "QF-f3c9f559",
+              "QY-6196ea84"
+            ],
+            "reader_payoff": "The reader notices that the nominative indefinite ending marks an identity predicate here, unlike the accusative sending complement in (35:24), and lets the role noun close the ayah as an open class assignment.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac_word_table:grammar",
+              "qac_word_table:form_tag",
+              "critical_words:rows"
+            ],
+            "reason": "The QAC grammar identifies the word as nominative and indefinite, and its final position supports the CRITICAL convergence of grammatical predicate and audible closure."
+          },
+          {
+            "topic_id": "35:23:4:compressed-nominal-clause",
+            "status": "used",
+            "headline": "compressed nominal clause",
+            "representative_source_ids": [
+              "QT-7e882da1",
+              "QT-fc2c2b5c"
+            ],
+            "reader_payoff": "The reader notices that the clause moves directly from addressed person to role, with no verbal process inserted between them.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac_word_table:grammar",
+              "attachment:predication"
+            ],
+            "reason": "The local nominal predication supports the CRITICAL rows about identity architecture and compressed person-to-office linkage."
+          },
+          {
+            "topic_id": "35:23:4:root-family-seriousness",
+            "status": "narrowed",
+            "headline": "root-family seriousness",
+            "representative_source_ids": [
+              "QS-3472aa3c",
+              "MS-0a6b44ec"
+            ],
+            "reader_payoff": "The reader notices that the warning carries solemn accountability, while local grammar keeps warning as the selected sense rather than vow-making.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "v4:branches:B001",
+              "v4:branches:B002",
+              "v4:lexical_sense_groups"
+            ],
+            "reason": "V4 accepts both warning and vow branches for {{ar:ن ذ ر}} ({{tr:n-dh-r}}), but the local predicate and attachment to the addressee select the warning branch; the vow field survives only as solemn root-family pressure."
+          },
+          {
+            "topic_id": "35:23:4:personal-warner-not-sign",
+            "status": "used",
+            "headline": "personal warner selected",
+            "representative_source_ids": [
+              "QS-e9c7e08a"
+            ],
+            "reader_payoff": "The reader notices that the word predicates a communicative office of the addressed person, not an omen or abstract warning-sign.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "attachment:predication",
+              "attachment:cross_references",
+              "v4:branches:B001"
+            ],
+            "reason": "Because the noun is predicated of the direct addressee, the personal warner sense is locally selected over an impersonal portent reading."
+          },
+          {
+            "topic_id": "35:23:4:family-form-contrasts",
+            "status": "narrowed",
+            "headline": "family-form contrasts",
+            "representative_source_ids": [
+              "QS-4b489001",
+              "QS-d41e83a1",
+              "QF-549be1c1"
+            ],
+            "reader_payoff": "The reader notices that Form II repeated-warning intensity and Form IV agentive warning are available for contrast, while this ayah selects a qualitative role noun.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "v4:lexical_sense_groups",
+              "qac_word_table:form_tag",
+              "v4:local_form_observations"
+            ],
+            "reason": "The CRITICAL contrasts with intensive or more overtly agentive family forms are useful, but V4 warns that other forms do not activate their branches locally; the surviving payoff is contrast with the selected qualitative noun."
+          },
+          {
+            "topic_id": "35:23:4:singular-over-plural-portents",
+            "status": "narrowed",
+            "headline": "singular role over plural portents",
+            "representative_source_ids": [
+              "QS-e8559376",
+              "QF-d896b124"
+            ],
+            "reader_payoff": "The reader notices the plural warning-portent field as background, while the surface form concentrates the field into one personal role-bearer.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac_word_table:grammar",
+              "v4:branches:B001",
+              "critical_words:rows"
+            ],
+            "reason": "The local word is singular and predicated of the addressee, so plural warning-portents can inform the field only by contrast, not as the local referent."
+          },
+          {
+            "topic_id": "35:23:4:intertext-13-7-contrast",
+            "status": "narrowed",
+            "headline": "contrast with (13:7)",
+            "representative_source_ids": [
+              "QI-213fce1f",
+              "MI-da2879be"
+            ],
+            "reader_payoff": "The reader notices that (13:7) uses a different restriction and agentive warning form, while (35:23) strips alternatives through negation before landing on the qualitative role noun.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical_words:rows",
+              "qac_word_table:form_tag",
+              "attachment:exception_scope"
+            ],
+            "reason": "The cited comparison is concrete and useful, but it is kept as contrast; the form in (13:7) does not govern the local parse of {{ar:نَذِيرٌ}} ({{tr:nadhīrun}})."
+          },
+          {
+            "topic_id": "35:23:4:surah-warning-thread",
+            "status": "used",
+            "headline": "surah warning thread",
+            "representative_source_ids": [
+              "QI-4aace585",
+              "QE-f2709026"
+            ],
+            "reader_payoff": "The reader notices that the role noun belongs to a local warning thread recurring at (35:24), (35:37), and (35:42), with (35:18) also in the warning field.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical_words:rows",
+              "contextual:referent_supplement_profiles_v2"
+            ],
+            "reason": "The CRITICAL rows supply concrete same-surah references, and contextual evidence shows additional same-root profile support without making those contexts control the local sense."
+          },
+          {
+            "topic_id": "35:23:4:next-ayah-expansion",
+            "status": "used",
+            "headline": "compressed then expanded in (35:24)",
+            "representative_source_ids": [
+              "QE-2bdfb003",
+              "ME-cf61c753",
+              "ME-f4d01eeb",
+              "QB-2802d436",
+              "QB-51f1f69c"
+            ],
+            "reader_payoff": "The reader notices that (35:23) compresses the messenger's identity into warning, and (35:24) immediately expands that role into sending language and paired proclamation.",
+            "commentary_obligation": "must_integrate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "critical_words:rows",
+              "attachment:predication"
+            ],
+            "reason": "The next-ayah echo is explicitly cited in the CRITICAL rows; it is interpretive and structural, while the current clause remains grammatically complete."
+          },
+          {
+            "topic_id": "35:23:4:recognized-role-form",
+            "status": "used",
+            "headline": "recognized role form",
+            "representative_source_ids": [
+              "QI-9b2619fc"
+            ],
+            "reader_payoff": "The reader notices that the word reads as a recognized warning-role form rather than an isolated metaphor coined only for this ayah.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "contextual:contextual_summary_v2",
+              "contextual:role_profiles_v2",
+              "contextual:referent_profiles_v2"
+            ],
+            "reason": "The contextual profile shows a sizable qualitative-adjective profile for the root, supporting the CRITICAL distributional payoff while not inventing a new topic."
+          },
+          {
+            "topic_id": "35:23:4:phonetic-resolution",
+            "status": "used",
+            "headline": "phonetic resolution",
+            "representative_source_ids": [
+              "QE-d24c6164",
+              "QP-138cfa48",
+              "QP-f4423e02"
+            ],
+            "reader_payoff": "The reader notices the n-sound reprise and sharper consonantal texture as recitational support for the final warning noun.",
+            "commentary_obligation": "candidate",
+            "blocking_evidence": null,
+            "duplicate_of_topic_id": null,
+            "no_reader_payoff_reason": null,
+            "evidence_checked": [
+              "qac_word_table:arabic",
+              "critical_words:rows"
+            ],
+            "reason": "The phonetic rows match the visible surface sequence and are preserved as sound-shape payoff, not as independent semantic evidence."
+          }
+        ],
+        "critical_row_coverage": [
+          {
+            "row_id": "QG-182e1b3e",
+            "topic_id": "35:23:4:restricted-final-predicate",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-5dc5bcd7",
+            "topic_id": "35:23:4:objectless-noncoercive-warning",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-bac0db8a",
+            "topic_id": "35:23:4:case-and-class-force",
+            "status": "used"
+          },
+          {
+            "row_id": "QG-c1866944",
+            "topic_id": "35:23:4:nominal-role-quality",
+            "status": "used"
+          },
+          {
+            "row_id": "MG-831842cf",
+            "topic_id": "35:23:4:nominal-role-quality",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-3472aa3c",
+            "topic_id": "35:23:4:root-family-seriousness",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-4b489001",
+            "topic_id": "35:23:4:family-form-contrasts",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-664623f3",
+            "topic_id": "35:23:4:objectless-noncoercive-warning",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-8eb45ddf",
+            "topic_id": "35:23:4:objectless-noncoercive-warning",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-a973e52f",
+            "topic_id": "35:23:4:nominal-role-quality",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-d2b3429a",
+            "topic_id": "35:23:4:objectless-noncoercive-warning",
+            "status": "used"
+          },
+          {
+            "row_id": "QS-d41e83a1",
+            "topic_id": "35:23:4:family-form-contrasts",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-e8559376",
+            "topic_id": "35:23:4:singular-over-plural-portents",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QS-e9c7e08a",
+            "topic_id": "35:23:4:personal-warner-not-sign",
+            "status": "used"
+          },
+          {
+            "row_id": "MS-0a6b44ec",
+            "topic_id": "35:23:4:root-family-seriousness",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-549be1c1",
+            "topic_id": "35:23:4:family-form-contrasts",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-72045df8",
+            "topic_id": "35:23:4:case-and-class-force",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-a5b8783a",
+            "topic_id": "35:23:4:nominal-role-quality",
+            "status": "used"
+          },
+          {
+            "row_id": "QF-d896b124",
+            "topic_id": "35:23:4:singular-over-plural-portents",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QF-f3c9f559",
+            "topic_id": "35:23:4:case-and-class-force",
+            "status": "used"
+          },
+          {
+            "row_id": "MF-ee68a0ac",
+            "topic_id": "35:23:4:nominal-role-quality",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-213fce1f",
+            "topic_id": "35:23:4:intertext-13-7-contrast",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QI-3e0a5ea8",
+            "topic_id": "35:23:4:restricted-final-predicate",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-4aace585",
+            "topic_id": "35:23:4:surah-warning-thread",
+            "status": "used"
+          },
+          {
+            "row_id": "QI-9b2619fc",
+            "topic_id": "35:23:4:recognized-role-form",
+            "status": "used"
+          },
+          {
+            "row_id": "MI-da2879be",
+            "topic_id": "35:23:4:intertext-13-7-contrast",
+            "status": "narrowed"
+          },
+          {
+            "row_id": "QT-058f6f14",
+            "topic_id": "35:23:4:restricted-final-predicate",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-7e882da1",
+            "topic_id": "35:23:4:compressed-nominal-clause",
+            "status": "used"
+          },
+          {
+            "row_id": "QT-fc2c2b5c",
+            "topic_id": "35:23:4:compressed-nominal-clause",
+            "status": "used"
+          },
+          {
+            "row_id": "MT-d06c3a92",
+            "topic_id": "35:23:4:restricted-final-predicate",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-2bdfb003",
+            "topic_id": "35:23:4:next-ayah-expansion",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-d24c6164",
+            "topic_id": "35:23:4:phonetic-resolution",
+            "status": "used"
+          },
+          {
+            "row_id": "QE-f2709026",
+            "topic_id": "35:23:4:surah-warning-thread",
+            "status": "used"
+          },
+          {
+            "row_id": "ME-cf61c753",
+            "topic_id": "35:23:4:next-ayah-expansion",
+            "status": "used"
+          },
+          {
+            "row_id": "ME-f4d01eeb",
+            "topic_id": "35:23:4:next-ayah-expansion",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-138cfa48",
+            "topic_id": "35:23:4:phonetic-resolution",
+            "status": "used"
+          },
+          {
+            "row_id": "QP-f4423e02",
+            "topic_id": "35:23:4:phonetic-resolution",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-2802d436",
+            "topic_id": "35:23:4:next-ayah-expansion",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-51f1f69c",
+            "topic_id": "35:23:4:next-ayah-expansion",
+            "status": "used"
+          },
+          {
+            "row_id": "QB-a67ba147",
+            "topic_id": "35:23:4:objectless-noncoercive-warning",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-6196ea84",
+            "topic_id": "35:23:4:case-and-class-force",
+            "status": "used"
+          },
+          {
+            "row_id": "QY-e259d857",
+            "topic_id": "35:23:4:restricted-final-predicate",
+            "status": "used"
+          }
+        ],
+        "dropped_filler_count": 0,
+        "review_notes": []
+      }
+    ]
+  },
+  "word_morpheme_spans": [
+    {
+      "word_index": 0,
+      "surface_ar": "إِنْ",
+      "word_ids": [
+        "w-s035-a023-w001"
+      ],
+      "qac_refs": [
+        "35:23:1:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s035-a023-w001-01"
+      ],
+      "aligned_qac_word_ref_upstream": "35:23:1",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 1,
+      "surface_ar": "أَنتَ",
+      "word_ids": [
+        "w-s035-a023-w002"
+      ],
+      "qac_refs": [
+        "35:23:2:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s035-a023-w002-01"
+      ],
+      "aligned_qac_word_ref_upstream": "35:23:2",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 2,
+      "surface_ar": "إِلَّا",
+      "word_ids": [
+        "w-s035-a023-w003"
+      ],
+      "qac_refs": [
+        "35:23:3:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s035-a023-w003-01"
+      ],
+      "aligned_qac_word_ref_upstream": "35:23:3",
+      "morpheme_skip_count": 0
+    },
+    {
+      "word_index": 3,
+      "surface_ar": "نَذِيرٌ",
+      "word_ids": [
+        "w-s035-a023-w004"
+      ],
+      "qac_refs": [
+        "35:23:4:1"
+      ],
+      "morpheme_ids": [
+        "m-w-s035-a023-w004-01"
+      ],
+      "aligned_qac_word_ref_upstream": "35:23:4",
+      "morpheme_skip_count": 0
+    }
+  ],
+  "branch_inventories": {
+    "full_context_packet": {
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s035/full_context_packet.json",
+      "branch_inventories": [
+        {
+          "root": "ن ذ ر",
+          "branches": [
+            {
+              "branch_id": "B001",
+              "image_ar": "إنذار يخوف فيوقظ الحذر",
+              "image_en": "a warning that awakens fear and caution",
+              "scope_ar": "يدخل فيه الإنذار والإبلاغ بما يخاف منه، والنذير المنذر أو الإنذار، والنذر جمع نذير أو مصدر الإنذار، والتناذر، وأن يعلم القوم بالخطر فيحذروا، ومثل النذير العريان ونذيرة الجيش.",
+              "scope_en": "Includes warning or informing about something feared, the warner or warning, plural warnings, mutual warning, becoming aware of danger and taking caution, and warning-scout or proverbial uses.",
+              "variants": [
+                {
+                  "root_id": "root_001488",
+                  "source_path": "v4/outputs/pass2_branches/root_001488.branches.tsv",
+                  "image_ar": "إنذار يخوف فيوقظ الحذر",
+                  "image_en": "a warning that awakens fear and caution",
+                  "scope_ar": "يدخل فيه الإنذار والإبلاغ بما يخاف منه، والنذير المنذر أو الإنذار، والنذر جمع نذير أو مصدر الإنذار، والتناذر، وأن يعلم القوم بالخطر فيحذروا، ومثل النذير العريان ونذيرة الجيش.",
+                  "scope_en": "Includes warning or informing about something feared, the warner or warning, plural warnings, mutual warning, becoming aware of danger and taking caution, and warning-scout or proverbial uses."
+                }
+              ]
+            },
+            {
+              "branch_id": "B002",
+              "image_ar": "إلزام النفس بما لم يكن واجبا",
+              "image_en": "binding oneself to an otherwise non-obligatory vow",
+              "scope_ar": "يدخل فيه النذر الذي يوجبه المرء على نفسه لله أو على شرط، وما يسمى نذرا لأنه أوجب أو صار واجبا.",
+              "scope_en": "Includes a vow or undertaking by which a person makes something binding on himself, especially for God or on a condition, and the broader sense of making obligatory.",
+              "variants": [
+                {
+                  "root_id": "root_001488",
+                  "source_path": "v4/outputs/pass2_branches/root_001488.branches.tsv",
+                  "image_ar": "إلزام النفس بما لم يكن واجبا",
+                  "image_en": "binding oneself to an otherwise non-obligatory vow",
+                  "scope_ar": "يدخل فيه النذر الذي يوجبه المرء على نفسه لله أو على شرط، وما يسمى نذرا لأنه أوجب أو صار واجبا.",
+                  "scope_en": "Includes a vow or undertaking by which a person makes something binding on himself, especially for God or on a condition, and the broader sense of making obligatory."
+                }
+              ]
+            },
+            {
+              "branch_id": "B003",
+              "image_ar": "جرح له عقل واجب",
+              "image_en": "a wound with an obligatory compensation",
+              "scope_ar": "يدخل فيه استعمال النذر للدية أو الأرش الواجب في الجراحات، ولا سيما الموضحة والمنطاة، حيث يكون للجرح عقل واجب.",
+              "scope_en": "Includes the legal or tribal use of nadh r for compensation due for wounds, such as the prescribed payment for a wound.",
+              "variants": [
+                {
+                  "root_id": "root_001488",
+                  "source_path": "v4/outputs/pass2_branches/root_001488.branches.tsv",
+                  "image_ar": "جرح له عقل واجب",
+                  "image_en": "a wound with an obligatory compensation",
+                  "scope_ar": "يدخل فيه استعمال النذر للدية أو الأرش الواجب في الجراحات، ولا سيما الموضحة والمنطاة، حيث يكون للجرح عقل واجب.",
+                  "scope_en": "Includes the legal or tribal use of nadh r for compensation due for wounds, such as the prescribed payment for a wound."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "v12_reader_responses": {},
+  "v12_focus_trace_hermetic": {
+    "packet_summary": {
+      "source_file": "latent_activation/focus_trace/runs/s35/packets/35_23.packet.json",
+      "protocol": "focus-trace-pericope-lean-v1",
+      "focus_ref": "35:23",
+      "window": [
+        "35:1",
+        "35:2",
+        "35:3",
+        "35:4",
+        "35:5",
+        "35:6",
+        "35:7",
+        "35:8",
+        "35:9",
+        "35:10",
+        "35:11",
+        "35:12",
+        "35:13",
+        "35:14",
+        "35:15",
+        "35:16",
+        "35:17",
+        "35:18",
+        "35:19",
+        "35:20",
+        "35:21",
+        "35:22",
+        "35:23",
+        "35:24",
+        "35:25",
+        "35:26",
+        "35:27",
+        "35:28",
+        "35:29",
+        "35:30",
+        "35:31",
+        "35:32",
+        "35:33",
+        "35:34",
+        "35:35",
+        "35:36",
+        "35:37",
+        "35:38",
+        "35:39",
+        "35:40",
+        "35:41",
+        "35:42",
+        "35:43",
+        "35:44",
+        "35:45"
+      ],
+      "ayah_count": 45,
+      "split_root_mappings": []
+    },
+    "readers": {
+      "reader_hft_a": {
+        "protocol": "focus-trace-hermetic-response-v4",
+        "reader_id": "reader_hft_a",
+        "focus_ref": "35:23",
+        "trace_kind": "reconstructed",
+        "baseline_models": [
+          {
+            "model_id": "baseline_alerting_office",
+            "confidence": "strong",
+            "focus_anchor": "The restrictive construction and the sole rooted noun at word 4 present the addressee as a nadhir.",
+            "mechanism": "A danger notice is delivered so that caution can awaken; the restriction confines the addressee-facing function to giving that alert.",
+            "activation_trace": [
+              {
+                "source_ref": "35:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Threat-notice that awakens caution supplies both the literal warning and its alerting function in the clause."
+              }
+            ],
+            "changed_reading": {
+              "before": "A flat occupational label: you are a warner.",
+              "after": "A bounded communicative office: your act is to place a danger signal before hearers so that caution can begin."
+            }
+          },
+          {
+            "model_id": "baseline_self_bound_duty",
+            "confidence": "exploratory",
+            "focus_anchor": "The root at word 4 also carries a form-distant self-obligation branch, while the restrictive syntax presents a person confined to one charge.",
+            "mechanism": "At root level, self-binding obligation faintly recasts the title as an undertaken duty to keep warning, not merely a description of message content.",
+            "activation_trace": [
+              {
+                "source_ref": "35:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B002",
+                "role": "Self-imposed obligation supplies an exploratory duty-frame for the restrictive identification."
+              }
+            ],
+            "changed_reading": {
+              "before": "The noun only names what the addressee is.",
+              "after": "The root resonance also lets the line portray him as held to a singular warning-duty, though this is not the noun's direct lexical sense here."
+            }
+          }
+        ],
+        "context_deltas": [
+          {
+            "model_id": "delta_counter_deceptive_seeing",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "غ ر ر",
+              "ز ي ن",
+              "ر ء ي"
+            ],
+            "mechanism": "Warning becomes a counter-perceptual intervention: it interrupts an attractive but unstable surface before mis-seeing bad action as good can settle into conduct.",
+            "activation_trace": [
+              {
+                "source_ref": "35:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The caution-awakening alert anchors the focus as an intervention in risk perception."
+              },
+              {
+                "source_ref": "35:5",
+                "root": "غ ر ر",
+                "source_word_indices": [
+                  "8",
+                  "12",
+                  "14"
+                ],
+                "mapped_root_id": "root_001078",
+                "branch_id": "B008",
+                "role": "Deception by what gleams without holding supplies the misleading surface that the alert must puncture."
+              },
+              {
+                "source_ref": "35:8",
+                "root": "ز ي ن",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000660",
+                "branch_id": "B002",
+                "role": "Making something appear beautiful supplies the active cosmetic operation by which bad action gains appeal."
+              },
+              {
+                "source_ref": "35:8",
+                "root": "ر ء ي",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000531",
+                "branch_id": "B001",
+                "role": "Seeing by eye or insight supplies the uptake point where the beautified act is accepted as good."
+              }
+            ],
+            "structural_cues": [
+              "35:5 repeats the prohibition against deception, and 35:8 stages beautification, perception as good, and the addressee's grief before the focus restriction."
+            ],
+            "reader_inference": "The packet supplies deceptive shine, beautification, and seeing evil as good; I infer that warning counter-calibrates perception rather than merely adding threat information. A live alternative is that it only announces the outcome while guidance remains a separate act.",
+            "changed_reading": {
+              "before": "The warner reports an external danger.",
+              "after": "The warner also disrupts the visual and evaluative process by which danger has been made to look desirable."
+            }
+          },
+          {
+            "model_id": "delta_nontransferable_response",
+            "status": "strengthened",
+            "confidence": "strong",
+            "trigger_roots": [
+              "و ز ر",
+              "ح م ل",
+              "ن ذ ر",
+              "خ ش ي",
+              "ز ك و",
+              "ن ف س"
+            ],
+            "mechanism": "The warning addresses an agent whose burden and purification remain personal: the messenger can awaken caution but cannot carry, cleanse, or answer in the recipient's place.",
+            "activation_trace": [
+              {
+                "source_ref": "35:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The alert that awakens caution supplies the messenger's bounded contribution to another person's response."
+              },
+              {
+                "source_ref": "35:18",
+                "root": "و ز ر",
+                "source_word_indices": [
+                  "2",
+                  "3",
+                  "4"
+                ],
+                "mapped_root_id": "root_001643",
+                "branch_id": "B002",
+                "role": "A heavy burden supplies the responsibility that cannot be transferred from one moral agent to another."
+              },
+              {
+                "source_ref": "35:18",
+                "root": "ح م ل",
+                "source_word_indices": [
+                  "10",
+                  "12"
+                ],
+                "mapped_root_id": "root_000357",
+                "branch_id": "B003",
+                "role": "Bearing an entrusted burden supplies the blocked substitution: even a called helper does not assume it."
+              },
+              {
+                "source_ref": "35:18",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "20"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The explicit act of warning links the focus office to recipients characterized by awakened caution."
+              },
+              {
+                "source_ref": "35:18",
+                "root": "خ ش ي",
+                "source_word_indices": [
+                  "22"
+                ],
+                "mapped_root_id": "root_000413",
+                "branch_id": "B001",
+                "role": "Fear joined with awe supplies the receptive orientation in which the warning takes effect."
+              },
+              {
+                "source_ref": "35:18",
+                "root": "ز ك و",
+                "source_word_indices": [
+                  "28",
+                  "30"
+                ],
+                "mapped_root_id": "root_000637",
+                "branch_id": "B002",
+                "role": "Purification and rectification supply the response that the recipient must perform rather than receive by proxy."
+              },
+              {
+                "source_ref": "35:18",
+                "root": "ن ف س",
+                "source_word_indices": [
+                  "31"
+                ],
+                "mapped_root_id": "root_001533",
+                "branch_id": "B012",
+                "role": "The very self of the person supplies the beneficiary and owner of purification."
+              }
+            ],
+            "structural_cues": [
+              "35:18 moves from repeated burden non-transfer, through 'you warn only', to repeated self-purification for oneself."
+            ],
+            "reader_inference": "The packet supplies non-transferable burden, selective warning, and self-benefiting purification; I infer that the restriction in 35:23 bounds the messenger's agency at the edge of the recipient's own response. A live alternative is that 35:18 concerns final liability without directly defining messenger agency.",
+            "changed_reading": {
+              "before": "The restriction merely limits the speaker's job description.",
+              "after": "It marks an ethical boundary: warning can address and awaken, but response, burden, and purification remain the hearer's own."
+            }
+          },
+          {
+            "model_id": "delta_reception_not_compulsion",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ع م ي",
+              "ب ص ر",
+              "ح ي ي",
+              "م و ت",
+              "س م ع",
+              "ق ب ر"
+            ],
+            "mechanism": "The warning is a perceptible signal, not a power that manufactures perception, life, or compliance; paired capacities and their absences determine uptake.",
+            "activation_trace": [
+              {
+                "source_ref": "35:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The danger signal supplies communicative input while leaving the hearer's receptive capacity outside the office."
+              },
+              {
+                "source_ref": "35:19",
+                "root": "ع م ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_001049",
+                "branch_id": "B001",
+                "role": "Loss of sight supplies one pole of the immediate capacity contrast."
+              },
+              {
+                "source_ref": "35:19",
+                "root": "ب ص ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000121",
+                "branch_id": "B001",
+                "role": "Actual seeing supplies the contrasted capacity by which a disclosed distinction can be taken in."
+              },
+              {
+                "source_ref": "35:22",
+                "root": "ح ي ي",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000383",
+                "branch_id": "B003",
+                "role": "Possession of life supplies the responsive side of the living/dead contrast."
+              },
+              {
+                "source_ref": "35:22",
+                "root": "م و ت",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_001454",
+                "branch_id": "B001",
+                "role": "Loss of force and life supplies the extreme image of unavailable uptake."
+              },
+              {
+                "source_ref": "35:22",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "8",
+                  "13"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B004",
+                "role": "Causing another to hear supplies the precise causal power denied to the addressee."
+              },
+              {
+                "source_ref": "35:22",
+                "root": "س م ع",
+                "source_word_indices": [
+                  "8",
+                  "13"
+                ],
+                "mapped_root_id": "root_000741",
+                "branch_id": "B003",
+                "role": "Understanding and complying extend hearing beyond acoustics and make the denied uptake socially consequential."
+              },
+              {
+                "source_ref": "35:22",
+                "root": "ق ب ر",
+                "source_word_indices": [
+                  "16"
+                ],
+                "mapped_root_id": "root_001195",
+                "branch_id": "B001",
+                "role": "Burial of the dead supplies the terminal spatial image for hearers beyond the warner's causal reach."
+              }
+            ],
+            "structural_cues": [
+              "The paired contrasts of 35:19-22 culminate in inability to make grave-dwellers hear, immediately before the restrictive focus clause."
+            ],
+            "reader_inference": "The packet supplies paired capacities and the explicit inability to make those in graves hear; I infer that warning transmits a signal but cannot create receptive life or compliance. A live alternative is that the grave image is strictly eschatological rather than an analogy for present moral unresponsiveness.",
+            "changed_reading": {
+              "before": "A successful warning should make its audience change.",
+              "after": "The office is fulfilled by making the alert available; actual hearing and compliance depend on a receptivity the warner cannot compel."
+            }
+          },
+          {
+            "model_id": "delta_scope_and_universal_office",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ر س ل",
+              "ح ق ق",
+              "ب ش ر",
+              "ن ذ ر",
+              "ء م م",
+              "خ ل و"
+            ],
+            "mechanism": "The next ayah expands the restricted identity into a truth-backed, recurrent messenger office that carries both good news and warning to communities across passing generations.",
+            "activation_trace": [
+              {
+                "source_ref": "35:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The warning alert remains the focus-side office whose scope is revised by the adjacent expansion."
+              },
+              {
+                "source_ref": "35:24",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B002",
+                "role": "Messenger and message supply the commissioned relay framework rather than autonomous control."
+              },
+              {
+                "source_ref": "35:24",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B001",
+                "role": "Stable correspondence with reality supplies the warrant carried by the paired announcements."
+              },
+              {
+                "source_ref": "35:24",
+                "root": "ب ش ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000120",
+                "branch_id": "B005",
+                "role": "Joy-opening news supplies the positive pole that prevents 'only a warner' from excluding all favorable content."
+              },
+              {
+                "source_ref": "35:24",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "5",
+                  "12"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "Repeated warning links the individual commission to the recurrent office present among communities."
+              },
+              {
+                "source_ref": "35:24",
+                "root": "ء م م",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_000053",
+                "branch_id": "B004",
+                "role": "A community as a gathered human kind supplies the social unit repeatedly reached by warning."
+              },
+              {
+                "source_ref": "35:24",
+                "root": "خ ل و",
+                "source_word_indices": [
+                  "10"
+                ],
+                "mapped_root_id": "root_000436",
+                "branch_id": "B003",
+                "role": "Passing time and departed generations supply the historical recurrence of the office."
+              }
+            ],
+            "structural_cues": [
+              "35:24 immediately repeats the focus noun, pairs it with good news, and uses another negation-exception construction for every community."
+            ],
+            "reader_inference": "The packet supplies the adjacent pairing of good news and warning, a truth-backed sending, and warning in every community; I infer that the focus restriction primarily limits human status and causal agency rather than limiting all message content to threat. A live alternative is that 35:23 locally foregrounds the warning side even though 35:24 states the fuller mission.",
+            "changed_reading": {
+              "before": "Only a warner means the addressee carries no positive announcement and occupies a reduced role.",
+              "after": "Only a warner limits him to commissioned communication rather than outcome-control; that office is truth-backed, includes a paired positive announcement, and recurs across communities."
+            }
+          },
+          {
+            "model_id": "delta_informed_caution",
+            "status": "revised",
+            "confidence": "medium",
+            "trigger_roots": [
+              "ل و ن",
+              "خ ش ي",
+              "ع ل م"
+            ],
+            "mechanism": "The alert's fear-awakening function is refined into informed caution: attention to differentiated kinds discloses a pattern, and knowledge rather than raw alarm matures into awe.",
+            "activation_trace": [
+              {
+                "source_ref": "35:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The warning that awakens caution supplies the affective movement later disciplined by observation and knowledge."
+              },
+              {
+                "source_ref": "35:27",
+                "root": "ل و ن",
+                "source_word_indices": [
+                  "13",
+                  "20"
+                ],
+                "mapped_root_id": "root_001387",
+                "branch_id": "B002",
+                "role": "Distinct kinds supply observable differentiation rather than an undivided field of signs."
+              },
+              {
+                "source_ref": "35:28",
+                "root": "ل و ن",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001387",
+                "branch_id": "B002",
+                "role": "Kinds differentiated among living beings extend the perceptual field from landscape to social and animal life."
+              },
+              {
+                "source_ref": "35:28",
+                "root": "خ ش ي",
+                "source_word_indices": [
+                  "9"
+                ],
+                "mapped_root_id": "root_000413",
+                "branch_id": "B001",
+                "role": "Fear with awe supplies the mature caution toward which warning points."
+              },
+              {
+                "source_ref": "35:28",
+                "root": "ع ل م",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_001040",
+                "branch_id": "B001",
+                "role": "Disclosure to the knower supplies the cognitive condition that turns alarm into discerning awe."
+              }
+            ],
+            "structural_cues": [
+              "35:27-28 accumulate visible differences and end by restricting awe to those who know, echoing the focus verse's restrictive form."
+            ],
+            "reader_inference": "The packet supplies differentiated kinds followed by knowledge-conditioned awe; I infer that warning trains discriminating attention so its fear is epistemic rather than panic. A live alternative is that the knowledge-awe relation concerns creation directly and does not describe how warning works.",
+            "changed_reading": {
+              "before": "Warning frightens by announcing danger.",
+              "after": "Warning can educate attention until patterned difference becomes knowledge and danger-awareness matures into reverent caution."
+            }
+          },
+          {
+            "model_id": "delta_finite_decision_window",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ء خ ذ",
+              "ص ل ح",
+              "ع م ر",
+              "ذ ك ر",
+              "ن ذ ر",
+              "ك س ب",
+              "ء ج ل"
+            ],
+            "mechanism": "Warning opens a finite interval for recollection and repaired action; after adequate lifetime and evidentiary notice, taking-to-account answers acquired conduct at its appointed limit.",
+            "activation_trace": [
+              {
+                "source_ref": "35:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The caution-awakening notice anchors the focus as an intervention delivered before the response interval closes."
+              },
+              {
+                "source_ref": "35:26",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B002",
+                "role": "Being taken to account for wrongdoing supplies the consequence that follows the messenger-and-evidence sequence."
+              },
+              {
+                "source_ref": "35:37",
+                "root": "ص ل ح",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000876",
+                "branch_id": "B001",
+                "role": "Rectitude opposed to corruption supplies the changed action requested only after the opportunity has passed."
+              },
+              {
+                "source_ref": "35:37",
+                "root": "ع م ر",
+                "source_word_indices": [
+                  "13"
+                ],
+                "mapped_root_id": "root_001044",
+                "branch_id": "B001",
+                "role": "Extended life in time supplies the duration in which warning could become response."
+              },
+              {
+                "source_ref": "35:37",
+                "root": "ذ ك ر",
+                "source_word_indices": [
+                  "15",
+                  "18"
+                ],
+                "mapped_root_id": "root_000516",
+                "branch_id": "B003",
+                "role": "Bringing something back to mind supplies the cognitive action made possible during that duration."
+              },
+              {
+                "source_ref": "35:37",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "20"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The warner's arrival supplies concrete notice within the remembered lifetime, not an abstract future threat."
+              },
+              {
+                "source_ref": "35:45",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B001",
+                "role": "Acquiring what one pursues supplies personal ownership of the conduct answered at judgment."
+              },
+              {
+                "source_ref": "35:45",
+                "root": "ء ج ل",
+                "source_word_indices": [
+                  "16",
+                  "20"
+                ],
+                "mapped_root_id": "root_000016",
+                "branch_id": "B001",
+                "role": "A fixed temporal limit supplies the closing boundary of the response window."
+              }
+            ],
+            "structural_cues": [
+              "35:25-26 place taking after messengers and evidence; 35:37 joins sufficient lifetime, remembrance, the warner's arrival, and a too-late request to act differently; 35:45 ends with deferment to a named term."
+            ],
+            "reader_inference": "The packet supplies notice before taking, adequate lifespan, recollection, a late request for repaired action, and deferment to a term; I infer that warning opens a finite decision interval and later closes an excuse. A live alternative is that warning functions only as retrospective evidence, not as the cause of an opportunity.",
+            "changed_reading": {
+              "before": "The warning predicts a later consequence.",
+              "after": "The warning is timed prior notice that makes present recollection and changed action possible before an appointed closure."
+            }
+          },
+          {
+            "model_id": "delta_diagnostic_reversal",
+            "status": "revised",
+            "confidence": "strong",
+            "trigger_roots": [
+              "ن ذ ر",
+              "ن ف ر",
+              "ح ي ق",
+              "س ن ن",
+              "س ي ر",
+              "ع ق ب"
+            ],
+            "mechanism": "The warner's arrival becomes a diagnostic event: it tests advance claims, exposes withdrawal, and places that response inside a recurring pattern whose plotted harm circles back and whose outcome remains inspectable.",
+            "activation_trace": [
+              {
+                "source_ref": "35:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The alert anchors the event whose reception, rather than mere delivery, reveals the audience's orientation."
+              },
+              {
+                "source_ref": "35:42",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "7",
+                  "15"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The twice-mentioned warner supplies the before-and-after hinge between promised guidance and actual reaction."
+              },
+              {
+                "source_ref": "35:42",
+                "root": "ن ف ر",
+                "source_word_indices": [
+                  "19"
+                ],
+                "mapped_root_id": "root_001532",
+                "branch_id": "B001",
+                "role": "Drawing away from a thing supplies the revealed direction of the audience's response."
+              },
+              {
+                "source_ref": "35:43",
+                "root": "ح ي ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000381",
+                "branch_id": "B001",
+                "role": "Harm descending upon and enclosing its source supplies the reversal by which resistance returns on its makers."
+              },
+              {
+                "source_ref": "35:43",
+                "root": "س ن ن",
+                "source_word_indices": [
+                  "15",
+                  "19",
+                  "24"
+                ],
+                "mapped_root_id": "root_000750",
+                "branch_id": "B001",
+                "role": "A running, followed way supplies the recurrent historical pattern into which this reaction falls."
+              },
+              {
+                "source_ref": "35:44",
+                "root": "س ي ر",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000769",
+                "branch_id": "B001",
+                "role": "Moving through the land supplies the active audit by which the pattern can be inspected."
+              },
+              {
+                "source_ref": "35:44",
+                "root": "ع ق ب",
+                "source_word_indices": [
+                  "8"
+                ],
+                "mapped_root_id": "root_001033",
+                "branch_id": "B006",
+                "role": "The end and outcome of a process supply the historical result exposed to inspection."
+              }
+            ],
+            "structural_cues": [
+              "35:42 contrasts a pre-arrival oath with post-arrival aversion; 35:43-44 then move through self-returning plot, an invariant historical way, travel, and observed outcome."
+            ],
+            "reader_inference": "The packet supplies a claimed readiness, the warner's arrival, increased aversion, enclosing harm, and an inspectable historical pattern; I infer that warning applies diagnostic pressure that reveals orientation. A live alternative is that warning only precedes, rather than exposes or intensifies, independently motivated arrogance.",
+            "changed_reading": {
+              "before": "Warning is successful only when it persuades.",
+              "after": "Warning also tests prior claims and makes refusal historically legible; aversion can reveal the hearer even when persuasion fails."
+            }
+          }
+        ],
+        "surprising_valid_outliers": [
+          {
+            "outlier_id": "outlier_oath_mirror",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it activates the root's vow branch beneath a surface that directly denotes a warner. It remains anchored through the focus root and becomes live when 35:42 surrounds two occurrences of the same noun with strenuous oath language and then broken behavioral expectation. Render it only as root-level resonance: it does not replace the lexical sense of nadhir with 'vow'.",
+            "focus_anchor": "The n-dh-r root at focus word 4 and its self-obligation branch, sharpened by the restrictive presentation of a singular duty.",
+            "activation_trace": [
+              {
+                "source_ref": "35:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B002",
+                "role": "Self-binding obligation supplies the faint duty resonance within the focus title."
+              },
+              {
+                "source_ref": "35:42",
+                "root": "ق س م",
+                "source_word_indices": [
+                  "1"
+                ],
+                "mapped_root_id": "root_001226",
+                "branch_id": "B004",
+                "role": "A formally allotted oath supplies the audience's explicit self-binding claim before the warner arrives."
+              },
+              {
+                "source_ref": "35:42",
+                "root": "ج ه د",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000268",
+                "branch_id": "B001",
+                "role": "Exerting full capacity under strain supplies the stated intensity of that oath."
+              },
+              {
+                "source_ref": "35:42",
+                "root": "ي م ن",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001698",
+                "branch_id": "B003",
+                "role": "The oath sense supplies an unambiguous context activator for the root-distant self-obligation branch."
+              },
+              {
+                "source_ref": "35:42",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "7",
+                  "15"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B002",
+                "role": "The repeated root beside the oath language creates a mirror between the warner's steady charge and the audience's failed self-binding promise."
+              },
+              {
+                "source_ref": "35:42",
+                "root": "ن ف ر",
+                "source_word_indices": [
+                  "19"
+                ],
+                "mapped_root_id": "root_001532",
+                "branch_id": "B001",
+                "role": "Withdrawal from the arrived warner supplies the behavioral collapse of the prior oath."
+              }
+            ],
+            "changed_reading": {
+              "before": "The focus gives only an occupational warning title.",
+              "after": "At root-resonance level, it also stages asymmetrical obligation: the warning-duty holds steady while the audience's sworn readiness fails on contact."
+            }
+          },
+          {
+            "outlier_id": "outlier_assessed_liability",
+            "confidence": "exploratory",
+            "containment": "This is surprising because the root branch concerns a wound carrying mandatory compensation, far from the direct sense of the focus noun. It remains anchored in n-dh-r and is activated by the sequence of truth-backed warning, taking for wrongdoing, sufficient time to remember, earned conduct, and an appointed term. Render it as a juridical-material analogy in which prior notice makes liability assessable, never as a claim that the noun literally means wound or compensation here.",
+            "focus_anchor": "The n-dh-r root at focus word 4 through its assessed-wound branch, with the focus restriction isolating the act that precedes accounting.",
+            "activation_trace": [
+              {
+                "source_ref": "35:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B003",
+                "role": "A wound carrying an obligatory assessed claim supplies the exploratory analogy of warning as liability-marking notice."
+              },
+              {
+                "source_ref": "35:24",
+                "root": "ح ق ق",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000347",
+                "branch_id": "B002",
+                "role": "A fixed obligation or entitlement supplies the juridical edge of the truth-backed commission."
+              },
+              {
+                "source_ref": "35:26",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B002",
+                "role": "Taking for wrongdoing supplies enforcement after the warning-and-evidence sequence."
+              },
+              {
+                "source_ref": "35:37",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "20"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B003",
+                "role": "The warning's arrival during sufficient lifetime supplies prior notice within the liability analogy."
+              },
+              {
+                "source_ref": "35:45",
+                "root": "ء خ ذ",
+                "source_word_indices": [
+                  "2"
+                ],
+                "mapped_root_id": "root_000018",
+                "branch_id": "B002",
+                "role": "Accountability-taking for wrongdoing supplies the later claim made legible by prior notice."
+              },
+              {
+                "source_ref": "35:45",
+                "root": "ك س ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_001296",
+                "branch_id": "B001",
+                "role": "Personal acquisition supplies the acts to which the assessed consequence attaches."
+              },
+              {
+                "source_ref": "35:45",
+                "root": "ء ج ل",
+                "source_word_indices": [
+                  "16",
+                  "20"
+                ],
+                "mapped_root_id": "root_000016",
+                "branch_id": "B001",
+                "role": "A fixed term supplies the due boundary at which deferred accounting arrives."
+              }
+            ],
+            "changed_reading": {
+              "before": "Warning is information about possible harm.",
+              "after": "As a contained branch analogy, warning also marks a claim before enforcement, making later accountability for acquired acts assessable rather than unannounced."
+            }
+          },
+          {
+            "outlier_id": "outlier_dispatched_weather_signal",
+            "confidence": "exploratory",
+            "containment": "This is surprising because it maps a speech office onto the material movement of wind, cloud, and revived land. It remains anchored in the focus warning branch and in 35:9's chain of sending, stirring, driving, and enlivening; 35:22 prevents treating the analogy as guaranteed conversion. Render it as a transport-and-activation model for how an alert enters a receptive field, not as the lexical meaning of nadhir or a claim that the messenger gives life.",
+            "focus_anchor": "The focus noun as a delivered caution-awakening signal whose effect depends on the field it enters.",
+            "activation_trace": [
+              {
+                "source_ref": "35:23",
+                "root": "ن ذ ر",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_001488",
+                "branch_id": "B001",
+                "role": "The delivered danger signal supplies the focus-side element compared with a moving atmospheric activation."
+              },
+              {
+                "source_ref": "35:9",
+                "root": "ر س ل",
+                "source_word_indices": [
+                  "3"
+                ],
+                "mapped_root_id": "root_000563",
+                "branch_id": "B001",
+                "role": "Dispatch and outward movement supply the first transport step of the material analogy."
+              },
+              {
+                "source_ref": "35:9",
+                "root": "ر و ح",
+                "source_word_indices": [
+                  "4"
+                ],
+                "mapped_root_id": "root_000609",
+                "branch_id": "B003",
+                "role": "Moving wind supplies the carrier that crosses space before any visible result."
+              },
+              {
+                "source_ref": "35:9",
+                "root": "ث و ر",
+                "source_word_indices": [
+                  "5"
+                ],
+                "mapped_root_id": "root_000210",
+                "branch_id": "B002",
+                "role": "Stirring a thing from its place supplies latent activation rather than completed transformation."
+              },
+              {
+                "source_ref": "35:9",
+                "root": "س ح ب",
+                "source_word_indices": [
+                  "6"
+                ],
+                "mapped_root_id": "root_000680",
+                "branch_id": "B002",
+                "role": "A cloud drawn along supplies the gathered medium made mobile by the dispatched wind."
+              },
+              {
+                "source_ref": "35:9",
+                "root": "س و ق",
+                "source_word_indices": [
+                  "7"
+                ],
+                "mapped_root_id": "root_000762",
+                "branch_id": "B001",
+                "role": "Driving onward supplies directional transfer toward the field that may receive the effect."
+              },
+              {
+                "source_ref": "35:9",
+                "root": "ح ي ي",
+                "source_word_indices": [
+                  "11"
+                ],
+                "mapped_root_id": "root_000383",
+                "branch_id": "B002",
+                "role": "Land coming alive through rain and growth supplies the endpoint that motivates, but does not guarantee, the warning analogy."
+              }
+            ],
+            "changed_reading": {
+              "before": "The warning is a static utterance aimed at an individual hearer.",
+              "after": "As a contained material analogy, it is a dispatched signal that travels, stirs dormant potential, and drives toward response while remaining distinct from the power that gives life."
+            }
+          }
+        ],
+        "summary": {
+          "strongest_changes": [
+            "The adjacent pairing of good news and warning moves the focus restriction away from threat-only content and toward bounded messenger agency within a universal office.",
+            "The burden, purification, sight, hearing, life, and grave sequences make warning non-transferable and reception-dependent rather than coercively effective.",
+            "The lifespan, remembrance, oath, aversion, historical pattern, earned conduct, and term sequences turn warning into finite prior notice and a diagnostic event."
+          ],
+          "what_was_special": "The focus root's ordinary alert branch connected several causal domains, while its self-obligation and assessed-wound branches became live only under the later oath and accountability sequences; the dispatched-weather sequence preserved a separate material analogy.",
+          "remaining_uncertainties": [
+            "The restriction may locally foreground warning more narrowly even though the next ayah broadens the commission to good news and warning.",
+            "The hearing and grave contrast may be strictly eschatological rather than a model of present moral receptivity.",
+            "The oath, assessed-liability, and weather readings are contained root or domain resonances, not direct lexical substitutions."
+          ]
+        }
+      }
+    }
+  },
+  "v12_reader_walks": {},
+  "v12_reader_walks_wide": {},
+  "v12_cross_run_publication": {
+    "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/35_ayah_findings_publication.json",
+    "protocol": "v12-cross-run-publication-v3",
+    "language": "tr",
+    "surah": 35,
+    "ayah_ref": "35:23",
+    "canonical_ayah_ref": "35:23",
+    "baseline": {
+      "source_ref": "35:23",
+      "text": "Sen yalnızca bir uyarıcısın.",
+      "target_tokens": [
+        [
+          "Sen",
+          [
+            "35:23:2"
+          ]
+        ],
+        [
+          "yalnızca",
+          [
+            "35:23:1",
+            "35:23:3"
+          ]
+        ],
+        [
+          "bir",
+          [
+            "35:23:4"
+          ]
+        ],
+        [
+          "uyarıcısın",
+          [
+            "35:23:4"
+          ]
+        ]
+      ]
+    },
+    "findings": []
+  },
+  "butuncul_okuma_line": null,
+  "inter_ayah_rows": [
+    {
+      "label": "strong",
+      "ref": "26:115",
+      "note": "Directly repeats the speaker's exclusive identity as a clear warner."
+    },
+    {
+      "label": "medium",
+      "ref": "50:32",
+      "note": "Develops the reverent response and guarded return that warning can call forth."
+    },
+    {
+      "label": "strong",
+      "ref": "7:184",
+      "note": "Directly pairs the denial of madness with the clear-warmer formula."
+    },
+    {
+      "label": "strong",
+      "ref": "35:24",
+      "note": "Immediately continues the messenger's truthful sending as bearer of warning."
+    },
+    {
+      "label": "no value",
+      "ref": "26:154",
+      "note": "Shares a denial formula but concerns rejection of a human messenger."
+    },
+    {
+      "label": "strong",
+      "ref": "36:11",
+      "note": "Specifies that warning reaches those who follow remembrance and fear the Unseen."
+    },
+    {
+      "label": "strong",
+      "ref": "67:9",
+      "note": "Shows hearers acknowledging a warner but rejecting the message."
+    },
+    {
+      "label": "medium",
+      "ref": "35:22",
+      "note": "The preceding ayah limits the Prophet's ability to make the spiritually dead hear."
+    },
+    {
+      "label": "strong",
+      "ref": "46:9",
+      "note": "Directly restates the Prophet's limited role as a clear warner."
+    },
+    {
+      "label": "weak",
+      "ref": "36:5",
+      "note": "The linked mercy-and-revelation setting only indirectly grounds warning."
+    },
+    {
+      "label": "strong",
+      "ref": "11:12",
+      "note": "Directly reassures the Prophet that his task is only to warn."
+    },
+    {
+      "label": "medium",
+      "ref": "35:28",
+      "note": "Within the same warning-and-Unseen-fear strand, it identifies those who truly fear God."
+    },
+    {
+      "label": "medium",
+      "ref": "30:53",
+      "note": "Parallels the Prophet's inability to make the misguided hear or receive guidance."
+    },
+    {
+      "label": "weak",
+      "ref": "79:26",
+      "note": "Connects fear to taking admonition, but not specifically to the warner's role."
+    },
+    {
+      "label": "medium",
+      "ref": "27:81",
+      "note": "Repeats the limit that the Prophet cannot guide or make the misguided hear."
+    },
+    {
+      "label": "strong",
+      "ref": "35:18",
+      "note": "Earlier in the same surah, it says warning benefits those who fear their Lord unseen."
+    },
+    {
+      "label": "no value",
+      "ref": "21:87",
+      "note": "Its confession and prayer do not develop the warning role."
+    },
+    {
+      "label": "medium",
+      "ref": "50:33",
+      "note": "Adds fear of the Merciful in the Unseen as the receptive disposition for warning."
+    },
+    {
+      "label": "strong",
+      "ref": "38:70",
+      "note": "Directly restates that revelation establishes the speaker as a clear warner."
+    },
+    {
+      "label": "strong",
+      "ref": "79:45",
+      "note": "Explicitly defines the warner's audience as those who fear the Hour."
+    },
+    {
+      "label": "weak",
+      "ref": "53:4",
+      "note": "Affirms revelation, a background for the warning office, without developing it."
+    },
+    {
+      "label": "no value",
+      "ref": "17:31",
+      "note": "The scarcity-and-child-killing channel is unrelated to the role statement."
+    },
+    {
+      "label": "weak",
+      "ref": "38:87",
+      "note": "Calls revelation a reminder, an indirect companion to warning."
+    },
+    {
+      "label": "weak",
+      "ref": "31:33",
+      "note": "Offers a general command to fear the Day, without the messenger role."
+    },
+    {
+      "label": "weak",
+      "ref": "81:27",
+      "note": "Calls the Qur'an a reminder for all worlds, indirectly supporting proclamation."
+    },
+    {
+      "label": "weak",
+      "ref": "24:51",
+      "note": "Shows obedient reception of a divine and prophetic summons."
+    },
+    {
+      "label": "weak",
+      "ref": "36:29",
+      "note": "Shows a destructive outcome after warning, without the warning act itself."
+    },
+    {
+      "label": "weak",
+      "ref": "24:52",
+      "note": "Links fearing God and obedience to success, a secondary reception frame."
+    },
+    {
+      "label": "strong",
+      "ref": "53:56",
+      "note": "Explicitly identifies this as a warner among earlier warnings."
+    },
+    {
+      "label": "strong",
+      "ref": "67:26",
+      "note": "Directly repeats the speaker's role as a clear warner."
+    },
+    {
+      "label": "no value",
+      "ref": "37:4",
+      "note": "A declaration of divine oneness adds no material to the warning office."
+    },
+    {
+      "label": "medium",
+      "ref": "67:17",
+      "note": "Makes the warning's threatened consequence explicit to present hearers."
+    },
+    {
+      "label": "no value",
+      "ref": "56:86",
+      "note": "Its conditional challenge does not relate to warning."
+    },
+    {
+      "label": "medium",
+      "ref": "79:40",
+      "note": "Shows fear of God's station producing self-restraint, a warning's intended response."
+    },
+    {
+      "label": "no value",
+      "ref": "26:186",
+      "note": "Shares rejection language but adds no warning-role connection."
+    },
+    {
+      "label": "strong",
+      "ref": "7:188",
+      "note": "Directly defines the Prophet as a warner and bearer of good news to believers."
+    },
+    {
+      "label": "strong",
+      "ref": "34:46",
+      "note": "Combines reflection, denial of madness, and the Prophet's role as a warner before punishment."
+    },
+    {
+      "label": "strong",
+      "ref": "11:2",
+      "note": "Links exclusive worship to a messenger who warns and brings good news."
+    },
+    {
+      "label": "strong",
+      "ref": "35:42",
+      "note": "Later in the same surah, it records rejection when the promised warner arrived."
+    },
+    {
+      "label": "no value",
+      "ref": "26:137",
+      "note": "An unbelieving dismissal formula does not illuminate warning."
+    },
+    {
+      "label": "no value",
+      "ref": "70:22",
+      "note": "The exception for worshippers is unrelated to the focus role."
+    },
+    {
+      "label": "strong",
+      "ref": "5:19",
+      "note": "Frames the arrival of a messenger as both bearer of good news and warner."
+    },
+    {
+      "label": "strong",
+      "ref": "11:25",
+      "note": "A prophet directly introduces himself to his people as a clear warner."
+    },
+    {
+      "label": "no value",
+      "ref": "2:32",
+      "note": "The angels' acknowledgment of divine knowledge is unrelated."
+    },
+    {
+      "label": "strong",
+      "ref": "74:2",
+      "note": "Commands the messenger to rise and warn, directly grounding the office."
+    },
+    {
+      "label": "no value",
+      "ref": "5:117",
+      "note": "Jesus's testimony about his message does not develop warning."
+    },
+    {
+      "label": "no value",
+      "ref": "3:35",
+      "note": "The vow language is unrelated to the warner root and role."
+    },
+    {
+      "label": "strong",
+      "ref": "34:34",
+      "note": "Shows a town's affluent reject what a warner was sent with."
+    },
+    {
+      "label": "no value",
+      "ref": "5:118",
+      "note": "The judgment-and-forgiveness appeal is unrelated to warning."
+    },
+    {
+      "label": "strong",
+      "ref": "2:119",
+      "note": "Directly states the Prophet was sent with truth as bearer of good news and warner."
+    },
+    {
+      "label": "medium",
+      "ref": "54:23",
+      "note": "Shows a people denying plural warnings, supplying the recurrent rejection pattern."
+    },
+    {
+      "label": "strong",
+      "ref": "13:7",
+      "note": "Directly answers a sign-demand by defining the Prophet as a warner."
+    },
+    {
+      "label": "strong",
+      "ref": "43:23",
+      "note": "Shows the recurrent response of affluent towns to a sent warner."
+    },
+    {
+      "label": "weak",
+      "ref": "11:49",
+      "note": "Revelation of unseen history and patience only indirectly support the messenger's task."
+    },
+    {
+      "label": "strong",
+      "ref": "37:72",
+      "note": "States that warners were sent among earlier peoples."
+    },
+    {
+      "label": "no value",
+      "ref": "7:155",
+      "note": "The testing and forgiveness scene does not develop warning."
+    },
+    {
+      "label": "no value",
+      "ref": "2:270",
+      "note": "The shared root is a different word and sense: a vow, not warning."
+    },
+    {
+      "label": "no value",
+      "ref": "5:116",
+      "note": "The divine questioning scene does not concern the warning office."
+    },
+    {
+      "label": "strong",
+      "ref": "6:48",
+      "note": "Defines messengers as bearers of good news and warners, with the response outcome."
+    },
+    {
+      "label": "strong",
+      "ref": "10:2",
+      "note": "Links revealed instruction to warn people and give believers good news."
+    },
+    {
+      "label": "no value",
+      "ref": "2:286",
+      "note": "The prayer about burden and forgiveness is unrelated."
+    },
+    {
+      "label": "strong",
+      "ref": "7:63",
+      "note": "Explains a reminder sent through a man to warn, produce reverence, and invite mercy."
+    },
+    {
+      "label": "medium",
+      "ref": "2:6",
+      "note": "States that warning does not make persistent disbelievers believe."
+    },
+    {
+      "label": "strong",
+      "ref": "7:2",
+      "note": "Calls the revealed Book a means for the Prophet to warn and remind believers."
+    },
+    {
+      "label": "medium",
+      "ref": "9:122",
+      "note": "Extends warning to learned believers who return to warn their people."
+    },
+    {
+      "label": "strong",
+      "ref": "6:51",
+      "note": "Commands warning those who fear gathering before their Lord, closely matching receptive fear."
+    },
+    {
+      "label": "strong",
+      "ref": "4:165",
+      "note": "States that messengers bring good news and warnings so people have no excuse."
+    },
+    {
+      "label": "medium",
+      "ref": "2:213",
+      "note": "Places warners within the broad prophetic mission of guidance and adjudication."
+    },
+    {
+      "label": "medium",
+      "ref": "7:69",
+      "note": "A prophet's reminder is sent through a man to warn his people."
+    },
+    {
+      "label": "strong",
+      "ref": "6:19",
+      "note": "States that the revealed Qur'an is given to warn the immediate and reached audience."
+    },
+    {
+      "label": "medium",
+      "ref": "10:101",
+      "note": "States that signs and warnings do not benefit a people who refuse belief."
+    },
+    {
+      "label": "strong",
+      "ref": "6:130",
+      "note": "Depicts messengers warning every community of the Day they will meet."
+    },
+    {
+      "label": "medium",
+      "ref": "10:73",
+      "note": "Shows the fate of those who denied warnings."
+    },
+    {
+      "label": "strong",
+      "ref": "6:92",
+      "note": "Links a blessed revealed Book to warning the central city and its surroundings."
+    },
+    {
+      "label": "no value",
+      "ref": "33:53",
+      "note": "Household etiquette does not add to the warning role."
+    },
+    {
+      "label": "strong",
+      "ref": "25:56",
+      "note": "Directly states that the Prophet was sent only as bearer of good news and warner."
+    },
+    {
+      "label": "strong",
+      "ref": "71:2",
+      "note": "A prophet directly announces himself as a clear warner to his people."
+    },
+    {
+      "label": "no value",
+      "ref": "74:25",
+      "note": "A denial of revelation as human speech is not a warning-role connection."
+    },
+    {
+      "label": "no value",
+      "ref": "26:153",
+      "note": "A rejection charge does not develop warning."
+    },
+    {
+      "label": "no value",
+      "ref": "26:185",
+      "note": "A rejection charge does not develop warning."
+    },
+    {
+      "label": "no value",
+      "ref": "20:68",
+      "note": "The reassurance to Moses is unrelated to warning."
+    },
+    {
+      "label": "strong",
+      "ref": "74:36",
+      "note": "Names the revelation as a warning for humankind."
+    },
+    {
+      "label": "no value",
+      "ref": "23:114",
+      "note": "The brief-sojourn statement is unrelated."
+    },
+    {
+      "label": "no value",
+      "ref": "56:26",
+      "note": "The greeting of peace is unrelated."
+    },
+    {
+      "label": "medium",
+      "ref": "88:21",
+      "note": "Defines the Prophet as a reminder, a closely adjacent but distinct office."
+    },
+    {
+      "label": "no value",
+      "ref": "69:27",
+      "note": "The wish for death is unrelated."
+    },
+    {
+      "label": "no value",
+      "ref": "37:15",
+      "note": "A denial of signs as magic does not develop warning."
+    },
+    {
+      "label": "weak",
+      "ref": "26:107",
+      "note": "A prophet's self-identification as trustworthy only indirectly supports his messenger role."
+    },
+    {
+      "label": "strong",
+      "ref": "15:89",
+      "note": "Directly identifies the speaker as the clear warner."
+    },
+    {
+      "label": "strong",
+      "ref": "22:49",
+      "note": "Directly identifies the Prophet as a clear warner to all people."
+    },
+    {
+      "label": "weak",
+      "ref": "79:37",
+      "note": "Names transgression, an outcome warning addresses, without the warning act."
+    },
+    {
+      "label": "medium",
+      "ref": "26:156",
+      "note": "Gives the threatened punishment that follows violating a prophetic warning."
+    },
+    {
+      "label": "no value",
+      "ref": "4:11",
+      "note": "Inheritance instructions are unrelated."
+    },
+    {
+      "label": "no value",
+      "ref": "2:233",
+      "note": "Family maintenance rules are unrelated."
+    },
+    {
+      "label": "no value",
+      "ref": "3:154",
+      "note": "The battle reflection and hidden thoughts are unrelated."
+    },
+    {
+      "label": "no value",
+      "ref": "28:78",
+      "note": "Qarun's boast and destruction do not develop warning."
+    },
+    {
+      "label": "medium",
+      "ref": "46:12",
+      "note": "Describes an Arabic confirming Book sent to warn wrongdoers and bring good news."
+    },
+    {
+      "label": "strong",
+      "ref": "42:7",
+      "note": "Links Arabic revelation to warning the central city, its surroundings, and the Day of Assembly."
+    },
+    {
+      "label": "strong",
+      "ref": "40:15",
+      "note": "States that revelation is sent to God's servants to warn of the Day of Meeting."
+    },
+    {
+      "label": "no value",
+      "ref": "4:12",
+      "note": "Inheritance rules are unrelated."
+    },
+    {
+      "label": "medium",
+      "ref": "6:70",
+      "note": "Commands warning by the Qur'an so no soul is surrendered to what it earned."
+    },
+    {
+      "label": "strong",
+      "ref": "14:44",
+      "note": "Commands the Prophet to warn people of the day punishment overtakes them."
+    },
+    {
+      "label": "strong",
+      "ref": "16:2",
+      "note": "Defines the revealed message as a warning to worship God alone and fear Him."
+    },
+    {
+      "label": "medium",
+      "ref": "17:59",
+      "note": "Explains that sent signs function as warnings, supplying the warning's evidentiary mode."
+    },
+    {
+      "label": "strong",
+      "ref": "17:105",
+      "note": "Directly states that the Prophet is sent as bearer of good news and warner."
+    },
+    {
+      "label": "strong",
+      "ref": "18:2",
+      "note": "Describes the revealed Book as warning of severe punishment and bringing good news."
+    },
+    {
+      "label": "strong",
+      "ref": "18:56",
+      "note": "Defines messengers as sent only as bearers of good news and warners."
+    },
+    {
+      "label": "medium",
+      "ref": "19:39",
+      "note": "Commands warning of the Day of Regret when heedless people face judgment."
+    },
+    {
+      "label": "strong",
+      "ref": "21:45",
+      "note": "Directly limits the Prophet's warning to what revelation conveys and notes the deaf may not hear it."
+    },
+    {
+      "label": "strong",
+      "ref": "25:1",
+      "note": "Names the recipient of the Criterion as a warner to all worlds."
+    },
+    {
+      "label": "strong",
+      "ref": "27:92",
+      "note": "Pairs recitation of the Qur'an with the speaker's identity among the warners."
+    },
+    {
+      "label": "strong",
+      "ref": "28:46",
+      "note": "Explains the Prophet's mission as warning a people who previously had no warner."
+    },
+    {
+      "label": "strong",
+      "ref": "29:50",
+      "note": "Directly states that the speaker is only a clear warner."
+    },
+    {
+      "label": "strong",
+      "ref": "32:3",
+      "note": "Gives warning a people without a prior warner as the purpose of the revealed Book."
+    },
+    {
+      "label": "strong",
+      "ref": "33:45",
+      "note": "Directly sends the Prophet as witness, bearer of good news, and warner."
+    },
+    {
+      "label": "strong",
+      "ref": "34:28",
+      "note": "Directly sends the Prophet to all people as bearer of good news and warner."
+    },
+    {
+      "label": "strong",
+      "ref": "35:37",
+      "note": "Records the condemned acknowledging that a warner had come to them."
+    },
+    {
+      "label": "medium",
+      "ref": "36:3",
+      "note": "Establishes the Prophet as a messenger, immediately grounding the warning mission stated in 36:6."
+    },
+    {
+      "label": "strong",
+      "ref": "36:6",
+      "note": "Makes warning a people whose forefathers were not warned the stated mission."
+    },
+    {
+      "label": "strong",
+      "ref": "36:70",
+      "note": "States that the Qur'an warns whoever is truly alive and confirms the word against disbelievers."
+    },
+    {
+      "label": "strong",
+      "ref": "38:4",
+      "note": "Shows disbelievers reacting with astonishment when a warner comes from among them."
+    },
+    {
+      "label": "strong",
+      "ref": "38:65",
+      "note": "Directly identifies the speaker as a warner while proclaiming divine oneness."
+    },
+    {
+      "label": "strong",
+      "ref": "39:71",
+      "note": "Shows the condemned being asked whether messengers came to warn them of this Day."
+    },
+    {
+      "label": "medium",
+      "ref": "40:18",
+      "note": "Commands warning of the Approaching Day, specifying the warning's eschatological object."
+    },
+    {
+      "label": "strong",
+      "ref": "41:4",
+      "note": "Describes the revealed Book as bearer of good news and warning, though most turn away."
+    },
+    {
+      "label": "strong",
+      "ref": "41:13",
+      "note": "Has the Prophet warn rejecters of a thunderbolt like earlier destroyed peoples."
+    },
+    {
+      "label": "medium",
+      "ref": "44:3",
+      "note": "Characterizes the blessed revelation as an act of warning."
+    },
+    {
+      "label": "medium",
+      "ref": "46:21",
+      "note": "Recalls Hud warning his people at al-Ahqaf after warners had already passed."
+    },
+    {
+      "label": "strong",
+      "ref": "50:2",
+      "note": "Shows disbelievers' astonishment that a warner came from among them."
+    },
+    {
+      "label": "medium",
+      "ref": "50:45",
+      "note": "Commands Qur'anic reminding of those who fear the divine threat, the receptive warning audience."
+    },
+    {
+      "label": "strong",
+      "ref": "51:50",
+      "note": "Combines flight to God with the speaker's declaration that he is a clear warner from Him."
+    },
+    {
+      "label": "strong",
+      "ref": "51:51",
+      "note": "Repeats the clear-warmer declaration while warning against associating another god with God."
+    },
+    {
+      "label": "weak",
+      "ref": "54:5",
+      "note": "Notes that warnings do not avail a people who persist in turning away."
+    },
+    {
+      "label": "strong",
+      "ref": "67:8",
+      "note": "Shows the keepers asking the condemned whether a warner had come to them."
+    },
+    {
+      "label": "strong",
+      "ref": "71:1",
+      "note": "States that Noah was sent to warn his people before painful punishment comes."
+    },
+    {
+      "label": "medium",
+      "ref": "78:40",
+      "note": "Declares a near punishment has been warned of, making the warning's final horizon explicit."
+    },
+    {
+      "label": "strong",
+      "ref": "19:97",
+      "note": "States that the Arabic Qur'an is made easy to give good news to the reverent and warn a hostile people."
+    },
+    {
+      "label": "medium",
+      "ref": "20:113",
+      "note": "Describes the Arabic Qur'an as containing varied warnings so people may become reverent."
+    },
+    {
+      "label": "strong",
+      "ref": "26:214",
+      "note": "Directly commands the Prophet to warn his nearest kin."
+    }
+  ],
+  "channel_subchannels_anchored_here": [
+    {
+      "parent_channel": "P2 (35:15-30) Hidden-Directed Devotion",
+      "parent_semantic_invariant": "A warning reaches a receptive person who fears what is unseen and answers through disciplined worship and self-purification.",
+      "parent_surprising_reach": "Fear is not passive affect: it is an alerting signal that changes attention, conduct, and ritual orientation.",
+      "key": "A",
+      "name": "Warning that awakens fear of the hidden",
+      "reading_type": "mixed",
+      "scene_or_process": "A warning announces danger, fear receives it with gravity, and attention is oriented toward what remains concealed from sight.",
+      "active_motifs": "warning that awakens caution (quranic:root_001488:B001/m01); fear joined with awe (quranic:root_000413:B001/m01); concealment from ordinary sight (quranic:root_001117:B001/m01); understanding and compliance after hearing (quranic:root_000741:B003/m01)",
+      "ayah_anchors": "35:18 `تُنذِرُ/يَخْشَ/غَيْبِ` (ن ذ ر/خ ش ي/غ ي ب); 35:22 `يُسْمِعُ/مُسْمِعٍ` (س م ع); 35:23-24 `نَذِيرٌ/نَذِيرًا` (ن ذ ر); 35:28 `يَخْشَى` (خ ش ي).",
+      "synthesis": "Warning functions as an attention-changing communication, not merely a threat. Its successful reception is shown by hearing that becomes compliance and by fear directed toward a reality not available to ordinary sight.",
+      "ayah_refs": [
+        "35:18",
+        "35:22",
+        "35:23",
+        "35:28"
+      ]
+    }
+  ],
+  "channel_generated_outputs": {
+    "source_dir": "quran-data/data/analysis/channels/network-v3/s035",
+    "files": [
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s035/channel_candidates.jsonl",
+        "role": "channel_candidates.jsonl",
+        "bytes": 23562324,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s035/channel_candidates.tsv",
+        "role": "channel_candidates.tsv",
+        "bytes": 643555,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s035/summary.json",
+        "role": "summary.json",
+        "bytes": 11760,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s035/families/candidate_graphs.jsonl",
+        "role": "families/candidate_graphs.jsonl",
+        "bytes": 12365241,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s035/families/candidate_similarity_edges.tsv",
+        "role": "families/candidate_similarity_edges.tsv",
+        "bytes": 288354,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s035/families/channel_families.jsonl",
+        "role": "families/channel_families.jsonl",
+        "bytes": 2212919,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s035/families/candidate_family_membership.tsv",
+        "role": "families/candidate_family_membership.tsv",
+        "bytes": 27928,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s035/families/family_branch_inventory.tsv",
+        "role": "families/family_branch_inventory.tsv",
+        "bytes": 744355,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s035/families/consolidation_summary.json",
+        "role": "families/consolidation_summary.json",
+        "bytes": 9254,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s035/paths/path_summary.json",
+        "role": "paths/path_summary.json",
+        "bytes": 24734,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s035/paths/path_families/semantic_path_families.jsonl.gz",
+        "role": "paths/path_families/semantic_path_families.jsonl.gz",
+        "bytes": 9294324,
+        "compressed": true
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s035/paths/path_families/path_similarity_edges.tsv",
+        "role": "paths/path_families/path_similarity_edges.tsv",
+        "bytes": 19850634,
+        "compressed": false
+      },
+      {
+        "path": "quran-data/data/analysis/channels/network-v3/s035/paths/path_families/path_family_summary.json",
+        "role": "paths/path_families/path_family_summary.json",
+        "bytes": 11241,
+        "compressed": false
+      }
+    ],
+    "usage": "External source manifest only. These generated outputs may inform channel-family/path context when the agent has file access, but first-pass review limits still apply: no established channel name, accept/reject claim, or maturity claim unless a future adjudicated ledger is present."
+  },
+  "pericope": {
+    "surah": 35,
+    "pericope": 2,
+    "ayah_from": 15,
+    "ayah_to": 30,
+    "label": "Human dependence and profitable devotion",
+    "synthesized": false
+  },
+  "root_lexicon": {
+    "root_001488": {
+      "root_ar": "ن ذ ر",
+      "qac_roots_ar": [
+        "ن ذ ر"
+      ],
+      "root_id": "root_001488",
+      "root_mapping_role": "dominant",
+      "root_mapping_roles": [
+        "dominant"
+      ],
+      "qac_root_mappings": [
+        {
+          "root_ar": "ن ذ ر",
+          "root_mapping_role": "dominant",
+          "target_rank": 1,
+          "furuq_resolution": "source_root_norm",
+          "occurrences": 113
+        }
+      ],
+      "dictionary_entry": {
+        "inputs_sha256": "9b8307ef70c2b201e5cde104a00eae217e678983e73b9dde34cef1bec9a54997",
+        "branches": [
+          {
+            "branch_ref": "root_001488/B001",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Branch phrase frames the sense as warning through communication that frightens and awakens caution. The supplied claim supports that boundary by joining notification, fear-producing content, the person or act of warning, reciprocal warning, and the resulting knowledge and guarded response.",
+              "boundary_note": "The branch is warning communication and its immediate caution response, not a vow, injury payment, or protected name."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "The mechanical scope keeps bare warning uses, named roles, reciprocal forms, and fixed examples distinct, so the definition does not turn the examples into the whole branch."
+            },
+            "concept_map": {
+              "definition": "Bir kişiye ya da topluluğa korkulacak bir durumu bildirip onları sakınmaya uyandırma anlamıdır. Uyaran kişi, uyarı olayı, karşılıklı uyarma ve tehlikeyi öğrenip korunmaya geçme kullanımları bu çekirdeğe bağlıdır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir kişi ya da topluluğa korkulacak bir durumu haber vererek onları sakınmaya yöneltir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "extension",
+                  "statement": "Aynı çekirdek, uyaran kişi veya uyarı olayının kendisi için adlaşmış kullanımlara taşır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "associated_use",
+                  "statement": "Topluluk içinde birbirini tehlikeye karşı uyarma, çekirdeğin karşılıklı eylem biçimidir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F004",
+                  "role": "example",
+                  "statement": "Düşmandan haberdar olup hazırlık ve korunmaya geçme, bilginin sakınma sonucunu gösterir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F005",
+                  "role": "example",
+                  "statement": "Ani tehlike habercisi ve ordunun öncü gözcüsü gibi sözler, uyarı çekirdeğine bağlı örneklerdir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Ortak çekirdek, korkulacak bir durumu haber vererek karşı tarafı sakınmaya uyandırma eylemidir. Aynı malzeme uyaran kişi, uyarının kendisi, karşılıklı uyarma ve tehlikeyi öğrenince korunmaya geçme kullanımlarını da bu çekirdeğe bağlar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "tehlikeyi bildirerek sakındırma",
+              "applicability": "Bildirilen şeyin korkulacak bir durum olduğu ve bildirimin sakınma amacı taşıdığı ana çekirdeği karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Bildirme, tehlike içeriği ve sakındırma sonucunu birlikte korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003",
+                "F004"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "uyarı",
+                "usage_role": "contextual",
+                "applicability": "Bağlam tehlike ve sakınma unsurunu açıkça taşıyorsa akıcı çeviri olarak kullanılabilir.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Karşı tarafı dikkatli olmaya çağıran bildirim yönünü korur.",
+                  "loses": "Korkulacak içeriği ve uyarının korunmaya geçirme sonucunu tek başına açık söylemez.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "düşmandan haberdar olup sakınma",
+                "usage_role": "explanatory",
+                "applicability": "Düşman yaklaşması örneğinde bilginin hazırlık ve korunma davranışına dönüşmesini açıklar.",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Tehlikeyi öğrenme ve sakınmaya geçme bağını korur.",
+                  "loses": null,
+                  "adds": "Genel çekirdeğe belirli düşman ve hazırlık bağlamı ekler.",
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F004"
+                ]
+              },
+              {
+                "text": "ani tehlike habercisi",
+                "usage_role": "contextual",
+                "applicability": "Tehlikeyi haber veren kişi için kullanılan örnek ve temsil bağlamlarında uygundur.",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Tehlike bildiren uyaran kişi yönünü korur.",
+                  "loses": null,
+                  "adds": "Genel uyarma çekirdeğine ani tehlike ve kişi rolü ekler.",
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F002",
+                  "F005"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_001",
+                "rendering_kind": "ordinary",
+                "target_gloss": "uyarı amacıyla korkulacak bir şeyi bildirme"
+              },
+              {
+                "lexical_unit_id": "lu_002",
+                "rendering_kind": "ordinary",
+                "target_gloss": "bir topluluğa korkulacak bir durumu haber verip sakındırmak"
+              },
+              {
+                "lexical_unit_id": "lu_003",
+                "rendering_kind": "ordinary",
+                "target_gloss": "uyaran kişi veya uyarının kendisi"
+              },
+              {
+                "lexical_unit_id": "lu_004",
+                "rendering_kind": "ordinary",
+                "target_gloss": "uyaranlar ya da uyarılar"
+              },
+              {
+                "lexical_unit_id": "lu_005",
+                "rendering_kind": "ordinary",
+                "target_gloss": "birbirini korkutucu bir tehlikeye karşı uyarmak"
+              },
+              {
+                "lexical_unit_id": "lu_006",
+                "rendering_kind": "ordinary",
+                "target_gloss": "düşmandan haberdar olup hazırlık ve sakınma durumuna geçmek"
+              },
+              {
+                "lexical_unit_id": "lu_007",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ani tehlikeyi haber veren kişi için kullanılan temsil"
+              },
+              {
+                "lexical_unit_id": "lu_008",
+                "rendering_kind": "ordinary",
+                "target_gloss": "önceden ceza veya sonuç bildiren kişinin gerekçesini tamamladığını anlatan söz"
+              },
+              {
+                "lexical_unit_id": "lu_009",
+                "rendering_kind": "ordinary",
+                "target_gloss": "ordunun düşman durumunu bildiren öncü gözcüsü"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "korku",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Korkulan durum alanıyla ilişkili duyguyu korur.",
+                  "loses": "Bildirme, uyarma ve sakınmaya yöneltme işlemini kaybeder.",
+                  "adds": null,
+                  "collision": "Duyguyu, o duyguya bağlı uyarı eyleminin yerine koyar."
+                }
+              },
+              {
+                "text": "haber verme",
+                "category": "alternative",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Bir şeyi bildirme yönünü korur.",
+                  "loses": "Korkutucu içerik ve korunmaya çağırma sınırını açıkça vermez.",
+                  "adds": "Tehlike taşımayan nötr bildirimleri de kapsar.",
+                  "collision": null
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_000301/B002",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dalda tehlikeyi haber verme ve bundan doğan sakınma sonucu kurucu unsurdur.",
+                "neighbor_only": "Komşu dal daha genel biçimde başkasında dikkat ve korunma hali uyandırmayı kapsar.",
+                "gloss": "uyarı ve sakındırma ayrımı",
+                "shared_zone": "İkisi de bir başkasını tehlikeye karşı dikkatli kılma alanında buluşur.",
+                "distinction": "Odak dal uyarının haber verme yönünü ve korkulacak içeriği birlikte ister; komşu dalda ise sakındırma etkisi öne çıkar ve bildirim içeriği aynı ölçüde kurucu değildir."
+              },
+              {
+                "neighbor_ref": "root_000447/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal korkutucu haberin iletilmesini ve bu haberle sakınmaya geçmeyi içerir.",
+                "neighbor_only": "Komşu dal doğrudan korku verme veya bir şeyi korkulur kılma alanına genişler.",
+                "gloss": "haberli uyarma ve korkutma",
+                "shared_zone": "İkisi de korku yoluyla korunma davranışını tetikleme senaryosuna yakındır.",
+                "distinction": "Odak dal yalnız korku oluşturmak değildir; korkulacak durumun bildirilmesi gerekir. Komşu dalda ise korku verme eylemi, haber verme şartı olmadan da kurulabilir."
+              },
+              {
+                "neighbor_ref": "root_000301/B001",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal başkasına yapılan tehlike bildirimidir.",
+                "neighbor_only": "Komşu dal tehlike karşısında kişinin kendi uyanık ve korunmalı halidir.",
+                "gloss": "uyarma ve sakınma hali",
+                "shared_zone": "Uyarı ile sakınma aynı tehlikeden korunma alanında buluşur.",
+                "distinction": "Odak dal bir iletişim eylemidir; komşu dal bu iletişimin doğurabileceği iç durum ve davranış biçimidir."
+              },
+              {
+                "neighbor_ref": "root_001488/B002",
+                "relation_type": "other",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal korkulacak bir durumu bildirip karşı tarafı sakındırır.",
+                "neighbor_only": "Komşu dal kişinin kendi üzerine gerekli olmayan bir yükümlülük koymasıdır.",
+                "gloss": "uyarı ve adak yükümlülüğü",
+                "shared_zone": "Aynı kök envanterinde yer aldıkları için yüzey biçimleri okuyucuyu karıştırabilir.",
+                "distinction": "Bu dalın çekirdeği tehlike bildirimi ve sakındırmadır; komşu dalda bildirim değil, kişinin kendisini bağlayan yükümlülük kurucu unsurdur."
+              },
+              {
+                "neighbor_ref": "root_001488/B003",
+                "relation_type": "other",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal uyarı yoluyla tehlikeden sakındırmayı anlatır.",
+                "neighbor_only": "Komşu dal yaralamadan doğan ödenmesi gereken karşılığı anlatır.",
+                "gloss": "uyarı ve yara bedeli",
+                "shared_zone": "Aynı kök altında yer almaları dışında doğrudan anlamsal örtüşmeleri zayıftır.",
+                "distinction": "Odak dal iletişim ve sakınma sürecidir; komşu dal hukuki veya parasal karşılık alanındadır."
+              }
+            ],
+            "neighbor_coverage_note": "Verilen komşuların tümü gözden geçirildi; sınırı en çok aydınlatan uyarma, korkutma, sakınma hali ve aynı kök içi ayrımlar seçildi."
+          },
+          {
+            "branch_ref": "root_001488/B002",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Branch phrase correctly treats the sense as a person placing a non-obligatory matter on themself as a binding duty. The supplied claim repeatedly frames the act as making something required on oneself, including a vow directed to God or a conditional promise.",
+              "boundary_note": "The branch is self-imposed obligation, not warning communication and not injury compensation except by the broad idea of becoming due."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "The mechanical scope keeps the bare noun, the verb, and constructions such as making it for God or on oneself together while preventing those constructions from becoming a general promise sense."
+            },
+            "concept_map": {
+              "definition": "Kişinin kendisine daha önce zorunlu olmayan bir şeyi gerekli ve bağlayıcı bir yükümlülük yapmasıdır. Bu yükümlülük Tanrı'ya yönelik bir adak, kişinin kendi üzerine aldığı söz veya bir şarta bağlanan vaat olarak gerçekleşebilir.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Kişi kendi üzerine önceden zorunlu olmayan bir işi bağlayıcı yükümlülük haline getirir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Yükümlülük Tanrı'ya yöneltilen bir adak ya da kişinin kendi üzerine aldığı bağlayıcı söz olabilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "specialization",
+                  "statement": "Bazı kullanımlarda yükümlülük, belirli bir olay gerçekleşirse yerine getirilecek şartlı söz biçimindedir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F004",
+                  "role": "example",
+                  "statement": "Adak yoluyla ibadethane hizmetine ayrılan çocuk adlandırması, yükümlülüğün sonucuna bağlı özel kullanımdır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Ortak çekirdek, kişinin kendi üzerine aslında zorunlu olmayan bir şeyi gerekli kılmasıdır. Malzeme bunu adak nesnesi, eylem, Tanrı'ya yöneltilmiş yükümlülük, kişinin kendi üzerine bağlayıcı söz alması ve şartlı vaat biçimleriyle açıklar.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "kendine adak yükümlülüğü koyma",
+              "applicability": "Kişinin kendisini daha önce zorunlu olmayan bir işle bağlaması ana çekirdeğini karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Kişinin kendi üzerine bağlayıcı yükümlülük koymasını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F003"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "adak",
+                "usage_role": "general",
+                "applicability": "Bağlam kişinin kendi üzerine yükümlülük aldığını gösteriyorsa doğal kısa karşılıktır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Bağlayıcı adak yükümlülüğü alanını korur.",
+                  "loses": "Kişinin önceden zorunlu olmayan şeyi kendi üzerine gerekli kılması açıkça görünmez.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "şarta bağlı adak sözü",
+                "usage_role": "contextual",
+                "applicability": "Yükümlülüğün bir olayın gerçekleşmesine bağlandığı bağlamlarda uygundur.",
+                "error_profile": {
+                  "fit": "none",
+                  "preserves": "Şart, söz ve adak yükümlülüğü unsurlarını birlikte korur.",
+                  "loses": null,
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F003"
+                ]
+              },
+              {
+                "text": "ibadethane hizmetine adanmış çocuk",
+                "usage_role": "explanatory",
+                "applicability": "Adak sonucuyla bir çocuğun hizmete ayrıldığı özel adlandırmada kullanılır.",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Adakla bağlanma sonucunu korur.",
+                  "loses": null,
+                  "adds": "Genel yükümlülük çekirdeğine çocuk ve ibadethane hizmeti bağlamı ekler.",
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F004"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_010",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kişinin kendi üzerine sonradan gerekli kıldığı adak yükümlülüğü"
+              },
+              {
+                "lexical_unit_id": "lu_011",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kendi üzerine bir şeyi gerekli kılmak veya şarta bağlı söz vermek"
+              },
+              {
+                "lexical_unit_id": "lu_012",
+                "rendering_kind": "ordinary",
+                "target_gloss": "Tanrı için kendi üzerine bir yükümlülük almak"
+              },
+              {
+                "lexical_unit_id": "lu_013",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kendi üzerine adak yükümlülüğü almak"
+              },
+              {
+                "lexical_unit_id": "lu_014",
+                "rendering_kind": "ordinary",
+                "target_gloss": "adak yoluyla ibadethane hizmetine ayrılan çocuk"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "ant",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Sözle bağlanma alanıyla ilişkili bir yönü korur.",
+                  "loses": "Kişinin kendi üzerine zorunlu olmayan bir işi yükümlülük yapması kaybolur.",
+                  "adds": "Doğrulama veya yemin etme alanını çağırır.",
+                  "collision": "Ant, kanıtlayıcı ya da yeminli sözle karışır."
+                }
+              },
+              {
+                "text": "söz",
+                "category": "alternative",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Söyleyerek üstlenme yönünü korur.",
+                  "loses": "Bağlayıcı adak yükümlülüğü ve kişinin kendi üzerine koyma sınırı belirsizleşir.",
+                  "adds": "Bağlayıcı olmayan sıradan sözleri de kapsar.",
+                  "collision": null
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001662/B001",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal kişinin kendisini önceden zorunlu olmayan bir yükümlülükle bağlamasıdır.",
+                "neighbor_only": "Komşu dal söz verilen kişide beklenti açan iyi veya kötü vaat alanıdır.",
+                "gloss": "adak ve vaat",
+                "shared_zone": "İkisi de sözle geleceğe yönelik bir bağlılık kurabilir.",
+                "distinction": "Odak dalda kurucu unsur kişinin kendi üzerine yükümlülük koymasıdır; komşu dalda ise vaat edilen şeyin muhatapta beklenti doğurması öne çıkar ve yükümlülük adak niteliği taşımaz."
+              },
+              {
+                "neighbor_ref": "root_000048/B003",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal bir işi kişinin kendi üzerine gerekli kılmasıdır.",
+                "neighbor_only": "Komşu dal ant içme ve yemin kurma eylemidir.",
+                "gloss": "adak ve ant",
+                "shared_zone": "İkisi de sözle bağlanma ve yükümlülük alanında yan yana durur.",
+                "distinction": "Odak dal yapılacak bir işi yükümlülük haline getirir; komşu dal ise ant veya yemin kurarak sözü güçlendirme alanındadır."
+              },
+              {
+                "neighbor_ref": "root_000979/B009",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal kişinin kendi üzerine yeni bir adak yükümlülüğü koymasını anlatır.",
+                "neighbor_only": "Komşu dal daha önce söylenmiş bir yeminin öne geçip bağlayıcı hale gelmesini anlatır.",
+                "gloss": "kendini bağlama ve bağlayıcı yemin",
+                "shared_zone": "İkisinde de söz veya yükümlülük sonradan bağlayıcı hale gelir.",
+                "distinction": "Odak dalın kaynağı kişinin kendi üzerine aldığı adaktır; komşu dalın kaynağı ise yemin biçiminde kurulmuş ve artık yerine getirilmesi gereken sözdür."
+              },
+              {
+                "neighbor_ref": "root_001488/B001",
+                "relation_type": "other",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal kişinin kendisine bağlayıcı bir yükümlülük koymasını anlatır.",
+                "neighbor_only": "Komşu dal tehlikeyi bildirerek karşı tarafı sakındırmayı anlatır.",
+                "gloss": "adak ve uyarı",
+                "shared_zone": "Aynı kök envanterinde yer aldıkları için yüzey biçimleri okuyucuyu karıştırabilir.",
+                "distinction": "Bu dal yükümlülük kurar; komşu dal ise korkulacak bilgiyi iletip sakınma davranışı doğurur."
+              },
+              {
+                "neighbor_ref": "root_001488/B003",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal yükümlülüğü kişinin kendi sözüyle kurar.",
+                "neighbor_only": "Komşu dal yaralamadan dolayı ödenmesi gereken hukuki karşılıktır.",
+                "gloss": "adak yükümlülüğü ve yara bedeli",
+                "shared_zone": "İkisinde de bir şeyin gerekli veya ödenmesi gereken hale gelmesi fikri bulunur.",
+                "distinction": "Odak dal gönüllü ve kişisel bağlanmadır; komşu dal kişinin verdiği sözden değil, yaralama sonucunda doğan karşılık yükümlülüğünden oluşur."
+              }
+            ],
+            "neighbor_coverage_note": "Verilen komşuların tümü gözden geçirildi; adakla karışabilecek vaat, ant, bağlayıcı yemin ve aynı kök içi yükümlülük ayrımları seçildi."
+          },
+          {
+            "branch_ref": "root_001488/B003",
+            "identity_judgment": {
+              "status": "accepted",
+              "rationale": "Branch phrase frames the sense as a wound that has a required compensatory amount, and the supplied claim supports that by restricting the use to injury payments, named wound cases, and a single wound with an owed amount. This is not the devotional vow branch, even though both can involve something becoming due.",
+              "boundary_note": "The branch is restricted to compensation owed for wounds, not a general vow, warning, or ordinary injury description."
+            },
+            "lexicalization_scope": {
+              "branch_kind": "mixed_non_bare",
+              "note": "The mechanical scope keeps the injury-payment lexical unit and the named wound collocation within a restricted legal sense, without generalizing it to every wound or every due payment."
+            },
+            "concept_map": {
+              "definition": "Yaralamalar için ödenmesi gereken karşılık ya da bedel anlamıdır. Özellikle belirli yara türleri ve tek bir yaranın ölçülmüş karşılığı gibi hukuki bağlamlarda kullanılır.",
+              "facets": [
+                {
+                  "facet_id": "F001",
+                  "role": "core",
+                  "statement": "Bir yaralama için ödenmesi gereken karşılık veya bedel çekirdeğini taşır.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F002",
+                  "role": "specialization",
+                  "statement": "Kullanım özellikle küçük-büyük yaralarda ve tek bir yaranın karşılığı bulunduğunda geçer.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F003",
+                  "role": "source_variant",
+                  "statement": "Aynı karşılık için bazı hukuk çevrelerinde başka bir teknik ad bulunduğu belirtilir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                },
+                {
+                  "facet_id": "F004",
+                  "role": "example",
+                  "statement": "Kemiği açığa çıkaran yara için belirli bir pay gibi örnekler, bedelin yara türüne bağlandığını gösterir.",
+                  "claim_ids": [
+                    "bc_001"
+                  ]
+                }
+              ]
+            },
+            "source_synthesis": {
+              "common_summary": "Ortak çekirdek, yaralamalar için ödenmesi gereken karşılık veya bedeldir. Malzeme bu kullanımı genel adak ya da uyarı alanından ayırır; küçük ve büyük yaralar, tek yaraya düşen bedel, kemiği açığa çıkaran yara örneği ve farklı teknik adlandırma notu bu sınırı destekler.",
+              "common_claim_ids": [
+                "bc_001"
+              ],
+              "source_details": [],
+              "supporting_claim_ids": [],
+              "duplicate_claims": []
+            },
+            "concept_gloss": {
+              "text": "yaralama için gereken tazminat",
+              "applicability": "Yara nedeniyle ödenmesi gereken hukuki karşılık anlamını doğrudan karşılar.",
+              "error_profile": {
+                "fit": "none",
+                "preserves": "Yaralama, gereklilik ve ödenecek karşılık unsurlarını korur.",
+                "loses": null,
+                "adds": null,
+                "collision": null
+              },
+              "facet_ids": [
+                "F001",
+                "F002",
+                "F004"
+              ]
+            },
+            "contextual_glosses": [
+              {
+                "text": "yara bedeli",
+                "usage_role": "contextual",
+                "applicability": "Hukuki bağlam bedelin zorunlu olduğunu gösterdiğinde kısa ve doğal karşılıktır.",
+                "error_profile": {
+                  "fit": "narrowing",
+                  "preserves": "Yara ve karşılık bedeli alanını korur.",
+                  "loses": "Ödenmesinin hukuken gerekli olduğu sınırını tek başına açık söylemez.",
+                  "adds": null,
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F002"
+                ]
+              },
+              {
+                "text": "kemiği açığa çıkaran yara tazminatı",
+                "usage_role": "explanatory",
+                "applicability": "Belirli yara türüne düşen karşılık örneği açıklanırken kullanılır.",
+                "error_profile": {
+                  "fit": "broadening",
+                  "preserves": "Belirli yara türüne bağlı zorunlu karşılık unsurunu korur.",
+                  "loses": null,
+                  "adds": "Genel yaralama karşılığına özel yara türü bağlamını ekler.",
+                  "collision": null
+                },
+                "facet_ids": [
+                  "F001",
+                  "F004"
+                ]
+              }
+            ],
+            "lexical_glosses": [
+              {
+                "lexical_unit_id": "lu_015",
+                "rendering_kind": "ordinary",
+                "target_gloss": "yaralamalarda ödenmesi gereken tazminat veya kan bedeli"
+              },
+              {
+                "lexical_unit_id": "lu_016",
+                "rendering_kind": "ordinary",
+                "target_gloss": "kemiği açığa çıkaran yara için gereken tazminat"
+              }
+            ],
+            "excluded_glosses": [
+              {
+                "text": "yara",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Yaralanma alanıyla ilişkili nesneyi korur.",
+                  "loses": "Ödenmesi gereken hukuki karşılık unsurunu kaybeder.",
+                  "adds": null,
+                  "collision": "Yaranın kendisini, yara sebebiyle gereken bedelin yerine koyar."
+                }
+              },
+              {
+                "text": "ceza",
+                "category": "confusable",
+                "error_profile": {
+                  "fit": "displacement",
+                  "preserves": "Bir eylemden sonra gelen olumsuz sonuç fikrini korur.",
+                  "loses": "Yaraya bağlı ölçülü ödeme karşılığı anlamını kaybeder.",
+                  "adds": "Cezalandırma ve suç yaptırımı fikrini ekler.",
+                  "collision": "Hukuki karşılığı cezai yaptırımla karıştırır."
+                }
+              }
+            ],
+            "neighbor_distinctions": [
+              {
+                "neighbor_ref": "root_001036/B004",
+                "relation_type": "near_synonym",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal özellikle yaralar için gereken karşılık adlandırmasıdır.",
+                "neighbor_only": "Komşu dal kan bedeli, ödenmesi ve bunu üstlenen topluluk gibi daha geniş ceza-hukuku alanını kapsar.",
+                "gloss": "yara tazminatı ve kan bedeli",
+                "shared_zone": "İkisi de bedensel zarar sonrası gereken parasal karşılık alanında buluşur.",
+                "distinction": "Odak dal yara türlerine bağlı karşılığın adıyla sınırlıdır; komşu dal öldürme veya yaralama bedelinin ödenmesi ve yüklenilmesi gibi daha geniş düzeni kapsar."
+              },
+              {
+                "neighbor_ref": "root_000216/B004",
+                "relation_type": "polarity_pair",
+                "boundary_match": "opposed",
+                "focus_only": "Odak dal yaranın ödenmesi gereken bir karşılığı bulunduğunu söyler.",
+                "neighbor_only": "Komşu dal kan veya hak talebinin boşa düşmesi ve karşılık alınmaması alanındadır.",
+                "gloss": "karşılıklı yara bedeli ve bedelsiz kalma",
+                "shared_zone": "İkisi de bedensel zarar veya hak karşılığının gerekip gerekmediği ekseninde durur.",
+                "distinction": "Odak dalda yara için karşılık gerekir; komşu dalda ise olay karşılıksız veya talep dışı kalır. Bu yüzden ilişki aynı eksende ters yönlüdür."
+              },
+              {
+                "neighbor_ref": "root_000357/B004",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal yaranın kendisine düşen ödenmesi gereken bedeldir.",
+                "neighbor_only": "Komşu dal ödeme, kan bedeli veya borcu üstlenme ve kefil olma eylemidir.",
+                "gloss": "yara bedeli ve yüklenme",
+                "shared_zone": "İkisi de zarar karşılığı ödeme ve sorumluluk alanında buluşur.",
+                "distinction": "Odak dal karşılığın adı ve ölçüsüdür; komşu dal ise o karşılığı veya başka yükümlülüğü üstlenme ilişkisidir."
+              },
+              {
+                "neighbor_ref": "root_001637/B002",
+                "relation_type": "near_neighbor",
+                "boundary_match": "partial",
+                "focus_only": "Odak dal yaraya düşen gereken karşılık miktarıdır.",
+                "neighbor_only": "Komşu dal kan bedelini ödeme veya alma eylemini anlatır.",
+                "gloss": "yara bedeli ve ödeme eylemi",
+                "shared_zone": "İkisi de zarar karşılığı bedelin yerine getirilmesi alanına girer.",
+                "distinction": "Odak dal ödenecek karşılığın kendisine odaklanır; komşu dal bu karşılığın verilmesi veya alınması sürecine odaklanır."
+              },
+              {
+                "neighbor_ref": "root_001488/B002",
+                "relation_type": "same_field",
+                "boundary_match": "field_only",
+                "focus_only": "Odak dal yaralama sebebiyle doğan ödenmesi gereken karşılığı anlatır.",
+                "neighbor_only": "Komşu dal kişinin kendi sözüyle üstlendiği adak yükümlülüğünü anlatır.",
+                "gloss": "yara tazminatı ve adak",
+                "shared_zone": "İkisinde de bir şeyin gerekli veya borç gibi bağlayıcı hale gelmesi fikri bulunur.",
+                "distinction": "Odak dalın gerekliliği yaralama sonucundan doğar; komşu dalın gerekliliği kişinin kendi üzerine aldığı sözden doğar."
+              }
+            ],
+            "neighbor_coverage_note": "Verilen komşuların tümü gözden geçirildi; yara karşılığı, kan bedeli, yüklenme, bedelsiz kalma ve aynı kök içi adak ayrımı en belirgin sınırları verdi."
+          }
+        ],
+        "root_profile": {
+          "summary": "Bu kök çok dallı bir yapı gösterir: tehlikeyi bildirerek sakındırma, kişinin kendine adak yükümlülüğü koyması ve yaralama için ödenmesi gereken karşılık ayrı çekirdeklerdir. Dallar, uyarı iletişimi, gönüllü bağlanma ve hukuki bedel eksenlerinde ayrılır.",
+          "polysemy": "polysemic",
+          "organization": "multi_branch"
+        }
+      },
+      "dictionary_source_file": "quran-data/data/dictionary/tr/root_001488_entry.json",
+      "gloss": null,
+      "gloss_source_file": null
+    }
+  },
+  "coverage": {
+    "quran_text": {
+      "present": true
+    },
+    "word_analysis": {
+      "present": true,
+      "word_count": 4
+    },
+    "word_morpheme_spans": {
+      "present": true,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s035/linguistic/morphemes.tsv",
+      "words_total": 4,
+      "words_resolved": 4,
+      "words_unresolved": 0,
+      "morpheme_skip_total": 0,
+      "morpheme_skip_max": 0,
+      "morpheme_skip_histogram": {
+        "0": 4
+      },
+      "unresolved": [],
+      "morphemes_tsv": {
+        "present": true,
+        "source_file": "quran-data/data/analysis/ayah-activation/v12-tr/s035/linguistic/morphemes.tsv",
+        "ayah_count": 45,
+        "row_count": 1244,
+        "malformed_rows": 0,
+        "note": "ayah attribution taken from qac_ref, with non-surah rows and standalone basmala ayah marker rows (1:0) filtered out | dropped_preface_rows=7",
+        "dropped_preface_rows": 7
+      },
+      "note": "word_analysis critical words are orthographic/analytic units, not QAC words; each resolves to a MORPHEME SPAN. The upstream aligned_qac_word_ref is preserved verbatim in word_analysis and is NOT corrected here -- renumbering would fabricate identities (PRINCIPLES.md §11 / basmalah no-hidden-renumbering rule). Use word_morpheme_spans for any word-level join to QAC."
+    },
+    "word_analysis_qac_alignment": {
+      "consistent": true,
+      "detail": null,
+      "note": "aligned_qac_word_ref resolves against qac_morphemes for this ayah"
+    },
+    "qac_morphemes": {
+      "present": true,
+      "row_count": 4
+    },
+    "channel_review": {
+      "present": true,
+      "review_status": "first-pass-single-reader",
+      "parent_channel_count": 53,
+      "subchannel_count": 59,
+      "note": "first-pass blind review by a single reader; no adjudication, no accept/reject, no per-ayah channel maturity. Not a channel ledger.",
+      "source_file": "quran-data/data/analysis/channels/network-v3/s035/review/reader_a_pilot.md",
+      "subchannels_anchored_here": 1
+    },
+    "channel_generated_outputs": {
+      "present": true,
+      "source_dir": "quran-data/data/analysis/channels/network-v3/s035",
+      "file_count": 13,
+      "missing_expected_files": [
+        "paths/path_families/semantic_path_families.jsonl"
+      ],
+      "note": "Generated network-v3 channel discovery/family/path outputs are available as external quran-data files; read them only when channel detail is necessary, and do not treat them as an adjudicated channel ledger."
+    },
+    "branch_inventories": {
+      "present": true,
+      "scope": "surah-fallback-scoped-to-ayah",
+      "variants": {
+        "full_context_packet": {
+          "present": true,
+          "roots": [
+            "ن ذ ر"
+          ],
+          "branch_counts": {
+            "ن ذ ر": 3
+          },
+          "missing_branch_inventories": [
+            {
+              "root": "ك ي ف",
+              "refs": [
+                "35:26",
+                "35:44"
+              ],
+              "reason": "no accepted, non-contaminated branch inventory in resource"
+            }
+          ],
+          "note": "surah-scope fallback: the default commentary workflow does not consume per-ayah focus packets, so the source packet is scoped by this builder to roots this ayah can justify and carries no staged reveal order"
+        }
+      },
+      "scoping": {
+        "applied": true,
+        "roots_total": 229,
+        "roots_retained": 1,
+        "roots_dropped": 228,
+        "retained": [
+          {
+            "root": "ن ذ ر",
+            "rule": "in_ayah",
+            "branches_kept": 3,
+            "branches_total": 3
+          }
+        ],
+        "dropped_roots": [
+          "س م و",
+          "ء ل ه",
+          "ر ح م",
+          "ح م د",
+          "ف ط ر",
+          "ء ر ض",
+          "ج ع ل",
+          "م ل ك",
+          "ر س ل",
+          "ء و ل",
+          "ج ن ح",
+          "ث ن ي",
+          "ث ل ث",
+          "ر ب ع",
+          "ز ي د",
+          "خ ل ق",
+          "ش ي ء",
+          "ك ل ل",
+          "ق د ر",
+          "ف ت ح",
+          "ن و س",
+          "م س ك",
+          "ب ع د",
+          "ع ز ز",
+          "ح ك م",
+          "ذ ك ر",
+          "ن ع م",
+          "غ ي ر",
+          "ر ز ق",
+          "ء ن ي",
+          "ء ف ك",
+          "ك ذ ب",
+          "ق ب ل",
+          "ر ج ع",
+          "ء م ر",
+          "و ع د",
+          "ح ق ق",
+          "غ ر ر",
+          "ح ي ي",
+          "د ن و",
+          "ش ط ن",
+          "ع د و",
+          "ء خ ذ",
+          "د ع و",
+          "ح ز ب",
+          "ك و ن",
+          "ص ح ب",
+          "س ع ر",
+          "ك ف ر",
+          "ع ذ ب",
+          "ش د د",
+          "ء م ن",
+          "ع م ل",
+          "ص ل ح",
+          "غ ف ر",
+          "ء ج ر",
+          "ك ب ر",
+          "ز ي ن",
+          "س و ء",
+          "ر ء ي",
+          "ح س ن",
+          "ض ل ل",
+          "ه د ي",
+          "ذ ه ب",
+          "ن ف س",
+          "ح س ر",
+          "ع ل م",
+          "ص ن ع",
+          "ر و ح",
+          "ث و ر",
+          "س ح ب",
+          "س و ق",
+          "ب ل د",
+          "م و ت",
+          "ن ش ر",
+          "ر و د",
+          "ج م ع",
+          "ص ع د",
+          "ك ل م",
+          "ط ي ب",
+          "ر ف ع",
+          "م ك ر",
+          "ب و ر",
+          "ت ر ب",
+          "ن ط ف",
+          "ز و ج",
+          "ح م ل",
+          "ء ن ث",
+          "و ض ع",
+          "ع م ر",
+          "ن ق ص",
+          "ك ت ب",
+          "ي س ر",
+          "س و ي",
+          "ب ح ر",
+          "ف ر ت",
+          "س و غ",
+          "ش ر ب",
+          "م ل ح",
+          "ء ج ج",
+          "ء ك ل",
+          "ل ح م",
+          "ط ر و",
+          "خ ر ج",
+          "ح ل ي",
+          "ل ب س",
+          "ف ل ك",
+          "م خ ر",
+          "ب غ ي",
+          "ف ض ل",
+          "ش ك ر",
+          "و ل ج",
+          "ل ي ل",
+          "ن ه ر",
+          "س خ ر",
+          "ش م س",
+          "ق م ر",
+          "ج ر ي",
+          "ء ج ل",
+          "ر ب ب",
+          "د و ن",
+          "ق ط م ر",
+          "س م ع",
+          "ج و ب",
+          "ي و م",
+          "ق و م",
+          "ش ر ك",
+          "ن ب ء",
+          "م ث ل",
+          "خ ب ر",
+          "ف ق ر",
+          "غ ن ي",
+          "ء ت ي",
+          "ج د د",
+          "و ز ر",
+          "ء خ ر",
+          "ث ق ل",
+          "ق ر ب",
+          "خ ش ي",
+          "غ ي ب",
+          "ص ل و",
+          "ز ك و",
+          "ص ي ر",
+          "ع م ي",
+          "ب ص ر",
+          "ظ ل م",
+          "ن و ر",
+          "ظ ل ل",
+          "ح ر ر",
+          "ق ب ر",
+          "ب ش ر",
+          "ء م م",
+          "خ ل و",
+          "ج ي ء",
+          "ب ي ن",
+          "ز ب ر",
+          "ن ك ر",
+          "ن ز ل",
+          "م و ه",
+          "ث م ر",
+          "خ ل ف",
+          "ل و ن",
+          "ج ب ل",
+          "ب ي ض",
+          "ح م ر",
+          "غ ر ب",
+          "س و د",
+          "د ب ب",
+          "ع ب د",
+          "ت ل و",
+          "ن ف ق",
+          "س ر ر",
+          "ع ل ن",
+          "ر ج و",
+          "ت ج ر",
+          "و ف ي",
+          "و ح ي",
+          "ص د ق",
+          "ي د ي",
+          "و ر ث",
+          "ص ف و",
+          "ق ص د",
+          "س ب ق",
+          "خ ي ر",
+          "ء ذ ن",
+          "ج ن ن",
+          "د خ ل",
+          "س و ر",
+          "ل ء ل ء",
+          "ق و ل",
+          "ح ز ن",
+          "ح ل ل",
+          "د و ر",
+          "م س س",
+          "ن ص ب",
+          "ل غ ب",
+          "ق ض ي",
+          "خ ف ف",
+          "ج ز ي",
+          "ص ر خ",
+          "ذ و ق",
+          "ن ص ر",
+          "ص د ر",
+          "ع ن د",
+          "م ق ت",
+          "خ س ر",
+          "ب ع ض",
+          "ز و ل",
+          "ء ح د",
+          "ح ل م",
+          "ق س م",
+          "ج ه د",
+          "ي م ن",
+          "ن ف ر",
+          "ح ي ق",
+          "ء ه ل",
+          "ن ظ ر",
+          "س ن ن",
+          "و ج د",
+          "ب د ل",
+          "ح و ل",
+          "س ي ر",
+          "ع ق ب",
+          "ق و ي",
+          "ع ج ز",
+          "ك س ب",
+          "ت ر ك",
+          "ظ ه ر"
+        ],
+        "ayah_roots_from_qac": [
+          "نذر"
+        ],
+        "channel_citations_found": 0,
+        "citations_unresolvable_in_surah_inventory": [],
+        "note": "SCOPED, NOT ABSENT. The surah-scope fallback inventory covers every root in the surah; it is narrowed here to roots this ayah can justify -- roots occurring in this ayah (all their branches kept, unconditionally, because Layer 2 selects nothing) plus roots explicitly cited by channel material anchored here (only the cited branches kept, enough to resolve the citation). A root listed in dropped_roots is a deliberate scoping decision, not a missing source."
+      }
+    },
+    "v12_reader_responses": {
+      "present": false,
+      "variants": {},
+      "note": "Per-ayah focus-run reader responses are retired from the default commentary workflow. Use regular reader walks, plus/minus-5 reader walks, and cross-run publication findings for corpus-wide reader-derived evidence."
+    },
+    "v12_focus_trace_hermetic": {
+      "present": true,
+      "packet_present": true,
+      "packet_source_file": "latent_activation/focus_trace/runs/s35/packets/35_23.packet.json",
+      "readers": {
+        "reader_hft_a": {
+          "present": true,
+          "source_file": "latent_activation/focus_trace/runs/s35/readers/reader_hft_a/35_23.focus_trace.json",
+          "variant": "default",
+          "protocol": "focus-trace-hermetic-response-v4",
+          "baseline_models": 2,
+          "context_deltas": 7,
+          "surprising_valid_outliers": 3
+        }
+      },
+      "packet_protocol": "focus-trace-pericope-lean-v1",
+      "packet_bytes": 304423,
+      "split_root_count": 0,
+      "reader_count": 1
+    },
+    "v12_reader_walks": {
+      "present": false,
+      "readers": {
+        "reader_a": {
+          "present": false,
+          "zero_headings_parsed": true,
+          "note": "reader_s035_a_ayah_walk.md found but zero ayah headings recognised (unrecognised format)"
+        }
+      },
+      "lookup_refs": [
+        "35:23"
+      ]
+    },
+    "v12_reader_walks_wide": {
+      "present": false,
+      "readers": {
+        "reader_a": {
+          "present": false,
+          "zero_headings_parsed": true,
+          "note": "reader_s035_a_ayah_walk.md found but zero ayah headings recognised (unrecognised format)"
+        }
+      },
+      "lookup_refs": [
+        "35:23"
+      ]
+    },
+    "v12_cross_run_publication": {
+      "present": true,
+      "source_file": "quran-data/data/analysis/ayah-activation/v12-cross-run/tr/35_ayah_findings_publication.json",
+      "protocol": "v12-cross-run-publication-v3",
+      "language": "tr",
+      "lookup_ref": "35:23",
+      "finding_count": 0,
+      "grade_counts": {},
+      "note": "Compact final cross-run findings for this ayah, reconciled upstream from regular and plus/minus-5 reader runs; use as a coverage/priority check, not as replacement prose."
+    },
+    "butuncul_okuma": {
+      "present": false,
+      "source_file": null,
+      "note": "no whole-surah reading file exists for this surah"
+    },
+    "inter_ayah": {
+      "present": true,
+      "row_count": 139,
+      "label_counts": {
+        "strong": 68,
+        "medium": 28,
+        "no value": 30,
+        "weak": 13
+      }
+    },
+    "pericope": {
+      "present": true,
+      "synthesized": false,
+      "note": null
+    },
+    "root_lexicon": {
+      "present": true,
+      "roots_in_ayah": [
+        "ن ذ ر"
+      ],
+      "per_root": {
+        "ن ذ ر": {
+          "root_id": "root_001488",
+          "root_ids": [
+            "root_001488"
+          ],
+          "root_mapping": {
+            "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+            "qac_root_norm": "ن ذ ر",
+            "mapping_status": "unique",
+            "primary_root_id": "root_001488",
+            "targets": [
+              {
+                "qac_root_norm": "ن ذ ر",
+                "target_rank": 1,
+                "furuq_root_id": "root_001488",
+                "furuq_root_norm": "ن ذ ر",
+                "furuq_resolution": "source_root_norm",
+                "occurrences": 113,
+                "is_dominant": 1
+              }
+            ]
+          },
+          "dictionary_present": true,
+          "gloss_present": false,
+          "targets": [
+            {
+              "root_id": "root_001488",
+              "target_rank": 1,
+              "is_dominant": true,
+              "furuq_root_norm": "ن ذ ر",
+              "furuq_resolution": "source_root_norm",
+              "occurrences": 113,
+              "dictionary_present": true,
+              "gloss_present": false,
+              "dictionary_branch_count": 3,
+              "gloss_branch_count": 0,
+              "occurrence_evidence_trimmed": null,
+              "note": "no reviewed Turkish gloss found for this root_id"
+            }
+          ],
+          "note": null
+        }
+      },
+      "occurrence_evidence_trim": {
+        "applied": true,
+        "dropped_keys": [
+          "occurrences",
+          "ayahs"
+        ],
+        "note": "TRIMMED, NOT ABSENT. dictionary_entry.occurrence_evidence.occurrences and .ayahs are removed from every root by design: they are a per-occurrence QAC concordance and character-span alignment table carrying zero readings, branches or senses, and they dominated bundle size (~1.5 MB for a single common root). occurrence_evidence.summary (corpus frequency) and .forms (inflectional inventory) are retained. Dictionary/gloss branches are kept in full for every included Furuq root target."
+      },
+      "branch_policy": {
+        "mode": "full_branches_no_filtering",
+        "dictionary_branches_total": 3,
+        "dictionary_branches_kept": 3,
+        "dictionary_branches_dropped": 0,
+        "gloss_branches_total": 0,
+        "note": "No branch filtering is applied. Every branch present in each included dictionary/gloss root entry is kept."
+      },
+      "root_mapping": {
+        "source": "quran-data/data/bridges/qac-furuq-v4-root-map.sqlite.gz",
+        "policy": "Use the dominant Furuq root for every QAC root, and include non-dominant Furuq targets as additional root_lexicon entries when qac-furuq-v4-root-map marks the QAC root as split.",
+        "split_roots_in_ayah": 0
+      },
+      "note": "Turkish is the only language with dictionary entries/glosses currently sourced."
+    }
+  }
+}

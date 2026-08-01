@@ -87,11 +87,11 @@ joined audio request per ayah, for example:
 Fatiha 5: إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ
 ```
 
-Preparation also reports cleaned spoken-character counts and an estimated cost:
-input is `$1` per million characters for the repeated prompt plus spoken text,
-and output is `$20` per million spoken characters. The separate
-`--cost-per-million-chars` option changes only the offline preparation estimate;
-the synthesis script uses the fixed rates above for its confirmation gate.
+Preparation reports cleaned spoken-character counts, an estimated input-token
+cost, and a conservative maximum cost based on the provider's input/output
+token limits for every prepared request. Gemini TTS pricing is token-based,
+not character-based: `$1` per million input text tokens and `$20` per million
+output audio tokens (25 audio tokens per second).
 
 Replacing an existing collection is opt-in with both
 `--replace-existing --prune`. Preparation refuses to overwrite any existing
@@ -152,17 +152,16 @@ https://texttospeech.googleapis.com/v1beta1/text:synthesize
 
 The synthesis script validates every request, path, manifest entry, voice, and
 audio configuration before obtaining credentials. It freezes the validated
-request bodies, computes a request-set SHA-256 digest over the exact ordered,
-length-delimited POST bytes that this run will send after cache inspection, and
-computes input cost at the fixed `$1` per million characters for the repeated
-prompt plus spoken text and output cost at the fixed `$20` per million spoken
-characters, rounding both upward. The preflight reports both components and
-their total; confirmation matches that total. Duplicate JSON keys are
-rejected.
-It obtains `gcloud auth print-access-token` for the `quran-roots` project only
-after an exact digest, cost, and spending ceiling are confirmed. A collection
-lock prevents preparation or two synthesis processes from operating on the
-same output.
+request bodies, and computes a request-set SHA-256 digest over the billing
+project plus the exact ordered, length-delimited POST bytes remaining after
+cache inspection. Its confirmation cost is a strict upper bound: the number
+of pending requests multiplied by the provider's maximum input and output
+tokens, priced at the fixed token rates above. Actual ledger output cost is
+derived from measured WAV duration; input usage remains explicitly estimated
+because the REST response does not return it. Duplicate JSON keys are rejected.
+It obtains `gcloud auth print-access-token` only after the exact digest,
+maximum cost, and spending ceiling are confirmed. Preparation and synthesis
+take the same per-collection OS lock, while distinct folders remain parallel.
 
 Before any future remote run, validate the prepared request set locally. For
 recitation, use the separate collection path:
@@ -173,7 +172,7 @@ python3 _audio/scripts/synthesize_tts_chunks.py \
   --dry-run
 ```
 
-Use the `requestSetSha256`, `estimatedCostUsd`, and counts printed by that
+Use the `requestSetSha256`, `maximumCostUsd`, project, and counts printed by that
 preflight. After reviewing them, send the batch with exact confirmations:
 
 For a non-contiguous subset, use repeated exact chunk IDs rather than
@@ -208,7 +207,7 @@ python3 _audio/scripts/synthesize_tts_chunks.py \
   --chunk-id sec-006-p-001 \
   --chunk-id sec-007-p-001 \
   --confirm-remote <requestSetSha256> \
-  --confirm-cost-usd <estimatedCostUsd> \
+  --confirm-cost-usd <maximumCostUsd> \
   --max-cost-usd <approved-ceiling>
 ```
 
@@ -220,4 +219,4 @@ unknown outcome; resending it requires the separate `--reconcile-unknown`
 acknowledgement and a new exact preflight confirmation. Failures are recorded
 and are not automatically retried. Preparation refuses to overwrite a
 collection containing an unresolved outcome.
-No TTS generation has been started as part of this setup.
+Preflight and preparation never start TTS generation.
