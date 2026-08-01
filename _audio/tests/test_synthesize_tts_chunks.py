@@ -226,6 +226,30 @@ class SynthesizeTtsChunksTest(unittest.TestCase):
         handler = synth.NoRedirectHandler()
         self.assertIsNone(handler.redirect_request(None, None, 302, "Found", {}, "https://example.com"))
 
+    def test_only_observed_generic_provider_error_is_retryable(self):
+        self.assertTrue(
+            synth.is_retryable_known_error(
+                {
+                    "error": {
+                        "code": 400,
+                        "status": "INVALID_ARGUMENT",
+                        "message": "Request contains an invalid argument.",
+                    }
+                }
+            )
+        )
+        self.assertFalse(
+            synth.is_retryable_known_error(
+                {
+                    "error": {
+                        "code": 400,
+                        "status": "INVALID_ARGUMENT",
+                        "message": "Policy rejection",
+                    }
+                }
+            )
+        )
+
     def test_remote_attempt_automatically_creates_terminal_ledger_entries(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory).resolve()

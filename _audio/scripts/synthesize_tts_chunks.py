@@ -2,6 +2,7 @@
 import argparse
 import base64
 import binascii
+from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, wait
 from decimal import Decimal, InvalidOperation, ROUND_CEILING
 import fcntl
 import hashlib
@@ -40,6 +41,8 @@ MAX_PROMPT_BYTES_PER_REQUEST = 4000
 MAX_COMBINED_INPUT_BYTES_PER_REQUEST = 8000
 UNKNOWN_REMOTE_OUTCOMES = {"in_flight", "unknown"}
 ACCESS_TOKEN_REFRESH_SECONDS = 45 * 60
+SYNTHESIS_TIMEOUT_SECONDS = 300
+KNOWN_ERROR_RETRY_DELAYS_SECONDS = (2, 5)
 COLLECTION_SOURCE_KINDS = {
     "surah": {"surah"},
     "ayah": {"ayah"},
@@ -651,16 +654,29 @@ def synthesize(
             "Content-Type": "application/json; charset=utf-8",
         },
     )
+    http_error_code = None
     try:
-        with NO_REDIRECT_OPENER.open(request, timeout=180) as response:
+        with NO_REDIRECT_OPENER.open(
+            request, timeout=SYNTHESIS_TIMEOUT_SECONDS
+        ) as response:
             payload = response.read()
     except urllib.error.HTTPError as error:
         if 300 <= error.code < 400:
             raise RuntimeError(
                 f"TTS endpoint returned redirect ({error.code}); refusing to follow it"
             ) from error
+        http_error_code = error.code
         payload = error.read()
-    response = strict_json_loads(payload.decode("utf-8"))
+    if not payload and http_error_code is not None:
+        response = {
+            "error": {
+                "code": http_error_code,
+                "message": f"TTS endpoint returned HTTP {http_error_code} with an empty body",
+                "status": "HTTP_ERROR",
+            }
+        }
+    else:
+        response = strict_json_loads(payload.decode("utf-8"))
     response["_generatedAt"] = generated_at
     return response
 
@@ -734,6 +750,16 @@ def request_metadata(chunk):
             "audioConfigSha256",
         )
     }
+
+
+def is_retryable_known_error(response):
+    error = response.get("error") if isinstance(response, dict) else None
+    return bool(
+        isinstance(error, dict)
+        and error.get("code") == 400
+        and error.get("status") == "INVALID_ARGUMENT"
+        and error.get("message") == "Request contains an invalid argument."
+    )
 
 
 def validate_request_file(request_path, chunk, manifest=None):
@@ -1046,9 +1072,13 @@ def require_remote_confirmation(args, preflight):
         )
     if args.max_cost_usd is None:
         raise PermissionError("Provide --max-cost-usd as an explicit spending ceiling")
-    if expected_cost > args.max_cost_usd:
+    single_request_maximum = estimate_request_costs(
+        remote_chunks[:1], preflight["requestBodies"]
+    )["maximumCostUsd"]
+    if single_request_maximum > args.max_cost_usd:
         raise PermissionError(
-            f"Preflight maximum cost {expected_cost} exceeds --max-cost-usd {args.max_cost_usd}"
+            "The maximum cost of one request "
+            f"{single_request_maximum} exceeds --max-cost-usd {args.max_cost_usd}"
         )
     if args.force and not args.confirm_force:
         raise PermissionError("--force requires the separate --confirm-force acknowledgement")
@@ -1321,6 +1351,68 @@ def persist_chunk_state(chunks_path, manifest_path, chunks):
     update_manifest(manifest_path, {record["chunkId"]: record for record in chunks})
 
 
+def synthesize_with_retries(
+    request_body,
+    token,
+    chunk,
+    generated_at,
+    project_id,
+    authorization,
+):
+    response = synthesize(
+        request_body,
+        token,
+        chunk,
+        generated_at,
+        project_id,
+        authorization,
+    )
+    for retry_number, retry_delay in enumerate(
+        KNOWN_ERROR_RETRY_DELAYS_SECONDS, start=1
+    ):
+        if not is_retryable_known_error(response):
+            break
+        print(
+            "Retrying transient provider rejection for "
+            f"{chunk['chunkId']} ({retry_number}/"
+            f"{len(KNOWN_ERROR_RETRY_DELAYS_SECONDS)})...",
+            file=sys.stderr,
+            flush=True,
+        )
+        time.sleep(retry_delay)
+        response = synthesize(
+            request_body,
+            token,
+            chunk,
+            generated_at,
+            project_id,
+            authorization,
+        )
+    return response
+
+
+def maximum_single_request_cost():
+    return token_cost(
+        MAX_INPUT_TOKENS_PER_REQUEST, INPUT_COST_PER_MILLION_TOKENS
+    ) + token_cost(
+        MAX_OUTPUT_TOKENS_PER_REQUEST, OUTPUT_COST_PER_MILLION_TOKENS
+    )
+
+
+def affordable_pool_slots(
+    spent_usd,
+    budget_usd,
+    workers,
+    in_flight,
+    remaining,
+):
+    if remaining <= 0 or in_flight >= workers:
+        return 0
+    available = budget_usd - spent_usd
+    affordable_active = int(available // maximum_single_request_cost())
+    return min(workers - in_flight, remaining, max(0, affordable_active - in_flight))
+
+
 def process_collection(preflight, args, authorization):
     surah_dir = preflight["surahDir"]
     manifest_path = preflight["manifestPath"]
@@ -1423,6 +1515,27 @@ def process_collection(preflight, args, authorization):
                 args.project_id,
                 authorization,
             )
+            for retry_number, retry_delay in enumerate(
+                KNOWN_ERROR_RETRY_DELAYS_SECONDS, start=1
+            ):
+                if not is_retryable_known_error(current_response):
+                    break
+                print(
+                    "Retrying transient provider rejection for "
+                    f"{chunk['chunkId']} ({retry_number}/"
+                    f"{len(KNOWN_ERROR_RETRY_DELAYS_SECONDS)})...",
+                    file=sys.stderr,
+                    flush=True,
+                )
+                time.sleep(retry_delay)
+                current_response = synthesize(
+                    current_request_body,
+                    token,
+                    chunk,
+                    generated_at,
+                    args.project_id,
+                    authorization,
+                )
             current_response["_attemptId"] = current_attempt_id
             if "error" in current_response:
                 write_response(paths["response"], current_response, chunk)
@@ -1557,6 +1670,321 @@ def process_collection(preflight, args, authorization):
     return 0
 
 
+def process_collection_bounded(preflight, args, authorization):
+    surah_dir = preflight["surahDir"]
+    manifest_path = preflight["manifestPath"]
+    chunks_path = preflight["chunksPath"]
+    chunks = preflight["chunks"]
+    target_chunks = preflight["targetChunks"]
+    target_ids = {chunk["chunkId"] for chunk in target_chunks}
+    remote_chunks = preflight["remoteChunks"]
+    collection = preflight["manifest"]["collection"]
+    processed = 0
+    spent_usd = Decimal("0")
+    active_attempts = {}
+
+    try:
+        token = get_authorized_token(authorization) if remote_chunks else None
+        token_refreshed_at = time.monotonic() if remote_chunks else None
+        if remote_chunks:
+            clear_affected_section_derivatives(surah_dir, manifest_path, target_ids)
+            update_generation_state(
+                manifest_path,
+                "in_progress",
+                preflight["requestDigest"],
+            )
+
+        for chunk in target_chunks:
+            paths = preflight["targetPaths"][chunk["chunkId"]]
+            status = preflight["statuses"][chunk["chunkId"]]
+            if args.force or status != "verified_response":
+                continue
+            if (
+                chunk.get("durationSeconds") is not None
+                and chunk.get("audioSha256")
+                and chunk.get("mp3Sha256")
+                and paths["wav"].is_file()
+                and paths["mp3"].is_file()
+            ):
+                clear_remote_attempt(chunk)
+                processed += 1
+                continue
+            response = load_response(paths["response"])
+            duration_seconds, audio_sha256 = materialize_wav_from_response(
+                response, paths["wav"]
+            )
+            chunk["durationSeconds"] = duration_seconds
+            chunk["audioSha256"] = audio_sha256
+            chunk.pop("mp3Sha256", None)
+            materialize_original_mp3(surah_dir, chunk)
+            chunk["generatedAt"] = chunk.get("generatedAt") or response.get(
+                "_generatedAt"
+            )
+            cached_attempt_id = response.get("_attemptId")
+            recovered = cached_attempt_id and not ledger_has_success_terminal(
+                args.ledger_dir, cached_attempt_id
+            )
+            append_ledger_entry(
+                args.ledger_dir,
+                build_ledger_entry(
+                    event="synthesized_recovered" if recovered else "cached",
+                    collection=collection,
+                    chunk=chunk,
+                    request_body=preflight["requestBodies"][chunk["chunkId"]],
+                    attempt_id=cached_attempt_id or f"cache-{uuid.uuid4().hex}",
+                    project_id=args.project_id,
+                    duration_seconds=duration_seconds,
+                    new_spend=bool(recovered),
+                ),
+            )
+            clear_remote_attempt(chunk)
+            processed += 1
+        persist_chunk_state(chunks_path, manifest_path, chunks)
+
+        remote_offset = 0
+        uncertain_reserve_usd = Decimal("0")
+        had_failures = False
+        futures = {}
+        with ThreadPoolExecutor(max_workers=args.workers) as executor:
+            while remote_offset < len(remote_chunks) or futures:
+                budget_used = spent_usd + uncertain_reserve_usd
+                slots = affordable_pool_slots(
+                    budget_used,
+                    args.max_cost_usd,
+                    args.workers,
+                    len(futures),
+                    len(remote_chunks) - remote_offset,
+                )
+                if slots:
+                    new_attempts = []
+                    for chunk in remote_chunks[remote_offset : remote_offset + slots]:
+                        remote_offset += 1
+                        print(
+                            f"{remote_offset}/{len(remote_chunks)} "
+                            f"{chunk['chunkId']}...",
+                            flush=True,
+                        )
+                        generated_at = utc_timestamp()
+                        attempt_id = uuid.uuid4().hex
+                        request_body = preflight["requestBodies"][chunk["chunkId"]]
+                        paths = preflight["targetPaths"][chunk["chunkId"]]
+                        attempt = {
+                            "chunk": chunk,
+                            "paths": paths,
+                            "generatedAt": generated_at,
+                            "attemptId": attempt_id,
+                            "requestBody": request_body,
+                        }
+                        active_attempts[chunk["chunkId"]] = attempt
+                        new_attempts.append(attempt)
+                        chunk["remoteOutcome"] = "in_flight"
+                        chunk["remoteAttemptId"] = attempt_id
+                        chunk["remoteAttemptStartedAt"] = generated_at
+                        append_ledger_entry(
+                            args.ledger_dir,
+                            build_ledger_entry(
+                                event="attempted",
+                                collection=collection,
+                                chunk=chunk,
+                                request_body=request_body,
+                                attempt_id=attempt_id,
+                                project_id=args.project_id,
+                            ),
+                        )
+                        if args.force:
+                            archive_existing_chunk_artifacts(
+                                surah_dir, chunk, paths, attempt_id
+                            )
+                    persist_chunk_state(chunks_path, manifest_path, chunks)
+
+                    if time.monotonic() - token_refreshed_at >= ACCESS_TOKEN_REFRESH_SECONDS:
+                        token = get_authorized_token(authorization)
+                        token_refreshed_at = time.monotonic()
+                    for attempt in new_attempts:
+                        future = executor.submit(
+                            synthesize_with_retries,
+                            attempt["requestBody"],
+                            token,
+                            attempt["chunk"],
+                            attempt["generatedAt"],
+                            args.project_id,
+                            authorization,
+                        )
+                        futures[future] = attempt
+
+                if not futures:
+                    if remote_offset < len(remote_chunks):
+                        raise RuntimeError(
+                            "Run spending ceiling reached before all chunks completed: "
+                            f"used=${budget_used}, ceiling=${args.max_cost_usd}"
+                        )
+                    break
+
+                done, _ = wait(futures, return_when=FIRST_COMPLETED)
+                for future in done:
+                    attempt = futures.pop(future)
+                    chunk = attempt["chunk"]
+                    paths = attempt["paths"]
+                    try:
+                        response = future.result()
+                    except Exception as transport_error:
+                        chunk["remoteOutcome"] = "unknown"
+                        append_ledger_entry(
+                            args.ledger_dir,
+                            build_ledger_entry(
+                                event="unknown",
+                                collection=collection,
+                                chunk=chunk,
+                                request_body=attempt["requestBody"],
+                                attempt_id=attempt["attemptId"],
+                                project_id=args.project_id,
+                                error=transport_error,
+                            ),
+                        )
+                        uncertain_reserve_usd += maximum_single_request_cost()
+                        print(
+                            f"Unknown remote outcome for {chunk['chunkId']}: "
+                            f"{transport_error}",
+                            file=sys.stderr,
+                            flush=True,
+                        )
+                        active_attempts.pop(chunk["chunkId"], None)
+                        had_failures = True
+                        continue
+
+                    response["_attemptId"] = attempt["attemptId"]
+                    if "error" in response:
+                        write_response(paths["response"], response, chunk)
+                        append_ledger_entry(
+                            args.ledger_dir,
+                            build_ledger_entry(
+                                event="failed",
+                                collection=collection,
+                                chunk=chunk,
+                                request_body=attempt["requestBody"],
+                                attempt_id=attempt["attemptId"],
+                                project_id=args.project_id,
+                                error=json.dumps(response["error"], ensure_ascii=False),
+                            ),
+                        )
+                        clear_remote_attempt(chunk)
+                        print(
+                            json.dumps(response["error"], ensure_ascii=False, indent=2),
+                            file=sys.stderr,
+                            flush=True,
+                        )
+                        active_attempts.pop(chunk["chunkId"], None)
+                        had_failures = True
+                        continue
+
+                    audio = decode_audio_response(response)
+                    atomic_write_bytes(paths["wav"], audio)
+                    chunk["durationSeconds"] = round(
+                        wav_duration_seconds(paths["wav"]), 3
+                    )
+                    chunk["audioSha256"] = sha256_bytes(audio)
+                    chunk.pop("mp3Sha256", None)
+                    write_response(paths["response"], response, chunk)
+                    ledger_entry = build_ledger_entry(
+                        event="synthesized",
+                        collection=collection,
+                        chunk=chunk,
+                        request_body=attempt["requestBody"],
+                        attempt_id=attempt["attemptId"],
+                        project_id=args.project_id,
+                        duration_seconds=chunk["durationSeconds"],
+                        new_spend=True,
+                    )
+                    append_ledger_entry(args.ledger_dir, ledger_entry)
+                    spent_usd += Decimal(ledger_entry["estimatedBilledTotalUsd"])
+                    materialize_original_mp3(surah_dir, chunk)
+                    chunk["generatedAt"] = attempt["generatedAt"]
+                    clear_remote_attempt(chunk)
+                    active_attempts.pop(chunk["chunkId"], None)
+                    processed += 1
+                persist_chunk_state(chunks_path, manifest_path, chunks)
+
+        if had_failures:
+            update_generation_state(
+                manifest_path,
+                "failed",
+                preflight["requestDigest"],
+                "One or more rolling requests failed or had unknown outcomes",
+            )
+            return 1
+
+        persist_chunk_state(chunks_path, manifest_path, chunks)
+        build_section_derivatives(
+            surah_dir,
+            manifest_path,
+            chunks,
+            eligible_chunk_ids=(
+                target_ids
+                if args.limit is not None or args.chunk_ids is not None
+                else None
+            ),
+        )
+        update_generation_state(
+            manifest_path,
+            "partial"
+            if args.limit is not None or args.chunk_ids is not None
+            else "complete",
+            preflight["requestDigest"],
+        )
+    except Exception as error:
+        try:
+            for attempt in active_attempts.values():
+                chunk = attempt["chunk"]
+                if chunk.get("remoteOutcome") != "in_flight":
+                    continue
+                chunk["remoteOutcome"] = "unknown"
+                try:
+                    append_ledger_entry(
+                        args.ledger_dir,
+                        build_ledger_entry(
+                            event="unknown",
+                            collection=collection,
+                            chunk=chunk,
+                            request_body=attempt["requestBody"],
+                            attempt_id=attempt["attemptId"],
+                            project_id=args.project_id,
+                            error=error,
+                        ),
+                    )
+                except Exception as ledger_error:
+                    print(
+                        f"Failed to append unknown ledger state: {ledger_error}",
+                        file=sys.stderr,
+                    )
+            persist_chunk_state(chunks_path, manifest_path, chunks)
+            clear_affected_section_derivatives(surah_dir, manifest_path, target_ids)
+            update_generation_state(
+                manifest_path,
+                "failed",
+                preflight["requestDigest"],
+                str(error),
+            )
+        except Exception as state_error:
+            print(f"Failed to persist failure state: {state_error}", file=sys.stderr)
+        print(f"Synthesis stopped: {error}", file=sys.stderr)
+        return 1
+
+    print(
+        json.dumps(
+            {
+                "processed": processed,
+                "chunks": len(target_chunks),
+                "remoteCalls": len(remote_chunks),
+                "workers": args.workers,
+                "estimatedBilledUsd": str(spent_usd),
+                "requestSetSha256": preflight["requestDigest"],
+            },
+            indent=2,
+        )
+    )
+    return 0
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("surah_dir", type=Path)
@@ -1581,6 +2009,12 @@ def main():
     )
     parser.add_argument("--force", action="store_true")
     parser.add_argument(
+        "--workers",
+        type=int,
+        default=1,
+        help="Maximum concurrent TTS requests within this collection.",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Validate the complete request set without credentials, network, or audio writes.",
@@ -1598,7 +2032,10 @@ def main():
     parser.add_argument(
         "--max-cost-usd",
         type=decimal_argument,
-        help="Required spending ceiling for any run that will make remote requests.",
+        help=(
+            "Required observed-spend ceiling. The sender reserves the provider "
+            "maximum for every in-flight request before sending it."
+        ),
     )
     parser.add_argument(
         "--confirm-force",
@@ -1611,6 +2048,8 @@ def main():
         help="Explicitly allow resending a request whose prior transport outcome is unknown.",
     )
     args = parser.parse_args()
+    if args.workers < 1:
+        parser.error("--workers must be at least 1")
     if args.force and not args.confirm_force and not args.dry_run:
         parser.error("--force requires --confirm-force")
 
@@ -1644,7 +2083,7 @@ def main():
             )
             print(json.dumps(preflight_summary(preflight, False), indent=2))
             authorization = require_remote_confirmation(args, preflight)
-            return process_collection(preflight, args, authorization)
+            return process_collection_bounded(preflight, args, authorization)
     except (OSError, PermissionError, ValueError, RuntimeError) as error:
         print(f"Synthesis refused before remote execution: {error}", file=sys.stderr)
         return 1
