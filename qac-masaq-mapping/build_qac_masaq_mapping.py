@@ -44,7 +44,6 @@ _WORD_ID_RE = re.compile(r"^w-s(\d+)-a(\d+)-w(\d+)$")
 _WA_ARABIC_RE = re.compile(r"\{\{ar:([^}]*)\}\}")
 _MAX_SKIP_FOR_MORPHEME_MATCH = 3
 _ANNOTATION_CODEPOINTS = set(range(0x06D6, 0x06EE)) | {
-    0x0670,
     0x06E5,
     0x06E6,
     0x0640,
@@ -92,13 +91,22 @@ def normalize_arabic_surface(text: str) -> str:
     if not text:
         return ""
     decomposed = unicodedata.normalize("NFKD", text)
-    return "".join(
-        c
-        for c in decomposed
-        if unicodedata.category(c) not in {"Mn", "Me", "Cf"}
-        and ord(c) not in _ANNOTATION_CODEPOINTS
-        and c != "ـ"
-    ).translate(_ALEF_VARIANTS)
+    out: list[str] = []
+    prev_base = ""
+    for c in decomposed:
+        if unicodedata.category(c) in {"Mn", "Me", "Cf"}:
+            if c == "\u0670":
+                if prev_base != "ى":
+                    out.append("ا")
+            continue
+        if c == "ـ":
+            continue
+        if ord(c) in _ANNOTATION_CODEPOINTS:
+            continue
+        out.append(c)
+        prev_base = c
+
+    return "".join(out).translate(_ALEF_VARIANTS)
 
 
 def _analysis_surface_variants(text: str) -> list[str]:
@@ -112,10 +120,13 @@ def _analysis_surface_variants(text: str) -> list[str]:
         c for c in normalized
         if unicodedata.category(c) not in {"Mn", "Me", "Cf"}
         and c != "ـ"
-        and c != "\u0670"
         and ord(c) not in _ANNOTATION_CODEPOINTS
     ).translate(_ALEF_VARIANTS).replace(" ", "")
     variants = {base, without_dagger, base.replace("ء", "ا"), without_dagger.replace("ء", "ا")}
+    if base.endswith("يا"):
+        variants.add(base[:-1])
+    if without_dagger.endswith("يا"):
+        variants.add(without_dagger[:-1])
     variants.update(re.sub("ا+", "ا", v) for v in set(variants))
     return list(dict.fromkeys(v for v in variants if v))
 

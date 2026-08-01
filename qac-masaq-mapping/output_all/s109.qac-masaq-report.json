@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "qac-masaq-surah-report-v1",
+  "status": "partial",
+  "coverage": {
+    "surah": 109,
+    "release": "2026.07.21",
+    "seedCrosswalk": {
+      "path": null,
+      "release": "2026.07.21",
+      "seedEntries": 0,
+      "applied": false,
+      "entriesApplied": 0
+    },
+    "wordAnalysisSource": "/Users/ahmetrasit/projects/quran-data/data/analysis/word-analysis/s109.jsonl.zst",
+    "qacSource": "/Users/ahmetrasit/projects/quran-data/data/morphology/qac.sqlite.gz",
+    "qacWordCount": 26,
+    "qacMorphemeCount": 38,
+    "analysisTokenCount": 31,
+    "morphemeSkipTotal": 0,
+    "morphemeSkipMax": 0,
+    "morphemeSkipHistogram": {},
+    "mappedQacWordCount": 26,
+    "mappedMorphemeCount": 37,
+    "mappedAnalysisCount": 31,
+    "unresolvedCount": 0,
+    "danglingAlignedQacRefs": [
+      "109:1:4->109:1:4",
+      "109:3:6->109:3:6",
+      "109:4:6->109:4:6",
+      "109:5:6->109:5:6",
+      "109:6:5->109:6:5"
+    ],
+    "unmappedQacWords": [],
+    "unmappedAnalysisCount": 0,
+    "coverageByMorphemesTsv": {
+      "present": true,
+      "path": "/Users/ahmetrasit/projects/quran-data/data/analysis/ayah-activation/v12-tr/s109/linguistic/morphemes.tsv",
+      "ayah_count": 6,
+      "row_count": 38,
+      "malformed_rows": 0,
+      "word_count": 6,
+      "dropped_preface_rows": 0
+    },
+    "inputSha256": {
+      "qac.sqlite.gz": "5935cebc46d6458f901a066fba999f926064b75c9ca615c94fd815949b1e6bea",
+      "word-analysis/s109.jsonl.zst": "73d506396826284aa35857bb0d15dd1bea118c064842d17c7e040f5b98fe393b",
+      "v12-tr/s109/linguistic/morphemes.tsv": "ee636ab614bcd3eeb5862e1ca96752ca7d5a125c21c85205d7131bfa2a1c796a"
+    },
+    "morphemeSkipWarnings": []
+  },
+  "qa": {
+    "qacAyahCount": 6,
+    "wordAnalysisAyahCount": 6,
+    "morphemeAyahCount": 6,
+    "availableAyahs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "unresolved": []
+}

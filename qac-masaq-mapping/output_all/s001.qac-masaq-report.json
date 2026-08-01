@@ -1,0 +1,81 @@
+{
+  "schemaVersion": "qac-masaq-surah-report-v1",
+  "status": "complete",
+  "coverage": {
+    "surah": 1,
+    "release": "2026.07.21",
+    "seedCrosswalk": {
+      "path": "/Users/ahmetrasit/projects/quran-apps/packages/content-compiler/crosswalks/s001-qac-to-analysis.json",
+      "release": "2026.07.21",
+      "seedEntries": 29,
+      "applied": true,
+      "entriesApplied": 33,
+      "sourceRelease": "2026.07.21"
+    },
+    "wordAnalysisSource": "/Users/ahmetrasit/projects/quran-data/data/analysis/word-analysis/s001.jsonl.zst",
+    "qacSource": "/Users/ahmetrasit/projects/quran-data/data/morphology/qac.sqlite.gz",
+    "qacWordCount": 29,
+    "qacMorphemeCount": 48,
+    "analysisTokenCount": 33,
+    "morphemeSkipTotal": 1,
+    "morphemeSkipMax": 1,
+    "morphemeSkipHistogram": {
+      "0": 3,
+      "1": 1
+    },
+    "mappedQacWordCount": 29,
+    "mappedMorphemeCount": 48,
+    "mappedAnalysisCount": 33,
+    "unresolvedCount": 0,
+    "danglingAlignedQacRefs": [
+      "1:1:5->1:1:5",
+      "1:2:5->1:2:5",
+      "1:5:5->1:5:5",
+      "1:7:10->1:7:10"
+    ],
+    "unmappedQacWords": [],
+    "unmappedAnalysisCount": 0,
+    "coverageByMorphemesTsv": {
+      "present": true,
+      "path": "/Users/ahmetrasit/projects/quran-data/data/analysis/ayah-activation/v12-tr/s001/linguistic/morphemes.tsv",
+      "ayah_count": 7,
+      "row_count": 48,
+      "malformed_rows": 0,
+      "word_count": 7,
+      "dropped_preface_rows": 0
+    },
+    "inputSha256": {
+      "qac.sqlite.gz": "5935cebc46d6458f901a066fba999f926064b75c9ca615c94fd815949b1e6bea",
+      "word-analysis/s001.jsonl.zst": "059ebc3f81d1cf8c5c237c56616020574692f345baae103d49b43d48bd692593",
+      "v12-tr/s001/linguistic/morphemes.tsv": "5903268486d7295c61742b94746b8915740fbdfabb62034c02f0e8e4dbbdf447"
+    },
+    "morphemeSkipWarnings": [
+      {
+        "ayah_ref": "1:2",
+        "surah": 1,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 3,
+          "1": 1
+        }
+      }
+    ]
+  },
+  "qa": {
+    "qacAyahCount": 7,
+    "wordAnalysisAyahCount": 7,
+    "morphemeAyahCount": 7,
+    "availableAyahs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  "unresolved": []
+}

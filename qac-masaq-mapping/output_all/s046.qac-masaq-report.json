@@ -1,0 +1,526 @@
+{
+  "schemaVersion": "qac-masaq-surah-report-v1",
+  "status": "partial",
+  "coverage": {
+    "surah": 46,
+    "release": "2026.07.21",
+    "seedCrosswalk": {
+      "path": null,
+      "release": "2026.07.21",
+      "seedEntries": 0,
+      "applied": false,
+      "entriesApplied": 0
+    },
+    "wordAnalysisSource": "/Users/ahmetrasit/projects/quran-data/data/analysis/word-analysis/s046.jsonl.zst",
+    "qacSource": "/Users/ahmetrasit/projects/quran-data/data/morphology/qac.sqlite.gz",
+    "qacWordCount": 643,
+    "qacMorphemeCount": 1043,
+    "analysisTokenCount": 770,
+    "morphemeSkipTotal": 20,
+    "morphemeSkipMax": 3,
+    "morphemeSkipHistogram": {
+      "0": 268,
+      "2": 3,
+      "3": 1,
+      "1": 11
+    },
+    "mappedQacWordCount": 636,
+    "mappedMorphemeCount": 1011,
+    "mappedAnalysisCount": 756,
+    "unresolvedCount": 14,
+    "danglingAlignedQacRefs": [
+      "46:10:25->46:10:25",
+      "46:10:26->46:10:26",
+      "46:10:27->46:10:27",
+      "46:10:28->46:10:28",
+      "46:11:20->46:11:20",
+      "46:11:21->46:11:21",
+      "46:11:22->46:11:22",
+      "46:11:23->46:11:23",
+      "46:12:17->46:12:17",
+      "46:12:18->46:12:18",
+      "46:12:19->46:12:19",
+      "46:12:20->46:12:20",
+      "46:12:21->46:12:21",
+      "46:12:22->46:12:22",
+      "46:13:14->46:13:14",
+      "46:13:15->46:13:15",
+      "46:14:10->46:14:10",
+      "46:15:46->46:15:46",
+      "46:15:47->46:15:47",
+      "46:15:48->46:15:48",
+      "46:15:49->46:15:49",
+      "46:15:50->46:15:50",
+      "46:15:51->46:15:51",
+      "46:15:52->46:15:52",
+      "46:15:53->46:15:53",
+      "46:15:54->46:15:54",
+      "46:15:55->46:15:55",
+      "46:16:19->46:16:19",
+      "46:17:29->46:17:29",
+      "46:17:30->46:17:30",
+      "46:17:31->46:17:31",
+      "46:17:32->46:17:32",
+      "46:17:33->46:17:33",
+      "46:18:18->46:18:18",
+      "46:19:10->46:19:10",
+      "46:19:11->46:19:11",
+      "46:19:12->46:19:12",
+      "46:19:13->46:19:13",
+      "46:19:14->46:19:14",
+      "46:20:28->46:20:28",
+      "46:20:29->46:20:29",
+      "46:20:30->46:20:30",
+      "46:20:31->46:20:31",
+      "46:20:32->46:20:32",
+      "46:20:33->46:20:33",
+      "46:20:34->46:20:34",
+      "46:21:26->46:21:26",
+      "46:21:27->46:21:27",
+      "46:21:28->46:21:28",
+      "46:21:29->46:21:29",
+      "46:22:13->46:22:13",
+      "46:22:14->46:22:14",
+      "46:22:15->46:22:15",
+      "46:23:14->46:23:14",
+      "46:23:15->46:23:15",
+      "46:24:19->46:24:19",
+      "46:25:15->46:25:15",
+      "46:25:16->46:25:16",
+      "46:25:17->46:25:17",
+      "46:26:33->46:26:33",
+      "46:26:34->46:26:34",
+      "46:26:35->46:26:35",
+      "46:26:36->46:26:36",
+      "46:26:37->46:26:37",
+      "46:26:38->46:26:38",
+      "46:26:39->46:26:39",
+      "46:26:40->46:26:40",
+      "46:26:41->46:26:41",
+      "46:26:42->46:26:42",
+      "46:26:43->46:26:43",
+      "46:26:44->46:26:44",
+      "46:27:11->46:27:11",
+      "46:27:12->46:27:12",
+      "46:27:13->46:27:13",
+      "46:28:18->46:28:18",
+      "46:28:19->46:28:19",
+      "46:28:20->46:28:20",
+      "46:29:19->46:29:19",
+      "46:29:20->46:29:20",
+      "46:29:21->46:29:21",
+      "46:30:20->46:30:20",
+      "46:30:21->46:30:21",
+      "46:31:15->46:31:15",
+      "46:31:16->46:31:16",
+      "46:31:17->46:31:17",
+      "46:32:19->46:32:19",
+      "46:32:20->46:32:20",
+      "46:32:21->46:32:21",
+      "46:32:22->46:32:22",
+      "46:33:23->46:33:23",
+      "46:33:24->46:33:24",
+      "46:33:25->46:33:25",
+      "46:33:26->46:33:26",
+      "46:33:27->46:33:27",
+      "46:34:19->46:34:19",
+      "46:34:20->46:34:20",
+      "46:34:21->46:34:21",
+      "46:34:22->46:34:22",
+      "46:34:23->46:34:23",
+      "46:35:28->46:35:28",
+      "46:35:29->46:35:29",
+      "46:35:30->46:35:30",
+      "46:35:31->46:35:31",
+      "46:35:32->46:35:32",
+      "46:3:16->46:3:16",
+      "46:3:17->46:3:17",
+      "46:3:18->46:3:18",
+      "46:3:19->46:3:19",
+      "46:3:20->46:3:20",
+      "46:4:30->46:4:30",
+      "46:4:31->46:4:31",
+      "46:5:19->46:5:19",
+      "46:5:20->46:5:20",
+      "46:6:10->46:6:10",
+      "46:6:11->46:6:11",
+      "46:6:12->46:6:12",
+      "46:6:13->46:6:13",
+      "46:7:15->46:7:15",
+      "46:7:16->46:7:16",
+      "46:8:26->46:8:26",
+      "46:8:27->46:8:27",
+      "46:8:28->46:8:28",
+      "46:8:29->46:8:29",
+      "46:9:25->46:9:25",
+      "46:9:26->46:9:26",
+      "46:9:27->46:9:27",
+      "46:9:28->46:9:28"
+    ],
+    "unmappedQacWords": [
+      "46:1:1",
+      "46:3:13",
+      "46:10:2",
+      "46:10:14",
+      "46:15:23",
+      "46:21:16",
+      "46:32:15"
+    ],
+    "unmappedAnalysisCount": 14,
+    "coverageByMorphemesTsv": {
+      "present": true,
+      "path": "/Users/ahmetrasit/projects/quran-data/data/analysis/ayah-activation/v12-tr/s046/linguistic/morphemes.tsv",
+      "ayah_count": 34,
+      "row_count": 1042,
+      "malformed_rows": 0,
+      "word_count": 34,
+      "dropped_preface_rows": 0
+    },
+    "inputSha256": {
+      "qac.sqlite.gz": "5935cebc46d6458f901a066fba999f926064b75c9ca615c94fd815949b1e6bea",
+      "word-analysis/s046.jsonl.zst": "36802aa8b881e327ad6e80e8e6a630bc197f4e533d61b018d51a179617d5278b",
+      "v12-tr/s046/linguistic/morphemes.tsv": "7c2d8dae32dcdc21a9870bbe7c5d6f7a77f16489de0535b4756db407582c16bb"
+    },
+    "morphemeSkipWarnings": [
+      {
+        "ayah_ref": "46:3",
+        "surah": 46,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 2,
+        "morpheme_skip_histogram": {
+          "0": 18,
+          "2": 1
+        }
+      },
+      {
+        "ayah_ref": "46:7",
+        "surah": 46,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 2,
+        "morpheme_skip_histogram": {
+          "0": 14,
+          "2": 1
+        }
+      },
+      {
+        "ayah_ref": "46:10",
+        "surah": 46,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 5,
+        "morpheme_skip_max": 3,
+        "morpheme_skip_histogram": {
+          "0": 23,
+          "3": 1,
+          "1": 2
+        }
+      },
+      {
+        "ayah_ref": "46:11",
+        "surah": 46,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 21,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "46:12",
+        "surah": 46,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 19,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "46:18",
+        "surah": 46,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 17,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "46:20",
+        "surah": 46,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 33,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "46:21",
+        "surah": 46,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 2,
+        "morpheme_skip_histogram": {
+          "0": 27,
+          "2": 1
+        }
+      },
+      {
+        "ayah_ref": "46:30",
+        "surah": 46,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 20,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "46:32",
+        "surah": 46,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 19,
+          "1": 2
+        }
+      },
+      {
+        "ayah_ref": "46:33",
+        "surah": 46,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 26,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "46:35",
+        "surah": 46,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 31,
+          "1": 1
+        }
+      }
+    ]
+  },
+  "qa": {
+    "qacAyahCount": 35,
+    "wordAnalysisAyahCount": 35,
+    "morphemeAyahCount": 34,
+    "availableAyahs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+    ]
+  },
+  "unresolved": [
+    {
+      "ayah_ref": "46:1",
+      "surah": 46,
+      "reason": "no morphemes.tsv rows for this ayah",
+      "ayah": 1
+    },
+    {
+      "word_index": 17,
+      "critical_w": 18,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:عَنْ}} ({{tr:ʿan}})",
+      "analysis_surface": "عَنْ",
+      "analysis_surface_candidates": [
+        "عن"
+      ],
+      "ayah_ref": "46:3",
+      "surah": 46
+    },
+    {
+      "word_index": 10,
+      "critical_w": 11,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:ٱلْحَقِّ}} ({{tr:al-ḥaqqi}})",
+      "analysis_surface": "ٱلْحَقِّ",
+      "analysis_surface_candidates": [
+        "الحق"
+      ],
+      "ayah_ref": "46:7",
+      "surah": 46
+    },
+    {
+      "ayah_ref": "46:9",
+      "surah": 46,
+      "word_index": 22,
+      "critical_w": 23,
+      "reason": "analysis span crosses multiple QAC word refs",
+      "span_qac_word_refs": [
+        "46:9:19",
+        "46:9:20"
+      ],
+      "analysis_surface": "وَ"
+    },
+    {
+      "word_index": 1,
+      "critical_w": 2,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:أَرَأَيْتُمْ}} ({{tr:araʾaytum}})",
+      "analysis_surface": "أَرَأَيْتُمْ",
+      "analysis_surface_candidates": [
+        "ارايتم"
+      ],
+      "ayah_ref": "46:10",
+      "surah": 46
+    },
+    {
+      "word_index": 15,
+      "critical_w": 16,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:إِسْرَائِيلَ}} ({{tr:isrāʾīla}})",
+      "analysis_surface": "إِسْرَائِيلَ",
+      "analysis_surface_candidates": [
+        "اسراييل"
+      ],
+      "ayah_ref": "46:10",
+      "surah": 46
+    },
+    {
+      "word_index": 5,
+      "critical_w": 6,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:ٱلَّذِينَ}} ({{tr:alladhīna}})",
+      "analysis_surface": "ٱلَّذِينَ",
+      "analysis_surface_candidates": [
+        "الذين"
+      ],
+      "ayah_ref": "46:11",
+      "surah": 46
+    },
+    {
+      "word_index": 9,
+      "critical_w": 10,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:هَذَا}} ({{tr:hādhā}})",
+      "analysis_surface": "هَذَا",
+      "analysis_surface_candidates": [
+        "هذا"
+      ],
+      "ayah_ref": "46:12",
+      "surah": 46
+    },
+    {
+      "word_index": 21,
+      "critical_w": 22,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:الْمُحْسِنِينَ}} ({{tr:al-muḥsinīna}})",
+      "analysis_surface": "الْمُحْسِنِينَ",
+      "analysis_surface_candidates": [
+        "المحسنين"
+      ],
+      "ayah_ref": "46:12",
+      "surah": 46
+    },
+    {
+      "ayah_ref": "46:15",
+      "surah": 46,
+      "word_index": 28,
+      "critical_w": 29,
+      "reason": "analysis span crosses multiple QAC word refs",
+      "span_qac_word_refs": [
+        "46:15:22",
+        "46:15:23"
+      ],
+      "analysis_surface": "أَوْزِعْنِىٓ"
+    },
+    {
+      "ayah_ref": "46:15",
+      "surah": 46,
+      "word_index": 35,
+      "critical_w": 36,
+      "reason": "analysis span crosses multiple QAC word refs",
+      "span_qac_word_refs": [
+        "46:15:29",
+        "46:15:30"
+      ],
+      "analysis_surface": "وَ"
+    },
+    {
+      "ayah_ref": "46:15",
+      "surah": 46,
+      "word_index": 38,
+      "critical_w": 39,
+      "reason": "analysis span crosses multiple QAC word refs",
+      "span_qac_word_refs": [
+        "46:15:31",
+        "46:15:32"
+      ],
+      "analysis_surface": "وَ"
+    },
+    {
+      "word_index": 19,
+      "critical_w": 20,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:أَنْ}} ({{tr:an}})",
+      "analysis_surface": "أَنْ",
+      "analysis_surface_candidates": [
+        "ان"
+      ],
+      "ayah_ref": "46:21",
+      "surah": 46
+    },
+    {
+      "word_index": 18,
+      "critical_w": 19,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:أُولَئِكَ}} ({{tr:ulāʾika}})",
+      "analysis_surface": "أُولَئِكَ",
+      "analysis_surface_candidates": [
+        "اوليك"
+      ],
+      "ayah_ref": "46:32",
+      "surah": 46
+    }
+  ]
+}

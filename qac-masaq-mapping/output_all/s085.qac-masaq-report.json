@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "qac-masaq-surah-report-v1",
+  "status": "partial",
+  "coverage": {
+    "surah": 85,
+    "release": "2026.07.21",
+    "seedCrosswalk": {
+      "path": null,
+      "release": "2026.07.21",
+      "seedEntries": 0,
+      "applied": false,
+      "entriesApplied": 0
+    },
+    "wordAnalysisSource": "/Users/ahmetrasit/projects/quran-data/data/analysis/word-analysis/s085.jsonl.zst",
+    "qacSource": "/Users/ahmetrasit/projects/quran-data/data/morphology/qac.sqlite.gz",
+    "qacWordCount": 109,
+    "qacMorphemeCount": 172,
+    "analysisTokenCount": 130,
+    "morphemeSkipTotal": 0,
+    "morphemeSkipMax": 0,
+    "morphemeSkipHistogram": {},
+    "mappedQacWordCount": 107,
+    "mappedMorphemeCount": 169,
+    "mappedAnalysisCount": 127,
+    "unresolvedCount": 1,
+    "danglingAlignedQacRefs": [
+      "85:10:15->85:10:15",
+      "85:10:16->85:10:16",
+      "85:10:17->85:10:17",
+      "85:10:18->85:10:18",
+      "85:11:15->85:11:15",
+      "85:11:16->85:11:16",
+      "85:12:5->85:12:5",
+      "85:13:5->85:13:5",
+      "85:14:4->85:14:4",
+      "85:18:3->85:18:3",
+      "85:1:4->85:1:4",
+      "85:20:5->85:20:5",
+      "85:2:3->85:2:3",
+      "85:3:3->85:3:3",
+      "85:3:4->85:3:4",
+      "85:7:7->85:7:7",
+      "85:7:8->85:7:8",
+      "85:8:10->85:8:10",
+      "85:8:11->85:8:11",
+      "85:9:11->85:9:11",
+      "85:9:12->85:9:12"
+    ],
+    "unmappedQacWords": [
+      "85:18:1",
+      "85:18:2"
+    ],
+    "unmappedAnalysisCount": 3,
+    "coverageByMorphemesTsv": {
+      "present": true,
+      "path": "/Users/ahmetrasit/projects/quran-data/data/analysis/ayah-activation/v12-tr/s085/linguistic/morphemes.tsv",
+      "ayah_count": 21,
+      "row_count": 169,
+      "malformed_rows": 0,
+      "word_count": 21,
+      "dropped_preface_rows": 0
+    },
+    "inputSha256": {
+      "qac.sqlite.gz": "5935cebc46d6458f901a066fba999f926064b75c9ca615c94fd815949b1e6bea",
+      "word-analysis/s085.jsonl.zst": "a581dd9ec544ea8ce9abdf5db50f0348e0a195009ca9fff74c247c43a92794dc",
+      "v12-tr/s085/linguistic/morphemes.tsv": "650e2e62bbc04242ec2917ddd27bf2f682805ca29bd2444f75acbe2c3e16c7a2"
+    },
+    "morphemeSkipWarnings": []
+  },
+  "qa": {
+    "qacAyahCount": 22,
+    "wordAnalysisAyahCount": 22,
+    "morphemeAyahCount": 21,
+    "availableAyahs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  },
+  "unresolved": [
+    {
+      "ayah_ref": "85:18",
+      "surah": 85,
+      "reason": "no morphemes.tsv rows for this ayah",
+      "ayah": 18
+    }
+  ]
+}

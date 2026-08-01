@@ -1,0 +1,223 @@
+{
+  "schemaVersion": "qac-masaq-surah-report-v1",
+  "status": "partial",
+  "coverage": {
+    "surah": 63,
+    "release": "2026.07.21",
+    "seedCrosswalk": {
+      "path": null,
+      "release": "2026.07.21",
+      "seedEntries": 0,
+      "applied": false,
+      "entriesApplied": 0
+    },
+    "wordAnalysisSource": "/Users/ahmetrasit/projects/quran-data/data/analysis/word-analysis/s063.jsonl.zst",
+    "qacSource": "/Users/ahmetrasit/projects/quran-data/data/morphology/qac.sqlite.gz",
+    "qacWordCount": 180,
+    "qacMorphemeCount": 302,
+    "analysisTokenCount": 224,
+    "morphemeSkipTotal": 6,
+    "morphemeSkipMax": 2,
+    "morphemeSkipHistogram": {
+      "0": 61,
+      "1": 4,
+      "2": 1
+    },
+    "mappedQacWordCount": 179,
+    "mappedMorphemeCount": 294,
+    "mappedAnalysisCount": 218,
+    "unresolvedCount": 6,
+    "danglingAlignedQacRefs": [
+      "63:10:22->63:10:22",
+      "63:10:23->63:10:23",
+      "63:10:24->63:10:24",
+      "63:10:25->63:10:25",
+      "63:11:12->63:11:12",
+      "63:11:13->63:11:13",
+      "63:11:14->63:11:14",
+      "63:1:18->63:1:18",
+      "63:1:19->63:1:19",
+      "63:1:20->63:1:20",
+      "63:1:21->63:1:21",
+      "63:1:22->63:1:22",
+      "63:2:13->63:2:13",
+      "63:3:12->63:3:12",
+      "63:3:13->63:3:13",
+      "63:3:14->63:3:14",
+      "63:4:23->63:4:23",
+      "63:4:24->63:4:24",
+      "63:4:25->63:4:25",
+      "63:4:26->63:4:26",
+      "63:5:15->63:5:15",
+      "63:5:16->63:5:16",
+      "63:5:17->63:5:17",
+      "63:5:18->63:5:18",
+      "63:6:19->63:6:19",
+      "63:6:20->63:6:20",
+      "63:6:21->63:6:21",
+      "63:7:21->63:7:21",
+      "63:7:22->63:7:22",
+      "63:7:23->63:7:23",
+      "63:7:24->63:7:24",
+      "63:8:18->63:8:18",
+      "63:8:19->63:8:19",
+      "63:8:20->63:8:20",
+      "63:8:21->63:8:21",
+      "63:8:22->63:8:22",
+      "63:8:23->63:8:23",
+      "63:8:24->63:8:24",
+      "63:8:25->63:8:25",
+      "63:8:26->63:8:26",
+      "63:9:18->63:9:18",
+      "63:9:19->63:9:19",
+      "63:9:20->63:9:20",
+      "63:9:21->63:9:21"
+    ],
+    "unmappedQacWords": [
+      "63:10:13"
+    ],
+    "unmappedAnalysisCount": 6,
+    "coverageByMorphemesTsv": {
+      "present": true,
+      "path": "/Users/ahmetrasit/projects/quran-data/data/analysis/ayah-activation/v12-tr/s063/linguistic/morphemes.tsv",
+      "ayah_count": 11,
+      "row_count": 302,
+      "malformed_rows": 0,
+      "word_count": 11,
+      "dropped_preface_rows": 0
+    },
+    "inputSha256": {
+      "qac.sqlite.gz": "5935cebc46d6458f901a066fba999f926064b75c9ca615c94fd815949b1e6bea",
+      "word-analysis/s063.jsonl.zst": "573a85199d4b24c2d806c7d015cac3062fe51903f0cb820e0e54ece1c645ace0",
+      "v12-tr/s063/linguistic/morphemes.tsv": "188cb83031b8cabe8a66bf4f5899bd072f2723f1bbde5d95394380c6c0b72eea"
+    },
+    "morphemeSkipWarnings": [
+      {
+        "ayah_ref": "63:7",
+        "surah": 63,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 22,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "63:8",
+        "surah": 63,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 4,
+        "morpheme_skip_max": 2,
+        "morpheme_skip_histogram": {
+          "0": 20,
+          "1": 2,
+          "2": 1
+        }
+      },
+      {
+        "ayah_ref": "63:9",
+        "surah": 63,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 19,
+          "1": 1
+        }
+      }
+    ]
+  },
+  "qa": {
+    "qacAyahCount": 11,
+    "wordAnalysisAyahCount": 11,
+    "morphemeAyahCount": 11,
+    "availableAyahs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "unresolved": [
+    {
+      "word_index": 14,
+      "critical_w": 15,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:ٱللَّهِ}} ({{tr:Allāhi}})",
+      "analysis_surface": "ٱللَّهِ",
+      "analysis_surface_candidates": [
+        "الله"
+      ],
+      "ayah_ref": "63:7",
+      "surah": 63
+    },
+    {
+      "word_index": 2,
+      "critical_w": 3,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:إِنْ}} ({{tr:in}})",
+      "analysis_surface": "إِنْ",
+      "analysis_surface_candidates": [
+        "ان"
+      ],
+      "ayah_ref": "63:8",
+      "surah": 63
+    },
+    {
+      "word_index": 13,
+      "critical_w": 14,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:ٱللَّهِ}} ({{tr:allāhi}})",
+      "analysis_surface": "ٱللَّهِ",
+      "analysis_surface_candidates": [
+        "الله"
+      ],
+      "ayah_ref": "63:8",
+      "surah": 63
+    },
+    {
+      "word_index": 20,
+      "critical_w": 21,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:ٱلْمُؤْمِنِينَ}} ({{tr:al-muʾminīna}})",
+      "analysis_surface": "ٱلْمُؤْمِنِينَ",
+      "analysis_surface_candidates": [
+        "المومنين"
+      ],
+      "ayah_ref": "63:8",
+      "surah": 63
+    },
+    {
+      "word_index": 1,
+      "critical_w": 2,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:أَيُّ}} ({{tr:ayyu}})",
+      "analysis_surface": "أَيُّ",
+      "analysis_surface_candidates": [
+        "اي"
+      ],
+      "ayah_ref": "63:9",
+      "surah": 63
+    },
+    {
+      "ayah_ref": "63:10",
+      "surah": 63,
+      "word_index": 14,
+      "critical_w": 15,
+      "reason": "analysis span crosses multiple QAC word refs",
+      "span_qac_word_refs": [
+        "63:10:12",
+        "63:10:13"
+      ],
+      "analysis_surface": "لَوْلَآ"
+    }
+  ]
+}

@@ -1,0 +1,1087 @@
+{
+  "schemaVersion": "qac-masaq-surah-report-v1",
+  "status": "partial",
+  "coverage": {
+    "surah": 28,
+    "release": "2026.07.21",
+    "seedCrosswalk": {
+      "path": null,
+      "release": "2026.07.21",
+      "seedEntries": 0,
+      "applied": false,
+      "entriesApplied": 0
+    },
+    "wordAnalysisSource": "/Users/ahmetrasit/projects/quran-data/data/analysis/word-analysis/s028.jsonl.zst",
+    "qacSource": "/Users/ahmetrasit/projects/quran-data/data/morphology/qac.sqlite.gz",
+    "qacWordCount": 1430,
+    "qacMorphemeCount": 2344,
+    "analysisTokenCount": 1733,
+    "morphemeSkipTotal": 40,
+    "morphemeSkipMax": 3,
+    "morphemeSkipHistogram": {
+      "0": 494,
+      "1": 26,
+      "2": 4,
+      "3": 2
+    },
+    "mappedQacWordCount": 1415,
+    "mappedMorphemeCount": 2272,
+    "mappedAnalysisCount": 1704,
+    "unresolvedCount": 29,
+    "danglingAlignedQacRefs": [
+      "28:10:18->28:10:18",
+      "28:10:19->28:10:19",
+      "28:10:20->28:10:20",
+      "28:11:11->28:11:11",
+      "28:11:12->28:11:12",
+      "28:11:13->28:11:13",
+      "28:11:14->28:11:14",
+      "28:12:17->28:12:17",
+      "28:12:18->28:12:18",
+      "28:12:19->28:12:19",
+      "28:13:18->28:13:18",
+      "28:13:19->28:13:19",
+      "28:13:20->28:13:20",
+      "28:13:21->28:13:21",
+      "28:13:22->28:13:22",
+      "28:14:11->28:14:11",
+      "28:14:12->28:14:12",
+      "28:14:13->28:14:13",
+      "28:14:14->28:14:14",
+      "28:14:15->28:14:15",
+      "28:15:39->28:15:39",
+      "28:15:40->28:15:40",
+      "28:15:41->28:15:41",
+      "28:15:42->28:15:42",
+      "28:15:43->28:15:43",
+      "28:15:44->28:15:44",
+      "28:16:14->28:16:14",
+      "28:16:15->28:16:15",
+      "28:17:10->28:17:10",
+      "28:17:11->28:17:11",
+      "28:17:12->28:17:12",
+      "28:18:17->28:18:17",
+      "28:18:18->28:18:18",
+      "28:18:19->28:18:19",
+      "28:18:20->28:18:20",
+      "28:19:33->28:19:33",
+      "28:19:34->28:19:34",
+      "28:19:35->28:19:35",
+      "28:19:36->28:19:36",
+      "28:19:37->28:19:37",
+      "28:19:38->28:19:38",
+      "28:19:39->28:19:39",
+      "28:20:19->28:20:19",
+      "28:20:20->28:20:20",
+      "28:20:21->28:20:21",
+      "28:20:22->28:20:22",
+      "28:21:11->28:21:11",
+      "28:22:12->28:22:12",
+      "28:23:28->28:23:28",
+      "28:23:29->28:23:29",
+      "28:23:30->28:23:30",
+      "28:24:16->28:24:16",
+      "28:24:17->28:24:17",
+      "28:24:18->28:24:18",
+      "28:25:27->28:25:27",
+      "28:25:28->28:25:28",
+      "28:25:29->28:25:29",
+      "28:25:30->28:25:30",
+      "28:26:11->28:26:11",
+      "28:27:30->28:27:30",
+      "28:27:31->28:27:31",
+      "28:27:32->28:27:32",
+      "28:28:16->28:28:16",
+      "28:28:17->28:28:17",
+      "28:28:18->28:28:18",
+      "28:29:28->28:29:28",
+      "28:29:29->28:29:29",
+      "28:29:30->28:29:30",
+      "28:29:31->28:29:31",
+      "28:29:32->28:29:32",
+      "28:30:20->28:30:20",
+      "28:30:21->28:30:21",
+      "28:31:20->28:31:20",
+      "28:31:21->28:31:21",
+      "28:31:22->28:31:22",
+      "28:31:23->28:31:23",
+      "28:31:24->28:31:24",
+      "28:32:26->28:32:26",
+      "28:32:27->28:32:27",
+      "28:32:28->28:32:28",
+      "28:33:10->28:33:10",
+      "28:34:15->28:34:15",
+      "28:34:16->28:34:16",
+      "28:35:16->28:35:16",
+      "28:35:17->28:35:17",
+      "28:35:18->28:35:18",
+      "28:35:19->28:35:19",
+      "28:35:20->28:35:20",
+      "28:36:18->28:36:18",
+      "28:36:19->28:36:19",
+      "28:36:20->28:36:20",
+      "28:36:21->28:36:21",
+      "28:37:19->28:37:19",
+      "28:37:20->28:37:20",
+      "28:37:21->28:37:21",
+      "28:38:28->28:38:28",
+      "28:38:29->28:38:29",
+      "28:38:30->28:38:30",
+      "28:38:31->28:38:31",
+      "28:38:32->28:38:32",
+      "28:38:33->28:38:33",
+      "28:38:34->28:38:34",
+      "28:39:13->28:39:13",
+      "28:39:14->28:39:14",
+      "28:39:15->28:39:15",
+      "28:39:16->28:39:16",
+      "28:3:10->28:3:10",
+      "28:3:11->28:3:11",
+      "28:3:12->28:3:12",
+      "28:40:11->28:40:11",
+      "28:40:12->28:40:12",
+      "28:40:13->28:40:13",
+      "28:40:14->28:40:14",
+      "28:41:10->28:41:10",
+      "28:41:11->28:41:11",
+      "28:42:11->28:42:11",
+      "28:42:12->28:42:12",
+      "28:43:17->28:43:17",
+      "28:43:18->28:43:18",
+      "28:43:19->28:43:19",
+      "28:43:20->28:43:20",
+      "28:43:21->28:43:21",
+      "28:44:14->28:44:14",
+      "28:44:15->28:44:15",
+      "28:44:16->28:44:16",
+      "28:45:19->28:45:19",
+      "28:45:20->28:45:20",
+      "28:45:21->28:45:21",
+      "28:45:22->28:45:22",
+      "28:46:21->28:46:21",
+      "28:46:22->28:46:22",
+      "28:46:23->28:46:23",
+      "28:46:24->28:46:24",
+      "28:47:19->28:47:19",
+      "28:47:20->28:47:20",
+      "28:47:21->28:47:21",
+      "28:47:22->28:47:22",
+      "28:47:23->28:47:23",
+      "28:48:27->28:48:27",
+      "28:48:28->28:48:28",
+      "28:48:29->28:48:29",
+      "28:48:30->28:48:30",
+      "28:48:31->28:48:31",
+      "28:49:14->28:49:14",
+      "28:49:15->28:49:15",
+      "28:4:20->28:4:20",
+      "28:4:21->28:4:21",
+      "28:50:24->28:50:24",
+      "28:50:25->28:50:25",
+      "28:50:26->28:50:26",
+      "28:50:27->28:50:27",
+      "28:51:7->28:51:7",
+      "28:51:8->28:51:8",
+      "28:51:9->28:51:9",
+      "28:53:16->28:53:16",
+      "28:54:13->28:54:13",
+      "28:54:14->28:54:14",
+      "28:54:15->28:54:15",
+      "28:54:16->28:54:16",
+      "28:55:16->28:55:16",
+      "28:55:17->28:55:17",
+      "28:55:18->28:55:18",
+      "28:56:14->28:56:14",
+      "28:56:15->28:56:15",
+      "28:56:16->28:56:16",
+      "28:57:26->28:57:26",
+      "28:57:27->28:57:27",
+      "28:57:28->28:57:28",
+      "28:57:29->28:57:29",
+      "28:58:18->28:58:18",
+      "28:58:19->28:58:19",
+      "28:58:20->28:58:20",
+      "28:59:21->28:59:21",
+      "28:59:22->28:59:22",
+      "28:59:23->28:59:23",
+      "28:5:13->28:5:13",
+      "28:5:14->28:5:14",
+      "28:5:15->28:5:15",
+      "28:60:16->28:60:16",
+      "28:60:17->28:60:17",
+      "28:60:18->28:60:18",
+      "28:60:19->28:60:19",
+      "28:60:20->28:60:20",
+      "28:60:21->28:60:21",
+      "28:61:18->28:61:18",
+      "28:61:19->28:61:19",
+      "28:61:20->28:61:20",
+      "28:62:10->28:62:10",
+      "28:62:9->28:62:9",
+      "28:63:19->28:63:19",
+      "28:64:14->28:64:14",
+      "28:64:15->28:64:15",
+      "28:64:16->28:64:16",
+      "28:64:17->28:64:17",
+      "28:64:18->28:64:18",
+      "28:65:7->28:65:7",
+      "28:65:8->28:65:8",
+      "28:66:8->28:66:8",
+      "28:66:9->28:66:9",
+      "28:67:12->28:67:12",
+      "28:67:13->28:67:13",
+      "28:67:14->28:67:14",
+      "28:67:15->28:67:15",
+      "28:68:15->28:68:15",
+      "28:68:16->28:68:16",
+      "28:68:17->28:68:17",
+      "28:68:18->28:68:18",
+      "28:69:8->28:69:8",
+      "28:69:9->28:69:9",
+      "28:6:13->28:6:13",
+      "28:6:14->28:6:14",
+      "28:6:15->28:6:15",
+      "28:6:16->28:6:16",
+      "28:6:17->28:6:17",
+      "28:70:16->28:70:16",
+      "28:70:17->28:70:17",
+      "28:70:18->28:70:18",
+      "28:70:19->28:70:19",
+      "28:71:20->28:71:20",
+      "28:71:21->28:71:21",
+      "28:72:22->28:72:22",
+      "28:72:23->28:72:23",
+      "28:73:14->28:73:14",
+      "28:73:15->28:73:15",
+      "28:73:16->28:73:16",
+      "28:73:17->28:73:17",
+      "28:73:18->28:73:18",
+      "28:73:19->28:73:19",
+      "28:74:10->28:74:10",
+      "28:74:9->28:74:9",
+      "28:75:18->28:75:18",
+      "28:75:19->28:75:19",
+      "28:75:20->28:75:20",
+      "28:75:21->28:75:21",
+      "28:75:22->28:75:22",
+      "28:76:30->28:76:30",
+      "28:76:31->28:76:31",
+      "28:76:32->28:76:32",
+      "28:76:33->28:76:33",
+      "28:77:27->28:77:27",
+      "28:77:28->28:77:28",
+      "28:77:29->28:77:29",
+      "28:77:30->28:77:30",
+      "28:77:31->28:77:31",
+      "28:78:29->28:78:29",
+      "28:78:30->28:78:30",
+      "28:78:31->28:78:31",
+      "28:79:21->28:79:21",
+      "28:79:22->28:79:22",
+      "28:79:23->28:79:23",
+      "28:7:23->28:7:23",
+      "28:7:24->28:7:24",
+      "28:7:25->28:7:25",
+      "28:7:26->28:7:26",
+      "28:7:27->28:7:27",
+      "28:7:28->28:7:28",
+      "28:80:17->28:80:17",
+      "28:80:18->28:80:18",
+      "28:80:19->28:80:19",
+      "28:80:20->28:80:20",
+      "28:81:18->28:81:18",
+      "28:81:19->28:81:19",
+      "28:81:20->28:81:20",
+      "28:81:21->28:81:21",
+      "28:81:22->28:81:22",
+      "28:82:27->28:82:27",
+      "28:82:28->28:82:28",
+      "28:82:29->28:82:29",
+      "28:82:30->28:82:30",
+      "28:82:31->28:82:31",
+      "28:82:32->28:82:32",
+      "28:82:33->28:82:33",
+      "28:82:34->28:82:34",
+      "28:82:35->28:82:35",
+      "28:83:15->28:83:15",
+      "28:83:16->28:83:16",
+      "28:83:17->28:83:17",
+      "28:83:18->28:83:18",
+      "28:84:19->28:84:19",
+      "28:84:20->28:84:20",
+      "28:84:21->28:84:21",
+      "28:84:22->28:84:22",
+      "28:84:23->28:84:23",
+      "28:85:20->28:85:20",
+      "28:85:21->28:85:21",
+      "28:85:22->28:85:22",
+      "28:86:16->28:86:16",
+      "28:86:17->28:86:17",
+      "28:86:18->28:86:18",
+      "28:87:17->28:87:17",
+      "28:87:18->28:87:18",
+      "28:87:19->28:87:19",
+      "28:88:20->28:88:20",
+      "28:88:21->28:88:21",
+      "28:8:14->28:8:14",
+      "28:8:15->28:8:15",
+      "28:8:16->28:8:16",
+      "28:8:17->28:8:17",
+      "28:8:18->28:8:18",
+      "28:8:19->28:8:19",
+      "28:9:19->28:9:19",
+      "28:9:20->28:9:20",
+      "28:9:21->28:9:21"
+    ],
+    "unmappedQacWords": [
+      "28:1:1",
+      "28:16:3",
+      "28:21:7",
+      "28:24:9",
+      "28:24:13",
+      "28:26:4",
+      "28:27:8",
+      "28:33:3",
+      "28:53:5",
+      "28:57:13",
+      "28:68:13",
+      "28:71:2",
+      "28:82:7",
+      "28:82:23",
+      "28:86:3"
+    ],
+    "unmappedAnalysisCount": 29,
+    "coverageByMorphemesTsv": {
+      "present": true,
+      "path": "/Users/ahmetrasit/projects/quran-data/data/analysis/ayah-activation/v12-tr/s028/linguistic/morphemes.tsv",
+      "ayah_count": 87,
+      "row_count": 2343,
+      "malformed_rows": 0,
+      "word_count": 87,
+      "dropped_preface_rows": 0
+    },
+    "inputSha256": {
+      "qac.sqlite.gz": "5935cebc46d6458f901a066fba999f926064b75c9ca615c94fd815949b1e6bea",
+      "word-analysis/s028.jsonl.zst": "226c122ff5c11f006cdb43ebaed65c44b50fdd8989d341292a7f77b512be9ee3",
+      "v12-tr/s028/linguistic/morphemes.tsv": "5de968274adc4a21f367e92fb5a88d3ba49c5a3b5b1334e3cb78ca6633817549"
+    },
+    "morphemeSkipWarnings": [
+      {
+        "ayah_ref": "28:10",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 19,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "28:11",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 13,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "28:18",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 19,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "28:20",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 21,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "28:25",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 29,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "28:31",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 23,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "28:43",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 2,
+        "morpheme_skip_histogram": {
+          "0": 19,
+          "2": 1
+        }
+      },
+      {
+        "ayah_ref": "28:45",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 20,
+          "1": 2
+        }
+      },
+      {
+        "ayah_ref": "28:48",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 30,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "28:51",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 8,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "28:53",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 2,
+        "morpheme_skip_histogram": {
+          "0": 14,
+          "2": 1
+        }
+      },
+      {
+        "ayah_ref": "28:54",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 2,
+        "morpheme_skip_histogram": {
+          "0": 14,
+          "2": 1
+        }
+      },
+      {
+        "ayah_ref": "28:55",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 17,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "28:57",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 25,
+          "1": 2
+        }
+      },
+      {
+        "ayah_ref": "28:68",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 2,
+        "morpheme_skip_histogram": {
+          "0": 16,
+          "2": 1
+        }
+      },
+      {
+        "ayah_ref": "28:70",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 17,
+          "1": 2
+        }
+      },
+      {
+        "ayah_ref": "28:71",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 3,
+        "morpheme_skip_max": 3,
+        "morpheme_skip_histogram": {
+          "0": 19,
+          "3": 1
+        }
+      },
+      {
+        "ayah_ref": "28:72",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 22,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "28:78",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 30,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "28:79",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 21,
+          "1": 2
+        }
+      },
+      {
+        "ayah_ref": "28:81",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 20,
+          "1": 2
+        }
+      },
+      {
+        "ayah_ref": "28:82",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 4,
+        "morpheme_skip_max": 3,
+        "morpheme_skip_histogram": {
+          "0": 27,
+          "1": 1,
+          "3": 1
+        }
+      },
+      {
+        "ayah_ref": "28:83",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 15,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "28:84",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 21,
+          "1": 2
+        }
+      },
+      {
+        "ayah_ref": "28:86",
+        "surah": 28,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 15,
+          "1": 1
+        }
+      }
+    ]
+  },
+  "qa": {
+    "qacAyahCount": 88,
+    "wordAnalysisAyahCount": 88,
+    "morphemeAyahCount": 87,
+    "availableAyahs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88
+    ]
+  },
+  "unresolved": [
+    {
+      "ayah_ref": "28:1",
+      "surah": 28,
+      "reason": "no morphemes.tsv rows for this ayah",
+      "ayah": 1
+    },
+    {
+      "ayah_ref": "28:16",
+      "surah": 28,
+      "word_index": 2,
+      "critical_w": 3,
+      "reason": "analysis span crosses multiple QAC word refs",
+      "span_qac_word_refs": [
+        "28:16:2",
+        "28:16:3"
+      ],
+      "analysis_surface": "إِنِّى"
+    },
+    {
+      "word_index": 11,
+      "critical_w": 12,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:الْمُجْرِمِينَ}} ({{tr:al-mujrimīn}})",
+      "analysis_surface": "الْمُجْرِمِينَ",
+      "analysis_surface_candidates": [
+        "المجرمين"
+      ],
+      "ayah_ref": "28:17",
+      "surah": 28
+    },
+    {
+      "ayah_ref": "28:17",
+      "surah": 28,
+      "word_index": 2,
+      "critical_w": 3,
+      "reason": "analysis span crosses multiple QAC word refs",
+      "span_qac_word_refs": [
+        "28:17:2",
+        "28:17:3"
+      ],
+      "analysis_surface": "بِ"
+    },
+    {
+      "ayah_ref": "28:17",
+      "surah": 28,
+      "word_index": 6,
+      "critical_w": 7,
+      "reason": "analysis span crosses multiple QAC word refs",
+      "span_qac_word_refs": [
+        "28:17:5",
+        "28:17:6"
+      ],
+      "analysis_surface": "فَ"
+    },
+    {
+      "ayah_ref": "28:21",
+      "surah": 28,
+      "word_index": 7,
+      "critical_w": 8,
+      "reason": "analysis span crosses multiple QAC word refs",
+      "span_qac_word_refs": [
+        "28:21:6",
+        "28:21:7"
+      ],
+      "analysis_surface": "نَجِّنِى"
+    },
+    {
+      "ayah_ref": "28:24",
+      "surah": 28,
+      "word_index": 11,
+      "critical_w": 12,
+      "reason": "analysis span crosses multiple QAC word refs",
+      "span_qac_word_refs": [
+        "28:24:8",
+        "28:24:9"
+      ],
+      "analysis_surface": "إِنِّي"
+    },
+    {
+      "ayah_ref": "28:24",
+      "surah": 28,
+      "word_index": 15,
+      "critical_w": 16,
+      "reason": "analysis span crosses multiple QAC word refs",
+      "span_qac_word_refs": [
+        "28:24:12",
+        "28:24:13"
+      ],
+      "analysis_surface": "مِنْ"
+    },
+    {
+      "ayah_ref": "28:26",
+      "surah": 28,
+      "word_index": 4,
+      "critical_w": 5,
+      "reason": "analysis span crosses multiple QAC word refs",
+      "span_qac_word_refs": [
+        "28:26:3",
+        "28:26:4"
+      ],
+      "analysis_surface": "ٱسْتَـْٔجِرْهُ"
+    },
+    {
+      "ayah_ref": "28:27",
+      "surah": 28,
+      "word_index": 7,
+      "critical_w": 8,
+      "reason": "analysis span crosses multiple QAC word refs",
+      "span_qac_word_refs": [
+        "28:27:7",
+        "28:27:8"
+      ],
+      "analysis_surface": "هَاتَيْنِ"
+    },
+    {
+      "ayah_ref": "28:28",
+      "surah": 28,
+      "word_index": 12,
+      "critical_w": 13,
+      "reason": "analysis span crosses multiple QAC word refs",
+      "span_qac_word_refs": [
+        "28:28:10",
+        "28:28:11"
+      ],
+      "analysis_surface": "وَ"
+    },
+    {
+      "ayah_ref": "28:33",
+      "surah": 28,
+      "word_index": 2,
+      "critical_w": 3,
+      "reason": "analysis span crosses multiple QAC word refs",
+      "span_qac_word_refs": [
+        "28:33:2",
+        "28:33:3"
+      ],
+      "analysis_surface": "إِنِّى"
+    },
+    {
+      "word_index": 14,
+      "critical_w": 15,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:ٱلنَّاسِ}} ({{tr:al-nāsi}})",
+      "analysis_surface": "ٱلنَّاسِ",
+      "analysis_surface_candidates": [
+        "الناس"
+      ],
+      "ayah_ref": "28:43",
+      "surah": 28
+    },
+    {
+      "word_index": 5,
+      "critical_w": 6,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:آمَنَّا}} ({{tr:āmannā}})",
+      "analysis_surface": "آمَنَّا",
+      "analysis_surface_candidates": [
+        "امنا"
+      ],
+      "ayah_ref": "28:53",
+      "surah": 28
+    },
+    {
+      "word_index": 13,
+      "critical_w": 14,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:مِن}} ({{tr:min}})",
+      "analysis_surface": "مِن",
+      "analysis_surface_candidates": [
+        "من"
+      ],
+      "ayah_ref": "28:54",
+      "surah": 28
+    },
+    {
+      "word_index": 15,
+      "critical_w": 16,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:آمِنًا}} ({{tr:āminan}})",
+      "analysis_surface": "آمِنًا",
+      "analysis_surface_candidates": [
+        "امنا"
+      ],
+      "ayah_ref": "28:57",
+      "surah": 28
+    },
+    {
+      "word_index": 25,
+      "critical_w": 26,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:لَكِنَّ}} ({{tr:lākinna}})",
+      "analysis_surface": "لَكِنَّ",
+      "analysis_surface_candidates": [
+        "لكن"
+      ],
+      "ayah_ref": "28:57",
+      "surah": 28
+    },
+    {
+      "word_index": 16,
+      "critical_w": 17,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:عَنْ}} ({{tr:ʿan}})",
+      "analysis_surface": "عَنْ",
+      "analysis_surface_candidates": [
+        "عن"
+      ],
+      "ayah_ref": "28:68",
+      "surah": 28
+    },
+    {
+      "word_index": 1,
+      "critical_w": 2,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:أَرَأَيْتُمْ}} ({{tr:araʾaytum}})",
+      "analysis_surface": "أَرَأَيْتُمْ",
+      "analysis_surface_candidates": [
+        "ارايتم"
+      ],
+      "ayah_ref": "28:71",
+      "surah": 28
+    },
+    {
+      "word_index": 8,
+      "critical_w": 9,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:وَ}} ({{tr:wa}})",
+      "analysis_surface": "وَ",
+      "analysis_surface_candidates": [
+        "و"
+      ],
+      "ayah_ref": "28:82",
+      "surah": 28
+    },
+    {
+      "word_index": 9,
+      "critical_w": 10,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:يْ}} ({{tr:y}})",
+      "analysis_surface": "يْ",
+      "analysis_surface_candidates": [
+        "ي"
+      ],
+      "ayah_ref": "28:82",
+      "surah": 28
+    },
+    {
+      "word_index": 10,
+      "critical_w": 11,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:كَأَنَّ}} ({{tr:kaʾanna}})",
+      "analysis_surface": "كَأَنَّ",
+      "analysis_surface_candidates": [
+        "كان"
+      ],
+      "ayah_ref": "28:82",
+      "surah": 28
+    },
+    {
+      "word_index": 29,
+      "critical_w": 30,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:وَ}} ({{tr:wa}})",
+      "analysis_surface": "وَ",
+      "analysis_surface_candidates": [
+        "و"
+      ],
+      "ayah_ref": "28:82",
+      "surah": 28
+    },
+    {
+      "word_index": 30,
+      "critical_w": 31,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:يْ}} ({{tr:y}})",
+      "analysis_surface": "يْ",
+      "analysis_surface_candidates": [
+        "ي"
+      ],
+      "ayah_ref": "28:82",
+      "surah": 28
+    },
+    {
+      "word_index": 31,
+      "critical_w": 32,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:كَأَنَّهُۥ}} ({{tr:kaʾannahu}})",
+      "analysis_surface": "كَأَنَّهُۥ",
+      "analysis_surface_candidates": [
+        "كانه"
+      ],
+      "ayah_ref": "28:82",
+      "surah": 28
+    },
+    {
+      "word_index": 5,
+      "critical_w": 6,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:ٱلَّذِينَ}} ({{tr:alladhīna}})",
+      "analysis_surface": "ٱلَّذِينَ",
+      "analysis_surface_candidates": [
+        "الذين"
+      ],
+      "ayah_ref": "28:83",
+      "surah": 28
+    },
+    {
+      "word_index": 17,
+      "critical_w": 18,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:ٱلْمُتَّقِينَ}} ({{tr:al-muttaqīna}})",
+      "analysis_surface": "ٱلْمُتَّقِينَ",
+      "analysis_surface_candidates": [
+        "المتقين"
+      ],
+      "ayah_ref": "28:83",
+      "surah": 28
+    },
+    {
+      "word_index": 3,
+      "critical_w": 4,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:تَرْجُو}} ({{tr:tarjū}})",
+      "analysis_surface": "تَرْجُو",
+      "analysis_surface_candidates": [
+        "ترجو"
+      ],
+      "ayah_ref": "28:86",
+      "surah": 28
+    },
+    {
+      "word_index": 17,
+      "critical_w": 18,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:ٱلْكَٰفِرِينَ}} ({{tr:al-kāfirīna}})",
+      "analysis_surface": "ٱلْكَٰفِرِينَ",
+      "analysis_surface_candidates": [
+        "الكفرين",
+        "الكافرين"
+      ],
+      "ayah_ref": "28:86",
+      "surah": 28
+    }
+  ]
+}

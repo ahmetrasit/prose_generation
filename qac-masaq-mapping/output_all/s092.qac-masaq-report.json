@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "qac-masaq-surah-report-v1",
+  "status": "partial",
+  "coverage": {
+    "surah": 92,
+    "release": "2026.07.21",
+    "seedCrosswalk": {
+      "path": null,
+      "release": "2026.07.21",
+      "seedEntries": 0,
+      "applied": false,
+      "entriesApplied": 0
+    },
+    "wordAnalysisSource": "/Users/ahmetrasit/projects/quran-data/data/analysis/word-analysis/s092.jsonl.zst",
+    "qacSource": "/Users/ahmetrasit/projects/quran-data/data/morphology/qac.sqlite.gz",
+    "qacWordCount": 71,
+    "qacMorphemeCount": 131,
+    "analysisTokenCount": 99,
+    "morphemeSkipTotal": 2,
+    "morphemeSkipMax": 1,
+    "morphemeSkipHistogram": {
+      "0": 5,
+      "1": 2
+    },
+    "mappedQacWordCount": 71,
+    "mappedMorphemeCount": 123,
+    "mappedAnalysisCount": 96,
+    "unresolvedCount": 3,
+    "danglingAlignedQacRefs": [
+      "92:10:3->92:10:3",
+      "92:10:4->92:10:4",
+      "92:11:7->92:11:7",
+      "92:12:4->92:12:4",
+      "92:13:5->92:13:5",
+      "92:13:6->92:13:6",
+      "92:13:7->92:13:7",
+      "92:14:4->92:14:4",
+      "92:16:4->92:16:4",
+      "92:17:3->92:17:3",
+      "92:19:7->92:19:7",
+      "92:19:8->92:19:8",
+      "92:1:4->92:1:4",
+      "92:21:3->92:21:3",
+      "92:2:4->92:2:4",
+      "92:3:5->92:3:5",
+      "92:3:6->92:3:6",
+      "92:4:4->92:4:4",
+      "92:5:5->92:5:5",
+      "92:5:6->92:5:6",
+      "92:6:3->92:6:3",
+      "92:6:4->92:6:4",
+      "92:7:3->92:7:3",
+      "92:7:4->92:7:4",
+      "92:8:5->92:8:5",
+      "92:8:6->92:8:6",
+      "92:9:3->92:9:3",
+      "92:9:4->92:9:4"
+    ],
+    "unmappedQacWords": [],
+    "unmappedAnalysisCount": 3,
+    "coverageByMorphemesTsv": {
+      "present": true,
+      "path": "/Users/ahmetrasit/projects/quran-data/data/analysis/ayah-activation/v12-tr/s092/linguistic/morphemes.tsv",
+      "ayah_count": 21,
+      "row_count": 131,
+      "malformed_rows": 0,
+      "word_count": 21,
+      "dropped_preface_rows": 0
+    },
+    "inputSha256": {
+      "qac.sqlite.gz": "5935cebc46d6458f901a066fba999f926064b75c9ca615c94fd815949b1e6bea",
+      "word-analysis/s092.jsonl.zst": "779c16d7e1bd97bf19850e5faad8219aa802b9087b5be5be2e5d832ca2b89ed9",
+      "v12-tr/s092/linguistic/morphemes.tsv": "dd259ec35da43e5058ea5e9a3c088a2675461570fd45a87c819dcb5c365e97fa"
+    },
+    "morphemeSkipWarnings": [
+      {
+        "ayah_ref": "92:13",
+        "surah": 92,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 5,
+          "1": 2
+        }
+      }
+    ]
+  },
+  "qa": {
+    "qacAyahCount": 21,
+    "wordAnalysisAyahCount": 21,
+    "morphemeAyahCount": 21,
+    "availableAyahs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "unresolved": [
+    {
+      "word_index": 3,
+      "critical_w": 4,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:ٱلْيُسْرَىٰ}} ({{tr:al-yusrā}})",
+      "analysis_surface": "ٱلْيُسْرَىٰ",
+      "analysis_surface_candidates": [
+        "اليسري"
+      ],
+      "ayah_ref": "92:7",
+      "surah": 92
+    },
+    {
+      "word_index": 3,
+      "critical_w": 4,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:ٱلْعُسْرَىٰ}} ({{tr:al-ʿusrā}})",
+      "analysis_surface": "ٱلْعُسْرَىٰ",
+      "analysis_surface_candidates": [
+        "العسري"
+      ],
+      "ayah_ref": "92:10",
+      "surah": 92
+    },
+    {
+      "word_index": 3,
+      "critical_w": 4,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:ٱلْهُدَىٰ}} ({{tr:al-hudā}})",
+      "analysis_surface": "ٱلْهُدَىٰ",
+      "analysis_surface_candidates": [
+        "الهدي"
+      ],
+      "ayah_ref": "92:12",
+      "surah": 92
+    }
+  ]
+}

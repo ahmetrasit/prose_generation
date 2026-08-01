@@ -1,0 +1,477 @@
+{
+  "schemaVersion": "qac-masaq-surah-report-v1",
+  "status": "partial",
+  "coverage": {
+    "surah": 61,
+    "release": "2026.07.21",
+    "seedCrosswalk": {
+      "path": null,
+      "release": "2026.07.21",
+      "seedEntries": 0,
+      "applied": false,
+      "entriesApplied": 0
+    },
+    "wordAnalysisSource": "/Users/ahmetrasit/projects/quran-data/data/analysis/word-analysis/s061.jsonl.zst",
+    "qacSource": "/Users/ahmetrasit/projects/quran-data/data/morphology/qac.sqlite.gz",
+    "qacWordCount": 221,
+    "qacMorphemeCount": 348,
+    "analysisTokenCount": 258,
+    "morphemeSkipTotal": 15,
+    "morphemeSkipMax": 3,
+    "morphemeSkipHistogram": {
+      "0": 105,
+      "2": 5,
+      "1": 2,
+      "3": 1
+    },
+    "mappedQacWordCount": 199,
+    "mappedMorphemeCount": 303,
+    "mappedAnalysisCount": 236,
+    "unresolvedCount": 22,
+    "danglingAlignedQacRefs": [
+      "61:10:12->61:10:12",
+      "61:11:16->61:11:16",
+      "61:11:17->61:11:17",
+      "61:11:18->61:11:18",
+      "61:11:19->61:11:19",
+      "61:11:20->61:11:20",
+      "61:12:18->61:12:18",
+      "61:12:19->61:12:19",
+      "61:13:10->61:13:10",
+      "61:13:11->61:13:11",
+      "61:13:12->61:13:12",
+      "61:14:36->61:14:36",
+      "61:14:37->61:14:37",
+      "61:14:38->61:14:38",
+      "61:14:39->61:14:39",
+      "61:14:40->61:14:40",
+      "61:14:41->61:14:41",
+      "61:14:42->61:14:42",
+      "61:1:12->61:1:12",
+      "61:1:13->61:1:13",
+      "61:1:14->61:1:14",
+      "61:2:9->61:2:9",
+      "61:5:24->61:5:24",
+      "61:5:25->61:5:25",
+      "61:5:26->61:5:26",
+      "61:5:27->61:5:27",
+      "61:5:28->61:5:28",
+      "61:5:29->61:5:29",
+      "61:6:33->61:6:33",
+      "61:6:34->61:6:34",
+      "61:6:35->61:6:35",
+      "61:6:36->61:6:36",
+      "61:6:37->61:6:37",
+      "61:7:17->61:7:17",
+      "61:7:18->61:7:18",
+      "61:7:19->61:7:19",
+      "61:8:12->61:8:12",
+      "61:8:13->61:8:13",
+      "61:8:14->61:8:14",
+      "61:8:15->61:8:15",
+      "61:9:15->61:9:15",
+      "61:9:16->61:9:16",
+      "61:9:17->61:9:17",
+      "61:9:18->61:9:18"
+    ],
+    "unmappedQacWords": [
+      "61:2:3",
+      "61:5:6",
+      "61:6:7",
+      "61:6:8",
+      "61:6:13",
+      "61:6:16",
+      "61:6:17",
+      "61:6:18",
+      "61:6:19",
+      "61:6:20",
+      "61:6:21",
+      "61:6:22",
+      "61:6:23",
+      "61:6:24",
+      "61:6:25",
+      "61:6:26",
+      "61:6:27",
+      "61:6:28",
+      "61:6:29",
+      "61:6:30",
+      "61:6:31",
+      "61:12:15"
+    ],
+    "unmappedAnalysisCount": 22,
+    "coverageByMorphemesTsv": {
+      "present": true,
+      "path": "/Users/ahmetrasit/projects/quran-data/data/analysis/ayah-activation/v12-tr/s061/linguistic/morphemes.tsv",
+      "ayah_count": 14,
+      "row_count": 348,
+      "malformed_rows": 0,
+      "word_count": 14,
+      "dropped_preface_rows": 0
+    },
+    "inputSha256": {
+      "qac.sqlite.gz": "5935cebc46d6458f901a066fba999f926064b75c9ca615c94fd815949b1e6bea",
+      "word-analysis/s061.jsonl.zst": "6f8813ccdee28d3645e6fa40b53f03ef6ffbf8df90d586b4892ee5bd9dee043d",
+      "v12-tr/s061/linguistic/morphemes.tsv": "1e7a74601b8d10ddf5acaffad39375a660573e13432e3a35673a04defc974985"
+    },
+    "morphemeSkipWarnings": [
+      {
+        "ayah_ref": "61:2",
+        "surah": 61,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 2,
+        "morpheme_skip_histogram": {
+          "0": 7,
+          "2": 1
+        }
+      },
+      {
+        "ayah_ref": "61:6",
+        "surah": 61,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 6,
+        "morpheme_skip_max": 3,
+        "morpheme_skip_histogram": {
+          "0": 10,
+          "1": 1,
+          "3": 1,
+          "2": 1
+        }
+      },
+      {
+        "ayah_ref": "61:8",
+        "surah": 61,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 2,
+        "morpheme_skip_histogram": {
+          "0": 13,
+          "2": 1
+        }
+      },
+      {
+        "ayah_ref": "61:11",
+        "surah": 61,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 2,
+        "morpheme_skip_histogram": {
+          "0": 18,
+          "2": 1
+        }
+      },
+      {
+        "ayah_ref": "61:12",
+        "surah": 61,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 17,
+          "1": 1
+        }
+      },
+      {
+        "ayah_ref": "61:14",
+        "surah": 61,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 2,
+        "morpheme_skip_max": 2,
+        "morpheme_skip_histogram": {
+          "0": 40,
+          "2": 1
+        }
+      }
+    ]
+  },
+  "qa": {
+    "qacAyahCount": 14,
+    "wordAnalysisAyahCount": 14,
+    "morphemeAyahCount": 14,
+    "availableAyahs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "unresolved": [
+    {
+      "word_index": 3,
+      "critical_w": 4,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:آمَنُوا}} ({{tr:āmanū}})",
+      "analysis_surface": "آمَنُوا",
+      "analysis_surface_candidates": [
+        "امنوا"
+      ],
+      "ayah_ref": "61:2",
+      "surah": 61
+    },
+    {
+      "ayah_ref": "61:5",
+      "surah": 61,
+      "word_index": 8,
+      "critical_w": 9,
+      "reason": "analysis span crosses multiple QAC word refs",
+      "span_qac_word_refs": [
+        "61:5:5",
+        "61:5:6"
+      ],
+      "analysis_surface": "لِمَ"
+    },
+    {
+      "word_index": 7,
+      "critical_w": 9,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:إِسْرَائِيلَ}} ({{tr:isrāʾīla}})",
+      "analysis_surface": "إِسْرَائِيلَ",
+      "analysis_surface_candidates": [
+        "اسراييل"
+      ],
+      "ayah_ref": "61:6",
+      "surah": 61
+    },
+    {
+      "word_index": 14,
+      "critical_w": 19,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:ٱلتَّوْرَاةِ}} ({{tr:al-tawrāti}})",
+      "analysis_surface": "ٱلتَّوْرَاةِ",
+      "analysis_surface_candidates": [
+        "التوراة"
+      ],
+      "ayah_ref": "61:6",
+      "surah": 61
+    },
+    {
+      "word_index": 15,
+      "critical_w": 21,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:مُبَشِّرًا}} ({{tr:mubashshiran}})",
+      "analysis_surface": "مُبَشِّرًا",
+      "analysis_surface_candidates": [
+        "مبشرا"
+      ],
+      "ayah_ref": "61:6",
+      "surah": 61
+    },
+    {
+      "word_index": 16,
+      "critical_w": 23,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:رَسُولٍ}} ({{tr:rasūlin}})",
+      "analysis_surface": "رَسُولٍ",
+      "analysis_surface_candidates": [
+        "رسول"
+      ],
+      "ayah_ref": "61:6",
+      "surah": 61
+    },
+    {
+      "word_index": 17,
+      "critical_w": 24,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:يَأْتِي}} ({{tr:yaʾtī}})",
+      "analysis_surface": "يَأْتِي",
+      "analysis_surface_candidates": [
+        "ياتي"
+      ],
+      "ayah_ref": "61:6",
+      "surah": 61
+    },
+    {
+      "word_index": 18,
+      "critical_w": 26,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:بَعْدِي}} ({{tr:baʿdī}})",
+      "analysis_surface": "بَعْدِي",
+      "analysis_surface_candidates": [
+        "بعدي"
+      ],
+      "ayah_ref": "61:6",
+      "surah": 61
+    },
+    {
+      "word_index": 19,
+      "critical_w": 27,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:ٱسْمُهُ}} ({{tr:ismuhu}})",
+      "analysis_surface": "ٱسْمُهُ",
+      "analysis_surface_candidates": [
+        "اسمه"
+      ],
+      "ayah_ref": "61:6",
+      "surah": 61
+    },
+    {
+      "word_index": 20,
+      "critical_w": 28,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:أَحْمَدُ}} ({{tr:aḥmadu}})",
+      "analysis_surface": "أَحْمَدُ",
+      "analysis_surface_candidates": [
+        "احمد"
+      ],
+      "ayah_ref": "61:6",
+      "surah": 61
+    },
+    {
+      "word_index": 21,
+      "critical_w": 29,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:فَ}} ({{tr:fa}})",
+      "analysis_surface": "فَ",
+      "analysis_surface_candidates": [
+        "ف"
+      ],
+      "ayah_ref": "61:6",
+      "surah": 61
+    },
+    {
+      "word_index": 22,
+      "critical_w": 30,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:لَمَّا}} ({{tr:lammā}})",
+      "analysis_surface": "لَمَّا",
+      "analysis_surface_candidates": [
+        "لما"
+      ],
+      "ayah_ref": "61:6",
+      "surah": 61
+    },
+    {
+      "word_index": 23,
+      "critical_w": 31,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:جَاءَهُمْ}} ({{tr:jāʾahum}})",
+      "analysis_surface": "جَاءَهُمْ",
+      "analysis_surface_candidates": [
+        "جااهم",
+        "جاءهم",
+        "جاهم"
+      ],
+      "ayah_ref": "61:6",
+      "surah": 61
+    },
+    {
+      "word_index": 24,
+      "critical_w": 33,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:ٱلْبَيِّنَاتِ}} ({{tr:al-bayyināti}})",
+      "analysis_surface": "ٱلْبَيِّنَاتِ",
+      "analysis_surface_candidates": [
+        "البينات"
+      ],
+      "ayah_ref": "61:6",
+      "surah": 61
+    },
+    {
+      "word_index": 25,
+      "critical_w": 34,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:قَالُوا}} ({{tr:qālū}})",
+      "analysis_surface": "قَالُوا",
+      "analysis_surface_candidates": [
+        "قالوا"
+      ],
+      "ayah_ref": "61:6",
+      "surah": 61
+    },
+    {
+      "word_index": 26,
+      "critical_w": 35,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:هَذَا}} ({{tr:hādhā}})",
+      "analysis_surface": "هَذَا",
+      "analysis_surface_candidates": [
+        "هذا"
+      ],
+      "ayah_ref": "61:6",
+      "surah": 61
+    },
+    {
+      "word_index": 27,
+      "critical_w": 36,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:سِحْرٌ}} ({{tr:siḥrun}})",
+      "analysis_surface": "سِحْرٌ",
+      "analysis_surface_candidates": [
+        "سحر"
+      ],
+      "ayah_ref": "61:6",
+      "surah": 61
+    },
+    {
+      "word_index": 28,
+      "critical_w": 37,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:مُبِينٌ}} ({{tr:mubīnun}})",
+      "analysis_surface": "مُبِينٌ",
+      "analysis_surface_candidates": [
+        "مبين"
+      ],
+      "ayah_ref": "61:6",
+      "surah": 61
+    },
+    {
+      "word_index": 2,
+      "critical_w": 3,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:يُطْفِئُوا}} ({{tr:yuṭfiʾū}})",
+      "analysis_surface": "يُطْفِئُوا",
+      "analysis_surface_candidates": [
+        "يطفيوا"
+      ],
+      "ayah_ref": "61:8",
+      "surah": 61
+    },
+    {
+      "word_index": 6,
+      "critical_w": 7,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:وَتُجَٰهِدُونَ}} ({{tr:wa-tujāhidūna}})",
+      "analysis_surface": "وَتُجَٰهِدُونَ",
+      "analysis_surface_candidates": [
+        "وتجهدون",
+        "وتجاهدون"
+      ],
+      "ayah_ref": "61:11",
+      "surah": 61
+    },
+    {
+      "word_index": 16,
+      "critical_w": 17,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:ذَلِكَ}} ({{tr:dhālika}})",
+      "analysis_surface": "ذَلِكَ",
+      "analysis_surface_candidates": [
+        "ذلك"
+      ],
+      "ayah_ref": "61:12",
+      "surah": 61
+    },
+    {
+      "word_index": 14,
+      "critical_w": 15,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:لْحَوَارِيِّينَ}} ({{tr:l-ḥawāriyyīna}})",
+      "analysis_surface": "لْحَوَارِيِّينَ",
+      "analysis_surface_candidates": [
+        "لحواريين"
+      ],
+      "ayah_ref": "61:14",
+      "surah": 61
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "qac-masaq-surah-report-v1",
+  "status": "partial",
+  "coverage": {
+    "surah": 97,
+    "release": "2026.07.21",
+    "seedCrosswalk": {
+      "path": null,
+      "release": "2026.07.21",
+      "seedEntries": 0,
+      "applied": false,
+      "entriesApplied": 0
+    },
+    "wordAnalysisSource": "/Users/ahmetrasit/projects/quran-data/data/analysis/word-analysis/s097.jsonl.zst",
+    "qacSource": "/Users/ahmetrasit/projects/quran-data/data/morphology/qac.sqlite.gz",
+    "qacWordCount": 30,
+    "qacMorphemeCount": 45,
+    "analysisTokenCount": 33,
+    "morphemeSkipTotal": 1,
+    "morphemeSkipMax": 1,
+    "morphemeSkipHistogram": {
+      "0": 4,
+      "1": 1
+    },
+    "mappedQacWordCount": 30,
+    "mappedMorphemeCount": 44,
+    "mappedAnalysisCount": 33,
+    "unresolvedCount": 0,
+    "danglingAlignedQacRefs": [
+      "97:2:6->97:2:6",
+      "97:4:10->97:4:10",
+      "97:4:11->97:4:11"
+    ],
+    "unmappedQacWords": [],
+    "unmappedAnalysisCount": 0,
+    "coverageByMorphemesTsv": {
+      "present": true,
+      "path": "/Users/ahmetrasit/projects/quran-data/data/analysis/ayah-activation/v12-tr/s097/linguistic/morphemes.tsv",
+      "ayah_count": 5,
+      "row_count": 45,
+      "malformed_rows": 0,
+      "word_count": 5,
+      "dropped_preface_rows": 0
+    },
+    "inputSha256": {
+      "qac.sqlite.gz": "5935cebc46d6458f901a066fba999f926064b75c9ca615c94fd815949b1e6bea",
+      "word-analysis/s097.jsonl.zst": "c8752fd09e62bfe8456e8fc14901eceeb73c9d628580d2ad0b907add179161da",
+      "v12-tr/s097/linguistic/morphemes.tsv": "33ced13944c68651b22ff672558993bc56d2d5647b354856558d092391f2eecf"
+    },
+    "morphemeSkipWarnings": [
+      {
+        "ayah_ref": "97:1",
+        "surah": 97,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 4,
+          "1": 1
+        }
+      }
+    ]
+  },
+  "qa": {
+    "qacAyahCount": 5,
+    "wordAnalysisAyahCount": 5,
+    "morphemeAyahCount": 5,
+    "availableAyahs": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "unresolved": []
+}

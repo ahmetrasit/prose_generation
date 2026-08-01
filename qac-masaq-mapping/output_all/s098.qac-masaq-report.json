@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "qac-masaq-surah-report-v1",
+  "status": "partial",
+  "coverage": {
+    "surah": 98,
+    "release": "2026.07.21",
+    "seedCrosswalk": {
+      "path": null,
+      "release": "2026.07.21",
+      "seedEntries": 0,
+      "applied": false,
+      "entriesApplied": 0
+    },
+    "wordAnalysisSource": "/Users/ahmetrasit/projects/quran-data/data/analysis/word-analysis/s098.jsonl.zst",
+    "qacSource": "/Users/ahmetrasit/projects/quran-data/data/morphology/qac.sqlite.gz",
+    "qacWordCount": 94,
+    "qacMorphemeCount": 142,
+    "analysisTokenCount": 105,
+    "morphemeSkipTotal": 1,
+    "morphemeSkipMax": 1,
+    "morphemeSkipHistogram": {
+      "0": 4,
+      "1": 1
+    },
+    "mappedQacWordCount": 93,
+    "mappedMorphemeCount": 141,
+    "mappedAnalysisCount": 104,
+    "unresolvedCount": 1,
+    "danglingAlignedQacRefs": [
+      "98:1:13->98:1:13",
+      "98:4:12->98:4:12",
+      "98:5:17->98:5:17",
+      "98:5:18->98:5:18",
+      "98:5:19->98:5:19",
+      "98:5:20->98:5:20",
+      "98:5:21->98:5:21",
+      "98:6:17->98:6:17",
+      "98:7:10->98:7:10",
+      "98:8:22->98:8:22",
+      "98:8:23->98:8:23"
+    ],
+    "unmappedQacWords": [
+      "98:2:4"
+    ],
+    "unmappedAnalysisCount": 1,
+    "coverageByMorphemesTsv": {
+      "present": true,
+      "path": "/Users/ahmetrasit/projects/quran-data/data/analysis/ayah-activation/v12-tr/s098/linguistic/morphemes.tsv",
+      "ayah_count": 8,
+      "row_count": 142,
+      "malformed_rows": 0,
+      "word_count": 8,
+      "dropped_preface_rows": 0
+    },
+    "inputSha256": {
+      "qac.sqlite.gz": "5935cebc46d6458f901a066fba999f926064b75c9ca615c94fd815949b1e6bea",
+      "word-analysis/s098.jsonl.zst": "bf9180dd1f14b56be07213a7bc3bef94af7dd6d5b87cc4bd1cce9935d55ed387",
+      "v12-tr/s098/linguistic/morphemes.tsv": "69e4cea9667d87b7047c65e7cd2c286b0676d76d73b6dcd78bb4c5335acf6e35"
+    },
+    "morphemeSkipWarnings": [
+      {
+        "ayah_ref": "98:2",
+        "surah": 98,
+        "reason": "alignment used skip tolerance while resolving morpheme spans",
+        "morpheme_skip_total": 1,
+        "morpheme_skip_max": 1,
+        "morpheme_skip_histogram": {
+          "0": 4,
+          "1": 1
+        }
+      }
+    ]
+  },
+  "qa": {
+    "qacAyahCount": 8,
+    "wordAnalysisAyahCount": 8,
+    "morphemeAyahCount": 8,
+    "availableAyahs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "unresolved": [
+    {
+      "word_index": 3,
+      "critical_w": 4,
+      "reason": "surface mismatch: this critical word does not equal the next morpheme run from current position",
+      "surface_display": "{{ar:يَتْلُو}} ({{tr:yatlū}})",
+      "analysis_surface": "يَتْلُو",
+      "analysis_surface_candidates": [
+        "يتلو"
+      ],
+      "ayah_ref": "98:2",
+      "surah": 98
+    }
+  ]
+}
