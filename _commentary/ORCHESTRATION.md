@@ -487,6 +487,12 @@ edit them.
 | `{unit}.index.md` | one line per reading the prose carries — `` - `<ref>` — <clause> `` — with `[inference]` on the writer's own readings; plus one `surprise:<id>` synthesis row per earned local surprise, marked `[supports-primary]` or `[shifts-primary]`. Checked by `scripts/check_index.py` |
 | `{unit}.friction.md` | every point where the instructions were ambiguous, contradictory, unsatisfiable, or silent |
 
+For the active Turkish reader-facing lane, use the language-labelled filenames
+already established in completed surahs: `{unit}.prose.tr.md`,
+`{unit}.evidence.tr.md`, `{unit}.index.tr.md`, and `{unit}.friction.tr.md`.
+The prompt profile remains recorded in the input prompt/manifest; it is not
+duplicated in the active output filename.
+
 For comparative runs, append a stable agent label before `.md`, for example
 `100_1.prose.5.6-sol-high.md`. The label records the model/run class; it does
 not change the content contract.
@@ -566,7 +572,7 @@ Current S100 ayah pilot default:
 model: gpt-5.6-sol
 reasoning_effort: max
 prompt_profile: v2.5.6-sol-high
-output_label: v2.5.6-sol-high
+output_label: tr
 per_ayah_focus_runs: retired
 ```
 
